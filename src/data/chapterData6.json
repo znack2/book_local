@@ -22,7 +22,7 @@
       "id": "1",
       "sender": "Michelle Rodriguez",
       "date": "1 week ago",
-      "avatar": "chapters/chapter-6.png",
+      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-6.png",
       "subject": "Sales Funnel Blueprint: From Lead to Customer in 7 Steps",
       "preview": "Dear Sales Professional, discover the exact 7-step blueprint that converts cold leads into paying customers with our proven funnel optimization strategies...",
       "signature": {

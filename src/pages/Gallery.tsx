@@ -5,7 +5,6 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
 import { Table, Lock } from "lucide-react";
-import { TwicImg } from '@twicpics/components/react';
 import GalleryModal from "@/components/GalleryModal";
 import PageLayout from "@/components/PageLayout";
 import ChapterCard from "@/components/ChapterCard";
@@ -235,7 +234,7 @@ const Gallery = () => {
                                 {item.emailCount.toLocaleString()} emails
                               </div>
                               <div className="w-6 h-6 md:w-8 md:h-8 rounded-full bg-amber-200 flex items-center justify-center overflow-hidden">
-                                <TwicImg domain="bookgoglobal.twic.pics" src={`chapters/chapter-${item.id}.png`} alt="Chapter image" className="w-full h-full object-cover" />
+                                <img src={`https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-${item.id}.png`} alt="Chapter image" className="w-full h-full object-cover" />
                               </div>
                             </div>
                           </div>

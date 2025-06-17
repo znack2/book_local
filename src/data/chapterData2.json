@@ -22,7 +22,7 @@
       "id": "1",
       "sender": "Emily Rodriguez",
       "date": "3 days ago",
-      "avatar": "chapters/chapter-2.png",
+      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-2.png",
       "subject": "Limited Time Offer: 50% Off Premium Features - Act Fast!",
       "preview": "Dear Valued Customer, we're excited to offer you an exclusive limited-time discount on our premium features that will revolutionize how you manage your business operations. This special offer is available for the next 48 hours only and includes access to advanced analytics, priority support, and premium integrations...",
       "signature": {

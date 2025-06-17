@@ -22,7 +22,7 @@
       "id": "1",
       "sender": "Lisa Wang",
       "date": "4 hours ago",
-      "avatar": "chapters/chapter-4.png",
+      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-4.png",
       "subject": "Automated Marketing Sequences That Convert 40% Better",
       "preview": "Hi Marketing Professional, discover the power of intelligent automation sequences that adapt to customer behavior and drive unprecedented conversion rates...",
       "signature": {

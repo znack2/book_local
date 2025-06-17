@@ -22,7 +22,7 @@
       "id": "1",
       "sender": "Mark Davis",
       "date": "5 days ago",
-      "avatar": "chapters/chapter-4.png",
+      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-4.png",
       "subject": "Cybersecurity Framework: Protect Your Business from Digital Threats",
       "preview": "Dear Security Professional, cyber threats are evolving rapidly, requiring comprehensive protection strategies. Learn how to build robust security frameworks...",
       "signature": {

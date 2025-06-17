@@ -8,7 +8,6 @@ import { useAuth } from "@/contexts/AuthContext";
 import HelpModal from "./HelpModal";
 import BookmarkIcon from "./BookmarkIcon";
 import galleryData from '../data/galleryData.json';
-import { TwicImg } from '@twicpics/components/react';
 
 
 interface SidebarProps {
@@ -189,7 +188,7 @@ const Sidebar = ({
                       
                       <div className="flex-1 flex flex-col">
                         <div className="mb-2">
-                          <div className="w-8 h-8 rounded object-cover" dangerouslySetInnerHTML={{ __html: firstBook.logo }} />
+                        <img src={firstBook.logo} alt="Chapter logo" className="w-8 h-8 rounded object-cover" />
                         </div>
                         <div className="text-gray-700 text-xs font-bold mb-1">Chapter {firstBook.id}</div>
                         <h3 className="text-sm font-bold text-gray-900 mb-2 leading-tight">
@@ -204,7 +203,7 @@ const Sidebar = ({
                             {hasFirstBookContent ? 'In Progress' : 'Available'}
                           </div>
                           <div className="w-6 h-6 rounded-full bg-amber-200 flex items-center justify-center overflow-hidden">
-                            <TwicImg domain="bookgoglobal.twic.pics" src={`/logos/logo-${firstBook.id}.png`} alt="Chapter logo" className="w-full h-full object-cover" />
+                            <img src={`https://raw.githubusercontent.com/znack2/book_local/main/docs/logos/logo-${firstBook.id}.png`} alt="Chapter logo" className="w-full h-full object-cover" />
                           </div>
                         </div>
                       </div>

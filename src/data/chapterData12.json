@@ -22,7 +22,7 @@
       "id": "1",
       "sender": "James Wilson",
       "date": "3 days ago",
-      "avatar": "chapters/chapter-2.png",
+      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-2.png",
       "subject": "Supply Chain Optimization: Reduce Costs and Improve Efficiency",
       "preview": "Dear Operations Manager, optimizing your supply chain can significantly reduce costs while improving customer satisfaction. Learn proven strategies for logistics excellence...",
       "signature": {

@@ -5,7 +5,6 @@ import { Button } from '@/components/ui/button';
 import { ArrowLeft, LogOut } from 'lucide-react';
 import BookmarkIcon from './BookmarkIcon';
 import { useAuth } from '@/contexts/AuthContext';
-import { TwicImg } from '@twicpics/components/react';
 
 interface HeaderProps {
   id: number;
@@ -44,7 +43,7 @@ const Header = ({ id, title, subtitle, children, showBackButton = false, showLog
           </Link>
         )}
         <div className="w-9 h-9 rounded-lg overflow-hidden border-2" style={{ borderColor: 'rgba(139, 125, 107, 0.2)' }}>
-           <TwicImg domain="bookgoglobal.twic.pics" src={`/chapters/chapter-${id}.png`} alt="Chapter image" className="w-full h-full object-cover" />
+           <img src={`https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-${id}.png`} alt="Chapter image" className="w-full h-full object-cover" />
         </div>
         <div className="flex items-center gap-2">
           <div>

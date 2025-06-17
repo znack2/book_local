@@ -3,7 +3,6 @@ import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Eye, EyeOff } from 'lucide-react';
 import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
-import { TwicImg } from '@twicpics/components/react';
 import chapterData1 from '../data/chapterData1.json';
 import chapterData2 from '../data/chapterData2.json';
 import chapterData3 from '../data/chapterData3.json';
@@ -89,7 +88,7 @@ const EmailColumn: React.FC<EmailColumnProps> = ({
       
       // Generate avatar with Twicpics from local folder
       const avatarIndex = ((chapterNum - 21) % 10) + 1;
-      const avatarUrl = `chapters/chapter-${avatarIndex}.png?twic=v1/resize=40x40/cover`;
+      const avatarUrl = `https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-${avatarIndex}.png?twic=v1/resize=40x40/cover`;
       
       baseData = {
         ...baseData,
@@ -123,7 +122,7 @@ const EmailColumn: React.FC<EmailColumnProps> = ({
         ...baseData,
         emails: baseData.emails.map((email: any, index: number) => ({
           ...email,
-          avatar: `chapters/chapter-${((parseInt(chapterId) - 1 + index) % 10) + 1}.png?twic=v1/resize=40x40/cover`
+          avatar: `https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-${((parseInt(chapterId) - 1 + index) % 10) + 1}.png?twic=v1/resize=40x40/cover`
         }))
       };
     }
@@ -184,8 +183,8 @@ const EmailColumn: React.FC<EmailColumnProps> = ({
                   >
                     <div className="flex items-center gap-3 mb-3">
                       <Avatar className="w-8 h-8">
-                        <TwicImg 
-                          src={`/chapters/chapter-${((parseInt(chapterId) - 1 + index) % 10) + 1}.png`}
+                        <img 
+                          src={`https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-${chapterId}.png`}
                           className="aspect-square h-full w-full rounded-full object-cover"
                         />
                         <AvatarFallback className="text-xs bg-amber-200 text-amber-800">

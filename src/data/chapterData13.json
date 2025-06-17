@@ -22,7 +22,7 @@
       "id": "1",
       "sender": "Sarah Kim",
       "date": "2 days ago",
-      "avatar": "chapters/chapter-3.png",
+      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-3.png",
       "subject": "Data Analytics Mastery: Turn Data into Competitive Advantage",
       "preview": "Dear Data Professional, transforming raw data into actionable insights is the key to staying competitive in today's market. Discover advanced analytics techniques...",
       "signature": {

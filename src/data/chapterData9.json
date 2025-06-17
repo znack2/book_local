@@ -22,7 +22,7 @@
       "id": "1",
       "sender": "Jessica Park",
       "date": "6 days ago",
-      "avatar": "chapters/chapter-9.png",
+      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-9.png",
       "subject": "Digital Transformation Roadmap: From Legacy to Leading Edge",
       "preview": "Dear Technology Leader, digital transformation is more than just adopting new tools—it's about fundamentally changing how your organization operates and delivers value...",
       "signature": {

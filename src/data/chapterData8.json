@@ -22,7 +22,7 @@
       "id": "1",
       "sender": "Sophie Brown",
       "date": "5 days ago",
-      "avatar": "chapters/chapter-8.png",
+      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-8.png",
       "subject": "Social Media Automation That Feels Personal and Authentic",
       "preview": "Hi Social Media Manager, discover how to scale your social presence with smart automation while maintaining the personal touch that builds loyal communities...",
       "signature": {

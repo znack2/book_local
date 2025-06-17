@@ -22,7 +22,7 @@
       "id": "1",
       "sender": "Jennifer Lee",
       "date": "5 days ago",
-      "avatar": "chapters/chapter-10.png",
+      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-10.png",
       "subject": "Quality Assurance Mastery: Build Excellence into Every Process",
       "preview": "Dear Quality Leader, implementing robust quality systems drives customer satisfaction and operational efficiency. Discover proven methodologies...",
       "signature": {

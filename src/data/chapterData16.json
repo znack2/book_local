@@ -22,7 +22,7 @@
       "id": "1",
       "sender": "Robert Taylor",
       "date": "4 days ago",
-      "avatar": "chapters/chapter-6.png",
+      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-6.png",
       "subject": "Customer Experience Excellence: Create Loyal Brand Advocates",
       "preview": "Dear CX Professional, delivering exceptional customer experiences requires understanding every touchpoint in the customer journey...",
       "signature": {

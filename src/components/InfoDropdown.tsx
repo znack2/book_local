@@ -1,7 +1,6 @@
 
 import React, { useState, useRef, useEffect } from 'react';
 import { Info } from 'lucide-react';
-import { TwicImg } from '@twicpics/components/react';
 
 const InfoDropdown: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -62,7 +61,7 @@ const InfoDropdown: React.FC = () => {
             </div>
             
             <div className="w-full mb-3 rounded-lg overflow-hidden">
-              <TwicImg domain="bookgoglobal.twic.pics" src={`data/data_${id}.png`} alt="Analytics Dashboard" className="w-full h-full object-cover" />
+              <img src={`data/data_${id}.png`} alt="Analytics Dashboard" className="w-full h-full object-cover" />
             </div>
             
             <div className="flex gap-4 mb-3">
