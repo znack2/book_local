@@ -1,0 +1,41 @@
+
+{
+  "emailColumn": {
+    "title": "Email Templates - Chapter 18",
+    "authorInfo": {
+      "title": "About the Author",
+      "description": "Dr. Kevin Park specializes in strategic partnerships and alliance management with expertise in joint ventures and ecosystem development."
+    },
+    "materialsUsed": [
+      "Dyer, J. (2011). The Innovator's DNA. Harvard Business Review Press.",
+      "Gomes-Casseres, B. (1996). The Alliance Revolution. Harvard University Press.",
+      "Harbison, J. (1998). Smart Alliances. Jossey-Bass.",
+      "Strategic Management Journal (2023). \"Digital Ecosystem Partnerships\" - Alliance Strategy Review."
+    ],
+    "keyTakeaways": {
+      "title": "Key Takeaways",
+      "description": "Strategic partnerships accelerate growth and innovation. Focus on complementary capabilities and shared value creation for successful alliances."
+    }
+  },
+  "emails": [
+    {
+      "id": "1",
+      "sender": "Kevin Park",
+      "date": "2 weeks ago",
+      "avatar": "chapters/chapter-8.png",
+      "subject": "Strategic Partnerships: Accelerate Growth Through Smart Alliances",
+      "preview": "Dear Partnership Leader, building strategic alliances can exponentially increase your market reach and capabilities...",
+      "signature": {
+        "name": "Kevin Park",
+        "title": "Partnership Strategy Director",
+        "company": "AllianceMax Consulting"
+      },
+      "meta": "Template • Partnerships",
+      "likes": 71,
+      "highlight": {
+        "title": "Alliance Development Framework",
+        "description": "Strategic partnership methodology with ecosystem mapping and joint value creation models"
+      }
+    }
+  ]
+}

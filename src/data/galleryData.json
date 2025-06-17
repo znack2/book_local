@@ -1,0 +1,416 @@
+
+{
+  "limitedAccessMessage": "Limited Access: Only Chapter 1 is available. Contact administrator for full access.",
+  "books": [
+    {
+      "id": 1,
+      "title": "Getting Started with Email Marketing",
+      "preview": "Learn the fundamentals of email marketing, from building your first list to creating compelling campaigns that convert.",
+      "logo": "logos/logo-1.png",
+      "image": "chapters/chapter-1.png",
+      "category": "Marketing",
+      "tags": ["Beginner", "Marketing", "Email"],
+      "emailCount": 1250
+    },
+    {
+      "id": 2,
+      "title": "Advanced Segmentation Strategies",
+      "preview": "Master the art of audience segmentation to deliver personalized content that resonates with each subscriber.",
+      "logo": "logos/logo-2.png",
+      "image": "chapters/chapter-2.png",
+      "category": "Strategy",
+      "tags": ["Advanced", "Segmentation", "Analytics"],
+      "emailCount": 890
+    },
+    {
+      "id": 3,
+      "title": "A/B Testing Your Way to Success",
+      "preview": "Discover proven methodologies for testing email campaigns and optimizing performance metrics.",
+      "logo": "logos/logo-3.png",
+      "image": "chapters/chapter-3.png",
+      "category": "Analytics",
+      "tags": ["Testing", "Optimization", "Data"],
+      "emailCount": 567
+    },
+    {
+      "id": 4,
+      "title": "Mobile-First Email Design",
+      "preview": "Create responsive email templates that look perfect on any device and drive engagement.",
+      "logo": "logos/logo-4.png",
+      "image": "chapters/chapter-4.png",
+      "category": "Design",
+      "tags": ["Mobile", "Design", "Responsive"],
+      "emailCount": 734
+    },
+    {
+      "id": 5,
+      "title": "Email Automation Workflows",
+      "preview": "Build sophisticated automated email sequences that nurture leads and increase conversions.",
+      "logo": "logos/logo-5.png",
+      "image": "chapters/chapter-5.png",
+      "category": "Automation",
+      "tags": ["Automation", "Workflows", "Advanced"],
+      "emailCount": 892
+    },
+    {
+      "id": 6,
+      "title": "Personalization at Scale",
+      "preview": "Learn how to create personalized email experiences for thousands of subscribers.",
+      "logo": "logos/logo-6.png",
+      "image": "chapters/chapter-6.png",
+      "category": "Personalization",
+      "tags": ["Personalization", "Scale", "Advanced"],
+      "emailCount": 456
+    },
+    {
+      "id": 7,
+      "title": "Email Deliverability Best Practices",
+      "preview": "Ensure your emails reach the inbox with proven deliverability strategies and techniques.",
+      "logo": "logos/logo-7.png",
+      "image": "chapters/chapter-7.png",
+      "category": "Deliverability",
+      "tags": ["Deliverability", "Technical", "Best Practices"],
+      "emailCount": 678
+    },
+    {
+      "id": 8,
+      "title": "E-commerce Email Marketing",
+      "preview": "Maximize revenue with targeted email campaigns for online stores and e-commerce platforms.",
+      "logo": "logos/logo-8.png",
+      "image": "chapters/chapter-8.png",
+      "category": "E-commerce",
+      "tags": ["E-commerce", "Revenue", "Sales"],
+      "emailCount": 923
+    },
+    {
+      "id": 9,
+      "title": "Subject Line Optimization",
+      "preview": "Craft compelling subject lines that increase open rates and drive engagement.",
+      "logo": "logos/logo-9.png",
+      "image": "chapters/chapter-9.png",
+      "category": "Optimization",
+      "tags": ["Subject Lines", "Open Rates", "Optimization"],
+      "emailCount": 345
+    },
+    {
+      "id": 10,
+      "title": "Email Analytics and Metrics",
+      "preview": "Track, measure, and analyze your email performance with key metrics and KPIs.",
+      "logo": "logos/logo-10.png",
+      "image": "chapters/chapter-10.png",
+      "category": "Analytics",
+      "tags": ["Analytics", "Metrics", "Performance"],
+      "emailCount": 567
+    },
+    {
+      "id": 11,
+      "title": "Newsletter Design Fundamentals",
+      "preview": "Create beautiful and engaging newsletters that keep subscribers coming back for more.",
+      "logo": "logos/logo-11.png",
+      "image": "chapters/chapter-11.png",
+      "category": "Design",
+      "tags": ["Newsletter", "Design", "Engagement"],
+      "emailCount": 789
+    },
+    {
+      "id": 12,
+      "title": "Customer Lifecycle Marketing",
+      "preview": "Develop email strategies that support customers throughout their entire journey.",
+      "logo": "logos/logo-12.png",
+      "image": "chapters/chapter-12.png",
+      "category": "Strategy",
+      "tags": ["Lifecycle", "Customer Journey", "Strategy"],
+      "emailCount": 654
+    },
+    {
+      "id": 13,
+      "title": "Email List Building Tactics",
+      "preview": "Proven strategies to grow your email list with high-quality, engaged subscribers.",
+      "logo": "logos/logo-13.png",
+      "image": "chapters/chapter-13.png",
+      "category": "Growth",
+      "tags": ["List Building", "Growth", "Subscribers"],
+      "emailCount": 432
+    },
+    {
+      "id": 14,
+      "title": "Transactional Email Excellence",
+      "preview": "Optimize transactional emails to enhance customer experience and drive additional value.",
+      "logo": "logos/logo-14.png",
+      "image": "chapters/chapter-14.png",
+      "category": "Transactional",
+      "tags": ["Transactional", "Customer Experience", "Value"],
+      "emailCount": 321
+    },
+    {
+      "id": 15,
+      "title": "Email Campaign Planning",
+      "preview": "Strategic planning techniques for successful email marketing campaigns from start to finish.",
+      "logo": "logos/logo-15.png",
+      "image": "chapters/chapter-15.png",
+      "category": "Planning",
+      "tags": ["Planning", "Strategy", "Campaigns"],
+      "emailCount": 876
+    },
+    {
+      "id": 16,
+      "title": "Social Media Integration",
+      "preview": "Seamlessly integrate email marketing with social media for maximum reach and engagement.",
+      "logo": "logos/logo-16.png",
+      "image": "chapters/chapter-16.png",
+      "category": "Integration",
+      "tags": ["Social Media", "Integration", "Multi-channel"],
+      "emailCount": 543
+    },
+    {
+      "id": 17,
+      "title": "Content Marketing via Email",
+      "preview": "Leverage content marketing strategies to provide value and build relationships through email.",
+      "logo": "logos/logo-17.png",
+      "image": "chapters/chapter-17.png",
+      "category": "Content",
+      "tags": ["Content Marketing", "Value", "Relationships"],
+      "emailCount": 765
+    },
+    {
+      "id": 18,
+      "title": "Email Security and Compliance",
+      "preview": "Navigate email security requirements and compliance regulations like GDPR and CAN-SPAM.",
+      "logo": "logos/logo-18.png",
+      "image": "chapters/chapter-18.png",
+      "category": "Compliance",
+      "tags": ["Security", "Compliance", "GDPR"],
+      "emailCount": 298
+    },
+    {
+      "id": 19,
+      "title": "Lead Nurturing Sequences",
+      "preview": "Design effective lead nurturing email sequences that convert prospects into customers.",
+      "logo": "logos/logo-19.png",
+      "image": "chapters/chapter-19.png",
+      "category": "Lead Nurturing",
+      "tags": ["Lead Nurturing", "Conversion", "Sequences"],
+      "emailCount": 687
+    },
+    {
+      "id": 20,
+      "title": "Email Design Psychology",
+      "preview": "Apply psychological principles to email design for better engagement and conversion rates.",
+      "logo": "logos/logo-20.png",
+      "image": "chapters/chapter-20.png",
+      "category": "Psychology",
+      "tags": ["Psychology", "Design", "Conversion"],
+      "emailCount": 456
+    },
+    {
+      "id": 21,
+      "title": "International Email Marketing",
+      "preview": "Adapt your email marketing strategies for global audiences and international markets.",
+      "logo": "logos/logo-21.png",
+      "image": "chapters/chapter-21.png",
+      "category": "International",
+      "tags": ["International", "Global", "Localization"],
+      "emailCount": 354
+    },
+    {
+      "id": 22,
+      "title": "Email Marketing Tools Mastery",
+      "preview": "Master popular email marketing platforms and tools to maximize your campaign effectiveness.",
+      "logo": "logos/logo-22.png",
+      "image": "chapters/chapter-22.png",
+      "category": "Tools",
+      "tags": ["Tools", "Platforms", "Mastery"],
+      "emailCount": 543
+    },
+    {
+      "id": 23,
+      "title": "Behavioral Email Triggers",
+      "preview": "Set up behavioral triggers that send the right message at the perfect moment.",
+      "logo": "logos/logo-23.png",
+      "image": "chapters/chapter-23.png",
+      "category": "Automation",
+      "tags": ["Behavioral", "Triggers", "Timing"],
+      "emailCount": 432
+    },
+    {
+      "id": 24,
+      "title": "Email Copywriting Mastery",
+      "preview": "Write compelling email copy that persuades, engages, and drives action from your subscribers.",
+      "logo": "logos/logo-24.png",
+      "image": "chapters/chapter-24.png",
+      "category": "Copywriting",
+      "tags": ["Copywriting", "Persuasion", "Engagement"],
+      "emailCount": 765
+    },
+    {
+      "id": 25,
+      "title": "Customer Retention Emails",
+      "preview": "Keep customers engaged and loyal with strategic retention email campaigns.",
+      "logo": "logos/logo-25.png",
+      "image": "chapters/chapter-25.png",
+      "category": "Retention",
+      "tags": ["Retention", "Loyalty", "Engagement"],
+      "emailCount": 654
+    },
+    {
+      "id": 26,
+      "title": "Email Frequency Optimization",
+      "preview": "Find the perfect email sending frequency to maximize engagement without overwhelming subscribers.",
+      "logo": "logos/logo-26.png",
+      "image": "chapters/chapter-26.png",
+      "category": "Optimization",
+      "tags": ["Frequency", "Timing", "Optimization"],
+      "emailCount": 398
+    },
+    {
+      "id": 27,
+      "title": "Video Email Marketing",
+      "preview": "Incorporate video content into your email campaigns for higher engagement and click-through rates.",
+      "logo": "logos/logo-27.png",
+      "image": "chapters/chapter-27.png",
+      "category": "Video",
+      "tags": ["Video", "Multimedia", "Engagement"],
+      "emailCount": 487
+    },
+    {
+      "id": 28,
+      "title": "Email Template Development",
+      "preview": "Build responsive, reusable email templates that maintain consistency across all campaigns.",
+      "logo": "logos/logo-28.png",
+      "image": "chapters/chapter-28.png",
+      "category": "Development",
+      "tags": ["Templates", "Development", "Consistency"],
+      "emailCount": 576
+    },
+    {
+      "id": 29,
+      "title": "Email Marketing ROI Tracking",
+      "preview": "Measure and optimize your email marketing return on investment with advanced tracking techniques.",
+      "logo": "logos/logo-29.png",
+      "image": "chapters/chapter-29.png",
+      "category": "ROI",
+      "tags": ["ROI", "Tracking", "Measurement"],
+      "emailCount": 432
+    },
+    {
+      "id": 30,
+      "title": "Welcome Email Series",
+      "preview": "Create memorable welcome email series that make great first impressions and set expectations.",
+      "logo": "logos/logo-30.png",
+      "image": "chapters/chapter-30.png",
+      "category": "Onboarding",
+      "tags": ["Welcome", "Onboarding", "First Impression"],
+      "emailCount": 698
+    },
+    {
+      "id": 31,
+      "title": "Holiday Email Campaigns",
+      "preview": "Plan and execute seasonal and holiday email campaigns that drive sales and engagement.",
+      "logo": "logos/logo-31.png",
+      "image": "chapters/chapter-31.png",
+      "category": "Seasonal",
+      "tags": ["Holiday", "Seasonal", "Sales"],
+      "emailCount": 543
+    },
+    {
+      "id": 32,
+      "title": "B2B Email Strategies",
+      "preview": "Develop effective email marketing strategies specifically tailored for B2B audiences and longer sales cycles.",
+      "logo": "logos/logo-32.png",
+      "image": "chapters/chapter-32.png",
+      "category": "B2B",
+      "tags": ["B2B", "Enterprise", "Sales Cycle"],
+      "emailCount": 421
+    },
+    {
+      "id": 33,
+      "title": "Email Accessibility Guidelines",
+      "preview": "Ensure your emails are accessible to all users, including those with disabilities.",
+      "logo": "logos/logo-33.png",
+      "image": "chapters/chapter-33.png",
+      "category": "Accessibility",
+      "tags": ["Accessibility", "Inclusive", "Guidelines"],
+      "emailCount": 267
+    },
+    {
+      "id": 34,
+      "title": "Email Marketing Automation Flows",
+      "preview": "Build sophisticated automation flows that nurture leads and customers automatically.",
+      "logo": "logos/logo-34.png",
+      "image": "chapters/chapter-34.png",
+      "category": "Automation",
+      "tags": ["Automation", "Flows", "Nurturing"],
+      "emailCount": 612
+    },
+    {
+      "id": 35,
+      "title": "Dynamic Content Personalization",
+      "preview": "Use dynamic content to create highly personalized email experiences for each subscriber.",
+      "logo": "logos/logo-35.png",
+      "image": "chapters/chapter-35.png",
+      "category": "Personalization",
+      "tags": ["Dynamic", "Personalization", "Content"],
+      "emailCount": 489
+    },
+    {
+      "id": 36,
+      "title": "Email Client Compatibility",
+      "preview": "Ensure your emails render perfectly across all major email clients and platforms.",
+      "logo": "logos/logo-36.png",
+      "image": "chapters/chapter-36.png",
+      "category": "Compatibility",
+      "tags": ["Compatibility", "Email Clients", "Rendering"],
+      "emailCount": 356
+    },
+    {
+      "id": 37,
+      "title": "Customer Feedback Surveys",
+      "preview": "Gather valuable customer insights through well-designed email survey campaigns.",
+      "logo": "logos/logo-37.png",
+      "image": "chapters/chapter-37.png",
+      "category": "Surveys",
+      "tags": ["Surveys", "Feedback", "Insights"],
+      "emailCount": 278
+    },
+    {
+      "id": 38,
+      "title": "Email Marketing Metrics Deep Dive",
+      "preview": "Master advanced email metrics and analytics to optimize campaign performance continuously.",
+      "logo": "logos/logo-38.png",
+      "image": "chapters/chapter-38.png",
+      "category": "Analytics",
+      "tags": ["Metrics", "Analytics", "Performance"],
+      "emailCount": 445
+    },
+    {
+      "id": 39,
+      "title": "Re-engagement Campaigns",
+      "preview": "Win back inactive subscribers with strategic re-engagement email campaigns.",
+      "logo": "logos/logo-39.png",
+      "image": "chapters/chapter-39.png",
+      "category": "Re-engagement",
+      "tags": ["Re-engagement", "Win-back", "Inactive"],
+      "emailCount": 334
+    },
+    {
+      "id": 40,
+      "title": "Email Marketing Budget Planning",
+      "preview": "Plan and allocate your email marketing budget for maximum return on investment.",
+      "logo": "logos/logo-40.png",
+      "image": "chapters/chapter-40.png",
+      "category": "Budget",
+      "tags": ["Budget", "Planning", "ROI"],
+      "emailCount": 212
+    },
+    {
+      "id": 41,
+      "title": "Crisis Communication Emails",
+      "preview": "Handle crisis situations with clear, timely, and effective email communications.",
+      "logo": "logos/logo-41.png",
+      "image": "chapters/chapter-41.png",
+      "category": "Crisis",
+      "tags": ["Crisis", "Communication", "Emergency"],
+      "emailCount": 189
+    }
+  ]
+}

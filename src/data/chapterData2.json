@@ -1,0 +1,41 @@
+
+{
+  "emailColumn": {
+    "title": "Email Templates - Chapter 2",
+    "authorInfo": {
+      "title": "About the Author",
+      "description": "Prof. Marcus Williams specializes in customer acquisition and retention strategies with expertise in email marketing automation and conversion optimization."
+    },
+    "materialsUsed": [
+      "Kotler, P. & Keller, K. (2016). Marketing Management. Pearson Education.",
+      "Cialdini, R. (2006). Influence: The Psychology of Persuasion. Harper Business.",
+      "Heath, C. & Heath, D. (2007). Made to Stick. Random House.",
+      "Journal of Marketing Research (2020). \"Email Marketing in the Digital Age\" - Customer Engagement Quarterly."
+    ],
+    "keyTakeaways": {
+      "title": "Key Takeaways",
+      "description": "Effective email marketing requires understanding customer psychology and creating compelling narratives that drive action. Focus on personalization, timing, and clear value propositions to maximize engagement rates."
+    }
+  },
+  "emails": [
+    {
+      "id": "1",
+      "sender": "Emily Rodriguez",
+      "date": "3 days ago",
+      "avatar": "chapters/chapter-2.png",
+      "subject": "Limited Time Offer: 50% Off Premium Features - Act Fast!",
+      "preview": "Dear Valued Customer, we're excited to offer you an exclusive limited-time discount on our premium features that will revolutionize how you manage your business operations. This special offer is available for the next 48 hours only and includes access to advanced analytics, priority support, and premium integrations...",
+      "signature": {
+        "name": "Emily Rodriguez",
+        "title": "Sales Director",
+        "company": "BusinessPro Solutions"
+      },
+      "meta": "Template • Promotional",
+      "likes": 18,
+      "highlight": {
+        "title": "Urgency & Scarcity Marketing",
+        "description": "Strategic use of time-limited offers and exclusive access to drive immediate action and increase conversion rates"
+      }
+    }
+  ]
+}

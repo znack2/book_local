@@ -1,0 +1,41 @@
+
+{
+  "emailColumn": {
+    "title": "Email Templates - Chapter 7",
+    "authorInfo": {
+      "title": "About the Author",
+      "description": "David Kim is a content marketing strategist with expertise in storytelling, brand voice development, and multi-platform content distribution."
+    },
+    "materialsUsed": [
+      "Pulizzi, J. (2014). Epic Content Marketing. McGraw-Hill.",
+      "Handley, A. (2017). Everybody Writes. Wiley.",
+      "Rose, R. (2011). Managing Content Marketing. CMI Press.",
+      "Content Marketing Institute (2023). \"Storytelling in Digital Age\" - Content Strategy Review."
+    ],
+    "keyTakeaways": {
+      "title": "Key Takeaways",
+      "description": "Effective content marketing builds trust and authority through valuable, consistent storytelling. Focus on audience needs and create content that educates, entertains, or inspires action."
+    }
+  },
+  "emails": [
+    {
+      "id": "1",
+      "sender": "David Kim",
+      "date": "3 days ago",
+      "avatar": "chapters/chapter-7.png",
+      "subject": "Content Strategy That Builds Authority and Drives Sales",
+      "preview": "Dear Content Creator, learn how to develop a content strategy that positions you as an industry authority while systematically nurturing prospects into customers...",
+      "signature": {
+        "name": "David Kim",
+        "title": "Content Marketing Strategist",
+        "company": "StoryDriven Marketing"
+      },
+      "meta": "Template • Content",
+      "likes": 54,
+      "highlight": {
+        "title": "Authority Building Framework",
+        "description": "Complete content strategy with editorial calendars, distribution channels, and performance metrics"
+      }
+    }
+  ]
+}

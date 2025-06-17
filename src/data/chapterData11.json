@@ -1,0 +1,41 @@
+
+{
+  "emailColumn": {
+    "title": "Email Templates - Chapter 11",
+    "authorInfo": {
+      "title": "About the Author",
+      "description": "Rachel Thompson is a human resources expert specializing in talent acquisition, employee engagement, and organizational culture development."
+    },
+    "materialsUsed": [
+      "Ulrich, D. (2013). HR Champions. Harvard Business Press.",
+      "Pink, D. (2009). Drive: The Surprising Truth About What Motivates Us. Riverhead Books.",
+      "Buckingham, M. (2001). First, Break All the Rules. Gallup Press.",
+      "Harvard Business Review (2022). \"Future of Work\" - Human Resources Management Journal."
+    ],
+    "keyTakeaways": {
+      "title": "Key Takeaways",
+      "description": "Building a strong organizational culture requires intentional effort in recruitment, development, and retention. Focus on employee engagement and continuous feedback."
+    }
+  },
+  "emails": [
+    {
+      "id": "1",
+      "sender": "Rachel Thompson",
+      "date": "4 days ago",
+      "avatar": "chapters/chapter-1.png",
+      "subject": "Building High-Performance Teams: Talent Strategy That Works",
+      "preview": "Dear HR Professional, creating high-performance teams starts with strategic talent acquisition and continues with purposeful development programs...",
+      "signature": {
+        "name": "Rachel Thompson",
+        "title": "HR Strategy Consultant",
+        "company": "TalentFirst Solutions"
+      },
+      "meta": "Template • HR",
+      "likes": 47,
+      "highlight": {
+        "title": "Talent Development Framework",
+        "description": "Strategic approach to hiring, developing, and retaining top talent with performance management systems"
+      }
+    }
+  ]
+}

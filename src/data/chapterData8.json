@@ -1,0 +1,41 @@
+
+{
+  "emailColumn": {
+    "title": "Email Templates - Chapter 8",
+    "authorInfo": {
+      "title": "About the Author",
+      "description": "Sophie Brown specializes in social media automation and community management with focus on engagement optimization and viral content creation."
+    },
+    "materialsUsed": [
+      "Vaynerchuk, G. (2018). Crushing It!. Harper Business.",
+      "Schaefer, M. (2014). Social Media Explained. Mark W Schaefer.",
+      "Miller, M. (2019). The Ultimate Web Marketing Guide. Que Publishing.",
+      "Social Media Today (2023). \"Automation vs Authenticity\" - Digital Engagement Quarterly."
+    ],
+    "keyTakeaways": {
+      "title": "Key Takeaways",
+      "description": "Social media automation should enhance, not replace, authentic human connection. Balance efficiency with genuine engagement to build meaningful communities."
+    }
+  },
+  "emails": [
+    {
+      "id": "1",
+      "sender": "Sophie Brown",
+      "date": "5 days ago",
+      "avatar": "chapters/chapter-8.png",
+      "subject": "Social Media Automation That Feels Personal and Authentic",
+      "preview": "Hi Social Media Manager, discover how to scale your social presence with smart automation while maintaining the personal touch that builds loyal communities...",
+      "signature": {
+        "name": "Sophie Brown",
+        "title": "Social Media Automation Expert",
+        "company": "EngageFlow Systems"
+      },
+      "meta": "Template • Social Media",
+      "likes": 41,
+      "highlight": {
+        "title": "Authentic Automation",
+        "description": "Smart automation tools with personality preservation and community engagement strategies"
+      }
+    }
+  ]
+}

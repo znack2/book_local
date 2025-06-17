@@ -1,0 +1,41 @@
+
+{
+  "emailColumn": {
+    "title": "Email Templates - Chapter 19",
+    "authorInfo": {
+      "title": "About the Author",
+      "description": "Dr. Maria Santos specializes in risk management and business continuity with expertise in crisis planning and operational resilience."
+    },
+    "materialsUsed": [
+      "Kaplan, R. (2012). Risk Management and Corporate Governance. Harvard Business Press.",
+      "Taleb, N. (2007). The Black Swan. Random House.",
+      "Bernstein, P. (1996). Against the Gods. John Wiley & Sons.",
+      "Risk Management Journal (2023). \"Enterprise Risk in Digital Age\" - Business Continuity Review."
+    ],
+    "keyTakeaways": {
+      "title": "Key Takeaways",
+      "description": "Effective risk management requires proactive identification, assessment, and mitigation strategies. Build resilient systems that can adapt to unexpected challenges."
+    }
+  },
+  "emails": [
+    {
+      "id": "1",
+      "sender": "Maria Santos",
+      "date": "1 week ago",
+      "avatar": "chapters/chapter-9.png",
+      "subject": "Risk Management Excellence: Protect and Strengthen Your Business",
+      "preview": "Dear Risk Professional, comprehensive risk management is essential for sustainable business growth. Learn frameworks for identifying and mitigating threats...",
+      "signature": {
+        "name": "Maria Santos",
+        "title": "Risk Management Director",
+        "company": "RiskShield Consulting"
+      },
+      "meta": "Template • Risk",
+      "likes": 84,
+      "highlight": {
+        "title": "Enterprise Risk Framework",
+        "description": "Comprehensive risk assessment with scenario planning and business continuity strategies"
+      }
+    }
+  ]
+}

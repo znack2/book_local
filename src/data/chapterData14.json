@@ -1,0 +1,41 @@
+
+{
+  "emailColumn": {
+    "title": "Email Templates - Chapter 14",
+    "authorInfo": {
+      "title": "About the Author",
+      "description": "Mark Davis is a cybersecurity expert specializing in enterprise security frameworks and risk management strategies."
+    },
+    "materialsUsed": [
+      "Schneier, B. (2015). Data and Goliath. W. W. Norton & Company.",
+      "Anderson, R. (2020). Security Engineering. Wiley.",
+      "Mitnick, K. (2011). The Art of Deception. Wiley.",
+      "IEEE Security & Privacy (2023). \"Zero Trust Architecture\" - Cybersecurity Management Review."
+    ],
+    "keyTakeaways": {
+      "title": "Key Takeaways",
+      "description": "Modern cybersecurity requires a multi-layered approach with employee training, technology solutions, and continuous monitoring."
+    }
+  },
+  "emails": [
+    {
+      "id": "1",
+      "sender": "Mark Davis",
+      "date": "5 days ago",
+      "avatar": "chapters/chapter-4.png",
+      "subject": "Cybersecurity Framework: Protect Your Business from Digital Threats",
+      "preview": "Dear Security Professional, cyber threats are evolving rapidly, requiring comprehensive protection strategies. Learn how to build robust security frameworks...",
+      "signature": {
+        "name": "Mark Davis",
+        "title": "Cybersecurity Consultant",
+        "company": "SecureShield Technologies"
+      },
+      "meta": "Template • Security",
+      "likes": 92,
+      "highlight": {
+        "title": "Zero Trust Security Model",
+        "description": "Advanced security architecture with threat detection and incident response protocols"
+      }
+    }
+  ]
+}

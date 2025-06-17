@@ -1,0 +1,41 @@
+
+{
+  "emailColumn": {
+    "title": "Email Templates - Chapter 12",
+    "authorInfo": {
+      "title": "About the Author",
+      "description": "James Wilson is a supply chain management expert with extensive experience in logistics optimization and vendor relationship management."
+    },
+    "materialsUsed": [
+      "Chopra, S. (2015). Supply Chain Management. Pearson.",
+      "Christopher, M. (2016). Logistics & Supply Chain Management. Pearson.",
+      "Simchi-Levi, D. (2008). Designing and Managing the Supply Chain. McGraw-Hill.",
+      "Supply Chain Management Review (2023). \"Digital Supply Chains\" - Logistics Technology Journal."
+    ],
+    "keyTakeaways": {
+      "title": "Key Takeaways",
+      "description": "Efficient supply chain management requires visibility, flexibility, and strong partnerships. Leverage technology for optimization and risk mitigation."
+    }
+  },
+  "emails": [
+    {
+      "id": "1",
+      "sender": "James Wilson",
+      "date": "3 days ago",
+      "avatar": "chapters/chapter-2.png",
+      "subject": "Supply Chain Optimization: Reduce Costs and Improve Efficiency",
+      "preview": "Dear Operations Manager, optimizing your supply chain can significantly reduce costs while improving customer satisfaction. Learn proven strategies for logistics excellence...",
+      "signature": {
+        "name": "James Wilson",
+        "title": "Supply Chain Consultant",
+        "company": "LogisticsMax Solutions"
+      },
+      "meta": "Template • Operations",
+      "likes": 38,
+      "highlight": {
+        "title": "Supply Chain Excellence",
+        "description": "End-to-end optimization with vendor management and logistics automation for maximum efficiency"
+      }
+    }
+  ]
+}

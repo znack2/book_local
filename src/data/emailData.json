@@ -1,0 +1,79 @@
+
+{
+  "emailColumn": {
+    "title": "Email Templates",
+    "authorInfo": {
+      "title": "About the Author",
+      "description": "Dr. Sarah Chen is a leading expert in business strategy and digital transformation with over 15 years of experience helping startups and Fortune 500 companies develop successful business models."
+    },
+    "materialsUsed": [
+      "Osterwalder, A. & Pigneur, Y. (2010). Business Model Generation. John Wiley & Sons.",
+      "Blank, S. & Dorf, B. (2012). The Startup Owner's Manual. K&S Ranch Publications.",
+      "Ries, E. (2011). The Lean Startup. Crown Business Publishing.",
+      "Harvard Business Review (2019). \"Digital Business Model Innovation\" - Strategic Management Quarterly."
+    ],
+    "keyTakeaways": {
+      "title": "Key Takeaways",
+      "description": "The Business Model Canvas provides a visual framework for developing and documenting business models. Remember that successful business models are iterative and should be continuously tested and refined based on customer feedback and market validation."
+    }
+  },
+  "emails": [
+    {
+      "id": "1",
+      "sender": "John Smith",
+      "date": "2 days ago",
+      "avatar": "chapters/chapter-1.png",
+      "subject": "Welcome to Our Revolutionary Platform - Your Journey Begins Here",
+      "preview": "Hi [Name], we're absolutely thrilled and excited to have you on board with our innovative platform that's transforming the way businesses operate in the digital landscape. This comprehensive email template has been meticulously designed and crafted to welcome new users like yourself and provide them with all the essential information, resources, and guidance they need to get started successfully on their transformative journey with us...",
+      "signature": {
+        "name": "John Smith",
+        "title": "Customer Success Manager",
+        "company": "TechCorp Solutions"
+      },
+      "meta": "Template • Welcome Series",
+      "likes": 12,
+      "highlight": {
+        "title": "Welcome Series Excellence",
+        "description": "Expert onboarding flow with comprehensive resource links and 24/7 support commitment for new users"
+      }
+    },
+    {
+      "id": "2",
+      "sender": "Sarah Johnson",
+      "date": "1 week ago",
+      "avatar": "chapters/chapter-2.png",
+      "subject": "Urgent: Secure Password Reset Request - Action Required Within 24 Hours",
+      "preview": "Dear Valued User, you have recently requested to reset your password for your account on our secure platform, and we want to ensure that this process is completed safely and efficiently. For maximum security reasons and to protect your personal information and account integrity, this password reset link will automatically expire in exactly 24 hours...",
+      "signature": {
+        "name": "Sarah Johnson",
+        "title": "Security Team Lead",
+        "company": "TechCorp Solutions"
+      },
+      "meta": "Template • Security",
+      "likes": 8,
+      "highlight": {
+        "title": "Security Best Practices",
+        "description": "Advanced password security guidelines with 12+ character requirements and special security protocols"
+      }
+    },
+    {
+      "id": "3",
+      "sender": "Mike Chen",
+      "date": "2 weeks ago",
+      "avatar": "chapters/chapter-3.png",
+      "subject": "Exclusive Monthly Newsletter - Revolutionary Updates & Exciting Innovations",
+      "preview": "Dear Valued Community Member, here's an comprehensive overview of everything that's new, exciting, and groundbreaking this month in our extensive product updates, major feature releases, and important company news that we're thrilled to share with you...",
+      "signature": {
+        "name": "Mike Chen",
+        "title": "Product Marketing Manager",
+        "company": "TechCorp Solutions"
+      },
+      "meta": "Template • Newsletter",
+      "likes": 24,
+      "highlight": {
+        "title": "Product Innovation Update",
+        "description": "40% performance boost, new integrations with popular tools, and AI-powered analytics coming soon"
+      }
+    }
+  ]
+}

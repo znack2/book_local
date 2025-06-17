@@ -1,0 +1,41 @@
+
+{
+  "emailColumn": {
+    "title": "Email Templates - Chapter 20",
+    "authorInfo": {
+      "title": "About the Author",
+      "description": "Jennifer Lee is a quality assurance expert specializing in process optimization and continuous improvement methodologies."
+    },
+    "materialsUsed": [
+      "Deming, W. (2000). Out of the Crisis. MIT Press.",
+      "Juran, J. (1988). Quality Control Handbook. McGraw-Hill.",
+      "Crosby, P. (1979). Quality Is Free. McGraw-Hill.",
+      "Quality Management Review (2023). \"Digital Quality Systems\" - Process Excellence Journal."
+    ],
+    "keyTakeaways": {
+      "title": "Key Takeaways",
+      "description": "Quality excellence requires systematic approaches to measurement, improvement, and customer satisfaction. Embed quality thinking throughout the organization."
+    }
+  },
+  "emails": [
+    {
+      "id": "1",
+      "sender": "Jennifer Lee",
+      "date": "5 days ago",
+      "avatar": "chapters/chapter-10.png",
+      "subject": "Quality Assurance Mastery: Build Excellence into Every Process",
+      "preview": "Dear Quality Leader, implementing robust quality systems drives customer satisfaction and operational efficiency. Discover proven methodologies...",
+      "signature": {
+        "name": "Jennifer Lee",
+        "title": "Quality Assurance Director",
+        "company": "ExcellenceFirst Systems"
+      },
+      "meta": "Template • Quality",
+      "likes": 67,
+      "highlight": {
+        "title": "Quality Excellence Framework",
+        "description": "Complete quality management system with continuous improvement and customer satisfaction metrics"
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+
+{
+  "videos": [
+    {
+      "id": 1,
+      "title": "Lead Generation Masterclass",
+      "description": "A comprehensive 45-minute masterclass covering all aspects of modern lead generation strategies.",
+      "link": "https://greatleads.io/videos/lead-generation-masterclass",
+      "category": "Masterclass",
+      "duration": "45 min",
+      "publishDate": "2024-01-20",
+      "thumbnail": "🎯",
+      "tags": ["masterclass", "leads", "strategy"]
+    },
+    {
+      "id": 2,
+      "title": "Email Automation Setup",
+      "description": "Step-by-step guide to setting up email automation sequences that nurture leads into customers.",
+      "link": "https://greatleads.io/videos/email-automation",
+      "category": "Tutorial",
+      "duration": "20 min",
+      "publishDate": "2024-01-18",
+      "thumbnail": "📧",
+      "tags": ["email", "automation", "tutorial"]
+    },
+    {
+      "id": 3,
+      "title": "Landing Page Optimization",
+      "description": "Learn how to optimize your landing pages for better conversion rates and user experience.",
+      "link": "https://greatleads.io/videos/landing-page-optimization",
+      "category": "Optimization",
+      "duration": "30 min",
+      "publishDate": "2024-01-15",
+      "thumbnail": "🚀",
+      "tags": ["landing page", "optimization", "conversion"]
+    },
+    {
+      "id": 4,
+      "title": "CRM Integration Best Practices",
+      "description": "How to integrate your lead generation efforts with your CRM for maximum efficiency.",
+      "link": "https://greatleads.io/videos/crm-integration",
+      "category": "Integration",
+      "duration": "25 min",
+      "publishDate": "2024-01-12",
+      "thumbnail": "⚙️",
+      "tags": ["crm", "integration", "workflow"]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+
+{
+  "emailColumn": {
+    "title": "Email Templates - Chapter 3",
+    "authorInfo": {
+      "title": "About the Author",
+      "description": "Dr. Maria Gonzalez specializes in international business expansion and cross-cultural communication strategies with over 12 years of experience in global market penetration."
+    },
+    "materialsUsed": [
+      "Porter, M. (2008). Competitive Strategy. Free Press.",
+      "Hofstede, G. (2010). Cultures and Organizations. McGraw-Hill.",
+      "Trompenaars, F. (2012). Riding the Waves of Culture. Nicholas Brealey.",
+      "International Business Review (2021). \"Global Expansion Strategies\" - Cross-Cultural Management Journal."
+    ],
+    "keyTakeaways": {
+      "title": "Key Takeaways",
+      "description": "Successful global expansion requires deep understanding of local markets, cultural nuances, and regulatory environments. Focus on building strategic partnerships and adapting your value proposition to local needs."
+    }
+  },
+  "emails": [
+    {
+      "id": "1",
+      "sender": "Carlos Martinez",
+      "date": "1 day ago",
+      "avatar": "chapters/chapter-3.png",
+      "subject": "Global Market Entry Strategy - Your Complete Guide",
+      "preview": "Dear Global Entrepreneur, expanding into international markets requires careful planning and strategic execution. This comprehensive guide covers market research, regulatory compliance, cultural adaptation, and partnership strategies...",
+      "signature": {
+        "name": "Carlos Martinez",
+        "title": "International Business Consultant",
+        "company": "Global Expansion Partners"
+      },
+      "meta": "Template • Strategy",
+      "likes": 32,
+      "highlight": {
+        "title": "Market Entry Strategy",
+        "description": "Complete framework for international expansion with risk assessment and cultural adaptation strategies"
+      }
+    }
+  ]
+}

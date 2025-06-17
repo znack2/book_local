@@ -1,0 +1,45 @@
+
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "The Complete Guide to Lead Generation",
+      "description": "Learn the fundamentals of generating high-quality leads for your business with proven strategies and tactics.",
+      "link": "https://greatleads.io/guide-lead-generation",
+      "category": "Lead Generation",
+      "readTime": "8 min read",
+      "publishDate": "2024-01-15",
+      "tags": ["leads", "marketing", "strategy"]
+    },
+    {
+      "id": 2,
+      "title": "Email Marketing Best Practices",
+      "description": "Discover how to create email campaigns that convert and build lasting relationships with your audience.",
+      "link": "https://greatleads.io/email-marketing-best-practices",
+      "category": "Email Marketing",
+      "readTime": "6 min read",
+      "publishDate": "2024-01-10",
+      "tags": ["email", "marketing", "conversion"]
+    },
+    {
+      "id": 3,
+      "title": "Converting Visitors into Customers",
+      "description": "Proven techniques to optimize your website and landing pages for maximum conversion rates.",
+      "link": "https://greatleads.io/conversion-optimization",
+      "category": "Conversion",
+      "readTime": "10 min read",
+      "publishDate": "2024-01-05",
+      "tags": ["conversion", "optimization", "sales"]
+    },
+    {
+      "id": 4,
+      "title": "Social Media Lead Generation",
+      "description": "How to leverage social media platforms to generate qualified leads and grow your business.",
+      "link": "https://greatleads.io/social-media-leads",
+      "category": "Social Media",
+      "readTime": "7 min read",
+      "publishDate": "2023-12-20",
+      "tags": ["social media", "leads", "engagement"]
+    }
+  ]
+}

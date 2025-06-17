@@ -1,0 +1,23 @@
+
+{
+  "appInfo": {
+    "title": "Business Canvas Studio",
+    "subtitle": "Design your business model",
+    "activeItem": "Business Canvas"
+  },
+  "helpSection": {
+    "title": "Need help with the canvas?",
+    "buttonText": "Learn How"
+  },
+  "sections": {
+    "canvas": {
+      "title": "Business Model Canvas"
+    }
+  },
+  "buttons": {
+    "hideEmails": "Hide Emails",
+    "showEmails": "Show Emails", 
+    "hideCanvas": "Hide Canvas",
+    "showCanvas": "Show Canvas"
+  }
+}

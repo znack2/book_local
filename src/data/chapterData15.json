@@ -1,0 +1,41 @@
+
+{
+  "emailColumn": {
+    "title": "Email Templates - Chapter 15",
+    "authorInfo": {
+      "title": "About the Author",
+      "description": "Dr. Lisa Chen specializes in innovation management and product development with expertise in design thinking and agile methodologies."
+    },
+    "materialsUsed": [
+      "Brown, T. (2019). Change by Design. Harper Business.",
+      "Christensen, C. (2016). The Innovator's Dilemma. Harvard Business Review Press.",
+      "Osterwalder, A. (2014). Value Proposition Design. Wiley.",
+      "Harvard Business Review (2023). \"Innovation in the Digital Age\" - Product Management Quarterly."
+    ],
+    "keyTakeaways": {
+      "title": "Key Takeaways",
+      "description": "Innovation requires systematic approaches to ideation, experimentation, and implementation. Foster a culture of creativity and continuous improvement."
+    }
+  },
+  "emails": [
+    {
+      "id": "1",
+      "sender": "Lisa Chen",
+      "date": "1 week ago",
+      "avatar": "chapters/chapter-5.png",
+      "subject": "Innovation Strategy: From Ideas to Market-Leading Products",
+      "preview": "Dear Innovation Leader, successful innovation combines creativity with systematic execution. Learn proven frameworks for developing breakthrough products...",
+      "signature": {
+        "name": "Lisa Chen",
+        "title": "Innovation Strategy Director",
+        "company": "InnovateFast Labs"
+      },
+      "meta": "Template • Innovation",
+      "likes": 65,
+      "highlight": {
+        "title": "Design Thinking Framework",
+        "description": "Comprehensive innovation process with user research and rapid prototyping methodologies"
+      }
+    }
+  ]
+}
