@@ -62,7 +62,7 @@ const Chapter: React.FC = () => {
     <div className="w-full h-screen overflow-auto">
       <PageLayout
         currentChapterId={currentBook.id}
-        title={`Chapter #${currentBook.id} - ${currentBook.title}`}
+        title={currentBook.title}
         subtitle=""
         activeItem="Business Canvas"
         showBackButton={true}

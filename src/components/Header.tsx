@@ -53,7 +53,7 @@ const Header = ({ currentChapterId, title, subtitle, children, showBackButton = 
               fontWeight: '600', 
               marginBottom: '2px' 
             }}>
-              {title}
+              Chapter #{currentChapterId} - {title}
             </h1>
             <span className="hidden md:inline" style={{ color: '#8b7d6b', fontSize: '13px' }}>
               {subtitle}
