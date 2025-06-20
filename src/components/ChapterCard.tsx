@@ -40,7 +40,7 @@ const ChapterCard: React.FC<ChapterCardProps> = ({
       </div>
       <div className="mb-2">
         <div className="mb-2">
-          <img src={`https://raw.githubusercontent.com/znack2/book_local/main/docs/logos/logo-${id}.png`} alt="Chapter logo" className="w-8 h-8 rounded object-cover" />
+          <img src={`https://raw.githubusercontent.com/znack2/book_local/main/docs/logos/${title}.svg`} alt="Chapter logo" className="w-8 h-8 rounded object-cover" />
         </div>
         <div className="text-gray-700 text-sm font-bold mb-1">Chapter {id}</div>
         <h3 className="text-sm font-bold text-gray-900 mb-2 leading-tight">
@@ -56,7 +56,7 @@ const ChapterCard: React.FC<ChapterCardProps> = ({
         </div>
         {image && (
           <div className="w-6 h-6 rounded-full bg-amber-200 flex items-center justify-center overflow-hidden">
-            <img src={`https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-${id}.png`} alt="Chapter image" className="w-full h-full object-cover" />
+            <img src={`https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/${title}.png`} alt="Chapter image" className="w-full h-full object-cover" />
           </div>
         )}
       </div>

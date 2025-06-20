@@ -1,9 +1,10 @@
 {
   "emailColumn": {
+    "title":"24ttl",
     "authorInfo": {
       "title": "From the Author",
       "description": "24TTL is a company that specializes in providing innovative solutions for e-commerce, focusing on enhancing the online shopping experience for both retailers and brands. The company is headquartered in Dubai, United Arab Emirates, but operates internationally, including recently expanding to Seoul, South Korea, to tap into the innovative e-commerce market there.\n\n 24TTL is recognized for changing the customer experience in e-commerce and is trusted by Fortune Global 500 companies. They have partnerships with over 400 retailers and marketplaces, focusing on delivering a seamless and omnichannel buying process for online shoppers."
-},
+    },
     "materialsUsed": [
       "UAE Ministry of Economy. (2025). Business Expansion in UAE: Opportunities & Growth Strategies.",
       "Netherlands Trade & Investment Office. (2024). Market Entry Strategy Guide for the Netherlands.",
@@ -23,7 +24,7 @@
     {
       "id": "1",
       "date": "8 months ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-1.png",
+      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
       "subject": "The Genesis: From Russia to Dubai - Our First International Leap",
       "greeting": "Hey there,",
       "cta": {
@@ -44,7 +45,7 @@
     {
       "id": "2",
       "date": "7 months ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-2.png",
+      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
       "subject": "Why Local Entities Matter: From Services to SaaS Across Markets",
       "greeting": "Hello, my friend,",
       "cta": {
@@ -65,7 +66,7 @@
     {
       "id": "3",
       "date": "6 months ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-3.png",
+      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
       "subject": "Market Selection: Why UAE, Mexico, and Indonesia Made Sense",
       "greeting": "Hi there,",
       "cta": {
@@ -86,7 +87,7 @@
     {
       "id": "4",
       "date": "5 months ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-4.png",
+      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
       "subject": "Expensive Lessons: What We Got Wrong in the U.S. Market",
       "greeting": "Hello!",
       "cta": {
@@ -107,7 +108,7 @@
     {
       "id": "5",
       "date": "4 months ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-5.png",
+      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
       "subject": "Cultural Nuances: The Hidden Business Killers We Discovered",
       "greeting": "Good afternoon, my friend,",
       "cta": {
@@ -128,7 +129,7 @@
     {
       "id": "6",
       "date": "3 months ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-6.png",
+      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
       "subject": "Fracturing Success: How We Split Teams Across Four Markets",
       "greeting": "Hi, dear friend,",
       "cta": {
@@ -149,7 +150,7 @@
     {
       "id": "7",
       "date": "2 months ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-7.png",
+      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
       "subject": "Managing Chaos: Lessons from Running Four Markets Simultaneously",
       "greeting": "Greetings, my dear friend,",
       "cta": {

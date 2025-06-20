@@ -139,7 +139,7 @@ const EmailColumn: React.FC<EmailColumnProps> = ({
                      <div className="flex items-center gap-3 mb-3">
                       <Avatar className="w-8 h-8">
                         <img 
-                          src={`https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-${chapterId}.png`}
+                          src={`https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/${email.title}.png`}
                           className="aspect-square h-full w-full rounded-full object-cover"
                         />
             {/*            <AvatarFallback className="text-xs bg-amber-200 text-amber-800">

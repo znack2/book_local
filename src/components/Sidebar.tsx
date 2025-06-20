@@ -234,7 +234,7 @@ const Sidebar = ({
                             {hasCurrentBookContent ? 'In Progress' : 'Available'}
                           </div>
                           <div className="w-6 h-6 rounded-full bg-amber-200 flex items-center justify-center overflow-hidden">
-                            <img src={`https://raw.githubusercontent.com/znack2/book_local/main/docs/logos/logo-${currentBook.id}.png`} alt="Chapter logo" className="w-full h-full object-cover" />
+                            <img src={`https://raw.githubusercontent.com/znack2/book_local/main/docs/logos/${currentBook.title}.svg`} alt="Chapter logo" className="w-full h-full object-cover" />
                           </div>
                         </div>
                       </div>
