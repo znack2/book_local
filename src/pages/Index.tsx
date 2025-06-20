@@ -1,8 +1,8 @@
 
-import VanillaApp from "@/components/VanillaApp";
+import Chapter from "@/pages/Chapter";
 
 const Index = () => {
-  return <VanillaApp />;
+  return <Chapter />;
 };
 
 export default Index;

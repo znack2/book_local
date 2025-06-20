@@ -1,40 +1,40 @@
 
 {
   "emailColumn": {
-    "title": "Email Templates - Chapter 15",
+    "title": "Email Templates - Chapter 13",
     "authorInfo": {
       "title": "About the Author",
-      "description": "Dr. Lisa Chen specializes in innovation management and product development with expertise in design thinking and agile methodologies."
+      "description": "Dr. Sarah Kim specializes in data analytics and business intelligence with focus on predictive modeling and decision support systems."
     },
     "materialsUsed": [
-      "Brown, T. (2019). Change by Design. Harper Business.",
-      "Christensen, C. (2016). The Innovator's Dilemma. Harvard Business Review Press.",
-      "Osterwalder, A. (2014). Value Proposition Design. Wiley.",
-      "Harvard Business Review (2023). \"Innovation in the Digital Age\" - Product Management Quarterly."
+      "Provost, F. (2013). Data Science for Business. O'Reilly Media.",
+      "Davenport, T. (2017). Competing on Analytics. Harvard Business Press.",
+      "Kimball, R. (2013). The Data Warehouse Toolkit. Wiley.",
+      "MIT Technology Review (2023). \"AI in Business Decision Making\" - Data Science Quarterly."
     ],
     "keyTakeaways": {
       "title": "Key Takeaways",
-      "description": "Innovation requires systematic approaches to ideation, experimentation, and implementation. Foster a culture of creativity and continuous improvement."
+      "description": "Data-driven decision making requires quality data, proper analysis tools, and organizational commitment to evidence-based strategies."
     }
   },
   "emails": [
     {
       "id": "1",
-      "sender": "Lisa Chen",
-      "date": "1 week ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-5.png",
-      "subject": "Innovation Strategy: From Ideas to Market-Leading Products",
-      "preview": "Dear Innovation Leader, successful innovation combines creativity with systematic execution. Learn proven frameworks for developing breakthrough products...",
+      "sender": "Sarah Kim",
+      "date": "2 days ago",
+      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-3.png",
+      "subject": "Data Analytics Mastery: Turn Data into Competitive Advantage",
+      "preview": "Dear Data Professional, transforming raw data into actionable insights is the key to staying competitive in today's market. Discover advanced analytics techniques...",
       "signature": {
-        "name": "Lisa Chen",
-        "title": "Innovation Strategy Director",
-        "company": "InnovateFast Labs"
+        "name": "Sarah Kim",
+        "title": "Data Analytics Director",
+        "company": "InsightDriven Analytics"
       },
-      "meta": "Template • Innovation",
-      "likes": 65,
+      "meta": "Template • Analytics",
+      "likes": 81,
       "highlight": {
-        "title": "Design Thinking Framework",
-        "description": "Comprehensive innovation process with user research and rapid prototyping methodologies"
+        "title": "Advanced Analytics Framework",
+        "description": "Comprehensive data strategy with predictive modeling and real-time business intelligence dashboards"
       }
     }
   ]

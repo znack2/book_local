@@ -24,7 +24,7 @@ const Videos = () => {
   return (
     <div className="h-screen flex flex-col overflow-hidden">
       <PageLayout 
-        id="0"
+        currentChapterId="0"
         title="Videos" 
         subtitle="Watch our video tutorials and guides"
         activeItem="Videos"

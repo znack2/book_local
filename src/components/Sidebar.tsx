@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { Badge } from "@/components/ui/badge";
@@ -11,19 +10,20 @@ import galleryData from '../data/galleryData.json';
 
 
 interface SidebarProps {
-  id: number;
+  currentChapterId: number;
   collapsed: boolean;
   onToggleCollapse: () => void;
   activeItem?: string;
   showCard?: boolean;
+  currentChapterId?: string;
 }
 
 const Sidebar = ({ 
-  id,
+  currentChapterId,
   collapsed, 
   onToggleCollapse, 
   activeItem = "Email Templates", 
-  showCard = false 
+  showCard = false
 }: SidebarProps) => {
   const navigate = useNavigate();
   const location = useLocation();
@@ -57,18 +57,19 @@ const Sidebar = ({
       onClick: () => navigate('/articles')
     },
     { 
-      icon: "M23 7l-7 5 7 5V7z M16 4H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2z", 
+      icon: "M23 7l-7 5 7 5V7z M16 4H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h14a2 2 0 0 0-2-2z", 
       text: "Videos", 
       active: location.pathname === '/videos' || activeItem === "Videos",
       onClick: () => navigate('/videos')
     }
   ];
 
-  // Calculate opened chapters progress
-  useEffect(() => {
+  // Function to update progress
+  const updateProgress = () => {
     let chaptersCount = 0;
     
     galleryData.books.forEach(item => {
+      // Check if chapter has been visited/opened
       const hasContent = localStorage.getItem(`canvas-${item.id}-partners`) || 
                         localStorage.getItem(`canvas-${item.id}-activities`) ||
                         localStorage.getItem(`canvas-${item.id}-resources`) ||
@@ -77,32 +78,62 @@ const Sidebar = ({
                         localStorage.getItem(`canvas-${item.id}-channels`) ||
                         localStorage.getItem(`canvas-${item.id}-segments`) ||
                         localStorage.getItem(`canvas-${item.id}-costs`) ||
-                        localStorage.getItem(`canvas-${item.id}-revenue`);
+                        localStorage.getItem(`canvas-${item.id}-revenue`) ||
+                        localStorage.getItem(`chapter-${item.id}-visited`); // Additional check for visited chapters
       
       if (hasContent) {
         chaptersCount++;
       }
     });
     
+    // Debug logging
+    console.log('Sidebar - Chapters with content:', chaptersCount, 'out of', galleryData.books.length);
+    
     setOpenedChapters(chaptersCount);
+  };
+
+  // Calculate opened chapters progress with event listeners
+  useEffect(() => {
+    updateProgress();
+    
+    // Listen for storage changes to update progress when returning from canvas
+    const handleStorageChange = () => {
+      updateProgress();
+    };
+    
+    window.addEventListener('storage', handleStorageChange);
+    window.addEventListener('focus', updateProgress);
+    
+    return () => {
+      window.removeEventListener('storage', handleStorageChange);
+      window.removeEventListener('focus', updateProgress);
+    };
   }, []);
 
+  console.log('currentChapterId:', currentChapterId);
+
   // Get the first book from gallery data for the card
-  const firstBook = galleryData.books[0];
+  const currentBook = currentChapterId 
+    ? galleryData.books.find(book => book.id === parseInt(currentChapterId)) || galleryData.books[0]
+    : galleryData.books[0];
 
   // Check if first book has been opened (has content in localStorage)
-  const hasFirstBookContent = localStorage.getItem(`canvas-${firstBook.id}-partners`) || 
-                             localStorage.getItem(`canvas-${firstBook.id}-activities`) ||
-                             localStorage.getItem(`canvas-${firstBook.id}-resources`) ||
-                             localStorage.getItem(`canvas-${firstBook.id}-propositions`) ||
-                             localStorage.getItem(`canvas-${firstBook.id}-relationships`) ||
-                             localStorage.getItem(`canvas-${firstBook.id}-channels`) ||
-                             localStorage.getItem(`canvas-${firstBook.id}-segments`) ||
-                             localStorage.getItem(`canvas-${firstBook.id}-costs`) ||
-                             localStorage.getItem(`canvas-${firstBook.id}-revenue`);
+  const hasCurrentBookContent = localStorage.getItem(`canvas-${currentBook.id}-partners`) || 
+                               localStorage.getItem(`canvas-${currentBook.id}-activities`) ||
+                               localStorage.getItem(`canvas-${currentBook.id}-resources`) ||
+                               localStorage.getItem(`canvas-${currentBook.id}-propositions`) ||
+                               localStorage.getItem(`canvas-${currentBook.id}-relationships`) ||
+                               localStorage.getItem(`canvas-${currentBook.id}-channels`) ||
+                               localStorage.getItem(`canvas-${currentBook.id}-segments`) ||
+                               localStorage.getItem(`canvas-${currentBook.id}-costs`) ||
+                               localStorage.getItem(`canvas-${currentBook.id}-revenue`) ||
+                               localStorage.getItem(`chapter-${currentBook.id}-visited`);
 
   const handleCardClick = () => {
-    navigate(`/canvas?item=${firstBook.id}`);
+    // Mark chapter as visited when opening from sidebar
+    localStorage.setItem(`chapter-${currentBook.id}-visited`, 'true');
+    localStorage.setItem('lastOpenedChapter', currentBook.id.toString());
+    navigate(`/canvas?item=${currentBook.id}`);
   };
 
   const handleSignOut = async () => {
@@ -170,7 +201,7 @@ const Sidebar = ({
                   {/* Main book cover with bookmark */}
                   <div className="relative bg-gradient-to-br from-amber-50 to-amber-100 rounded-sm border border-amber-200 min-h-[300px] shadow-lg">
                     {/* Bookmark for opened chapters */}
-                    {hasFirstBookContent && (
+                    {hasCurrentBookContent && (
                       <BookmarkIcon size="md" color="text-red-500" />
                     )}
                     
@@ -178,7 +209,7 @@ const Sidebar = ({
                     <div className="p-4 h-full flex flex-col">
                       <div className="flex justify-between items-start mb-3">
                         <div className="flex gap-2">
-                          {firstBook.tags.slice(0, 2).map((tag, index) => (
+                          {currentBook.tags.slice(0, 2).map((tag, index) => (
                             <Badge key={index} variant="outline" className="text-xs bg-amber-200 text-amber-800 border-amber-300">
                               {tag}
                             </Badge>
@@ -188,22 +219,22 @@ const Sidebar = ({
                       
                       <div className="flex-1 flex flex-col">
                         <div className="mb-2">
-                        <img src={firstBook.logo} alt="Chapter logo" className="w-8 h-8 rounded object-cover" />
+                        <img src={currentBook.logo} alt="Chapter logo" className="w-8 h-8 rounded object-cover" />
                         </div>
-                        <div className="text-gray-700 text-xs font-bold mb-1">Chapter {firstBook.id}</div>
+                        <div className="text-gray-700 text-xs font-bold mb-1">Chapter {currentBook.id}</div>
                         <h3 className="text-sm font-bold text-gray-900 mb-2 leading-tight">
-                          {firstBook.title}
+                          {currentBook.title}
                         </h3>
                         <p className="text-xs text-gray-700 leading-relaxed flex-1">
-                          {firstBook.preview}
+                          {currentBook.preview}
                         </p>
                         
                         <div className="flex justify-between items-end mt-3">
                           <div className="text-xs font-medium text-amber-700">
-                            {hasFirstBookContent ? 'In Progress' : 'Available'}
+                            {hasCurrentBookContent ? 'In Progress' : 'Available'}
                           </div>
                           <div className="w-6 h-6 rounded-full bg-amber-200 flex items-center justify-center overflow-hidden">
-                            <img src={`https://raw.githubusercontent.com/znack2/book_local/main/docs/logos/logo-${firstBook.id}.png`} alt="Chapter logo" className="w-full h-full object-cover" />
+                            <img src={`https://raw.githubusercontent.com/znack2/book_local/main/docs/logos/logo-${currentBook.id}.png`} alt="Chapter logo" className="w-full h-full object-cover" />
                           </div>
                         </div>
                       </div>

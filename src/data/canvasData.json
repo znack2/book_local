@@ -1,0 +1,250 @@
+{
+  "title": "Your GoGlobal strategy canvas",
+  "description": "Strategic framework for international business expansion",
+  "sections": [
+    {
+      "id": "key-partners",
+      "title": "Key Partners",
+      "subtitle": "Who are your key partners and suppliers?",
+      "icon": "users",
+      "color": "bg-purple-100",
+      "iconColor": "text-purple-600",
+      "gridColumn": "span 1",
+      "gridRow": "span 1",
+      "items": [
+        "Local distributors and resellers",
+        "Technology infrastructure providers",
+        "Legal and compliance consultants",
+        "Financial institutions and banks",
+        "Government agencies and regulators",
+        "Strategic business alliances"
+      ],
+      "keyPoints": [
+        "Focus on partners who understand local markets",
+        "Establish relationships before market entry",
+        "Ensure partners align with your values"
+      ]
+    },
+    {
+      "id": "key-activities",
+      "title": "Key Activities",
+      "subtitle": "What key activities does your value proposition require?",
+      "icon": "target",
+      "color": "bg-blue-100",
+      "iconColor": "text-blue-600",
+      "items": [
+        "Market research and analysis",
+        "Product localization and adaptation",
+        "Regulatory compliance management",
+        "Local team recruitment and training",
+        "Marketing campaign development",
+        "Customer service setup"
+      ],
+      "keyPoints": [
+        "Prioritize activities that drive market entry",
+        "Adapt activities to local market needs",
+        "Measure and optimize performance"
+      ]
+    },
+    {
+      "id": "key-resources",
+      "title": "Key Resources",
+      "subtitle": "What key resources does your value proposition require?",
+      "icon": "building",
+      "color": "bg-green-100",
+      "iconColor": "text-green-600",
+      "items": [
+        "Intellectual property and technology",
+        "Local market expertise and knowledge",
+        "Financial capital for expansion",
+        "Brand reputation and trust",
+        "Skilled international team",
+        "Technology infrastructure"
+      ],
+      "keyPoints": [
+        "Leverage existing strengths",
+        "Invest in local capabilities",
+        "Protect valuable assets"
+      ]
+    },
+    {
+      "id": "value-proposition",
+      "title": "Value Proposition",
+      "subtitle": "What value do you deliver to customers?",
+      "icon": "trending-up",
+      "color": "bg-yellow-100",
+      "iconColor": "text-yellow-600",
+      "gridColumn": "span 1",
+      "gridRow": "span 2",
+      "items": [
+        "Localized products and services",
+        "Competitive pricing for local markets",
+        "Superior customer experience",
+        "Innovation and technology leadership",
+        "Reliable and trustworthy service",
+        "Cultural sensitivity and understanding"
+      ],
+      "keyPoints": [
+        "Adapt value proposition to local needs",
+        "Communicate benefits clearly",
+        "Differentiate from local competitors"
+      ],
+      "metrics": [
+        {
+          "value": "85%",
+          "label": "Customer Satisfaction"
+        },
+        {
+          "value": "40%",
+          "label": "Market Share Growth"
+        }
+      ]
+    },
+    {
+      "id": "customer-relationships",
+      "title": "Customer Relationships",
+      "subtitle": "What type of relationship do customers expect?",
+      "icon": "users",
+      "color": "bg-indigo-100",
+      "iconColor": "text-indigo-600",
+      "items": [
+        "Personal assistance and support",
+        "Self-service platforms and tools",
+        "Community building and engagement",
+        "Automated customer service",
+        "Co-creation and feedback loops",
+        "Loyalty programs and rewards"
+      ],
+      "keyPoints": [
+        "Understand local relationship preferences",
+        "Provide multi-channel support",
+        "Build long-term customer loyalty"
+      ]
+    },
+    {
+      "id": "channels",
+      "title": "Channels",
+      "subtitle": "Through which channels do customers want to be reached?",
+      "icon": "globe",
+      "color": "bg-red-100",
+      "iconColor": "text-red-600",
+      "items": [
+        "Direct sales and online platforms",
+        "Local retail partners and stores",
+        "Digital marketing and social media",
+        "Trade shows and industry events",
+        "Partner channel networks",
+        "Mobile applications and platforms"
+      ],
+      "keyPoints": [
+        "Choose channels that reach target customers",
+        "Leverage local channel preferences",
+        "Optimize channel performance"
+      ]
+    },
+    {
+      "id": "customer-segments",
+      "title": "Customer Segments",
+      "subtitle": "For whom are you creating value?",
+      "icon": "target",
+      "color": "bg-pink-100",
+      "iconColor": "text-pink-600",
+      "gridColumn": "span 1",
+      "gridRow": "span 1",
+      "items": [
+        "Small and medium enterprises",
+        "Large multinational corporations",
+        "Government and public sector",
+        "Individual consumers and households",
+        "Industry-specific verticals",
+        "Early adopters and innovators"
+      ],
+      "keyPoints": [
+        "Segment customers by local characteristics",
+        "Prioritize high-value segments",
+        "Understand cultural differences"
+      ],
+      "metrics": [
+        {
+          "value": "12M",
+          "label": "Target Market Size"
+        },
+        {
+          "value": "3.2M",
+          "label": "Addressable Market"
+        }
+      ]
+    },
+    {
+      "id": "cost-structure",
+      "title": "Cost Structure",
+      "subtitle": "What are the most important costs inherent in your business model?",
+      "icon": "dollar-sign",
+      "color": "bg-orange-100",
+      "iconColor": "text-orange-600",
+      "gridColumn": "span 1",
+      "gridRow": "span 1",
+      "items": [
+        "Market entry and setup costs",
+        "Local team hiring and training",
+        "Regulatory compliance expenses",
+        "Marketing and customer acquisition",
+        "Technology and infrastructure",
+        "Ongoing operational expenses"
+      ],
+      "keyPoints": [
+        "Plan for higher initial costs",
+        "Focus on scalable cost structures",
+        "Monitor cost efficiency metrics"
+      ],
+      "metrics": [
+        {
+          "value": "$2.5M",
+          "label": "Initial Investment"
+        },
+        {
+          "value": "18%",
+          "label": "Operating Margin"
+        }
+      ]
+    },
+    {
+      "id": "revenue-streams",
+      "title": "Revenue Streams",
+      "subtitle": "For what value are customers really willing to pay?",
+      "icon": "trending-up",
+      "color": "bg-emerald-100",
+      "iconColor": "text-emerald-600",
+      "gridColumn": "span 1",
+      "gridRow": "span 1",
+      "items": [
+        "Product sales and licensing",
+        "Subscription and recurring revenue",
+        "Service and consulting fees",
+        "Transaction and commission fees",
+        "Advertising and sponsorship revenue",
+        "Partner and affiliate commissions"
+      ],
+      "keyPoints": [
+        "Diversify revenue sources",
+        "Adapt pricing to local markets",
+        "Focus on recurring revenue"
+      ],
+      "metrics": [
+        {
+          "value": "$8.2M",
+          "label": "Projected Revenue"
+        },
+        {
+          "value": "65%",
+          "label": "Recurring Revenue"
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "title": "Business Model Canvas Framework",
+    "description": "This canvas provides a strategic framework for planning your global expansion. Review and update regularly as you learn more about your target markets.",
+    "lastUpdated": "2025-01-18"
+  }
+}

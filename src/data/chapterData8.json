@@ -1,40 +1,40 @@
 
 {
   "emailColumn": {
-    "title": "Email Templates - Chapter 8",
+    "title": "Email Templates - Chapter 13",
     "authorInfo": {
       "title": "About the Author",
-      "description": "Sophie Brown specializes in social media automation and community management with focus on engagement optimization and viral content creation."
+      "description": "Dr. Sarah Kim specializes in data analytics and business intelligence with focus on predictive modeling and decision support systems."
     },
     "materialsUsed": [
-      "Vaynerchuk, G. (2018). Crushing It!. Harper Business.",
-      "Schaefer, M. (2014). Social Media Explained. Mark W Schaefer.",
-      "Miller, M. (2019). The Ultimate Web Marketing Guide. Que Publishing.",
-      "Social Media Today (2023). \"Automation vs Authenticity\" - Digital Engagement Quarterly."
+      "Provost, F. (2013). Data Science for Business. O'Reilly Media.",
+      "Davenport, T. (2017). Competing on Analytics. Harvard Business Press.",
+      "Kimball, R. (2013). The Data Warehouse Toolkit. Wiley.",
+      "MIT Technology Review (2023). \"AI in Business Decision Making\" - Data Science Quarterly."
     ],
     "keyTakeaways": {
       "title": "Key Takeaways",
-      "description": "Social media automation should enhance, not replace, authentic human connection. Balance efficiency with genuine engagement to build meaningful communities."
+      "description": "Data-driven decision making requires quality data, proper analysis tools, and organizational commitment to evidence-based strategies."
     }
   },
   "emails": [
     {
       "id": "1",
-      "sender": "Sophie Brown",
-      "date": "5 days ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-8.png",
-      "subject": "Social Media Automation That Feels Personal and Authentic",
-      "preview": "Hi Social Media Manager, discover how to scale your social presence with smart automation while maintaining the personal touch that builds loyal communities...",
+      "sender": "Sarah Kim",
+      "date": "2 days ago",
+      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-3.png",
+      "subject": "Data Analytics Mastery: Turn Data into Competitive Advantage",
+      "preview": "Dear Data Professional, transforming raw data into actionable insights is the key to staying competitive in today's market. Discover advanced analytics techniques...",
       "signature": {
-        "name": "Sophie Brown",
-        "title": "Social Media Automation Expert",
-        "company": "EngageFlow Systems"
+        "name": "Sarah Kim",
+        "title": "Data Analytics Director",
+        "company": "InsightDriven Analytics"
       },
-      "meta": "Template • Social Media",
-      "likes": 41,
+      "meta": "Template • Analytics",
+      "likes": 81,
       "highlight": {
-        "title": "Authentic Automation",
-        "description": "Smart automation tools with personality preservation and community engagement strategies"
+        "title": "Advanced Analytics Framework",
+        "description": "Comprehensive data strategy with predictive modeling and real-time business intelligence dashboards"
       }
     }
   ]

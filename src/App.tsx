@@ -13,6 +13,7 @@ import Articles from "./pages/Articles";
 import Videos from "./pages/Videos";
 import Index from "./pages/Index";
 import Auth from "./pages/Auth";
+import Questionnaire from "./pages/QuestionnairePage";
 import ProtectedRoute from "./components/ProtectedRoute";
 
 const queryClient = new QueryClient();
@@ -44,6 +45,11 @@ export default function App() {
                         <Gallery />
                       </ProtectedRoute>
                     } />
+                    <Route path="/questionnaire" element={
+                      <ProtectedRoute>
+                        <Questionnaire />
+                      </ProtectedRoute>
+                    } />                    
                     <Route path="/articles" element={
                       <ProtectedRoute>
                         <Articles />

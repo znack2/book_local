@@ -20,7 +20,7 @@ const GalleryModal = ({ isOpen, onClose }: GalleryModalProps) => {
           <DialogTitle style={{ color: "#5a4f3f" }}>Business Model Canvas - All Chapters</DialogTitle>
         </DialogHeader>
         <div className="w-full h-full overflow-auto">
-          <BusinessCanvas isEditable={true} canvasId="gallery" />
+          <BusinessCanvas isEditable={true} hideButtons={false} canvasId="gallery" />
         </div>
       </DialogContent>
     </Dialog>

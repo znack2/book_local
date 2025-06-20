@@ -1,40 +1,40 @@
 
 {
   "emailColumn": {
-    "title": "Email Templates - Chapter 4",
+    "title": "Email Templates - Chapter 13",
     "authorInfo": {
       "title": "About the Author",
-      "description": "Prof. James Thompson focuses on digital marketing automation and customer journey optimization with expertise in multi-channel campaign management."
+      "description": "Dr. Sarah Kim specializes in data analytics and business intelligence with focus on predictive modeling and decision support systems."
     },
     "materialsUsed": [
-      "Kotler, P. (2020). Marketing 5.0. Wiley.",
-      "Ryan, D. (2018). Digital Marketing Strategy. Kogan Page.",
-      "Chaffey, D. (2019). Digital Marketing Excellence. Routledge.",
-      "Digital Marketing Institute (2022). \"Automation Best Practices\" - Marketing Technology Review."
+      "Provost, F. (2013). Data Science for Business. O'Reilly Media.",
+      "Davenport, T. (2017). Competing on Analytics. Harvard Business Press.",
+      "Kimball, R. (2013). The Data Warehouse Toolkit. Wiley.",
+      "MIT Technology Review (2023). \"AI in Business Decision Making\" - Data Science Quarterly."
     ],
     "keyTakeaways": {
       "title": "Key Takeaways",
-      "description": "Marketing automation drives efficiency and personalization at scale. Focus on customer segmentation, behavioral triggers, and continuous optimization of your automated workflows."
+      "description": "Data-driven decision making requires quality data, proper analysis tools, and organizational commitment to evidence-based strategies."
     }
   },
   "emails": [
     {
       "id": "1",
-      "sender": "Lisa Wang",
-      "date": "4 hours ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-4.png",
-      "subject": "Automated Marketing Sequences That Convert 40% Better",
-      "preview": "Hi Marketing Professional, discover the power of intelligent automation sequences that adapt to customer behavior and drive unprecedented conversion rates...",
+      "sender": "Sarah Kim",
+      "date": "2 days ago",
+      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-3.png",
+      "subject": "Data Analytics Mastery: Turn Data into Competitive Advantage",
+      "preview": "Dear Data Professional, transforming raw data into actionable insights is the key to staying competitive in today's market. Discover advanced analytics techniques...",
       "signature": {
-        "name": "Lisa Wang",
-        "title": "Marketing Automation Specialist",
-        "company": "ConvertFlow Solutions"
+        "name": "Sarah Kim",
+        "title": "Data Analytics Director",
+        "company": "InsightDriven Analytics"
       },
-      "meta": "Template • Automation",
-      "likes": 45,
+      "meta": "Template • Analytics",
+      "likes": 81,
       "highlight": {
-        "title": "Conversion Optimization",
-        "description": "Advanced automation sequences with behavioral triggers and A/B testing for maximum performance"
+        "title": "Advanced Analytics Framework",
+        "description": "Comprehensive data strategy with predictive modeling and real-time business intelligence dashboards"
       }
     }
   ]

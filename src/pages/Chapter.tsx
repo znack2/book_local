@@ -1,17 +1,16 @@
-
 import React, { useState, useEffect } from 'react';
+import { ArrowLeft, HelpCircle, Eye, EyeOff, Grid3X3 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
-import { ArrowLeft, HelpCircle, Eye, EyeOff, Grid3X3 } from 'lucide-react';
-import PageLayout from './PageLayout';
-import EmailColumn from './EmailColumn';
-import EmailHighlights from './EmailHighlights';
-import CanvasColumn from './CanvasColumn';
-import CanvasHelpModal from './CanvasHelpModal';
-import LoadingScreen from './LoadingScreen';
+import PageLayout from '@/components/PageLayout';
+import EmailColumn from '@/components/EmailColumn';
+import EmailHighlights from '@/components/EmailHighlights';
+import CanvasColumn from '@/components/CanvasColumn';
+import CanvasHelpModal from '@/components/CanvasHelpModal';
+import LoadingScreen from '@/components/LoadingScreen';
 import galleryData from '../data/galleryData.json';
 
-const VanillaApp: React.FC = () => {
+const Chapter: React.FC = () => {
   const [showEmails, setShowEmails] = useState(true);
   const [showCanvas, setShowCanvas] = useState(true);
   const [isHelpModalOpen, setIsHelpModalOpen] = useState(false);
@@ -62,9 +61,9 @@ const VanillaApp: React.FC = () => {
   return (
     <div className="w-full h-screen overflow-auto">
       <PageLayout
-        id={canvasId}
-        title={currentBook.title}
-        subtitle="Design your business model"
+        currentChapterId={currentBook.id}
+        title={`Chapter #${currentBook.id} - ${currentBook.title}`}
+        subtitle=""
         activeItem="Business Canvas"
         showBackButton={true}
         showSidebarCard={true}
@@ -226,4 +225,4 @@ const VanillaApp: React.FC = () => {
   );
 };
 
-export default VanillaApp;
+export default Chapter;

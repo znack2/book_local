@@ -1,40 +1,39 @@
 
 {
   "emailColumn": {
-    "title": "Email Templates - Chapter 10",
     "authorInfo": {
       "title": "About the Author",
-      "description": "Dr. Michael Anderson specializes in financial planning and investment strategies for startups and growing businesses."
+      "description": "Dr. Sarah Kim specializes in data analytics and business intelligence with focus on predictive modeling and decision support systems."
     },
     "materialsUsed": [
-      "Graham, B. (2006). The Intelligent Investor. Harper Business.",
-      "Buffett, W. (2008). The Essays of Warren Buffett. The Cunningham Group.",
-      "Damodaran, A. (2012). Investment Valuation. Wiley Finance.",
-      "Journal of Financial Planning (2023). \"Startup Investment Strategies\" - Financial Management Review."
+      "Provost, F. (2013). Data Science for Business. O'Reilly Media.",
+      "Davenport, T. (2017). Competing on Analytics. Harvard Business Press.",
+      "Kimball, R. (2013). The Data Warehouse Toolkit. Wiley.",
+      "MIT Technology Review (2023). \"AI in Business Decision Making\" - Data Science Quarterly."
     ],
     "keyTakeaways": {
       "title": "Key Takeaways",
-      "description": "Sound financial planning combines risk management with growth opportunities. Diversify investments and maintain adequate cash reserves for business sustainability."
+      "description": "Data-driven decision making requires quality data, proper analysis tools, and organizational commitment to evidence-based strategies."
     }
   },
   "emails": [
     {
       "id": "1",
-      "sender": "Michael Anderson",
-      "date": "1 week ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-10.png",
-      "subject": "Financial Planning Blueprint for Business Growth and Sustainability",
-      "preview": "Dear Business Owner, effective financial planning is the foundation of sustainable growth. Learn how to optimize cash flow, manage risks, and plan for future investments...",
+      "sender": "Sarah Kim",
+      "date": "2 days ago",
+      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-3.png",
+      "subject": "Data Analytics Mastery: Turn Data into Competitive Advantage",
+      "preview": "Dear Data Professional, transforming raw data into actionable insights is the key to staying competitive in today's market. Discover advanced analytics techniques...",
       "signature": {
-        "name": "Michael Anderson",
-        "title": "Financial Planning Advisor",
-        "company": "WealthGrow Consulting"
+        "name": "Sarah Kim",
+        "title": "Data Analytics Director",
+        "company": "InsightDriven Analytics"
       },
-      "meta": "Template • Finance",
-      "likes": 59,
+      "meta": "Template • Analytics",
+      "likes": 81,
       "highlight": {
-        "title": "Financial Growth Strategy",
-        "description": "Comprehensive financial planning with cash flow optimization and investment portfolio management"
+        "title": "Advanced Analytics Framework",
+        "description": "Comprehensive data strategy with predictive modeling and real-time business intelligence dashboards"
       }
     }
   ]

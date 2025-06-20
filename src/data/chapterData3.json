@@ -1,40 +1,40 @@
 
 {
   "emailColumn": {
-    "title": "Email Templates - Chapter 3",
+    "title": "Email Templates - Chapter 13",
     "authorInfo": {
       "title": "About the Author",
-      "description": "Dr. Maria Gonzalez specializes in international business expansion and cross-cultural communication strategies with over 12 years of experience in global market penetration."
+      "description": "Dr. Sarah Kim specializes in data analytics and business intelligence with focus on predictive modeling and decision support systems."
     },
     "materialsUsed": [
-      "Porter, M. (2008). Competitive Strategy. Free Press.",
-      "Hofstede, G. (2010). Cultures and Organizations. McGraw-Hill.",
-      "Trompenaars, F. (2012). Riding the Waves of Culture. Nicholas Brealey.",
-      "International Business Review (2021). \"Global Expansion Strategies\" - Cross-Cultural Management Journal."
+      "Provost, F. (2013). Data Science for Business. O'Reilly Media.",
+      "Davenport, T. (2017). Competing on Analytics. Harvard Business Press.",
+      "Kimball, R. (2013). The Data Warehouse Toolkit. Wiley.",
+      "MIT Technology Review (2023). \"AI in Business Decision Making\" - Data Science Quarterly."
     ],
     "keyTakeaways": {
       "title": "Key Takeaways",
-      "description": "Successful global expansion requires deep understanding of local markets, cultural nuances, and regulatory environments. Focus on building strategic partnerships and adapting your value proposition to local needs."
+      "description": "Data-driven decision making requires quality data, proper analysis tools, and organizational commitment to evidence-based strategies."
     }
   },
   "emails": [
     {
       "id": "1",
-      "sender": "Carlos Martinez",
-      "date": "1 day ago",
+      "sender": "Sarah Kim",
+      "date": "2 days ago",
       "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-3.png",
-      "subject": "Global Market Entry Strategy - Your Complete Guide",
-      "preview": "Dear Global Entrepreneur, expanding into international markets requires careful planning and strategic execution. This comprehensive guide covers market research, regulatory compliance, cultural adaptation, and partnership strategies...",
+      "subject": "Data Analytics Mastery: Turn Data into Competitive Advantage",
+      "preview": "Dear Data Professional, transforming raw data into actionable insights is the key to staying competitive in today's market. Discover advanced analytics techniques...",
       "signature": {
-        "name": "Carlos Martinez",
-        "title": "International Business Consultant",
-        "company": "Global Expansion Partners"
+        "name": "Sarah Kim",
+        "title": "Data Analytics Director",
+        "company": "InsightDriven Analytics"
       },
-      "meta": "Template • Strategy",
-      "likes": 32,
+      "meta": "Template • Analytics",
+      "likes": 81,
       "highlight": {
-        "title": "Market Entry Strategy",
-        "description": "Complete framework for international expansion with risk assessment and cultural adaptation strategies"
+        "title": "Advanced Analytics Framework",
+        "description": "Comprehensive data strategy with predictive modeling and real-time business intelligence dashboards"
       }
     }
   ]

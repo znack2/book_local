@@ -1,40 +1,40 @@
 
 {
   "emailColumn": {
-    "title": "Email Templates - Chapter 6",
+    "title": "Email Templates - Chapter 13",
     "authorInfo": {
       "title": "About the Author",
-      "description": "Michelle Rodriguez is a sales funnel optimization expert with extensive experience in conversion rate optimization and revenue growth strategies."
+      "description": "Dr. Sarah Kim specializes in data analytics and business intelligence with focus on predictive modeling and decision support systems."
     },
     "materialsUsed": [
-      "Brunson, R. (2017). DotCom Secrets. Hay House Business.",
-      "Kennedy, D. (2013). No B.S. Direct Marketing. Entrepreneur Press.",
-      "Hopkins, C. (1923). Scientific Advertising. Crown Business.",
-      "Conversion Rate Optimization Journal (2023). \"Funnel Psychology\" - Sales Performance Review."
+      "Provost, F. (2013). Data Science for Business. O'Reilly Media.",
+      "Davenport, T. (2017). Competing on Analytics. Harvard Business Press.",
+      "Kimball, R. (2013). The Data Warehouse Toolkit. Wiley.",
+      "MIT Technology Review (2023). \"AI in Business Decision Making\" - Data Science Quarterly."
     ],
     "keyTakeaways": {
       "title": "Key Takeaways",
-      "description": "Effective sales funnels guide prospects through a logical sequence of value-building steps. Focus on removing friction and addressing objections at each stage."
+      "description": "Data-driven decision making requires quality data, proper analysis tools, and organizational commitment to evidence-based strategies."
     }
   },
   "emails": [
     {
       "id": "1",
-      "sender": "Michelle Rodriguez",
-      "date": "1 week ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-6.png",
-      "subject": "Sales Funnel Blueprint: From Lead to Customer in 7 Steps",
-      "preview": "Dear Sales Professional, discover the exact 7-step blueprint that converts cold leads into paying customers with our proven funnel optimization strategies...",
+      "sender": "Sarah Kim",
+      "date": "2 days ago",
+      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-3.png",
+      "subject": "Data Analytics Mastery: Turn Data into Competitive Advantage",
+      "preview": "Dear Data Professional, transforming raw data into actionable insights is the key to staying competitive in today's market. Discover advanced analytics techniques...",
       "signature": {
-        "name": "Michelle Rodriguez",
-        "title": "Funnel Optimization Expert",
-        "company": "ConversionLab Pro"
+        "name": "Sarah Kim",
+        "title": "Data Analytics Director",
+        "company": "InsightDriven Analytics"
       },
-      "meta": "Template • Sales",
-      "likes": 67,
+      "meta": "Template • Analytics",
+      "likes": 81,
       "highlight": {
-        "title": "7-Step Conversion Blueprint",
-        "description": "Complete sales funnel framework with psychological triggers and conversion optimization techniques"
+        "title": "Advanced Analytics Framework",
+        "description": "Comprehensive data strategy with predictive modeling and real-time business intelligence dashboards"
       }
     }
   ]

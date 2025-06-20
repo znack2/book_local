@@ -7,7 +7,7 @@ import Sidebar from './Sidebar';
 import Header from './Header';
 
 interface PageLayoutProps {
-  id: number;
+  currentChapterId: number;
   title: string;
   subtitle: string;
   activeItem?: string;
@@ -15,11 +15,13 @@ interface PageLayoutProps {
   children: React.ReactNode;
   showBackButton?: boolean;
   showSidebarCard?: boolean;
+  showHeader?: boolean;
+  showSidebar?: boolean;
   showLogoutInHeader?: boolean;
 }
 
 const PageLayout = ({ 
-  id,
+  currentChapterId,
   title, 
   subtitle, 
   activeItem = "Email Templates", 
@@ -27,6 +29,8 @@ const PageLayout = ({
   children,
   showBackButton = false,
   showSidebarCard = false,
+  showHeader = true,
+  showSidebar = true,
   showLogoutInHeader = true
 }: PageLayoutProps) => {
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
@@ -58,8 +62,9 @@ const PageLayout = ({
       fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, sans-serif'
     }}>
       {/* Sidebar - Show/hide based on collapsed state, even on mobile */}
-      {(!isMobile || !sidebarCollapsed) && (
+      {(!isMobile || !sidebarCollapsed) && showSidebar && (
         <Sidebar 
+          currentChapterId={currentChapterId}
           collapsed={sidebarCollapsed} 
           onToggleCollapse={handleSidebarToggle}
           activeItem={activeItem}
@@ -80,15 +85,15 @@ const PageLayout = ({
       )}
       
       <div className="flex-1 flex flex-col overflow-hidden">
-        <Header 
-          id={id}
+        {showHeader && (<Header 
+          currentChapterId={currentChapterId}
           title={title} 
           subtitle={subtitle}
           showBackButton={showBackButton}
           showLogoutInHeader={showLogoutInHeader}
         >
           {headerActions}
-        </Header>
+        </Header>)}
         
         <div className="flex-1 overflow-hidden">
           {children}

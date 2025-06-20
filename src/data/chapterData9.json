@@ -1,40 +1,40 @@
 
 {
   "emailColumn": {
-    "title": "Email Templates - Chapter 9",
+    "title": "Email Templates - Chapter 13",
     "authorInfo": {
       "title": "About the Author",
-      "description": "Jessica Park is a digital transformation consultant specializing in organizational change management and technology adoption strategies."
+      "description": "Dr. Sarah Kim specializes in data analytics and business intelligence with focus on predictive modeling and decision support systems."
     },
     "materialsUsed": [
-      "Kotter, J. (2012). Leading Change. Harvard Business Review Press.",
-      "Rogers, E. (2003). Diffusion of Innovations. Free Press.",
-      "Westerman, G. (2014). Leading Digital. Harvard Business Review Press.",
-      "MIT Sloan Management Review (2023). \"Digital Transformation Success\" - Technology Management Quarterly."
+      "Provost, F. (2013). Data Science for Business. O'Reilly Media.",
+      "Davenport, T. (2017). Competing on Analytics. Harvard Business Press.",
+      "Kimball, R. (2013). The Data Warehouse Toolkit. Wiley.",
+      "MIT Technology Review (2023). \"AI in Business Decision Making\" - Data Science Quarterly."
     ],
     "keyTakeaways": {
       "title": "Key Takeaways",
-      "description": "Digital transformation requires strong leadership, clear vision, and employee buy-in. Focus on change management and continuous learning to ensure successful technology adoption."
+      "description": "Data-driven decision making requires quality data, proper analysis tools, and organizational commitment to evidence-based strategies."
     }
   },
   "emails": [
     {
       "id": "1",
-      "sender": "Jessica Park",
-      "date": "6 days ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-9.png",
-      "subject": "Digital Transformation Roadmap: From Legacy to Leading Edge",
-      "preview": "Dear Technology Leader, digital transformation is more than just adopting new tools—it's about fundamentally changing how your organization operates and delivers value...",
+      "sender": "Sarah Kim",
+      "date": "2 days ago",
+      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-3.png",
+      "subject": "Data Analytics Mastery: Turn Data into Competitive Advantage",
+      "preview": "Dear Data Professional, transforming raw data into actionable insights is the key to staying competitive in today's market. Discover advanced analytics techniques...",
       "signature": {
-        "name": "Jessica Park",
-        "title": "Digital Transformation Consultant",
-        "company": "FutureTech Solutions"
+        "name": "Sarah Kim",
+        "title": "Data Analytics Director",
+        "company": "InsightDriven Analytics"
       },
-      "meta": "Template • Technology",
-      "likes": 73,
+      "meta": "Template • Analytics",
+      "likes": 81,
       "highlight": {
-        "title": "Digital Transformation Framework",
-        "description": "Complete roadmap with change management strategies and technology adoption best practices"
+        "title": "Advanced Analytics Framework",
+        "description": "Comprehensive data strategy with predictive modeling and real-time business intelligence dashboards"
       }
     }
   ]

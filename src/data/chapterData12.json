@@ -1,40 +1,40 @@
 
 {
   "emailColumn": {
-    "title": "Email Templates - Chapter 12",
+    "title": "Email Templates - Chapter 13",
     "authorInfo": {
       "title": "About the Author",
-      "description": "James Wilson is a supply chain management expert with extensive experience in logistics optimization and vendor relationship management."
+      "description": "Dr. Sarah Kim specializes in data analytics and business intelligence with focus on predictive modeling and decision support systems."
     },
     "materialsUsed": [
-      "Chopra, S. (2015). Supply Chain Management. Pearson.",
-      "Christopher, M. (2016). Logistics & Supply Chain Management. Pearson.",
-      "Simchi-Levi, D. (2008). Designing and Managing the Supply Chain. McGraw-Hill.",
-      "Supply Chain Management Review (2023). \"Digital Supply Chains\" - Logistics Technology Journal."
+      "Provost, F. (2013). Data Science for Business. O'Reilly Media.",
+      "Davenport, T. (2017). Competing on Analytics. Harvard Business Press.",
+      "Kimball, R. (2013). The Data Warehouse Toolkit. Wiley.",
+      "MIT Technology Review (2023). \"AI in Business Decision Making\" - Data Science Quarterly."
     ],
     "keyTakeaways": {
       "title": "Key Takeaways",
-      "description": "Efficient supply chain management requires visibility, flexibility, and strong partnerships. Leverage technology for optimization and risk mitigation."
+      "description": "Data-driven decision making requires quality data, proper analysis tools, and organizational commitment to evidence-based strategies."
     }
   },
   "emails": [
     {
       "id": "1",
-      "sender": "James Wilson",
-      "date": "3 days ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-2.png",
-      "subject": "Supply Chain Optimization: Reduce Costs and Improve Efficiency",
-      "preview": "Dear Operations Manager, optimizing your supply chain can significantly reduce costs while improving customer satisfaction. Learn proven strategies for logistics excellence...",
+      "sender": "Sarah Kim",
+      "date": "2 days ago",
+      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-3.png",
+      "subject": "Data Analytics Mastery: Turn Data into Competitive Advantage",
+      "preview": "Dear Data Professional, transforming raw data into actionable insights is the key to staying competitive in today's market. Discover advanced analytics techniques...",
       "signature": {
-        "name": "James Wilson",
-        "title": "Supply Chain Consultant",
-        "company": "LogisticsMax Solutions"
+        "name": "Sarah Kim",
+        "title": "Data Analytics Director",
+        "company": "InsightDriven Analytics"
       },
-      "meta": "Template • Operations",
-      "likes": 38,
+      "meta": "Template • Analytics",
+      "likes": 81,
       "highlight": {
-        "title": "Supply Chain Excellence",
-        "description": "End-to-end optimization with vendor management and logistics automation for maximum efficiency"
+        "title": "Advanced Analytics Framework",
+        "description": "Comprehensive data strategy with predictive modeling and real-time business intelligence dashboards"
       }
     }
   ]

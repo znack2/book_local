@@ -23,6 +23,34 @@ import chapterData17 from '../data/chapterData17.json';
 import chapterData18 from '../data/chapterData18.json';
 import chapterData19 from '../data/chapterData19.json';
 import chapterData20 from '../data/chapterData20.json';
+import chapterData21 from '../data/chapterData21.json';
+import chapterData22 from '../data/chapterData22.json';
+import chapterData23 from '../data/chapterData23.json';
+import chapterData24 from '../data/chapterData24.json';
+import chapterData25 from '../data/chapterData25.json';
+import chapterData26 from '../data/chapterData26.json';
+import chapterData27 from '../data/chapterData27.json';
+import chapterData28 from '../data/chapterData28.json';
+import chapterData29 from '../data/chapterData29.json';
+import chapterData30 from '../data/chapterData30.json';
+import chapterData31 from '../data/chapterData31.json';
+import chapterData32 from '../data/chapterData32.json';
+import chapterData33 from '../data/chapterData33.json';
+import chapterData34 from '../data/chapterData34.json';
+import chapterData35 from '../data/chapterData35.json';
+import chapterData36 from '../data/chapterData36.json';
+import chapterData37 from '../data/chapterData37.json';
+import chapterData38 from '../data/chapterData38.json';
+import chapterData39 from '../data/chapterData39.json';
+import chapterData40 from '../data/chapterData40.json';
+import chapterData41 from '../data/chapterData41.json';
+import chapterData42 from '../data/chapterData42.json';
+import chapterData43 from '../data/chapterData43.json';
+import chapterData44 from '../data/chapterData44.json';
+import chapterData45 from '../data/chapterData45.json';
+import chapterData46 from '../data/chapterData46.json';
+import chapterData47 from '../data/chapterData47.json';
+import chapterData48 from '../data/chapterData48.json';
 
 interface EmailColumnProps {
   showEmailToggle?: boolean;
@@ -62,82 +90,116 @@ const EmailColumn: React.FC<EmailColumnProps> = ({
       '18': chapterData18,
       '19': chapterData19,
       '20': chapterData20,
+      '21': chapterData21,
+      '22': chapterData22,
+      '23': chapterData23,
+      '24': chapterData24,
+      '25': chapterData25,
+      '26': chapterData26,
+      '27': chapterData27,
+      '28': chapterData28,
+      '29': chapterData29,
+      '30': chapterData30,
+      '31': chapterData31,
+      '32': chapterData32,
+      '33': chapterData33,
+      '34': chapterData34,
+      '35': chapterData35,
+      '36': chapterData36,
+      '37': chapterData37,
+      '38': chapterData38,
+      '39': chapterData39,
+      '40': chapterData40,
+      '41': chapterData41,
+      '42': chapterData42,
+      '43': chapterData43,
+      '44': chapterData44,
+      '45': chapterData45,
+      '46': chapterData46,
+      '47': chapterData47,
+      '48': chapterData48
     };
-
-    const chapterNum = parseInt(chapterId);
-    let baseData = chapterMap[chapterId];
     
-    if (!baseData) {
-      // For chapters 21-48, cycle through existing data with modified titles and content
-      const cycleIndex = ((chapterNum - 1) % 20) + 1;
-      baseData = chapterMap[cycleIndex.toString()] || chapterData1;
-      
-      // Generate unique content for chapters 21-48
-      const topics = [
-        'Risk Management', 'Quality Assurance', 'Project Management', 'Leadership Development',
-        'Change Management', 'Performance Optimization', 'Team Building', 'Process Improvement',
-        'Competitive Analysis', 'Market Research', 'Brand Development', 'Product Strategy',
-        'Operational Excellence', 'Crisis Management', 'Stakeholder Management', 'Agile Methodology',
-        'Digital Marketing', 'Customer Analytics', 'Revenue Optimization', 'Strategic Planning',
-        'Innovation Culture', 'Technology Integration', 'Vendor Management', 'Compliance Strategy',
-        'Growth Hacking', 'Business Intelligence', 'Merger & Acquisition', 'International Expansion'
-      ];
-      
-      const topicIndex = (chapterNum - 21) % topics.length;
-      const topic = topics[topicIndex];
-      
-      // Generate avatar with Twicpics from local folder
-      const avatarIndex = ((chapterNum - 21) % 10) + 1;
-      const avatarUrl = `https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-${avatarIndex}.png?twic=v1/resize=40x40/cover`;
-      
-      baseData = {
-        ...baseData,
-        emailColumn: {
-          ...baseData.emailColumn,
-          title: `Email Templates - Chapter ${chapterNum}`,
-          authorInfo: {
-            title: "About the Author",
-            description: `Expert in ${topic.toLowerCase()} with extensive experience in strategic implementation and organizational transformation.`
-          },
-          keyTakeaways: {
-            title: "Key Takeaways",
-            description: `${topic} requires systematic approach and continuous improvement. Focus on best practices and measurable outcomes for sustained success.`
-          }
-        },
-        emails: baseData.emails.map((email: any) => ({
-          ...email,
-          avatar: avatarUrl,
-          subject: `${topic} Excellence: Strategic Implementation Guide`,
-          preview: `Dear Professional, mastering ${topic.toLowerCase()} is crucial for organizational success. Learn proven strategies and frameworks...`,
-          meta: `Template • ${topic}`,
-          highlight: {
-            title: `${topic} Framework`,
-            description: `Comprehensive approach to ${topic.toLowerCase()} with implementation strategies and performance metrics`
-          }
-        }))
-      };
-    } else {
-      // For chapters 1-20, update avatars to use Twicpics
-      baseData = {
-        ...baseData,
-        emails: baseData.emails.map((email: any, index: number) => ({
-          ...email,
-          avatar: `https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-${((parseInt(chapterId) - 1 + index) % 10) + 1}.png?twic=v1/resize=40x40/cover`
-        }))
-      };
-    }
-
-    return baseData;
+    return chapterMap[chapterId];
   };
 
   const chapterData = getChapterData();
+
+  function formatBoldText(text) {
+    return text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+  }
+
+  const EmailStructured = (email, chapterId ) => {
+
+    return (
+      <div className="overflow-hidden shadow-sm mb-4">
+        {/* Email Body */}
+        <div className="p-4">
+          <div className="text-sm text-gray-800 space-y-3">
+                     <div className="flex items-center gap-3 mb-3">
+                      <Avatar className="w-8 h-8">
+                        <img 
+                          src={`https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-${chapterId}.png`}
+                          className="aspect-square h-full w-full rounded-full object-cover"
+                        />
+            {/*            <AvatarFallback className="text-xs bg-amber-200 text-amber-800">
+                          {email.sender.split(' ').map(n => n[0]).join('')}
+                        </AvatarFallback>*/}
+                      </Avatar>
+                      <div className="flex-1">
+                        <div className="flex justify-between items-start mb-1">
+                          <h4 className="font-medium text-black-900 text-sm">{email.subject}</h4>
+                     {/*     <span className="text-xs text-amber-700 bg-amber-100 px-2 py-1 rounded">
+                            {email.meta}
+                          </span>*/}
+                        </div>
+                        <div className="text-xs text-black-600">
+                          {/*<span>{email.sender}</span>*/}
+                          <span className="ml-2">{email.date}</span>
+                        </div>
+                      </div>
+                    </div>
+                                {/* Greeting */}
+            {email.greeting && (
+              <p className="text-black-800">{email.greeting}</p>
+            )}
+                      {/* Body paragraphs */}
+                      <div 
+                        className="text-xs text-black-800 leading-relaxed whitespace-pre-line"
+                        dangerouslySetInnerHTML={{ __html: formatBoldText(email.body) }}
+                      />
+                      {/* Call to action */}
+{/*                      {email.cta && (
+                        <div className="p-3 my-4">
+                          <a href={email.cta.link} className="font-medium text-center">
+                            {email.cta.message}
+                          </a>
+                        </div>
+                      )}*/}
+
+                    <div className="text-xs text-black-700 italic" style={{
+                      textAlign: 'end'
+                    }}>
+                      Best regards,<br/>
+                      {email.signature.name}<br/>
+                      {email.signature.title}<br/>
+                      {email.signature.company}
+                    </div>
+          </div>
+        </div>
+      </div>
+    );
+  };
 
   return (
     <div className={`flex flex-col h-full overflow-hidden transition-all duration-300 ${isVisible ? 'w-full opacity-100' : 'w-0 opacity-0'}`}>
       {isVisible && (
         <>
-          <div className="p-3 bg-white/50 border-b border-amber-200/30 flex justify-between items-center flex-shrink-0">
-            <h3 className="text-amber-900 text-sm font-semibold">{chapterData.emailColumn.title}</h3>
+          <div className="p-3 bg-white/50 border-b border-amber-200/30 flex justify-between items-center flex-shrink-0" style={{
+            height: '60px',
+            backgroundColor: 'rgb(239 232 214)',
+            borderBottom: '1px solid white'
+          }}>
             {showEmailToggle && onEmailToggle && (
               <Button
                 variant="outline"
@@ -158,11 +220,14 @@ const EmailColumn: React.FC<EmailColumnProps> = ({
           <div className="flex-1 overflow-y-auto">
             <div className="p-4">
               {/* Author Info Section */}
-              <div className="mb-4">
-                <h4 className="text-amber-900 font-semibold text-sm mb-2">
+              <div className="p-4 mb-4">
+                <h4 className="text-black-900 font-semibold text-sm mb-2">
                   {chapterData.emailColumn.authorInfo.title}
                 </h4>
-                <p className="text-amber-800 text-xs leading-relaxed">
+                <p className="text-black-800 leading-relaxed" style={{
+                  margin: '10px',
+                  fontStyle: ' italic'
+                }}>
                   {chapterData.emailColumn.authorInfo.description}
                 </p>
               </div>
@@ -181,40 +246,11 @@ const EmailColumn: React.FC<EmailColumnProps> = ({
                       animationDelay: animateEmails ? `${index * 200}ms` : '0ms'
                     }}
                   >
-                    <div className="flex items-center gap-3 mb-3">
-                      <Avatar className="w-8 h-8">
-                        <img 
-                          src={`https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-${chapterId}.png`}
-                          className="aspect-square h-full w-full rounded-full object-cover"
-                        />
-                        <AvatarFallback className="text-xs bg-amber-200 text-amber-800">
-                          {email.sender.split(' ').map(n => n[0]).join('')}
-                        </AvatarFallback>
-                      </Avatar>
-                      <div className="flex-1">
-                        <div className="flex justify-between items-start mb-1">
-                          <h4 className="font-medium text-amber-900 text-sm">{email.subject}</h4>
-                          <span className="text-xs text-amber-700 bg-amber-100 px-2 py-1 rounded">
-                            {email.meta}
-                          </span>
-                        </div>
-                        <div className="text-xs text-amber-600">
-                          <span>{email.sender}</span>
-                          <span className="ml-2">{email.date}</span>
-                        </div>
-                      </div>
-                    </div>
-                    <p className="text-xs text-amber-800 mb-3 ml-11">{email.preview}</p>
-                    <div className="ml-11 text-xs text-amber-700 italic">
-                      Best regards,<br/>
-                      {email.signature.name}<br/>
-                      {email.signature.title}<br/>
-                      {email.signature.company}
-                    </div>
+                  {email && EmailStructured(email, chapterId)}
                     {email.highlight && (
-                      <div className="ml-11 mt-2 p-2 bg-amber-50 rounded text-xs">
-                        <div className="font-medium text-amber-900">{email.highlight.title}</div>
-                        <div className="text-amber-800">{email.highlight.description}</div>
+                      <div className="mt-2 p-4 bg-amber-50 rounded text-xs">
+                        <div className="font-medium text-black-900">{email.highlight.title}</div>
+                        <div className="text-black-800">{email.highlight.description}</div>
                       </div>
                     )}
                   </div>
@@ -222,21 +258,21 @@ const EmailColumn: React.FC<EmailColumnProps> = ({
               </div>
 
               {/* Key Takeaways Section */}
-              <div className="mb-4">
-                <h4 className="text-amber-900 font-semibold text-sm mb-2">
+              <div className="p-4 mb-4">
+                <h4 className="text-black-900 font-semibold text-sm mb-2">
                   {chapterData.emailColumn.keyTakeaways.title}
                 </h4>
-                <p className="text-amber-800 text-xs leading-relaxed">
+                <p className="text-black-800 text-xs leading-relaxed">
                   {chapterData.emailColumn.keyTakeaways.description}
                 </p>
               </div>
 
               {/* Materials Used Section */}
-              <div>
-                <h4 className="text-amber-900 font-semibold text-sm mb-3">Materials Used</h4>
+              <div className="p-4 mb-4">
+                <h4 className="text-black-900 font-semibold text-sm mb-3">Materials Used</h4>
                 <ul className="space-y-2">
                   {chapterData.emailColumn.materialsUsed.map((material, index) => (
-                    <li key={index} className="text-amber-800 text-xs leading-relaxed">
+                    <li key={index} className="text-black-800 text-xs leading-relaxed">
                       • {material}
                     </li>
                   ))}

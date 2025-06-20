@@ -1,40 +1,40 @@
 
 {
   "emailColumn": {
-    "title": "Email Templates - Chapter 7",
+    "title": "Email Templates - Chapter 13",
     "authorInfo": {
       "title": "About the Author",
-      "description": "David Kim is a content marketing strategist with expertise in storytelling, brand voice development, and multi-platform content distribution."
+      "description": "Dr. Sarah Kim specializes in data analytics and business intelligence with focus on predictive modeling and decision support systems."
     },
     "materialsUsed": [
-      "Pulizzi, J. (2014). Epic Content Marketing. McGraw-Hill.",
-      "Handley, A. (2017). Everybody Writes. Wiley.",
-      "Rose, R. (2011). Managing Content Marketing. CMI Press.",
-      "Content Marketing Institute (2023). \"Storytelling in Digital Age\" - Content Strategy Review."
+      "Provost, F. (2013). Data Science for Business. O'Reilly Media.",
+      "Davenport, T. (2017). Competing on Analytics. Harvard Business Press.",
+      "Kimball, R. (2013). The Data Warehouse Toolkit. Wiley.",
+      "MIT Technology Review (2023). \"AI in Business Decision Making\" - Data Science Quarterly."
     ],
     "keyTakeaways": {
       "title": "Key Takeaways",
-      "description": "Effective content marketing builds trust and authority through valuable, consistent storytelling. Focus on audience needs and create content that educates, entertains, or inspires action."
+      "description": "Data-driven decision making requires quality data, proper analysis tools, and organizational commitment to evidence-based strategies."
     }
   },
   "emails": [
     {
       "id": "1",
-      "sender": "David Kim",
-      "date": "3 days ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-7.png",
-      "subject": "Content Strategy That Builds Authority and Drives Sales",
-      "preview": "Dear Content Creator, learn how to develop a content strategy that positions you as an industry authority while systematically nurturing prospects into customers...",
+      "sender": "Sarah Kim",
+      "date": "2 days ago",
+      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-3.png",
+      "subject": "Data Analytics Mastery: Turn Data into Competitive Advantage",
+      "preview": "Dear Data Professional, transforming raw data into actionable insights is the key to staying competitive in today's market. Discover advanced analytics techniques...",
       "signature": {
-        "name": "David Kim",
-        "title": "Content Marketing Strategist",
-        "company": "StoryDriven Marketing"
+        "name": "Sarah Kim",
+        "title": "Data Analytics Director",
+        "company": "InsightDriven Analytics"
       },
-      "meta": "Template • Content",
-      "likes": 54,
+      "meta": "Template • Analytics",
+      "likes": 81,
       "highlight": {
-        "title": "Authority Building Framework",
-        "description": "Complete content strategy with editorial calendars, distribution channels, and performance metrics"
+        "title": "Advanced Analytics Framework",
+        "description": "Comprehensive data strategy with predictive modeling and real-time business intelligence dashboards"
       }
     }
   ]

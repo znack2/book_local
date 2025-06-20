@@ -24,7 +24,7 @@ const Articles = () => {
   return (
     <div className="h-screen flex flex-col overflow-hidden">
       <PageLayout 
-      id="0"
+      currentChapterId="0"
         title="Articles" 
         subtitle="Read our latest articles and insights"
         activeItem="Articles"

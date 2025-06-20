@@ -3,7 +3,6 @@ import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Grid3X3, EyeOff } from 'lucide-react';
 import BusinessCanvas from './BusinessCanvas';
-import vanillaAppData from '../data/vanillaAppData.json';
 
 interface CanvasColumnProps {
   isVisible: boolean;
@@ -22,8 +21,11 @@ const CanvasColumn: React.FC<CanvasColumnProps> = ({
 }) => {
   return (
     <div className="flex flex-col h-full overflow-hidden">
-      <div className="p-3 bg-white/50 border-b border-amber-200/30 flex justify-between items-center flex-shrink-0">
-        <h3 className="text-amber-900 text-sm font-semibold">Business Model Canvas</h3>
+      <div className="p-3 bg-white/50 border-b border-amber-200/30 flex justify-between items-center flex-shrink-0" style={{
+        height: '60px',
+        backgroundColor: 'rgb(239 232 214)',
+        borderBottom: '1px solid white'
+      }}>
         {showCanvasToggle && onCanvasToggle && (
           <Button
             variant="outline"
@@ -40,8 +42,11 @@ const CanvasColumn: React.FC<CanvasColumnProps> = ({
       </div>
       
       {isVisible && (
-        <div className="flex-1 min-h-0 overflow-hidden">
-          <BusinessCanvas isEditable={true} canvasId={canvasId} hideButtons={true} />
+        <div className="flex-1 min-h-0 overflow-hidden" style={{
+          padding: '10px 15px 0 0px',
+          background: '#eadfc5'
+        }}>
+          <BusinessCanvas isEditable={true} canvasId={canvasId} hideButtons={false} />
         </div>
       )}
     </div>
@@ -49,3 +54,6 @@ const CanvasColumn: React.FC<CanvasColumnProps> = ({
 };
 
 export default CanvasColumn;
+
+
+

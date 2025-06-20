@@ -12,6 +12,7 @@ import LockedChapterModal from "@/components/LockedChapterModal";
 import BookmarkIcon from "@/components/BookmarkIcon";
 import { useAuth } from "@/contexts/AuthContext";
 import galleryData from '../data/galleryData.json';
+import RecommendationBanner from '../components/RecommendationBanner';
 
 const Gallery = () => {
   const navigate = useNavigate();
@@ -22,22 +23,33 @@ const Gallery = () => {
   const [lockedModalOpen, setLockedModalOpen] = useState(false);
   const [selectedChapter, setSelectedChapter] = useState<number>(1);
   const [chaptersWithContent, setChaptersWithContent] = useState<Set<number>>(new Set());
+  const [lastOpenedChapter, setLastOpenedChapter] = useState<number | null>(null);
 
-  // Get unique categories for filter options and limit to 8
-  const allCategories = Array.from(new Set(galleryData.books.map(item => item.category)));
-  const categories = allCategories.slice(0, 8);
+  // Get tags that appear more than once and limit to 8
+  const tagCounts = galleryData.books
+    .flatMap(item => item.tags)
+    .reduce((acc, tag) => {
+      acc[tag] = (acc[tag] || 0) + 1;
+      return acc;
+    }, {});
+  
+  const repeatedTags = Object.keys(tagCounts)
+    .filter(tag => tagCounts[tag] > 1)
+    .sort();
 
-  // Filter items based on selected filter
+  // Filter items based on selected filter and sort by id
   const filteredItems = selectedFilter === "All" 
-    ? galleryData.books 
-    : galleryData.books.filter(item => item.category === selectedFilter);
+    ? galleryData.books.sort((a, b) => a.id - b.id)
+    : galleryData.books.filter(item => item.tags.includes(selectedFilter)).sort((a, b) => a.id - b.id);
 
-  // Calculate progress based on opened chapters and check which chapters have content
-  useEffect(() => {
+  // Function to update progress
+  const updateProgress = () => {
     let chaptersCount = 0;
     const chaptersWithContentSet = new Set<number>();
+    const openedChaptersList = [];
     
     galleryData.books.forEach(item => {
+      // Check if chapter has been visited/opened
       const hasContent = localStorage.getItem(`canvas-${item.id}-partners`) || 
                         localStorage.getItem(`canvas-${item.id}-activities`) ||
                         localStorage.getItem(`canvas-${item.id}-resources`) ||
@@ -46,16 +58,50 @@ const Gallery = () => {
                         localStorage.getItem(`canvas-${item.id}-channels`) ||
                         localStorage.getItem(`canvas-${item.id}-segments`) ||
                         localStorage.getItem(`canvas-${item.id}-costs`) ||
-                        localStorage.getItem(`canvas-${item.id}-revenue`);
+                        localStorage.getItem(`canvas-${item.id}-revenue`) ||
+                        localStorage.getItem(`chapter-${item.id}-visited`); // Additional check for visited chapters
       
       if (hasContent) {
         chaptersCount++;
         chaptersWithContentSet.add(item.id);
+        openedChaptersList.push(item.id);
       }
     });
     
+    // Debug logging
+    console.log('Chapters with content:', chaptersCount, 'out of', galleryData.books.length);
+    console.log('Opened chapters list:', openedChaptersList);
+    
+    // Store opened chapters count in localStorage
+    localStorage.setItem('openedChaptersCount', chaptersCount.toString());
+    localStorage.setItem('openedChaptersList', JSON.stringify(openedChaptersList));
+    
+    // Load saved last chapter or use highest opened chapter
+    const savedLastChapter = localStorage.getItem('lastOpenedChapter');
+    const calculatedLastChapter = openedChaptersList.length > 0 ? Math.max(...openedChaptersList) : null;
+    const finalLastChapter = savedLastChapter ? parseInt(savedLastChapter) : calculatedLastChapter;
+    
+    setLastOpenedChapter(finalLastChapter);
     setOpenedChapters(chaptersCount);
     setChaptersWithContent(chaptersWithContentSet);
+  };
+
+  // Calculate progress based on opened chapters and check which chapters have content
+  useEffect(() => {
+    updateProgress();
+    
+    // Listen for storage changes to update progress when returning from canvas
+    const handleStorageChange = () => {
+      updateProgress();
+    };
+    
+    window.addEventListener('storage', handleStorageChange);
+    window.addEventListener('focus', updateProgress);
+    
+    return () => {
+      window.removeEventListener('storage', handleStorageChange);
+      window.removeEventListener('focus', updateProgress);
+    };
   }, []);
 
   const progressPercentage = (openedChapters / galleryData.books.length) * 100;
@@ -63,6 +109,11 @@ const Gallery = () => {
   const handleCardClick = (id: number) => {
     // Check if user has promo access or if it's the first chapter
     if (hasPromoAccess || id === 1) {
+      // Mark chapter as visited when opening
+      localStorage.setItem(`chapter-${id}-visited`, 'true');
+      // Update last opened chapter when navigating
+      setLastOpenedChapter(id);
+      localStorage.setItem('lastOpenedChapter', id.toString());
       navigate(`/canvas?item=${id}`);
     } else {
       setSelectedChapter(id);
@@ -103,9 +154,9 @@ const Gallery = () => {
   return (
     <div className="h-screen flex flex-col overflow-hidden">
       <PageLayout 
-        id="0"
-        title="48 Chapters" 
-        subtitle="A PLAYBOOK TO SCALE BUSINESS GLOBALLY"
+        currentChapterId="0"
+        title="A PLAYBOOK TO SCALE BUSINESS GLOBALLY" 
+        subtitle=""
         activeItem="Email Templates"
         headerActions={
           <Button
@@ -147,24 +198,40 @@ const Gallery = () => {
               </div>
             </div>
           )}
+
+          <RecommendationBanner />
           
-          {/* Filter Tags - Limited to 8 */}
+          {/* Filter Tags - Now based on tags array, limited to 8 */}
           <div className="flex flex-wrap gap-2 px-6 py-4 border-b flex-shrink-0" style={{ borderColor: 'rgba(139, 125, 107, 0.15)' }}>
-            {categories.map((category) => (
+            <Badge
+              variant={selectedFilter === "All" ? "default" : "outline"}
+              className={`cursor-pointer ${
+                selectedFilter === "All" 
+                  ? "text-white hover:bg-blue-700" 
+                  : "text-gray-600 hover:bg-gray-50"
+              } border-gray-200`}
+              style={{
+                background: selectedFilter === "All" ? '#3b82f6' : 'rgba(255, 255, 255, 0.9)'
+              }}
+              onClick={() => setSelectedFilter("All")}
+            >
+              All
+            </Badge>
+            {repeatedTags.map((tag) => (
               <Badge
-                key={category}
-                variant={selectedFilter === category ? "default" : "outline"}
+                key={tag}
+                variant={selectedFilter === tag ? "default" : "outline"}
                 className={`cursor-pointer ${
-                  selectedFilter === category 
+                  selectedFilter === tag 
                     ? "text-white hover:bg-blue-700" 
                     : "text-gray-600 hover:bg-gray-50"
                 } border-gray-200`}
                 style={{
-                  background: selectedFilter === category ? '#3b82f6' : 'rgba(255, 255, 255, 0.9)'
+                  background: selectedFilter === tag ? '#3b82f6' : 'rgba(255, 255, 255, 0.9)'
                 }}
-                onClick={() => setSelectedFilter(category)}
+                onClick={() => setSelectedFilter(tag)}
               >
-                {category}
+                {tag}
               </Badge>
             ))}
           </div>
@@ -202,7 +269,12 @@ const Gallery = () => {
                       <div className="relative bg-gradient-to-br from-amber-50 to-amber-100 rounded-sm border border-amber-200 shadow-lg transform-gpu transition-transform duration-300 group-hover:rotateY-5">
                         {/* Bookmark for opened chapters */}
                         {chaptersWithContent.has(item.id) && (
-                          <BookmarkIcon size="md" color="text-red-500" />
+                          <BookmarkIcon size="md" color="text-black-500" />
+                        )}
+                        
+                        {/* Special bookmark for last opened chapter */}
+                        {lastOpenedChapter === item.id && (
+                          <BookmarkIcon size="lg" color="text-amber-500" />
                         )}
                         
                         {/* Book content */}
@@ -222,9 +294,12 @@ const Gallery = () => {
                               <BookIcon />
                             </div>
                             <div className="text-gray-700 text-xs md:text-sm font-bold mb-1 md:mb-2">Chapter {item.id}</div>
-                            <h3 className="text-sm md:text-lg font-bold text-gray-900 mb-2 md:mb-3 leading-tight">
+                          {/*  <h3 className="text-sm md:text-lg font-bold text-gray-900 mb-2 md:mb-3 leading-tight">
                               {item.title}
-                            </h3>
+                            </h3>*/}
+                            <img src={`logos/${item.title}.svg`} alt="Chapter image" className="w-full h-full object-cover" style={{
+                              margin: '20px 0'
+                            }}/>
                             <p className="text-xs md:text-sm text-gray-700 leading-relaxed mb-3 md:mb-4">
                               {item.preview}
                             </p>

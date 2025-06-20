@@ -1,40 +1,40 @@
 
 {
   "emailColumn": {
-    "title": "Email Templates - Chapter 17",
+    "title": "Email Templates - Chapter 13",
     "authorInfo": {
       "title": "About the Author",
-      "description": "Amanda Foster specializes in sustainability and corporate social responsibility with focus on environmental impact and stakeholder engagement."
+      "description": "Dr. Sarah Kim specializes in data analytics and business intelligence with focus on predictive modeling and decision support systems."
     },
     "materialsUsed": [
-      "Elkington, J. (1997). Cannibals with Forks. New Society Publishers.",
-      "Porter, M. (2011). Creating Shared Value. Harvard Business Review.",
-      "Hawken, P. (2017). Drawdown. Penguin Books.",
-      "Sustainability Management Review (2023). \"ESG in Business Strategy\" - Corporate Responsibility Journal."
+      "Provost, F. (2013). Data Science for Business. O'Reilly Media.",
+      "Davenport, T. (2017). Competing on Analytics. Harvard Business Press.",
+      "Kimball, R. (2013). The Data Warehouse Toolkit. Wiley.",
+      "MIT Technology Review (2023). \"AI in Business Decision Making\" - Data Science Quarterly."
     ],
     "keyTakeaways": {
       "title": "Key Takeaways",
-      "description": "Sustainable business practices create long-term value for all stakeholders. Integrate environmental and social considerations into core strategy."
+      "description": "Data-driven decision making requires quality data, proper analysis tools, and organizational commitment to evidence-based strategies."
     }
   },
   "emails": [
     {
       "id": "1",
-      "sender": "Amanda Foster",
-      "date": "6 days ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-7.png?twic=v1/resize=40x40/cover",
-      "subject": "Sustainability Strategy: Build Profitable and Purpose-Driven Business",
-      "preview": "Dear Sustainability Leader, integrating ESG principles into business strategy creates competitive advantage while driving positive impact...",
+      "sender": "Sarah Kim",
+      "date": "2 days ago",
+      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-3.png",
+      "subject": "Data Analytics Mastery: Turn Data into Competitive Advantage",
+      "preview": "Dear Data Professional, transforming raw data into actionable insights is the key to staying competitive in today's market. Discover advanced analytics techniques...",
       "signature": {
-        "name": "Amanda Foster",
-        "title": "Sustainability Consultant",
-        "company": "GreenFuture Advisory"
+        "name": "Sarah Kim",
+        "title": "Data Analytics Director",
+        "company": "InsightDriven Analytics"
       },
-      "meta": "Template • Sustainability",
-      "likes": 43,
+      "meta": "Template • Analytics",
+      "likes": 81,
       "highlight": {
-        "title": "ESG Implementation Framework",
-        "description": "Comprehensive sustainability strategy with impact measurement and stakeholder engagement protocols"
+        "title": "Advanced Analytics Framework",
+        "description": "Comprehensive data strategy with predictive modeling and real-time business intelligence dashboards"
       }
     }
   ]

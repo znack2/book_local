@@ -7,7 +7,7 @@ import BookmarkIcon from './BookmarkIcon';
 import { useAuth } from '@/contexts/AuthContext';
 
 interface HeaderProps {
-  id: number;
+  currentChapterId: number;
   title: string;
   subtitle: string;
   children?: React.ReactNode;
@@ -15,7 +15,7 @@ interface HeaderProps {
   showLogoutInHeader?: boolean;
 }
 
-const Header = ({ id, title, subtitle, children, showBackButton = false, showLogoutInHeader = true }: HeaderProps) => {
+const Header = ({ currentChapterId, title, subtitle, children, showBackButton = false, showLogoutInHeader = true }: HeaderProps) => {
   const location = useLocation();
   const isCanvasPage = location.pathname === '/canvas';
   const { signOut, user } = useAuth();
@@ -43,7 +43,7 @@ const Header = ({ id, title, subtitle, children, showBackButton = false, showLog
           </Link>
         )}
         <div className="w-9 h-9 rounded-lg overflow-hidden border-2" style={{ borderColor: 'rgba(139, 125, 107, 0.2)' }}>
-           <img src={`https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-${id}.png`} alt="Chapter image" className="w-full h-full object-cover" />
+           <img src={`https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-${currentChapterId}.png`} alt="Chapter image" className="w-full h-full object-cover" />
         </div>
         <div className="flex items-center gap-2">
           <div>
