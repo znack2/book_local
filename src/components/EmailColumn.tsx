@@ -125,8 +125,27 @@ const EmailColumn: React.FC<EmailColumnProps> = ({
 
   const chapterData = getChapterData();
 
-  function formatBoldText(text) {
-    return text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+  function formatLinksAndBoldText(text) {
+    if (!text) return text;
+    
+    // First, handle bold text formatting
+    let formattedText = text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+    
+    // URL regex pattern that matches http, https, www, and plain domains
+    const urlRegex = /(https?:\/\/[^\s<>"{}|\\^`[\]]+|www\.[^\s<>"{}|\\^`[\]]+|(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z]{2,}(?:\/[^\s<>"{}|\\^`[\]]*)?)/gi;
+    
+    // Replace URLs with anchor tags
+    formattedText = formattedText.replace(urlRegex, (url) => {
+      // Ensure the URL has a protocol for the href attribute
+      let href = url;
+      if (!url.match(/^https?:\/\//)) {
+        href = 'https://' + url;
+      }
+      
+      return `<a href="${href}" target="_blank" rel="noopener noreferrer" style="color: #d97706; text-decoration: underline;">${url}</a>`;
+    });
+    
+    return formattedText;
   }
 
   const EmailStructured = (email, chapterId ) => {
@@ -139,7 +158,7 @@ const EmailColumn: React.FC<EmailColumnProps> = ({
                      <div className="flex items-center gap-3 mb-3">
                       <Avatar className="w-8 h-8">
                         <img 
-                          src={email.avatar}
+                          src={`https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/${email.avatar}.png`}
                           className="aspect-square h-full w-full rounded-full object-cover"
                         />
             {/*            <AvatarFallback className="text-xs bg-amber-200 text-amber-800">
@@ -166,7 +185,7 @@ const EmailColumn: React.FC<EmailColumnProps> = ({
                       {/* Body paragraphs */}
                       <div 
                         className="text-xs text-black-800 leading-relaxed whitespace-pre-line"
-                        dangerouslySetInnerHTML={{ __html: formatBoldText(email.body) }}
+                        dangerouslySetInnerHTML={{ __html: formatLinksAndBoldText(email.body) }}
                       />
                       {/* Call to action */}
 {/*                      {email.cta && (
@@ -228,7 +247,10 @@ const EmailColumn: React.FC<EmailColumnProps> = ({
                   margin: '10px',
                   fontStyle: ' italic'
                 }}>
-                  {chapterData.emailColumn.authorInfo.description}
+                   <div 
+                      className="leading-relaxed whitespace-pre-line"
+                      dangerouslySetInnerHTML={{ __html: formatLinksAndBoldText(chapterData.emailColumn.authorInfo.description) }}
+                    />
                 </p>
               </div>
 
@@ -248,12 +270,63 @@ const EmailColumn: React.FC<EmailColumnProps> = ({
                   >
                   {email && EmailStructured(email, chapterId)}
                     {email.highlight && (
-                      <div className="mt-2 p-4 bg-amber-50 rounded text-xs">
-                        <div className="font-medium text-black-900">{email.highlight.title}</div>
-                        <div className="text-black-800">{email.highlight.description}</div>
+                     <div className="mt-2 p-4 bg-gradient-to-r from-yellow-100 to-amber-100 border-l-4 border-amber-400 rounded-r-lg shadow-sm relative">
+                      <div className="absolute top-2 right-2 text-amber-600 opacity-60">
+                        <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
                       </div>
+                      <div className="font-semibold text-amber-900 text-sm leading-relaxed mb-1">
+                        {email.highlight.title}
+                      </div>
+                      <div className="text-amber-800 text-xs leading-relaxed italic">
+                        "{email.highlight.description}"
+                      </div>
+                      <div className="absolute bottom-1 right-2 text-amber-500 text-xs font-medium opacity-75">
+                        highlight
+                      </div>
+                    </div>
                     )}
+ <div className="flex justify-center my-4">
+    <span className="text-amber-700 text-sm font-medium mr-3 italic">
+      now fill the canvas
+    </span>
+    <svg 
+      className="w-20 h-8 text-amber-600" 
+      viewBox="0 0 80 32" 
+      fill="none" 
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      {/* Wavy arrow line */}
+      <path 
+        d="M8 16 Q20 12, 32 16 T56 16 L68 16" 
+        strokeWidth="2.5"
+        className="animate-pulse"
+      />
+      {/* Arrow head with slight curve */}
+      <path 
+        d="M62 11 Q68 15, 72 16 Q68 17, 62 21" 
+        strokeWidth="2.5"
+        fill="none"
+      />
+      {/* Small decorative curves */}
+      <path 
+        d="M12 20 Q16 18, 20 20" 
+        strokeWidth="1.5"
+        opacity="0.7"
+      />
+      <path 
+        d="M40 12 Q44 14, 48 12" 
+        strokeWidth="1.5"
+        opacity="0.7"
+      />
+    </svg>
+  </div>
                   </div>
+
                 ))}
               </div>
 

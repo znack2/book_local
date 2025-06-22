@@ -1,4 +1,3 @@
-
 import React, { createContext, useContext, useEffect, useState } from 'react';
 import { User, Session } from '@supabase/supabase-js';
 import { supabase } from '@/integrations/supabase/client';
@@ -28,7 +27,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   const [session, setSession] = useState<Session | null>(null);
   const [loading, setLoading] = useState(true);
   const [hasPromoAccess, setHasPromoAccess] = useState(false);
-
+  
   const VALID_PROMOCODE = "UNLOCK2024"; // This would normally come from your backend
 
   useEffect(() => {
@@ -41,6 +40,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
         // Check if user has promo access
         if (session?.user) {
           const userPromocode = session.user.user_metadata?.promocode;
+          // User has promo access if they have the valid promocode
           setHasPromoAccess(userPromocode === VALID_PROMOCODE);
         } else {
           setHasPromoAccess(false);
@@ -68,19 +68,28 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
   const signUp = async (email: string, password: string, fullName?: string, promocode?: string) => {
     const redirectUrl = `/questionnaire`;
-    // const redirectUrl = `${window.location.origin}/`;
+    
+    // Build the user metadata object
+    const userData: { full_name?: string; promocode?: string } = {};
+    
+    if (fullName) {
+      userData.full_name = fullName;
+    }
+    
+    // Only add promocode to metadata if it's provided
+    if (promocode && promocode.trim() !== '') {
+      userData.promocode = promocode.trim();
+    }
     
     const { error } = await supabase.auth.signUp({
       email,
       password,
       options: {
         emailRedirectTo: redirectUrl,
-        data: {
-          full_name: fullName,
-          promocode: promocode
-        }
+        data: userData
       }
     });
+    
     return { error };
   };
 

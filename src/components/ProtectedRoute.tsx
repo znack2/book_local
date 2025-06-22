@@ -1,22 +1,54 @@
-
 import React from 'react';
 import { useAuth } from '@/contexts/AuthContext';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
+import { useToast } from '@/hooks/use-toast';
 
 interface ProtectedRouteProps {
   children: React.ReactNode;
 }
 
 const ProtectedRoute: React.FC<ProtectedRouteProps> = ({ children }) => {
-  const { user, loading } = useAuth();
+  const { user, loading, hasPromoAccess } = useAuth();
   const navigate = useNavigate();
+  const location = useLocation();
+  const { toast } = useToast();
 
   useEffect(() => {
     if (!loading && !user) {
       navigate('/auth');
+      return;
     }
-  }, [user, loading, navigate]);
+
+    if (!loading && user && !hasPromoAccess) {
+      // Check if user is trying to access any canvas route
+      const isCanvasRoute = location.pathname === '/canvas';
+      
+      if (isCanvasRoute) {
+        // Extract item ID from query parameters
+        const searchParams = new URLSearchParams(location.search);
+        const itemId = searchParams.get('item');
+        const itemNumber = itemId ? parseInt(itemId) : null;
+        
+        // Only allow access to item 1 (first canvas)
+        if (itemNumber !== 1) {
+          navigate('/'); // Redirect to first canvas
+          toast({
+            title: "Promocode Required",
+            description: "Please enter a promocode to access all chapters.",
+            variant: "destructive",
+          });
+          return;
+        }
+        
+        // If no item parameter, redirect to first canvas
+        if (!itemId) {
+          navigate('/canvas?item=1');
+          return;
+        }
+      }
+    }
+  }, [user, loading, hasPromoAccess, navigate, location.pathname]);
 
   if (loading) {
     return (

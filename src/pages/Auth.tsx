@@ -32,15 +32,7 @@ const Auth = () => {
     try {
       let result;
       if (isSignUp) {
-        if (!promocode.trim()) {
-          toast({
-            title: "Promocode Required",
-            description: "Please enter a promocode to access all chapters.",
-            variant: "destructive",
-          });
-          setLoading(false);
-          return;
-        }
+        // Promocode is now optional - no validation required
         result = await signUp(email, password, fullName, promocode);
       } else {
         result = await signIn(email, password);
@@ -54,9 +46,12 @@ const Auth = () => {
         });
       } else {
         if (isSignUp) {
+          const hasPromocode = promocode.trim() !== '';
           toast({
             title: "Success",
-            description: "Account created successfully! You can now sign in.",
+            description: hasPromocode 
+              ? "Account created successfully! You have access to all chapters." 
+              : "Account created successfully! You have access to the first chapter. Enter a promocode later to unlock all chapters.",
           });
           setIsSignUp(false);
         } else {
@@ -100,8 +95,8 @@ const Auth = () => {
       <Card className="w-full max-w-md relative z-10">
         <CardHeader className="text-center">
           <div className="flex items-center justify-center gap-3 mb-4">
-            <div className="w-10 h-10 rounded-lg overflow-hidden border-2" style={{ borderColor: 'rgba(139, 125, 107, 0.2)' }}>
-              <img src="logo/studio-icon.png" className="w-full h-full object-cover" />
+            <div className="w-10 h-10 rounded-lg overflow-hidden" style={{ borderColor: 'rgba(139, 125, 107, 0.2)' }}>
+              <img src="favicon.svg" className="w-full h-full object-cover" />
             </div>
             <h1 className="text-xl font-semibold" style={{ color: '#5a4f3f' }}>First Step GoGlobal Playbook</h1>
           </div>
@@ -161,13 +156,12 @@ const Auth = () => {
               <div>
                 <Input
                   type="text"
-                  placeholder="Promocode (required to unlock all chapters)"
+                  placeholder="Promocode (optional - unlock all chapters)"
                   value={promocode}
                   onChange={(e) => setPromocode(e.target.value)}
-                  required={isSignUp}
                 />
                 <p className="text-xs text-gray-500 mt-1">
-                  Enter your promocode to access all chapters. Without it, only the first chapter will be available.
+                  Enter your promocode to access all chapters. Without it, you'll have access to the first chapter only.
                 </p>
               </div>
             )}

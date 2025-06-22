@@ -8,9 +8,12 @@ import EmailHighlights from '@/components/EmailHighlights';
 import CanvasColumn from '@/components/CanvasColumn';
 import CanvasHelpModal from '@/components/CanvasHelpModal';
 import LoadingScreen from '@/components/LoadingScreen';
+import BusinessCanvasTutorial from '@/components/BusinessCanvasTutorial';
+import { useTutorialState } from '@/hooks/useTutorialState';
 import galleryData from '../data/galleryData.json';
 
 const Chapter: React.FC = () => {
+  const {showTutorial, setShowTutorial, markTutorialComplete, showTutorialIfNeeded} = useTutorialState();
   const [showEmails, setShowEmails] = useState(true);
   const [showCanvas, setShowCanvas] = useState(true);
   const [isHelpModalOpen, setIsHelpModalOpen] = useState(false);
@@ -33,9 +36,10 @@ const Chapter: React.FC = () => {
     };
     
     checkMobile();
+    showTutorialIfNeeded();
     window.addEventListener('resize', checkMobile);
     return () => window.removeEventListener('resize', checkMobile);
-  }, []);
+  }, [showTutorialIfNeeded]);
 
   // Handle loading completion
   const handleLoadingComplete = () => {
@@ -44,6 +48,16 @@ const Chapter: React.FC = () => {
     setTimeout(() => {
       setShowEmailAnimations(true);
     }, 300);
+  };
+
+  const handleTutorialClose = () => {
+    console.log('Tutorial close clicked'); // Debug log
+    markTutorialComplete();
+  };
+
+  const handleTutorialComplete = () => {
+    console.log('Tutorial complete clicked'); // Debug log
+    markTutorialComplete();
   };
 
   const handleCanvasToggle = () => {
@@ -169,48 +183,62 @@ const Chapter: React.FC = () => {
               // Desktop View - Side by Side
               <>
                 {/* Left Panel - Emails */}
-                {showEmails && (
-                  <div className="flex-1 overflow-hidden relative" style={{ background: 'linear-gradient(135deg, #f5f2e8 0%, #e8dcc0 100%)' }}>
-                    <EmailColumn 
-                      showEmailToggle={false}
-                      isVisible={showEmails}
-                      animateEmails={showEmailAnimations}
-                      chapterId={canvasId}
-                    />
-                  </div>
-                )}
+  {showEmails && (
+    <div 
+      className={`
+        ${showCanvas ? 'flex-1' : 'flex-1 flex justify-center'} 
+        overflow-hidden relative transition-all duration-300
+      `} 
+      style={{ background: 'linear-gradient(135deg, #f5f2e8 0%, #e8dcc0 100%)' }}
+    >
+      <div className={`${showCanvas ? 'w-full' : 'w-full max-w-4xl'} h-full`}>
+        <EmailColumn 
+          showEmailToggle={false}
+          isVisible={showEmails}
+          animateEmails={showEmailAnimations}
+          chapterId={canvasId}
+        />
+      </div>
+    </div>
+  )}
 
                 {/* Right Panel - Canvas Column - Expand when emails are hidden */}
-                {showCanvas && (
-                  <div className={`${showEmails ? 'w-1/2' : 'flex-1'} min-w-0 flex flex-col max-h-screen transition-all duration-300`} style={{ background: 'linear-gradient(135deg, #f5f2e8 0%, #e8dcc0 100%)' }}>
-                    <div className="h-full flex flex-col">
-                      <div className="bg-white shadow-lg flex flex-col h-full">
-                        <CanvasColumn 
-                          isVisible={showCanvas} 
-                          canvasId={canvasId}
-                          isHalfWidth={showEmails}
-                          showCanvasToggle={false}
-                        />
-                        
-                        {/* Help Section with matching background */}
-                        <div className="p-4 bg-white/50 border-t border-amber-200/30 flex-shrink-0">
-                          <div className="flex items-center justify-between">
-                            <span className="text-amber-700 text-sm">Need help with the canvas?</span>
-                            <Button
-                              onClick={() => setIsHelpModalOpen(true)}
-                              variant="outline"
-                              size="sm"
-                              className="flex items-center gap-2 text-amber-700 border-amber-300 hover:bg-amber-100"
-                            >
-                              <HelpCircle size={16} />
-                              Learn How
-                            </Button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                )}
+  {showCanvas && (
+    <div 
+      className={`
+        ${showEmails ? 'flex-1' : 'flex-1 flex justify-center'} 
+        overflow-hidden relative transition-all duration-300
+      `} 
+      style={{ background: 'linear-gradient(135deg, #f5f2e8 0%, #e8dcc0 100%)' }}
+    >
+      <div className={`${showEmails ? 'w-full' : 'w-full max-w-4xl'} h-full`}>
+        <div className="bg-white shadow-lg flex flex-col h-full">
+          <CanvasColumn 
+            isVisible={showCanvas} 
+            canvasId={canvasId}
+            isHalfWidth={showEmails}
+            showCanvasToggle={false}
+          />
+          
+          {/* Help Section with matching background */}
+          <div className="p-4 bg-white/50 border-t border-amber-200/30 flex-shrink-0">
+            <div className="flex items-center justify-between">
+              <span className="text-amber-700 text-sm">Need help with the canvas?</span>
+              <Button
+                onClick={() => setIsHelpModalOpen(true)}
+                variant="outline"
+                size="sm"
+                className="flex items-center gap-2 text-amber-700 border-amber-300 hover:bg-amber-100"
+              >
+                <HelpCircle size={16} />
+                Learn How
+              </Button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  )}
               </>
             )}
           </div>
@@ -221,6 +249,13 @@ const Chapter: React.FC = () => {
         isOpen={isHelpModalOpen} 
         onClose={() => setIsHelpModalOpen(false)} 
       />
+      {/* Tutorial Modal */}
+      {showTutorial && (
+        <BusinessCanvasTutorial
+          onClose={handleTutorialClose}
+          onComplete={handleTutorialComplete}
+        />
+      )}
     </div>
   );
 };

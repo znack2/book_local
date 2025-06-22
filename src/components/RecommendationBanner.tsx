@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { BookOpen, X } from 'lucide-react';
 
+const RECOMMENDATION_STORAGE_KEY = 'chapterRecommendations';
+
 // Recommendation Banner Component for Gallery Page
 const RecommendationBanner = () => {
   const [recommendations, setRecommendations] = useState([]);
@@ -8,7 +10,7 @@ const RecommendationBanner = () => {
 
   useEffect(() => {
     // Check for stored recommendations when component mounts
-    const storedRecs = localStorage.getItem('chapterRecommendations');
+    const storedRecs = localStorage.getItem(RECOMMENDATION_STORAGE_KEY);
     if (storedRecs) {
       try {
         const parsedRecs = JSON.parse(storedRecs);

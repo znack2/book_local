@@ -1,8 +1,8 @@
-
 import React from 'react';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
 import { Lock } from "lucide-react";
+import { useNavigate } from 'react-router-dom';
 
 interface LockedChapterModalProps {
   isOpen: boolean;
@@ -15,6 +15,13 @@ const LockedChapterModal: React.FC<LockedChapterModalProps> = ({
   onClose, 
   chapterNumber 
 }) => {
+  const navigate = useNavigate();
+
+  const openAvailableChapter = () => {
+    console.log('openAvailableChapter');
+    navigate(`/canvas?item=1`);
+  };
+
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
       <DialogContent className="max-w-md" style={{
@@ -36,14 +43,14 @@ const LockedChapterModal: React.FC<LockedChapterModalProps> = ({
         
         <div className="flex justify-center mt-6">
           <Button 
-            onClick={onClose}
+            onClick={openAvailableChapter}
             style={{
               background: 'linear-gradient(135deg, #d4c4a8 0%, #c4b59b 100%)',
               color: '#5a4f3f'
             }}
           >
-            Got it
-          </Button>
+            Go to an available chapter
+          </Button>          
         </div>
       </DialogContent>
     </Dialog>

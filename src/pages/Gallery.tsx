@@ -7,12 +7,15 @@ import { Progress } from "@/components/ui/progress";
 import { Table, Lock } from "lucide-react";
 import GalleryModal from "@/components/GalleryModal";
 import PageLayout from "@/components/PageLayout";
-import ChapterCard from "@/components/ChapterCard";
 import LockedChapterModal from "@/components/LockedChapterModal";
 import BookmarkIcon from "@/components/BookmarkIcon";
 import { useAuth } from "@/contexts/AuthContext";
 import galleryData from '../data/galleryData.json';
 import RecommendationBanner from '../components/RecommendationBanner';
+
+
+const COUNT_STORAGE_KEY = 'openedChaptersCount';
+const LIST_STORAGE_KEY = 'openedChaptersList';
 
 const Gallery = () => {
   const navigate = useNavigate();
@@ -73,8 +76,8 @@ const Gallery = () => {
     console.log('Opened chapters list:', openedChaptersList);
     
     // Store opened chapters count in localStorage
-    localStorage.setItem('openedChaptersCount', chaptersCount.toString());
-    localStorage.setItem('openedChaptersList', JSON.stringify(openedChaptersList));
+    localStorage.setItem(COUNT_STORAGE_KEY, chaptersCount.toString());
+    localStorage.setItem(LIST_STORAGE_KEY, JSON.stringify(openedChaptersList));
     
     // Load saved last chapter or use highest opened chapter
     const savedLastChapter = localStorage.getItem('lastOpenedChapter');
@@ -297,7 +300,7 @@ const Gallery = () => {
                           {/*  <h3 className="text-sm md:text-lg font-bold text-gray-900 mb-2 md:mb-3 leading-tight">
                               {item.title}
                             </h3>*/}
-                            <img src={`logos/${item.title}.svg`} alt="Chapter image" className="w-full h-full object-cover" style={{
+                            <img src={`https://raw.githubusercontent.com/znack2/book_local/main/docs/logos/${item.title}.svg`} alt="Chapter image" className="w-full h-full object-cover" style={{
                               margin: '20px 0'
                             }}/>
                             <p className="text-xs md:text-sm text-gray-700 leading-relaxed mb-3 md:mb-4">
@@ -309,7 +312,7 @@ const Gallery = () => {
                                 {item.emailCount.toLocaleString()} emails
                               </div>
                               <div className="w-6 h-6 md:w-8 md:h-8 rounded-full bg-amber-200 flex items-center justify-center overflow-hidden">
-                                <img src={`https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-${item.id}.png`} alt="Chapter image" className="w-full h-full object-cover" />
+                                <img src={`https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/${item.title}.png`} alt="Chapter image" className="w-full h-full object-cover" />
                               </div>
                             </div>
                           </div>

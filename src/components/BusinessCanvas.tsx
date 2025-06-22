@@ -185,7 +185,7 @@ const getCellContent = (fieldKey: string) => {
                 <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
                 <path d="M8 7h8M8 11h6"/>
               </svg>
-              <button onclick="window.location.href='/canvas?item=${id}'" style="
+              <button onclick="navigate('/canvas?item=${id}')" style="
                 background: ${colors.border}; 
                 color: white; 
                 border: none; 
@@ -259,7 +259,7 @@ const getCellContent = (fieldKey: string) => {
               </svg>
               <strong style="color: ${colors.icon}; font-size: 12px; opacity: 0.8;">Chapter ${id}</strong>
               <span style="color: #6b7280; font-size: 9px; font-style: italic;">(placeholder)</span>
-              <button onclick="window.location.href='/canvas?item=${id}'" style="
+              <button onclick="navigate('/canvas?item=${id}')" style="
                 background: ${colors.border}; 
                 color: white; 
                 border: none; 
