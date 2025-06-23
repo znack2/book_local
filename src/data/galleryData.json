@@ -344,17 +344,6 @@
     "emailCount": 0
   },
   {
-    "id": 34,
-    "title": "JuicyScore",
-    "preview": "Anti-fraud and risk management solutions company founded in 2016 with international expansion including Kenya.",
-    "logo": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
-    "image": "",
-    "category": "Fintech",
-    "tags": ["Africa", "Brasil"],
-    "locked": true,
-    "emailCount": 0
-  },
-  {
     "id": 35,
     "title": "Yango",
     "preview": "International ride-hailing service operating in 600+ cities across 17 countries with food delivery and e-grocery services.",

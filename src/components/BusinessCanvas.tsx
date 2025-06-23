@@ -8,6 +8,7 @@ interface BusinessCanvasProps {
   canvasId?: string;
   buttonsOnly?: boolean;
   hideButtons?: boolean;
+  isMinimal?: boolean;
 }
 
 interface CanvasSection {
@@ -30,6 +31,7 @@ interface CanvasData {
 
 const BusinessCanvas = ({ 
   isEditable = false, 
+  isMinimal = false, 
   canvasId = "1", 
   buttonsOnly = false, 
   hideButtons = false
@@ -104,8 +106,11 @@ const getCellContent = (fieldKey: string) => {
     // Remove duplicates and sort
     const uniqueCanvasIds = [...new Set(allCanvasIds)].sort();
     
-    // If no canvas IDs found in localStorage, show just the items as placeholder
+    // If no canvas IDs found in localStorage, show just the items as placeholder (unless isMinimal)
     if (uniqueCanvasIds.length === 0) {
+      if (isMinimal) {
+        return '';
+      }
       const field = canvasFields.find(f => f.key === fieldKey);
       if (field?.originalSection?.items && field.originalSection.items.length > 0) {
         const placeholderContent = field.originalSection.items.map(item => 
@@ -242,42 +247,44 @@ const getCellContent = (fieldKey: string) => {
           </div>`;
         }
         
-        // If no user content, show placeholder from items
-        const field = canvasFields.find(f => f.key === fieldKey);
-        if (field?.originalSection?.items && field.originalSection.items.length > 0) {
-          const placeholderContent = field.originalSection.items.map(item => 
-            `<div style="color: #9ca3af; font-size: 10px; margin-bottom: 4px; padding-left: 8px;">• ${item}</div>`
-          ).join('');
-          
-          return `<div style="margin-bottom: 16px; padding: 12px; background: ${colors.bg}; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); opacity: 0.8;">
-            <div style="display: flex; align-items: center; gap: 10px; ">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="${colors.icon}" stroke-width="2" style="flex-shrink: 0; opacity: 0.6;">
-                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
-                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
-                <path d="M8 7h8M8 11h6"/>
-                <circle cx="12" cy="16" r="1"/>
-              </svg>
-              <strong style="color: ${colors.icon}; font-size: 12px; opacity: 0.8;">Chapter ${id}</strong>
-              <span style="color: #6b7280; font-size: 9px; font-style: italic;">(placeholder)</span>
-              <button onclick="navigate('/canvas?item=${id}')" style="
-                background: ${colors.border}; 
-                color: white; 
-                border: none; 
-                border-radius: 4px; 
-                padding: 4px 8px; 
-                cursor: pointer; 
-                font-size: 10px; 
-                font-weight: 500;
-                transition: all 0.2s ease;
-                box-shadow: 0 1px 2px rgba(0,0,0,0.1);
-                opacity: 0.8;
-              " onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 2px 4px rgba(0,0,0,0.2)'; this.style.opacity='1'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 1px 2px rgba(0,0,0,0.1)'; this.style.opacity='0.8'">
-                Edit
-              </button>
-            </div>
-            <div style="color: #6b7280; font-size: 9px; font-style: italic; margin-bottom: 6px;">Example content:</div>
-            ${placeholderContent}
-          </div>`;
+        // If no user content and not minimal, show placeholder from items
+        if (!isMinimal) {
+          const field = canvasFields.find(f => f.key === fieldKey);
+          if (field?.originalSection?.items && field.originalSection.items.length > 0) {
+            const placeholderContent = field.originalSection.items.map(item => 
+              `<div style="color: #9ca3af; font-size: 10px; margin-bottom: 4px; padding-left: 8px;">• ${item}</div>`
+            ).join('');
+            
+            return `<div style="margin-bottom: 16px; padding: 12px; background: ${colors.bg}; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); opacity: 0.8;">
+              <div style="display: flex; align-items: center; gap: 10px; ">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="${colors.icon}" stroke-width="2" style="flex-shrink: 0; opacity: 0.6;">
+                  <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                  <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+                  <path d="M8 7h8M8 11h6"/>
+                  <circle cx="12" cy="16" r="1"/>
+                </svg>
+                <strong style="color: ${colors.icon}; font-size: 12px; opacity: 0.8;">Chapter ${id}</strong>
+                <span style="color: #6b7280; font-size: 9px; font-style: italic;">(placeholder)</span>
+                <button onclick="navigate('/canvas?item=${id}')" style="
+                  background: ${colors.border}; 
+                  color: white; 
+                  border: none; 
+                  border-radius: 4px; 
+                  padding: 4px 8px; 
+                  cursor: pointer; 
+                  font-size: 10px; 
+                  font-weight: 500;
+                  transition: all 0.2s ease;
+                  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+                  opacity: 0.8;
+                " onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 2px 4px rgba(0,0,0,0.2)'; this.style.opacity='1'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 1px 2px rgba(0,0,0,0.1)'; this.style.opacity='0.8'">
+                  Edit
+                </button>
+              </div>
+              <div style="color: #6b7280; font-size: 9px; font-style: italic; margin-bottom: 6px;">Example content:</div>
+              ${placeholderContent}
+            </div>`;
+          }
         }
         
         return null;
@@ -293,7 +300,12 @@ const getCellContent = (fieldKey: string) => {
       return userContent;
     }
     
-    // If no user content, show the items from the JSON as placeholder content
+    // If isMinimal is true, return empty string instead of placeholder
+    if (isMinimal) {
+      return '';
+    }
+    
+    // If no user content and not minimal, show the items from the JSON as placeholder content
     const field = canvasFields.find(f => f.key === fieldKey);
     if (field?.originalSection?.items && field.originalSection.items.length > 0) {
       const placeholderContent = field.originalSection.items.map(item => 
@@ -448,7 +460,7 @@ const getCellContent = (fieldKey: string) => {
                     color: currentFieldIndex === index ? '#ffffff' : '#5a4f3f',
                     padding: '12px 15px',
                     fontWeight: '600',
-                    fontSize: '11px',
+                    fontSize: '10px',
                     textAlign: 'left',
                     border: '1px solid #c4b59b',
                     width: '30%',
@@ -458,7 +470,7 @@ const getCellContent = (fieldKey: string) => {
                     {field.label}
                     {field.originalSection?.subtitle && (
                       <div style={{
-                        fontSize: '9px',
+                        fontSize: '6px',
                         fontWeight: '400',
                         marginTop: '4px',
                         opacity: '0.8'
@@ -471,7 +483,7 @@ const getCellContent = (fieldKey: string) => {
                     border: '1px solid #e0e0e0', 
                     padding: '12px 15px', 
                     verticalAlign: 'top', 
-                    height: '120px',
+                    height: 'auto',
                     background: field.highlight ? 'rgba(212, 196, 168, 0.1)' : 'transparent'
                   }}>
                     <div 
@@ -485,10 +497,14 @@ const getCellContent = (fieldKey: string) => {
                         }
                       }}
                       onBlur={(e) => {
-                        // Restore placeholder if empty
+                        // Restore placeholder if empty (but only if not minimal)
                         if (canvasId !== "gallery" && !e.currentTarget.textContent?.trim()) {
                           const content = getCellContent(field.key);
-                          e.currentTarget.innerHTML = content || `<span style="color: #a69885; font-style: italic;">${field.placeholder}</span>`;
+                          if (isMinimal) {
+                            e.currentTarget.innerHTML = '';
+                          } else {
+                            e.currentTarget.innerHTML = content || `<span style="color: #a69885; font-style: italic;">${field.placeholder}</span>`;
+                          }
                         }
                       }}
                       style={{
@@ -497,7 +513,7 @@ const getCellContent = (fieldKey: string) => {
                         color: '#5a4f3f',
                         outline: 'none',
                         cursor: (isEditable && canvasId !== "gallery") ? 'text' : 'default',
-                        height: '96px',
+                        height: 'auto',
                         width: '100%',
                         overflowY: 'auto',
                         padding: '4px',
@@ -505,7 +521,7 @@ const getCellContent = (fieldKey: string) => {
                         borderRadius: '4px'
                       }}
                       dangerouslySetInnerHTML={{ 
-                        __html: getCellContent(field.key) || `<span style="color: #a69885; font-style: italic;">${field.placeholder}</span>`
+                        __html: getCellContent(field.key) || (isMinimal ? '' : `<span style="color: #a69885; font-style: italic;">${field.placeholder}</span>`)
                       }}
                     />
                   </td>

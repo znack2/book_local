@@ -1,0 +1,27 @@
+  
+{
+  "limitedAccessMessage": "Limited Access: Only Chapter 1 is available. Contact administrator for full access.",
+  "books": [
+  {
+    "id": 1,
+    "title": "JuicyScore",
+    "preview": "Anti-fraud and risk management solutions company founded in 2016 with international expansion including Kenya.",
+    "logo": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
+    "image": "",
+    "category": "Fintech",
+    "tags": ["Africa", "Brasil"],
+    "locked": true,
+    "emailCount": 0
+  }, 
+  {
+    "id": 2,
+    "title": "JuicyScore",
+    "preview": "Anti-fraud and risk management solutions company founded in 2016 with international expansion including Kenya.",
+    "logo": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
+    "image": "",
+    "category": "Fintech",
+    "tags": ["Africa", "Brasil"],
+    "locked": true,
+    "emailCount": 0
+  }
+]}

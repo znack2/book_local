@@ -1,5 +1,4 @@
-
-import React from 'react';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { Button } from '@/components/ui/button';
 import { Eye, EyeOff } from 'lucide-react';
 import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
@@ -67,6 +66,13 @@ const EmailColumn: React.FC<EmailColumnProps> = ({
   animateEmails = false,
   chapterId = '1'
 }) => {
+  const [loadedEmails, setLoadedEmails] = useState<Set<number>>(new Set([0])); // First email is loaded by default
+  const [currentlyLoadingEmail, setCurrentlyLoadingEmail] = useState<number | null>(null); // Track which single email is loading
+  const [justLoadedEmails, setJustLoadedEmails] = useState<Set<number>>(new Set()); // Track recently loaded emails for highlighting
+  const scrollContainerRef = useRef<HTMLDivElement>(null);
+  const emailRefs = useRef<{ [key: number]: HTMLDivElement | null }>({});
+  const observerRef = useRef<IntersectionObserver | null>(null);
+
   // Select chapter data based on chapterId
   const getChapterData = () => {
     const chapterMap: { [key: string]: any } = {
@@ -125,6 +131,81 @@ const EmailColumn: React.FC<EmailColumnProps> = ({
 
   const chapterData = getChapterData();
 
+  // Reset when chapter changes
+  useEffect(() => {
+    setLoadedEmails(new Set([0])); // Only first email loaded
+    setCurrentlyLoadingEmail(null);
+    setJustLoadedEmails(new Set());
+  }, [chapterId]);
+
+  // Set up intersection observer for scroll detection
+  useEffect(() => {
+    if (!chapterData?.emails) return;
+
+    // Clean up previous observer
+    if (observerRef.current) {
+      observerRef.current.disconnect();
+    }
+
+    observerRef.current = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const emailIndex = parseInt(entry.target.getAttribute('data-email-index') || '0');
+            
+            // Only allow loading the next sequential email
+            const nextExpectedEmail = Math.max(...Array.from(loadedEmails)) + 1;
+            
+            // If this is the next email, not loaded, and nothing is currently loading
+            if (emailIndex === nextExpectedEmail && 
+                !loadedEmails.has(emailIndex) && 
+                currentlyLoadingEmail === null) {
+              
+              // Start loading this specific email
+              setCurrentlyLoadingEmail(emailIndex);
+              
+              // After 1.5 seconds, finish loading and show email
+              setTimeout(() => {
+                setCurrentlyLoadingEmail(null);
+                setLoadedEmails(prev => new Set([...prev, emailIndex]));
+                
+                // Add to just loaded emails for highlighting
+                setJustLoadedEmails(prev => new Set([...prev, emailIndex]));
+                
+                // Remove highlight after 2 seconds
+                setTimeout(() => {
+                  setJustLoadedEmails(prev => {
+                    const newSet = new Set(prev);
+                    newSet.delete(emailIndex);
+                    return newSet;
+                  });
+                }, 2000);
+              }, 1500);
+            }
+          }
+        });
+      },
+      {
+        root: scrollContainerRef.current,
+        rootMargin: '100px 0px', // Trigger 100px before the element comes into view
+        threshold: 0.1
+      }
+    );
+
+    // Observe all email placeholder elements
+    Object.values(emailRefs.current).forEach((ref, index) => {
+      if (ref && index > 0) { // Skip first email (index 0)
+        observerRef.current?.observe(ref);
+      }
+    });
+
+    return () => {
+      if (observerRef.current) {
+        observerRef.current.disconnect();
+      }
+    };
+  }, [chapterData?.emails, loadedEmails, currentlyLoadingEmail]);
+
   function formatLinksAndBoldText(text) {
     if (!text) return text;
     
@@ -148,62 +229,96 @@ const EmailColumn: React.FC<EmailColumnProps> = ({
     return formattedText;
   }
 
-  const EmailStructured = (email, chapterId ) => {
+  // SVG Loading Animation component
+  const EmailLoadingAnimation = () => (
+    <div className="flex justify-center items-center py-16 mb-8">
+      <div className="relative flex items-center justify-center w-32 h-32">
+        {/* Circular ripple background */}
+        <div className="absolute inset-0 flex items-center justify-center">
+          <div className="w-32 h-32 rounded-full border border-slate-400 opacity-20 animate-ping" style={{ animationDuration: '2s' }}></div>
+          <div className="absolute w-24 h-24 rounded-full border border-slate-400 opacity-30 animate-ping" style={{ animationDuration: '2s', animationDelay: '0.5s' }}></div>
+          <div className="absolute w-16 h-16 rounded-full border border-slate-400 opacity-40 animate-ping" style={{ animationDuration: '2s', animationDelay: '1s' }}></div>
+        </div>
+        
+        {/* Simple envelope icon */}
+        <div className="relative z-10 flex items-center justify-center">
+          <svg
+            width="48"
+            height="48"
+            viewBox="0 0 48 48"
+            className="text-slate-600"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+          >
+            {/* Envelope base */}
+            <rect
+              x="8"
+              y="12"
+              width="32"
+              height="24"
+              rx="2"
+              fill="none"
+              stroke="currentColor"
+            />
+            
+            {/* Envelope flap */}
+            <path
+              d="M8 14 L24 24 L40 14"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              fill="none"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  );
 
+  const EmailStructured = (email, chapterId, isJustLoaded = false) => {
     return (
-      <div className="overflow-hidden shadow-sm mb-4">
+      <div className={`overflow-hidden shadow-sm mb-4 transform transition-all duration-700 ease-out opacity-100 translate-y-0 scale-100 rounded-lg ${
+        isJustLoaded ? 'border-2 border-white shadow-lg to-amber-100' : ''
+      }`}>
         {/* Email Body */}
         <div className="p-4">
           <div className="text-sm text-gray-800 space-y-3">
-                     <div className="flex items-center gap-3 mb-3">
-                      <Avatar className="w-8 h-8">
-                        <img 
-                          src={`https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/${email.avatar}.png`}
-                          className="aspect-square h-full w-full rounded-full object-cover"
-                        />
-            {/*            <AvatarFallback className="text-xs bg-amber-200 text-amber-800">
-                          {email.sender.split(' ').map(n => n[0]).join('')}
-                        </AvatarFallback>*/}
-                      </Avatar>
-                      <div className="flex-1">
-                        <div className="flex justify-between items-start mb-1">
-                          <h4 className="font-medium text-black-900 text-sm">{email.subject}</h4>
-                     {/*     <span className="text-xs text-amber-700 bg-amber-100 px-2 py-1 rounded">
-                            {email.meta}
-                          </span>*/}
-                        </div>
-                        <div className="text-xs text-black-600">
-                          {/*<span>{email.sender}</span>*/}
-                          <span className="ml-2">{email.date}</span>
-                        </div>
-                      </div>
-                    </div>
-                                {/* Greeting */}
+            <div className="flex items-center gap-3 mb-3">
+              <Avatar className="w-8 h-8">
+                <img 
+                  src={`https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/${email.avatar}.png`}
+                  className="aspect-square h-full w-full rounded-full object-cover"
+                />
+              </Avatar>
+              <div className="flex-1">
+                <div className="flex justify-between items-start mb-1">
+                  <h4 className="font-medium text-black-900 text-sm">{email.subject}</h4>
+                </div>
+                <div className="text-xs text-black-600">
+                  <span className="ml-2">{email.date}</span>
+                </div>
+              </div>
+            </div>
+            
+            {/* Greeting */}
             {email.greeting && (
               <p className="text-black-800">{email.greeting}</p>
             )}
-                      {/* Body paragraphs */}
-                      <div 
-                        className="text-xs text-black-800 leading-relaxed whitespace-pre-line"
-                        dangerouslySetInnerHTML={{ __html: formatLinksAndBoldText(email.body) }}
-                      />
-                      {/* Call to action */}
-{/*                      {email.cta && (
-                        <div className="p-3 my-4">
-                          <a href={email.cta.link} className="font-medium text-center">
-                            {email.cta.message}
-                          </a>
-                        </div>
-                      )}*/}
+            
+            {/* Body paragraphs */}
+            <div 
+              className="text-xs text-black-800 leading-relaxed whitespace-pre-line"
+              dangerouslySetInnerHTML={{ __html: formatLinksAndBoldText(email.body) }}
+            />
 
-                    <div className="text-xs text-black-700 italic" style={{
-                      textAlign: 'end'
-                    }}>
-                      Best regards,<br/>
-                      {email.signature.name}<br/>
-                      {email.signature.title}<br/>
-                      {email.signature.company}
-                    </div>
+            <div className="text-xs text-black-700 italic" style={{
+              textAlign: 'end'
+            }}>
+              Best regards,<br/>
+              {email.signature.name}<br/>
+              {email.signature.title}<br/>
+              {email.signature.company}
+            </div>
           </div>
         </div>
       </div>
@@ -234,9 +349,14 @@ const EmailColumn: React.FC<EmailColumnProps> = ({
                 </span>
               </Button>
             )}
+            
           </div>
           
-          <div className="flex-1 overflow-y-auto">
+          <div 
+            ref={scrollContainerRef}
+            className="flex-1 overflow-y-auto"
+            style={{ scrollBehavior: 'smooth' }}
+          >
             <div className="p-4">
               {/* Author Info Section */}
               <div className="p-4 mb-4">
@@ -245,12 +365,12 @@ const EmailColumn: React.FC<EmailColumnProps> = ({
                 </h4>
                 <p className="text-black-800 leading-relaxed" style={{
                   margin: '10px',
-                  fontStyle: ' italic'
+                  fontStyle: 'italic'
                 }}>
-                   <div 
-                      className="leading-relaxed whitespace-pre-line"
-                      dangerouslySetInnerHTML={{ __html: formatLinksAndBoldText(chapterData.emailColumn.authorInfo.description) }}
-                    />
+                  <div 
+                    className="leading-relaxed whitespace-pre-line"
+                    dangerouslySetInnerHTML={{ __html: formatLinksAndBoldText(chapterData.emailColumn.authorInfo.description) }}
+                  />
                 </p>
               </div>
 
@@ -258,99 +378,116 @@ const EmailColumn: React.FC<EmailColumnProps> = ({
               <div className="space-y-3 mb-4">
                 {chapterData.emails.map((email, index) => (
                   <div 
-                    key={index} 
-                    className={`p-4 transition-all duration-500 ${
-                      animateEmails 
-                        ? `animate-fade-in opacity-100 translate-y-0` 
-                        : 'opacity-0 translate-y-4'
-                    }`}
-                    style={{
-                      animationDelay: animateEmails ? `${index * 200}ms` : '0ms'
-                    }}
+                    key={index}
+                    ref={el => emailRefs.current[index] = el}
+                    data-email-index={index}
+                    className="min-h-[100px]" // Ensure space for intersection observer
                   >
-                  {email && EmailStructured(email, chapterId)}
-                    {email.highlight && (
-                     <div className="mt-2 p-4 bg-gradient-to-r from-yellow-100 to-amber-100 border-l-4 border-amber-400 rounded-r-lg shadow-sm relative">
-                      <div className="absolute top-2 right-2 text-amber-600 opacity-60">
-                        <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                        </svg>
+                    {/* First email is always shown, others show based on loaded state */}
+                    {(index === 0 || loadedEmails.has(index)) ? (
+                      <>
+                        {email && EmailStructured(email, chapterId, justLoadedEmails.has(index))}
+                        
+                        {email.highlight && (
+                          <div className="mt-2 p-4 bg-gradient-to-r from-yellow-100 to-amber-100 border-l-4 border-amber-400 rounded-r-lg shadow-sm relative">
+                            <div className="absolute top-2 right-2 text-amber-600 opacity-60">
+                              <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                              </svg>
+                            </div>
+                            <div className="font-semibold text-amber-900 text-sm leading-relaxed mb-1">
+                              {email.highlight.title}
+                            </div>
+                            <div className="text-amber-800 text-xs leading-relaxed italic">
+                              "{email.highlight.description}"
+                            </div>
+                            <div className="absolute bottom-1 right-2 text-amber-500 text-xs font-medium opacity-75">
+                              highlight
+                            </div>
+                          </div>
+                        )}
+                        
+                        <div className="flex justify-center my-4">
+                          <span className="text-amber-700 text-sm font-medium mr-3 italic">
+                            now fill the canvas
+                          </span>
+                          <svg 
+                            className="w-20 h-8 text-amber-600" 
+                            viewBox="0 0 80 32" 
+                            fill="none" 
+                            stroke="currentColor"
+                            strokeWidth="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          >
+                            <path 
+                              d="M8 16 Q20 12, 32 16 T56 16 L68 16" 
+                              strokeWidth="2.5"
+                              className="animate-pulse"
+                            />
+                            <path 
+                              d="M62 11 Q68 15, 72 16 Q68 17, 62 21" 
+                              strokeWidth="2.5"
+                              fill="none"
+                            />
+                            <path 
+                              d="M12 20 Q16 18, 20 20" 
+                              strokeWidth="1.5"
+                              opacity="0.7"
+                            />
+                            <path 
+                              d="M40 12 Q44 14, 48 12" 
+                              strokeWidth="1.5"
+                              opacity="0.7"
+                            />
+                          </svg>
+                        </div>
+                      </>
+                    ) : currentlyLoadingEmail === index ? (
+                      // Show loading animation only for the specific email that's loading
+                      <EmailLoadingAnimation />
+                    ) : (
+                      // Show placeholder for emails that haven't been reached yet
+                      <div className="py-12 mb-8 border-2 border-dashed border-amber-200 rounded-lg">
+                        <div className="flex justify-center items-center text-amber-600 opacity-50">
+                          <svg width="50" height="37" viewBox="0 0 50 37" fill="none" stroke="currentColor" strokeWidth="1.5">
+                            <rect x="3" y="8" width="44" height="24" rx="3" />
+                            <path d="M3 10 L25 22 L47 10" />
+                          </svg>
+                          <span className="ml-3 text-base">Scroll down to load email {index + 1}</span>
+                        </div>
                       </div>
-                      <div className="font-semibold text-amber-900 text-sm leading-relaxed mb-1">
-                        {email.highlight.title}
-                      </div>
-                      <div className="text-amber-800 text-xs leading-relaxed italic">
-                        "{email.highlight.description}"
-                      </div>
-                      <div className="absolute bottom-1 right-2 text-amber-500 text-xs font-medium opacity-75">
-                        highlight
-                      </div>
-                    </div>
                     )}
- <div className="flex justify-center my-4">
-    <span className="text-amber-700 text-sm font-medium mr-3 italic">
-      now fill the canvas
-    </span>
-    <svg 
-      className="w-20 h-8 text-amber-600" 
-      viewBox="0 0 80 32" 
-      fill="none" 
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      {/* Wavy arrow line */}
-      <path 
-        d="M8 16 Q20 12, 32 16 T56 16 L68 16" 
-        strokeWidth="2.5"
-        className="animate-pulse"
-      />
-      {/* Arrow head with slight curve */}
-      <path 
-        d="M62 11 Q68 15, 72 16 Q68 17, 62 21" 
-        strokeWidth="2.5"
-        fill="none"
-      />
-      {/* Small decorative curves */}
-      <path 
-        d="M12 20 Q16 18, 20 20" 
-        strokeWidth="1.5"
-        opacity="0.7"
-      />
-      <path 
-        d="M40 12 Q44 14, 48 12" 
-        strokeWidth="1.5"
-        opacity="0.7"
-      />
-    </svg>
-  </div>
                   </div>
-
                 ))}
               </div>
 
-              {/* Key Takeaways Section */}
-              <div className="p-4 mb-4">
-                <h4 className="text-black-900 font-semibold text-sm mb-2">
-                  {chapterData.emailColumn.keyTakeaways.title}
-                </h4>
-                <p className="text-black-800 text-xs leading-relaxed">
-                  {chapterData.emailColumn.keyTakeaways.description}
-                </p>
-              </div>
+              {/* Show final sections only after all emails are visible */}
+              {loadedEmails.size >= chapterData.emails.length && (
+                <>
+                  {/* Key Takeaways Section */}
+                  <div className="p-4 mb-4 transform transition-all duration-500 opacity-100 translate-y-0">
+                    <h4 className="text-black-900 font-semibold text-sm mb-2">
+                      {chapterData.emailColumn.keyTakeaways.title}
+                    </h4>
+                    <p className="text-black-800 text-xs leading-relaxed">
+                      {chapterData.emailColumn.keyTakeaways.description}
+                    </p>
+                  </div>
 
-              {/* Materials Used Section */}
-              <div className="p-4 mb-4">
-                <h4 className="text-black-900 font-semibold text-sm mb-3">Materials Used</h4>
-                <ul className="space-y-2">
-                  {chapterData.emailColumn.materialsUsed.map((material, index) => (
-                    <li key={index} className="text-black-800 text-xs leading-relaxed">
-                      • {material}
-                    </li>
-                  ))}
-                </ul>
-              </div>
+                  {/* Materials Used Section */}
+                  <div className="p-4 mb-4 transform transition-all duration-500 opacity-100 translate-y-0">
+                    <h4 className="text-black-900 font-semibold text-sm mb-3">Materials Used</h4>
+                    <ul className="space-y-2">
+                      {chapterData.emailColumn.materialsUsed.map((material, index) => (
+                        <li key={index} className="text-black-800 text-xs leading-relaxed">
+                          • {material}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </>
+              )}
             </div>
           </div>
         </>
