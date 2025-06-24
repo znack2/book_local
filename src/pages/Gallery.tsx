@@ -10,6 +10,8 @@ import PageLayout from "@/components/PageLayout";
 import LockedChapterModal from "@/components/LockedChapterModal";
 import BookmarkIcon from "@/components/BookmarkIcon";
 import { useAuth } from "@/contexts/AuthContext";
+import { usePromoCode } from "@/contexts/PromoCodeContext";
+import { useToast } from "@/hooks/use-toast";
 import galleryData from '../data/galleryData.json';
 import RecommendationBanner from '../components/RecommendationBanner';
 
@@ -27,6 +29,36 @@ const Gallery = () => {
   const [selectedChapter, setSelectedChapter] = useState<number>(1);
   const [chaptersWithContent, setChaptersWithContent] = useState<Set<number>>(new Set());
   const [lastOpenedChapter, setLastOpenedChapter] = useState<number | null>(null);
+
+  const { unlockChapter, openChapterId, setOpenChapter, isChapterUnlocked } = usePromoCode();
+  const { toast } = useToast();
+  const [promocodeInput, setPromocodeInput] = useState('');
+  const [promocodeError, setPromocodeError] = useState('');
+
+// Update the handlePromocodeSubmit function
+const handlePromocodeSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+  setPromocodeError('');
+  
+  if (!promocodeInput.trim()) {
+    setPromocodeError('Please enter a promocode');
+    return;
+  }
+  
+  const result = await unlockChapter(promocodeInput);
+  
+  if (result.success) {
+    toast({
+      title: "Success! 🎉",
+      description: result.message || "Promocode applied successfully!",
+    });
+    setPromocodeInput('');
+    setPromocodeError('');
+  } else {
+    setPromocodeError(result.message || 'Invalid promocode. Please try again.');
+  }
+};
+
 
   // Get tags that appear more than once and limit to 8
   const tagCounts = galleryData.books
@@ -109,24 +141,28 @@ const Gallery = () => {
 
   const progressPercentage = (openedChapters / galleryData.books.length) * 100;
 
-  const handleCardClick = (id: number) => {
-    // Check if user has promo access or if it's the first chapter
-    if (hasPromoAccess || id === 1) {
-      // Mark chapter as visited when opening
-      localStorage.setItem(`chapter-${id}-visited`, 'true');
-      // Update last opened chapter when navigating
-      setLastOpenedChapter(id);
-      localStorage.setItem('lastOpenedChapter', id.toString());
-      navigate(`/canvas?item=${id}`);
-    } else {
-      setSelectedChapter(id);
-      setLockedModalOpen(true);
-    }
-  };
+const handleCardClick = (id: number) => {
+  // Use the PromoCode context to check if chapter is unlocked
+  if (isChapterUnlocked(id)) {
+    // Mark chapter as visited when opening
+    localStorage.setItem(`chapter-${id}-visited`, 'true');
+    // Update last opened chapter when navigating
+    setLastOpenedChapter(id);
+    localStorage.setItem('lastOpenedChapter', id.toString());
+    // Update open chapter in context
+    setOpenChapter(id);
+    navigate(`/canvas?item=${id}`);
+  } else {
+    setSelectedChapter(id);
+    setLockedModalOpen(true);
+  }
+};
 
-  const isChapterLocked = (id: number) => {
-    return !hasPromoAccess && id !== 1;
-  };
+const isChapterLocked = (id: number) => {
+  // Use the PromoCode context function instead of hasPromoAccess
+  return !isChapterUnlocked(id);
+};
+
 
   // Create milestone markers for every 6 chapters - only lines without text
   const createMilestoneMarkers = () => {
@@ -190,19 +226,41 @@ const Gallery = () => {
             </div>
           </div>
           
-          {/* Access Status Info */}
-          {!hasPromoAccess && (
-            <div className="px-6 py-3 bg-amber-50 border-b border-amber-200/30 flex-shrink-0">
-              <div className="flex items-center gap-2 text-amber-800">
-                <Lock className="w-4 h-4" />
-                <span className="text-sm">
-                  {galleryData.limitedAccessMessage}
-                </span>
-              </div>
+        {!hasPromoAccess && (
+          <div className="px-6 py-3 bg-amber-50 border-b border-amber-200/30 flex-shrink-0">
+            <div className="flex items-center gap-2 text-amber-800 mb-3">
+              <Lock className="w-4 h-4" />
+              <span className="text-sm">
+               {galleryData.limitedAccessMessage}
+              </span>
             </div>
-          )}
+            <form onSubmit={handlePromocodeSubmit} className="flex items-center gap-3">
+              <label className="text-sm font-medium text-amber-900 whitespace-nowrap">
+                Enter Promocode:
+              </label>
+              <input
+                type="text"
+                value={promocodeInput}
+                onChange={(e) => setPromocodeInput(e.target.value)}
+                placeholder="Enter your promocode"
+                className="flex-1 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-sm"
+                maxLength={16}
+              />
+              <button
+                type="submit"
+                className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors text-sm"
+              >
+                Apply
+              </button>
+            </form>
+            {promocodeError && (
+              <p className="text-red-500 text-sm mt-2">{promocodeError}</p>
+            )}
+          </div>
+        )}
 
           <RecommendationBanner />
+
           
           {/* Filter Tags - Now based on tags array, limited to 8 */}
           <div className="flex flex-wrap gap-2 px-6 py-4 border-b flex-shrink-0" style={{ borderColor: 'rgba(139, 125, 107, 0.15)' }}>

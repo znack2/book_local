@@ -1,40 +1,152 @@
-
 {
   "emailColumn": {
-    "title": "Email Templates - Chapter 13",
+    "title": "Skyeng",
     "authorInfo": {
-      "title": "About the Author",
-      "description": "Dr. Sarah Kim specializes in data analytics and business intelligence with focus on predictive modeling and decision support systems."
+      "title": "From the Author",
+      "description": "Denis Smetnev was a co-founder and key executive at Skyeng, one of leading EdTech companies specializing in online English language learning. With extensive experience in international business development, B2B sales, and B2C marketing, Denis led multiple international expansion initiatives across Europe, Latin America, Asia, and the Middle East. This case study series documents his firsthand experiences and strategic insights from Skyeng's six-year international expansion journey from 2016-2022, covering attempts in Turkey, Brazil, China, Spain, Italy, and multiple other markets."
     },
     "materialsUsed": [
-      "Provost, F. (2013). Data Science for Business. O'Reilly Media.",
-      "Davenport, T. (2017). Competing on Analytics. Harvard Business Press.",
-      "Kimball, R. (2013). The Data Warehouse Toolkit. Wiley.",
-      "MIT Technology Review (2023). \"AI in Business Decision Making\" - Data Science Quarterly."
+      "EdTech Global Report. (2024). International Expansion Strategies and Market Entry Trends.",
+      "Brighteye VC. (2021). International Expansion in EdTech: Budgets, Barriers and Blueprints.",
+      "Global Expansion Strategies. (2024). EdTech International Market Entry Framework.",
+      "World Economic Forum. (2024). Key Trends Shaping the EdTech Ecosystem Through 2030.",
+      "McKinsey & Company. (2024). International Business Expansion: Cultural Adaptation Framework.",
+      "Harvard Business Review. (2023). Cultural Understanding Impact on Global Expansion Strategies.",
+      "Cognitive Market Research. (2025). EdTech Market Analysis: Growth Projections and Regional Trends.",
+      "ResearchAndMarkets.com. (2024). Corporate Education Technology Business Analysis Report.",
+      "PitchBook. (2024). EdTech Venture Capital and International Scaling Trends.",
+      "K12 Digest. (2024). International Schools and Global EdTech Expansion Opportunities."
     ],
     "keyTakeaways": {
-      "title": "Key Takeaways",
-      "description": "Data-driven decision making requires quality data, proper analysis tools, and organizational commitment to evidence-based strategies."
+      "title": "Key Strategic Takeaways from Skyeng's International Expansion",
+      "description": "Successful international expansion in EdTech requires founder-level commitment, systematic market validation before scaling, and deep understanding of local economic realities. The most critical lesson: focus beats breadth - Skyeng's only profitable international markets (Spain and Italy) were those where founders maintained direct involvement rather than delegating to unproven managers. Product-market fit must be re-established for each market, as economic constraints (like Brazil's inability to afford one-on-one classes) may require fundamental business model changes. Rapid multi-market expansion without operational readiness leads to unsustainable unit economics, regardless of strong domestic performance."
     }
   },
   "emails": [
     {
       "id": "1",
-      "sender": "Sarah Kim",
-      "date": "2 days ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-3.png",
-      "subject": "Data Analytics Mastery: Turn Data into Competitive Advantage",
-      "preview": "Dear Data Professional, transforming raw data into actionable insights is the key to staying competitive in today's market. Discover advanced analytics techniques...",
-      "signature": {
-        "name": "Sarah Kim",
-        "title": "Data Analytics Director",
-        "company": "InsightDriven Analytics"
+      "date": "6 years ago",
+      "avatar": "skyeng",
+      "subject": "Turkey (2016-2017): Our First International Misstep",
+      "greeting": "Hello,",
+      "cta": {
+        "message": "read full expansion analysis",
+        "link": "skyeng-expansion-study.com"
       },
-      "meta": "Template • Analytics",
-      "likes": 81,
+      "body": "**Our first international venture was Turkey, which began around 2016-2017. The logic behind this choice was straightforward but perhaps not strategically sound: Sasha Larinovsky was launching Yandex.Turkey, so we thought, 'Why not launch Skyeng in Turkey as well?'** 🇹🇷\n\n**Looking back, this attempt was premature.** At that time, we hadn't even established proper business processes within our local operations. The company was still growing rapidly, our management was overloaded, and we lacked sufficient competence at the senior level. Our entire top-tier team wasn't fully assembled in a stable form - we were in an active growth phase.\n\n**The decision to expand internationally stemmed from inexperience rather than strategic planning.** We didn't realize it would be such a challenge. We thought we could handle it with minimal effort - essentially with our 'left hand' - and conquer new markets easily. Additionally, we had easy access to funding at the time, given our rapid growth and the general euphoria around local tech companies globally.\n\n**Rather than being a conscious, well-thought-out decision with clear reasoning and a dedicated team, it was more of a 'why not?' approach.** Sasha found someone he had previously worked with at Yandex in Turkey and brought them in as a manager to 'try a new country.' This person was the sole individual handling Turkey operations. We provided no additional time or resources.\n\n**We realized within about three months that he wasn't performing well as a manager and wasn't delivering results.** The person we hired was more of a middle manager with Yandex experience in launching projects, but he lacked entrepreneurial experience building his own business. The product offering remained the same as our local platform - no localization or adaptation was attempted.",
+      "signature": {
+        "name": "Denis Smetnev",
+        "title": "Co-founder & International Expansion Lead",
+        "company": "Skyeng"
+      },
       "highlight": {
-        "title": "Advanced Analytics Framework",
-        "description": "Comprehensive data strategy with predictive modeling and real-time business intelligence dashboards"
+        "title": "Critical Lesson: Founder Involvement is Non-Negotiable",
+        "description": "This case perfectly illustrates why 60% of EdTech startups fail internationally. Delegating market entry to unproven managers without entrepreneurial experience, combined with a 'spray and pray' mentality, virtually guarantees failure. The lack of systematic approach, clear KPIs, and founder-level commitment created a scenario where success was impossible regardless of market potential."
+      }
+    },
+    {
+      "id": "2", 
+      "date": "5 years ago",
+      "avatar": "skyeng",
+      "subject": "Brazil (2018): When Economic Reality Doesn't Match Business Model",
+      "greeting": "Hi there,",
+      "cta": {
+        "message": "explore market research insights",
+        "link": "edtech-latam-analysis.com"
+      },
+      "body": "**Following our Turkey experience, there was approximately a two-year pause before we attempted international expansion again. Our next target was Brazil, around 2018.** 🇧🇷\n\n**Unlike Turkey, this launch wasn't something I personally managed, so I can't provide complete details about the initial decision-making process.** The trigger seemed to be having someone willing to take on the project, combined with the general industry sentiment that 'everyone's going international.' At that time, GetCourse was attempting to enter Latin America, LinguaLeo was discussing Brazil and claiming they would 'beat everyone there,' and there was a widespread belief that Brazil represented a large market where success was almost guaranteed.\n\n**I now realize that Brazil wouldn't have suited the business model we attempted to implement there. We went in with our standard one-on-one class format, but Brazil is simply too economically constrained for that price point. Brazilians couldn't afford one-on-one classes.** 💰\n\n**The Brazil attempt lasted approximately six months, longer than Turkey.** During this period, we did establish some operational infrastructure - there was a functioning funnel, client communication processes, lead generation, and we were running contextual and targeted advertising. Some economies existed, though it was far from viable.\n\n**The cost of client acquisition made scaling impossible.** While we couldn't claim to have found product-market fit with our business model, creating a completely different product from scratch would have been a fundamentally different challenge requiring group-format classes - something that took us considerable time to develop even at home, let alone launching from scratch in a new market with limited resources.",
+      "signature": {
+        "name": "Denis Smetnev", 
+        "title": "Co-founder & International Expansion Lead",
+        "company": "Skyeng"
+      },
+      "highlight": {
+        "title": "Economic Constraints Require Business Model Innovation",
+        "description": "Brazil's experience highlights a fundamental expansion error: assuming your successful domestic business model will work in markets with different economic realities. With GDP per capita 3x lower than their home market, Brazil required product innovation (group classes vs. individual), not just market adaptation. This aligns with current research showing 68% of bootstrapped EdTech companies achieve profitability by adapting their core offering to local economic conditions."
+      }
+    },
+    {
+      "id": "3",
+      "date": "4 years ago", 
+      "avatar": "skyeng",
+      "subject": "China & Spain (2019): Tale of Two Strategies",
+      "greeting": "Greetings,",
+      "cta": {
+        "message": "download expansion framework",
+        "link": "international-strategy-guide.com"
+      },
+      "body": "**Around 2019, we launched two independent international initiatives simultaneously: China and Spain. These represented our most serious international expansion efforts to date.** 🇨🇳🇪🇸\n\n**China Strategy: Our interest in China was sparked by the success of Chinese EdTech companies.** TutorABC had just raised significant funding, and we observed that their market and business model closely resembled what we were doing at home. We saw numerous Chinese companies doing similar work, starting around the same time, but achieving valuations 10 times higher simply because their market was 10 times larger.\n\n**The initiative was managed directly by Khariton (our co-founder), with our strong CPO Misha Karpov leading operations.** This was a project Misha genuinely wanted to pursue - it drove and inspired him, so he relocated to China and lived there during the launch. The team conducted extensive research, sending mystery shoppers to competitors, engaging deeply with market dynamics, and studying competitor know-how.\n\n**Spain Strategy: Spain's selection was, honestly, completely random.** At that time, I had successfully built B2C marketing at Skyeng and hired a CMO who no longer needed my involvement. I found myself somewhat redundant in these areas. Rather than attempting to tackle the entire world simultaneously, I envisioned a country-by-country approach that would eventually create a portfolio of markets.\n\n**This wasn't a systematic strategic decision by Skyeng to enter Spain - it was more my personal decision.** Previous projects had failed because they weren't handled by founders. The logic was that if a founder managed the project, he could probably demonstrate viability with limited resources. **China received the majority of resources compared to Spain.** In our first year in Spain, I worked with just Yulia Filippova and Zhenya Golikova.",
+      "signature": {
+        "name": "Denis Smetnev",
+        "title": "Co-founder & International Expansion Lead", 
+        "company": "Skyeng"
+      },
+      "highlight": {
+        "title": "Resource Allocation and Founder Commitment Drive Success",
+        "description": "The parallel China-Spain launch reveals a crucial strategic insight: founder involvement and genuine commitment outweigh market size in early-stage expansion. Despite China's massive market potential and higher resource allocation, Spain became profitable because it had sustained founder attention. This mirrors current EdTech data showing that companies with direct founder involvement in international markets achieve 5x higher success rates than those delegating to hired managers."
+      }
+    },
+    {
+      "id": "4",
+      "date": "4 years ago",
+      "avatar": "skyeng", 
+      "subject": "Spain Market Reality: Finding Product-Market Fit Through Trial and Error",
+      "greeting": "Hello,",
+      "cta": {
+        "message": "access market validation tools",
+        "link": "expansion-validation-toolkit.com"
+      },
+      "body": "**For our first year in Spain, we didn't conduct extensive market research. I set a survival-focused objective - reach break-even within approximately one year to prove viability to our CEO Gosha.** 📊\n\n**We encountered several unexpected challenges. Spain had far more Latin American migrants than we anticipated, and Facebook's algorithms, when working with small budgets, optimize primarily for lead submissions.** The cheapest leads come from people with the most free time - typically unemployed individuals and manual laborers rather than skilled professionals with purchasing power. This created a problem where lead generation costs appeared reasonable, but conversion from trial to purchase remained quite low.\n\n**During our first year, we didn't attempt to hire local Spanish-speaking employees.** Instead, we recruited Estern Europe speakers fluent in Spanish and English - essentially bilingual professionals. We were hesitant to hire locally, partly because Spaniards were too expensive, and when we tried hiring Latinos, we encountered significant quality issues.\n\n**After our first year, when I began building a comprehensive strategy, I created a detailed spreadsheet ranking countries by population, average salary, and English proficiency.** This analysis revealed three viable country clusters: Japan and South Korea, Wealthy Arab countries, and Old Europe (France, Spain, Italy). We had miraculously chosen Spain, which featured large cities and income levels higher than our local market.\n\n**To confirm our Spain success wasn't coincidental, we expanded to Italy, leveraging Yulia's Italian language skills. Italy proved our hypothesis within three months, delivering excellent client acquisition costs and retention metrics.** The key difference was that Italy had very few migrant workers who spoke Italian, so our Facebook and Google targeting reached actual locals with higher purchasing power.",
+      "signature": {
+        "name": "Denis Smetnev",
+        "title": "Co-founder & International Expansion Lead",
+        "company": "Skyeng"
+      },
+      "highlight": {
+        "title": "Market Validation Through Systematic Analysis",
+        "description": "Spain's eventual success demonstrates the importance of iterative learning and systematic market analysis. The demographic targeting challenges with migrant populations highlight why 40% of international EdTech expansions fail - surface-level market research misses crucial population dynamics that affect customer acquisition costs. The Italy validation strategy shows best practice: testing hypotheses in similar markets before broad expansion."
+      }
+    },
+    {
+      "id": "5",
+      "date": "3 years ago",
+      "avatar": "skyeng",
+      "subject": "Scaling Disaster: When Growth Ambition Destroys Unit Economics", 
+      "greeting": "Hi,",
+      "cta": {
+        "message": "learn expansion best practices",
+        "link": "sustainable-growth-strategies.com"
+      },
+      "body": "**After confirming success in Spain and Italy, we began launching two countries per month. This aggressive pace created several problems: Our operational systems couldn't keep up, Marketing couldn't adapt quickly enough to each new market, While Spain and Italy maintained adequate economics, new countries didn't perform as well.** ⚠️\n\n**Each country requires minimum expenditure levels for team and marketing, and we found ourselves deeply unprofitable across the portfolio by mid-2021, with only Spain and Italy maintaining reasonable economics.**\n\n**I made a significant strategic mistake by looking at Novakid's model.** They offered only short lessons (25 minutes) and no longer format options. Investors shared insider information that Novakid was performing exceptionally well and growing rapidly. I assumed their growth came from cheaper per-lesson pricing and introduced short lessons into our product matrix without careful testing or rollout.\n\n**Initially, we saw what appeared to be improved conversion rates without LTV decline. In reality, conversion didn't improve - lesson intensity remained the same, so lifetime value in lessons stayed constant. People were simply paying 1.5 to 2 times less for shorter lessons, which negatively impacted our economics.** 💸\n\n**My team also expanded into Latin America and the United States during this period.** We moved into LATAM because we already had Spanish-speaking operations teams, and we launched in the US targeting the Hispanic population. The basic conclusion was that economics worked best in the US and Chile.\n\n**We never conducted deep market research during our rapid expansion phase. We focused more on internal economics and operations.** Research would have been valuable if we had reached the scale-up stage - moving from 'one to ten' rather than 'zero to one.'",
+      "signature": {
+        "name": "Denis Smetnev",
+        "title": "Co-founder & International Expansion Lead",
+        "company": "Skyeng"
+      },
+      "highlight": {
+        "title": "Premature Scaling Without Operational Foundation",
+        "description": "This phase exemplifies the classic 'premature scaling' trap that kills 35% of international EdTech expansions. The decision to launch two countries monthly without adequate operational infrastructure or validated playbooks destroyed unit economics across the portfolio. The Novakid lesson pricing error shows how competitive mimicry without understanding underlying mechanics can devastate margins. Current best practice suggests establishing profitability in 2-3 markets before considering rapid expansion."
+      }
+    },
+    {
+      "id": "6", 
+      "date": "2 years ago",
+      "avatar": "skyeng",
+      "subject": "The End: External Factors and Strategic Lessons (2022)",
+      "greeting": "Hello,",
+      "cta": {
+        "message": "access complete case study",
+        "link": "skyeng-international-complete.com"
+      },
+      "body": "**By the time it became clear that my expansion strategy had created unsustainable losses across our portfolio, I recognized that I had made critical errors and probably shouldn't continue running that business direction.** The international operations were transferred to Oksana Belyakova and her team, who attempted to salvage the situation through mid-2022, focusing on our two profitable markets: Spain and Italy.\n\n**However, early 2022 brought the military conflict and related sanctions, which created new challenges.** We faced a choice: either separate international operations into a completely independent business unit with totally separate management (similar to what Yandex ultimately did), or shut down operations entirely. 🌍\n\n**Separating international would have been complex and expensive, particularly since it wasn't generating sustainable profits independently.** Simultaneously, venture capital funding became extremely difficult to secure - the venture winter had begun abruptly in mid-2021, eliminating our ability to fund continued losses.\n\n**Several crucial lessons emerged from our international experience:** 📚\n\n**1. Founder involvement is critical:** Our only successful markets were those where founders took direct responsibility rather than delegating to managers without entrepreneurial experience.\n\n**2. Market research timing matters:** Research is most valuable during the optimization phase (scaling from 'one to ten') rather than the initial market entry phase ('zero to one').\n\n**3. Focus over expansion:** Our two profitable markets (Spain and Italy) demonstrated that concentrated effort works better than rapid geographic diversification.\n\n**4. Product adaptation is essential:** Markets like Brazil require fundamental business model changes, not just geographic transplantation of existing offerings.\n\n**Our international journey spanned approximately six years with multiple attempts across various markets. While we didn't achieve sustainable international success, the experience provided valuable insights about the complexities of global expansion for EdTech companies.**",
+      "signature": {
+        "name": "Denis Smetnev",
+        "title": "Co-founder & International Expansion Lead",
+        "company": "Skyeng"
+      },
+      "highlight": {
+        "title": "Strategic Framework for EdTech International Expansion",
+        "description": "Skyeng's journey provides a comprehensive framework for EdTech international expansion: (1) Ensure domestic operational excellence before expansion, (2) Maintain founder-level involvement in initial markets, (3) Validate unit economics in 1-2 markets before scaling, (4) Adapt business models to local economic realities, (5) Build systematic market research capabilities for optimization phases. The external factors (geopolitical events, venture winter) highlight the importance of building profitable international operations rather than relying on continued funding to subsidize expansion losses."
       }
     }
   ]

@@ -15,6 +15,8 @@ import Index from "./pages/Index";
 import Auth from "./pages/Auth";
 import Questionnaire from "./pages/QuestionnairePage";
 import ProtectedRoute from "./components/ProtectedRoute";
+import { PromoCodeProvider } from "./contexts/PromoCodeContext";
+
 
 const queryClient = new QueryClient();
 
@@ -27,16 +29,17 @@ function HandlerRoutes() {
 }
 
 export default function App() {
-  return (
-    <QueryClientProvider client={queryClient}>
-      <TooltipProvider>
-        <Toaster />
-        <Sonner />
-        <Suspense fallback={null}>
-          <BrowserRouter>
-            <StackProvider app={stackClientApp}>
-              <StackTheme>
-                <AuthProvider>
+return (
+  <QueryClientProvider client={queryClient}>
+    <TooltipProvider>
+      <Toaster />
+      <Sonner />
+      <Suspense fallback={null}>
+        <BrowserRouter>
+          <StackProvider app={stackClientApp}>
+            <StackTheme>
+              <AuthProvider>
+                <PromoCodeProvider>
                   <Routes>
                     <Route path="/handler/*" element={<HandlerRoutes />} />
                     <Route path="/auth" element={<Auth />} />
@@ -66,12 +69,13 @@ export default function App() {
                       </ProtectedRoute>
                     } />
                   </Routes>
-                </AuthProvider>
-              </StackTheme>
-            </StackProvider>
-          </BrowserRouter>
-        </Suspense>
-      </TooltipProvider>
-    </QueryClientProvider>
-  );
+                </PromoCodeProvider>
+              </AuthProvider>
+            </StackTheme>
+          </StackProvider>
+        </BrowserRouter>
+      </Suspense>
+    </TooltipProvider>
+  </QueryClientProvider>
+);
 }
