@@ -48,7 +48,7 @@ const Auth = () => {
   const sampleEmail = {
     "subject": "From Europe to Dubai - Our First International Leap",
     "date": "Oct 15, 2023",
-    "greeting": "Hey there!",
+    "greeting": "Hey!",
     "body": "Our international expansion journey started in **2016**, not through complex research but thanks to strong client relationships. We were an agency in 🇷🇺 Russia offering **e-commerce design and automation services**.\n\nThe big shift came when our key client, LG, relocated a manager to 🇦🇪 Dubai. They said, '**Your work outperforms anything here. Let's continue.**' That introduction opened doors to the MENA region.\n\nThroughout **2016-2017**, we operated in 'fly-in, deliver, fly-out' mode—handling **content, design, and website support for LG.com in Dubai**. The UAE market lagged behind Russia's e-commerce scene, so we expanded cautiously.\n\nThis taught us a key lesson: **remote work gets you started, but local presence drives real growth.** Once we built local teams, our business truly scaled.",
     "signature": {
       "name": "Yury Shishkin",
