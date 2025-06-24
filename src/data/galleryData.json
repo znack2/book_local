@@ -4,7 +4,7 @@
   "books": [
   {
     "id": 21,
-    "title": "Flowwow",
+    "title": "flowwow",
     "preview": "Global floral tech marketplace connecting 15,000+ local florists with customers in 40+ countries for same-day delivery.",
     "logo": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/Flowwow.png",
     "image": "",
@@ -15,7 +15,7 @@
   },
   {
     "id": 2,
-    "title": "Getcourse",
+    "title": "getcourse",
     "preview": "All-in-one e-learning platform for creating, marketing, and selling online courses with CRM and automation tools.",
     "logo": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/Getcourse.png",
     "image": "",
@@ -26,7 +26,7 @@
   },
   {
     "id": 3,
-    "title": "EBAC",
+    "title": "ebac",
     "preview": "Brazilian educational institution offering online courses and postgraduate programs in creative and technological fields.",
     "logo": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/EBAC.png",
     "image": "",
@@ -37,7 +37,7 @@
   },
   {
     "id": 5,
-    "title": "Algorithmics",
+    "title": "algorithmics",
     "preview": "International franchise offering programming education for children aged 6-18 with 200+ franchise partners globally.",
     "logo": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
     "image": "",
@@ -48,7 +48,7 @@
   },
   {
     "id": 6,
-    "title": "Kodland",
+    "title": "kodland",
     "preview": "International online platform teaching digital skills to children and teenagers aged 5-17 in over 40 countries.",
     "logo": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
     "image": "",
@@ -59,7 +59,7 @@
   },
   {
     "id": 7,
-    "title": "CityAds",
+    "title": "cityads",
     "preview": "Global technology platform specializing in online performance marketing and affiliate marketing across 20+ countries.",
     "logo": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
     "image": "",
@@ -70,7 +70,7 @@
   },
   {
     "id": 8,
-    "title": "Borzo",
+    "title": "borzo",
     "preview": "Global same-day delivery service operating in 10+ countries with 2M+ users and 2.5M couriers handling 3M orders monthly.",
     "logo": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
     "image": "",
@@ -81,7 +81,7 @@
   },
   {
     "id": 9,
-    "title": "Albato",
+    "title": "albato",
     "preview": "No-code integration and automation platform connecting cloud applications to automate workflows without coding.",
     "logo": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
     "image": "",
@@ -92,7 +92,7 @@
   },
   {
     "id": 10,
-    "title": "FlipperZero",
+    "title": "flipperzero",
     "preview": "Versatile, portable multi-tool device for interacting with access control systems and radio protocols.",
     "logo": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
     "image": "",
@@ -103,7 +103,7 @@
   },
   {
     "id": 11,
-    "title": "Livedune",
+    "title": "livedune",
     "preview": "Social media management and analytics service providing tools for scheduling, publishing, and analyzing content.",
     "logo": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
     "image": "",
@@ -114,7 +114,7 @@
   },
   {
     "id": 12,
-    "title": "Uplify",
+    "title": "uplify",
     "preview": "Martech company leveraging AI and ML to connect brands with influencers, especially in livestreaming with 33K+ influencers.",
     "logo": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
     "image": "",
@@ -125,7 +125,7 @@
   },
   {
     "id": 13,
-    "title": "Colife",
+    "title": "colife",
     "preview": "Co-living spaces company offering long-term rental solutions for young professionals and students globally.",
     "logo": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
     "image": "",
@@ -136,7 +136,7 @@
   },
   {
     "id": 14,
-    "title": "Altegio",
+    "title": "altegio",
     "preview": "Comprehensive cloud-based ecosystem for service businesses in beauty, wellness, sports, and healthcare sectors.",
     "logo": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
     "image": "",
@@ -147,7 +147,7 @@
   },
   {
     "id": 15,
-    "title": "Drinkit",
+    "title": "drinkit",
     "preview": "Digital coffee shop chain offering app-based drink ordering with 24 shops across three countries and expansion plans.",
     "logo": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
     "image": "",
@@ -158,7 +158,7 @@
   },
   {
     "id": 16,
-    "title": "Whizz",
+    "title": "whizz",
     "preview": "U.S.-based e-bike subscription service providing electric bicycles primarily to gig workers and food delivery couriers.",
     "logo": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
     "image": "",
@@ -169,7 +169,7 @@
   },
   {
     "id": 17,
-    "title": "Airvoice",
+    "title": "airvoice",
     "preview": "Global air quality monitoring company developing solutions with partnerships across USA, India, Switzerland, and more.",
     "logo": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
     "image": "",
@@ -180,7 +180,7 @@
   },
   {
     "id": 18,
-    "title": "Skyeng",
+    "title": "skyeng",
     "preview": "Largest EdTech company in Eastern Europe specializing in online English teaching with 8,500 teachers and 84,600 students.",
     "logo": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
     "image": "",
@@ -191,7 +191,7 @@
   },
   {
     "id": 19,
-    "title": "LinkedinHelper",
+    "title": "linkedinhelper",
     "preview": "Tool for automating LinkedIn tasks for lead generation and networking, used in 180 out of 195 sovereign states globally.",
     "logo": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
     "image": "",
@@ -202,7 +202,7 @@
   },
   {
     "id": 20,
-    "title": "Electroneek",
+    "title": "electroneek",
     "preview": "RPA and Intelligent Automation platform for MSPs and IT companies, serving Fortune 500 clients in 40+ countries.",
     "logo": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
     "image": "",
@@ -224,7 +224,7 @@
   },
   {
     "id": 23,
-    "title": "Mellow",
+    "title": "mellow",
     "preview": "International freelancing and contractor management services simplifying payments and legal documentation for 190 countries.",
     "logo": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
     "image": "",
@@ -235,7 +235,7 @@
   },
   {
     "id": 24,
-    "title": "LemonAi",
+    "title": "lemonai",
     "preview": "AI and technology sector company with multiple entities focusing on artificial intelligence solutions and development.",
     "logo": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
     "image": "",
@@ -246,7 +246,7 @@
   },
   {
     "id": 25,
-    "title": "Ivitech",
+    "title": "ivitech",
     "preview": "Mobility fintech startup providing financial solutions to traditionally unbankable industries across Asia and CIS countries.",
     "logo": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
     "image": "",
@@ -257,7 +257,7 @@
   },
   {
     "id": 26,
-    "title": "CodingInvaders",
+    "title": "codinginvaders",
     "preview": "Online educational platform specializing in IT courses for tech industry transitions, with global education ambitions.",
     "logo": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
     "image": "",
@@ -268,7 +268,7 @@
   },
   {
     "id": 27,
-    "title": "Bioptic",
+    "title": "bioptic",
     "preview": "AI-driven platform revolutionizing drug discovery through activity-based molecular searches and biotech solutions.",
     "logo": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
     "image": "",
@@ -279,7 +279,7 @@
   },
   {
     "id": 28,
-    "title": "Makelove",
+    "title": "makelove",
     "preview": "Global employer-branding agency creating future-native brands with offices in São Paulo, Moscow, Tbilisi, London, Johannesburg.",
     "logo": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
     "image": "",
@@ -290,7 +290,7 @@
   },
   {
     "id": 29,
-    "title": "Amivisor",
+    "title": "amivisor",
     "preview": "Cloud-based Advanced Metering Infrastructure platform for remote energy meter data collection with 700+ deployments.",
     "logo": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
     "image": "",
@@ -301,7 +301,7 @@
   },
   {
     "id": 30,
-    "title": "Debexpert",
+    "title": "debexpert",
     "preview": "Online platform for trading debt portfolios with global presence across North & Latin America, Europe, and Southeast Asia.",
     "logo": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
     "image": "",
@@ -312,7 +312,7 @@
   },
   {
     "id": 31,
-    "title": "Jet",
+    "title": "jet",
     "preview": "Electric scooter rental service by the minute designed for urban mobility through app-based rentals without deposits.",
     "logo": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
     "image": "",
@@ -323,7 +323,7 @@
   },
   {
     "id": 32,
-    "title": "Mdinc",
+    "title": "mdinc",
     "preview": "MedTech startup improving medical professional efficiency through AI technology for decision-making and stress management.",
     "logo": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
     "image": "",
@@ -334,7 +334,7 @@
   },
   {
     "id": 33,
-    "title": "Rts",
+    "title": "rts",
     "preview": "Online educational platform teaching programming and digital art to children aged 5-17 in English, Spanish, or Russian.",
     "logo": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
     "image": "",
@@ -345,7 +345,7 @@
   },
   {
     "id": 35,
-    "title": "Yango",
+    "title": "yango",
     "preview": "International ride-hailing service operating in 600+ cities across 17 countries with food delivery and e-grocery services.",
     "logo": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
     "image": "",
@@ -356,7 +356,7 @@
   },
   {
     "id": 36,
-    "title": "SocialLinks",
+    "title": "sociallinks",
     "preview": "OSINT tools company specializing in open-source intelligence solutions for security professionals since 2015.",
     "logo": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
     "image": "",
@@ -367,7 +367,7 @@
   },
   {
     "id": 37,
-    "title": "Ipnote",
+    "title": "ipnote",
     "preview": "AI-driven global IP platform streamlining intellectual property management, connecting users with attorneys in 180+ countries.",
     "logo": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
     "image": "",
@@ -378,7 +378,7 @@
   },
   {
     "id": 38,
-    "title": "E-rockets",
+    "title": "e-rockets",
     "preview": "Direct delivery platform allowing customers to pick up meals at restaurants without waiting for traditional delivery.",
     "logo": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
     "image": "",
@@ -389,7 +389,7 @@
   },
   {
     "id": 39,
-    "title": "Renova",
+    "title": "renova",
     "preview": "Health management service company collaborating with quality-controlled clinics and laboratories, acquired by Capital Life Insurance.",
     "logo": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
     "image": "",
@@ -400,7 +400,7 @@
   },
   {
     "id": 40,
-    "title": "Orbita",
+    "title": "orbita",
     "preview": "Smart driving platform integrating technologies, data, and vehicles into unified ecosystem for various automotive stakeholders.",
     "logo": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
     "image": "",
@@ -411,7 +411,7 @@
   },
   {
     "id": 41,
-    "title": "Stages",
+    "title": "getstage",
     "preview": "Platform helping content creators and businesses monetize videos and live streams with multilingual Portuguese support.",
     "logo": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
     "image": "",
@@ -422,7 +422,7 @@
   },
   {
     "id": 42,
-    "title": "Sputnik",
+    "title": "sputnik",
     "preview": "Smart intercom systems developer for residential buildings with 52,000+ devices and 1.55M+ users through mobile app.",
     "logo": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
     "image": "",
@@ -433,7 +433,7 @@
   },
   {
     "id": 43,
-    "title": "InDrive",
+    "title": "indrive",
     "preview": "Second largest ridesharing app globally with peer-to-peer pricing model, operating in 888 cities across 48 countries.",
     "logo": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
     "image": "",
@@ -444,7 +444,7 @@
   },
   {
     "id": 44,
-    "title": "Wee",
+    "title": "wee",
     "preview": "Dubai-based online shopping platform offering diverse products with quick delivery and user-friendly interface.",
     "logo": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
     "image": "",
@@ -455,7 +455,7 @@
   },
   {
     "id": 45,
-    "title": "Elly",
+    "title": "elly",
     "preview": "San Francisco-based marketing analytics company providing full-funnel solutions with 170% revenue growth in 2024.",
     "logo": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/Elly.png",
     "image": "",
@@ -466,7 +466,7 @@
   },
   {
     "id": 46,
-    "title": "Enty",
+    "title": "enty",
     "preview": "Digital platform simplifying company management with invoicing, contracts, financial oversight, and document management tools.",
     "logo": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/Enty.png",
     "image": "",
@@ -477,7 +477,7 @@
   },
   {
     "id": 47,
-    "title": "Torus",
+    "title": "torus",
     "preview": "SaaS analytics company empowering banks and fintechs to enhance card payments profitability through data insights.",
     "logo": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/Torus.png",
     "image": "",
@@ -488,7 +488,7 @@
   }, 
    {
     "id": 48,
-    "title": "Greatleads",
+    "title": "greatleads",
     "preview": "A specialized international expansion agency, particularly strong in Latin America and APAC deployment for tech/software firms.",
     "logo": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/Greatleads.png",
     "image": "",

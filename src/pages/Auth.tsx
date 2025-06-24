@@ -10,7 +10,6 @@ import BusinessCanvas from '@/components/BusinessCanvas';
 import { Avatar } from '@/components/ui/avatar';
 
 const Auth = () => {
-  const [showQuestionnaire, setShowQuestionnaire] = useState(false);
   const [isSignUp, setIsSignUp] = useState(false);
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -25,63 +24,53 @@ const Auth = () => {
   const navigate = useNavigate();
   const { toast } = useToast();
 
-  // Sample JSON data structure based on the images
-  const slidesData = {
-    slides: [
-      {
-        id: 0,
-        type: "features-grid",
-        question: "Claude, mostre-me as principais funcionalidades disponíveis.",
-        response: "Aqui estão as principais funcionalidades do nosso sistema:"
-      },
-      {
-        id: 1,
-        type: "email",
-        question: "Claude, crie um relatório para analisar o uso do produto e feedback dos usuários.",
-        response: "Aqui está o email."
-      },
-      {
-        id: 2,
-        type: "canvas",
-        question: "Claude, crie um calendário de conteúdo para minha campanha de marketing.",
-        response: "Claro. Aqui está o calendário!"
-      }
-    ]
-  };
+  const slides = [
+    {
+      id: 0,
+      type: "features-grid",
+      question: "Claude, what can I do with this playbook?",
+      response: "Here are the key chapters to learn stories of global companies."
+    },
+    {
+      id: 1,
+      type: "email",
+      question: "Claude, show me how founders communicate in each chapter.",
+      response: "Here's an example email you can check and learn important insights."
+    },
+    {
+      id: 2,
+      type: "canvas",
+      question: "Claude, help me create my global expansion plan.",
+      response: "Here's your interactive canvas to map it out."
+    }
+  ];
 
-  const slides = slidesData.slides;
-
-  // Sample email data
   const sampleEmail = {
-    subject: "Welcome to our Product Demo",
-    date: "Dec 15, 2024",
-    avatar: "demo-avatar",
-    greeting: "Hi there!",
-    body: "Thank you for your interest in our product. We're excited to show you how our solution can help **streamline your workflow** and boost productivity.\n\nHere are some key features we'll cover:\n\n• Advanced analytics dashboard\n• Real-time collaboration tools\n• Automated reporting\n\nFeel free to visit our website at www.example.com for more information.",
-    signature: {
-      name: "Sarah Johnson",
-      title: "Product Manager",
-      company: "TechCorp Solutions"
+    "subject": "From Europe to Dubai - Our First International Leap",
+    "date": "Oct 15, 2023",
+    "greeting": "Hey there!",
+    "body": "Our international expansion journey started in **2016**, not through complex research but thanks to strong client relationships. We were an agency in 🇷🇺 Russia offering **e-commerce design and automation services**.\n\nThe big shift came when our key client, LG, relocated a manager to 🇦🇪 Dubai. They said, '**Your work outperforms anything here. Let's continue.**' That introduction opened doors to the MENA region.\n\nThroughout **2016-2017**, we operated in 'fly-in, deliver, fly-out' mode—handling **content, design, and website support for LG.com in Dubai**. The UAE market lagged behind Russia's e-commerce scene, so we expanded cautiously.\n\nThis taught us a key lesson: **remote work gets you started, but local presence drives real growth.** Once we built local teams, our business truly scaled.",
+    "signature": {
+      "name": "Yury Shishkin",
+      "title": "CEO",
+      "company": "24TTL.net"
     }
   };
 
-  // Auto-slide functionality with animations
+  // Auto-slide functionality
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % slides.length);
-    }, 50000); // Increased time to 8 seconds to allow for animations
-
+    }, 8000);
     return () => clearInterval(interval);
   }, [slides.length]);
 
-  // Animation sequence when slide changes
+  // Animation sequence
   useEffect(() => {
-    // Reset all animations
     setShowUserMessage(false);
     setShowClaudeMessage(false);
     setShowContent(false);
 
-    // Start animation sequence
     const timer1 = setTimeout(() => setShowUserMessage(true), 300);
     const timer2 = setTimeout(() => setShowClaudeMessage(true), 1200);
     const timer3 = setTimeout(() => setShowContent(true), 2100);
@@ -93,7 +82,7 @@ const Auth = () => {
     };
   }, [currentSlide]);
 
-  // Redirect if already authenticated
+  // Redirect if authenticated
   useEffect(() => {
     if (user) {
       navigate('/');
@@ -154,15 +143,11 @@ const Auth = () => {
   function formatLinksAndBoldText(text) {
     if (!text) return text;
     
-    // First, handle bold text formatting
     let formattedText = text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
     
-    // URL regex pattern that matches http, https, www, and plain domains
     const urlRegex = /(https?:\/\/[^\s<>"{}|\\^`[\]]+|www\.[^\s<>"{}|\\^`[\]]+|(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z]{2,}(?:\/[^\s<>"{}|\\^`[\]]*)?)/gi;
     
-    // Replace URLs with anchor tags
     formattedText = formattedText.replace(urlRegex, (url) => {
-      // Ensure the URL has a protocol for the href attribute
       let href = url;
       if (!url.match(/^https?:\/\//)) {
         href = 'https://' + url;
@@ -174,17 +159,13 @@ const Auth = () => {
     return formattedText;
   }
 
-  const EmailStructured = (email, chapterId, isJustLoaded = false) => {
-    // Add safety check for email data
+  const EmailStructured = (email) => {
     if (!email || !email.signature) {
       return <div>Email data not available</div>;
     }
 
     return (
-      <div className={`overflow-hidden shadow-sm mb-4 transform transition-all duration-700 ease-out opacity-100 translate-y-0 scale-100 rounded-lg ${
-        isJustLoaded ? 'border-2 border-white bg-white shadow-lg to-amber-100' : ''
-      }`}>
-        {/* Email Body */}
+      <div className="overflow-hidden shadow-sm mb-4 transform transition-all duration-700 ease-out opacity-100 translate-y-0 scale-100 rounded-lg border-2 border-white bg-white shadow-lg">
         <div className="p-4 rounded-lg border-2 border-gray-200">
           <div className="text-sm text-gray-800 space-y-3">
             <div className="flex items-center gap-3 mb-3">
@@ -203,19 +184,15 @@ const Auth = () => {
               </div>
             </div>
             
-            {/* Greeting */}
             {email.greeting && (
               <p className="text-gray-800">{email.greeting}</p>
             )}
             
-            {/* Body paragraphs */}
             <div 
               className="text-xs text-gray-800 leading-relaxed whitespace-pre-line"
               dangerouslySetInnerHTML={{ __html: formatLinksAndBoldText(email.body) }}
             />
-            <div className="text-xs text-gray-700 italic" style={{
-              textAlign: 'end'
-            }}>
+            <div className="text-xs text-gray-700 italic text-right">
               Best regards,<br/>
               {email.signature.name}<br/>
               {email.signature.title}<br/>
@@ -229,9 +206,7 @@ const Auth = () => {
 
   const renderCanvas = () => (
     <div className="w-full max-w-md mx-auto h-96 flex items-center justify-center">
-      <div className="transform scale-75 origin-center" style={{
-            width: '500px'
-      }}>
+      <div className="transform scale-75 origin-center" style={{ width: '500px' }}>
         <BusinessCanvas 
           isEditable={false}
           isMinimal={true}
@@ -285,9 +260,12 @@ const Auth = () => {
               }}
             >
               <div className="text-center">
-                <img src={`https://raw.githubusercontent.com/znack2/book_local/main/docs/logos/${feature.title}.svg`} alt="Chapter image" className="w-full h-full object-cover" style={{
-                              margin: '12px 0'
-                            }}/>
+                <img 
+                  src={`https://raw.githubusercontent.com/znack2/book_local/main/docs/logos/${feature.title}.svg`} 
+                  alt="Chapter image" 
+                  className="w-full h-full object-cover" 
+                  style={{ margin: '12px 0' }}
+                />
                 <p className="text-xs text-gray-600">{feature.description}</p>
               </div>
             </div>
@@ -297,66 +275,15 @@ const Auth = () => {
     );
   };
 
-
   const renderEmailStructured = () => {
     return (
       <div className="w-full max-w-md mx-auto h-96 flex items-center justify-center">
         <div className="transform scale-75 origin-center">
-          {EmailStructured(sampleEmail, "demo", true)}
+          {EmailStructured(sampleEmail)}
         </div>
       </div>
     );
   };
-
-  const renderSalesFunnel = () => (
-    <div className="w-full h-96 flex items-center justify-center">
-      <div className="rounded-lg p-6 border-2 border-gray-200 w-full max-w-md">
-        <h3 className="text-2xl font-bold mb-6 text-center">Sales funnel</h3>
-        <div className="space-y-4">
-          <div className="flex items-center">
-            <div className="w-12 text-sm text-gray-600 text-right mr-4">400</div>
-            <div className="flex-1">
-              <div className="h-12 bg-blue-400 rounded flex items-center px-4 text-white font-medium relative" style={{ width: '100%' }}>
-                Ad view
-              </div>
-            </div>
-          </div>
-          <div className="flex items-center">
-            <div className="w-12 text-sm text-gray-600 text-right mr-4">200</div>
-            <div className="flex-1">
-              <div className="h-12 bg-green-400 rounded flex items-center px-4 text-white font-medium" style={{ width: '80%' }}>
-                Email open
-              </div>
-            </div>
-          </div>
-          <div className="flex items-center">
-            <div className="w-12 text-sm text-gray-600 text-right mr-4">100</div>
-            <div className="flex-1">
-              <div className="h-12 bg-yellow-400 rounded flex items-center px-4 text-white font-medium" style={{ width: '50%' }}>
-                Website Visit
-              </div>
-            </div>
-          </div>
-          <div className="flex items-center">
-            <div className="w-12 text-sm text-gray-600 text-right mr-4">60</div>
-            <div className="flex-1">
-              <div className="h-12 bg-purple-400 rounded flex items-center px-4 text-white font-medium" style={{ width: '30%' }}>
-                Product Demo
-              </div>
-            </div>
-          </div>
-          <div className="flex items-center">
-            <div className="w-12 text-sm text-gray-600 text-right mr-4">30</div>
-            <div className="flex-1">
-              <div className="h-12 bg-orange-400 rounded flex items-center px-4 text-white font-medium" style={{ width: '15%' }}>
-                Purchase
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
 
   const renderSlideContent = () => {
     const slide = slides[currentSlide];
@@ -367,8 +294,6 @@ const Auth = () => {
         return renderCanvas();
       case 'email':
         return renderEmailStructured();
-      case 'sales-funnel':
-        return renderSalesFunnel();
       default:
         return <div className="h-96 flex items-center justify-center">Unknown slide type</div>;
     }
@@ -393,174 +318,346 @@ const Auth = () => {
         </svg>
       </div>
 
-      <div className="w-full grid grid-cols-2 gap-0 relative z-10" style={{ height: '100vh' }}>
-        {/* Auth Form - Left Half */}
-        <div className="bg-white flex items-center justify-center p-8">
-          <Card className="w-full max-w-md h-fit shadow-lg">
-            <CardHeader className="text-center">
-              <div className="flex items-center justify-center gap-3 mb-4">
-                <div className="w-10 h-10 rounded-lg overflow-hidden" style={{ borderColor: 'rgba(139, 125, 107, 0.2)' }}>
-                  <img src="favicon.svg" className="w-full h-full object-cover" />
+      <div className="w-full relative z-10">
+        {/* Mobile Layout */}
+        <div className="block md:hidden">
+          <div className="bg-white flex items-center justify-center p-4 min-h-screen">
+            <Card className="w-full max-w-sm shadow-lg">
+              <CardHeader className="text-center pb-4">
+                <div className="flex items-center justify-center gap-2 mb-3">
+                  <div className="w-8 h-8 rounded-lg overflow-hidden">
+                    <img src="favicon.svg" className="w-full h-full object-cover" />
+                  </div>
+                  <h1 className="text-lg font-semibold" style={{ color: '#5a4f3f' }}>First Step GoGlobal Playbook</h1>
                 </div>
-                <h1 className="text-xl font-semibold" style={{ color: '#5a4f3f' }}>First Step GoGlobal Playbook</h1>
-              </div>
-              <div className="mb-4">
-                <a 
-                  href="https://book.greatleads.io" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-sm text-amber-700 hover:text-amber-800 underline transition-colors"
-                >
-                  book.greatleads.io
-                </a>
-              </div>
-              <CardTitle className="text-xl">
-                {isSignUp ? 'Create Account' : 'Welcome Back'}
-              </CardTitle>
-              <CardDescription>
-                {isSignUp 
-                  ? 'Sign up to access the Email Gallery' 
-                  : 'Sign in to your account'
-                }
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <form onSubmit={handleSubmit} className="space-y-4">
-                {isSignUp && (
-                  <div>
-                    <Input
-                      type="text"
-                      placeholder="Full Name"
-                      value={fullName}
-                      onChange={(e) => setFullName(e.target.value)}
-                      required={isSignUp}
-                    />
-                  </div>
-                )}
-                <div>
-                  <Input
-                    type="email"
-                    placeholder="Email"
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                    required
-                  />
-                </div>
-                <div>
-                  <Input
-                    type="password"
-                    placeholder="Password"
-                    value={password}
-                    onChange={(e) => setPassword(e.target.value)}
-                    required
-                    minLength={6}
-                  />
-                </div>
-                {isSignUp && (
-                  <div>
-                    <Input
-                      type="text"
-                      placeholder="Promocode (optional - unlock all chapters)"
-                      value={promocode}
-                      onChange={(e) => setPromocode(e.target.value)}
-                    />
-                    <p className="text-xs text-gray-500 mt-1">
-                      Enter your promocode to access all chapters. Without it, you'll have access to the first chapter only.
-                    </p>
-                  </div>
-                )}
-                <Button 
-                  type="submit" 
-                  className="w-full" 
-                  disabled={loading}
-                  style={{
-                    background: 'linear-gradient(135deg, #d4c4a8 0%, #c4b59b 100%)',
-                    color: '#5a4f3f'
-                  }}
-                >
-                  {loading ? 'Loading...' : (isSignUp ? 'Sign Up' : 'Sign In')}
-                </Button>
-              </form>
-              
-              <div className="mt-4 text-center">
-                <button
-                  type="button"
-                  onClick={() => setIsSignUp(!isSignUp)}
-                  className="text-sm text-gray-600 hover:text-gray-800 underline"
-                >
-                  {isSignUp 
-                    ? 'Already have an account? Sign in' 
-                    : "Don't have an account? Sign up"
-                  }
-                </button>
-              </div>
-            </CardContent>
-          </Card>
-        </div>
-
-        {/* Content Slider - Right Half */}
-        <div className="flex items-center justify-center p-8">
-          <div className="w-full max-w-xl">
-            {/* Chat Interface */}
-            <div className="rounded-lg overflow-hidden mb-6">
-              {/* User Message */}
-              <div className="border-b">
-                <div className="flex items-start space-x-3">
-                  <div className="w-8 h-8 bg-gray-300 rounded-full flex items-center justify-center flex-shrink-0">
-                    <Users className="w-4 h-4 text-gray-600" />
-                  </div>
-                  <div className={`bg-gray-200 rounded-2xl rounded-tl-sm px-4 py-2 max-w-md transition-all duration-700 ease-out ${
-                    showUserMessage ? 'opacity-100 translate-y-0 scale-100' : 'opacity-0 translate-y-4 scale-95'
-                  }`}>
-                    <p className="text-gray-800 text-sm">{slides[currentSlide].question}</p>
-                  </div>
-                </div>
-              </div>
-
-              {/* Claude Response */}
-              <div className="">
-                <div className="flex items-start space-x-3 m-4">
-                  <div className="w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center flex-shrink-0">
-                    <span className="text-white text-xs font-bold">C</span>
-                  </div>
-                  <div className={`bg-gray-100 rounded-2xl rounded-tl-sm px-4 py-2 transition-all duration-700 ease-out ${
-                    showClaudeMessage ? 'opacity-100 translate-y-0 scale-100' : 'opacity-0 translate-y-4 scale-95'
-                  }`}>
-                    <p className="text-gray-800 text-sm">{slides[currentSlide].response}</p>
-                  </div>
-                </div>
-                
-                {/* Slider container with overflow hidden */}
-                <div className="relative overflow-hidden">
-                  <div 
-                    className="flex transition-transform duration-700 ease-in-out"
-                    style={{ transform: `translateX(-${currentSlide * 100}%)` }}
+                <div className="mb-3">
+                  <a 
+                    href="https://book.greatleads.io" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-sm text-amber-700 hover:text-amber-800 underline transition-colors"
                   >
-                    {slides.map((slide, index) => (
-                      <div key={slide.id} className="w-full flex-shrink-0 px-2">
-                        <div className={`transition-all duration-700 ease-out ${
-                          showContent && index === currentSlide ? 'opacity-100 translate-y-0 scale-100' : 'opacity-0 translate-y-6 scale-95'
-                        }`}>
-                          {renderSlideContent()}
+                    book.greatleads.io
+                  </a>
+                </div>
+                <CardTitle className="text-xl">
+                  {isSignUp ? 'Create Account' : 'Welcome Back'}
+                </CardTitle>
+                <CardDescription className="text-sm">
+                  {isSignUp 
+                    ? 'Sign up to access the Email Gallery' 
+                    : 'Sign in to your account'
+                  }
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="pt-0">
+                <form onSubmit={handleSubmit} className="space-y-4">
+                  {isSignUp && (
+                    <div>
+                      <Input
+                        type="text"
+                        placeholder="Full Name"
+                        value={fullName}
+                        onChange={(e) => setFullName(e.target.value)}
+                        required={isSignUp}
+                        className="text-sm"
+                      />
+                    </div>
+                  )}
+                  <div>
+                    <Input
+                      type="email"
+                      placeholder="Email"
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
+                      required
+                      className="text-sm"
+                    />
+                  </div>
+                  <div>
+                    <Input
+                      type="password"
+                      placeholder="Password"
+                      value={password}
+                      onChange={(e) => setPassword(e.target.value)}
+                      required
+                      minLength={6}
+                      className="text-sm"
+                    />
+                  </div>
+                  {isSignUp && (
+                    <div>
+                      <Input
+                        type="text"
+                        placeholder="Promocode (optional - unlock all chapters)"
+                        value={promocode}
+                        onChange={(e) => setPromocode(e.target.value)}
+                        className="text-sm"
+                      />
+                      <p className="text-xs text-gray-500 mt-1">
+                        Enter your promocode to access all chapters. Without it, you'll have access to the first chapter only.
+                      </p>
+                    </div>
+                  )}
+                  <Button 
+                    type="submit" 
+                    className="w-full text-sm" 
+                    disabled={loading}
+                    style={{
+                      background: 'linear-gradient(135deg, #d4c4a8 0%, #c4b59b 100%)',
+                      color: '#5a4f3f'
+                    }}
+                  >
+                    {loading ? 'Loading...' : (isSignUp ? 'Sign Up' : 'Sign In')}
+                  </Button>
+                </form>
+                
+                <div className="mt-4 text-center">
+                  <button
+                    type="button"
+                    onClick={() => setIsSignUp(!isSignUp)}
+                    className="text-sm text-gray-600 hover:text-gray-800 underline"
+                  >
+                    {isSignUp 
+                      ? 'Already have an account? Sign in' 
+                      : "Don't have an account? Sign up"
+                    }
+                  </button>
+                </div>
+
+                {/* Mobile Content Slider */}
+                <div className="mt-8 pt-6 border-t border-gray-200">
+                  <div className="w-full">
+                    <div className="rounded-lg overflow-hidden mb-4">
+                      <div className="border-b pb-3 mb-3">
+                        <div className="flex items-start space-x-2">
+                          <div className="w-6 h-6 bg-gray-300 rounded-full flex items-center justify-center flex-shrink-0">
+                            <Users className="w-3 h-3 text-gray-600" />
+                          </div>
+                          <div className={`bg-gray-200 rounded-2xl rounded-tl-sm px-3 py-2 max-w-xs transition-all duration-700 ease-out ${
+                            showUserMessage ? 'opacity-100 translate-y-0 scale-100' : 'opacity-0 translate-y-4 scale-95'
+                          }`}>
+                            <p className="text-gray-800 text-xs">{slides[currentSlide].question}</p>
+                          </div>
                         </div>
                       </div>
-                    ))}
+
+                      <div className="">
+                        <div className="flex items-start space-x-2 mb-3">
+                          <div className="w-6 h-6 bg-orange-500 rounded-full flex items-center justify-center flex-shrink-0">
+                            <span className="text-white text-xs font-bold">C</span>
+                          </div>
+                          <div className={`bg-gray-100 rounded-2xl rounded-tl-sm px-3 py-2 transition-all duration-700 ease-out ${
+                            showClaudeMessage ? 'opacity-100 translate-y-0 scale-100' : 'opacity-0 translate-y-4 scale-95'
+                          }`}>
+                            <p className="text-gray-800 text-xs">{slides[currentSlide].response}</p>
+                          </div>
+                        </div>
+                        
+                        <div className="relative overflow-hidden">
+                          <div 
+                            className="flex transition-transform duration-700 ease-in-out"
+                            style={{ transform: `translateX(-${currentSlide * 100}%)` }}
+                          >
+                            {slides.map((slide, index) => (
+                              <div key={slide.id} className="w-full flex-shrink-0">
+                                <div className={`transition-all duration-700 ease-out ${
+                                  showContent && index === currentSlide ? 'opacity-100 translate-y-0 scale-100' : 'opacity-0 translate-y-6 scale-95'
+                                }`}>
+                                  <div className="transform scale-50 origin-center">
+                                    {renderSlideContent()}
+                                  </div>
+                                </div>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="flex justify-center space-x-2">
+                      {slides.map((_, index) => (
+                        <button
+                          key={index}
+                          onClick={() => goToSlide(index)}
+                          className={`w-2 h-2 rounded-full transition-all duration-300 ${
+                            currentSlide === index ? 'bg-orange-500 scale-125' : 'bg-gray-400 hover:bg-gray-500'
+                          }`}
+                        />
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+
+        {/* Desktop Layout */}
+        <div className="hidden md:grid md:grid-cols-2 gap-0 h-screen">
+          {/* Auth Form - Left Half */}
+          <div className="bg-white flex items-center justify-center p-8">
+            <Card className="w-full max-w-md h-fit shadow-lg">
+              <CardHeader className="text-center">
+                <div className="flex items-center justify-center gap-3 mb-4">
+                  <div className="w-10 h-10 rounded-lg overflow-hidden">
+                    <img src="favicon.svg" className="w-full h-full object-cover" />
+                  </div>
+                  <h1 className="text-xl font-semibold" style={{ color: '#5a4f3f' }}>First Step GoGlobal Playbook</h1>
+                </div>
+                <div className="mb-4">
+                  <a 
+                    href="https://book.greatleads.io" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-sm text-amber-700 hover:text-amber-800 underline transition-colors"
+                  >
+                    book.greatleads.io
+                  </a>
+                </div>
+                <CardTitle className="text-xl">
+                  {isSignUp ? 'Create Account' : 'Welcome Back'}
+                </CardTitle>
+                <CardDescription>
+                  {isSignUp 
+                    ? 'Sign up to access the Email Gallery' 
+                    : 'Sign in to your account'
+                  }
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <form onSubmit={handleSubmit} className="space-y-4">
+                  {isSignUp && (
+                    <div>
+                      <Input
+                        type="text"
+                        placeholder="Full Name"
+                        value={fullName}
+                        onChange={(e) => setFullName(e.target.value)}
+                        required={isSignUp}
+                      />
+                    </div>
+                  )}
+                  <div>
+                    <Input
+                      type="email"
+                      placeholder="Email"
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
+                      required
+                    />
+                  </div>
+                  <div>
+                    <Input
+                      type="password"
+                      placeholder="Password"
+                      value={password}
+                      onChange={(e) => setPassword(e.target.value)}
+                      required
+                      minLength={6}
+                    />
+                  </div>
+                  {isSignUp && (
+                    <div>
+                      <Input
+                        type="text"
+                        placeholder="Promocode (optional - unlock all chapters)"
+                        value={promocode}
+                        onChange={(e) => setPromocode(e.target.value)}
+                      />
+                      <p className="text-xs text-gray-500 mt-1">
+                        Enter your promocode to access all chapters. Without it, you'll have access to the first chapter only.
+                      </p>
+                    </div>
+                  )}
+                  <Button 
+                    type="submit" 
+                    className="w-full" 
+                    disabled={loading}
+                    style={{
+                      background: 'linear-gradient(135deg, #d4c4a8 0%, #c4b59b 100%)',
+                      color: '#5a4f3f'
+                    }}
+                  >
+                    {loading ? 'Loading...' : (isSignUp ? 'Sign Up' : 'Sign In')}
+                  </Button>
+                </form>
+                
+                <div className="mt-4 text-center">
+                  <button
+                    type="button"
+                    onClick={() => setIsSignUp(!isSignUp)}
+                    className="text-sm text-gray-600 hover:text-gray-800 underline"
+                  >
+                    {isSignUp 
+                      ? 'Already have an account? Sign in' 
+                      : "Don't have an account? Sign up"
+                    }
+                  </button>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+
+          {/* Content Slider - Right Half */}
+          <div className="flex items-center justify-center p-8">
+            <div className="w-full max-w-xl">
+              <div className="rounded-lg overflow-hidden mb-6">
+                <div className="border-b">
+                  <div className="flex items-start space-x-3">
+                    <div className="w-8 h-8 bg-gray-300 rounded-full flex items-center justify-center flex-shrink-0">
+                      <Users className="w-4 h-4 text-gray-600" />
+                    </div>
+                    <div className={`bg-gray-200 rounded-2xl rounded-tl-sm px-4 py-2 max-w-md transition-all duration-700 ease-out ${
+                      showUserMessage ? 'opacity-100 translate-y-0 scale-100' : 'opacity-0 translate-y-4 scale-95'
+                    }`}>
+                      <p className="text-gray-800 text-sm">{slides[currentSlide].question}</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="">
+                  <div className="flex items-start space-x-3 m-4">
+                    <div className="w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center flex-shrink-0">
+                      <span className="text-white text-xs font-bold">C</span>
+                    </div>
+                    <div className={`bg-gray-100 rounded-2xl rounded-tl-sm px-4 py-2 transition-all duration-700 ease-out ${
+                      showClaudeMessage ? 'opacity-100 translate-y-0 scale-100' : 'opacity-0 translate-y-4 scale-95'
+                    }`}>
+                      <p className="text-gray-800 text-sm">{slides[currentSlide].response}</p>
+                    </div>
+                  </div>
+                  
+                  <div className="relative overflow-hidden">
+                    <div 
+                      className="flex transition-transform duration-700 ease-in-out"
+                      style={{ transform: `translateX(-${currentSlide * 100}%)` }}
+                    >
+                      {slides.map((slide, index) => (
+                        <div key={slide.id} className="w-full flex-shrink-0 px-2">
+                          <div className={`transition-all duration-700 ease-out ${
+                            showContent && index === currentSlide ? 'opacity-100 translate-y-0 scale-100' : 'opacity-0 translate-y-6 scale-95'
+                          }`}>
+                            {renderSlideContent()}
+                          </div>
+                        </div>
+                      ))}
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
 
-            {/* Navigation dots - at bottom */}
-            <div className="flex justify-center space-x-3">
-              {slides.map((_, index) => (
-                <button
-                  key={index}
-                  onClick={() => goToSlide(index)}
-                  className={`w-3 h-3 rounded-full transition-all duration-300 ${
-                    currentSlide === index ? 'bg-orange-500 scale-125' : 'bg-gray-400 hover:bg-gray-500'
-                  }`}
-                />
-              ))}
+              <div className="flex justify-center space-x-3">
+                {slides.map((_, index) => (
+                  <button
+                    key={index}
+                    onClick={() => goToSlide(index)}
+                    className={`w-3 h-3 rounded-full transition-all duration-300 ${
+                      currentSlide === index ? 'bg-orange-500 scale-125' : 'bg-gray-400 hover:bg-gray-500'
+                    }`}
+                  />
+                ))}
+              </div>
             </div>
           </div>
         </div>
