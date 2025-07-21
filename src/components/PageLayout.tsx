@@ -90,6 +90,7 @@ const PageLayout = ({
           title={title} 
           subtitle={subtitle}
           showBackButton={showBackButton}
+          isMobile={isMobile}
           showLogoutInHeader={showLogoutInHeader}
         >
           {headerActions}

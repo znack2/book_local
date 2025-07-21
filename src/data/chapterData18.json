@@ -1,152 +1,272 @@
 {
   "emailColumn": {
-    "title": "Skyeng",
+    "title": "linkedinhelper: From Regulatory Crisis to Global LinkedIn Automation Leader",
     "authorInfo": {
-      "title": "From the Author",
-      "description": "Denis Smetnev was a co-founder and key executive at Skyeng, one of leading EdTech companies specializing in online English language learning. With extensive experience in international business development, B2B sales, and B2C marketing, Denis led multiple international expansion initiatives across Europe, Latin America, Asia, and the Middle East. This case study series documents his firsthand experiences and strategic insights from Skyeng's six-year international expansion journey from 2016-2022, covering attempts in Turkey, Brazil, China, Spain, Italy, and multiple other markets."
+      "title": "About the Author",
+      "description": "Alexander Erin is the founder and CEO of linked helper, a leading LinkedIn automation tool with over 300,000 users worldwide. With a strong background in mathematics and computer science, Alexander previously worked as an SAP integration expert before founding linkedhelper in 2016. The company has grown to serve users in 180 countries and employs 46 people, revolutionizing LinkedIn automation through innovative desktop-based solutions."
     },
     "materialsUsed": [
-      "EdTech Global Report. (2024). International Expansion Strategies and Market Entry Trends.",
-      "Brighteye VC. (2021). International Expansion in EdTech: Budgets, Barriers and Blueprints.",
-      "Global Expansion Strategies. (2024). EdTech International Market Entry Framework.",
-      "World Economic Forum. (2024). Key Trends Shaping the EdTech Ecosystem Through 2030.",
-      "McKinsey & Company. (2024). International Business Expansion: Cultural Adaptation Framework.",
-      "Harvard Business Review. (2023). Cultural Understanding Impact on Global Expansion Strategies.",
-      "Cognitive Market Research. (2025). EdTech Market Analysis: Growth Projections and Regional Trends.",
-      "ResearchAndMarkets.com. (2024). Corporate Education Technology Business Analysis Report.",
-      "PitchBook. (2024). EdTech Venture Capital and International Scaling Trends.",
-      "K12 Digest. (2024). International Schools and Global EdTech Expansion Opportunities."
+      "LinkedIn Automation Tools Market Report 2025. (2025). Global Market Size Analysis: $6.2B by 2030.",
+      "Brandwatch Social Media Marketing Insights. (2025). LinkedIn Lead Generation Best Practices Guide.",
+      "Sprout Social LinkedIn Marketing Analytics. (2025). B2B Platform Performance Metrics & Trends.",
+      "Tracxn Company Database. (2025). linked helper: Company Profile & Competitive Analysis."
     ],
     "keyTakeaways": {
-      "title": "Key Strategic Takeaways from Skyeng's International Expansion",
-      "description": "Successful international expansion in EdTech requires founder-level commitment, systematic market validation before scaling, and deep understanding of local economic realities. The most critical lesson: focus beats breadth - Skyeng's only profitable international markets (Spain and Italy) were those where founders maintained direct involvement rather than delegating to unproven managers. Product-market fit must be re-established for each market, as economic constraints (like Brazil's inability to afford one-on-one classes) may require fundamental business model changes. Rapid multi-market expansion without operational readiness leads to unsustainable unit economics, regardless of strong domestic performance."
+      "title": "Key Takeaways",
+      "description": "Alexander Erin's journey with linked helper demonstrates how regulatory challenges can become catalysts for international success. When Russian authorities blocked LinkedIn in 2016, Erin transformed what could have been a business-ending crisis into an opportunity for global expansion. His experience reveals the importance of market resilience, cultural adaptation in business communications, and the value of organic growth over forced expansion. Key lessons include: starting with markets that match your capabilities (English-speaking for language compatibility), focusing on word-of-mouth growth over expensive marketing campaigns, building products that solve real problems naturally attracting influencers, and maintaining lean operations while scaling internationally. The company's growth from a one-person operation to 46 employees across 180 countries shows how authentic problem-solving and customer focus can drive sustainable international expansion."
     }
   },
   "emails": [
     {
       "id": "1",
-      "date": "6 years ago",
-      "avatar": "skyeng",
-      "subject": "Turkey (2016-2017): Our First International Misstep",
-      "greeting": "Hello,",
+      "date": "2 years ago",
+      "avatar": "linkedinhelper",
+      "subject": "The Catalyst for Going International",
+      "greeting": "Hello!",
       "cta": {
-        "message": "read full expansion analysis",
-        "link": "skyeng-expansion-study.com"
+        "message": "explore linkedin automation insights",
+        "link": "linkedinhelper.com/international-expansion"
       },
-      "body": "**Our first international venture was Turkey, which began around 2016-2017. The logic behind this choice was straightforward but perhaps not strategically sound: Sasha Larinovsky was launching Yandex.Turkey, so we thought, 'Why not launch Skyeng in Turkey as well?'** 🇹🇷\n\n**Looking back, this attempt was premature.** At that time, we hadn't even established proper business processes within our local operations. The company was still growing rapidly, our management was overloaded, and we lacked sufficient competence at the senior level. Our entire top-tier team wasn't fully assembled in a stable form - we were in an active growth phase.\n\n**The decision to expand internationally stemmed from inexperience rather than strategic planning.** We didn't realize it would be such a challenge. We thought we could handle it with minimal effort - essentially with our 'left hand' - and conquer new markets easily. Additionally, we had easy access to funding at the time, given our rapid growth and the general euphoria around local tech companies globally.\n\n**Rather than being a conscious, well-thought-out decision with clear reasoning and a dedicated team, it was more of a 'why not?' approach.** Sasha found someone he had previously worked with at Yandex in Turkey and brought them in as a manager to 'try a new country.' This person was the sole individual handling Turkey operations. We provided no additional time or resources.\n\n**We realized within about three months that he wasn't performing well as a manager and wasn't delivering results.** The person we hired was more of a middle manager with Yandex experience in launching projects, but he lacked entrepreneurial experience building his own business. The product offering remained the same as our local platform - no localization or adaptation was attempted.",
+      "body": "Regarding your inquiry about the initial spark that led to our international expansion, it was actually an unexpected development that completely changed our trajectory 🎯.\n\nBack in 2016, I had developed the first version of LinkedIn Helper and had just started reaching out to a couple hundred recruiters to offer them the product. I received enthusiastic early responses, showing promising interest. However, midway through the day, news broke that RKN (the internet regulator) was blocking LinkedIn at home 🚫. Almost immediately, those same recruiters from my country started sending regretful responses about how unfortunate this timing was.\n\nThat very day, rather than shutting down the project, I made the decision to pivot and focus on international markets 🌍. I quickly adapted by creating an interface in English. This sudden regulatory change, which could have killed the business before it even started, instead forced us to think globally from day one.\n\nWhile internationalization was always part of the long-term vision, this external event accelerated our timeline dramatically ⚡. Sometimes the best business decisions come from adapting to unexpected challenges rather than following a predetermined plan.\n\nIt's worth noting that this experience taught me an important lesson about building businesses that are resilient to regional regulatory changes 🛡️. By diversifying our market presence, we've been able to withstand various challenges that might have otherwise been existential threats to the business.",
       "signature": {
-        "name": "Denis Smetnev",
-        "title": "Co-founder & International Expansion Lead",
-        "company": "Skyeng"
+        "name": "Alexander Erin",
+        "title": "Founder & CEO",
+        "company": "linkedinhelper"
       },
       "highlight": {
-        "title": "Critical Lesson: Founder Involvement is Non-Negotiable",
-        "description": "This case perfectly illustrates why 60% of EdTech startups fail internationally. Delegating market entry to unproven managers without entrepreneurial experience, combined with a 'spray and pray' mentality, virtually guarantees failure. The lack of systematic approach, clear KPIs, and founder-level commitment created a scenario where success was impossible regardless of market potential."
+        "title": "Turning Crisis Into Opportunity",
+        "description": "Sometimes the worst things that happen to your business can become your biggest advantages. When LinkedIn got blocked in Alexander's home country, he could have given up. Instead, he saw it as a sign to go global right away. This teaches us that when life gives you lemons, you can make lemonade - but you have to be brave enough to try something new instead of just complaining about the bad luck."
       }
     },
     {
-      "id": "2", 
-      "date": "5 years ago",
-      "avatar": "skyeng",
-      "subject": "Brazil (2018): When Economic Reality Doesn't Match Business Model",
+      "id": "2",
+      "date": "2 years ago",
+      "avatar": "linkedinhelper",
+      "subject": "Initial Market Selection Strategy",
       "greeting": "Hi there,",
       "cta": {
-        "message": "explore market research insights",
-        "link": "edtech-latam-analysis.com"
+        "message": "discover market research tools",
+        "link": "linkedhelper.com/market-analysis"
       },
-      "body": "**Following our Turkey experience, there was approximately a two-year pause before we attempted international expansion again. Our next target was Brazil, around 2018.** 🇧🇷\n\n**Unlike Turkey, this launch wasn't something I personally managed, so I can't provide complete details about the initial decision-making process.** The trigger seemed to be having someone willing to take on the project, combined with the general industry sentiment that 'everyone's going international.' At that time, GetCourse was attempting to enter Latin America, LinguaLeo was discussing Brazil and claiming they would 'beat everyone there,' and there was a widespread belief that Brazil represented a large market where success was almost guaranteed.\n\n**I now realize that Brazil wouldn't have suited the business model we attempted to implement there. We went in with our standard one-on-one class format, but Brazil is simply too economically constrained for that price point. Brazilians couldn't afford one-on-one classes.** 💰\n\n**The Brazil attempt lasted approximately six months, longer than Turkey.** During this period, we did establish some operational infrastructure - there was a functioning funnel, client communication processes, lead generation, and we were running contextual and targeted advertising. Some economies existed, though it was far from viable.\n\n**The cost of client acquisition made scaling impossible.** While we couldn't claim to have found product-market fit with our business model, creating a completely different product from scratch would have been a fundamentally different challenge requiring group-format classes - something that took us considerable time to develop even at home, let alone launching from scratch in a new market with limited resources.",
+      "body": "You asked about our approach to selecting target markets during our initial international expansion 🎯.\n\nAfter the decision to focus internationally was made, we needed to determine where to direct our efforts. Our strategy was primarily guided by two practical considerations: language accessibility and user concentration 📊.\n\nSince we already had an English interface, we naturally focused on English-speaking markets, particularly the United States and the United Kingdom 🇺🇸🇬🇧. This was a pragmatic choice that allowed us to launch quickly without the additional complexity of multiple language versions.\n\nMore importantly, we looked at LinkedIn user density across different countries 📈. Through some quick research, I discovered that the UK had nearly 16 million LinkedIn users at the time, compared to just 3.5 million at home. The concentration of users per thousand people was significantly higher in Britain than in countries like Germany or France 🔍. This data made it clear that English-speaking markets, particularly the US and UK, would provide the largest addressable audience for our product.\n\nThis market selection was less about sophisticated analysis and more about following the obvious path of least resistance 🛤️. Since LinkedIn is primarily used for professional networking across borders rather than within domestic markets, English-speaking countries had both the advantage of language compatibility and the highest concentration of active users.\n\nThe decision to focus on these markets was reinforced by my limited language capabilities at the time 💭. I had very poor written English and no spoken English whatsoever, which made targeting non-English markets even more challenging. Starting with the largest English-speaking markets was simply the most logical approach given our constraints.\n\nThis approach taught me that sometimes the most effective market entry strategy isn't the most complex one - it's the one that aligns with your current capabilities and targets the largest accessible opportunity 🎯.",
       "signature": {
-        "name": "Denis Smetnev", 
-        "title": "Co-founder & International Expansion Lead",
-        "company": "Skyeng"
+        "name": "Alexander Erin",
+        "title": "Founder & CEO",
+        "company": "linkedinhelper"
       },
       "highlight": {
-        "title": "Economic Constraints Require Business Model Innovation",
-        "description": "Brazil's experience highlights a fundamental expansion error: assuming your successful domestic business model will work in markets with different economic realities. With GDP per capita 3x lower than their home market, Brazil required product innovation (group classes vs. individual), not just market adaptation. This aligns with current research showing 68% of bootstrapped EdTech companies achieve profitability by adapting their core offering to local economic conditions."
+        "title": "Start Where You Can Win",
+        "description": "Alexander didn't try to conquer every country at once. He looked at where he had the best chance of success - places where people spoke English (like him) and where lots of LinkedIn users already existed. It's like choosing to play a video game on easy mode first before trying the hard levels. Sometimes being smart about your choices is better than trying to do everything perfectly from the start."
       }
     },
     {
       "id": "3",
-      "date": "4 years ago", 
-      "avatar": "skyeng",
-      "subject": "China & Spain (2019): Tale of Two Strategies",
-      "greeting": "Greetings,",
+      "date": "2 years ago",
+      "avatar": "linkedinhelper",
+      "subject": "Early Marketing Experiments and Failures",
+      "greeting": "Hello!",
       "cta": {
-        "message": "download expansion framework",
-        "link": "international-strategy-guide.com"
+        "message": "learn from marketing mistakes",
+        "link": "linkedhelper.com/marketing-lessons"
       },
-      "body": "**Around 2019, we launched two independent international initiatives simultaneously: China and Spain. These represented our most serious international expansion efforts to date.** 🇨🇳🇪🇸\n\n**China Strategy: Our interest in China was sparked by the success of Chinese EdTech companies.** TutorABC had just raised significant funding, and we observed that their market and business model closely resembled what we were doing at home. We saw numerous Chinese companies doing similar work, starting around the same time, but achieving valuations 10 times higher simply because their market was 10 times larger.\n\n**The initiative was managed directly by Khariton (our co-founder), with our strong CPO Misha Karpov leading operations.** This was a project Misha genuinely wanted to pursue - it drove and inspired him, so he relocated to China and lived there during the launch. The team conducted extensive research, sending mystery shoppers to competitors, engaging deeply with market dynamics, and studying competitor know-how.\n\n**Spain Strategy: Spain's selection was, honestly, completely random.** At that time, I had successfully built B2C marketing at Skyeng and hired a CMO who no longer needed my involvement. I found myself somewhat redundant in these areas. Rather than attempting to tackle the entire world simultaneously, I envisioned a country-by-country approach that would eventually create a portfolio of markets.\n\n**This wasn't a systematic strategic decision by Skyeng to enter Spain - it was more my personal decision.** Previous projects had failed because they weren't handled by founders. The logic was that if a founder managed the project, he could probably demonstrate viability with limited resources. **China received the majority of resources compared to Spain.** In our first year in Spain, I worked with just Yulia Filippova and Zhenya Golikova.",
+      "body": "Your question about our initial marketing approaches brings back some memorable early struggles on our international journey 😅.\n\nOur first attempt at reaching the international market was remarkably naive. I believed the product would largely sell itself because it was an outreach automation tool - ironically, we should have been experts at outreach! 🤦‍♂️ I enlisted some colleagues from my previous job to run outreach campaigns using their LinkedIn accounts, with an agreement to split the profits if successful.\n\nThis approach failed spectacularly for several reasons. Neither I nor my colleagues had any meaningful English language skills at the time 📚. Our messages were poorly crafted with direct sales pitches in the first message - a fundamental error in relationship building. British prospects responded to our direct approaches with comments like \"that's quite straightforward you have here,\" highlighting the cultural mismatch in our communication style 🇬🇧.\n\nAfter about 2-3 months of this ineffective approach, I had made only one or two sales, with my colleagues generating none 📉. This was a valuable lesson in the importance of cultural adaptation and communication styles when entering new markets.\n\nSimultaneously, we had published our extension in the Chrome Web Store, which proved to be a more effective channel 🌟. Users who understood their problem and were actively searching for solutions began to find us organically, despite our lack of SEO optimization. These early adopters not only purchased the product but also provided feedback for improvements, initiating our first positive word-of-mouth momentum.\n\nWe then attempted to establish affiliate programs with influencers who taught LinkedIn selling techniques or owned relevant groups 🤝. This approach was time-consuming and mostly ineffective. I spent considerable effort manually identifying influencers, negotiating agreements, and preparing contracts, only to find that many delivered zero results. Interestingly, some influencers who never asked for formal agreements ended up being more productive 💡. One group from Australia, for example, generated about 300 paying users without any formal arrangement.\n\nThe real breakthrough came when influential growth hackers like Josh Fechter (co-founder of BAMF digital marketing agency) discovered our product independently and began featuring it in their content 🚀. What was fascinating is that most of these effective promoters never asked for anything in return - I actually had to reach out to offer them free licenses as a thank you.\n\nThis experience taught me that sometimes the most effective marketing doesn't come from elaborate planned campaigns but from creating a product that solves a real problem so effectively that influencers naturally want to share it with their audiences ✨.",
       "signature": {
-        "name": "Denis Smetnev",
-        "title": "Co-founder & International Expansion Lead", 
-        "company": "Skyeng"
+        "name": "Alexander Erin",
+        "title": "Founder & CEO",
+        "company": "linkedinhelper"
       },
       "highlight": {
-        "title": "Resource Allocation and Founder Commitment Drive Success",
-        "description": "The parallel China-Spain launch reveals a crucial strategic insight: founder involvement and genuine commitment outweigh market size in early-stage expansion. Despite China's massive market potential and higher resource allocation, Spain became profitable because it had sustained founder attention. This mirrors current EdTech data showing that companies with direct founder involvement in international markets achieve 5x higher success rates than those delegating to hired managers."
+        "title": "Failed Marketing Can Teach You More Than Success",
+        "description": "Alexander learned the hard way that you can't just copy what works in one country and expect it to work everywhere else. British people talk differently than his home country, so his sales messages seemed rude and pushy. But the best lesson was that the most powerful marketing happened when he wasn't even trying - people found his tool, loved it, and told their friends. Sometimes the best way to sell something is to make it so good that people can't help but share it."
       }
     },
     {
       "id": "4",
-      "date": "4 years ago",
-      "avatar": "skyeng", 
-      "subject": "Spain Market Reality: Finding Product-Market Fit Through Trial and Error",
-      "greeting": "Hello,",
+      "date": "2 years ago",
+      "avatar": "linkedinhelper",
+      "subject": "Expanding Beyond English-Speaking Markets",
+      "greeting": "Greetings!",
       "cta": {
-        "message": "access market validation tools",
-        "link": "expansion-validation-toolkit.com"
+        "message": "explore global expansion strategies",
+        "link": "linkedhelper.com/global-markets"
       },
-      "body": "**For our first year in Spain, we didn't conduct extensive market research. I set a survival-focused objective - reach break-even within approximately one year to prove viability to our CEO Gosha.** 📊\n\n**We encountered several unexpected challenges. Spain had far more Latin American migrants than we anticipated, and Facebook's algorithms, when working with small budgets, optimize primarily for lead submissions.** The cheapest leads come from people with the most free time - typically unemployed individuals and manual laborers rather than skilled professionals with purchasing power. This created a problem where lead generation costs appeared reasonable, but conversion from trial to purchase remained quite low.\n\n**During our first year, we didn't attempt to hire local Spanish-speaking employees.** Instead, we recruited Estern Europe speakers fluent in Spanish and English - essentially bilingual professionals. We were hesitant to hire locally, partly because Spaniards were too expensive, and when we tried hiring Latinos, we encountered significant quality issues.\n\n**After our first year, when I began building a comprehensive strategy, I created a detailed spreadsheet ranking countries by population, average salary, and English proficiency.** This analysis revealed three viable country clusters: Japan and South Korea, Wealthy Arab countries, and Old Europe (France, Spain, Italy). We had miraculously chosen Spain, which featured large cities and income levels higher than our local market.\n\n**To confirm our Spain success wasn't coincidental, we expanded to Italy, leveraging Yulia's Italian language skills. Italy proved our hypothesis within three months, delivering excellent client acquisition costs and retention metrics.** The key difference was that Italy had very few migrant workers who spoke Italian, so our Facebook and Google targeting reached actual locals with higher purchasing power.",
+      "body": "You were curious about our attempts to expand beyond English-speaking markets and the challenges we encountered along the way 🌍.\n\nWhile our initial focus was on the US and UK markets, we did explore opportunities in other regions as our business grew. In 2017, an interesting situation developed when a Turkish individual approached me, claiming to be an exceptional salesperson and offering to become our partner for the German-speaking market 🇩🇪.\n\nHe was extremely enthusiastic, promising to bring in large clients and develop the market for us 💼. At his request, I created a German-language version of our website. However, despite his confidence, this partnership yielded no results. Interestingly, the only thing he seemed to understand was discounting - the price point for the German-speaking market ended up being three to four times lower than our standard rate for other markets, yet still generated no meaningful sales 📉.\n\nThis taught us a valuable lesson about being cautious with market expansion partners who make grand promises without demonstrated capabilities ⚠️. While having local market expertise is valuable, enthusiasm alone isn't enough to drive success.\n\nWe had a different experience with the Australian market, which came about organically rather than through active targeting 🇦🇺. Since Australia is English-speaking, it wasn't a separate market entry in terms of language adaptation. A group from Australia discovered our product and began promoting it to their audience without any formal agreement, generating around 300 paying users 🎉. We simply provided them with a promotional code to track these sales and offer their customers a discount, while the group received a 30% commission.\n\nBrazil was another interesting case 🇧🇷. We didn't actively target this market, but local influencers discovered our product and began promoting it, similar to how Josh Fechter had done in the English-speaking market. This organic adoption in non-targeted markets showed us that with the right product, expansion can sometimes happen without deliberate market entry strategies.\n\nWhat we've learned is that sometimes the most effective international growth comes not from a predetermined geographic expansion plan, but from following the lead of engaged users and partners who naturally emerge in different markets 🌱. Being responsive to these opportunities while maintaining quality control has been more effective than trying to force entry into new markets without established connections.",
       "signature": {
-        "name": "Denis Smetnev",
-        "title": "Co-founder & International Expansion Lead",
-        "company": "Skyeng"
+        "name": "Alexander Erin",
+        "title": "Founder & CEO",
+        "company": "linkedinhelper"
       },
       "highlight": {
-        "title": "Market Validation Through Systematic Analysis",
-        "description": "Spain's eventual success demonstrates the importance of iterative learning and systematic market analysis. The demographic targeting challenges with migrant populations highlight why 40% of international EdTech expansions fail - surface-level market research misses crucial population dynamics that affect customer acquisition costs. The Italy validation strategy shows best practice: testing hypotheses in similar markets before broad expansion."
+        "title": "Don't Force Growth, Let It Happen Naturally",
+        "description": "Alexander learned that trying to push into new countries with fancy plans often doesn't work. A guy promised to sell lots in Germany but failed completely, even when they made the price super cheap. But when people in Australia and Brazil found the tool on their own and loved it, they started selling it for him without being asked. It's like planting seeds - sometimes the ones you carefully plant don't grow, but the ones that grow naturally in good soil become the strongest trees."
       }
     },
     {
       "id": "5",
-      "date": "3 years ago",
-      "avatar": "skyeng",
-      "subject": "Scaling Disaster: When Growth Ambition Destroys Unit Economics", 
-      "greeting": "Hi,",
+      "date": "2 years ago",
+      "avatar": "linkedinhelper",
+      "subject": "Effective and Ineffective Marketing Channels",
+      "greeting": "Hi there,",
       "cta": {
-        "message": "learn expansion best practices",
-        "link": "sustainable-growth-strategies.com"
+        "message": "optimize your marketing channels",
+        "link": "linkedhelper.com/marketing-channels"
       },
-      "body": "**After confirming success in Spain and Italy, we began launching two countries per month. This aggressive pace created several problems: Our operational systems couldn't keep up, Marketing couldn't adapt quickly enough to each new market, While Spain and Italy maintained adequate economics, new countries didn't perform as well.** ⚠️\n\n**Each country requires minimum expenditure levels for team and marketing, and we found ourselves deeply unprofitable across the portfolio by mid-2021, with only Spain and Italy maintaining reasonable economics.**\n\n**I made a significant strategic mistake by looking at Novakid's model.** They offered only short lessons (25 minutes) and no longer format options. Investors shared insider information that Novakid was performing exceptionally well and growing rapidly. I assumed their growth came from cheaper per-lesson pricing and introduced short lessons into our product matrix without careful testing or rollout.\n\n**Initially, we saw what appeared to be improved conversion rates without LTV decline. In reality, conversion didn't improve - lesson intensity remained the same, so lifetime value in lessons stayed constant. People were simply paying 1.5 to 2 times less for shorter lessons, which negatively impacted our economics.** 💸\n\n**My team also expanded into Latin America and the United States during this period.** We moved into LATAM because we already had Spanish-speaking operations teams, and we launched in the US targeting the Hispanic population. The basic conclusion was that economics worked best in the US and Chile.\n\n**We never conducted deep market research during our rapid expansion phase. We focused more on internal economics and operations.** Research would have been valuable if we had reached the scale-up stage - moving from 'one to ten' rather than 'zero to one.'",
+      "body": "Your question about which marketing channels proved most effective for our international growth highlights some interesting patterns in our experience 📊.\n\nBy far, our most powerful growth driver has been word-of-mouth referrals 🗣️. Even today, this remains our primary channel, contributing approximately 70% of our new user acquisition. There's something particularly powerful about personal recommendations for tools that enhance professional productivity.\n\nSearch engine optimization (SEO) has been our second most effective channel 🔍. When we started, the market was far less competitive, which allowed us to maintain top three rankings consistently, often holding the first position. We were fortunate to enter the market when there was less competition, making it easier to achieve high rankings with relatively less effort 📈. While the landscape is much more competitive now, our early advantage helped establish our position.\n\nGoogle Ads have also worked well for us, contributing significantly to our growth 💰. When we began running paid campaigns in spring 2017, we found clicks were inexpensive due to low competition in our niche. I suspect we may have been among the first in our category to utilize paid search campaigns effectively. Though competition has increased substantially over time, paid channels now contribute approximately 30% of our user acquisition.\n\nIn contrast, Facebook advertising proved completely ineffective despite multiple attempts around 2018 ❌. While we could potentially have found the right targeting parameters with more experimentation, none of our campaigns showed promising results. This reinforced our understanding that our product is best marketed to people actively searching for productivity solutions rather than through interruption-based advertising.\n\nInterestingly, we never seriously attempted LinkedIn advertising 💭, reasoning that if our direct outreach efforts weren't working effectively, paid advertising on the platform likely wouldn't do either. Instead, we primarily used LinkedIn for our own recruitment efforts.\n\nCold outreach, which had worked well for me in the CIS market, consistently failed in the English-speaking market 📧. The direct sales approach that seemed effective in one cultural context simply didn't translate to others. Even now, I believe cold approaches remain ineffective for products with our price point, particularly for international markets where cultural expectations around business development differ significantly.\n\nOur experience suggests that understanding which channels to avoid can be just as valuable as knowing which ones to pursue 🎯. By concentrating our resources on proven channels rather than continuing to experiment with ineffective ones, we've been able to maximize our growth efficiency.",
       "signature": {
-        "name": "Denis Smetnev",
-        "title": "Co-founder & International Expansion Lead",
-        "company": "Skyeng"
+        "name": "Alexander Erin",
+        "title": "Founder & CEO",
+        "company": "linkedinhelper"
       },
       "highlight": {
-        "title": "Premature Scaling Without Operational Foundation",
-        "description": "This phase exemplifies the classic 'premature scaling' trap that kills 35% of international EdTech expansions. The decision to launch two countries monthly without adequate operational infrastructure or validated playbooks destroyed unit economics across the portfolio. The Novakid lesson pricing error shows how competitive mimicry without understanding underlying mechanics can devastate margins. Current best practice suggests establishing profitability in 2-3 markets before considering rapid expansion."
+        "title": "Focus on What Actually Works",
+        "description": "Alexander discovered that most of his customers came from people telling their friends about the tool (70%!), not from expensive advertisements. Google search worked well too, but Facebook ads were a total waste of money. The big lesson is that if you make something people really need, they'll tell others about it. It's like having a really good pizza place - you don't need fancy commercials if everyone is already telling their friends how delicious it is."
       }
     },
     {
-      "id": "6", 
+      "id": "6",
       "date": "2 years ago",
-      "avatar": "skyeng",
-      "subject": "The End: External Factors and Strategic Lessons (2022)",
-      "greeting": "Hello,",
+      "avatar": "linkedinhelper",
+      "subject": "Initial Team Building for International Operations",
+      "greeting": "Hello!",
       "cta": {
-        "message": "access complete case study",
-        "link": "skyeng-international-complete.com"
+        "message": "discover team building strategies",
+        "link": "linkedhelper.com/team-building"
       },
-      "body": "**By the time it became clear that my expansion strategy had created unsustainable losses across our portfolio, I recognized that I had made critical errors and probably shouldn't continue running that business direction.** The international operations were transferred to Oksana Belyakova and her team, who attempted to salvage the situation through mid-2022, focusing on our two profitable markets: Spain and Italy.\n\n**However, early 2022 brought the military conflict and related sanctions, which created new challenges.** We faced a choice: either separate international operations into a completely independent business unit with totally separate management (similar to what Yandex ultimately did), or shut down operations entirely. 🌍\n\n**Separating international would have been complex and expensive, particularly since it wasn't generating sustainable profits independently.** Simultaneously, venture capital funding became extremely difficult to secure - the venture winter had begun abruptly in mid-2021, eliminating our ability to fund continued losses.\n\n**Several crucial lessons emerged from our international experience:** 📚\n\n**1. Founder involvement is critical:** Our only successful markets were those where founders took direct responsibility rather than delegating to managers without entrepreneurial experience.\n\n**2. Market research timing matters:** Research is most valuable during the optimization phase (scaling from 'one to ten') rather than the initial market entry phase ('zero to one').\n\n**3. Focus over expansion:** Our two profitable markets (Spain and Italy) demonstrated that concentrated effort works better than rapid geographic diversification.\n\n**4. Product adaptation is essential:** Markets like Brazil require fundamental business model changes, not just geographic transplantation of existing offerings.\n\n**Our international journey spanned approximately six years with multiple attempts across various markets. While we didn't achieve sustainable international success, the experience provided valuable insights about the complexities of global expansion for EdTech companies.**",
+      "body": "Regarding your question about our early team structure and hiring approach for international markets, our path was quite pragmatic and constrained by several factors 👥.\n\nFor a considerable time after launch, I was the only person handling everything - development, support, marketing, and all other functions 🤹‍♂️. Our initial process was remarkably manual. We didn't have an automated sales system or even a proper backend infrastructure. When users wanted to purchase, I would manually generate a PayPal payment link on my personal account, send it to them, wait for confirmation of payment, ask for their app ID number, and then manually generate a license key to send via email 📧.\n\nAs sales increased, this process became overwhelming and consumed all my time, preventing me from developing the automation that would have solved the problem ⏰. My first critical hire was actually my wife, who I convinced to leave her job as an English teacher to handle basic customer support 👩‍💼. This was a crucial decision that freed up my time to focus on product development.\n\nInterestingly, despite my wife being an English teacher, I never thought to ask her to help improve our initial outreach messages, which might have made our early marketing attempts more successful 🤦‍♂️. This oversight highlights how easy it is to miss obvious resources when caught up in the day-to-day operations.\n\nWe gradually expanded the support team, and by late 2018, we had grown to seven support specialists in addition to me 📈. I was still personally handling most marketing activities, occasionally bringing in freelancers for SEO and advertising campaigns while maintaining control of the core strategy.\n\nBy 2019, I had come to realize that this \"temporary\" project was generating significant revenue and had long-term potential 💡. However, I also recognized that our Chrome extension was vulnerable - LinkedIn could easily block it. This led me to transfer a developer from another project to begin building a desktop application as a more robust alternative.\n\nThroughout this early phase, our entire team consisted exclusively of residents from my region with varying levels of English proficiency 🌍. This was primarily due to my own limited English skills and the need for quick, efficient internal communication. While this created limitations, it was practical given my need to be heavily involved with all team members during this building phase.\n\nFor founders expanding internationally, I'd advise considering sooner than I did how your team structure might limit your ability to scale 🚀. While keeping communications simple in the early days has advantages, it can create barriers to truly understanding and adapting to international markets.",
       "signature": {
-        "name": "Denis Smetnev",
-        "title": "Co-founder & International Expansion Lead",
-        "company": "Skyeng"
+        "name": "Alexander Erin",
+        "title": "Founder & CEO",
+        "company": "linkedinhelper"
       },
       "highlight": {
-        "title": "Strategic Framework for EdTech International Expansion",
-        "description": "Skyeng's journey provides a comprehensive framework for EdTech international expansion: (1) Ensure domestic operational excellence before expansion, (2) Maintain founder-level involvement in initial markets, (3) Validate unit economics in 1-2 markets before scaling, (4) Adapt business models to local economic realities, (5) Build systematic market research capabilities for optimization phases. The external factors (geopolitical events, venture winter) highlight the importance of building profitable international operations rather than relying on continued funding to subsidize expansion losses."
+        "title": "Start Simple, But Don't Stay Simple Too Long",
+        "description": "Alexander started by doing everything himself, even manually sending payment links like a small online store. His first hire was his wife, which solved his biggest problem - customer support. But he made a funny mistake: his wife was an English teacher, but he never asked her to help fix his bad English marketing messages! This shows that sometimes the solution to your problems is right next to you, but you're too busy to notice."
+      }
+    },
+    {
+      "id": "7",
+      "date": "2 years ago",
+      "avatar": "linkedinhelper",
+      "subject": "Product Localization and Cultural Adaptation",
+      "greeting": "Greetings!",
+      "cta": {
+        "message": "learn localization best practices",
+        "link": "linkedhelper.com/localization"
+      },
+      "body": "Your inquiry about our approach to product localization and cultural adaptation touches on an important aspect of our international journey 🌐.\n\nFor a long time, we operated exclusively with an English interface, which was sufficient for our primary markets in the United States and United Kingdom 🇺🇸🇬🇧. It wasn't until much later that we began to seriously consider localizing our product for other languages and markets.\n\nOur first experiment with localization came through that unsuccessful partnership attempt for the German-speaking market 🇩🇪. I created a German version of our website at the partner's request, but since the partnership itself yielded no results, we didn't gain much insight from this initial localization effort.\n\nThe real push for more comprehensive localization came much later. Currently, we offer our interface and landing pages in French, German, Spanish, and Portuguese, in addition to English 🌍. This expansion was somewhat overdue - we recognized the need long before we actually implemented the changes, but resource constraints and other priorities delayed this initiative.\n\nFor translation, we used a combined approach 📝. We started with DeepL for the initial translations, and then hired freelancers from Upwork with five-star ratings to refine the content. However, even this approach wasn't perfect - we've had users write to us pointing out errors or awkward phrasing in the translated versions.\n\nBeyond mere language translation, we've also recognized the importance of cultural adaptation in our product 🤝. One fascinating example comes from our educational content for users. We discovered that messaging approaches that work well in one market can be disastrous in others. For instance, a Brazilian user who was trying to use a friendly, first-name basis approach to messaging in the German market had his LinkedIn account banned because his style was considered inappropriate 🚫. Germans typically expect more formal communication with proper titles and last names.\n\nSimilarly, we've found that in some cultures like Poland, using formal prefixes is not just preferred but practically mandatory in professional communication 🇵🇱. These insights led us to develop functionality that allows for custom variables and templates in our messaging system, enabling users to adapt their automated outreach to the cultural expectations of different markets.\n\nWe've come to believe that true localization goes beyond just translating your interface and website 💭. It requires understanding the cultural nuances of how your product will actually be used in different markets and providing the flexibility for users to succeed within their specific cultural context.\n\nWhile we haven't yet created market-specific versions of our landing pages with different creative approaches, we do sense that different markets might respond better to different design aesthetics 🎨 - with Brazilians perhaps preferring more colorful, simple interfaces and Germans responding better to more serious, business-like presentations. This remains somewhat intuitive rather than data-driven at this point, but it's an area we're considering for future refinement.",
+      "signature": {
+        "name": "Alexander Erin",
+        "title": "Founder & CEO",
+        "company": "linkedinhelper"
+      },
+      "highlight": {
+        "title": "Language Is Just the Beginning",
+        "description": "Alexander learned that translating words isn't enough - you have to understand how people act differently in each country. In Brazil, people are friendly and use first names, but if you do that in Germany, you might get in trouble because Germans prefer formal titles. It's like learning that in some countries you bow to say hello, while in others you shake hands. The same tool can work everywhere, but you have to let people use it in their own cultural way."
+      }
+    },
+    {
+      "id": "8",
+      "date": "2 years ago",
+      "avatar": "linkedinhelper",
+      "subject": "Legal Structure and Payment Processing",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "explore legal setup guides",
+        "link": "linkedhelper.com/legal-setup"
+      },
+      "body": "You asked about our approach to legal structure and payment processing for international operations, which has evolved considerably over time ⚖️.\n\nWhen we first started, we operated without any formal legal entity 🏢. I used my personal PayPal account to process payments, manually creating invoices for each customer. This extremely basic setup was sufficient to begin generating revenue, though obviously not sustainable for the long term.\n\nCurrently, we have three legal entities: one in the United States, one in the United Arab Emirates, and somewhat surprisingly, one in Kyrgyzstan 🌍. Each has its own advantages and serves different purposes in our global operation.\n\nFor most founders without US residency, I believe Delaware in the United States remains one of the best options for initial incorporation 🇺🇸. The process is relatively straightforward, you don't have to worry about complex tax implications if you're not a resident, and virtually all payment processors are willing to work with US entities. This makes it an excellent starting point for international operations.\n\nThe UAE entity came later as we expanded, though it brought additional complexity 🇦🇪. While offering certain advantages, it introduced more bureaucracy and tax considerations than our US structure. I wouldn't necessarily recommend it as a first choice for early-stage companies.\n\nOur Kyrgyzstan entity exists because they've created a special tax regime for IT companies and startups, featuring a 1% turnover tax with no profit tax and minimal employee taxation 🇰🇬. While this creates an attractive tax environment, the downside is that not all payment processors will work with Kyrgyzstan entities, which creates operational challenges. These issues are solvable but require additional effort.\n\nFor payment processing, as we've grown, we've had to become more sophisticated 💳. A particular challenge for US operations is dealing with sales tax, which varies by state. Attempting to directly register for and manage sales tax compliance in each state would be an administrative nightmare that could easily sink a small business.\n\nTo address this, we've implemented Merchant of Record solutions like FastSpring and PayPro Global 🛡️. These services legally act as resellers, taking responsibility for local tax compliance by calculating, collecting, and remitting the appropriate sales tax in each jurisdiction. They process payments on your behalf and then pay you the proceeds minus their fee. While more expensive than direct payment processing, they substantially reduce regulatory complexity.\n\nMy most important advice regarding legal structure and compliance is pragmatic: don't be overly concerned with perfect compliance when just starting out ⚡. If you attempt to meet every legal and regulatory requirement from day one, your project will likely fail before it gains traction. We operated for some time without a formal entity and gradually implemented more robust structures as we grew.\n\nThis doesn't mean ignoring legal requirements entirely, but rather prioritizing business viability first, then progressively improving your compliance as resources permit 📈. This balanced approach has allowed us to build a sustainable global business without being paralyzed by regulatory complexity in the early stages.",
+      "signature": {
+        "name": "Alexander Erin",
+        "title": "Founder & CEO",
+        "company": "linkedinhelper"
+      },
+      "highlight": {
+        "title": "Start Simple, Upgrade As You Grow",
+        "description": "Alexander started with just his personal PayPal account - no fancy business setup at all! As the business grew, he added companies in different countries for different reasons. His advice is simple: don't try to set up the perfect legal structure from day one, or you'll spend so much time on paperwork that you'll never actually start your business. It's like learning to ride a bike - you start with training wheels, not by trying to do tricks on day one."
+      }
+    },
+    {
+      "id": "9",
+      "date": "2 years ago",
+      "avatar": "linkedinhelper",
+      "subject": "Building a Professional Marketing Function",
+      "greeting": "Hi there,",
+      "cta": {
+        "message": "build your marketing team",
+        "link": "linkedhelper.com/marketing-team"
+      },
+      "body": "In response to your question about developing our marketing capabilities as we expanded internationally, I can share that this has been a gradual evolution with both successes and challenges 📈.\n\nFor the first several years, I personally handled virtually all marketing activities 🎯. While I occasionally engaged freelancers for specific tasks like SEO or campaign management, the core strategy and execution remained my responsibility. This approach was workable in the early stages but became a significant limitation as we grew.\n\nOur first major step toward building a proper marketing function didn't occur until 2021, when we hired our first head of marketing 📅. Unfortunately, this initial attempt wasn't successful - after about a year and a half, we parted ways with this person who, in my assessment, \"couldn't do a damn thing\" 😅. This setback left us without dedicated marketing leadership for another year.\n\nOnly recently - about a month and a half ago - we brought on a new head of marketing who appears to be much more capable 🌟. With this new leadership, we're now rebuilding our marketing function from the ground up, developing more systematic approaches rather than the ad hoc methods we've relied on previously.\n\nVideo production is one area where we began professionalizing earlier 🎥. My wife, who initially joined as head of support, gradually transitioned to creating video tutorials. When she went on maternity leave, we further upgraded our video production capabilities, implementing more professional backgrounds, improved aesthetics, and better communication quality.\n\nCurrently, we're strengthening our marketing team by adding experienced talent 👥. Just yesterday, we welcomed another marketing professional who previously held a senior position at Kit Agency, a notable marketing firm. These additions represent a significant upgrade to our marketing capabilities.\n\nThis evolution reflects our broader company growth 📊. When we began, I was the only person working on the project. By late 2018, we had grown to include seven support specialists alongside me. Our development team started to take shape in 2019, expanding to about seven people that year. Today, the company employs 46 people across various functions.\n\nOur organizational structure has become more specialized over time 🏢. We now have dedicated roles that didn't exist previously, including recruiters, product managers, and a UX designer who joined just last October. This increasing specialization reflects our evolution from a startup to a more structured organization.\n\nThe key lesson from our experience is that while a founder-led, generalist approach to marketing can work in the early stages, building a sustainable international business eventually requires specialized expertise 🎓. Our delayed investment in professional marketing likely slowed our growth, and I now recognize this as one of my significant mistakes - being overly cautious about spending on specialized talent when we were still growing.",
+      "signature": {
+        "name": "Alexander Erin",
+        "title": "Founder & CEO",
+        "company": "linkedinhelper"
+      },
+      "highlight": {
+        "title": "You Can't Do Everything Yourself Forever",
+        "description": "Alexander learned that trying to handle marketing by himself worked when the company was small, but it became a big problem as they grew. His first attempt to hire a marketing expert was a disaster - the person \"couldn't do a damn thing\" for over a year! But he didn't give up and found someone better. Now his company has 46 people instead of just him. The lesson is that you might be good at many things, but you can't be the best at everything - sometimes you need to let experts handle what they do best."
+      }
+    },
+    {
+      "id": "10",
+      "date": "2 years ago",
+      "avatar": "linkedinhelper",
+      "subject": "Working with Enterprise Clients",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "enterprise sales strategies",
+        "link": "linkedhelper.com/enterprise-sales"
+      },
+      "body": "Your question about our experience with enterprise clients highlights some interesting challenges we've faced in the international market 🏢.\n\nOur product exists in something of a gray area relative to LinkedIn's Terms of Service ⚖️. While many individual professionals and small businesses accept this risk for the productivity benefits our tool provides, enterprise companies tend to be much more conservative in their approach.\n\nWe've had experiences with major corporations like IBM and Oracle where we've made significant progress in the sales process only to encounter roadblocks at the final approval stage 🚧. In one particularly telling case, we had a user who had secured 350 seats within his organization and spent a year conducting internal demos and building support for a corporate purchase. We even had correspondence with a vice president of the company. However, ultimately, the company declined to proceed due to concerns about jeopardizing their relationship with LinkedIn.\n\nTheir reasoning was illuminating: \"LinkedIn is Microsoft. We pay $1.5 million monthly for our Sales Navigator subscription 💰. It's one of our key sales channels. We can't risk being penalized for using a tool that might violate their terms.\"\n\nWhat's particularly interesting is that in many cases, employees of these large corporations end up purchasing our software with their own money rather than through official corporate channels 💳. They recognize the value and productivity gains but cannot secure official approval due to compliance concerns.\n\nCold outreach to enterprise clients has proven largely ineffective for us 📧. The extended sales cycle combined with the compliance concerns makes this a challenging segment to penetrate through traditional sales approaches. Our experience suggests that for products operating in regulatory gray areas, a bottom-up adoption strategy (where individual employees bring the tool into the organization) is more effective than top-down enterprise sales approaches.\n\nThat said, we have successfully worked with enterprise clients in cases where they've found us through our established channels like SEO or word-of-mouth 🌟. When enterprises come to us already convinced of the value proposition, the conversation shifts from \"why use automation\" to \"how can we implement this securely.\"\n\nFor founders targeting enterprise clients with products that exist in similar gray areas, I'd recommend focusing initially on individual professionals and smaller companies that can make faster decisions with higher risk tolerance 🎯. As you build a track record and reputation, some enterprise opportunities will naturally emerge, but focusing too heavily on enterprise sales from the beginning can be frustrating and resource-intensive with limited results.",
+      "signature": {
+        "name": "Alexander Erin",
+        "title": "Founder & CEO",
+        "company": "linkedinhelper"
+      },
+      "highlight": {
+        "title": "Big Companies Are Scared to Break Rules",
+        "description": "Alexander discovered that big companies like IBM want to use his tool but are too scared to buy it officially. Even when someone inside the company loved the tool and convinced 350 people to use it, the bosses said no because they were worried LinkedIn (which is owned by Microsoft) might get angry. So instead, employees buy the tool with their own money! It's like when kids want a toy that their parents think might be too dangerous - they might buy it with their allowance instead of asking for it as a gift."
+      }
+    },
+    {
+      "id": "11",
+      "date": "2 years ago",
+      "avatar": "linkedinhelper",
+      "subject": "Key Lessons from International Expansion",
+      "greeting": "Greetings!",
+      "cta": {
+        "message": "master international expansion",
+        "link": "linkedhelper.com/expansion-lessons"
+      },
+      "body": "You asked about the most significant lessons we've learned through our international expansion journey. After reflecting on our experience, several important insights stand out 💡.\n\nFirst, I've observed distinct differences in business culture and negotiation styles across countries 🌍. With American clients, negotiations tend to be straightforward and efficient. There's generally a high level of integrity in these interactions - it's rare to encounter people trying to deceive or manipulate the process 🇺🇸. This allows for more open, less complicated contractual arrangements and faster decision-making.\n\nBritish clients, while also professional, have proven somewhat more reserved in my experience 🇬🇧. Their communication style makes it more challenging to discern their true intentions or concerns during negotiations. Germans, meanwhile, are notably meticulous about legal compliance, which often extends the negotiation process significantly 🇩🇪.\n\nI've found that working with clients from India (particularly those still based there or recently relocated) requires additional vigilance 🇮🇳. Similarly, Chinese clients often approach negotiations with tactics that may be culturally normal for them but can feel like attempts to secure unfair advantages from our perspective 🇨🇳. When establishing partnerships in these markets, careful attention to detail in agreements is essential.\n\nMy second major lesson relates to sales approaches 📈. What worked effectively in the CIS market - direct, straightforward outreach - consistently failed in English-speaking markets. Each market has its own communication norms and expectations around business development. Success requires adapting not just your language but your entire approach to relationship-building.\n\nPerhaps my biggest strategic mistake was being overly cautious about investing in growth 💰. I was hesitant to hire additional support staff when sales were still modest, concerned about increasing costs before revenue fully justified it. In retrospect, this excessive frugality limited our growth potential. If I were starting over, I would be more aggressive in building the team earlier, taking calculated risks to accelerate expansion.\n\nThe sequence of our team building was also suboptimal 👥. I remained personally involved in too many aspects of the business for too long, delaying critical delegation that would have allowed me to focus on strategic priorities. While this hands-on approach provided valuable insights, it ultimately constrained our scaling capacity.\n\nFinally, regarding legal compliance and business structure, I've learned the importance of pragmatism ⚖️. Many entrepreneurs become paralyzed trying to establish perfect compliance with every regulation from day one. This approach often kills promising ventures before they gain traction. Instead, I recommend focusing on building a viable business first, then progressively improving compliance as you grow. Had we attempted to address every regulatory nuance initially, particularly around international sales tax, we would never have launched successfully.\n\nThis doesn't mean ignoring legal requirements, but rather taking a staged approach to compliance that balances risk management with practical business realities 📊. As we've grown, we've implemented more sophisticated structures like Merchant of Record solutions for tax compliance, but trying to implement these systems at the very beginning would have been prohibitively complex and expensive.",
+      "signature": {
+        "name": "Alexander Erin",
+        "title": "Founder & CEO",
+        "company": "linkedinhelper"
+      },
+      "highlight": {
+        "title": "Every Country Does Business Differently",
+        "description": "Alexander learned that Americans are usually honest and straightforward in business, British people are polite but harder to read, and Germans want everything to be perfectly legal. He also discovered that what works in one country might completely fail in another - like how direct sales messages worked at home but seemed rude to English speakers. His biggest mistake was being too scared to spend money on growing his team when he should have been braver about investing in success."
+      }
+    },
+    {
+      "id": "12",
+      "date": "2 years ago",
+      "avatar": "linkedinhelper",
+      "subject": "Building Resilient Products for International Markets",
+      "greeting": "Greetings!",
+      "cta": {
+        "message": "build resilient products",
+        "link": "linkedhelper.com/product-resilience"
+      },
+      "body": "Your question about product resilience and adaptation touches on a critical strategic insight from our international journey 🛡️.\n\nWhen I first created LinkedIn Helper as a Chrome extension, I knew it existed in a somewhat precarious position 🌐. The extension could potentially be disabled by LinkedIn at any time, as it operated in a gray area of their terms of service. Despite this vulnerability, the extension was successful and generated significant revenue, growing beyond what I had initially expected from this \"temporary\" project.\n\nBy 2019, I recognized that we needed a more resilient alternative 💡. I transferred a strong developer from another project to begin building a desktop application that would be less vulnerable to being blocked. This decision proved prescient - in 2020, we launched this desktop version, which could handle up to 100 applications rather than relying solely on browser extensions.\n\nWe maintained both versions in parallel for some time, allowing users to transition gradually 🔄. The desktop application continued until 2021, providing us with a more robust and feature-rich offering while reducing our vulnerability to platform changes.\n\nThis evolution taught me a valuable lesson about building international businesses that depend on third-party platforms: always develop alternative approaches that reduce your vulnerability to sudden changes beyond your control 🎯. Whether it is regulatory shifts like the LinkedIn ban at home that initially pushed us to go international, or potential technical restrictions from the platforms we integrate with, resilience requires planning for multiple scenarios.\n\nFor founders building tools that interact with major platforms, I recommend:\n\n1. Anticipate potential points of vulnerability in your current approach 🔍\n2. Develop alternatives before they become necessary ⚡\n3. Maintain multiple delivery methods when possible 🔀\n4. Invest in direct relationships with your customers so that if you need to pivot, you can bring them along 🤝\n\nOur experience also highlighted the importance of being nimble with product development 🚀. As a small company competing in an international market, our ability to adapt quickly to changing circumstances has been one of our greatest advantages.\n\nToday, we continue to evolve our product with this mindset of resilience, ensuring that we're never completely dependent on any single platform, technology approach, or market 🌍. This diversification strategy has served us well through various challenges and continues to be a cornerstone of our international business approach.",
+      "signature": {
+        "name": "Alexander Erin",
+        "title": "Founder & CEO",
+        "company": "linkedinhelper"
+      },
+      "highlight": {
+        "title": "Always Have a Backup Plan",
+        "description": "Alexander knew his Chrome extension could be shut down by LinkedIn at any time, so he built a backup plan - a desktop app that worked differently. When problems came up, he was ready with another solution. It's like having an umbrella in your backpack even when it's sunny - you might not need it today, but you'll be really glad you have it when it starts raining. Smart business owners always think about what could go wrong and prepare for it before it happens."
       }
     }
   ]

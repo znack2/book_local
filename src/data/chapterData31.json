@@ -1,40 +1,189 @@
-
 {
   "emailColumn": {
-    "title": "Email Templates - Chapter 13",
+    "title": "RTS: Strategic International Expansion in Children's Coding Education",
     "authorInfo": {
       "title": "About the Author",
-      "description": "Dr. Sarah Kim specializes in data analytics and business intelligence with focus on predictive modeling and decision support systems."
+      "description": "Vladimir Kornigor leads international expansion at RTS (Rocket Tech School), an online programming school for children ages 5-17. RTS grew from 151 to 3,000 international students within two years, operating across multiple markets including expatriate communities, Latin America, and Brazil. The company teaches coding languages including Python, JavaScript, C#, HTML/CSS, and Unity through individual and group classes on their proprietary browser-based platform."
     },
     "materialsUsed": [
-      "Provost, F. (2013). Data Science for Business. O'Reilly Media.",
-      "Davenport, T. (2017). Competing on Analytics. Harvard Business Press.",
-      "Kimball, R. (2013). The Data Warehouse Toolkit. Wiley.",
-      "MIT Technology Review (2023). \"AI in Business Decision Making\" - Data Science Quarterly."
+      "Nova One Advisor. (2024). Online Coding for Kids Market Size, Share & Forecast Analysis 2024-2033.",
+      "Valuates Reports. (2024). Kids Programming Education Market Report - Global Opportunity Analysis and Industry Forecast 2024-2030.",
+      "Grand View Research. (2024). Education Technology Market Size & Share Analysis - Industry Report 2024-2030.",
+      "Market.us. (2025). EdTech For Early Childhood Market Size Analysis & Growth Forecast 2025-2034.",
+      "Mark Wide Research. (2025). Children's Programming Education Market Growth Analysis 2025-2034."
     ],
     "keyTakeaways": {
-      "title": "Key Takeaways",
-      "description": "Data-driven decision making requires quality data, proper analysis tools, and organizational commitment to evidence-based strategies."
+      "title": "Key Takeaways", 
+      "description": "RTS's international expansion demonstrates key principles for EdTech companies: 1) Test economics before investing in localization - run advertising campaigns to validate customer acquisition costs before building teams, 2) Regional Operations Partners are critical - local sales leadership determines success more than product adaptation, 3) Follow successful competitors strategically - analyze where similar companies succeed but verify independently, 4) Focus on unit economics over market size - profitable smaller markets beat large unprofitable ones, 5) Standardize where possible, localize where necessary - their product required minimal adaptation while sales teams needed local expertise, 6) Build scalable recruitment systems - high sales turnover requires dedicated hiring infrastructure, 7) Geographic arbitrage works - target markets with reasonable acquisition costs and adequate pricing power."
     }
   },
   "emails": [
     {
       "id": "1",
-      "sender": "Sarah Kim",
-      "date": "2 days ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-3.png",
-      "subject": "Data Analytics Mastery: Turn Data into Competitive Advantage",
-      "preview": "Dear Data Professional, transforming raw data into actionable insights is the key to staying competitive in today's market. Discover advanced analytics techniques...",
-      "signature": {
-        "name": "Sarah Kim",
-        "title": "Data Analytics Director",
-        "company": "InsightDriven Analytics"
+      "date": "2 years ago",
+      "avatar": "rts",
+      "subject": "The Origins of Our International Strategy",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "discover opportunistic expansion strategies",
+        "link": "rts.school/international-origins"
       },
-      "meta": "Template • Analytics",
-      "likes": 81,
+      "body": "Regarding your question about how our international expansion journey began, let me share the interesting origin story that shaped our global approach.\n\nOur company started as an online programming school for children, initially founded by my friend Vova who partnered with someone who already had a network of offline franchises in CIS.\n\nIn spring 2021, before the geopolitical situation changed, Vova decided to experiment with running ads in international markets like 🇮🇱 Israel and 🇩🇪 Germany. This was purely exploratory, with no grand expansion strategy behind it. To everyone's surprise, these test campaigns generated substantial interest, and within a year, we had enrolled 151 students from these international markets.\n\nThe turning point came with the onset of the conflict in 🇺🇦 Ukraine in February 2022. At that time, I had been advising Vova while working in a different role as a digital marketing specialist in CIS. Seeing the shifting landscape, I recognized a significant opportunity: there would likely be an influx of expats around the 🌍 world who would need educational solutions for their children.\n\nWe already had the essential components in place - a proven product, a legal entity outside home, and 💳 Stripe payment integration. This infrastructure made rapid international expansion possible at a moment when the domestic home market presented increasing challenges. I left my previous position and joined Vova to focus fully on international growth.\n\nOur initial focus was on the expatriate market across various countries, targeting families who had relocated from the CIS. Within two years, we grew from 151 to 3,000 students, validating our hypothesis about this underserved segment. However, we also recognized the inherent limitations of the expatriate market - it would eventually reach saturation.\n\nThis realization prompted us to begin exploring broader international markets where we could offer our services in local languages, setting the stage for our subsequent expansion efforts beyond the CIS communities.\n\nOur story demonstrates how sometimes international expansion isn't the result of a carefully crafted strategy but rather an opportunistic response to changing market conditions and unexpected test results. Being ready to pivot quickly when presented with these opportunities proved crucial to our early international success.",
+      "signature": {
+        "name": "Vladimir Kornigor",
+        "title": "International Expansion Lead",
+        "company": "RTS"
+      },
       "highlight": {
-        "title": "Advanced Analytics Framework",
-        "description": "Comprehensive data strategy with predictive modeling and real-time business intelligence dashboards"
+        "title": "Sometimes Great Opportunities Come from Bad Events",
+        "description": "RTS shows that successful businesses can grow from unexpected changes. When war started in Ukraine, it created a sad situation for many families. But Vladimir noticed that families moving to new countries would need education for their kids. Instead of just feeling bad about the situation, he turned it into a business opportunity to help these families. It's like when it rains and ruins your picnic, but you decide to help people by selling umbrellas instead."
+      }
+    },
+    {
+      "id": "2",
+      "date": "2 years ago",
+      "avatar": "rts",
+      "subject": "Market Testing Approach and Learning Process",
+      "greeting": "Hi there,",
+      "cta": {
+        "message": "learn market validation strategies",
+        "link": "rts.school/market-testing"
+      },
+      "body": "You asked about our approach to testing new markets and the process we used to decide which regions to prioritize. This aspect of our international journey has evolved significantly as we've gained experience.\n\nOur early market testing was fairly rudimentary. After establishing a solid foundation with expatriates worldwide, we began exploring markets where we could operate in local languages. The first areas we tested were English-speaking markets - the 🇺🇸 United States, the 🇬🇧 United Kingdom, and parts of 🌍 Europe where English proficiency is high.\n\nOur testing methodology for these initial markets was straightforward: we would run advertising campaigns for 2-3 months, monitor key metrics like cost per lead and conversion rates, and compare these against our target economics. If the numbers were close to our requirements, we would continue optimizing; if they were significantly off and would require substantial resources to improve, we would conclude the test and move on.\n\nThis approach led us to quickly determine that the economics didn't make sense in the 🇺🇸 US, 🇬🇧 UK, or broader 🌍 European markets. The cost of customer acquisition was prohibitively high, and we didn't have the capital reserves to sustain extended optimization efforts in these regions.\n\nAfter these initial tests, we became more methodical. We started closely studying our largest competitor, 👨‍💻 Kodland, which had successfully expanded into 🇹🇷 Turkey, 🇮🇩 Indonesia, 🇵🇱 Poland, 🇮🇹 Italy, and 🌎 Latin America. This competitor analysis gave us valuable benchmarks and a roadmap of sorts - we could see which markets were yielding results for a business with a similar model.\n\nWe also began leveraging our network more effectively, speaking with other entrepreneurs operating in various markets. For example, we connected with someone operating an educational platform in the Baltics who shared insights about their economics. This led us to discover that the Baltic region actually showed better unit economics than the 🇺🇸 US or 🇬🇧 UK markets, despite having a smaller total addressable market.\n\nAs we continued exploring options, we narrowed our focus to two regions: 🇮🇩 Indonesia and 🌎 Latin America. Both had been successful markets for our competitor 👨‍💻 Kodland, and both offered lower advertising costs than Western markets. After comparing the two, we chose 🌎 Latin America due to its larger total addressable market (half a billion Spanish speakers), higher average price point potential, and the fact that 👨‍💻 Kodland had already validated the market potential there.\n\nThis evolution in our approach - from opportunistic testing to systematic analysis informed by competitor intelligence and preliminary traffic tests - has significantly improved our ability to allocate resources efficiently in our international expansion efforts.",
+      "signature": {
+        "name": "Vladimir Kornigor",
+        "title": "International Expansion Lead",
+        "company": "RTS"
+      },
+      "highlight": {
+        "title": "Test Before You Invest - Like Trying Before Buying",
+        "description": "RTS learned to test markets like trying on shoes before buying them. Instead of building a whole team and translating everything first, they spent a little money on ads to see if people were interested. When the US and UK were too expensive (like shoes that cost too much), they looked for other markets with better prices. It's like shopping around for the best deal before spending all your allowance!"
+      }
+    },
+    {
+      "id": "3",
+      "date": "1 year ago",
+      "avatar": "rts",
+      "subject": "Operational Setup and Expansion Strategy",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "understand operational frameworks",
+        "link": "rts.school/operations-setup"
+      },
+      "body": "Your question about our operational approach to entering new markets highlights an important aspect of our international expansion journey.\n\nWhen entering a new market like 🌎 Latin America or 🇧🇷 Brazil, we follow a systematic process that has evolved through our experiences in multiple countries. Our approach prioritizes testing economics before making significant investments in localization or team building.\n\nFor our 🌎 Latin American expansion, we began by running advertising campaigns across multiple countries simultaneously - 🇨🇱 Chile, 🇵🇪 Peru, 🇲🇽 Mexico, and 🇨🇴 Colombia - to identify which markets offered the most favorable customer acquisition costs.\n\nOnce we've validated that the basic economics look promising, our next critical step is finding a Regional Operations Partner (ROP) - essentially a country manager who will oversee the local operation. This role is absolutely essential in our business model, as sales conversion is the primary determinant of success. While we can handle marketing, product translation, and administrative functions from our existing team, the sales process requires local expertise and management.\n\nThe ROP is responsible for:\n- Interviewing and selecting local sales representatives\n- Training the sales team and optimizing conversion rates\n- Identifying operational bottlenecks and implementing solutions\n- Adapting our approach to local market nuances\n- Managing day-to-day operations and team performance\n\nTo support the ROP, we have specialized departments that handle different aspects of the operation:\n- Our HR department sources potential sales representatives\n- Our educator department recruits and manages teaching staff\n- Our administrative department handles communication with existing clients and renewals\n- Our product department manages the translation and adaptation of our educational content\n\nInterestingly, we've found that we can use essentially the same product across different markets with minimal adaptation. Our programming curriculum, teaching methodology, and basic value proposition remain consistent whether we're operating in CIS, 🌎 Latin America, or 🇧🇷 Brazil. This standardization significantly streamlines our expansion process, allowing us to focus on sales and marketing execution rather than extensive product redesign.\n\nFor our 🇧🇷 Brazilian expansion, which uses Portuguese rather than Spanish, we followed the same operational template but with a separate ROP and team. This was a deliberate decision to tackle a substantial market (200 million people) that warranted dedicated resources despite the language difference from our Spanish-speaking 🌎 Latin American operations.\n\nOne challenge we've consistently faced across markets is finding and retaining qualified sales representatives. This became such a significant issue that we eventually built an entire recruitment department focused specifically on this function. The high turnover in sales roles requires constant attention to recruitment, training, and performance management to maintain our conversion rates.\n\nFor founders considering similar expansion strategies, I would emphasize the importance of identifying the critical operational functions that must be localized versus those that can be managed centrally. In our case, sales and immediate customer support require local expertise, while marketing strategy, product development, and administrative functions can be handled by our core team.",
+      "signature": {
+        "name": "Vladimir Kornigor",
+        "title": "International Expansion Lead",
+        "company": "RTS"
+      },
+      "highlight": {
+        "title": "Build a Strong Local Team Leader First",
+        "description": "RTS discovered that expanding to new countries is like building a house - you need a strong foundation first. Their most important hire in each country is the Regional Operations Partner (ROP), who is like a team captain. This person finds and trains local salespeople, solves problems, and makes sure everything runs smoothly. It's like having a really good class president who helps the teacher and makes sure all the students are learning well."
+      }
+    },
+    {
+      "id": "4",
+      "date": "1 year ago",
+      "avatar": "rts",
+      "subject": "Finding and Managing Regional Operations Partners",
+      "greeting": "Greetings!",
+      "cta": {
+        "message": "master local leadership selection",
+        "link": "rts.school/rop-management"
+      },
+      "body": "Your inquiry about our approach to finding and managing Regional Operations Partners (ROPs) touches on perhaps the most critical element of our international expansion strategy.\n\nFrom our experience across multiple markets, we've learned that the ROP role is the lynchpin of successful market entry.\n\nWhen searching for an ROP, we prioritize several key qualities:\n\n1. **Analytical capability:** The candidate must be comfortable with data and have strong mathematical skills. Our final hiring test is analytics-focused, as the role requires constant monitoring of conversion metrics and making data-driven decisions about team performance.\n\n2. **Sales background:** Experience in sales management is crucial, as the ROP needs to understand the dynamics of the sales process, how to motivate sales representatives, and how to optimize conversion at each funnel stage.\n\n3. **System-building skills:** We need someone who can establish processes and systems rather than just executing individual tasks. The ROP needs to build a scalable sales operation.\n\n4. **Stress resilience:** Sales departments are inherently high-pressure environments with significant volatility in results. The ROP needs to maintain composure and leadership even when facing challenges.\n\n5. **Experimental mindset:** We look for people who aren't afraid to test new approaches, hire and fire when necessary, and continuously iterate on their processes.\n\nThe search process typically involves our HR department generating candidates, but I personally conduct the final interviews and assessments for this crucial role. Finding the right person is challenging - for example, our 🇧🇷 Brazilian ROP, while not perfect (she lacked some systematic approach), was the best available candidate after extensive interviews.\n\nOur management approach with ROPs involves daily calls during the initial launch phase, focused on identifying and addressing bottlenecks. We've built dashboards that allow us to monitor key metrics and quickly spot problem areas. Common challenges we help ROPs navigate include:\n\n1. **Teacher attendance issues:** In 🇧🇷 Brazil, we encountered situations where educators didn't show up for scheduled classes with students.\n\n2. **Sales team recruitment and retention:** This is a persistent challenge across all markets, eventually leading us to establish a dedicated recruitment department.\n\n3. **Process optimization:** We continuously work with ROPs to refine and improve the sales process based on data and feedback.\n\nAs the market matures and the ROP gains experience, we transition to a more autonomous arrangement with regular check-ins focused on strategic issues rather than day-to-day operations.\n\nDespite the challenges, when we find the right ROP, the impact is transformative.\n\nFor founders considering similar expansion strategies, I cannot overstate the importance of finding the right local leader. Technical skills are important, but the temperament and mindset for building and managing a sales operation are equally crucial. It's worth taking the time to find the right person rather than rushing to market with suboptimal leadership.",
+      "signature": {
+        "name": "Vladimir Kornigor",
+        "title": "International Expansion Lead",
+        "company": "RTS"
+      },
+      "highlight": {
+        "title": "The Right Person Can Make or Break Everything",
+        "description": "Finding the right Regional Operations Partner is like choosing a team captain for a sports team. RTS learned that this person needs to be good with numbers (like keeping score), experienced with sales (like knowing how to motivate teammates), and able to handle stress (like staying calm during a tough game). The wrong person can make the whole team fail, but the right person can make everyone succeed. It's worth taking time to find the best captain rather than rushing to start the game!"
+      }
+    },
+    {
+      "id": "5",
+      "date": "6 months ago",
+      "avatar": "rts",
+      "subject": "Market Selection Criteria and Competitor Analysis",
+      "greeting": "Hi there,",
+      "cta": {
+        "message": "learn market selection frameworks",
+        "link": "rts.school/market-analysis"
+      },
+      "body": "You inquired about how we select new markets and the role competitor analysis plays in our international expansion decisions. This has become an increasingly important aspect of our strategy as we've matured.\n\nOur market selection process has evolved from opportunistic testing to a more structured approach informed by multiple factors:\n\n1. **Market Size:** We prioritize regions with substantial addressable markets. For instance, 🌎 Latin America's 500+ million Spanish speakers represent a much larger opportunity than smaller markets, even if those smaller markets might have higher average income levels.\n\n2. **Customer Acquisition Costs:** We conduct preliminary advertising tests to determine the cost per lead in potential markets. These tests are relatively inexpensive and provide crucial data before we commit significant resources to a market. Markets with prohibitively high customer acquisition costs, like 🇲🇽 Mexico ($12 per lead) compared to other 🌎 Latin American countries ($3 per lead), get deprioritized.\n\n3. **Average Transaction Value:** Some markets, like 🇮🇩 Indonesia, offer lower price points due to economic conditions, making the unit economics challenging despite reasonable acquisition costs. We evaluate the sustainable price point for each market based on competitive offerings and economic conditions.\n\n4. **Competitor Presence and Performance:** Our competitor analysis goes beyond simply mapping where they operate. We try to gather specific performance metrics to inform our own strategy:\n\n- We leverage our network to connect with people who have worked at or with our competitors to gather insights about their operations in specific markets.\n- We study their advertising strategies, messaging, and targeting to identify successful approaches.\n- We analyze whether a competitor's early entry into a market represents an opportunity (validation of market potential) or a threat (they may have captured the most accessible customer segments).\n\n👨‍💻 Kodland's success in 🌎 Latin America gave us confidence that the market was viable, and our preliminary tests confirmed reasonable customer acquisition costs. We determined that despite their presence, the market was large enough to support multiple players.\n\nFor 🇧🇷 Brazil specifically, we conducted competitive analysis and found minimal serious competition in the children's programming education space. This gap in the market, combined with 🇧🇷 Brazil's population of 200 million people, made it an attractive expansion target despite the language difference from our Spanish 🌎 Latin American operations.\n\nThe most important lesson we've learned about market selection is to be disciplined about economics. No matter how attractive a market might seem due to size or lack of competition, if the unit economics don't work (either due to high acquisition costs or low sustainable price points), we've learned to walk away rather than hoping to optimize our way to profitability.",
+      "signature": {
+        "name": "Vladimir Kornigor",
+        "title": "International Expansion Lead",
+        "company": "RTS"
+      },
+      "highlight": {
+        "title": "Follow the Leader, But Do Your Own Homework",
+        "description": "RTS learned to be smart about picking new markets by watching what successful competitors like Kodland were doing, kind of like following the smartest kid in class to see which lunch line is shortest. But they also did their own testing to make sure it would work for them too. Just because someone else succeeds somewhere doesn't guarantee you will - you still need to check if you can afford the 'admission price' (customer costs) and if people will pay enough to make it worth it."
+      }
+    },
+    {
+      "id": "6",
+      "date": "6 months ago",
+      "avatar": "rts",
+      "subject": "Adapting Marketing and Sales to New Markets",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "discover standardization strategies",
+        "link": "rts.school/marketing-adaptation"
+      },
+      "body": "Your question about how we adapt our marketing and sales approaches for different international markets touches on an interesting aspect of our expansion strategy.\n\nSurprisingly, our approach involves minimal adaptation of our core marketing and sales strategies across markets. Instead, we focus on optimizing execution within a consistent framework.\n\nFor marketing, our primary channel across all markets is paid social media advertising, particularly 📘 Meta platforms. We use the same general approach regardless of country - driving traffic to quiz-based landing pages that capture interest and generate leads for our sales team. The quiz format works universally as a lead generation tool, requiring only translation rather than fundamental restructuring for different markets.\n\nWhen entering a new market like 🌎 Latin America or 🇧🇷 Brazil, we translate our marketing assets - ad creatives, quiz questions, and landing pages - but maintain the same overall strategy and messaging. We've found that the value proposition of children's programming education resonates consistently across cultures, requiring minimal adaptation beyond language translation.\n\nThis standardized approach allows us to quickly test multiple markets simultaneously. For instance, in 🌎 Latin America, we launched campaigns across 🇨🇱 Chile, 🇵🇪 Peru, 🇨🇴 Colombia, and 🇲🇽 Mexico concurrently, using the same creatives and funnel structure. This parallel testing revealed significant differences in customer acquisition costs, informing our market prioritization without requiring market-specific creative development.\n\nOn the sales side, we do adapt our team composition to match the target market. We hire sales representatives who are native speakers and ideally from the target country. For example, our 🌎 Latin American operation employs predominantly 🇨🇴 Colombian sales representatives. We've observed that these representatives perform better when selling to customers from their own country - our 🇨🇴 Colombian sales team achieves higher conversion rates with 🇨🇴 Colombian prospects than with prospects from 🇨🇱 Chile or other Spanish-speaking countries.\n\nThis observation has influenced our traffic allocation strategy. Rather than distributing advertising budgets equally across 🌎 Latin American countries, we now concentrate more resources on 🇨🇴 Colombia to align with our sales team's strengths. This represents a practical adaptation based on performance data rather than a predetermined regional strategy.\n\nOur product, interestingly, remains almost entirely unchanged across markets. The programming curriculum, teaching methodology, and class structure that work for local students prove equally effective for students in 🌎 Latin America or 🇧🇷 Brazil. This product consistency significantly streamlines our expansion process and operational management.\n\nThe primary adaptations we make are:\n- Language translation of marketing materials and educational content\n- Hiring local sales representatives who understand cultural nuances\n- Adjusting pricing to match local market conditions\n- Allocating traffic based on observed sales performance patterns\n\nThis standardized yet locally staffed approach allows us to maintain consistent quality while efficiently scaling across diverse markets. Rather than creating market-specific strategies, we focus on optimizing execution within a proven framework.\n\nFor founders considering similar expansion approaches, I would emphasize that determining which elements truly require local adaptation versus which can remain standardized is crucial for efficient international scaling. In our experience, localization of sales personnel is essential, while marketing strategy and product can remain largely consistent across markets.",
+      "signature": {
+        "name": "Vladimir Kornigor",
+        "title": "International Expansion Lead",
+        "company": "RTS"
+      },
+      "highlight": {
+        "title": "Same Recipe, Local Chefs",
+        "description": "RTS figured out that expanding internationally is like opening the same restaurant in different cities - you can use the same menu and recipes (marketing and product), but you need local chefs who understand the customers (sales team). Colombian salespeople were better at selling to Colombian families than to Chilean families, even though both speak Spanish. So they focused their advertising money on Colombia where their sales team was strongest, like sending more ingredients to the kitchen with the best cooks!"
+      }
+    },
+    {
+      "id": "7",
+      "date": "3 months ago",
+      "avatar": "rts",
+      "subject": "Lessons from Unsuccessful Market Entries",
+      "greeting": "Greetings!",
+      "cta": {
+        "message": "learn from market failures",
+        "link": "rts.school/failure-lessons"
+      },
+      "body": "Your question about what we've learned from our unsuccessful market entry attempts touches on valuable experiences that have significantly shaped our current approach to international expansion.\n\nOur most instructive failure was our attempt to enter the 🇩🇪 German market. This case is particularly interesting because it began with what seemed like strong market signals. We had acquired a significant number of 🇩🇪 German customers through our expatriate-focused operations, and these customers were actively requesting German-language instruction. This appeared to be a clear indication of market demand.\n\nBased on this perceived opportunity, we launched a comprehensive market entry effort. We hired translators to localize our materials, began building a German-speaking sales team, and started adapting our product for 🇩🇪 German students. This represented a substantial investment of resources before we had fully validated the market economics.\n\nWhen we finally ran advertising campaigns to generate leads for our newly assembled team, we discovered that customer acquisition costs were prohibitively high. The economics simply didn't work, forcing us to abandon the initiative after just one month despite all the preparatory investments we had made.\n\nThis experience taught us a fundamental lesson: **never invest in localizing your product or building a local team until you've validated the market's economic viability through advertising tests.** We now follow a reversed process:\n\n1. First, run advertising tests to determine customer acquisition costs and initial interest\n2. Only if these metrics look promising do we invest in translation and local team building\n3. We continue to monitor economics closely as we scale, ready to pivot if conditions change\n\nOur English-language market tests across 🇺🇸 America, 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England, and 🌍 Europe also provided valuable insights. Despite these being wealthy markets with high education spending, the customer acquisition costs were simply too high relative to our price point to create sustainable unit economics. This reinforced that market wealth alone doesn't guarantee viability - the specific competitive landscape and advertising ecosystem in each market are equally important factors.\n\nThese experiences have led us to a much more disciplined approach to market selection and entry:\n\n1. We now test traffic costs and conversion rates before making any significant investments\n2. We evaluate markets based on concrete unit economics rather than abstract potential\n3. We consider competitor presence as both validation and a potential warning sign\n4. We're willing to quickly abandon markets that don't show promising economics, regardless of their theoretical attractiveness\n\nFor founders considering international expansion, I would emphasize that being willing to recognize when a market isn't working - and having the discipline to walk away despite sunk costs - is as important as identifying promising opportunities in the first place.",
+      "signature": {
+        "name": "Vladimir Kornigor",
+        "title": "International Expansion Lead",
+        "company": "RTS"
+      },
+      "highlight": {
+        "title": "Test the Water Before Diving In",
+        "description": "RTS learned a hard lesson in Germany - they spent lots of money building a team and translating everything because some customers asked for it, but then discovered it was too expensive to get new customers. It's like building a whole lemonade stand with German signs and German-speaking workers, only to find out that lemons cost too much in Germany to make any profit. Now they always test if they can afford to get customers before spending money on teams and translations."
+      }
+    },
+    {
+      "id": "8",
+      "date": "1 month ago",
+      "avatar": "rts",
+      "subject": "Key Lessons from Our International Journey",
+      "greeting": "Hi there,",
+      "cta": {
+        "message": "apply international expansion lessons",
+        "link": "rts.school/expansion-guide"
+      },
+      "body": "As we reflect on our international expansion experience, several valuable lessons stand out that might benefit other founders considering similar journeys.\n\n**1. Test economics before committing resources**\n\nWe now first test traffic costs and conversion rates through minimal advertising campaigns, and only proceed with larger investments if these initial metrics look promising.\n\n**2. Follow successful competitors (but verify independently)**\n\nStudying our competitors' market choices provided valuable guidance. This gave us a roadmap of potentially viable markets rather than starting from scratch.\n\n**3. Prioritize sales execution over product adaptation**\n\nWe discovered that our product required minimal adaptation across markets. Finding the right ROP proved to be the primary determinant of success for us.\n\n**4. Recognize patterns but respect market differences**\n\nWhile our core approach remained consistent across markets, we learned to identify and adapt to meaningful regional differences.\n\n**5. Build scalable recruitment systems**\n\nHigh turnover among sales representatives proved to be a persistent challenge across markets. This led us to establish a dedicated recruitment department focused exclusively on maintaining our sales capacity through continuous hiring and training.\n\n**6. Willing to abandon uneconomic markets**\n\nPerhaps the most important discipline we developed was the willingness to walk away from markets that didn't demonstrate viable unit economics, regardless of their theoretical attractiveness or sunk costs already invested.\n\n**Additional insights from our journey:**\n\n🎯 **Geographic arbitrage works:** Target markets with reasonable customer acquisition costs while maintaining adequate pricing power\n\n📊 **Data beats intuition:** Make decisions based on actual performance metrics rather than assumptions about market potential\n\n🏗️ **Infrastructure enables speed:** Having legal entities, payment processing, and operational systems in place allows rapid market entry when opportunities arise\n\n🌍 **Expatriate markets can be stepping stones:** Serving displaced communities provided valuable experience and cash flow while we developed broader international capabilities\n\n🤝 **Network effects matter:** Connections with other entrepreneurs and industry professionals provided crucial insights that shaped our market selection\n\n💡 **Opportunistic moments create advantages:** Being ready to capitalize on unexpected market shifts (like geopolitical changes) can provide significant competitive advantages\n\nFor founders embarking on international expansion, I hope these lessons provide some guidance that helps avoid costly detours and focus your resources on markets with genuine potential for sustainable growth.\n\nRemember: international expansion is a marathon, not a sprint. Build systems that allow you to test quickly, learn efficiently, and scale systematically.",
+      "signature": {
+        "name": "Vladimir Kornigor",
+        "title": "International Expansion Lead",
+        "company": "RTS"
+      },
+      "highlight": {
+        "title": "Smart Testing Beats Smart Guessing",
+        "description": "RTS's biggest lesson is that it's better to test small and learn fast than to guess big and possibly fail. They learned to spend a little money testing if customers want their product in new countries before spending lots of money building teams there. It's like testing if kids in a new neighborhood like your cookies by selling a few first, instead of opening a whole bakery and hoping they'll buy. This way, you learn what works without risking everything!"
       }
     }
   ]

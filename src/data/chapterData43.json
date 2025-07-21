@@ -1,40 +1,231 @@
-
 {
   "emailColumn": {
-    "title": "Email Templates - Chapter 13",
+    "title": "enty: From Estonian E-Residency to Pan-European Business Automation",
     "authorInfo": {
       "title": "About the Author",
-      "description": "Dr. Sarah Kim specializes in data analytics and business intelligence with focus on predictive modeling and decision support systems."
+      "description": "Kirill Zheleznov is a co-founder of Enty, a business automation platform that started by helping non-residents establish companies in Estonia through the e-Residency program. Enty provides comprehensive business services including company formation, accounting, banking, and legal compliance across multiple European markets, serving entrepreneurs and digital nomads seeking to establish EU-based businesses."
     },
     "materialsUsed": [
-      "Provost, F. (2013). Data Science for Business. O'Reilly Media.",
-      "Davenport, T. (2017). Competing on Analytics. Harvard Business Press.",
-      "Kimball, R. (2013). The Data Warehouse Toolkit. Wiley.",
-      "MIT Technology Review (2023). \"AI in Business Decision Making\" - Data Science Quarterly."
+      "Grand View Research. (2024). Europe Legal Technology Market. Market estimated at USD 6.38 billion in 2023, projected to grow at CAGR of 8.9% until 2030.",
+      "Estonia e-Residency Program. (2025). Over 125,300 e-residents from 170+ countries have created 35,500+ Estonian companies.",
+      "Fortune Business Insights. (2024). Global Legal Technology Market valued at $31.59 billion in 2024, projected to reach $63.59 billion by 2032.",
+      "GP Bullhound. (2024). European SaaS Report showing resilient M&A activity and growing proportion of larger late-stage fundraisings.",
+      "Payoneer. (2025). Estonia Business Guide showing e-residency growth to over 112,700 members globally with 30,200+ companies established."
     ],
     "keyTakeaways": {
       "title": "Key Takeaways",
-      "description": "Data-driven decision making requires quality data, proper analysis tools, and organizational commitment to evidence-based strategies."
+      "description": "Enty's journey illustrates the power of starting international from day one while learning through customer feedback. Key insights include: starting where regulations favor your business model can provide competitive advantages; customer-driven product development often beats elaborate pre-planning; remote operations are possible but local expertise remains crucial; cultural differences significantly impact service adoption even within seemingly similar markets; SME markets require efficient distribution models - either marketplace approach, hyperlocal focus, or strong partnerships; and scaling too broadly too quickly can dilute resources - focus beats spread in early expansion phases."
     }
   },
   "emails": [
     {
       "id": "1",
-      "sender": "Sarah Kim",
-      "date": "2 days ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-3.png",
-      "subject": "Data Analytics Mastery: Turn Data into Competitive Advantage",
-      "preview": "Dear Data Professional, transforming raw data into actionable insights is the key to staying competitive in today's market. Discover advanced analytics techniques...",
-      "signature": {
-        "name": "Sarah Kim",
-        "title": "Data Analytics Director",
-        "company": "InsightDriven Analytics"
+      "date": "1 year ago",
+      "avatar": "enty",
+      "subject": "International Expansion: Starting in Estonia 🇪🇪",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "explore Estonian business setup",
+        "link": "enty.io/estonia-setup"
       },
-      "meta": "Template • Analytics",
-      "likes": 81,
+      "body": "I wanted to share our international journey with Enty and its first steps. The first important point to mention is that it's our start country 🏠. Unlike many companies that start in their home market and then expand, we launched directly in Estonia 🇪🇪.\n\nThis wasn't a case of \"going global\" from home - we started internationally from day one 🌍. Estonia proved to be an excellent starting point 🎯.\n\nBefore Enty, we had worked on a crypto project called Tokenomic that involved tokenized securities 💰. While searching for the right regulatory framework, we tested various jurisdictions including Malta 🇲🇹 and offshore locations before discovering Estonia's flexible approach 📋.\n\nWe initially interacted with Estonia as clients - opening legal entities there ourselves and helping others do the same 🤝. We saw that there is reliability and demand in this market from people who speak English 🗣️. Secondly, we saw that it is possible to compete in this market and grab a share of it 📊.\n\nA market where there is constant demand 📈, where people are willing to communicate in English 🌐, and where we were able to do good business, of course 💼.\n\nThis gave us confidence to establish our business there by the end of 2020 ✅.",
+      "signature": {
+        "name": "Kirill Zheleznov",
+        "title": "Co-founder",
+        "company": "enty"
+      },
       "highlight": {
-        "title": "Advanced Analytics Framework",
-        "description": "Comprehensive data strategy with predictive modeling and real-time business intelligence dashboards"
+        "title": "Starting Global from Day One",
+        "description": "Some companies start in their home country first, but others start internationally right away! Estonia was perfect because it had good rules for business, people spoke English, and there was demand for their services. Sometimes the best place to start isn't where you're from!"
+      }
+    },
+    {
+      "id": "2",
+      "date": "1 year ago",
+      "avatar": "enty",
+      "subject": "Our Initial Strategy & Pivot 🔄",
+      "greeting": "Hi there,",
+      "cta": {
+        "message": "learn about startup pivots",
+        "link": "enty.io/strategy-evolution"
+      },
+      "body": "I was glad to hear from you, thank you for your call 📞. You have asked me what our strategy was like and if we have any deadlines. So, there were no deadlines, because we had money at the beginning 💰. The first investors provided funding that should have been enough for five months. During that time, we had to do our first pre-seed round. In the end, we had enough money for nine or ten months ⏰. We didn't do it, but it became clear that something was working ✅.\n\nOur initial strategy was like: we aimed to find traction with real customers 👥, understand their pain points better, secure funding 💸, make a round and then implement this vision in reality. Originally, we envisioned building a platform similar to \"Carta\" in the US 🇺🇸 - a private equity management solution for handling cap tables, ESOP programs, and eventually creating a secondary market for private company shares 📊. But reality took us in a different direction! 🔄\n\nWhen we started talking to customers 💬, we discovered they weren't startup founders obsessed with equity management and capital markets. Most were ordinary business owners focused on making money and growing steadily 📈 - they had no ambition to become billion-dollar companies 🚀.\n\nThis led to our first conceptual pivot 🔄. Instead of an equity management platform, we shifted to solving the mundane back-office problems that entrepreneurs struggled with: navigating relationships between different processes, services, and contractors who all spoke different languages 🗣️. We wanted to bring all of this together under one roof 🏠.\n\nWe couldn't raise any money 💸, even with our initial traction. We had a cool pitch, we won awards 🏆, but no round happened, so we kept struggling here.",
+      "signature": {
+        "name": "Kirill Zheleznov",
+        "title": "Co-founder",
+        "company": "enty"
+      },
+      "highlight": {
+        "title": "Listen to Your Customers, Not Your Original Plan",
+        "description": "Sometimes your first idea isn't what customers actually want! When they started talking to real customers, they learned people needed help with boring office stuff, not fancy investment tools. It's okay to change your plan when you learn what people really need."
+      }
+    },
+    {
+      "id": "3",
+      "date": "1 year ago",
+      "avatar": "enty",
+      "subject": "Finding Product-Market Fit 🎯",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "discover product-market fit strategies",
+        "link": "enty.io/product-fit-guide"
+      },
+      "body": "You have asked about how we confirmed we were on the right track - it was actually quite simple: customers buying our product 💰.\n\nWe understood that people would always need to open legal entities 🏢 (it's like birth and death - it will always happen 👶➡️💀). We could automate this process effectively, as our competitors had proven ✅. What was crucial:\n1. Our ability to compete with existing players 🏆\n2. Customer demand for expanded services and features 📈\n\nWe built our product on the fly based on what customers wanted 🛠️. They had practical needs: bank accounts 🏦, accounting 📊, invoicing 📋, contractor agreements 📝, financial tracking 💹, employee hiring 👥. We focused on delivering immediate value rather than perfecting our pitch 🎯.\n\nWhat's interesting is that our target audience was perfect for us - founders who don't live in Estonia and know little about it 🇪🇪. These entrepreneurs had read somewhere that Estonia offers good taxes 💸 and business-friendly conditions 📋, but they didn't have preconceived notions about which services to use. They go searching 🔍, and we go searching for them 🕵️‍♂️.",
+      "signature": {
+        "name": "Kirill Zheleznov",
+        "title": "Co-founder",
+        "company": "enty"
+      },
+      "highlight": {
+        "title": "Build What Customers Actually Buy",
+        "description": "The best way to know if your idea works is simple - do people pay for it? Instead of spending lots of time making fancy presentations, focus on solving real problems that customers face every day. When people need something and are willing to pay for it, you're on the right track!"
+      }
+    },
+    {
+      "id": "4",
+      "date": "1 year ago",
+      "avatar": "enty",
+      "subject": "Our Market Entry Approach 🚀",
+      "greeting": "Greetings!",
+      "cta": {
+        "message": "explore market entry strategies",
+        "link": "enty.io/market-entry"
+      },
+      "body": "I remember you have asked me how we find new markets and audiences 🎯.\n\nWe always start with a pilot project - it's the fastest way to gauge demand 📊. This was our approach in Estonia 🇪🇪, and then we expanded through referrals, organic customers, and partnerships 🤝.\n\nThis approach is necessary because our business model serves small and medium enterprises (SMEs) with 2-25 employees 👥. These clients cannot afford to pay €1,000+ monthly 💰, which means our average revenue per client is relatively low. With such economics, we can't afford lengthy partnership negotiations or expensive sales processes 📈. We simply don't know how a startup will survive for two years ⏰. But we need to understand whether we are going in the right direction or not 🧭. Our B2B SME segment operates more like B2C - the customers are small and don't pay much, so we need efficient acquisition channels 🔄.\n\nWhy focus on non-residents? Local Estonians generally don't need our help 🤷‍♂️ - they can open companies themselves through government services and typically know lawyers or legal experts personally 👨‍💼. Plus, it's a tiny market: only about 25,000 companies open in Estonia annually 📊, with approximately 30-35% opened by people living abroad 🌍. Despite the small size of the market, it is still quite competitive 🏁. There were already established players with serious rounds of funding 💸, some of whom have now successfully entered other markets, both European and non-European. One of our competitors has even entered Brazil 🇧🇷.\n\nBut at the same time, in a year and a half, we saw that in our niche of opening companies for non-residents 🎯, we are already in the top three 🥉. And this is a great start overall 🚀, because no matter how our expansion plans go, whether we can find one market, or two, or three, or five 🌐, our Estonian business is already a business 💼. Yes, it's not huge, yes, you'll never become a billion-dollar company in Estonia alone 🇪🇪, but it's a base that has allowed us, our users, to build a product and generate good revenue 💰.",
+      "signature": {
+        "name": "Kirill Zheleznov",
+        "title": "Co-founder",
+        "company": "enty"
+      },
+      "highlight": {
+        "title": "Start Small, Build Strong Foundation",
+        "description": "You don't need to be huge right away! Sometimes it's better to become really good in a small market first. Even if Estonia is tiny, being one of the top three companies there gave them experience, money, and confidence to try bigger markets later."
+      }
+    },
+    {
+      "id": "5",
+      "date": "1 year ago",
+      "avatar": "enty",
+      "subject": "Remote Operations & Client Demographics 🌐",
+      "greeting": "Hello there!",
+      "cta": {
+        "message": "learn remote business operations",
+        "link": "enty.io/remote-operations"
+      },
+      "body": "It was a nice question from you: is it possible to work remotely or did I have to come to Estonia myself? 🤔\n\nFortunately, we were able to handle everything remotely without needing to relocate to Estonia 💻. At the beginning, we hired a local lawyer on a temporary basis who provided expertise 👨‍💼. This lawyer grew with us, though now they're less involved as we've automated most processes 🤖. That is, everything that cannot be done automatically, we pass on to this law firm, and they pay us a commission for referring the client to them 💰.\n\nInterestingly, I personally didn't visit Estonia until 2022 ✈️, about two years after launching the business there. My physical absence didn't hinder our operations at all 🚫.\n\nAlso I have to mention here where the customers come from 🌍.\n\nWhen we started, we didn't know exactly who was opening companies in Estonia 🤷‍♂️, but we quickly realized that the core demand was coming from Europeans from highly regulated countries. Central Europe — that's Germany 🇩🇪, which is the absolute leader, Italy 🇮🇹, Spain 🇪🇸 and France 🇫🇷, of course. And everyone else is scattered all over the world 🌐, really.\n\nAt one point, we had significant client bases from the CIS 🌍. However, when the war started ⚔️, people from these countries could no longer obtain e-resident cards (electronic signatures required to open companies) 💳. For Ukrainians 🇺🇦, special programs were created to help them start businesses - we even offer programs that compensate Ukrainians for company setup costs 💙💛.\n\nWhile the exclusion of some CIS countries reduced the overall market size 📉, it didn't significantly impact our business specifically 📊.",
+      "signature": {
+        "name": "Kirill Zheleznov",
+        "title": "Co-founder",
+        "company": "enty"
+      },
+      "highlight": {
+        "title": "You Can Run a Business Without Being There",
+        "description": "Amazing but true - you can start and run a business in another country without even visiting! They used local lawyers to help with things they couldn't do remotely, and technology handled the rest. Sometimes the internet makes business much easier than we think!"
+      }
+    },
+    {
+      "id": "6",
+      "date": "1 year ago",
+      "avatar": "enty",
+      "subject": "Cultural Considerations & Business Model 🌍",
+      "greeting": "Hi, Anton!",
+      "cta": {
+        "message": "understand cultural business factors",
+        "link": "enty.io/cultural-insights"
+      },
+      "body": "You asked about cultural nuances in our operations 🤔. Since we have a multicultural customer base 🌍, we don't specialize in specific cultural approaches. Our clients come expecting to communicate in English 🗣️, understanding they're entering a different business environment and need to adapt 🔄. Overall, I can't highlight any other peculiarities. We had some peculiarities when we entered the Dutch market 🇳🇱. If you want, I can tell you more about it, because it was a huge failure for us 😅.\n\nOur business model is straightforward - a self-service funnel where users register 📝, purchase products 💰, and complete everything online 💻. If they want to speak with someone, that option is available 📞. For those who don't immediately convert, we follow up with emails 📧. And we hope they'll come back 🔄.\n\nThis model likely would work at home too 🏠, though the competitive landscape would be quite different. Here, banks are very active in this space 🏦, whereas in Europe (except England 🇬🇧 and France 🇫🇷), banks don't typically offer company formation services online 💻. In most European countries, it's still difficult to open companies online 🌐, and Estonian banks don't offer accounts to non-resident companies anyway 🚫.",
+      "signature": {
+        "name": "Kirill Zheleznov",
+        "title": "Co-founder",
+        "company": "enty"
+      },
+      "highlight": {
+        "title": "Simple Business Models Often Work Best",
+        "description": "Sometimes the best business idea is just making something complicated much simpler! Their customers just wanted an easy way to start a business online without tons of paperwork and complicated processes. Keep it simple and people will pay for convenience."
+      }
+    },
+    {
+      "id": "7",
+      "date": "1 year ago",
+      "avatar": "enty",
+      "subject": "Expanding Beyond Estonia (to Netherlands) 🇳🇱",
+      "greeting": "Hello, my friend.",
+      "cta": {
+        "message": "explore expansion strategies",
+        "link": "enty.io/netherlands-expansion"
+      },
+      "body": "I'll answer this question today: \"what was the reason to move to the next country (and why this exact country)?\" 🤔\n\nFrom the beginning, we understood that Estonia alone wouldn't allow us to build a large business 🇪🇪. Our vision was always to free entrepreneurs from boring office routines across Europe 🌍, not just in Estonia.\n\nBuilding sophisticated automation for such a small market didn't make economic sense 💰, so expansion was essential. Our initial plan was to cover all of Europe 🌍, but we realized we couldn't launch everywhere simultaneously with our current product and capabilities 🚫.\n\nWe chose a scaling model through service sales and a marketplace approach 🏪, with self-service tools available in our main product (the \"control panel\" 🎮). The challenge was that accounting services are very jurisdiction-specific - you can't simply offer accounting across all countries due to different rules, tax systems, and licensing requirements 📋. Some places even require a license for this. In general, it's complicated, impossible 🤯. So we decided that we needed to choose one country and go there. And in general, this is what we have heard from investors 💰: we are not giving up on our long-term ambitions, because our ambition was to build an automated product 🤖. To build an automated product, you need to invest in development right now, and that requires a little bit of money 💸. We heard some great figures in Estonia. The idea is great, it's clear 💡. It doesn't need to be proven. But show us that you can tap into the solvent demand of large markets 📊. So we went to prove ourselves to investors in the Netherlands 🇳🇱.\n\nWhy the Netherlands? 🤔\n1. The Netherlands has one of the highest English proficiency rates in continental Europe 🗣️\n2. The UK seemed too competitive (with similar startups already operating there) 🇬🇧\n3. The US was too distant and unfamiliar 🇺🇸\n\nLet's say, we were able to get started in the Netherlands in 1.5 months ⏰, we were able to start great sales in 3 months 📈, so we can do it anywhere (In Italy 🇮🇹, Spain 🇪🇸, and elsewhere). You just need to create a little more local substance to do that 🏗️. That was the plan, and it was carried out in full ✅. Like, completely, both in terms of our product strategy, i.e., the offering we were providing, and in terms of this super cool plan to sell reliably in English 🌐.",
+      "signature": {
+        "name": "Kirill Zheleznov",
+        "title": "Co-founder",
+        "company": "enty"
+      },
+      "highlight": {
+        "title": "Choose Your Next Market Carefully",
+        "description": "When picking the next country to expand to, think about practical things like: Do people speak your language? How much competition is there? Is it close enough that you understand the culture? They picked Netherlands because people spoke good English and it wasn't too crowded with competitors."
+      }
+    },
+    {
+      "id": "8",
+      "date": "1 year ago",
+      "avatar": "enty",
+      "subject": "The Netherlands Experience 🇳🇱",
+      "greeting": "Greetings!",
+      "cta": {
+        "message": "learn from expansion failures",
+        "link": "enty.io/netherlands-lessons"
+      },
+      "body": "Let me tell you all about the Netherlands journey: plans, insights, failures 📊.\n\nOur Netherlands strategy was based on the assumption that accounting is universally despised by entrepreneurs 😤 - making it an easy pain point to sell solutions for. So, based on the fact that accounting is the biggest pain 😣, we decided to sell through accounting. It's easy to sell through the biggest pain 💡. It sounded logical in theory. In addition to paid search on a commission basis for accounting services 💰, we also launched companies aimed at getting users to start using our tools in the control panel for free 🆓, as a premium feature. And then we would upsell them our accounting services 📈.\n\nUnfortunately, reality proved more complex 🤯. We allocated 4-5 months for this market entry ⏰. We didn't have any more time, and we thought that the money would run out and we would have to scale back our ambitions 💸. But the money kept appearing and the Estonian business continued to grow 📈, bringing us more and more money. In the end, we probably spent a total of nine months in the Netherlands 🇳🇱 before we figured out what to do next.\n\nWhy didn't it work out? 🤔 We tried different strategies. We started trying to sell in Dutch 🗣️. But globally, we encountered two things.\n\nFirst, we were completely unknown as a provider of accounting services 🤷‍♂️ (it turned out that accounting is an extremely sensitive matter 😰). You're not ready to trust some obscure Estonian dudes 🇪🇪, even with fancy landing pages 💻, with something as serious as your taxation 💰. You'd rather pay €300 to the guy next door 👨‍💼, who you can have tea with ☕ and who did your grandfather's and father's accounting 👴.\n\nYou don't care, but you're afraid of the Dutch tax authorities 😨, and you're probably right. That's the biggest mistake ❌. We underestimated the complexity of accounting as a service for sale. We managed to sell almost exclusively to expats 🌍 who didn't have such strong connections with local providers. And we realized that expats are a dead end for our quasi-business model 🚫.\n\nOur last attempt in the Netherlands was to disable accounting sales altogether 🚫 and put Paymall on all the features we had, such as Assel Service, which we had, we had an investment 💰, we had contract management 📝, and we had electronic signatures ✍️. And that was it, and we started selling it just as a SaaS product 💻. And people started buying it 💰. We made some 60-70 sales 📊. We basically just switched the offering but didn't make any changes to the product itself 🔄. And when we saw the sales, we realized that it was selling well overall 📈. Our soft service UI was selling and we could try selling it not only in the Netherlands but also in other regions 🌍.",
+      "signature": {
+        "name": "Kirill Zheleznov",
+        "title": "Co-founder",
+        "company": "enty"
+      },
+      "highlight": {
+        "title": "Trust Takes Time, Even with Great Products",
+        "description": "Even if your product is amazing, people might not trust you if you're new and from another country. In Netherlands, people preferred their local accountant who they knew personally, even if he was more expensive. Sometimes you need to find a different way to sell the same thing!"
+      }
+    },
+    {
+      "id": "9",
+      "date": "1 year ago",
+      "avatar": "enty",
+      "subject": "Pan-European Approach 🌍",
+      "greeting": "Hello, Anton.",
+      "cta": {
+        "message": "explore pan-European strategies",
+        "link": "enty.io/europe-expansion"
+      },
+      "body": "Here I explain how we go across Europe 🌍. Did we change the product? Was it important what market was it? You asked the right questions 🤔.\n\nWe eventually achieved our goal 🎯, though not as quickly as hoped ⏰. We realized our automated tools had potential as a straightforward SaaS product 💻 that could work across multiple European countries 🌍. Rather than focusing exclusively on the Dutch market 🇳🇱, it made more sense to distribute our investment across as many potential customers as possible 📊.\n\nSo earlier this year (around April/May) 📅, we took a short break ✋, adjusted our product to sell tools rather than accounting services 🔧, and launched Enty across Europe for all European customers 🇪🇺.\n\nThe product is largely the same across markets 📦. A few months ago, we added localizations for German 🇩🇪, French 🇫🇷, and Spanish 🇪🇸, but initially we offered only English 🗣️. From an economic perspective, distributing fixed costs across a large market makes sense 💰, but from a marketing standpoint, it's extremely challenging 📈. We're heating up a \"huge lake\" 🌊 that's difficult to warm with our limited resources 🔥.\n\nSo, long story short, this pan-European strategy hasn't been wildly successful either 📉 - we have sales, but growth is slow and expensive 💸. We're now rebuilding our model to focus on European user acquisition through affiliates 🤝. The product is great 👍, we built it well. Our Estonian business covers our costs 💰, which gives us time to create a healthy unit economy rather than burning cash 🔥. We expect to be profitable by March or April next year 📈.",
+      "signature": {
+        "name": "Kirill Zheleznov",
+        "title": "Co-founder",
+        "company": "enty"
+      },
+      "highlight": {
+        "title": "Going Big Too Fast Can Be Tricky",
+        "description": "Sometimes trying to sell to everyone everywhere at once doesn't work well. It's like trying to heat up a huge swimming pool with a small heater - it takes forever! Sometimes it's better to focus on smaller areas first and do really well there before expanding."
+      }
+    },
+    {
+      "id": "10",
+      "date": "1 year ago",
+      "avatar": "enty",
+      "subject": "Final Reflections & Lessons Learned 📚",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "access startup lessons guide",
+        "link": "enty.io/lessons-learned"
+      },
+      "body": "This is the last letter about Enty path by now 📝. You asked me to give my summary of mistakes and lessons learned 🎓.\n\nLooking back at our journey 👀, I believe our decisions were dictated by circumstances and logic - we're not ashamed of them 💪, even if some seem naive in hindsight 🤷‍♂️. Of course, I wouldn't even have tried to sell an account in the Netherlands if I had known how it would turn out 🇳🇱. Of course, I would have invested in a slightly new pipeline from the very beginning 🔄. My team and I would have made the products in a different order 📊, distributed our efforts differently within the company 🏢, and we wouldn't have made some products at all, because we are building an all-in-one solution 🛠️. I would be a little less aggressive 😤, maybe spend less money on testing hypotheses across Europe 💸 if I knew what the results would be. In general, knowing the results, it's easy not to do 80% of what we did 📉. But knowing the results, I would have done pretty much the same thing ✅.\n\nThree major lessons: 📖\n\n1. Never enter the SME market without a clear distribution model 🎯. You need either a marketplace approach 🏪, hyperlocal focus on a specific niche in a specific jurisdiction 📍, or strong partnerships that bring customers 🤝. Building acquisition channels from scratch takes too long ⏰, and paid channels are prohibitively expensive for the SME segment 💸.\n\n2. Try to sell first, then build the product 💰➡️🛠️. This is challenging with self-service products but crucial ⚡. With enterprise clients, you can sell while developing 🏢, but SMEs require ready solutions 📦. I would be more aggressive in selling to partners to establish acquisition channels 🚀.\n\n3. Don't underestimate cultural differences 🌍. There is no unified Europe in practice - Germans buy from Germans 🇩🇪, French buy from French 🇫🇷. Everyone buys from Americans 🇺🇸, but Europeans rarely buy cross-country services 🚫. Estonia has limited brand recognition 🇪🇪. These specificities matter greatly when offering services rather than pure software products 💻.\n\nI still believe that true software products can be global from day one 🌍. Collaboration tools like Miro, for example, don't need to be localized extensively because everyone uses them the same way 🎨. We aspired to move in that direction but remained closer to the service side 🛠️, where local presence matters tremendously 📍.",
+      "signature": {
+        "name": "Kirill Zheleznov",
+        "title": "Co-founder",
+        "company": "enty"
+      },
+      "highlight": {
+        "title": "Learn from Mistakes, But Don't Regret Trying",
+        "description": "Even when things don't work perfectly, you learn valuable lessons! The most important things they learned: have a plan for getting customers before you start, try to sell your idea before spending lots of money building it, and remember that people prefer buying from companies they trust and understand."
       }
     }
   ]

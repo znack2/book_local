@@ -1,40 +1,126 @@
-
 {
   "emailColumn": {
-    "title": "Email Templates - Chapter 13",
+    "title": "e-rocket: Digital Tipping Vision in the MENA Market",
     "authorInfo": {
       "title": "About the Author",
-      "description": "Dr. Sarah Kim specializes in data analytics and business intelligence with focus on predictive modeling and decision support systems."
+      "description": "Michael Lvov is a co-founder of e-rocket, a digital tipping platform that attempted to expand from its home market to Dubai and the MENA region. E-rocket developed an online tipping solution for restaurants, allowing customers to tip service workers digitally, but faced significant challenges in achieving product-market fit in international markets."
     },
     "materialsUsed": [
-      "Provost, F. (2013). Data Science for Business. O'Reilly Media.",
-      "Davenport, T. (2017). Competing on Analytics. Harvard Business Press.",
-      "Kimball, R. (2013). The Data Warehouse Toolkit. Wiley.",
-      "MIT Technology Review (2023). \"AI in Business Decision Making\" - Data Science Quarterly."
+      "Mordor Intelligence. (2024). UAE Fintech Market Size. Market expected to reach USD 6.43 billion by 2030, growing at CAGR of 12.56%.",
+      "Fintechnews Middle East. (2025). UAE Fintech Report 2024. 329 active fintech companies, with 61.7% headquartered in Dubai.",
+      "Mordor Intelligence. (2024). MENA Digital Payments Market. Size estimated at USD 226.53 billion in 2024, expected to reach USD 380.86 billion by 2029.",
+      "Pew Research Center. (2025). Tipping Culture in America. 72% of U.S. adults say tipping is expected in more places than five years ago.",
+      "McKinsey. (2024). State of Consumer Digital Payments. Digital wallet in-store adoption increased from 19% in 2019 to 28% in 2024."
     ],
     "keyTakeaways": {
       "title": "Key Takeaways",
-      "description": "Data-driven decision making requires quality data, proper analysis tools, and organizational commitment to evidence-based strategies."
+      "description": "e-rocket's journey demonstrates that great ideas don't automatically translate to global success. Key lessons include: thorough market research is essential before expansion - surface-level analysis isn't enough; cultural differences in business practices can make or break expansion efforts; product-market fit in one region doesn't guarantee success elsewhere; the importance of understanding local business culture and sales cycles; having sufficient capital reserves for longer-than-expected market penetration timelines; and sometimes the right product in the wrong market at the wrong time won't succeed, regardless of execution quality."
     }
   },
   "emails": [
     {
       "id": "1",
-      "sender": "Sarah Kim",
-      "date": "2 days ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-3.png",
-      "subject": "Data Analytics Mastery: Turn Data into Competitive Advantage",
-      "preview": "Dear Data Professional, transforming raw data into actionable insights is the key to staying competitive in today's market. Discover advanced analytics techniques...",
-      "signature": {
-        "name": "Sarah Kim",
-        "title": "Data Analytics Director",
-        "company": "InsightDriven Analytics"
+      "date": "3 months ago",
+      "avatar": "e-rocket",
+      "subject": "Start point. Why Dubai?",
+      "greeting": "Hello, dear Antony.",
+      "cta": {
+        "message": "explore Dubai fintech opportunities",
+        "link": "erocket.com/dubai-expansion"
       },
-      "meta": "Template • Analytics",
-      "likes": 81,
+      "body": "Hope you're doing well. As for me, this time I'm heading to the US to Market Conference 🇺🇸. This is gonna be amazing! So many speakers are coming… My flight is delayed ✈️, so I have time to write you this letter.\n\nI remember about our agreement and I start my story of e-rocket. So, let's begin! 🚀\n\nOur product in Dubai was inspired by the story of online tipping at home 💡. It seemed like a very simple, straightforward product that wasn't too time-consuming or complex to develop, and it provided value to everyone: the client leaving the tip 💰, the waiter receiving it 👨‍🍳, and so on.\n\nIn 2021, the home market was dying 📉. There were four companies competing with each other. The only way they could compete was lowering transaction fees. At that point, these companies started being acquired by banks 🏦. We realized we were already late, and there was no room for us. There was no real reason to enter the home market anymore. Plus, it's always about capitalization. There's no real venture capital market at home — it's minimal 💸. We wanted to create a company with a high valuation internationally, with the possibility of selling it to a bank later. The basic scenario was either to build a clear, fast dividend business and earn passively from transaction fees, or to go the Net Monet route—conquering market share quickly and then selling to a strategic buyer or a large bank 🎯.\n\nWe've conducted around 20 Zoom interviews with people from Dubai 🇦🇪, the UK 🇬🇧, the US 🇺🇸, and Thailand 🇹🇭 (30-40 interviews in total) and realized that there were no real analogs to this product in the world, except at home. So, we started looking at where we could take this business model 🌍.\n\nWe've chosen launching in the MENA region, exactly in Dubai, because:\nIt has a good tax system 📊, it's a fast-growing region with a high average income and a large number of restaurants 🍽️;\nit's geographically convenient 🗺️;\nIt seemed to be easy to set up a company here and we could remotely and quickly set up operations and then expand globally from there 🌐;\nOne of my co-founders was here, walking around restaurants, and noticed they were starting to digitize—they had just begun accepting Apple Pay 📱, for example.\n\nI suppose it's enough for now. Have to go ✈️.",
+      "signature": {
+        "name": "Michael Lvov",
+        "title": "Co-founder",
+        "company": "e-rocket"
+      },
       "highlight": {
-        "title": "Advanced Analytics Framework",
-        "description": "Comprehensive data strategy with predictive modeling and real-time business intelligence dashboards"
+        "title": "When Home Market Dies, Look Global",
+        "description": "Sometimes your local market becomes too competitive or gets taken over by big companies. That's when smart entrepreneurs look for new opportunities in other countries where their idea might work better and there's less competition."
+      }
+    },
+    {
+      "id": "2",
+      "date": "3 months ago",
+      "avatar": "e-rocket",
+      "subject": "The Strategy and the Plan",
+      "greeting": "Hello, my friend.",
+      "cta": {
+        "message": "learn expansion planning",
+        "link": "erocket.com/strategy-guide"
+      },
+      "body": "I arrived in NY yesterday 🗽, visited some places. My hotel is near the conference hall 🏨. I've already signed up for participation. Now I'm chilling 😎. You asked me if there was a plan or just \"Let's see what happens and move forward\"? Let me continue the story.\n\nThere was a clear plan, of course 📊. Everything was sequential. First, open a company, come here, gather pre-sales, launch the product in parallel, and get the first transaction 💳. Then, go from zero to 20 restaurants and raise investments based on that 🍽️. So, it was a pretty transparent, clear roadmap 🗺️.\n\nHere's how it happened: we opened a company, and about a month later, we came to Dubai 🇦🇪.\nWe came initially as founders 👥.\nSo, we came for two weeks to do the paperwork 📄, and returned back to home. Then we came for a month, started selling, onboarding the first restaurant 🏪, and so on. Then we returned to home again. And the third time, we came and stayed for a year 📅. By then, we had brought in the team, had our first clients, and started building operations. And then we realized we weren't planning to return to home 🏠. So, we stayed there full-time. It was like the first two times were just to solve technical issues, and then we fully committed. You can't build a business in Dubai any other way 💯.\n\nWe conducted remote CSOs and then... We didn't even have a product yet 🚧. We were developing the product in parallel, but we walked into restaurants with a Net Monet check, asking for the operations director, showing them the check, and saying, \"What do you think?\" 💭 Everyone said, \"Great idea, we're ready to launch,\" and we walked through about 100 restaurants with the founder. But it turned out to be a lot of provocation because the Emirati market is specific—they say \"yes, yes,\" but it rarely leads to signing a contract 📝. They don't know how to say no, they like everything, but it doesn't convert into sales 📉. Out of the restaurants we visited, we only connected with about two.\n\nThe budget was all tied to investments because we received the first tranche of about half a million dollars 💰. So, we mapped out a roadmap, hired salespeople, account managers, marketers 👥, and so on, but it turned out that a lot of it didn't work. Cold calls worked for us 📞. We hired telemarketers who scheduled meetings, and then the salespeople on the ground would come in and close the deals. That's what really worked ✅.\n\nNow I end this letter, it's time to refuel ⛽. There is a nice restaurant on the ground floor 🍽️.",
+      "signature": {
+        "name": "Michael Lvov",
+        "title": "Co-founder",
+        "company": "e-rocket"
+      },
+      "highlight": {
+        "title": "Having a Plan vs. Local Reality Check",
+        "description": "It's great to have a clear step-by-step plan, but be ready for surprises! What works in one culture might not work in another. In some places, people say 'yes' to be polite, but that doesn't mean they'll actually buy your product."
+      }
+    },
+    {
+      "id": "3",
+      "date": "3 months ago",
+      "avatar": "e-rocket",
+      "subject": "The Team",
+      "greeting": "Hey there.",
+      "cta": {
+        "message": "discover hiring strategies",
+        "link": "erocket.com/team-building"
+      },
+      "body": "How are you doing? 😊\n\nYou've asked me to tell more about the team I worked with, so here it is.\n\nWell, first was an account manager who helped with onboarding restaurants 🏪—getting them onto the platform, handling communication 💬, and so on.\n\nNext, we hired a sales manager who built the sales team 📈. The sales manager, I brought over from home 🏠. The other guy was already in the UAE 🇦🇪, and we just happened to work well together 🤝.\n\nOur goal was to reach those who were ready ASAP ⚡. We started networking, looking for people on LinkedIn 💼, Facebook 📘, and Clubhouse 🎧. We reached out to whoever we could as quickly as possible. We drew a map of where we had connections 🗺️, who worked where, who had friends in the restaurant business 🍽️, and so on. Based on that, we talked to them and gathered feedback 📝.\n\nThere were no strict requirements for the staff 📋. It was more about speed ⚡, and we hired people who had the skills: good English 🗣️, a background in sales 💼, and the ability to learn quickly 🧠. Because you're starting a business in a country where, at that point, we didn't know much about hiring employees 👥, where to do it, or how to pay salaries 💰. It was a minimal experience, and then we figured it out, but it took some time ⏰.\n\nLater, our team became international 🌍—we had people from India 🇮🇳, Africa 🌍. Now it's a mixed team 🎭.\n\nWe hired based on qualifications and what they could bring to the table 💪. There was no preference for cheaper labor 💸, but Dubai is a multinational city 🏙️. We didn't look at nationality, just at their skills and ability to perform as we needed 🎯. Everyone had good spoken and written English 🗣️. That was an important criterion. It was just a given that everything had to be in English 🌐.\n\nYou know, English is a multicultural language, and I'll be speaking English at the conference, too 🎤. I didn't tell you before, but I was invited to the conference as a speaker. I'm a bit nervous ☺️: there are plenty CIS businessmen 👔.",
+      "signature": {
+        "name": "Michael Lvov",
+        "title": "Co-founder",
+        "company": "e-rocket"
+      },
+      "highlight": {
+        "title": "Speed Over Perfect Planning in Hiring",
+        "description": "When you're starting in a new country, sometimes you need to hire fast and figure things out as you go. Focus on finding people with the right skills and attitude, not perfect backgrounds. Being flexible and learning quickly is more important than having everything planned perfectly."
+      }
+    },
+    {
+      "id": "4",
+      "date": "3 months ago",
+      "avatar": "e-rocket",
+      "subject": "Smth goes wrong, a remarkable experience",
+      "greeting": "Hey, Antony,",
+      "cta": {
+        "message": "learn from startup challenges",
+        "link": "erocket.com/lessons-learned"
+      },
+      "body": "It's time to tell about some sad things that happened to us 😔. I now see it as a great experience for young founders and me, too. You asked me, when I started to understand that something wasn't working 🤔.\n\nRealization that something wasn't working probably came around the third month when we weren't growing as fast as we planned 📉, and there wasn't much momentum.\n\nThen, as a startup, you have several hypotheses 💭—maybe we're a new brand, and they don't trust us 🤷‍♂️, or maybe the penetration is low, and we need to create a culture of online tipping 💳. And so on.\n\nThere was a point where we realized things weren't moving as planned 📊, we weren't hitting KPIs, not even our internal goals 🎯.\n\nSo, we thought, \"Let's add this, test that, let's not just focus on restaurants but also beauty salons 💄. Let's not just collect tips but also reviews ⭐. Let's push reviews to Google Maps 🗺️.\" So, we started approaching it product-wise, adding various features iteratively 🔄. Anyway, around 6-7 months gone ⏰, we objectively realized that as a standalone product it wasn't going to take off 🚀. So, we started adding... We went to restaurants, asked what their pain points were 😫, what they wanted to add, and started developing other products based on that feedback 💡.\n\nFor this, I think, it's important to understand that you can't really test this remotely 🌐. Remote case studies are useless because they don't lead to contracts 📝. If I had signed contracts over calls ☎️, then it would have worked. So, we started following a model where we sell something first, then implement and sell it differently 🔄.\n\nBut it doesn't work otherwise. Because they'll say something nice, say, \"Yes, interesting,\" but when it comes to the contract, it just doesn't convert 📉. Plus, you have to understand the specifics of the Emirati market—everything takes a long time ⏰, the sales system doesn't work like at home or Europe because they don't have a culture of saying no 🙅‍♂️, they're very afraid of making reputational decisions. Dubai is a city where people come and go 🚪; it's easy to set up a company, take the money, and leave 💸. And their management doesn't think in terms of metrics 📊, where you come in, and the manager says, \"Guys, I need to increase the average check 💰. What can you offer?\" Or, \"I have a large customer base 👥, but I'm not doing anything with it. Do you have a solution?\" 💡\n\nWell, got to go now ✈️. Prepare all the stuff for my presentation 📊.",
+      "signature": {
+        "name": "Michael Lvov",
+        "title": "Co-founder",
+        "company": "e-rocket"
+      },
+      "highlight": {
+        "title": "When Things Don't Work, Pivot Fast",
+        "description": "Sometimes your original idea just won't work in a new market, and that's okay! The key is recognizing it quickly and trying different approaches. Don't be afraid to change your product based on what customers actually want, not what you think they need."
+      }
+    },
+    {
+      "id": "5",
+      "date": "3 months ago",
+      "avatar": "e-rocket",
+      "subject": "The Plan vs Reality",
+      "greeting": "Hey, Antony, that was a great conference!",
+      "cta": {
+        "message": "explore market fit strategies",
+        "link": "erocket.com/product-market-fit"
+      },
+      "body": "Really cool experience! I've got new precious contacts and ideas and so on 🤝. I have some free time before going to the conference closing ceremony 🎊, so let's finish the e-rocket story. You've asked me if the plan was based on something we did in the home market (like Nochka or others) or if it was a specific plan for Dubai 🇦🇪.\n\nI can tell that the first financial model we drew up was, of course, based on Nochka 📊, which managed to connect 13-15 thousand restaurants in three years 🍽️. Then we underestimate ourselves 😅.\n\nFirst, it turned out that Dubai and the UAE are a relatively small market 📏—about 20 thousand restaurants, compared to 200 thousand at home 🏠. And it turned out that they weren't that quick to adopt technology 📱.\n\nLater, if we jump ahead ⏭️, we didn't achieve product-market fit with the online tipping technology 💳. If there wasn't rapid market conquest 🚀, we changed the model, tested different hypotheses 🧪, reconfigured the system, like payment systems 💰, and so on. But it turned out that, as a standalone product, online tipping didn't spread as quickly in the UAE 🇦🇪.\n\nIt's not that we failed ❌, but over time, because we were the first to launch this and probably the fastest ⚡, especially when the war started ⚔️, other teams came in trying to follow the same path, but everyone failed, and no one succeeded 😔.\n\nIt's not a mistake—it just turned out to be the wrong market, wrong timing ⏰. We didn't achieve product-market fit 🎯. We had a hypothesis that, I'd say, wasn't confirmed ❌. That's the right way to put it. Because we're a startup 🚀, we set hypotheses, and this one didn't work out.\n\nProbably, the right move would have been to enter with a different product from the start 🔄. After several iterations, we arrived at what we're doing now, and we realized we should have either launched a different product or entered a different market 🌍. Right away, probably the US market 🇺🇸, because it's more capitalized 💰, has a developed venture ecosystem 🏦, and is statistically larger 📊. But if we're talking about MENA 🌍, it's a big market too—there's Saudi Arabia 🇸🇦, Egypt 🇪🇬, which also have good potential 📈.\n\nIf you have any more questions, let me know ❓.\n\nHope to see you soon! 👋",
+      "signature": {
+        "name": "Michael Lvov",
+        "title": "Co-founder",
+        "company": "e-rocket"
+      },
+      "highlight": {
+        "title": "Wrong Market, Wrong Time - That's Okay!",
+        "description": "Sometimes even a great idea just doesn't fit the market you chose, and that's not your fault! Even if other companies try the same thing and also fail, it might just mean the timing or market wasn't right. The important thing is learning from it and trying somewhere else."
       }
     }
   ]

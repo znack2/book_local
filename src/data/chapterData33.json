@@ -1,40 +1,189 @@
-
 {
   "emailColumn": {
-    "title": "Email Templates - Chapter 13",
+    "title": "SocialLinks: Building Global OSINT from Day One",
     "authorInfo": {
       "title": "About the Author",
-      "description": "Dr. Sarah Kim specializes in data analytics and business intelligence with focus on predictive modeling and decision support systems."
+      "description": "Ivan Shkvarun is the founder of SocialLinks, a leading OSINT (Open Source Intelligence) platform serving 85+ countries including S&P 500 companies and law enforcement agencies. Named a major driving force in the OSINT sphere by Frost & Sullivan 2023 report, SocialLinks provides data extraction and analysis from 500+ open sources. The company has achieved 70% year-over-year growth and expects $6.5M ARR in 2024."
     },
     "materialsUsed": [
-      "Provost, F. (2013). Data Science for Business. O'Reilly Media.",
-      "Davenport, T. (2017). Competing on Analytics. Harvard Business Press.",
-      "Kimball, R. (2013). The Data Warehouse Toolkit. Wiley.",
-      "MIT Technology Review (2023). \"AI in Business Decision Making\" - Data Science Quarterly."
+      "Custom Market Insights. (2025). Open Source Intelligence OSINT Market Size, Share & Forecast Analysis - Industry Report 2025-2034.",
+      "Market Research Future. (2024). Open Source Intelligence (OSINT) Market Research Report - Global Forecast till 2032.",
+      "Future Market Insights. (2025). Software Distribution Market Analysis & Forecast Report 2025-2035.",
+      "Exactitude Consultancy. (2025). Open Source Intelligence (OSINT) Market to Reach USD 46.12 Billion by 2034, Exhibiting 18.01% CAGR Growth.",
+      "SocialLinks. (2024). Breaking down barriers: SocialLinks' Mission to Democratize the OSINT Industry."
     ],
     "keyTakeaways": {
-      "title": "Key Takeaways",
-      "description": "Data-driven decision making requires quality data, proper analysis tools, and organizational commitment to evidence-based strategies."
+      "title": "Key Takeaways", 
+      "description": "SocialLinks' global-first approach reveals critical insights for technology companies: 1) Focus on use cases, not geography - solve universal professional problems rather than targeting specific countries, 2) Partner for instant global distribution - leverage existing platforms where your users already exist, 3) English-first can enable worldwide reach - localization isn't always necessary for initial global success, 4) B2B needs are remarkably similar globally - functional requirements transcend geographic boundaries, 5) Bootstrapping enforces valuable discipline but limits growth potential, 6) Crisis can validate resilient business models - geopolitical challenges tested their global foundation, 7) Opportunistic growth can work if you later add systematic strategy."
     }
   },
   "emails": [
     {
       "id": "1",
-      "sender": "Sarah Kim",
-      "date": "2 days ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-3.png",
-      "subject": "Data Analytics Mastery: Turn Data into Competitive Advantage",
-      "preview": "Dear Data Professional, transforming raw data into actionable insights is the key to staying competitive in today's market. Discover advanced analytics techniques...",
-      "signature": {
-        "name": "Sarah Kim",
-        "title": "Data Analytics Director",
-        "company": "InsightDriven Analytics"
+      "date": "2 years ago",
+      "avatar": "sociallinks",
+      "subject": "Building a Global Product from Day One",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "explore global OSINT solutions",
+        "link": "sociallinks.io/global-osint"
       },
-      "meta": "Template • Analytics",
-      "likes": 81,
+      "body": "I wanted to share our story about developing a global product right from inception, rather than the more common path of starting locally and then expanding internationally.\n\n🔗 SocialLinks began in 2015 as a passion project focused on open data intelligence. Unlike many companies that deliberately target international markets after establishing themselves domestically, our experience was somewhat unique - we never had any particular focus on the home market at all, despite being founded there.\n\nOur journey actually started much earlier, around 2004, when I began exploring this field as a hobby. My interest was piqued when social networks emerged and it became clear that platforms like 📱 VKontakte (Facebook equivalent) contained more data than many intelligence agencies had in their closed databases. As 📘 Facebook and other networks expanded globally, we recognized the immense potential of working with this open data.\n\nWhat's fascinating is that we experienced a form of \"accidental internationalization.\" We created a unique product that worked with open data intelligence, and once we made it available through the right channels, customers started coming to us from all over the 🌍 world - regardless of our location or origin.\n\nTo illustrate how geography-agnostic our growth was: by 2018, the 🇺🇸 US tax service was paying $20,000 annually for a subscription to our service. They were fully aware we were IT specialists creating innovative technology, and it didn't matter - they valued our product's unique capabilities.\n\nThe lesson here is powerful: when you create something genuinely unique and valuable, your country of origin becomes far less important than the quality of your solution.",
+      "signature": {
+        "name": "Ivan Shkvarun",
+        "title": "Founder & CEO",
+        "company": "SocialLinks"
+      },
       "highlight": {
-        "title": "Advanced Analytics Framework",
-        "description": "Comprehensive data strategy with predictive modeling and real-time business intelligence dashboards"
+        "title": "Value Beats Geography",
+        "description": "SocialLinks discovered that when you create something truly special and useful, it doesn't matter where you're from. It's like having the best recipe for cookies - people will want them whether you're from New York or Tokyo. If your product solves a real problem really well, customers around the world will find you and pay for it, no matter what country you started in."
+      }
+    },
+    {
+      "id": "2",
+      "date": "2 years ago",
+      "avatar": "sociallinks",
+      "subject": "Finding the Right Distribution Channel",
+      "greeting": "Hi there,",
+      "cta": {
+        "message": "discover partnership strategies",
+        "link": "sociallinks.io/partnerships"
+      },
+      "body": "Your question about our initial distribution strategy touches on what I believe was one of our most critical early decisions.\n\nWhen we first developed our functionality in 2015, we faced a common startup dilemma: building our own user interface would be expensive, and we were bootstrapping the entire operation from our personal savings. Rather than burning through cash on a custom UI, we made a strategic decision to leverage an existing platform.\n\nWe identified 🔗 Maltego, one of the leaders in the investigative field, as an ideal partner. They had an internal data hub - essentially a marketplace for data sources - where we could list our service. This decision proved transformative. Our first customer, a 🇪🇺 European police officer, found us through this marketplace and paid us $100 - our very first revenue.\n\nThe beauty of this approach was that it immediately gave us 🌍 global distribution with zero marketing spend. We didn't need to worry about regions or countries - we simply offered our solution through a platform that already had worldwide reach. This partnership continued to be our primary source of customers for several years.\n\nThis experience taught me that for many companies, especially those with limited resources, entering international markets through the right partnership can be incredibly effective. This doesn't just mean finding resellers - it means integrating with platforms where your target users already exist. Today's equivalent might be building on 💬 Slack, 📊 HubSpot, or various cloud marketplaces where customers can discover your solution regardless of where you're based.\n\nOf course, there's risk in being completely dependent on a single channel. While we initially received 100% of our leads through this partner's marketplace (we didn't even have our own website until later!), we gradually reduced that dependency. Today, only about 5% of our leads come through this channel, as we've developed multiple marketing approaches of our own.",
+      "signature": {
+        "name": "Ivan Shkvarun",
+        "title": "Founder & CEO", 
+        "company": "SocialLinks"
+      },
+      "highlight": {
+        "title": "Smart Partnerships Give Instant Global Reach",
+        "description": "Instead of building everything themselves, SocialLinks found a smart shortcut. They partnered with Maltego, which was like setting up a lemonade stand inside a busy shopping mall instead of on an empty street corner. This partnership instantly gave them customers from around the world without spending money on advertising, showing that sometimes the fastest way to go global is to join someone who's already there."
+      }
+    },
+    {
+      "id": "3",
+      "date": "1 year ago",
+      "avatar": "sociallinks",
+      "subject": "Focus on Use Cases, Not Geography",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "learn use-case strategy",
+        "link": "sociallinks.io/use-cases"
+      },
+      "body": "I wanted to address your question about our targeting strategy, which differed significantly from conventional market entry approaches.\n\nWhile many companies expand internationally by focusing on specific countries or regions, we took a completely different path. Instead of targeting markets geographically, we oriented our entire strategy around use cases and roles.\n\nOur hypothesis was simple but powerful: if a professional role exists with specific use cases and tasks, and if the number of these professionals worldwide is substantial, then we should focus on solving their problems - regardless of which country they work in or whether they're in government or private sector.\n\nThis approach was partly born of necessity - we simply didn't have the resources to pursue multiple geographic markets simultaneously. But it proved remarkably effective. We identified specific roles (like procurement specialists who need to conduct company due diligence) and focused on solving their pain points. The beauty of this approach is that a procurement professional's core needs are remarkably similar whether they work for 📱 Samsung, a 🏨 hotel chain, or a government agency in 🇮🇩 Indonesia or 🇺🇸 America.\n\nThe results speak for themselves: today we have customers in more than 85 countries. This 🌍 global footprint wasn't achieved through carefully planned regional expansion, but through addressing universal professional needs.\n\nLooking at our current customer base, approximately 60% comes from B2B and 40% from B2G (government). However, in revenue terms, B2G represents 70-80% of our business because government contracts tend to be larger. This distribution wasn't strategically planned - it emerged organically as we followed customer demand.\n\nWhile we're now beginning to develop more segmented approaches for specific industries and regions (particularly focusing on B2B and the 🇺🇸 American market for our next growth phase), the use-case approach allowed us to build a global business with minimal resources in our early years.\n\nFor startups with limited resources, this approach offers a powerful alternative to conventional geographic expansion. By solving a specific problem extremely well, you can attract customers from anywhere in the 🌍 world.",
+      "signature": {
+        "name": "Ivan Shkvarun",
+        "title": "Founder & CEO",
+        "company": "SocialLinks"
+      },
+      "highlight": {
+        "title": "Solve Jobs, Not Countries",
+        "description": "SocialLinks learned that people doing the same job have similar problems everywhere. A police detective in Germany and one in Japan both need to investigate cases, even if they speak different languages. Instead of trying to understand every country's differences, SocialLinks focused on understanding what investigators need to do their jobs better. This approach worked because job problems are more similar than country cultures."
+      }
+    },
+    {
+      "id": "4",
+      "date": "1 year ago",
+      "avatar": "sociallinks",
+      "subject": "From Hobby to Growth Company",
+      "greeting": "Greetings!",
+      "cta": {
+        "message": "see our growth journey",
+        "link": "sociallinks.io/growth-story"
+      },
+      "body": "Regarding your question about our transition from side project to serious business - this evolution was neither linear nor entirely planned.\n\n🔗 SocialLinks began in 2015 as a hobby project. My partner and I were both employed full-time elsewhere, and we funded development from our regular salaries. We had some early success, with customers finding us through our partner's marketplace, but we treated it rather casually for the first three years.\n\nA personal tragedy became the catalyst for change. In 2018, my original partner suffered a fatal blood clot. This shocking event forced my remaining partner Andrei and I to make a decision: either commit seriously to growing this business or let it continue as a side project indefinitely.\n\nWe chose to go all-in. Both of us had experience in large multinational companies - I had been responsible for working with the financial sector across multiple countries in my previous role. We divided responsibilities clearly: Andrei would focus on technology and product, while I would handle sales, marketing, and PR, which had been my passion for over 20 years.\n\nFrom 2019 onward, we began building a proper company with structured approaches to market segments, sales channels, and growth strategy. The results have been impressive: we've averaged 70% year-over-year growth and expect to finish this year with approximately $6.5 million in ARR.\n\nThis growth hasn't been without challenges. We raised our first investment round in November 2022, securing $4 million. Like many startups, we increased spending based on projected growth that didn't materialize as quickly as expected. By December 2023 my partner decided to leave the company. Instead of giving up, I spent the next year rebuilding the company. This marked the third time 🔗 SocialLinks nearly collapsed, but my commitment to building a billion-dollar platform kept me going.\n\nThe journey from hobby to growth company required us to formalize many aspects of our operation. We started with just direct sales for the first few years. Eventually, I realized we needed proper marketing to scale further, which led to several iterations before we found effective approaches. More recently, we've launched an affiliate program and tested over 100 marketing hypotheses, ultimately identifying 3-5 strategies that continue to perform well.\n\nOur growth required operational changes too. I vividly remember the moment when inbound inquiries became so numerous that we couldn't respond within a day - that's when we hired our first employee, whose sole job was handling these requests. She's still with us today as a director.",
+      "signature": {
+        "name": "Ivan Shkvarun",
+        "title": "Founder & CEO",
+        "company": "SocialLinks"
+      },
+      "highlight": {
+        "title": "Sometimes Sad Events Lead to Big Growth",
+        "description": "SocialLinks shows that companies sometimes need a big push to grow from a small hobby into a real business. When Ivan's partner tragically died, it forced him to make a serious choice: either commit fully to the company or keep it as just a side project. This sad event became the motivation to build something much bigger, proving that sometimes difficult moments can lead to the most important decisions in business."
+      }
+    },
+    {
+      "id": "5",
+      "date": "1 year ago",
+      "avatar": "sociallinks",
+      "subject": "Finding the Right Investors",
+      "greeting": "Hello there!",
+      "cta": {
+        "message": "learn about strategic investment",
+        "link": "sociallinks.io/investment"
+      },
+      "body": "I wanted to address your question about our investment journey, which has been crucial to our international growth.\n\nWe bootstrapped 🔗 SocialLinks entirely from our personal savings for the first several years. This forced discipline and creativity, but it also limited our growth potential. By 2021, we began exploring investment options to accelerate our expansion.\n\nInterestingly, investors approached us rather than the other way around. These conversations pushed us to develop more structured thinking about market sizes and growth strategies. Until then, we had been largely opportunistic in our approach, following customer demand rather than pursuing predefined market segments.\n\nOur first investment round closed in November 2022, when we raised $4 million.\n\nThe investors who ultimately backed us brought more than just capital. Our lead investors - including the founders of 🚗 Indriver (the ride-sharing app) - had a specific mission to support local entrepreneurs in the international market. They provided valuable guidance on scaling globally, asking the right strategic questions to help us think bigger.\n\nThis mentorship has been invaluable in helping us transition from an opportunistic growth model to more systematic market development. Currently, I'm focusing on strengthening our presence in the B2B enterprise space and building a more deliberate strategy for the 🇺🇸 American market.\n\nOne piece of advice I'd share with founders seeking investment for international expansion: look for investors who bring strategic knowledge of global markets along with their capital. The right investors don't just ask about your current traction; they help you think through the challenging questions about how to reach $100 million in revenue and beyond.",
+      "signature": {
+        "name": "Ivan Shkvarun",
+        "title": "Founder & CEO",
+        "company": "SocialLinks"
+      },
+      "highlight": {
+        "title": "Good Investors Teach, Not Just Pay",
+        "description": "SocialLinks learned that the best investors are like good teachers, not just people who give money. When investors from Indriver (a successful ride-sharing company) invested in SocialLinks, they didn't just write a check and leave. They helped Ivan think bigger and ask better questions about how to grow the company to $100 million. The lesson is that smart money comes with smart advice."
+      }
+    },
+    {
+      "id": "6",
+      "date": "6 months ago",
+      "avatar": "sociallinks",
+      "subject": "Technical and Cultural Challenges",
+      "greeting": "Hi!",
+      "cta": {
+        "message": "explore global product design",
+        "link": "sociallinks.io/global-product"
+      },
+      "body": "You asked about the technical and cultural aspects of building a global product from day one - these elements were critical to our success.\n\nFrom a technical standpoint, we made certain decisions that facilitated international adoption. Our interface was in 🇬🇧 English from the beginning - this wasn't even a conscious choice that required discussion. In the development world, English is the default language. This immediate global orientation made it easy for customers anywhere to use our product.\n\nWe're still primarily English-only today, though we're beginning to consider 🇪🇸 Spanish localization. However, I firmly believe that localization to other languages is not among the top priorities for entering international markets. A solid English product can gain global traction if it solves the right problems.\n\nThe cultural aspect of our journey is equally important. We built 🔗 SocialLinks as a genuinely global product without any national or regional orientation.\n\nThis distinction became increasingly important over time. When the geopolitical situation changed dramatically in 2022, many local companies faced significant challenges in international markets. However, because we had built a global product and company culture from the start, with customers in 85+ countries and no particular focus on the home market, we were able to navigate this transition more effectively than companies that had to suddenly pivot from a domestic to an international orientation.\n\nOne key insight from our experience: B2B and B2G customers are remarkably similar across countries. Government agencies and businesses worldwide face similar challenges and have similar functional requirements. By focusing on solving universal problems rather than country-specific issues, we created a product that resonates globally.\n\nCurrently, we're considering our next phase of growth, which will include more deliberate focus on specific geographic markets. However, the foundation of our international success was built on creating a universally valuable product rather than tailoring our solution to specific regions.",
+      "signature": {
+        "name": "Ivan Shkvarun",
+        "title": "Founder & CEO",
+        "company": "SocialLinks"
+      },
+      "highlight": {
+        "title": "English First Can Work Everywhere",
+        "description": "SocialLinks discovered that starting with English was like having a universal key that opens doors worldwide. Instead of trying to speak every language perfectly, they focused on making their product so useful that people were willing to use it in English. This shows that sometimes it's better to be really good at solving problems in one language than okay at solving problems in many languages."
+      }
+    },
+    {
+      "id": "7",
+      "date": "6 months ago",
+      "avatar": "sociallinks",
+      "subject": "Scaling Marketing Beyond the Initial Channel",
+      "greeting": "Greetings!",
+      "cta": {
+        "message": "discover marketing evolution",
+        "link": "sociallinks.io/marketing-strategy"
+      },
+      "body": "Your question about scaling our marketing beyond our initial partnership channel touches on a crucial aspect of our growth journey.\n\nAs I mentioned earlier, we started with 100% of our leads coming through the 🔗 Maltego data hub. This partnership was invaluable in our early days - it gave us immediate 🌍 global distribution without requiring significant marketing investment. However, relying entirely on a single channel created obvious risks.\n\nOur first marketing expansion was incredibly simple: we created a basic landing page using 🌐 WordPress, with just a brief description of our service and a \"Leave an application\" button that connected to email. This minimal approach proved surprisingly effective - as people from various communities discovered us through word of mouth and our partner marketplace, they began visiting our website and sending inquiries.\n\nIn fact, the volume of inquiries quickly became overwhelming. We reached the point where we physically couldn't respond to all requests within 24 hours, which led to our first hire - someone dedicated solely to processing these inquiries. It's a wonderful problem to have when you need to hire someone just to handle inbound interest!\n\nAs we grew, we developed a more sophisticated marketing approach:\n\n1. We launched our own standalone product, reducing dependency on our partner's platform\n2. We tested over 100 different marketing hypotheses, ultimately identifying 3-5 approaches that consistently performed well\n3. We established an affiliate program about three years ago, creating additional distribution channels\n4. We began developing more targeted approaches for specific industry segments\n\nThe evolution from 100% dependency on a single partner to a diverse marketing mix took several years. Today, only about 5% of our leads come through our original partner channel. This diversification has been crucial to our resilience and continued growth.\n\nFor companies considering international expansion, I'd recommend a balanced approach: leveraging partnerships for initial distribution can be incredibly efficient, but you should simultaneously build your own marketing channels to reduce dependency over time.",
+      "signature": {
+        "name": "Ivan Shkvarun",
+        "title": "Founder & CEO",
+        "company": "SocialLinks"
+      },
+      "highlight": {
+        "title": "Don't Put All Your Eggs in One Basket",
+        "description": "SocialLinks learned an important lesson about not depending too much on one source of customers. They started getting 100% of their customers through one partner, which was like getting all your friends from one person. While this worked at first, they realized it was risky. So they slowly built other ways to find customers, testing over 100 different approaches until they found a few that worked well. Now they're much safer because they don't depend on just one source."
+      }
+    },
+    {
+      "id": "8",
+      "date": "3 months ago",
+      "avatar": "sociallinks",
+      "subject": "Lessons for Entrepreneurs",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "start your global journey",
+        "link": "sociallinks.io/get-started"
+      },
+      "body": "As we wrap up this overview of our international journey, I wanted to share some key lessons that might benefit other entrepreneurs considering global expansion.\n\nFirst, building a global product doesn't necessarily require a traditional country-by-country approach. By focusing on solving universal problems for specific professional roles, you can attract customers worldwide without needing a dedicated strategy for each geography. This approach is particularly valuable for resource-constrained startups.\n\nSecond, partnerships can dramatically accelerate your path to global markets. In our case, integrating with an established platform immediately gave us worldwide distribution with minimal marketing investment. Look for platforms where your target users already exist - whether that's 💬 Slack, 📊 HubSpot, ☁️ AWS Marketplace, or industry-specific solutions.\n\nThird, start with 🇬🇧 English. While localization may eventually become important, an English-only product can achieve significant global adoption if it delivers unique value. In our experience, English was sufficient to build a customer base across 85+ countries.\n\nFourth, be opportunistic but strategic. Our early approach followed customer demand without forcing predetermined geographic priorities. This allowed us to discover where our product had the strongest market fit without wasting resources on markets that weren't ready. As you grow, you can gradually shift toward more deliberate market development.\n\nFifth, understand that B2B and B2G needs are remarkably similar worldwide. A procurement specialist, security officer, or financial analyst has similar core requirements whether they're in 🇺🇸 America, 🇪🇺 Europe, or 🌏 Asia. This universality creates opportunities for global solutions.\n\nFinally, resilience is essential. 🔗 SocialLinks nearly failed three times throughout our journey. What kept us going was a combination of passion for our mission and conviction in the massive potential of our platform. Building a global company is inevitably challenging - the ability to persist through setbacks ultimately determines success.\n\nWe're now preparing for our next growth phase, with a more deliberate focus on the 🇺🇸 American market and enterprise B2B customers. But the foundation of our success was built on creating universally valuable technology that transcended geographic boundaries from day one.",
+      "signature": {
+        "name": "Ivan Shkvarun",
+        "title": "Founder & CEO",
+        "company": "SocialLinks"
+      },
+      "highlight": {
+        "title": "Never Give Up on Big Dreams",
+        "description": "SocialLinks' most important lesson is about persistence. Ivan's company almost failed three times, which is like falling off your bike while learning to ride. But instead of giving up, he kept trying because he believed his product could help people all over the world. The lesson is that building a global company is hard and you'll face many problems, but if you keep working on something truly valuable and never give up, you can eventually succeed beyond your wildest dreams."
       }
     }
   ]

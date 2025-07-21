@@ -13,9 +13,11 @@ interface HeaderProps {
   children?: React.ReactNode;
   showBackButton?: boolean;
   showLogoutInHeader?: boolean;
+  withoutLogo?: boolean;
+  isMobile?: boolean;
 }
 
-const Header = ({ currentChapterId, title, subtitle, children, showBackButton = false, showLogoutInHeader = true }: HeaderProps) => {
+const Header = ({ currentChapterId, title, subtitle, children, showBackButton = false, showLogoutInHeader = true, isMobile }: HeaderProps) => {
   const location = useLocation();
   const isCanvasPage = location.pathname === '/canvas';
   const { signOut, user } = useAuth();
@@ -35,23 +37,27 @@ const Header = ({ currentChapterId, title, subtitle, children, showBackButton = 
       
       <div className="flex items-center gap-4 relative">
         {showBackButton && (
-          <Link to="/">
+          <Link to="/" style={{
+            marginLeft: isMobile ? '40px' : undefined,
+            marginRight: isMobile ? '-50px' : undefined
+          }}>
             <Button variant="outline" size="sm" className="bg-white/90 backdrop-blur-sm flex items-center gap-2">
               <ArrowLeft size={16} />
               <span className="hidden sm:inline">Back to Gallery</span>
             </Button>
           </Link>
         )}
-        <div className="w-9 h-9 rounded-lg overflow-hidden border-2" style={{ borderColor: 'rgba(139, 125, 107, 0.2)' }}>
+        {!isMobile && <div className="w-9 h-9 rounded-lg overflow-hidden border-2" style={{ borderColor: 'rgba(139, 125, 107, 0.2)' }}>
            <img src={currentChapterId == 0 ? 'favicon.svg' : `https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/${title}.png`} alt="Chapter image" className="w-full h-full object-cover" />
-        </div>
+        </div>}
         <div className="flex items-center gap-2">
           <div>
             <h1 style={{ 
               color: '#5a4f3f', 
               fontSize: window.innerWidth < 768 ? '18px' : '24px', 
               fontWeight: '600', 
-              marginBottom: '2px' 
+              marginBottom: '2px', 
+              marginLeft: isMobile ? '50px' : undefined
             }}>
               {currentChapterId == 0 ? title : `Chapter ${currentChapterId} - ${title}`}
             </h1>

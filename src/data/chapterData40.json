@@ -1,40 +1,168 @@
-
 {
   "emailColumn": {
-    "title": "Email Templates - Chapter 13",
+    "title": "indrive: From Yakutsk to Global Markets",
     "authorInfo": {
       "title": "About the Author",
-      "description": "Dr. Sarah Kim specializes in data analytics and business intelligence with focus on predictive modeling and decision support systems."
+      "description": "Stanislav Troskin is a seasoned business development professional who joined indrive as the fifth team member in 2014. With over a decade of experience scaling the company from a local Yakutsk solution to a global platform operating in 888 cities across 48 countries, he currently oversees indrive's courier business vertical across Southeast Asia, South Asia, and Africa. His expertise spans international expansion, team building, and cross-cultural market adaptation."
     },
     "materialsUsed": [
-      "Provost, F. (2013). Data Science for Business. O'Reilly Media.",
-      "Davenport, T. (2017). Competing on Analytics. Harvard Business Press.",
-      "Kimball, R. (2013). The Data Warehouse Toolkit. Wiley.",
-      "MIT Technology Review (2023). \"AI in Business Decision Making\" - Data Science Quarterly."
+      "Business Research Company. (2024). Ride Sharing Market Report 2025 - Market Drivers And Trends. Global market size expected to reach $341.1 billion by 2029.",
+      "Straits Research. (2024). Ride Sharing Market Size, Share & Growth Report. Market valued at $69.09 billion in 2024, expected to reach $918.15 billion by 2033.",
+      "indrive Company Profile. (2024). Operations in 888 cities in 48 countries with mission to impact one billion people by 2030.",
+      "Latin Trade. (2025). How indrive Is Changing the Ride-Hailing Market. Regional focus on Brazil, Mexico, Peru, and Colombia.",
+      "Fortune Business Insights. (2024). Ride Sharing Market Analysis. North American market size stood at $48.02 billion in 2023."
     ],
     "keyTakeaways": {
       "title": "Key Takeaways",
-      "description": "Data-driven decision making requires quality data, proper analysis tools, and organizational commitment to evidence-based strategies."
+      "description": "This interview reveals the complete playbook for scaling a tech startup from local problem-solving to global operations. The most valuable insights include: starting with genuine local pain points creates authentic product-market fit, systematic market testing prevents costly expansion mistakes, building multicultural teams combines speed with local wisdom, and maintaining company culture while adapting to local contexts is crucial for sustainable growth. The journey from a 300-ruble taxi problem in Yakutsk to a billion-dollar global platform shows that successful international expansion requires both scientific methodology and cultural sensitivity."
     }
   },
   "emails": [
     {
       "id": "1",
-      "sender": "Sarah Kim",
-      "date": "2 days ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-3.png",
-      "subject": "Data Analytics Mastery: Turn Data into Competitive Advantage",
-      "preview": "Dear Data Professional, transforming raw data into actionable insights is the key to staying competitive in today's market. Discover advanced analytics techniques...",
-      "signature": {
-        "name": "Sarah Kim",
-        "title": "Data Analytics Director",
-        "company": "InsightDriven Analytics"
+      "date": "2 years ago",
+      "avatar": "indrive",
+      "subject": "From Local Solution to Global Company",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "explore global expansion strategies",
+        "link": "https://indrive.com"
       },
-      "meta": "Template • Analytics",
-      "likes": 81,
+      "body": "You asked about how [indrive](https://indrive.com) evolved from a local initiative to a global company - our journey began with a uniquely personal response to a market challenge. 🌍\n\nIn 2013 indrive was born in Yakutsk- one of the coldest inhabited places on Earth. ❄️ I joined as the fifth or sixth team member in early 2014, so I've been fortunate to witness almost our entire growth story. Our origin was sparked by a very specific local problem: during winter, all the offline taxi services in Yakutsk collapsed and doubled their minimum trip fare (from 150 to 300 rubles). This price increase was particularly painful for local residents dealing with extreme weather conditions.\n\nAt that time, VKontakte (Facebook equivalent) was experiencing rapid growth. 📱 Some enterprising locals created a VKontakte group called \"Community of Invisible Drivers\" where car owners could offer rides to people without vehicles for just 100 rubles. This grassroots solution quickly gained popularity and was eventually transformed into a mobile application in 2014. That's when we began scaling beyond our hometown.\n\nWhat started as a local solution to a specific problem in a remote Siberian city has since evolved into a global platform. 🚀 While we were initially a small regional company, by 2018 we had already transformed into an international operation with significant geographic coverage. Today, we operate across Latin America, the Middle East, Africa, Southeast Asia, and beyond.\n\nThis evolution required us to adapt our approach as we grew. At the beginning, we didn't even use the term \"business development\" - we called ourselves \"marketers.\" 💼 However, our fundamental mission has remained consistent: creating long-term value for our organization through customers, markets, and relationships. As Scott Pollock defined it in his book \"What is Business Development,\" we've always been focused on creating sustainable growth by building long-term value, even if our titles and specific functions have evolved over time.",
+      "signature": {
+        "name": "Stanislav Troskin",
+        "title": "Business Development Professional",
+        "company": "indrive"
+      },
       "highlight": {
-        "title": "Advanced Analytics Framework",
-        "description": "Comprehensive data strategy with predictive modeling and real-time business intelligence dashboards"
+        "title": "Local Problems Create Global Solutions",
+        "description": "The best businesses start by solving real problems for real people. indrive didn't begin with a grand plan to change the world - it started when taxi prices doubled in one cold city. This shows that successful companies often begin small, focus on one problem, and grow naturally from there. When you solve a genuine problem well, people notice and want to help you spread the solution."
+      }
+    },
+    {
+      "id": "2",
+      "date": "2 years ago",
+      "avatar": "indrive",
+      "subject": "The Evolution of Business Development Skills",
+      "greeting": "Hi there,",
+      "cta": {
+        "message": "learn about skill development",
+        "link": "https://indrive.com"
+      },
+      "body": "I wanted to address your question about how the skillset for business development evolves as a company grows from startup to global operation. 📈\n\nIn my experience at [indrive](https://indrive.com), the required competencies have expanded significantly as our company scaled. During the earliest stages when we were small with no subordinates, the skillset was primarily focused on marketing fundamentals and basic sales skills. We were essentially promoting our product in the market - telling people about what we had created and trying to grow our user base. 🎯\n\nAs we grew, we gradually built what I call a \"layer cake\" of competencies. 🎂 We realized we needed to refine the product, adjust our positioning, define our target audience more precisely, and develop more sophisticated growth strategies. This evolution wasn't sudden - it happened iteratively as we learned and expanded.\n\nToday, at our current scale, I believe a business development professional needs four core competencies:\n\n1. Analytics - The ability to process data, identifying trends, and make evidence-based decisions 📊\n2. Marketing - Understanding how to position and promote products in different markets 🎪\n3. Sales - Converting interest into actual business relationships 🤝\n4. Management - Leading teams and coordinating complex initiatives across borders 👥\n\nThis \"gentleman's kit\" of skills is essential for effective business development at a global company. However, the emphasis on each area may shift depending on the company's strategy. If the focus is on international expansion, certain skills become more important than if you're concentrating on deepening penetration in existing markets.\n\nIt's important to note that business development doesn't typically determine company strategy, but rather implements it. 🎭 A business development professional can certainly participate in strategy discussions (particularly at the C-level), but our primary role is execution. This is why the skillset must adapt to support whatever strategic direction the company has chosen.\n\nAs [indrive](https://indrive.com) has expanded globally, I've found my role evolving from hands-on execution to more strategic oversight. Currently, I'm responsible for our courier business vertical, but I oversee all regions of our presence including Southeast Asia, South Asia, and Africa - a scope that would have been unimaginable in our early days. 🌏",
+      "signature": {
+        "name": "Stanislav Troskin",
+        "title": "Business Development Professional",
+        "company": "indrive"
+      },
+      "highlight": {
+        "title": "Skills Must Grow Like Building Blocks",
+        "description": "As companies get bigger, the skills you need change too. It's like learning to ride a bike, then a motorcycle, then flying a plane - each level needs the basics from before plus new abilities. Start with simple marketing and sales, then add data analysis and team management. The key is to keep learning new skills as your company grows, just like adding layers to a cake."
+      }
+    },
+    {
+      "id": "3",
+      "date": "2 years ago",
+      "avatar": "indrive",
+      "subject": "Building International Teams",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "discover team building strategies",
+        "link": "https://indrive.com"
+      },
+      "body": "You inquired about our approach to building teams for international expansion - this has been a critical element of our growth strategy. 🌟\n\nWhen we began expanding beyond our home market, we developed a standardized approach that has proven quite effective. We start by sending a core team member (typically from our headquarters) to establish operations in the new market. 🏢 This person then recruits a small initial team of local employees. Over time, this grows into a full-fledged local operation that can function independently.\n\nThis model allows us to maintain consistency in our approach while leveraging local expertise. The initial period requires significant hands-on involvement from our core team, but as the local operation matures, it can increasingly operate with greater autonomy. 🎯\n\nWe've found that hiring local business development managers is crucial for long-term success. While we initially believed we could manage everything from our headquarters, we quickly realized that each market has specific contextual knowledge that can't be replicated remotely. 🗺️ There's always local context, understanding of local specifics, and nuances that someone from outside simply won't grasp without spending significant time immersed in the market.\n\nOur approach to regional team structure is quite systematic. We organize our business development teams by macro-regions, with each region having its own dedicated team. 🌍 Despite operating across diverse markets, we maintain consistent job descriptions and skillset requirements regardless of location. The core competencies needed for business development remain largely the same across countries, though the application of these skills may need to be adapted to local conditions.\n\nWhen I look at the differences between talents from various regions, I've observed that professionals from the CIS countries tend to be exceptionally productive and action-oriented. ⚡ However, speed isn't always the most important factor - sometimes understanding the local context and moving in the right direction is more valuable than simply moving quickly. This is why multicultural teams are so effective: they combine the strengths of different approaches and provide checks and balances that ensure we're not just moving fast, but moving correctly.\n\nFor companies planning international expansion, I recommend starting with a strong leader from your core team who deeply understands your company culture, and then quickly building a local team that can navigate the specific market dynamics. 🚀 This balanced approach gives you the best chance of successfully adapting your model to new environments.",
+      "signature": {
+        "name": "Stanislav Troskin",
+        "title": "Business Development Professional",
+        "company": "indrive"
+      },
+      "highlight": {
+        "title": "Mix Global Standards with Local Knowledge",
+        "description": "Building international teams is like cooking - you need the same basic recipe everywhere, but different local ingredients make it taste right in each place. Send someone from your main team to start, then hire local people who understand their market. The magic happens when fast-moving headquarters people work with local experts who know the right direction to move in."
+      }
+    },
+    {
+      "id": "4",
+      "date": "2 years ago",
+      "avatar": "indrive",
+      "subject": "Market Selection and Entry Strategy",
+      "greeting": "Greetings!",
+      "cta": {
+        "message": "explore market entry strategies",
+        "link": "https://indrive.com"
+      },
+      "body": "I wanted to address your question about how we select new markets and structure our entry strategy - this process has evolved considerably as we've gained experience. 🎯\n\nOur expansion beyond CIS began in 2018, starting with Latin America and then gradually moving eastward. 🌎 While it may appear that we simultaneously entered numerous markets, our approach was actually quite methodical. We had limited resources - financial, material, and human - and couldn't afford to spread ourselves too thin.\n\nWe developed a standardized, step-by-step process for evaluating and entering new markets. Here's how it typically works:\n\nFirst, we conduct extensive market research (\"custdev\" or customer development) to identify promising regions. 📊 We analyze multiple factors including market size, competitive landscape, and regulatory environment. Based on this analysis, we create a shortlist of potential markets that align with our strategic objectives.\n\nFor each shortlisted market, we conduct additional testing to validate our assumptions and refine our approach. ⚡ Speed is crucial at this stage - we try to move quickly to capitalize on opportunities before competitors. However, thoroughness is equally important. We never rush into a market without proper assessment, regardless of how similar it might seem to markets where we've already succeeded.\n\nWe learned this lesson the hard way with our expansion into Myanmar. 🇲🇲 This was our first attempt to apply methodologies that had worked well in the CIS to Southeast Asia, and we encountered significant challenges. We had overestimated various factors including internet penetration, smartphone adoption, and consumer readiness for our model. Despite seeing many traditional taxis, rickshaws, and transportation options on the streets, we found that our technology-based approach didn't translate effectively. Our standard methods for balancing supply (drivers) and demand (riders) didn't function as expected. We couldn't even establish a stable driver base - something that had worked smoothly in previous markets.\n\nThis experience taught us to be much more rigorous in our market assessment. 📝 Now, when evaluating countries like Brazil (which has many distinct regions and cultural differences), we take a comprehensive approach:\n\n1. We conduct a north-south tour to evaluate multiple cities using consistent methodology 🗺️\n2. We run digital tests across all important cities to measure response to our basic creative 💻\n3. We examine both cultural and economic differences between regions 🌍\n\nOur company's DNA includes a commitment to the scientific approach - we perform the same tests everywhere so results are representative. 🔬 Even if initial results seem to strongly indicate success or failure, we complete the full testing period to ensure we have reliable data.\n\nFor founders considering international expansion, I strongly recommend visiting potential markets in person. 🛫 Don't assume that what works in one country will automatically work in another, even if they seem similar. The differences in consumer behavior, infrastructure, and competitive landscape can be subtle but significant.",
+      "signature": {
+        "name": "Stanislav Troskin",
+        "title": "Business Development Professional",
+        "company": "indrive"
+      },
+      "highlight": {
+        "title": "Test Everything Before You Invest Everything",
+        "description": "Expanding to new countries is like trying new foods - what looks similar might taste completely different. Always test small before going big. Visit the place yourself, talk to real people, and run small experiments. Even if two countries look the same on paper, people might use technology differently or have different needs. Smart companies learn from their mistakes and create better testing methods."
+      }
+    },
+    {
+      "id": "5",
+      "date": "2 years ago",
+      "avatar": "indrive",
+      "subject": "Cultural Adaptation across Markets",
+      "greeting": "Hello there!",
+      "cta": {
+        "message": "learn about cultural adaptation",
+        "link": "https://indrive.com"
+      },
+      "body": "Your question about adapting to cultural differences across our diverse markets touches on one of the most fascinating aspects of international expansion. 🌍\n\nDuring my time with [indrive](https://indrive.com), I've worked extensively across the CIS, Latin America (including Mexico, Peru, and Brazil), and other regions. Each market has its own distinct cultural characteristics that influence how business is conducted and how our service is perceived.\n\nOne of the most noticeable differences I've observed is between Northern/Western European and Southern European business cultures. ❄️☀️ In Northern Europe, effective communication tends to be characterized by clarity, efficiency, punctuality, and minimal emotional expression. The focus is very direct and functional. In Southern Europe, there's a much stronger emphasis on emotional engagement and personal connection. Small talk, questions about personal life, and time devoted to establishing rapport are essential parts of building trust.\n\nIn Brazil, where I spent three years, I encountered a work culture quite different from what I was accustomed to in Yakutsk. 🇧🇷 The Brazilian approach to work-life balance and legal protections for employees create a different dynamic than what we see in many other markets. For instance, Brazilians are more likely to clearly define work boundaries and may pursue legal action if they feel their employment terms have been breached. This stands in contrast to the work culture in CIS, where people might be more flexible about working weekends or adjusting their schedules.\n\nI've found that management styles can be adapted across cultures with proper commitment and consistency. 👥 When entering a new market, it's essential to spend significant time there, working closely with local staff to establish expectations. Any management approach can be implemented if you demonstrate it personally and make it clear that these are your company's standard practices.\n\nOne interesting observation from our experience: teams consisting of people from the same cultural background often move faster, particularly in the initial phases of market entry. ⚡ However, multicultural teams tend to provide more creativity and better directional guidance. Professionals from the CIS might run very quickly, but without local expertise, they might run in the wrong direction. The ideal configuration combines the speed and execution focus of one culture with the contextual understanding and guidance of another.\n\nThis combination is particularly important for avoiding embarrassing mistakes in localization. 🙈 We once ordered a translation of our app for Brazil based on European Portuguese, only to discover that Brazilian Portuguese is quite different - the locals found our text awkward and sometimes even ridiculous. We had to completely rework it to sound natural to Brazilian users. Similarly, marketing approaches that work in one region may be ineffective or even offensive in another, such as the need to represent diversity appropriately in advertising in certain markets.\n\nFor businesses expanding internationally, I recommend building teams that combine your core company culture with local expertise. 🤝 This balanced approach allows you to maintain consistency in your operations while adapting appropriately to each market's unique characteristics.",
+      "signature": {
+        "name": "Stanislav Troskin",
+        "title": "Business Development Professional",
+        "company": "indrive"
+      },
+      "highlight": {
+        "title": "Different Countries, Different Ways of Working",
+        "description": "People around the world work differently, and that's okay! In some places, people like to talk about their families before business meetings. In others, they want to get straight to work. Some countries have strict rules about work hours, while others are more flexible. The secret is to learn how each place works and mix your company's way with their local style. It's like learning to dance - you keep your own rhythm but match your partner's steps."
+      }
+    },
+    {
+      "id": "6",
+      "date": "2 years ago",
+      "avatar": "indrive",
+      "subject": "Managing International Teams Remotely",
+      "greeting": "Greetings!",
+      "cta": {
+        "message": "discover remote management strategies",
+        "link": "https://indrive.com"
+      },
+      "body": "Your question about how we manage international teams and maintain consistency across diverse markets touches on a critical aspect of our global operations. 🌐\n\nOur approach to remote management has evolved significantly as we've expanded. In the early days, we relied heavily on sending our core team members to new markets to establish operations. 🛫 Now, we've developed a more scalable model where we can effectively oversee teams across multiple regions while maintaining local autonomy.\n\nOne of the key insights we've gained is the importance of having regional business development managers who understand both our company culture and their local market dynamics. 🎯 These individuals serve as bridges between our global strategy and local implementation. Rather than trying to micromanage from headquarters, we've found that empowering these regional leaders with clear frameworks and objectives yields better results.\n\nWe maintain consistent standards and expectations across all regions. 📊 Our business development teams are organized by macro-regions, with each region having its own dedicated team focused on that market's development. Despite geographic differences, the job responsibilities and skill requirements remain largely the same regardless of location.\n\nFor companies managing international teams, I recommend focusing on creating a shared understanding of goals and expectations rather than dictating specific processes. 🎪 Different cultures may take different paths to achieve the same objective, and forcing everyone to follow identical procedures can stifle the local innovation that drives success in each market.\n\nAs we've scaled, I've found myself evolving from direct hands-on management to more strategic oversight. 📈 While I once personally recruited drivers, trained them, and explained how to use our app, I now focus on broader business indicators and strategy. This transition is natural as a company grows, but it requires developing different leadership skills and learning to trust your local teams.\n\nThe most valuable approach we've found is to establish clear metrics and objectives, provide the resources and support teams need to succeed, and then give them the autonomy to execute in ways that make sense for their specific market conditions. 🚀",
+      "signature": {
+        "name": "Stanislav Troskin",
+        "title": "Business Development Professional",
+        "company": "indrive"
+      },
+      "highlight": {
+        "title": "Trust Your Local Teams to Find Their Own Way",
+        "description": "Managing teams in different countries is like being a coach for different sports - you set the goals and provide support, but let each team play the game their way. Don't try to control every detail from far away. Instead, find good local leaders who understand both your company's goals and their local market. Give them clear targets, the tools they need, and the freedom to achieve success in their own style."
+      }
+    },
+    {
+      "id": "7",
+      "date": "2 years ago",
+      "avatar": "indrive",
+      "subject": "Advice for Future Business Developers",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "start your business development journey",
+        "link": "https://indrive.com"
+      },
+      "body": "You asked what advice I would give to my younger self or to aspiring business development professionals - this question makes me reflect on my own journey from Yakutsk to building a global business. 💭\n\nIf I could go back to 2014 when I was just starting with [indrive](https://indrive.com), I would offer two main pieces of advice:\n\nFirst, don't be afraid of anything - try everything. 🚀 Business development, particularly in international markets, is fundamentally a process of trial and error. The scientific method of forming hypotheses, testing them, learning from the results, and iterating is how we've built our success. Many of our most valuable insights came from attempting approaches that seemed promising but ultimately failed. These \"failures\" provided crucial learning that shaped our subsequent strategies.\n\nSecond, invest more time in studying literature and research in your field. 📚 While practical experience is invaluable, I've often found that interesting insights and practices already exist in published research. I subscribed to the Harvard Business Review, which published collections of articles every six months, and learned many concepts that would have taken much longer to discover through practice alone.\n\nRaising your intellectual level and expanding your knowledge base should be a priority. 🧠 Learning solely through practice is like searching under a streetlight - you can become very efficient within that illuminated area, but there's a vast unlit space around you that can only be illuminated through new knowledge from outside your immediate experience.\n\nFor those considering a career in business development, particularly with international focus, I'd emphasize the importance of linguistic and cultural adaptability. 🗣️ I decided to improve my English skills even before our company had concrete plans for international expansion, which proved invaluable when we began exploring opportunities beyond our home market six months later.\n\nThe business development role continues to evolve as companies grow. 📈 What starts as hands-on market development often transitions into more strategic leadership as the organization scales. Being prepared for this evolution and continuously expanding your skillset is essential for long-term success in this field.\n\nFinally, I've found that there's no single \"right way\" to approach business development. 🎯 Different companies define the role differently, and the responsibilities often shift based on the organization's needs and stage of growth. The constant is creating long-term value through customers, markets, and relationships - how you accomplish that will vary based on your specific context.",
+      "signature": {
+        "name": "Stanislav Troskin",
+        "title": "Business Development Professional",
+        "company": "indrive"
+      },
+      "highlight": {
+        "title": "Be Brave, Keep Learning, and Try New Things",
+        "description": "The best advice for anyone starting in business is simple: don't be scared to try new things, even if they might not work. Every mistake teaches you something valuable. Also, read books and articles about business - smart people have already figured out many problems you'll face. Learn languages and about different cultures because business today happens everywhere. Most importantly, remember that your job will change as you grow, so keep learning new skills and stay curious about the world around you."
       }
     }
   ]

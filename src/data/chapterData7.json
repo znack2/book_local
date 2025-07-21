@@ -1,40 +1,175 @@
-
 {
   "emailColumn": {
-    "title": "Email Templates - Chapter 13",
+    "title": "borzo: Global Delivery Empire",
     "authorInfo": {
       "title": "About the Author",
-      "description": "Dr. Sarah Kim specializes in data analytics and business intelligence with focus on predictive modeling and decision support systems."
+      "description": "Dmitry Zubkov is a seasoned delivery operations expert and former General Manager at borzo (formerly Dostavista), with 19+ years of experience in growing IT companies. He co-founded the delivery service in Eastern Europe in 2012 and led its ambitious international expansion across multiple continents, from 200 daily deliveries to operations in dozens of countries."
     },
     "materialsUsed": [
-      "Provost, F. (2013). Data Science for Business. O'Reilly Media.",
-      "Davenport, T. (2017). Competing on Analytics. Harvard Business Press.",
-      "Kimball, R. (2013). The Data Warehouse Toolkit. Wiley.",
-      "MIT Technology Review (2023). \"AI in Business Decision Making\" - Data Science Quarterly."
+      "Courier Services Market Report 2024. Maximize Market Research. Market size valued at USD 428.70Bn in 2023, expected to grow by 5.8% from 2024 to 2030.",
+      "International Express Delivery Market Analysis 2024. Grand View Research. Market size estimated at USD 30.96 billion in 2024, projected to grow at CAGR of 10.5% from 2025 to 2030.",
+      "Delivery-as-a-Service Market Trends 2024. GM Insights. Market valued at USD 500 billion in 2023, estimated CAGR of 18.5% between 2024 and 2032.",
+      "Express Delivery Market Share Analysis 2024. Expert Market Research. Focus on sustainable shipping methods and alternative transportation modes.",
+      "Food Delivery Trends and Statistics 2025. Routific. Drone delivery market showing significant growth, with over one million deliveries projected for 2024."
     ],
     "keyTakeaways": {
       "title": "Key Takeaways",
-      "description": "Data-driven decision making requires quality data, proper analysis tools, and organizational commitment to evidence-based strategies."
+      "description": "borzo's expansion journey reveals that early international entry can be successful even for small startups, but requires careful market selection, lightweight testing approaches, and strong local management. The company's focus on high-density cities (10+ million population) and minimal initial investment ($15,000/month per market) allowed them to test multiple markets simultaneously. COVID-19 validated their global strategy with 100x growth in some markets, though management transitions during rapid growth periods can be risky. The delivery industry's explosive growth (18.5% CAGR projected through 2032) confirms the timing was right for global expansion."
     }
   },
   "emails": [
     {
       "id": "1",
-      "sender": "Sarah Kim",
-      "date": "2 days ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-3.png",
-      "subject": "Data Analytics Mastery: Turn Data into Competitive Advantage",
-      "preview": "Dear Data Professional, transforming raw data into actionable insights is the key to staying competitive in today's market. Discover advanced analytics techniques...",
-      "signature": {
-        "name": "Sarah Kim",
-        "title": "Data Analytics Director",
-        "company": "InsightDriven Analytics"
+      "date": "2 years ago",
+      "avatar": "borzo",
+      "subject": "From 200 Daily Deliveries to Global Vision: How We Started International from Day One",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "explore delivery expansion strategies",
+        "link": "https://borzo.com"
       },
-      "meta": "Template • Analytics",
-      "likes": 81,
+      "body": "You asked about how our delivery service got started and what motivated our international expansion. Let me share our journey 🚀\n\nWe launched our delivery service in Eastern Europe in 2012. By 2014, we were still quite small - just 200 deliveries a day with a team of only five people 👥, truly a startup in its earliest stages. However, we realized we were witnessing the birth of a new business model 💡. The key enabling factor was smartphone adoption 📱. In 2014, smartphone penetration was just beginning to take off globally, creating the infrastructure necessary for our business model to work.\n\nDespite being tiny at home 🏠, we recognized that similar delivery models would soon emerge worldwide 🌍. We made a strategic decision: rather than focusing solely on conquering our home market, we would quickly establish footholds in multiple countries. Our thinking was that even if 8 out of 10 market entries failed ❌, the remaining successful ones would position us for significant global growth 📈.",
+      "signature": {
+        "name": "Dmitry Zubkov",
+        "title": "Co-founder & General Manager",
+        "company": "borzo",
+        "companyLink": "https://borzo.com"
+      },
       "highlight": {
-        "title": "Advanced Analytics Framework",
-        "description": "Comprehensive data strategy with predictive modeling and real-time business intelligence dashboards"
+        "title": "Early Bird Gets the Global Worm 🐛",
+        "description": "Think of it like this: imagine you invented a new type of bicycle when cars were just becoming popular. You could spend years perfecting your bike in your neighborhood, but by then, everyone else would have their own bikes! borzo understood that the smartphone revolution was like the invention of cars - it would change everything everywhere. So instead of waiting, they jumped into many different 'neighborhoods' (countries) early, knowing that even if some failed, the successful ones would make them leaders."
+      }
+    },
+    {
+      "id": "2",
+      "date": "2 years ago",
+      "avatar": "borzo",
+      "subject": "Why We Chose Global Ambition Over Local Focus",
+      "greeting": "Hi there,",
+      "cta": {
+        "message": "learn about startup expansion timing",
+        "link": "https://borzo.com"
+      },
+      "body": "Regarding your question about why we chose to expand internationally while still small at home - it's a great question that many investors asked us at the time! 🤔\n\nThe primary driver was the ambition of our founding team 💪. None of us wanted to remain just a local company. We recognized that if we spent another 2-3 years focusing solely on home market, we would miss the window ⏰ to enter international markets before local startups could establish dominance.\n\nInterestingly, our investors actually pushed us in the opposite direction 🔄. They advised us to focus on home market first, arguing we would spread ourselves too thin by attempting international expansion so early. We listened politely but ultimately followed our global ambitions 🌎.\n\nIt wasn't about specific customer demand from other markets - our business is highly localized with little cross-market synergy. It was purely about capitalizing on a global opportunity before the window closed 🚪.\n\nThe main founder particularly had international aspirations. He'd always said, 'We need to build international business because home market is just 2% of World market,' and believed building a global business was the path forward 🛤️. The rest of us supported this vision - it seemed like an exciting challenge!",
+      "signature": {
+        "name": "Dmitry Zubkov",
+        "title": "Co-founder & General Manager",
+        "company": "borzo",
+        "companyLink": "https://borzo.com"
+      },
+      "highlight": {
+        "title": "David vs. Goliath: Small But Bold Strategy 🎯",
+        "description": "Picture this like a school talent show where everyone is practicing the same dance. You could spend months perfecting your routine to be the best at your school, but by then, kids at other schools would have already won their local competitions! borzo's founders were like students who said 'Let's enter talent shows at multiple schools right away!' Yes, they might not win everywhere, but they'd have a chance to be first in several places instead of being the best in just one."
+      }
+    },
+    {
+      "id": "3",
+      "date": "2 years ago",
+      "avatar": "borzo",
+      "subject": "Strategic Market Selection: Why We Targeted Mega-Cities First",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "discover market entry strategies",
+        "link": "https://borzo.com"
+      },
+      "body": "You asked about our criteria for selecting international markets and our launch approach. Here's how we thought about it 🧠:\n\nWe focused on cities with populations over 10 million people 🏙️. Our business model depends on density - we saw at home that business in the capital was approximately 10 times larger than in the 'second' capital city, far exceeding the population ratio. After analyzing global cities 🌆, we identified about 50 cities with suitable populations: mostly in China 🇨🇳, then in India 🇮🇳 and in the US 🇺🇸, the rest scattered across other countries.\n\nFor our initial international expansion, we targeted China first due to it representing the largest opportunity 📊. However, we quickly realized the cultural and operational complexities were significant. The main founder brought in a Korean colleague who had previously launched Samsung in the domestic market to lead our Asian expansion.\n\nOur market entry strategy was intentionally lightweight ⚡. We wanted to test markets quickly with minimal investment - about $500,000 per year per market 💰. We reasoned that this approach would generate more valuable data than commissioning expensive market research reports 📋. We could calculate basic economics and understand how the model would work by launching a minimum viable service.\n\nA typical launch involved:\n1. A website and app for customers and couriers 📱\n2. Marketing channels (primarily contextual advertising) 📢\n3. Basic support staff (2-5 people) 👥\n4. No payment systems initially - we had customers pay couriers directly in cash 💵\n5. No legal entity formation or regulatory compliance in early stages ⚖️\n\nThis approach allowed us to launch quickly and inexpensively, gathering real-world data before making larger investments 🔍.",
+      "signature": {
+        "name": "Dmitry Zubkov",
+        "title": "Co-founder & General Manager",
+        "company": "borzo",
+        "companyLink": "https://borzo.com"
+      },
+      "highlight": {
+        "title": "Smart Testing: Try Before You Buy Big 🧪",
+        "description": "Imagine you want to sell lemonade in different neighborhoods. Instead of spending all your money on one fancy lemonade stand, you could set up simple tables in multiple areas first. You'd learn which neighborhoods like lemonade, what price they'll pay, and which spots are busiest - all without spending too much money! That's exactly what borzo did with cities. They started simple and cheap in many places to see what worked before investing big money."
+      }
+    },
+    {
+      "id": "4",
+      "date": "2 years ago",
+      "avatar": "borzo",
+      "subject": "Reality Check: When Competition Gets Serious",
+      "greeting": "Greetings!",
+      "cta": {
+        "message": "understand competitive challenges",
+        "link": "https://borzo.com"
+      },
+      "body": "You asked about the specific challenges we encountered when implementing our international expansion strategy 🚧.\n\nOur experience varied dramatically by market 🎭. In China, we launched in Shanghai and immediately saw high customer acquisition rates - much better than early days at home 📈. However, we had terrible customer retention 📉. This was largely due to a well-funded competitor Ishansong that had received $50 million in funding 💰, followed by another $50 million three months later, and then $300 million six months after that 🤯. They were heavily subsidizing the market, charging customers just 3 yuan while paying couriers 6 yuan per delivery. This pricing strategy made it impossible for us to compete without massive capital investment.\n\nIn London, we faced different challenges 🇬🇧. Unlike developing markets, the UK had minimal cash usage, forcing us to implement payment systems immediately 💳. This required creating legal entities, proper terms of service, and integrating with payment providers - all of which significantly slowed our launch process and increased costs ⏱️💸. We spent about six months on this setup before even going live.\n\nIndia proved to be our most successful early market 🇮🇳🎉. After setting up our London site in English, we realized we could quickly launch in India without the payment complexity since cash transactions were common there. India's business 'just flew away' and performed better than any other international market 🚀.\n\nThe technical complexity of supporting multiple markets was also significant 🔧. Each country required different configurations for currencies 💱, tax systems, and languages 🗣️. In some cases, local peculiarities dramatically affected our system - like in India, where addresses are often descriptive rather than structured ('go to this neighborhood, there's a stray on the right, ask the grandma and she'll tell you exactly where to go') 🏠🐕.\n\nThese regional differences made it difficult to apply learning from one market to another, as each had unique characteristics that affected everything from courier recruitment to system design 🔄.",
+      "signature": {
+        "name": "Dmitry Zubkov",
+        "title": "Co-founder & General Manager",
+        "company": "borzo",
+        "companyLink": "https://borzo.com"
+      },
+      "highlight": {
+        "title": "Every Country is Like a Different Planet 🌍",
+        "description": "Think of trying to open the same restaurant in different countries. In one country, people love to pay with cash and give directions like 'next to the big tree.' In another country, everyone pays with cards and expects exact GPS addresses. And in some places, a rich competitor might sell burgers for $1 while paying $3 for ingredients, just to drive you out of business! That's what borzo learned - every market has its own rules, preferences, and challenges."
+      }
+    },
+    {
+      "id": "5",
+      "date": "2 years ago",
+      "avatar": "borzo",
+      "subject": "Managing Multiple Markets: The Juggling Act",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "explore multi-market management",
+        "link": "https://borzo.com"
+      },
+      "body": "Regarding your question about how we managed multiple markets simultaneously and allocated resources between them 🎯:\n\nWhen we began international expansion, I was CEO with a small team of about 15-20 people 👥. The moment we decided to go international, my role changed dramatically 🔄. We established a unified product development team that served all countries, with each country operating as a separate instance with its own website, tariffs, and language, but running on the same underlying system 🖥️.\n\nFor China, the Korean executive we brought in was responsible for the business there 🇰🇷, with plans to potentially manage the broader Asian region (Korea, Malaysia, Philippines, etc.). In London, we hired a Pakistani who set up the system and launched operations 🇬🇧. For India, we leveraged our already-translated English site and brought in a dedicated manager 🇮🇳.\n\nI remained deeply involved in hiring country managers 🤝, frequently traveling to visit teams (about once every six months) ✈️ to ensure alignment. These visits were crucial since country managers often didn't fully understand how our system should work and needed guidance.\n\nEach country received a standard budget allocation 💰: approximately $5,000/month for a Country Manager, $5,000/month for the team, and $5,000/month for marketing - totaling around $15,000 monthly or about $200,000 annually per country. We adjusted this based on local costs (China was more expensive at roughly $500,000 annually) 📊.\n\nWe quickly learned that the Country Manager role was critical 🔑. We developed an interesting approach to recruitment: I would ask candidates to imagine they had come up with our business model themselves but had no funding. I'd ask them to prepare a presentation as if I were a potential investor 💼, explaining how they would approach the market, pricing strategy, team structure, and service level requirements. This helped identify candidates who could think strategically about the business 🧠.",
+      "signature": {
+        "name": "Dmitry Zubkov",
+        "title": "Co-founder & General Manager",
+        "company": "borzo",
+        "companyLink": "https://borzo.com"
+      },
+      "highlight": {
+        "title": "Building a Global Team Like a Sports League 🏆",
+        "description": "Imagine you're starting basketball teams in different cities. You need one main coach (that's the CEO), but each city needs its own local coach who understands the local players and rules. You give each team the same budget and playbook, but the local coach has to adapt it to their city. You visit each team regularly to make sure they're playing the same game, just like how borzo managed their global expansion with local managers in each country."
+      }
+    },
+    {
+      "id": "6",
+      "date": "2 years ago",
+      "avatar": "borzo",
+      "subject": "COVID's Wild Ride: From 20% to 80% International",
+      "greeting": "Hi there,",
+      "cta": {
+        "message": "learn about pandemic pivots",
+        "link": "https://borzo.com"
+      },
+      "body": "You asked about which markets ultimately succeeded and what factors led to our current position 📍.\n\nOur international expansion story took an unexpected turn with COVID-19 🦠. Before the pandemic, our business was roughly 80% home deliveries and 20% international. When COVID hit, the ratio completely flipped - international grew dramatically while local operations continued steady growth as well 📊.\n\nThe Philippines, for example, grew 100 times year-over-year during this period 🇵🇭📈. Not a typo - one hundred times! Other markets saw similar explosive growth as delivery became essential during lockdowns 🔒. With 80% of our deliveries coming from international markets, it appeared our global strategy had been vindicated ✅.\n\nHowever, at this critical moment, our main founder decided it was time to transform into a fully-fledged international company with international management 🌐. \n\nMy position as a country manager was filled by a Frenchman 🇫🇷, and the company brought in international executives. Unfortunately, this transition set us back significantly 📉. The cultural code was completely different and after six months we realized that we're not on the same path. His replacement stayed for two years before also being terminated. The momentum we had built was largely lost during this period ⏰.\n\nToday, we continue operations in India 🇮🇳, Turkey 🇹🇷, Brazil 🇧🇷, and Mexico 🇲🇽, while having exited many other markets. Looking back, I believe our international ambitions were correct, but the execution of our management transition caused significant setbacks just as we were gaining traction globally 🔄.",
+      "signature": {
+        "name": "Dmitry Zubkov",
+        "title": "Co-founder & General Manager",
+        "company": "borzo",
+        "companyLink": "https://borzo.com"
+      },
+      "highlight": {
+        "title": "Timing Can Make or Break Everything ⏰",
+        "description": "Imagine you've been training for years to become a great swimmer, and suddenly there's a huge flood where everyone needs swimming lessons. Your business grows incredibly fast! But then, right when you're busiest, you decide to hire a new swimming coach who teaches completely differently. All your students get confused, and some leave. That's what happened to borzo - COVID made delivery super important, but changing leadership during the busiest time created problems."
+      }
+    },
+    {
+      "id": "7",
+      "date": "2 years ago",
+      "avatar": "borzo",
+      "subject": "Lessons Learned: The Ultimate Playbook",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "get the complete expansion playbook",
+        "link": "https://borzo.com"
+      },
+      "body": "As we reflect on our international expansion journey, several key insights stand out 💡:\n\n1. Market Selection Criteria 🎯: Our focus on cities with 10+ million populations proved sound, but we learned that developing markets offered better opportunities than developed ones. After struggling in markets like London and China, we pivoted to Southeast Asia, Latin America, and India with better results.\n\n2. Lightweight Market Entry ⚡: Our approach of testing markets with minimal investment ($15,000/month) provided valuable data without excessive risk. This allowed us to enter multiple markets simultaneously despite limited resources.\n\n3. Country Manager Selection 👥: Finding the right local leader was consistently our biggest challenge across all markets. We discovered that sales ability combined with analytical skills was the critical combination needed.\n\n4. Cultural Nuances 🌍: Local peculiarities that seemed minor often had significant impacts on operations. From address formatting in India to payment preferences in the UK, these 'details' fundamentally affected how we needed to adapt our model.\n\n5. Technical Complexity 🔧: Supporting multiple markets in a single system dramatically increased development requirements and complexity. Any country, as a dimension, makes our system more complex, cause this dimension should be everywhere in the system.\n\n6. Market Timing ⏰: Our intuition about the importance of moving quickly proved correct, as we observed competitors emerging rapidly in various markets by 2016-2017. Markets like China quickly became prohibitively expensive to enter due to subsidized competition.\n\n7. Balance between Focus and Opportunity ⚖️: We constantly struggled with the tension between focusing resources on fewer markets versus capturing global opportunities. Both approaches had merit, and finding the right balance remains challenging.\n\nThe COVID pandemic ultimately validated our global strategy by driving explosive growth in international markets 📈, though subsequent management transitions hindered our ability to fully capitalize on this success.\n\nIf I were to do it again, I would still pursue international expansion early, but would be more cautious about changing management structures during periods of rapid growth 🚀, and would more quickly abandon markets with heavily subsidized competition 💸.",
+      "signature": {
+        "name": "Dmitry Zubkov",
+        "title": "Co-founder & General Manager",
+        "company": "borzo",
+        "companyLink": "https://borzo.com"
+      },
+      "highlight": {
+        "title": "The Recipe for Global Success 📋",
+        "description": "Think of building a global business like opening restaurants in different countries. You need to: 1) Pick busy locations (big cities), 2) Start simple and cheap to test what people like, 3) Find great local managers who understand both your recipe and local tastes, 4) Adapt to local preferences (some countries love spicy food, others don't), 5) Move fast before competitors copy you, 6) Don't change too many things at once when you're busy, and 7) Sometimes it's better to close a location than lose money fighting rich competitors."
       }
     }
   ]

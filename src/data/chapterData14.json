@@ -1,40 +1,146 @@
-
 {
   "emailColumn": {
-    "title": "Email Templates - Chapter 13",
+    "title": "drinkit: Real International Expansion Lessons",
     "authorInfo": {
       "title": "About the Author",
-      "description": "Dr. Sarah Kim specializes in data analytics and business intelligence with focus on predictive modeling and decision support systems."
+      "description": "Kate Borodich is an international expansion expert at Dodo Brands, a tech-driven foodservice franchise company with 1000+ locations across 21 countries. She previously worked on Dodo Pizza's expansion in England and now leads the international market development for drinkit, the company's digital-first coffee shop concept. Dodo Brands crossed $1 billion in system-wide sales in 2024 and is known for its transparent operations and innovative franchise model."
     },
     "materialsUsed": [
-      "Provost, F. (2013). Data Science for Business. O'Reilly Media.",
-      "Davenport, T. (2017). Competing on Analytics. Harvard Business Press.",
-      "Kimball, R. (2013). The Data Warehouse Toolkit. Wiley.",
-      "MIT Technology Review (2023). \"AI in Business Decision Making\" - Data Science Quarterly."
+      "Credence Research. (2025). UAE Food Services Market Size, Growth, Share and Forecast 2032. Retrieved from https://www.credenceresearch.com/report/uae-food-services-market",
+      "Fast Company Middle East. (2024). UAE F&B sector set for $19.98 billion growth in 2024. Retrieved from https://fastcompanyme.com/news/uae-fb-sector-set-for-19-98-billion-growth-in-2024/",
+      "Middle East Briefing. (2024). The UAE F&B Market: Opportunities for Businesses. Retrieved from https://www.middleeastbriefing.com/news/the-uae-fb-market-opportunities-for-businesses/",
+      "Shuraa Business Setup. (2025). Food and beverages market in the UAE - Dubai. Retrieved from https://www.shuraa.com/uae-food-beverage-market-trends-opportunities/"
     ],
     "keyTakeaways": {
       "title": "Key Takeaways",
-      "description": "Data-driven decision making requires quality data, proper analysis tools, and organizational commitment to evidence-based strategies."
+      "description": "International expansion requires extreme preparation and realistic expectations. Success comes from small, focused teams (3-5 people) that prioritize the 20% of tasks delivering 80% of results. Dubai serves as an excellent franchise showcase due to its visa-free access, transport hub status, and presence of global competitors. The key to success is methodical audience building, continuous adaptation, and treating expansion as a long-term battle rather than a quick win. Even experienced businesses must relearn their skills in new markets, but with proper preparation and persistence, profitability is achievable within the first month."
     }
   },
   "emails": [
     {
       "id": "1",
-      "sender": "Sarah Kim",
-      "date": "2 days ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-3.png",
-      "subject": "Data Analytics Mastery: Turn Data into Competitive Advantage",
-      "preview": "Dear Data Professional, transforming raw data into actionable insights is the key to staying competitive in today's market. Discover advanced analytics techniques...",
-      "signature": {
-        "name": "Sarah Kim",
-        "title": "Data Analytics Director",
-        "company": "InsightDriven Analytics"
+      "date": "2 years ago",
+      "avatar": "drinkit",
+      "subject": "Warning: International Expansion Isn't Easy - Hard Truths Before You Start",
+      "greeting": "Hello, Anton!",
+      "cta": {
+        "message": "Learn about international expansion challenges",
+        "link": "https://dodobrands.io/franchise/"
       },
-      "meta": "Template • Analytics",
-      "likes": 81,
+      "body": "Next letters are going to be about our experience of 🍕 drinkit & [dodo brands](https://dodobrands.io). But before that I have to say great warning for businesses that are going international.\n\nSome businessmen who haven't yet ventured into other markets think that it's not difficult, it's not scary, and you can give it a try. And I'll build the business here within 2 months. That's not true. ❌\n\nIt is painful, scary, and you need to think 300 times before doing it. Then calculate 200 times whether you have enough 💰 money for it, and then think again. I've seen a lot of businesses that entered Dubai thinking it's easy and now they're leaving disappointed with big financial losses. 📉\n\nEntering foreign markets is not a walk in the park 🌳, it's a battle ⚔️, a long one, and it's tough. You're entering a place where you don't know the rules, the culture, you practically know nothing. It's like you're rediscovering the 🌍 world. Even if you know how to build businesses in your home country, here you're literally relearning that skill. It's like learning to walk again after an injury. 🚶‍♂️\n\nThat's probably the first super important point. ⚠️\n\nEven though it's tough, it's still possible. ✅\n\nNext letter we're moving directly to us.",
+      "signature": {
+        "name": "Kate Borodich",
+        "title": "International Expansion Expert",
+        "company": "drinkit"
+      },
       "highlight": {
-        "title": "Advanced Analytics Framework",
-        "description": "Comprehensive data strategy with predictive modeling and real-time business intelligence dashboards"
+        "title": "Reality Check: International Expansion is a Battle",
+        "description": "Many businesses underestimate international expansion, thinking it's quick and easy. The truth is it requires extreme preparation, significant financial resources, and the mindset that you're essentially starting over. Even successful domestic businesses must relearn their skills in new markets. It's not a 2-month project - it's a long-term battle that requires thinking 300 times and calculating finances 200 times before starting."
+      }
+    },
+    {
+      "id": "2",
+      "date": "2 years ago",
+      "avatar": "drinkit",
+      "subject": "Ready to Expand: Why We Chose Global from Day One",
+      "greeting": "Hi there!",
+      "cta": {
+        "message": "Explore Dodo Brands global expansion strategy",
+        "link": "https://dodobrands.io/franchise/"
+      },
+      "body": "How do you feel about that warning letter? If expanding suits you, pick the right time. ⏰\n\nAs for [Dodo Brands](https://dodobrands.io), initially, the founder, Fedor, had a vision that the company would be global, it would be worldwide. 🌎 So, the question of whether we would go abroad wasn't even a question — we were planning to do it from the start.\n\nSpecifically for 🥤 drinkit, we saw how the concept worked at home and the financial model, and honestly, we didn't see any objective reasons why it wouldn't work in a foreign market. Plus, we were already entering Kazakhstan, which is the CIS, but we also saw a positive response there. 📈 Instead of overthinking, we tried launching the concept in Dubai, in a joint location with [Dodo Pizza](https://dodobrands.io) and drinkit. And we saw that the Digital Label concept and everything else was very well received here, and the model worked. ✅\n\nFirst, Kazakhstan: there was a talented entrepreneur who came with the initiative. As for Dubai, we entered as a management company. 🏢\n\nHave to go now,",
+      "signature": {
+        "name": "Kate Borodich",
+        "title": "International Expansion Expert",
+        "company": "drinkit"
+      },
+      "highlight": {
+        "title": "Global Vision from Day One",
+        "description": "Having a global vision from the start makes international expansion feel natural rather than forced. When you see your business model working at home and in nearby markets, it builds confidence to try new territories. The key is testing the waters first - Dodo Brands tested in Kazakhstan before Dubai, and used a joint location approach to reduce risk while proving the concept works internationally."
+      }
+    },
+    {
+      "id": "3",
+      "date": "2 years ago",
+      "avatar": "drinkit",
+      "subject": "Franchise Strategy Works Great in Dubai - Why We Chose the UAE",
+      "greeting": "Hi, Anton.",
+      "cta": {
+        "message": "Learn about Dubai franchise opportunities",
+        "link": "https://dodobrands.io/franchise/"
+      },
+      "body": "Here are some words concerning quite a crucial part of a successful franchise.\n\nWe were considering the whole world ([Dodo Brands](https://dodobrands.io) already had restaurants in America, China, and Europe). Dubai, based on many factors, was the most convenient and suitable for placing what you could call a franchise showcase. 🏪\n\nDubai is not only good for taxes and the speed of opening a business, but it's also a transport hub — you can come to Dubai without a visa. ✈️ People often fly through Dubai. For America you need a visa, for some European countries you need a Schengen visa. Dubai is visa-free, and we understand that drinkit is a franchise, and it's mainly a business. 💼 It's very important for us to show as many people as possible our locations.\n\nIt was clear that if we entered a country where all the major global players are present, and we learned to compete with them, we'd refine the drinkit concept to compete better in other countries. 🏆 It was more of a high-level strategic analysis. I don't remember comparing GDP, Taxes, or some other parameters.\n\nWe specifically chose not to set strict deadlines or success metrics for the Dubai launch, preferring to adapt as we learned. 📊\n\nThat's all for now,",
+      "signature": {
+        "name": "Kate Borodich",
+        "title": "International Expansion Expert",
+        "company": "drinkit"
+      },
+      "highlight": {
+        "title": "Dubai as a Franchise Showcase Strategy",
+        "description": "Dubai works perfectly as a franchise showcase because it's visa-free, acts as a transport hub, and hosts all major global competitors. This means potential franchisees can easily visit to see your concept in action, while competing against top players helps refine your business model. It's not just about tax benefits - it's about accessibility and learning from the best competition in the world."
+      }
+    },
+    {
+      "id": "4",
+      "date": "2 years ago",
+      "avatar": "drinkit",
+      "subject": "The Team of Three People - Small Team, Big Results",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "Discover efficient team structures",
+        "link": "https://dodobrands.io"
+      },
+      "body": "It's reasonable to let you know some features about our team. And maybe you will be impressed by the fact that the international market is handled by a team of three people. 3️⃣ They are: me, Vova Garipov, who is responsible for the drink-and-food menu and the PM Anastasia Nikitina I'd hired.\n\nI was already working on [Dodo Pizza](https://dodobrands.io) in England before. When you launch a physical business abroad, there are a lot of diverse tasks that just need to be done: finding spoons 🥄, finding lids for cups, connecting to wiring ⚡, setting up an SMS provider 📱, printing flyers 📄. A ton of things you need to do to launch a physical business. And it looks attractive to hire a big team to get all the tasks done. But instead of doing all the tasks, you need to launch the business. 🚀\n\nMy recipe of perfect setup for startup:\n• Small team 3-5 people 👥\n• Choose 20% the most important tasks which will bring you 80% of the result 📊\n• and nail it for 100% 💯\n\nSo, essentially, it was a new team formed for drinkit. Three people — it's not a huge resource but enough to launch the business. ✅\n\nBest regards,",
+      "signature": {
+        "name": "Kate Borodich",
+        "title": "International Expansion Expert",
+        "company": "drinkit"
+      },
+      "highlight": {
+        "title": "The Power of Small, Focused Teams",
+        "description": "A small team of 3-5 people can be more effective than a large team for international expansion. The key is focusing on the 20% of tasks that deliver 80% of results rather than trying to do everything. When launching a physical business abroad, it's tempting to hire big teams for all the small tasks, but the goal is to launch the business, not to perfectly complete every task."
+      }
+    },
+    {
+      "id": "5",
+      "date": "2 years ago",
+      "avatar": "drinkit",
+      "subject": "No Mistakes, Just Lessons Learned - Our Dubai Experience",
+      "greeting": "Hello, Anton.",
+      "cta": {
+        "message": "Learn from international expansion lessons",
+        "link": "https://dodobrands.io/franchise/"
+      },
+      "body": "This letter I will answer your direct question \"What mistakes do you think you made when entering Dubai?\" 🤔\n\nNot everything is perfect, of course. Maybe I'd say these aren't mistakes but lessons learned in Dubai. 📖\n\nThere were definitely hiring lessons, a bad hire. Generally speaking, we hired a very lazy guy. 😴\n\nWe were close to investing into manufacturing at an early stage. But these aren't mistakes of entering Dubai.\n\nWhen you run a business, you learn lessons along the way. You always find the right keys 🔑 to the audience and build the model correctly.\n\nWe immediately found our audience. But the lesson here is that you need to constantly, very methodically, win over the audience — the market is very competitive. 🏁 For example, I see that revenues in Marina (our first location) are doubling compared to last year. 📈 You build your client base through hard work, a great product, and excellent service. It's more about building relationships. 🤝\n\nWe introduced one drink 🥤, then expanded, then introduced food 🍕. Now we're looking for the right keys to the food. These are the lessons we're learning.\n\nThe same goes for economics. For drinkit, we see that we need to adjust the models to reach the target economics. If we're talking about breaking even, our first location in Marina broke even in the first month. 💰\n\nThank you for your attention! 🙏",
+      "signature": {
+        "name": "Kate Borodich",
+        "title": "International Expansion Expert",
+        "company": "drinkit"
+      },
+      "highlight": {
+        "title": "Learning Through Methodical Audience Building",
+        "description": "International expansion is about continuous learning rather than avoiding mistakes. The key lessons include being careful with hiring, methodically winning over audiences in competitive markets, and gradually expanding offerings (drinks first, then food). Success comes from building relationships through hard work, great products, and excellent service. Even first-month profitability is possible with the right approach."
+      }
+    },
+    {
+      "id": "6",
+      "date": "2 years ago",
+      "avatar": "drinkit",
+      "subject": "Complete Expansion Lessons - The Full Picture Summary",
+      "greeting": "Anton,",
+      "cta": {
+        "message": "Get complete expansion strategy guide",
+        "link": "https://dodobrands.io/franchise/"
+      },
+      "body": "To recap the full picture: 🖼️\n\n**Preparation:** International entry requires thinking \"300 times,\" calculating \"200 times\" financially. 💭💰 Our underperforming Indian hire proved due diligence matters.\n\n**Execution:** small team to launch business. 👥\n\n**Adaptation:** We methodically won over Dubai by expanding offerings (drinks → food 🥤➡️🍕), doubling Marina's revenue through continuous adjustments while achieving Month 1 breakeven at the joint location. 📊\n\n**Strategic Value:** Competing against global players here forced concept refinement no other market could. 🌍🏆\n\nI'm happy to unpack any remaining aspects as needed. 📞",
+      "signature": {
+        "name": "Kate Borodich",
+        "title": "International Expansion Expert",
+        "company": "drinkit"
+      },
+      "highlight": {
+        "title": "The Complete International Expansion Framework",
+        "description": "Successful international expansion follows a clear framework: extreme preparation and financial planning, small focused teams for execution, methodical audience building and continuous adaptation, and strategic market selection that forces you to compete with the best. The result is concept refinement that benefits all future markets, proven by achieving first-month profitability and doubling revenues through persistent optimization."
       }
     }
   ]

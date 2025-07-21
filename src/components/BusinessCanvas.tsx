@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useEffect, useCallback, useMemo } from 'react';
 import { ArrowUp, ArrowDown, ExternalLink } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import canvasDataImport from '../data/canvasData.json';
@@ -38,8 +38,28 @@ const BusinessCanvas = ({
 }: BusinessCanvasProps) => {
   const [currentFieldIndex, setCurrentFieldIndex] = useState(0);
   const [loading, setLoading] = useState(true);
+  const [refreshTrigger, setRefreshTrigger] = useState(0);
   const [error, setError] = useState<string | null>(null);
   const navigate = useNavigate();
+
+  // Add this useEffect to listen for canvas updates
+useEffect(() => {
+  const handleCanvasUpdate = (event) => {
+    // Only refresh if the update is for the current canvas
+    if (event.detail?.canvasId === canvasId || canvasId === "gallery") {
+      console.log('Canvas data updated, refreshing...', event.detail);
+      // Trigger a re-render by updating state
+      setRefreshTrigger(prev => prev + 1);
+    }
+  };
+
+  // Listen for the custom event
+  window.addEventListener('canvasDataUpdated', handleCanvasUpdate);
+
+  return () => {
+    window.removeEventListener('canvasDataUpdated', handleCanvasUpdate);
+  };
+}, [canvasId]);
   
   // Transform the new JSON structure to work with the existing canvas layout
   const processedCanvasData = useMemo(() => {
@@ -89,7 +109,7 @@ const BusinessCanvas = ({
     }
   };
 
-const getCellContent = (fieldKey: string) => {
+const getCellContent = useCallback((fieldKey: string) => {
   if (canvasId === "gallery") {
     // For gallery view, combine content from all available canvas IDs with chapter links
     // Get all available canvas IDs dynamically from localStorage
@@ -318,7 +338,7 @@ const getCellContent = (fieldKey: string) => {
     // Always return something to prevent fallback to field.placeholder
     return '<div style="color: #9ca3af; font-style: italic;">No items available</div>';
   }
-};
+}, [canvasId, refreshTrigger]); 
 
   const navigateToField = (direction: 'up' | 'down') => {
     if (direction === 'up') {

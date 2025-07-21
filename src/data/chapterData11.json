@@ -1,40 +1,168 @@
-
 {
   "emailColumn": {
-    "title": "Email Templates - Chapter 13",
+    "title": "Uplify: From Day-One Global Vision AdTech to Multi-Market Reality",
     "authorInfo": {
       "title": "About the Author",
-      "description": "Dr. Sarah Kim specializes in data analytics and business intelligence with focus on predictive modeling and decision support systems."
+      "description": "Pasha Medvedev is a serial entrepreneur and co-founder of a global advertising technology platform that expanded internationally from day one. With experience spanning CIS, Brazil, USA, and India markets, he led the company through various partnership models, direct market entry strategies, and the challenges of building a global AdTech business during uncertain economic times. His journey demonstrates both the opportunities and pitfalls of simultaneous multi-market expansion in the rapidly growing $1+ trillion global AdTech industry."
     },
     "materialsUsed": [
-      "Provost, F. (2013). Data Science for Business. O'Reilly Media.",
-      "Davenport, T. (2017). Competing on Analytics. Harvard Business Press.",
-      "Kimball, R. (2013). The Data Warehouse Toolkit. Wiley.",
-      "MIT Technology Review (2023). \"AI in Business Decision Making\" - Data Science Quarterly."
+      "Global AdTech Market projected to reach $3.4 trillion by 2032, growing at 15.25% CAGR. (2024). Straits Research.",
+      "North America dominates AdTech market with 35% share, driven by AI and programmatic advertising. (2024). Grand View Research.",
+      "Customer Development methodology: The Four Steps to Epiphany by Steve Blank. (2024). Wikipedia.",
+      "B2B Customer Development challenges and Renaissance Sales approach. (2010). Brant Cooper.",
+      "AdTech Market Size valued at $876 billion in 2024, mobile advertising leading growth. (2024). Fortune Business Insights."
     ],
     "keyTakeaways": {
-      "title": "Key Takeaways",
-      "description": "Data-driven decision making requires quality data, proper analysis tools, and organizational commitment to evidence-based strategies."
+      "title": "Strategic Lessons Learned",
+      "description": "This AdTech expansion story reveals that successful global scaling requires three critical ingredients: starting with a day-one global mindset 🌍 (they incorporated in Delaware from the beginning), prioritizing customer development over premature sales 🔍 (their biggest mistake was trying to sell before understanding markets), and maintaining flexible resource allocation 💰 (moving resources where opportunities emerge). The surprising insight? Partnerships can be powerful market validators - their Brazilian partnership model allowed market testing without major investment before committing to direct operations. Most importantly: there are no facts inside your building, so get outside and do customer development, especially in B2B where feedback cycles are longer."
     }
   },
   "emails": [
     {
       "id": "1",
-      "sender": "Sarah Kim",
-      "date": "2 days ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-3.png",
-      "subject": "Data Analytics Mastery: Turn Data into Competitive Advantage",
-      "preview": "Dear Data Professional, transforming raw data into actionable insights is the key to staying competitive in today's market. Discover advanced analytics techniques...",
-      "signature": {
-        "name": "Sarah Kim",
-        "title": "Data Analytics Director",
-        "company": "InsightDriven Analytics"
+      "date": "2 years ago",
+      "avatar": "uplify",
+      "subject": "Global from Day One: Why We Never Built Locally First",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "explore global AdTech strategy guide",
+        "link": "adtech-global-expansion.com"
       },
-      "meta": "Template • Analytics",
-      "likes": 81,
+      "body": "You asked about our initial expansion into international markets and our overall approach to globalization. Let me share how our journey began.\n\nUnlike many companies that start locally and then expand abroad, we approached internationalization from day one 🌍.\n\nOur story began in 2019 when we launched our advertising technology platform at home, but almost immediately started exploring international opportunities. By 2020, we were already making sales at home when we were approached by partners from Brazil 🇧🇷, the Pareto Company. This connection came through our participation in technology and advertising conferences, where we were showcasing our product.\n\nPareto, now a prominent player in the AI field with their Tess AI device, initially wanted to acquire us 💰. When we declined the acquisition offer, we established a different relationship - a business partnership using a referral model. Under this arrangement, they created a Brazilian-style website and sold our technology, sharing the profits with us. We handled all operations, backend, and technological components through Uplify, while they managed customer service.\n\nThis approach allowed us to test the Brazilian market without significant direct investment 🧪. We could assess demand and market fit through our partners, learning valuable insights about this new territory.\n\nOur corporate structure evolved to support this global vision 🏢. While our first legal entity was established in CIS, we quickly followed up with entities in the United States and Europe. The US entity, specifically in Delaware, was strategically chosen as our headquarters due to its advantages for attracting Western investors 📈. We planned and still plan to attract investments from Western investors. The business jurisdiction implies a very simple and understandable way for investors or accelerators to enter the market.\n\nThis structure removed barriers for potential investors by housing all intellectual property in Delaware rather than CIS. The European and Brazilian entities functioned more as local branches for operational interactions in those specific markets.\n\nOur approach to product development was always globally oriented 💻. We created a technological platform that could serve advertisers and influencers worldwide, not just at home. This perspective guided our decision to participate in international conferences and seek feedback from global players, even when we were still establishing product-market fit in CIS.\n\nThis simultaneous global approach has been fundamental to our identity as a company and has shaped our development path from the very beginning 🎯.",
+      "signature": {
+        "name": "Pasha Medvedev",
+        "title": "Co-Founder & Global Expansion Lead",
+        "company": "uplify"
+      },
       "highlight": {
-        "title": "Advanced Analytics Framework",
-        "description": "Comprehensive data strategy with predictive modeling and real-time business intelligence dashboards"
+        "title": "Day-One Global Thinking",
+        "description": "Most companies start small in their home country and then expand. But these smart entrepreneurs did the opposite! 🔄 They built their company to work everywhere from the very first day. It's like designing a video game that can be played in any language right from the start, instead of making it only in English and then trying to translate it later. They even put their main company in Delaware (a US state that investors love) to make it super easy for global investors to understand and invest in them!"
+      }
+    },
+    {
+      "id": "2",
+      "date": "2 years ago",
+      "avatar": "uplify",
+      "subject": "Smart Market Testing: The Brazil Partnership Experiment",
+      "greeting": "Hello there!",
+      "cta": {
+        "message": "discover partnership testing strategies",
+        "link": "market-validation-partnerships.com"
+      },
+      "body": "You asked about our approach to testing new markets and how we evaluate opportunities before committing significant resources. Our experience with Brazil provides an instructive example of this strategy.\n\nWhen we were approached by our Brazilian partners in 2020, we recognized this as an opportunity to test a new market without significant direct investment 💡. We said, why not? That way we can test this product market fit without investing our own money, but at the expense of our partners, and see how well it actually works there.\n\nThis partnership model allowed us to gather valuable market intelligence while minimizing our risk 📊. Our partners created a Brazilian website and sold our technology, sharing profits with us while we maintained control of the backend and technological components. This arrangement proved effective for initial market validation: they really tested the waters there, really understood whether there was demand in the market, and after that we formed our legal entity there, hired our people, and started working.\n\nBased on this experience, I believe this approach offers a viable framework for testing any market: find local partners who can help you understand demand without requiring significant upfront investment 🎯. The primary risk with this approach is that partners might not sell your product correctly or in the most effective way, but it provides essential insight into whether there's fundamental market demand.\n\nOur market selection process wasn't based on comprehensive research 📋. Instead, we followed opportunities as they emerged, guided by where we saw potential for growth. At that early stage, if we go back 3-4 years, where things were booming, we were where the gold was, we were digging there - the CIS was booming, we were digging in the CIS, Brazil was booming, we were digging in Brazil, and when India took off, we started investing in India 🏆.\n\nThis opportunistic approach reflected our resource constraints 💰: there is no beautiful story about choosing one market because we didn't have the means - one and a half million dollars, which we could have sat there and spent two years developing one market purposefully when we had money under the mattress. We never had money under the mattress. We always, how should I put it, survived and tried to be profitable, so that influenced our strategy.\n\nWhile we did create financial plans and projections for each market 📈, our approach remained flexible, adapting to feedback and opportunities as they emerged. We monitored key indicators like repeat transactions, transaction volumes, and the number of brands we worked with to gauge market potential and guide our investment decisions.\n\nThis adaptive strategy allowed us to expand simultaneously into multiple markets despite limited resources, learning and adjusting as we went 🚀.",
+      "signature": {
+        "name": "Pasha Medvedev",
+        "title": "Co-Founder & Global Expansion Lead",
+        "company": "uplify"
+      },
+      "highlight": {
+        "title": "Smart Risk Management",
+        "description": "They found a really clever way to test new markets! 🤓 Instead of spending their own money to see if people in Brazil would buy their product, they found local partners who would do all the hard work and take all the risk. It's like asking your friend to try a new flavor of ice cream first - if they like it, then you'll try it too! 🍦 This way, they could learn if their product worked in Brazil without losing their own money. When they saw it was successful, then they invested their own resources to grow bigger there."
+      }
+    },
+    {
+      "id": "3",
+      "date": "2 years ago",
+      "avatar": "uplify",
+      "subject": "Cracking the US Market: Y Combinator Dreams & Reality Checks",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "learn US market entry tactics",
+        "link": "us-adtech-strategy.com"
+      },
+      "body": "You asked about our strategy for entering the US market and how it differed from our approach to other regions. This was indeed a distinct process with unique challenges.\n\nUnlike Brazil, where we entered through partnership, our US market entry involved a more direct approach 🎯. Our initial strategy focused on getting into a prominent startup accelerator like Y Combinator, Techstars, or Skydeck. We viewed this as a pathway to legitimize our presence in the US market and gain access to networks and resources.\n\nWe invested significant time in preparation, attending specialized courses and refining our pitch 📚. We even secured an interview with Y Combinator's president, Michael Seibel, which provided valuable feedback despite not resulting in acceptance. We were interviewed by the president of YC, Michael Seibel, and we talked with him, and we got some pretty valuable feedback, but we didn't get in. But that didn't stop us 💪.\n\nDespite this setback, we continued our efforts in the US market, eventually securing our first sales in the region 💰. These early transactions, amounting to tens or potentially hundreds of thousands of dollars, demonstrated the viability of our product in the market and encouraged us to persist.\n\nHowever, our US strategy faced a significant disruption with the onset of the war in Ukraine in 2022 ⚡, which forced us to urgently reorient ourselves, downsize, and think about where to find money. This geopolitical event created additional challenges for our international expansion efforts.\n\nFor sales in the US, we employed classic B2B sales methods through outbound strategies and LinkedIn automation 💼. Without partnerships like we had in Brazil, we relied on direct sales efforts. I personally led many of these early sales initiatives, emphasizing the importance of understanding the market dynamics firsthand. You understand how people understand or don't understand the product, how interesting or uninteresting it is, whether they are ready to put you in their media plans and spend their budget on you, or whether they are not ready 🤔.\n\nThis direct engagement provided crucial insights into the unique characteristics of the US market 🔍. We discovered that the American advertising ecosystem functioned differently from others, with its own specific features. Even in 2024, we're only now slowly beginning to understand how it works and what our place is in this food chain.\n\nOne notable aspect of our US strategy was hiring consultants for short-term engagements to test specific sales hypotheses 🧪. These engagements (typically lasting around three weeks) allowed us to gauge market response without committing to full-time hires. We evaluated success based on metrics like the number of leads entering the funnel and the quality of feedback received.\n\nThis experimental approach reflects our resource constraints and pragmatic approach to market development: if you have the resources, you invest them and keep digging, digging, digging, but if not, then you stop and start doing something else 🔄.",
+      "signature": {
+        "name": "Pasha Medvedev",
+        "title": "Co-Founder & Global Expansion Lead",
+        "company": "uplify"
+      },
+      "highlight": {
+        "title": "Learning from Rejection",
+        "description": "They tried to get into Y Combinator (like the Harvard of startup schools) but got rejected! 📚 But instead of giving up, they used it as a learning experience and kept going. The US market turned out to be much more complicated than they expected - like trying to solve a puzzle where the pieces keep changing shape! 🧩 They learned that in America, you need to talk to many more people to make a sale, and everyone has a very specific job (unlike other countries where one person might do three different jobs)."
+      }
+    },
+    {
+      "id": "4",
+      "date": "2 years ago",
+      "avatar": "uplify",
+      "subject": "Global Market Reality: Why Every Region Plays by Different Rules",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "explore regional adaptation framework",
+        "link": "market-differences-guide.com"
+      },
+      "body": "You asked about the key differences we've observed between markets and how we've adapted our approach across regions. This has been a fascinating aspect of our international journey, revealing significant variations despite our globally consistent product.\n\nWhile our core product remains the same across all markets, we've encountered substantial differences in sales processes, market structures, and business cultures 🌐. These regional variations have required thoughtful adaptation of our go-to-market strategies.\n\nThe most profound differences appear in our marketing channels rather than product positioning 📊. Your product doesn't change, you have one product... We don't have regional product characteristics. There, of course, the way the sales deck is written emphasizes certain things in one region and other things in another region. But not globally.\n\nHowever, our approach to reaching customers varies dramatically by region:\n- In the United States 🇺🇸, we focus on large media outlets, media platforms, DSPs, and SSPs\n- In Brazil 🇧🇷, we prioritize direct channels and deals with advertisers\n- In India 🇮🇳, we work primarily through major media agencies like Dentsu and M Group\n\nThese channel differences reflect the unique structure of each market's advertising ecosystem 🏗️. For example, we've found that the US market has a much higher degree of specialization than other regions. If one specialist can be responsible for three areas in Brazil or CIS, in the US there are three specialists, or maybe even four specialists. And that's why it's a completely different process. You need not one presentation, but four presentations, and not four meetings, but eight meetings, to talk to each person twice 🤯.\n\nThis specialization significantly extends the sales cycle and complexity of deals in the US market compared to other regions ⏰.\n\nWe've also learned that leveraging successful case studies across regions is valuable, but must be done with cultural sensitivity 🎯. We actively share global cases in each market, particularly when they relate to the same category: if you communicate with Amazon Prime in India, you also place Amazon Prime in Brazil.\n\nHowever, we discovered that regional autonomy is stronger than we initially anticipated 🏛️. When we attempted to leverage relationships with global brands to facilitate introductions across regions, we found that everyone is king in their own region. They don't care what headquarters tells them. They have their own area of responsibility.\n\nThis meant that despite working with a brand like Intel in one market, we had to establish new relationships independently in each region rather than relying on internal referrals - the path to selling to the same customer was so different in these two regions 🔄.\n\nThese lessons have shaped our increasingly sophisticated understanding of regional market dynamics and informed our tailored approach to each territory 📈.",
+      "signature": {
+        "name": "Pasha Medvedev",
+        "title": "Co-Founder & Global Expansion Lead",
+        "company": "uplify"
+      },
+      "highlight": {
+        "title": "Every Country is Different",
+        "description": "Even though they sell the same product everywhere, each country works totally differently! 🌍 In America, you need to talk to lots of different specialists (like having separate people for homework, lunch, and recess), but in Brazil, one person might handle everything (like a teacher who does all three). The funniest discovery? Even big global companies like Intel work differently in each country - it's like each country's office is its own little kingdom with its own rules! 👑"
+      }
+    },
+    {
+      "id": "5",
+      "date": "2 years ago",
+      "avatar": "uplify",
+      "subject": "Resource Juggling: Managing Global Teams on a Shoestring Budget",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "master global resource allocation",
+        "link": "startup-resource-management.com"
+      },
+      "body": "You asked about how we structured our team and allocated resources across multiple international markets simultaneously. This has been one of our most significant operational challenges.\n\nIn the early stages of our international expansion, our approach to resource allocation was highly fluid and opportunistic rather than following a rigid structure 🌊. There's no magic formula. It's just a matter of working with priorities - where there's money, and we can take the money and invest time, where there's potential, we invest there secondarily.\n\nThis prioritization framework guided our decisions about where to focus our limited resources 🎯. We maintained awareness of market conditions across regions and adjusted our investments accordingly: India was dormant for us after it did something there, then our partners fell asleep there for a year. Well, okay, we didn't invest any time or money there, then something changed with our partners, sales started again, and we reactivated our product team and account team there 🔄.\n\nThis flexible approach reflected our resource constraints: we don't have any money in reserve, so you always feel it on the tips of your fingers, where you need to go and how you need to work and act 💰.\n\nThe evolution of our team structure paralleled our company's growth 📈. In the early stages, each team member performed multiple roles, creating challenges for systematic planning and specialization. Around 2022, we began hiring staff dedicated to specific international markets - first people who worked with the Portuguese-speaking community to communicate with Brazilian influencers 🇧🇷, followed by professional sales teams in 2023.\n\nFor the US market, we initially tested different approaches through short-term engagements with consultants and freelancers 🇺🇸. These arrangements allowed us to experiment with various sales strategies without committing to full-time hires. Our decision-making process for these experiments was collaborative but informal - a round table, a discussion, common sense rather than following rigid protocols 🤝.\n\nA significant milestone in our organizational development came when we reached approximately $1 million in ARR with 20+ team members 🏆. At this point, founder roles shifted from performing the function of a Swiss Army knife to more focused leadership positions. This transition enabled more systematic planning and resource allocation.\n\nToday, we can determine the strategy, allocate time, like, this quarter you'll do this, next quarter you'll do that, something that was impossible in the early stages 📅. This evolution has allowed us to build more specialized teams for each region while maintaining coordination across our global operations.\n\n**The Swiss Army Knife Phase** 🔧\n\nIn the beginning, everyone on our team was like a Swiss Army knife - we all had to do many different jobs! I might be doing sales in the morning, product development in the afternoon, and customer support in the evening. It was chaotic but taught us so much about every part of the business.\n\n**The $1M Milestone** 💎\n\nWhen we hit $1 million in annual revenue, everything changed. Suddenly we could afford to have specialists - people who just focus on one thing and become really good at it. It's like going from playing every position in soccer to finally having a dedicated goalkeeper, defenders, and forwards.",
+      "signature": {
+        "name": "Pasha Medvedev",
+        "title": "Co-Founder & Global Expansion Lead",
+        "company": "uplify"
+      },
+      "highlight": {
+        "title": "🎪 Startup Juggling Act",
+        "description": "Running a global startup with little money is like being a circus performer juggling while riding a unicycle! 🎪 In the beginning, everyone had to do everything - like being a one-person band where you play drums with your feet, guitar with your hands, and sing at the same time! 🎵 The smart part was moving their 'circus act' to wherever the audience (customers) was biggest. When one market got quiet, they'd pack up and move to where people were buying. Only when they made $1 million could they finally hire specialists instead of everyone doing everything!"
+      }
+    },
+    {
+      "id": "6",
+      "date": "2 years ago",
+      "avatar": "uplify",
+      "subject": "The University of Hard Knocks: Our Biggest International Mistakes",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "avoid common expansion pitfalls",
+        "link": "international-mistakes-guide.com"
+      },
+      "body": "You asked about the major mistakes we made during our international expansion and the key lessons we've learned. Let me share what I believe are the most valuable insights from our journey.\n\nThe single most significant mistake we made across all markets was trying to sell, that is, going in and trying to sell right away 🚫. This premature focus on sales before thoroughly understanding market dynamics led to inefficient resource allocation and frustration.\n\nIn retrospect, I strongly believe that comprehensive customer development should precede any sales efforts 🔍. You have to go in and do custdev. Do custdev, custdev, custdev, and then more custdev. Because you can probably burn a lot of money on sales, and sales will never give you your feedback. You'll just see that they don't bring anything, and you won't be able to understand why they don't bring anything.\n\nThis insight reflects our experience across multiple markets 🌍. We initially approached the US market with product assumptions based on our experience in other regions, only to discover that our solution wasn't properly aligned with American market needs. Our product development process was flawed: we had our own, let's say, mistake or non-standard startup path, but overall it was probably a strategic mistake that we first made the product first... And we made it, and then we started doing custdev and realized, for example, that it wasn't suitable for the American market, it wasn't needed, or it was completely incomprehensible.\n\n**What is Customer Development (CustDev)? 🤔**\n\nCustomer development is like being a detective 🕵️‍♂️! Instead of guessing what people want, you go out and ask them lots of questions to understand their real problems. It's the opposite of \"if we build it, they will come\" thinking. You talk to potential customers BEFORE building your product to make sure you're solving a real problem they actually have.\n\nThe customer development process itself proved more complex than we anticipated, especially in B2B contexts 📊. Rather than being a straightforward exercise with clear answers, we found it to be an iterative journey of discovery. You've just done custdev, oh, you understand everything. For the next two months, after two months you did another custdev, you realized, oh, you don't understand anything, you found something else, and so on.\n\nThis process is particularly challenging in B2B environments where feedback cycles are longer ⏰. B2B business is very peculiar, I mean, it's not something where you see an instant reaction from the customer or from the purchase. We have a B2B industrial enterprise business, and it's difficult to get the feedback you need quickly.\n\nLearning concerns the complexity of international market dynamics 🗺️. Each market functions according to its own logic, with distinctive sales cycles, decision-making processes, and competitive landscapes. The US market, in particular, required a much more specialized approach than we initially anticipated, with multiple stakeholders involved in each decision.\n\nOur experience in Brazil taught us about partnership evolution 🤝. When we first entered Brazil through a partnership with Pareto, this arrangement allowed us to test the market with minimal investment. However, as we confirmed the market's potential, we realized our partner wasn't ready to invest resources, learn, and scale up this venture at the pace we desired. This led us to establish our own operation and hire local staff, illustrating how entry strategies must evolve as markets mature.\n\nFinally, we learned about the importance of having clear criteria for evaluating market experiments 📏. While we tested various approaches across markets, we sometimes lacked rigorous frameworks for assessing their success or failure. This has led us to develop more structured approaches to measuring results and making decisions about resource allocation.\n\nThese lessons have fundamentally shaped our approach to international expansion and continue to guide our strategy as we develop our global presence 🚀.",
+      "signature": {
+        "name": "Pasha Medvedev",
+        "title": "Co-Founder & Global Expansion Lead",
+        "company": "uplify"
+      },
+      "highlight": {
+        "title": "The Golden Rule: Listen Before You Sell",
+        "description": "Their biggest mistake was like going to a party and immediately asking everyone to buy something without first asking what they actually need! 🎉 They learned that you have to be like a detective first 🕵️ - ask lots of questions, understand people's real problems, and THEN build something to help them. It's like asking your friends what flavor of cake they want before baking it, instead of baking chocolate cake and hoping they like chocolate! Customer development (custdev) means talking to customers to understand their problems before trying to solve them."
+      }
+    },
+    {
+      "id": "7",
+      "date": "2 years ago",
+      "avatar": "uplify",
+      "subject": "Global Operations Today: From Survival Mode to Strategic Growth",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "explore current global strategy",
+        "link": "adtech-operations-2024.com"
+      },
+      "body": "You asked about our current global operations and how our international strategy has evolved based on our experiences. Let me share where we stand today and how we're applying the lessons we've learned.\n\nWe are now operating simultaneously across multiple international markets, with each developing at its pace according to local conditions and our strategic priorities 🌍. Our approach has evolved from opportunistic market entry to more structured expansion guided by data and experience.\n\nCurrently, our market presence includes:\n- **United States 🇺🇸**: We made our first sales here in 2022 and continue developing this market, though we recognize it has unique challenges and requires significant investment to fully penetrate\n- **Brazil 🇧🇷**: After transitioning from our initial partnership model to our own operations, we've established a strong presence with local staff and direct client relationships\n- **India 🇮🇳**: We maintain our partnership model here, leveraging the fact that India is the largest YouTube market in the world with very strong creators\n- **Mexico 🇲🇽**: We have recently expanded operations here as well, seeking to leverage our Latin American experience\n\nIn each market, we've adapted our approach based on local conditions 🎯. For India, we've found that working through partners remains the most effective strategy. We tried to sell on our own, but I got calls from Puma India, Tata Motors, which is the largest corporation in India, but without knowing the culture, without knowing the specifics you will never build relationships if you don't have a local representative.\n\nOur global operations benefit from cross-pollination of case studies and expertise 📊. We leverage successful campaigns with global brands across regions whenever possible.\n\n**The AdTech Market Opportunity 📈**\n\nWe're operating in an incredibly exciting space! The global AdTech market is projected to reach $3.4 trillion by 2032, growing at over 15% annually. Mobile advertising is leading this growth, and AI-powered personalization is transforming how ads work. North America still dominates with 35% market share, but Asia-Pacific (including our India operations) is the fastest-growing region.\n\n**Our Evolution Journey 🚀**\n\nLooking back, we've gone through three distinct phases:\n1. **Survival Phase (2019-2021)**: Opportunistic expansion, following money wherever we found it\n2. **Learning Phase (2022-2023)**: Understanding our mistakes, focusing on customer development\n3. **Strategic Phase (2024+)**: Structured growth based on data and proven methodologies\n\nLooking ahead, we're continuing to refine our understanding of each market while maintaining flexibility to pursue emerging opportunities 🔮. We're particularly focused on deepening our understanding of the US market, where we believe we're still learning despite three years of engagement. Through advisors, mentors, and conference participation, we continue to discover new aspects of this complex ecosystem.\n\nOur organizational structure has matured alongside our international operations 🏢. We now have dedicated teams for different markets and functions, allowing for more specialized expertise and focused execution. We've also established more systematic planning processes while maintaining the agility to respond to market developments.\n\nThis evolution represents a balance between structured growth and opportunistic adaptation - recognizing that international expansion requires both methodical planning and responsive flexibility 🤝. While we maintain our global ambition, we've tempered it with greater appreciation for the unique challenges and opportunities presented by each market.\n\nThe most important lesson? There are no facts inside your building 🏢. Every assumption needs to be tested with real customers in real markets. International expansion isn't just about scaling - it's about learning, adapting, and building relationships one market at a time.",
+      "signature": {
+        "name": "Pasha Medvedev",
+        "title": "Co-Founder & Global Expansion Lead",
+        "company": "uplify"
+      },
+      "highlight": {
+        "title": "From Chaos to Strategy",
+        "description": "Their company grew up like a person! 👶 First, they were in 'survival mode' - just trying to make money anywhere they could, like a kid doing any chore for allowance. Then they entered 'learning mode' - making mistakes and figuring out what works, like a teenager learning to drive. Now they're in 'strategic mode' - making smart, planned decisions like a grown-up with a career plan! 🎓 They learned that international business isn't about having one plan for everyone - it's about understanding each country's unique personality and adapting to it."
       }
     }
   ]

@@ -1,40 +1,173 @@
-
 {
   "emailColumn": {
-    "title": "Email Templates - Chapter 13",
+    "title": "Albato: Building a SaaS Without Borders",
     "authorInfo": {
       "title": "About the Author",
-      "description": "Dr. Sarah Kim specializes in data analytics and business intelligence with focus on predictive modeling and decision support systems."
+      "description": "Mikhail Fedorinin, founder of Albato, shares his authentic journey of building a global SaaS company from the ground up. This interview series reveals the real challenges of international expansion, from failed attempts in Brazil to breakthrough success in the US market. Based on actual experiences from 2018-2024, these insights offer practical guidance for SaaS founders navigating global growth, cultural barriers, and the evolution from regional business to truly borderless operations."
     },
     "materialsUsed": [
-      "Provost, F. (2013). Data Science for Business. O'Reilly Media.",
-      "Davenport, T. (2017). Competing on Analytics. Harvard Business Press.",
-      "Kimball, R. (2013). The Data Warehouse Toolkit. Wiley.",
-      "MIT Technology Review (2023). \"AI in Business Decision Making\" - Data Science Quarterly."
+      "SaaStock. (2024). How to Prepare Your SaaS Company for Global Expansion.",
+      "iPanovia. (2024). Global Expansion Strategy SaaS - US Firms Success Stories.",
+      "Blossom Street Ventures. (2024). International Expansion is Critical for SaaS Growth.",
+      "Paddle. (2024). What is a SaaS Expansion Strategy and What to Include in Yours.",
+      "LinkedIn. (2023). SaaS International Expansion: How to Prepare Your Company.",
+      "Hop Online. (2024). How to Expand Internationally for SaaS.",
+      "Crunchbase. (2024). The State of SaaS: After A Positive Start to 2024.",
+      "Paddle. (2024). How to Solve SaaS International Expansion Challenges.",
+      "gigCMO. (2024). Going International Markets: The SaaS Expansion Strategy.",
+      "G-P. (2025). Tips for Developing an International Expansion Strategy."
     ],
     "keyTakeaways": {
       "title": "Key Takeaways",
-      "description": "Data-driven decision making requires quality data, proper analysis tools, and organizational commitment to evidence-based strategies."
+      "description": "SaaS international expansion requires three fundamental shifts: adopting English as your global business language from day one, mastering sales processes before scaling, and setting clear deadlines for market experiments. Success comes from rigorous planning with structured roadmaps rather than intuitive decisions. Cultural barriers are real - expect 3x longer timelines and higher costs than domestic expansion. Most importantly, focus on building a truly global product and team structure rather than just adding regional markets. The companies that thrive internationally think global from inception, not as an afterthought."
     }
   },
   "emails": [
     {
       "id": "1",
-      "sender": "Sarah Kim",
-      "date": "2 days ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-3.png",
-      "subject": "Data Analytics Mastery: Turn Data into Competitive Advantage",
-      "preview": "Dear Data Professional, transforming raw data into actionable insights is the key to staying competitive in today's market. Discover advanced analytics techniques...",
-      "signature": {
-        "name": "Sarah Kim",
-        "title": "Data Analytics Director",
-        "company": "InsightDriven Analytics"
+      "date": "8 months ago",
+      "avatar": "albato",
+      "subject": "The Global Vision: Why We Built Albato as an International Project from Day One",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "download global SaaS guide",
+        "link": "google.com"
       },
-      "meta": "Template • Analytics",
-      "likes": 81,
+      "body": "You asked about what initially motivated us to expand internationally and how our journey began 🌍. Let me share our story.\n\nOur international ambitions predated our current company, **[Albato](https://albato.com)**. With my previous venture, [Calltouch](https://calltouch.ru), we reached a point where we had strong 📈 growth on CIS 🏪 market with 30-50 employees 👨‍💼👩‍💼, but I recognized that pivoting to international 🏪 markets would require breaking many established processes ⚙️. The telecom industry also has complex region-specific regulations that make international expansion particularly challenging 🚧.\n\nThis experience shaped my approach to **[Albato](https://albato.com), which I conceived from the beginning as an international project** 🌍. However, we couldn't resist the temptation to launch first at 🏠 home - a decision I still question 🤔. As an entrepreneur with an established network on CIS 🏪 market, launching there offered a significant advantage: **'It's just easy peasy when you already have a network. It's much easier to launch any business, and the probability of failure is much lower.'** ✅\n\nThis practical choice has created ongoing complications for our global ambitions 🎯. **When you have an established 'tail' in one 🏪 market, it creates complexities** - from opening international accounts to maintaining focus 🎯. We're effectively paying for this decision now 💰, as it would be much simpler if we were starting fresh in new 🏪 markets without existing obligations.\n\nAnother key insight I've gained is that **'anything that's not in English 🗣️ is not really a global business - it's just localized depending on the region you've chosen.'** When we started **[Albato](https://albato.com)**, I wanted to build a global business but didn't fully understand what that meant 💡. Our expansion to Brazil 🇧🇷, for instance, wasn't truly global - it was just adding another regional business 🏪.\n\nUnlike many startups, **we established international infrastructure from the beginning** 🏗️. We created a Cyprus-based company before we had any clients 👥, which gave us a foundation for global operations 🌍. This wasn't my first business, so I understood the importance of having the right structure from day one 📅.\n\nThis early strategic foundation has been valuable 💎, despite the challenges we've faced in executing our international vision 🎯.",
+      "signature": {
+        "name": "Mikhail Fedorinin",
+        "title": "Founder & CEO",
+        "company": "Albato"
+      },
       "highlight": {
-        "title": "Advanced Analytics Framework",
-        "description": "Comprehensive data strategy with predictive modeling and real-time business intelligence dashboards"
+        "title": "Global From Day One Strategy",
+        "description": "Starting with your home market feels safer, but it creates complications later. If you want to build a global business, think globally from the beginning - use English for everything and set up international legal structures before you even have customers."
+      }
+    },
+    {
+      "id": "2",
+      "date": "7 months ago",
+      "avatar": "albato",
+      "subject": "Brazil Expansion: How Insufficient Research Led to Our Biggest Mistake",
+      "greeting": "Hello there!",
+      "cta": {
+        "message": "read market research guide",
+        "link": "google.com"
+      },
+      "body": "You asked about our first international 🏪 market entry and why we chose Brazil 🇧🇷. Our expansion journey began approximately one 📅 year after launching at 🏠 home in 2018 📅, with our first international hire in Brazil 🇧🇷 in 2019 📅.\n\n**Brazil 🇧🇷 wasn't selected through a comprehensive 🏪 market analysis - which I now recognize as a mistake** ❌. We chose Brazil 🇧🇷 primarily because one of our clients, a live chat service, had a significant Brazilian 🇧🇷 office generating substantial revenue 💰. Through conversations with their founder, Timur, I gained the impression that Brazil 🇧🇷 was an interesting 🏪 market with 📈 growth potential, and I appreciated having someone to consult with who had experience there 🤝.\n\nIn retrospect, this was insufficient diligence: **'It was a big mistake, because if we had done a more detailed analysis, maybe we wouldn't have gone there, because the 🏪 market is really complicated.'** 🤯\n\nWe didn't conduct deep research comparing different potential 🏪 markets 📊. While we considered the 🇺🇸 United States, we felt the ⚔️ competition there was too intense and the 🏪 market already overheated 🔥. Brazil 🇧🇷 seemed attractive because there were few established players ⚔️, yet we had seen success stories from companies operating there 📈. This intuitive approach lacked rigorous analysis but seemed reasonable at the ⏰ time.\n\nOur decision-making process was collaborative 🤝. We have about ten C-level executives who influence company development 📈, and while everyone has primary areas of responsibility 📋, we hold regular joint discussions where anyone can propose ideas that, if interesting, will be implemented 💡.\n\nFor our Brazilian 🇧🇷 expansion, **we hired a local expert who spoke English 🗣️ and had 🏪 market knowledge**. Rather than conducting the research ourselves, we provided our requirements and had this person perform the analysis 📊. Our thinking was straightforward: **if our model was successful at 🏠 home, generating a couple million 💰 in ARR, we could potentially achieve similar results in Brazil 🇧🇷**, which would be considered excellent performance for a Brazilian 🇧🇷 SaaS company 🚀.\n\nThe investment in ⏰ time and resources, however, would be substantial: **'You spend five 📅 years of your life and you'll be all in, you'll build a whole 👨‍💼👩‍💼 team and you'll become a Brazilian 🇧🇷 company.'** 💼\n\nThis realization about the depth of commitment required for successful regional expansion has profoundly influenced our subsequent approach to internationalization 🌍.",
+      "signature": {
+        "name": "Mikhail Fedorinin",
+        "title": "Founder & CEO",
+        "company": "Albato"
+      },
+      "highlight": {
+        "title": "Research Before You Leap",
+        "description": "Don't choose markets based on personal connections or gut feelings. Do serious research comparing multiple options. What seems like an 'easy' market might actually be the most complicated - and you won't know until it's too late."
+      }
+    },
+    {
+      "id": "3",
+      "date": "6 months ago",
+      "avatar": "albato",
+      "subject": "Remote Management Nightmares: Why We Needed Boots on the Ground",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "view team management playbook",
+        "link": "google.com"
+      },
+      "body": "You asked about how we structured our 👨‍💼👩‍💼 team and managed responsibilities during our international expansion 🌍. This was a significant challenge that evolved over ⏰ time.\n\nDuring our initial expansion to Brazil 🇧🇷 in 2019 📅, we maintained a relatively fluid management approach rather than rigid ⏰ time allocation ⚙️. As the company's creative leader rather than operational CEO (a role I only assumed 1-2 📅 years ago), I focused on identifying weaknesses, 📈 growth points, and guiding strategic direction while our COO handled operations 📋.\n\nThis arrangement gave me flexibility to manage both CIS operations and Brazilian 🇧🇷 expansion simultaneously 🔄. My approach was goals-based rather than ⏰ time-based: **'I had a certain range of tasks that I would like to complete in a certain period of ⏰ time.'** 🎯 Without external investors requiring strict reporting 📊, I had latitude in how I prioritized and scheduled my work 📅.\n\nFor the Brazilian 🇧🇷 🏪 market specifically, we hired a local Country Manager who was responsible for building the 👨‍💼👩‍💼 team and setting up processes ⚙️. On the CIS side, three people were actively involved in driving the international expansion: myself, Lesha Belyi (who has since left the company), and our CPO 👨‍💼. I served as the primary driver of the process, while our Country Manager in Brazil 🇧🇷 handled local hiring and process implementation 🔧.\n\n**Our management approach lacked rigid deadlines** - a shortcoming I now recognize ❌: **'Unfortunately, we didn't have that, we actually blew a lot of 💰 money and ⏰ time on that 🏪 market because of that.'** Without clear timelines for evaluating success ✅, we continued investing in Brazil 🇧🇷 longer than was optimal. Today, we always set clear deadlines for international initiatives to ensure we can pivot if necessary: **'You have to set some kind of limit - it didn't work out, and you switch the focus. Because you can try it like that to infinity.'** ♾️\n\nIn 2021 📅, after struggling with remote management, our approach evolved 📈. **Lesha traveled to Brazil 🇧🇷 for 3-4 📅 months with a clear mandate: either achieve significant progress or close the operation** ✈️. This in-person presence made a substantial difference: **'We just then managed to make a breakthrough by doing it.'** 🚀 The face-to-face interaction addressed communication challenges exacerbated by language barriers (Brazilians 🇧🇷 generally don't speak English 🗣️ well, and we didn't speak Portuguese 🗣️).\n\nThis experience taught us that **while certain aspects of international expansion can be managed remotely**, particularly once you understand your 🏪 market and customer base 👥, **the initial 🏪 market entry often requires significant in-person presence** to overcome cultural and communication barriers 🚧.",
+      "signature": {
+        "name": "Mikhail Fedorinin",
+        "title": "Founder & CEO",
+        "company": "Albato"
+      },
+      "highlight": {
+        "title": "Remote Has Limits",
+        "description": "You can't manage international expansion purely remotely, especially in the beginning. Cultural and language barriers require face-to-face time. Set clear deadlines for your experiments - without them, you'll waste years and tons of money."
+      }
+    },
+    {
+      "id": "4",
+      "date": "5 months ago",
+      "avatar": "albato",
+      "subject": "Three Country Managers, Three Failures: The Hard Truth About Hiring",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "download hiring checklist",
+        "link": "google.com"
+      },
+      "body": "You asked about our experience working with Country Managers in Brazil 🇧🇷 and what we learned from these relationships 🤝. This was indeed a critical aspect of our international expansion with valuable lessons 🎓.\n\n**Over three 📅 years, we went through three different Country Managers in Brazil 🇧🇷**, each serving for approximately one 📅 year. This pattern reflects our annual planning framework - we build models at 📅 year-end for the following 📅 year, making the end of each 📅 year a natural point to evaluate performance and make decisions about continuing or changing direction 🔄.\n\nOur first Country Manager was a Brazilian 🇧🇷 who came recommended through our CPO Kolya's network 🤝. Due to COVID 🦠, this person's work in [UEFA](https://www.uefa.com) had been disrupted, creating an opportunity for us to bring them into our company 💼. Despite initial optimism ✨, we encountered cultural challenges that we hadn't anticipated: **'Brazilians 🇧🇷 are very much like that... At first it seemed that not a person, then a currant, now everyone knows some words, now let's do it right.'** 🤷‍♂️\n\nAfter a 📅 year, we made our first change when we saw insufficient progress 📉. **The key factor in this decision wasn't just missing targets but the absence of a clear plan for improvement**: **'The main criterion was that the 📅 year has passed, and the dynamics, how far from what we discussed, and there is no any specific plan about what we are going to do about it - well, like such a red flag.'** 🚩\n\nFor our second Country Manager, we hired a woman who had lived in Brazil 🇧🇷 for many 📅 years 🏠. Our thinking shifted to: **'Maybe we'll find a person with intellect which is similar to ours', so that it would be easier to manage it all.'** 🧠 This approach showed better results - she successfully hired capable support staff who effectively converted incoming leads from our organic traffic 📈. However, after another 📅 year, we still weren't seeing the desired progress, as her product-oriented mindset didn't align well with our sales-focused needs 💼.\n\nOur third attempt involved recruiting a Brazilian 🇧🇷 from our competitor - someone who had lived in Australia 🇦🇺, worked at [LinkedIn](https://www.linkedin.com), and had relevant sales experience 💼. We invested in hiring **'an expensive dude who knew how to do things,'** expecting he would drive results 🚀. Once again, despite promising talks 💬, actual revenue 📈 growth didn't materialize 💰.\n\n**After these three attempts spanning approximately three 📅 years, we ultimately decided to shift our focus to the American 🇺🇸 🏪 market**, where we were gaining traction 📈. We scaled back our Brazilian 🇧🇷 operation, maintaining support for existing clients 👥 but no longer actively developing that 🏪 market 📊.\n\nThis experience has been invaluable in shaping our approach to international leadership 👨‍💼. **We learned to distinguish between managers who can articulate a vision versus those who can execute effectively** 💡. When evaluating performance, we now look beyond immediate results to assess whether there's clear movement in the right direction ➡️, reflection on past mistakes 🔄, and concrete plans for improvement 📋.",
+      "signature": {
+        "name": "Mikhail Fedorinin",
+        "title": "Founder & CEO",
+        "company": "Albato"
+      },
+      "highlight": {
+        "title": "Execution Over Talk",
+        "description": "Don't give endless second chances to country managers who can't deliver results. Look for people who can execute, not just talk a good game. If there's no clear improvement plan after a year, it's time to move on."
+      }
+    },
+    {
+      "id": "5",
+      "date": "4 months ago",
+      "avatar": "albato",
+      "subject": "Marketing Missteps: Why Copy-Paste Strategies Don't Work Internationally",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "get localization strategy",
+        "link": "google.com"
+      },
+      "body": "You asked about our marketing approach in Brazil 🇧🇷 and how it compared to our strategies in CIS and other 🏪 markets 📊. This is an area where we've learned significant lessons 🎓.\n\nFor our Brazilian 🇧🇷 expansion, **we essentially replicated our local marketing playbook with minimal adaptation** 📋. We analyzed what channels were most effective for [Zapier](https://zapier.com) (our competitor) in Brazil 🇧🇷, found they matched what worked at 🏠 home, and assumed this would be relevant for the entire 🏪 market. In retrospect, this assumption may have been flawed 🤔.\n\nWe focused primarily on marketers as our target audience 🎯, emphasizing features like chat functionality 💬, ad dashboards 📊, and heatmaps 🔥. However, **we later discovered that our Brazilian 🇧🇷 competitor 'Luga' was targeting the payments sector instead** 💳 - which suggested we might have been focusing on the wrong 🏪 market segment entirely ❌.\n\nWhile the marketing channels themselves (social media 📱, search advertising 🔍) performed similarly to CIS in terms of mechanics ⚙️, our messaging and audience targeting likely needed greater adaptation 🔄. We attempted to work with local influencers 📸, proposing referral-based payment structures 💰, but struggled to gain traction. This points to another challenge: **'It's hard to just interact with the 🏪 market because you don't know the language 🗣️, it's not even hard for me how well we did it.'** 🤷‍♂️\n\n**Our approach has evolved dramatically as we've shifted focus to the American 🇺🇸 🏪 market** 🚀. Rather than broad marketing campaigns 📢, we now focus almost exclusively on outbound sales through highly targeted outreach 🎯. We've developed a sophisticated process:\n\n1. **We employ a dedicated data scientist whose role is to mine data and package it appropriately for outreach** 📊. This includes identifying companies that fit our portfolio 📁, finding the right decision-makers 👨‍💼, and generating specific 'signals' that make our outreach more personalized 🎯.\n\n2. **We analyze 🌐 websites, reviews on platforms like [G2](https://www.g2.com), and other data points to create highly targeted messages** 📝. For example, if we notice a site has integrated three services, we'll approach them with a proposition to expand from three to hundreds or thousands 📈.\n\n3. **This personalized approach generates exceptional results because recipients perceive it not as a cold call but as if 'we came in, did some kind of audit' specifically for them** 🔍.\n\n4. **We apply a multi-touch strategy, connecting with prospects on [LinkedIn](https://www.linkedin.com), exposing them to content, and approaching the same company through different channels** (e.g., contacting both founders and CPOs with different messaging) 📱.\n\nThis system took approximately 18 📅 months to develop, but has proven highly effective ✅. It creates interesting dynamics where prospects sometimes feel they're hearing about us from multiple sources simultaneously, enhancing our credibility 💎.\n\nFor 2024 📅, we planned to expand beyond pure outreach to include marketing activities that will help nurture prospects who don't convert immediately - including retargeting 🎯, 📧 email marketing, and other standard approaches to complement our outbound sales efforts 📈.",
+      "signature": {
+        "name": "Mikhail Fedorinin",
+        "title": "Founder & CEO",
+        "company": "Albato"
+      },
+      "highlight": {
+        "title": "Local Markets Need Local Strategies",
+        "description": "Don't just copy your home market playbook to new countries. Research local competitors' strategies and customer preferences. What works in one market might completely miss the mark in another - even if the channels look similar."
+      }
+    },
+    {
+      "id": "6",
+      "date": "3 months ago",
+      "avatar": "albato",
+      "subject": "Our Biggest Mistakes: The Million-Dollar Lessons from Brazil",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "learn from our failures",
+        "link": "google.com"
+      },
+      "body": "You asked about our biggest mistakes and most important lessons from our international expansion journey 🌍. Let me share the critical insights we've gained - both from our missteps and our eventual successes 🎓.\n\n**Our Primary Mistakes:** ❌\n\n1. **Insufficient 🏪 Market Analysis:** We entered Brazil 🇧🇷 without adequate research 📊, relying largely on personal connections and intuition 🤔. A more rigorous analysis might have led us to choose a different 🏪 market or approach.\n\n2. **Lack of Clear Planning:** We operated without a structured roadmap 🗺️, following our imagination rather than a disciplined strategy 📋. As I reflect, **'Now with the States 🇺🇸, we are following the plan, we have a rigid model, and we are making sure that it is fulfilled. In Brazil 🇧🇷, when we started, we did nothing of the sort, and now I can see, of course, that it was a completely non-serious approach.'** 📈\n\n3. **Missing Deadlines:** Without clear ⏰ time boundaries for our experiments 🧪, we continued investing far longer than was optimal. Every experiment should have a deadline for evaluation and reconsideration 📅.\n\n4. **Excessive Second Chances:** We were reluctant to make personnel changes when needed 👨‍💼. **'It seems like we gave too many second chances. Even third chances, I'd say. It's okay to give second chances, not to give third chances.'** 🔄\n\n5. **Inefficient Resource Allocation:** Our casual attitude toward financials led to significant waste 💰. **'We basically poured a lot of 💰 money, and as a result it seems that we could have been much more efficient.'** 📉\n\n**Two Critical Learnings:** 💡\n\nDespite these mistakes, we made two decisions that proved transformative for our business:\n\n1. **Early Transition to English 🗣️ Communications:** **'We moved communications at one ⏰ time pretty early on into English 🗣️. That's something that a lot of people don't do.'** This seemingly simple decision has had profound implications 🌍, allowing us to operate as a truly international company. We can now hire talent globally without language barriers since all documentation and communication history exists in English 🗣️. What initially seemed like a minor operational choice has become a strategic advantage 🚀.\n\n2. **Mastering the Sales Process:** **'The main achievement is that we went to Outreach, we took care of the story normally and we learned how to sell.'** 💼 This has been the fundamental breakthrough in our international success ✅. No matter how excellent your product 🏆, without an effective sales model, success is unlikely 📉. Conversely, even mediocre products with exceptional sales processes often thrive: **'There are tons of examples where the product is complete shit, but it's fucking shit with sales and everything works.'** 📈\n\nThis second point has been particularly eye-opening 👁️. We've received recognition on [G2](https://www.g2.com), [Capterra](https://www.capterra.com), [Gartner](https://www.gartner.com), [Product Hunt](https://www.producthunt.com), and various shortlists - placing us among the top three CAC products globally 🏆. Yet these achievements, while helpful for credibility 💎, have minimal direct impact on sales 💰. They provide 'social proof' that might slightly improve conversion rates, but they don't drive significant business on their own 📊.\n\nThe reality of B2B SaaS sales remains unchanged: **'With selling, it's just hard, routine shit. You sit there and you make calls 📞 and you write there and you run around in conferences there, that's kind of how it works. And, unfortunately, nobody has thought of anything else yet.'** 🔄\n\nHaving our founder actively involved in sales has been critical - my partner who runs sales is personally present at every important 🤝 meeting with major clients 👥. This hands-on leadership in the sales process has been a key factor in our eventual success 🎯.",
+      "signature": {
+        "name": "Mikhail Fedorinin",
+        "title": "Founder & CEO",
+        "company": "Albato"
+      },
+      "highlight": {
+        "title": "Sales Beats Everything",
+        "description": "Awards and recognition are nice, but they don't pay the bills. Master your sales process and communicate in English from day one. These two decisions will matter more than any fancy product features or market analysis."
+      }
+    },
+    {
+      "id": "7",
+      "date": "1 month ago",
+      "avatar": "albato",
+      "subject": "The Future is Borderless: How We Built a Truly Global SaaS",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "get global playbook",
+        "link": "google.com"
+      },
+      "body": "You asked about our current strategy after these experiences and how we're applying the lessons we've learned 🎓. Let me share where we stand today and our path forward 🚀.\n\nAfter our extended experience in Brazil 🇧🇷, **we've shifted our primary focus to the American 🇺🇸 🏪 market**, where we're seeing stronger traction 📈. We haven't completely abandoned Brazil 🇧🇷 - we maintain support there and continue to receive some clients 👥 - but we've stopped actively developing that 🏪 market 📊.\n\nOur strategic direction has also evolved 📈. Initially, we struggled to choose between two products: an end-user tool (similar to [Zapier](https://zapier.com)) and a B2B solution 💼. After analyzing our strengths and 🏪 market opportunities, **we've decided to concentrate on the B2B segment**: **'We realized that we can sell B2B, and it's clear how to build it, that is, we learned how to hire people there, and we learned how to organize this funnel.'** 🎯\n\n**We're now applying this B2B model successfully in multiple 🏪 markets, including Poland 🇵🇱**, with an emphasis on the American 🇺🇸 🏪 market. While we still maintain our end-user product, which generates regular leads 📈, we're not actively promoting it since we recognize the challenge of competing with established players like [Zapier](https://zapier.com): **'It is difficult for us to be cooler than [Zapier](https://zapier.com) there and what serious arguments can we come up with why we are better than [Zapier](https://zapier.com) except that we are much cheaper 💰, but for American 🇺🇸 customers it is not an argument.'** 🤷‍♂️\n\n**Our current operational approach centers around a remote-first model** 🌐. We're based in Portugal 🇵🇹 but sell primarily to the 🇺🇸 United States. This structure works well because we now have a clear understanding of our target audience 🎯, know how to communicate with them effectively 💬, and have developed appropriate marketing materials 📝.\n\nThis model has proven remarkably effective: **'We now sell more in the States 🇺🇸 than many companies that have moved to the States 🇺🇸 and are trying to do things here.'** 📈 We've considered opening a US 🇺🇸 office 🏢, but currently don't see sufficient benefit to justify the expense 💰.\n\nNext, we plan to expand our marketing efforts beyond our current sales-focused approach 📢. While outbound sales have driven our 📈 growth to date, we recognize the need to develop complementary marketing channels to nurture prospects who don't convert immediately 🔄. We're currently seeking a head of marketing to build out these capabilities 👨‍💼.\n\n**Looking ahead, our model is increasingly global rather than regional** 🌍. We hire talent without regard to location 📍 - our 👨‍💼👩‍💼 team includes people from Poland 🇵🇱, Italy 🇮🇹, Argentina 🇦🇷, and Chile 🇨🇱, all working remotely as part of a unified global operation 🌐. **AI 🤖 is further enabling this borderless approach**, allowing us to provide localized experiences (like support in native languages 🗣️) while maintaining a centralized operation ⚙️.\n\nThis evolution from regional business to **truly global operations** represents the culmination of our journey and the application of all the lessons we've learned along the way 🎓. We're no longer a company with international offices - we're a global company that happens to be headquartered in Portugal 🇵🇹 but operates everywhere 🌍.\n\n**The future of SaaS is borderless** - and we're building that future today 🚀.",
+      "signature": {
+        "name": "Mikhail Fedorinin",
+        "title": "Founder & CEO",
+        "company": "Albato"
+      },
+      "highlight": {
+        "title": "Think Global, Act Borderless",
+        "description": "The future isn't about having offices in different countries - it's about building a truly global team and operation. Hire the best talent anywhere, use AI for localization, and focus on mastering your sales process rather than chasing regional markets."
       }
     }
   ]

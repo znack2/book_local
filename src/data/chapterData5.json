@@ -1,40 +1,251 @@
-
 {
   "emailColumn": {
-    "title": "Email Templates - Chapter 13",
+    "title": "kodland: From UK Setback to Latin American EdTech Success",
     "authorInfo": {
       "title": "About the Author",
-      "description": "Dr. Sarah Kim specializes in data analytics and business intelligence with focus on predictive modeling and decision support systems."
+      "description": "Alexander Moldovanov is the Business Owner for Latin America & Spain at kodland, an international online school teaching digital skills to children aged 6-17. With extensive experience in business strategy and international expansion, Alexander led kodland's successful entry into Latin America after the company's challenging UK expansion attempt. Founded in 2018, kodland has grown to serve 16,000+ students across 40+ countries with 1,000+ teachers. The company raised $9M in Series A funding in 2022, led by Redseed with participation from Baring Vostok, Kismet, Flyer One Ventures, and Alexander Nevinsky. Alexander's strategic approach emphasizes lean operations, rapid testing, and achieving profitability within 3-4 months of market entry."
     },
     "materialsUsed": [
-      "Provost, F. (2013). Data Science for Business. O'Reilly Media.",
-      "Davenport, T. (2017). Competing on Analytics. Harvard Business Press.",
-      "Kimball, R. (2013). The Data Warehouse Toolkit. Wiley.",
-      "MIT Technology Review (2023). \"AI in Business Decision Making\" - Data Science Quarterly."
+      "IMARC Group. (2025). Latin America EdTech Market Report: $16.26B to $50.44B by 2033, 12.40% CAGR.",
+      "Future Market Insights. (2024). Latin America EduTech Market Analysis: 14.5% CAGR Growth Through 2034.",
+      "Market Data Forecast. (2025). Latin America E-learning Market: $27.84B to $112.46B by 2033, 16.78% CAGR.",
+      "Horizon Databook. (2025). Latin America EdTech Content Market: $2.645B to $7.156B by 2030, 15.3% CAGR."
     ],
     "keyTakeaways": {
       "title": "Key Takeaways",
-      "description": "Data-driven decision making requires quality data, proper analysis tools, and organizational commitment to evidence-based strategies."
+      "description": "Alexander Moldovanov's approach to kodland's Latin American expansion demonstrates the power of lean, metrics-driven international market entry. Key insights include: the importance of rapid market testing over extensive research when resources are limited, achieving profitability within 3-4 months through minimal viable operations before scaling, leveraging geographic arbitrage (selling to wealthier markets while hiring from lower-cost regions), adapting payment processing for local market needs (especially in Brazil), building cross-cultural management capabilities by combining disciplined processes with local cultural understanding, and the critical role of average check size in business model sustainability. kodland's journey from a failed UK expansion to successful Latin American operations shows how learning from setbacks, maintaining lean operations, and focusing on unit economics can drive sustainable international growth in the competitive EdTech market."
     }
   },
   "emails": [
     {
       "id": "1",
-      "sender": "Sarah Kim",
-      "date": "2 days ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-3.png",
-      "subject": "Data Analytics Mastery: Turn Data into Competitive Advantage",
-      "preview": "Dear Data Professional, transforming raw data into actionable insights is the key to staying competitive in today's market. Discover advanced analytics techniques...",
-      "signature": {
-        "name": "Sarah Kim",
-        "title": "Data Analytics Director",
-        "company": "InsightDriven Analytics"
+      "date": "2 years ago",
+      "avatar": "kodland",
+      "subject": "Testing Markets and Choosing Focus Countries",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "explore market testing strategies",
+        "link": "kodland.org/market-testing"
       },
-      "meta": "Template • Analytics",
-      "likes": 81,
+      "body": "Regarding your inquiry about our market selection process and initial testing strategy, our approach was somewhat pragmatic rather than deeply researched 🧪.\n\nIn short, we tested several markets simultaneously with what I'd call \"silent tests\" to evaluate marketing metrics 📊. I analyzed both the cost per lead (CPL) and the potential pricing in each country. Since I didn't have enough data to assume conversion rates would differ significantly between countries, I treated those as equal. This allowed me to create a simple decision matrix - I essentially plotted countries on a graph with marketing costs on one axis and potential price points on the other, then selected the markets in the top left quadrant where marketing costs were lower and prices could be higher 📈.\n\nWe took a leap of faith because we couldn't afford to sit around doing research for six months like larger companies might 🚀. We needed to move quickly, even if that meant making some mistakes along the way. After choosing our initial market, we hired a small operations team and began refining our approach.\n\nFor creative content, we tested multiple variations to see what resonated best 🎨. We threw out various ideas and analyzed which characters, wording, and offers performed well. At the beginning stages, we assumed our needs would be relatively universal across markets, though we later discovered subtle differences. Finding that first working offer was critical - once we had something to latch onto, we could start expanding from there 🎯.\n\nOf course, having later entered the market more deeply, we began conducting proper research including in-depth customer interviews, which helped us refine our approach further 🔍. But initially, it was more about testing, finding something that worked, and scaling from there. The key was generating some revenue, however small, that would give us something to build upon 💰.",
+      "signature": {
+        "name": "Alexander Moldovanov",
+        "title": "Business Owner, LatAm & Spain",
+        "company": "kodland"
+      },
       "highlight": {
-        "title": "Advanced Analytics Framework",
-        "description": "Comprehensive data strategy with predictive modeling and real-time business intelligence dashboards"
+        "title": "Test Fast, Don't Research Forever",
+        "description": "Alexander learned that sometimes you need to try things instead of studying them forever. He made a simple chart with two things: how much it costs to find customers and how much money you can charge them. Then he picked the countries in the sweet spot - low costs and high prices. It's like choosing which lemonade stand location is best by quickly testing a few corners instead of spending months asking everyone in the neighborhood what they think. Sometimes getting started fast and learning as you go is better than trying to know everything before you begin."
+      }
+    },
+    {
+      "id": "2",
+      "date": "2 years ago",
+      "avatar": "kodland",
+      "subject": "Building the Initial Team Structure",
+      "greeting": "Hi there,",
+      "cta": {
+        "message": "discover lean team strategies",
+        "link": "kodland.org/team-building"
+      },
+      "body": "You were wondering about our initial team structure and how we managed operations with limited resources in new markets 👥.\n\nWhen we first started international expansion, we didn't hire full teams immediately. Instead, we began with a minimal approach 📝. I personally started by studying the financial plans, understanding the economics of our business model (average check, conversions, marketing costs), and analyzing what limited competition existed.\n\nA key insight that shaped our strategy was realizing we could effectively arbitrage across countries - selling to wealthier markets while hiring from lower-cost ones 🌍. This approach let us optimize our economics right from the start. I researched where the most universally understandable Spanish was spoken to ensure our hiring strategy would work across multiple Latin American markets.\n\nDuring the first few months, we kept our team extremely lean 💪. I intentionally opted for fewer people than other regional teams had used, believing we could launch with much fewer resources. This was critical for reaching profitability quickly. We mostly hired part-time staff initially - salespeople, call center representatives, and teachers - because we couldn't offer competitive full-time salaries yet 💼.\n\nWe maintained this minimal operation for about two months, operating with just a few thousand dollars in weekly turnover 💰. This allowed us to test and refine our approach without the pressure of large-scale operations. Only after we achieved good end-to-end conversion did we scale rapidly, growing to tens of thousands in monthly transactions within just one month 🚀.\n\nFor recruitment, we used a mix of internal resources and freelancers 🤝. We provided the process and guidelines but outsourced some of the actual sourcing work. Marketing was another area where we selectively outsourced, particularly for exploring new channels and creating some content, but we kept strategy and operations in-house.\n\nThis lean approach helped us achieve profitability by the fourth month - a milestone that seemed ambitious when we started 🎯. The key was minimizing costs while perfecting our model before scaling.",
+      "signature": {
+        "name": "Alexander Moldovanov",
+        "title": "Business Owner, LatAm & Spain",
+        "company": "kodland"
+      },
+      "highlight": {
+        "title": "Start Small and Smart, Not Big and Broke",
+        "description": "Alexander discovered a clever trick: sell to rich countries but hire workers from places where salaries are lower. This meant he could offer great service at good prices while keeping costs down. He also started with part-time workers instead of expensive full-time employees until he knew the business was working. It's like starting a school play with volunteer actors before hiring professional performers - you prove the show works first, then invest in the fancy stuff once you're making money."
+      }
+    },
+    {
+      "id": "3",
+      "date": "2 years ago",
+      "avatar": "kodland",
+      "subject": "Payment Processing and Initial Launch Challenges",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "solve payment processing challenges",
+        "link": "kodland.org/payment-solutions"
+      },
+      "body": "Your question about our payment processing approach and initial market challenges touches on some interesting aspects of our international expansion 💳.\n\nWe implemented payment solutions fairly quickly, without needing to create a legal entity in Latin America right away. Initially, we used Stripe, which any company can access with reasonable commission rates of around 3% 💰. However, we discovered that Latin America, particularly Brazil, presented unique payment processing challenges.\n\nWe ultimately connected with a specialized Brazilian payment system PagSeguro to better serve that market 🇧🇷. This was something we found and implemented quickly based on insider information from other domestic companies that had attempted to enter the Latin American market before us. They had warned us about payment processing difficulties, which proved accurate.\n\nOnce we selected our target country based on our testing, we worked on multiple aspects in parallel - building the customer journey (CJM), creating landing pages, setting up forms, and addressing payment processing 🔧. We couldn't afford to take a linear approach where we'd complete one task before starting another. The economic reality of keeping a team without revenue pushed us to parallelize efforts.\n\nThe entire initial testing phase, from market selection to country choice, took about a month and a half ⏰. We then moved quickly to implement specific strategies for our chosen market. This parallel approach meant that while things weren't perfect, we could launch faster and refine based on actual market feedback rather than theoretical research.\n\nThis balance between speed and thoroughness was something we constantly navigated ⚖️. With limited resources and the need to show results quickly, we had to make pragmatic decisions about what was \"good enough\" to launch versus what could be improved later based on real-world performance.",
+      "signature": {
+        "name": "Alexander Moldovanov",
+        "title": "Business Owner, LatAm & Spain",
+        "company": "kodland"
+      },
+      "highlight": {
+        "title": "Do Many Things at Once When Time Is Money",
+        "description": "Alexander learned that in Brazil, regular payment systems don't work as well, so he had to find special Brazilian payment tools. Instead of doing one thing at a time (like building the website, then figuring out payments, then making ads), he did everything at the same time to save time. It's like preparing for a school presentation by writing your speech while making your poster while practicing - it's busier, but you finish much faster than doing each step separately. When you need money coming in quickly, sometimes 'good enough' is better than 'perfect but slow.'"
+      }
+    },
+    {
+      "id": "4",
+      "date": "2 years ago",
+      "avatar": "kodland",
+      "subject": "Information Sources and Networking",
+      "greeting": "Greetings!",
+      "cta": {
+        "message": "build your expansion network",
+        "link": "kodland.org/networking-strategies"
+      },
+      "body": "Regarding how we gathered information and built our network when entering Latin America, our approach was rather practical and relationship-based 🤝.\n\nI wasn't operating in a vacuum when we started. I leveraged existing connections, including a friend who worked at Triple Ten (which was also expanding into Latin America at the time) 👥. Through various personal connections, I spoke with two or three people who had experience in the region. These conversations provided valuable insider information about potential challenges, like the payment processing issues that helped us prepare for that aspect of our operation.\n\nFor market research, I relied primarily on e-commerce data as a proxy to understand online buying behavior, since specific research on children's online education in Latin America was limited at the time 📊. I reasoned that e-commerce metrics would indicate how comfortable people were with making online purchases generally. Though not perfect, this gave us some baseline to work from.\n\nWe didn't have access to the comprehensive AdTech and EdTech market research that exists now 📚. Today, companies like Hallon provide detailed market analysis that would have been incredibly valuable then. I also studied other companies' experiences, including those who had attempted Latin American expansion but ultimately withdrew after six months of trying.\n\nThe network-building approach reflected our overall strategy - practical, relationship-based, and focused on getting actionable insights quickly rather than comprehensive market analysis 🎯. We were building connections and gathering information simultaneously with our market entry, learning and adapting as we went.\n\nThis network has since expanded significantly, and we now have a much deeper understanding of the market 🌱. But those initial connections and limited pieces of information were crucial in helping us navigate the early stages of our expansion with minimal resources.",
+      "signature": {
+        "name": "Alexander Moldovanov",
+        "title": "Business Owner, LatAm & Spain",
+        "company": "kodland"
+      },
+      "highlight": {
+        "title": "Ask Friends Who Have Been There Before",
+        "description": "Alexander didn't try to figure out Latin America all by himself. He talked to friends who had already tried expanding there, including people who had failed! They warned him about problems like payment processing, which helped him prepare. He also looked at how people shop online in general (e-commerce) to guess how they might buy educational services. It's like asking older kids about high school before you start - they can tell you which teachers are tough and which cafeteria food to avoid, saving you from learning the hard way."
+      }
+    },
+    {
+      "id": "5",
+      "date": "2 years ago",
+      "avatar": "kodland",
+      "subject": "Scaling Across Multiple Latin American Countries",
+      "greeting": "Hello there,",
+      "cta": {
+        "message": "master multi-country expansion",
+        "link": "kodland.org/regional-scaling"
+      },
+      "body": "You inquired about our approach to expanding beyond our initial country in Latin America and how we managed consistency across different markets 🌎.\n\nAfter establishing our model in one country, we began to see signs that it was time to expand - specifically, when marketing costs started to increase exponentially 📈. Based on our experience in the CIS, we recognized this as an indicator that we needed to either change our offer or find new markets. Since the neighboring countries spoke the same language, expansion seemed more logical than completely revamping our offer.\n\nWhen we expanded, we initially used the same creative assets and customer journey model across countries, but quickly discovered that performance varied significantly 📊. While the customer journey framework remained broadly similar across markets (with minor adjustments), we found that everything from creative performance to customer preferences differed. Mexico, in particular, proved quite different from South American countries 🇲🇽.\n\nThe payment stage showed the most dramatic variation between countries - this aspect required substantial local adaptation 💳. However, the prepayment stages of our funnel remained relatively consistent.\n\nFor our sales team, we specifically hired people with neutral accents that would be widely understood across Latin America 🗣️. This allowed us to maintain consistency in our sales scripts while serving multiple countries. Rather than having country-specific sales teams, we built a team that could effectively sell across the region.\n\nThe offers themselves did evolve based on market preferences - in some countries, parents were most interested in career preparation for their children, while in others, different motivations prevailed 🎯. These insights emerged gradually as we gathered customer feedback and observed performance metrics.\n\nOur research approach was continuous rather than a distinct phase 🔄. We consistently gathered feedback from customers, monitored retention metrics, and conducted interviews to better understand preferences and pain points. This ongoing learning process helped us refine our approach in each market while maintaining operational efficiency across the region.",
+      "signature": {
+        "name": "Alexander Moldovanov",
+        "title": "Business Owner, LatAm & Spain",
+        "company": "kodland"
+      },
+      "highlight": {
+        "title": "Same Language Doesn't Mean Same Customers",
+        "description": "Alexander thought that because many Latin American countries speak Spanish, everything would work the same way everywhere. But he learned that Mexico is quite different from countries like Argentina or Colombia, even though they share a language! Parents in different countries wanted different things for their kids. He solved this by hiring salespeople who spoke in a neutral accent everyone could understand, and by adapting his offers to what parents in each country cared about most. It's like how American, British, and Australian kids all speak English but have different favorite foods and games."
+      }
+    },
+    {
+      "id": "6",
+      "date": "2 years ago",
+      "avatar": "kodland",
+      "subject": "Managing Latin American Teams and Cross-Cultural Challenges",
+      "greeting": "Hi!",
+      "cta": {
+        "message": "navigate cross-cultural management",
+        "link": "kodland.org/cultural-management"
+      },
+      "body": "Your question about managing Latin American teams touches on what has been one of our most persistent challenges over the past two and a half years 🌍.\n\nManaging our Latin American team members has been extremely difficult, and it's a challenge I'm still working on 😅. What's helped us most is bringing our disciplined, responsible mindset from the CIS region and applying it consistently. We went through numerous people very quickly until we found the right ones, and then we invested heavily in developing them 💪.\n\nToday, our operations department consists of hundreds of people, all Latin Americans 👥. Our core team is roughly 50/50 split between Latin Americans and the CIS residents. We've found that certain functions, like marketing and traffic acquisition, benefit from the expertise our CIS team members bring 📊. Meanwhile, other aspects of the business are better managed by local team members who understand the cultural nuances and mentality.\n\nThe key has been teaching our Latin American leaders our approach to discipline and organizational management, while letting them apply it in culturally appropriate ways 🎯. Now they independently manage their own teams with the systems and approaches we've established together.\n\nWhen hiring, we've had to be flexible 🔄. Initially, we couldn't offer competitive full-time salaries, so we hired people on schedules that worked for them, often part-time. Only after about three months, when we confirmed our economic model was working, did we begin transitioning to more full-time positions. Even then, the team composition changed significantly as we scaled - some early team members were promoted from within, while others were hired externally as we grew to larger volumes.\n\nThis cross-cultural management experience has been one of the most challenging aspects of our international expansion, but also one of the most rewarding as we've built a team that combines the strengths of different working cultures 🌟.",
+      "signature": {
+        "name": "Alexander Moldovanov",
+        "title": "Business Owner, LatAm & Spain",
+        "company": "kodland"
+      },
+      "highlight": {
+        "title": "Teaching Your Way While Respecting Their Way",
+        "description": "Alexander had to learn that managing people from different cultures is really hard! He had a certain way of doing things that worked well in his home country, but Latin American workers had different styles. Instead of forcing everyone to work exactly like him, he taught local managers his systems and let them adapt those systems to fit their culture. It's like teaching someone your favorite video game strategy - you show them the basic rules and tactics, but they might play it in their own style that works better for them. Now he has hundreds of Latin American workers who use his organized approach but in their own cultural way."
+      }
+    },
+    {
+      "id": "7",
+      "date": "2 years ago",
+      "avatar": "kodland",
+      "subject": "Leveraging Average Check Size for Growth",
+      "greeting": "Greetings!",
+      "cta": {
+        "message": "optimize your pricing strategy",
+        "link": "kodland.org/pricing-optimization"
+      },
+      "body": "I noticed your interest in the economic factors that drove our growth in new markets, particularly regarding average check size and its impact on our business model 💰.\n\nOne of the most important revelations that came to me (admittedly about 8-9 months after our initial launch) was understanding how to leverage average check size to accelerate growth 💡. I realized that a large average check forgives many operational mistakes and even masks certain problems. When your average check is substantial and your LTV (Lifetime Value) ratio is healthy - ideally above 1.5 - it creates a powerful engine for growth.\n\nHere's how it works: a portion of that higher average check goes to cover your costs, another portion can be reinvested in acquiring new customers, and yet another can be invested in team development 📊. For a long time, I monitored metrics like LTV, end-to-end conversion, and average check size, but I hadn't fully appreciated how deliberately increasing the average check could accelerate our growth trajectory.\n\nWhen we started in Latin America, our average check was relatively small - around $120 for a three-month package, or approximately $40 per month 💳. With this modest average check, we needed about 300 sales monthly to cover our costs. These were all direct sales through Zoom calls with parents and children, not passive online purchases.\n\nWhat really saved us from \"extinction\" was our product structure 🛡️. Unlike some companies that sell entire courses upfront, we designed our offering with extensions and additional courses in mind. We actively monitored product quality knowing that after a month or two, we would approach customers about extending their training. This approach has allowed us to build a comprehensive line of courses that clients can progress through, continually increasing their lifetime value 📈.\n\nBy seeing examples of what larger average checks could achieve in other businesses, I focused more on strategies to improve this metric, which ultimately helped fuel our faster growth in later stages 🚀.",
+      "signature": {
+        "name": "Alexander Moldovanov",
+        "title": "Business Owner, LatAm & Spain",
+        "company": "kodland"
+      },
+      "highlight": {
+        "title": "Bigger Sales Fix Bigger Problems",
+        "description": "Alexander learned a super important business secret: when customers pay more money per purchase, it's easier to fix mistakes and grow the business! He discovered that instead of just selling one short course, he could sell multiple courses to the same families over time. It's like a piano teacher who doesn't just teach one song but keeps teaching new songs for months - each family pays much more total money, which means the teacher can afford better equipment, hire helpers, and find more students. The key was making sure kids enjoyed the first course so parents would buy more courses later."
+      }
+    },
+    {
+      "id": "8",
+      "date": "2 years ago",
+      "avatar": "kodland",
+      "subject": "The Origin Story of kodland's International Expansion",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "learn from expansion pivots",
+        "link": "kodland.org/expansion-story"
+      },
+      "body": "You inquired about how kodland's international expansion journey began, which is quite an interesting story of adaptation and opportunity 📖.\n\nThe initial push toward internationalization started in late 2021, when growth in the home market had begun to slow down 📉. The company leadership recognized that to achieve unicorn status, expanding beyond our country would be essential. The UK was selected as our first international target, primarily because it was the only language market where we could build an effective management team with our existing resources 🇬🇧.\n\nWhy the UK instead of the US or other English-speaking markets? The US education market is predominantly B2B2C (business-to-business-to-consumer), requiring partnerships with schools 🏫. Our core expertise was in the direct B2C model, which seemed more viable in the UK. As for other English-speaking regions like Australia or New Zealand, language compatibility and time zone considerations favored the UK for managing operations from Europe.\n\nI joined the company in April 2022, shortly after the war began, when the company was already reassessing its international strategy 🌍. The UK operation had proven expensive and challenging, leading to significant financial losses. By the time I arrived, the company had begun running marketing tests across multiple markets from Indonesia to Mexico, looking for more promising opportunities.\n\nWhile I wasn't involved in the UK initiative, I can tell you it was led by a British country manager based in London who built a team around himself 👨‍💼. That operation was wound down about a month after I joined, as the company pivoted to explore other regions including Turkey, Indonesia, Latin America, and Europe.\n\nFor these new regions, the company primarily assigned talented internal team members as country managers - for instance, making a strong marketing person the lead for Europe, or an operations specialist the head for Turkey 🎯. Since they couldn't find an internal candidate with Latin American expertise, they recruited me externally.\n\nThe company had raised approximately $8 million in funding in January 2022, originally intended for UK expansion 💰. When circumstances changed dramatically, these resources were redirected toward testing multiple markets simultaneously, which is where my chapter of the story begins 🚀.",
+      "signature": {
+        "name": "Alexander Moldovanov",
+        "title": "Business Owner, LatAm & Spain",
+        "company": "kodland"
+      },
+      "highlight": {
+        "title": "When Plan A Fails, Try Plans B Through Z",
+        "description": "Alexander joined kodland right when their first international plan (expanding to the UK) wasn't working and was losing lots of money. Instead of giving up on international expansion completely, the company leaders decided to test lots of different countries at the same time to see which ones might work better. It's like when you're planning a party and your first venue cancels - instead of canceling the party, you quickly check out several different places to find one that works. Sometimes the backup plan turns out to be much better than the original plan!"
+      }
+    },
+    {
+      "id": "9",
+      "date": "2 years ago",
+      "avatar": "kodland",
+      "subject": "Our Approach to Customer Feedback and Product Adaptation",
+      "greeting": "Hi there,",
+      "cta": {
+        "message": "master product localization",
+        "link": "kodland.org/product-adaptation"
+      },
+      "body": "Your question about how we gathered customer feedback and adapted our product for Latin American audiences highlights an important aspect of our expansion strategy 🎯.\n\nRather than conducting extensive product testing or creating demos before launch, we took a more iterative approach 🔄. We started by launching our best-performing products largely as they were, with minimal localization beyond translation. This wasn't because we believed the product needed no adaptation, but because of time constraints - we couldn't afford an extended period of product refinement before generating revenue.\n\nOnce launched, we constantly monitored customer feedback and retention metrics 📊. Customer retention served as our primary indicator of product success - when we noticed metrics dropping for a particular course, we would dig deeper through interviews to understand the issues. This gave us a continuous feedback loop to refine our offerings.\n\nOne significant advantage in our model is that our product isn't just a digital platform - it includes live teachers 👩‍🏫. This human element allowed us to compensate for any initial shortcomings in the platform or content. Good teachers could adapt the delivery to meet local needs even when the underlying product wasn't perfectly tailored to the market.\n\nWe did systematically review our classes and interactions with customers, but comprehensive formal research didn't begin until about a year after launch 📅. Instead, we gathered insights incrementally, constantly making small adjustments based on what we learned.\n\nTo facilitate this process, we quickly hired local team members who could provide cultural context and deeper understanding of customer needs 🌍. This wasn't just about having salespeople who spoke the language, but building a team that inherently understood the market and could help evolve our product to better serve it.\n\nThis practical, iterative approach to product adaptation allowed us to balance the need for localization with the pressure to establish market presence quickly ⚡.",
+      "signature": {
+        "name": "Alexander Moldovanov",
+        "title": "Business Owner, LatAm & Spain",
+        "company": "kodland"
+      },
+      "highlight": {
+        "title": "Launch First, Perfect Later",
+        "description": "Alexander didn't spend months making the perfect product for Latin America before launching. Instead, he launched with a 'good enough' product and improved it based on what real customers told him. The secret weapon was having live teachers who could adapt their teaching style even when the course materials weren't perfect yet. It's like opening a restaurant with your best recipes and then adjusting the menu based on what customers actually order and enjoy, rather than trying to guess what they want before you open. Sometimes it's better to start serving customers and improve based on their feedback than to spend forever trying to make everything perfect."
+      }
+    },
+    {
+      "id": "10",
+      "date": "2 years ago",
+      "avatar": "kodland",
+      "subject": "Financial Goals and Market Selection Process",
+      "greeting": "Greetings!",
+      "cta": {
+        "message": "achieve rapid profitability",
+        "link": "kodland.org/financial-planning"
+      },
+      "body": "You were interested in our financial goals and the market selection process that guided our international expansion 💰.\n\nWhen we launched into new markets, we operated under extremely ambitious financial timelines ⏰. Our primary initial milestone was to make each region profitable within just three months - meaning we needed to cover all marketing costs, operations expenses, and salaries within that time frame. The second milestone was to ensure that the profits from all international regions combined could cover the company's overheads, making the entire company profitable within approximately six additional months.\n\nThese aggressive targets were driven by practical necessities - we had a limited cash runway and needed to reach sustainability quickly 🎯. While most companies might take years to achieve profitability in new markets, we didn't have that luxury.\n\nRemarkably, in Latin America, we managed to break even almost exactly on schedule - by the third month we had a small positive margin of a couple thousand dollars, and by the fourth month we were definitively profitable 📈. This success was mirrored in Turkey, with both regions leading our international performance at that time.\n\nOur market selection process was relatively straightforward but effective 📊. We looked at marketing indicators like CPL from silent tests across multiple countries, which helped us estimate our potential marketing costs. Simultaneously, we analyzed sociodemographic data for each country to determine what price points the market could support.\n\nWithout sufficient data to predict different conversion rates between countries, we assumed conversion would be similar across markets 🤔. This allowed us to create a simple decision matrix - we prioritized countries where potential pricing was higher and marketing costs were lower.\n\nThis pragmatic approach to market selection, combined with our lean operational model and disciplined focus on profitability, enabled us to achieve what many would consider impossible timelines for international market entry and breakeven 🚀.",
+      "signature": {
+        "name": "Alexander Moldovanov",
+        "title": "Business Owner, LatAm & Spain",
+        "company": "kodland"
+      },
+      "highlight": {
+        "title": "Make Money Fast or Don't Survive",
+        "description": "Alexander had to make the business profitable in just 3 months - much faster than most companies try to do! This forced him to be very careful about spending money and very focused on making money quickly. By the third month, they were making a small profit, and by the fourth month they were definitely making money. It's like having to make your lemonade stand profitable by the end of summer instead of having years to figure it out - you have to be very smart about your prices, costs, and customers from day one. This pressure actually helped them succeed because they couldn't waste time or money on things that didn't work."
+      }
+    },
+    {
+      "id": "11",
+      "date": "2 years ago",
+      "avatar": "kodland",
+      "subject": "Lessons Learned from Our Multi-Market Expansion",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "apply expansion lessons",
+        "link": "kodland.org/expansion-insights"
+      },
+      "body": "Your question about the key lessons we learned from launching in multiple markets simultaneously provides an opportunity to reflect on our unconventional approach to international expansion 🤔.\n\nThe most significant insight I gained from observing our various regional launches was that most teams were unnecessarily large for initial market entry 👥. Many regions started with bloated staffing, creating high overhead that required substantial revenue to sustain. Recognizing this, I deliberately kept our Latin American team extremely lean from the start.\n\nInstead of immediately focusing on scaling revenue, I prioritized optimizing our economic model 📊. We maintained minimal operations for about two months, generating just a few thousand dollars in weekly turnover while we refined our approach. I understood that scaling problematic operations would only magnify issues, so we focused first on achieving good end-to-end conversion rates with a small team.\n\nThis patient approach paid off dramatically 🚀. Once we had optimized our model, we scaled rapidly in just one month from our minimal operation to tens of thousands in monthly transactions. The foundation we built during those first two months of disciplined testing enabled us to grow confidently and profitably.\n\nAnother key lesson was the importance of tailoring our approach to each market's unique characteristics 🌍. While we maintained a consistent framework, we discovered that what worked in one country often performed differently in another. Mexico, for instance, proved quite different from South American countries, requiring specific adaptations.\n\nWe also learned to be deliberate about our expansion timing ⏰. When marketing costs in our initial market began rising exponentially, it signaled the right moment to expand to neighboring countries rather than continuing to push against diminishing returns.\n\nPerhaps the most valuable lesson was that in international expansion, patience in the earliest stages - taking time to get the model right before scaling - ultimately enables faster and more sustainable growth 💡. This contrasts sharply with the common approach of pursuing rapid growth before achieving operational efficiency.",
+      "signature": {
+        "name": "Alexander Moldovanov",
+        "title": "Business Owner, LatAm & Spain",
+        "company": "kodland"
+      },
+      "highlight": {
+        "title": "Perfect Your Recipe Before Opening More Restaurants",
+        "description": "Alexander learned that most companies hire too many people too quickly when entering new countries, which makes it expensive and hard to succeed. Instead, he kept his team tiny for two months while he figured out exactly how to make the business work well. Only after he had the perfect 'recipe' for success did he quickly hire more people and grow fast. It's like perfecting a cookie recipe with a small batch before making thousands of cookies - if you mess up the recipe, it's better to waste a small batch than a huge one. Going slow at first actually helped him go much faster later!"
       }
     }
   ]

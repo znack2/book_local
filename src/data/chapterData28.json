@@ -1,40 +1,188 @@
-
 {
   "emailColumn": {
-    "title": "Email Templates - Chapter 13",
+    "title": "debexpert: Building Global Debt Trading Platform",
     "authorInfo": {
       "title": "About the Author",
-      "description": "Dr. Sarah Kim specializes in data analytics and business intelligence with focus on predictive modeling and decision support systems."
+      "description": "Sasha Danilov is the co-founder of debexpert, an online debt trading platform that began operations in the CIS region in 2019-2020. Under his leadership, the company expanded to multiple international markets including the United States, Europe, and Asia, building one of the leading digital platforms for non-performing loan (NPL) trading with over 300 platform updates in 2.5 years."
     },
     "materialsUsed": [
-      "Provost, F. (2013). Data Science for Business. O'Reilly Media.",
-      "Davenport, T. (2017). Competing on Analytics. Harvard Business Press.",
-      "Kimball, R. (2013). The Data Warehouse Toolkit. Wiley.",
-      "MIT Technology Review (2023). \"AI in Business Decision Making\" - Data Science Quarterly."
+      "Global Debt Report 2024. OECD. Analysis of sovereign and corporate debt markets worldwide.",
+      "Debt Financing Market Size, Share, Growth Report 2024. Market.us. Global market analysis showing 11.1% CAGR growth.",
+      "Debt Settlement Market Analysis 2025-2034. GM Insights. North America market dynamics and growth projections.",
+      "debexpert Platform Features and International Expansion. Company documentation and market entry strategies."
     ],
     "keyTakeaways": {
       "title": "Key Takeaways",
-      "description": "Data-driven decision making requires quality data, proper analysis tools, and organizational commitment to evidence-based strategies."
+      "description": "debexpert's international expansion reveals critical lessons about global market entry: focus beats scattered expansion, cultural adaptation is essential, and home market success doesn't guarantee international results. The company learned that different markets require different approaches - from relationship-based selling in the US to navigating regulatory challenges in Europe. Success came from hiring diverse talent (including Indian professionals in the US market) and adapting sales strategies to local market dynamics. The biggest lesson: be more selective about market entry and wait for clear evidence of viability before committing resources."
     }
   },
   "emails": [
     {
       "id": "1",
-      "sender": "Sarah Kim",
-      "date": "2 days ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-3.png",
-      "subject": "Data Analytics Mastery: Turn Data into Competitive Advantage",
-      "preview": "Dear Data Professional, transforming raw data into actionable insights is the key to staying competitive in today's market. Discover advanced analytics techniques...",
-      "signature": {
-        "name": "Sarah Kim",
-        "title": "Data Analytics Director",
-        "company": "InsightDriven Analytics"
+      "date": "2 years ago",
+      "avatar": "debexpert",
+      "subject": "Our First Steps in International Markets",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "explore debt trading expansion guide",
+        "link": "https://www.debexpert.com/features"
       },
-      "meta": "Template • Analytics",
-      "likes": 81,
+      "body": "You inquired about how we began our international expansion and what motivated our early decisions. Let me share our story 📖.\n\nWe started debex in CIS around 2019-2020, where we raised initial investment 💰. By the end of 2019, we faced a crisis when our investor only provided half the promised funding, but we managed to pull through in 2020.\n\nBy late 2020 or early 2021, we quickly realized the home market was too small for our ambitions - particularly in the debt segment 📊. We were conquering it rapidly, but saw its limitations. We had reached profitability by 2020 📈, which gave us the confidence to explore other countries.\n\nOur team included six co-founders, and many of us had romanticized views about expanding to the United States 🇺🇸. America represented the largest economy and biggest opportunity, with its Silicon Valley culture and abundance of investment funds. We initially believed we could operate from home by finding local managers and establishing legal entities remotely.\n\nWithin a short timeframe, we expanded to multiple markets simultaneously: the United States, Spain, Kazakhstan, and several Asian countries including the Philippines, Vietnam, and Mexico 🌍.",
+      "signature": {
+        "name": "Sasha Danilov",
+        "title": "Co-founder",
+        "company": "debexpert"
+      },
       "highlight": {
-        "title": "Advanced Analytics Framework",
-        "description": "Comprehensive data strategy with predictive modeling and real-time business intelligence dashboards"
+        "title": "The Scattered Expansion Trap",
+        "description": "When your home market feels too small, it's tempting to expand everywhere at once. But spreading resources across many markets at the same time is like trying to catch multiple butterflies - you often end up catching none. Focus on one or two markets first, get them right, then expand to others."
+      }
+    },
+    {
+      "id": "2",
+      "date": "2 years ago",
+      "avatar": "debexpert",
+      "subject": "Why America First: The Romantic Appeal",
+      "greeting": "Greetings!",
+      "cta": {
+        "message": "learn about US debt market entry",
+        "link": "https://www.debexpert.com/"
+      },
+      "body": "You were curious about why we specifically targeted America as our first international market despite being small in our home country 🤔.\n\nAmerica always felt like the default first choice when expanding internationally. With six co-founders all favoring American expansion, there was strong internal alignment. We weren't exclusively focused on America though - we simultaneously considered several markets.\n\nWe followed different models for different countries 🌏. For most markets, we sought local partners who could represent us. However, for the United States, one of our co-founders named Vanya said, \"I have a dream, and I want to move there.\" He wanted to realize his own business potential rather than working through partners.\n\nThe American market proved challenging despite relatively limited competition in our debt platform segment globally 💪. What made America unique was its scale - unlike other countries where we typically found about 100 buyers and 100 sellers, the US market had thousands or even tens of thousands of debt sellers 📊. This created an entirely different sales environment where most sellers were one-time participants rather than regular institutional players.\n\nThis \"disposable salesperson\" dynamic completely changed our approach and made fraud risk management much more complex than in our other markets ⚠️.",
+      "signature": {
+        "name": "Sasha Danilov",
+        "title": "Co-founder",
+        "company": "debexpert"
+      },
+      "highlight": {
+        "title": "Scale Changes Everything",
+        "description": "A bigger market isn't just a larger version of a smaller one - it's completely different. When you go from 100 sellers to 10,000 sellers, you're not just scaling up, you're entering a different game with different rules, different players, and different challenges."
+      }
+    },
+    {
+      "id": "3",
+      "date": "2 years ago",
+      "avatar": "debexpert",
+      "subject": "CIS vs International Markets: Focus Decisions",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "discover market analysis methods",
+        "link": "https://www.debexholding.com/"
+      },
+      "body": "You asked why we didn't simply focus on becoming a monopoly at home rather than pursuing international growth 🏠. That's an excellent question.\n\nThere was limited value in total market dominance at home. We grew to about 20% market share in our first year and eventually reached around 30%, but pushing beyond that proved extremely difficult 📈. The local debt market doesn't imply strong monetization opportunities - clients need service quality rather than price advantages.\n\nWhile we did achieve the #1 position 🥇, we weren't far ahead of #2, and everyone had similar capabilities. We realized the effort required to dominate completely might not be worthwhile or even possible, as the market itself would resist such consolidation. We attempted to acquire some competitors but weren't successful.\n\nInstead, we saw greater potential in geographic expansion 🌍. Our approach to entering new markets followed a consistent pattern. For each potential country, we:\n\n1. Analyzed the market size through central bank reports and questionnaires 📊\n2. Estimated the number of buyers and sellers\n3. Assessed transaction volume and market potential 💰\n4. Calculated what percentage of the market we needed to capture for the venture to be viable\n\nIf we needed 50% market share to break even, we wouldn't enter. But if 5% was sufficient, particularly without strong existing competition, we considered it viable ✅, especially since we'd only be competing against traditional direct sales models.",
+      "signature": {
+        "name": "Sasha Danilov",
+        "title": "Co-founder",
+        "company": "debexpert"
+      },
+      "highlight": {
+        "title": "The 5% Rule for Market Entry",
+        "description": "Before entering any new market, ask yourself: what percentage of the market do we need to capture to make this worthwhile? If you need more than 10-20% of the market to succeed, it might be too risky. Look for markets where 5% is enough to build a sustainable business."
+      }
+    },
+    {
+      "id": "4",
+      "date": "2 years ago",
+      "avatar": "debexpert",
+      "subject": "Our Market Selection Process",
+      "greeting": "Hi there,",
+      "cta": {
+        "message": "explore market research tools",
+        "link": "https://www.debex-asia.com/"
+      },
+      "body": "You were wondering about our criteria for selecting international markets 🎯. Let me explain our approach.\n\nWe prioritized markets primarily by debt portfolio size 💼. For Europe, we consulted European Central Bank data to identify the largest markets. This led us to focus on countries like Poland, Germany, France, and the UK 🇪🇺.\n\nIn Asia, we targeted debt-heavy markets, avoiding smaller economies like Singapore and focusing on larger opportunities 🌏. While we considered India and Pakistan, those markets haven't worked out for us so far.\n\nOur research process started with high-level data from central banks and similar sources 🏦, and then progressed to more detailed market analysis. We prepared detailed questionnaires for our partners that directly mapped to our financial model, gathering information on market volumes, transaction types, and buyer/seller dynamics.\n\nBy connecting with 10-20 actual market participants 🤝, we could construct a reliable pattern of how the market functioned, even if individual accounts varied. This gave us confidence in estimating market size, segments, and potential market share.\n\nWhile this research wasn't perfectly accurate 📊, it provided enough visibility to make informed decisions about which markets justified investment. We typically sought markets where we could realistically capture 5-10% market share within the first year 🎯.",
+      "signature": {
+        "name": "Sasha Danilov",
+        "title": "Co-founder",
+        "company": "debexpert"
+      },
+      "highlight": {
+        "title": "Talk to Real People, Not Just Data",
+        "description": "Market research reports are helpful, but they don't tell the whole story. The best way to understand a market is to talk to 10-20 actual people who work in it. They'll tell you things that no report ever will - like how deals really get done and who actually makes the decisions."
+      }
+    },
+    {
+      "id": "5",
+      "date": "2 years ago",
+      "avatar": "debexpert",
+      "subject": "Finding and Working with Local Partners",
+      "greeting": "Hello,",
+      "cta": {
+        "message": "learn partnership strategies",
+        "link": "https://www.debexpert.com/features"
+      },
+      "body": "You inquired about how we identified partners in different countries and structured our working relationships 🤝. Our approach evolved through trial and error.\n\nInitially, we didn't have a systematic process. In some cases, we worked through connections - like a woman handling property matters who found us contacts in Mexico and Spain 🌎. For many partners, the bar wasn't particularly high: we sought individuals who could establish legal entities locally and had some B2B sales experience. Ideally, we wanted people with debt sales experience, but these were difficult to find 🔍.\n\nFor example, in Poland 🇵🇱, we connected with someone who had Polish-Ukrainian roots whom I'd met previously. When he left his foundation job looking to start a business, I suggested he explore our opportunity. He conducted market research, liked what he saw, and became our country manager, hiring local Poles.\n\nThe ideal arrangement was finding a country manager who could communicate effectively with our headquarters while serving as the interface with the local team 💼. This eliminated the need for every team member to speak our language.\n\nOur operations in each market followed a structured plan including legal setup, site localization, training, and systematic sales development 📋. These steps were largely consistent across most markets, with the notable exception of the United States, which required a different sales funnel approach.\n\nFor Poland specifically, we took a more direct approach similar to the US rather than working through partners. The market was attractive enough to justify direct investment, and we moved quickly to establish operations. However, in early 2022-2023, we encountered sudden challenges when banks refused to work with us ⚠️, causing our entire team to disperse within weeks.",
+      "signature": {
+        "name": "Sasha Danilov",
+        "title": "Co-founder",
+        "company": "debexpert"
+      },
+      "highlight": {
+        "title": "The Country Manager Sweet Spot",
+        "description": "The perfect local partner is someone who can speak your language (literally and figuratively) but also understands the local market deeply. They're like a bridge between two worlds - they can translate your vision into something that makes sense locally."
+      }
+    },
+    {
+      "id": "6",
+      "date": "2 years ago",
+      "avatar": "debexpert",
+      "subject": "The Reality of Growing International Operations",
+      "greeting": "Hi there,",
+      "cta": {
+        "message": "discover operational challenges",
+        "link": "https://www.debexholding.com/"
+      },
+      "body": "You asked about when we started seeing results and what challenges we faced in our different markets 📊.\n\nOur timelines varied significantly by country. In Poland, we saw our first deals within about four months after launch and generally followed our financial plans 📈. However, we eventually had to exit the market due to banking issues.\n\nThe US market presented different challenges 🇺🇸. While we secured deals relatively quickly, they were smaller than anticipated and highly unpredictable. Unlike CIS, where deals followed predictable patterns, the US market felt more like \"picking mushrooms\" 🍄 - you never knew what you might find. The most successful approach proved to be building relationships with repeat clients rather than handling one-off transactions.\n\nThis relationship-based model didn't work perfectly in other regions either. In Asia 🌏, we found clients we could work with multiple times, but they typically only did 1-2 deals per year, with uncertain transaction confirmation rates. Mexico had regular buyers, but the transaction volume was limited - around $50,000 per quarter, which wasn't particularly significant 💰.\n\nOur country manager selection process was critical. When hiring, I developed an interesting approach: I would ask candidates to imagine they had conceived our business model themselves but lacked funding 💡. I'd ask them to prepare a presentation as if I were a potential investor, explaining their market approach, pricing strategy, and service levels. This helped identify people who could think strategically.\n\nCulturally, we discovered significant differences in work approaches 🌍. We initially expected everyone to operate with the same motivation and problem-solving mentality we saw in our home teams, but this wasn't the case. Asian teams tended to put in effort but with less efficiency, Europeans strictly defined their responsibilities and wouldn't go beyond them, and Americans demonstrated clear specialization preferences (focusing solely on closing deals or only on calling prospects).",
+      "signature": {
+        "name": "Sasha Danilov",
+        "title": "Co-founder",
+        "company": "debexpert"
+      },
+      "highlight": {
+        "title": "Every Market Has Its Own Personality",
+        "description": "Just like people, every market has its own personality. Some are predictable (like following a recipe), others are like picking mushrooms (you never know what you'll find). Understanding each market's personality helps you adapt your approach and set realistic expectations."
+      }
+    },
+    {
+      "id": "7",
+      "date": "2 years ago",
+      "avatar": "debexpert",
+      "subject": "Personnel Strategy and Management Approach",
+      "greeting": "Greetings!",
+      "cta": {
+        "message": "explore hiring strategies",
+        "link": "https://www.debexpert.com/"
+      },
+      "body": "You were curious about our hiring strategies across different markets and which approaches proved most effective 👥.\n\nWe experimented with different hiring models. In the US 🇺🇸, we initially believed we should only hire Americans, assuming local people would connect best with local clients. However, these hires underperformed despite higher compensation 💰.\n\nInterestingly, we found greater success with Indian team members in the US market 🇮🇳. They demonstrated strong performance and adapted well to the financial sector, where Indian professionals are already well-established.\n\nIn Poland 🇵🇱, we worked through a country manager with a mixed cultural background who then hired local Polish employees. In Mexico 🇲🇽, we hired local staff to assist with client prospecting. In most other partner countries, the partners handled their own hiring.\n\nThe management structure remained relatively straightforward - I assigned team members who were interested in international work to oversee specific regions 🌍. One team member managed markets like Kazakhstan, while English and Spanish speakers handled Latin America and Spain.\n\nRemote work became our standard operating model, especially after COVID-19 💻. By 2020, our business became entirely remote, with employees across many time zones. We developed a culture of online meetings and found this approach worked effectively, despite some traditionalists insisting that \"real business\" requires in-person interaction.\n\nWe've found that sales can be conducted remotely in virtually all markets 📞. While we occasionally participate in conferences, traditional face-to-face meetings are rarely necessary for closing deals.",
+      "signature": {
+        "name": "Sasha Danilov",
+        "title": "Co-founder",
+        "company": "debexpert"
+      },
+      "highlight": {
+        "title": "Sometimes the Best Local Hire Isn't Local",
+        "description": "Don't assume that hiring locally always means hiring natives. Sometimes the best person for your market is someone who understands both cultures - your company culture and the local market culture. They can bridge the gap better than someone who only knows one side."
+      }
+    },
+    {
+      "id": "8",
+      "date": "2 years ago",
+      "avatar": "debexpert",
+      "subject": "Learned Lessons and Future Approach",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "access expansion playbook",
+        "link": "https://www.debexpert.com/features"
+      },
+      "body": "You asked about the key lessons we've learned from our international expansion experience and what we'd do differently next time 📚.\n\nThe biggest lesson has been the importance of focused growth rather than simultaneous expansion 🎯. I would be much more selective about which markets to enter, focusing on 1-2 directions rather than pursuing every opportunity. We were overly optimistic about finding quick success internationally.\n\nFor future market entries, I would be much more pragmatic and skeptical about opportunities 🔍. We discovered that simply identifying a potential market doesn't mean we should immediately invest there. I'd wait for clear evidence of viable business before committing resources.\n\nRegarding specific markets:\n- We exited Asia after realizing there were too few institutional buyers 🌏\n- Poland was showing promise but political circumstances forced our withdrawal 🇵🇱\n- The US remains challenging but has long-term potential without market ceiling constraints 🇺🇸\n\nWorking with Americans required a larger budget than we initially allocated 💰. With limited resources, hiring decisions felt like playing roulette. Our success with Indian professionals in the US market was an unexpected discovery that worked well, as they were culturally integrated into the financial sector.\n\nCultural differences significantly impacted business operations 🌍. Europe moves extremely slowly, with a common refrain being \"it doesn't work like that here.\" The US is relatively fast for decision-making but can be slower in execution. Asia presented trust challenges and different negotiation norms - agreements often seemed uncertain even after apparent confirmation.\n\nI believe we're still learning to navigate these cultural dimensions 📖. We've become more comfortable in Mexico and the US, but Asian markets remained largely impenetrable for us.",
+      "signature": {
+        "name": "Sasha Danilov",
+        "title": "Co-founder",
+        "company": "debexpert"
+      },
+      "highlight": {
+        "title": "Wait for Proof Before You Invest",
+        "description": "Just because a market looks good on paper doesn't mean you should jump in immediately. Wait for clear signals that customers actually want what you're selling and are willing to pay for it. A little patience upfront can save you a lot of money and headaches later."
       }
     }
   ]

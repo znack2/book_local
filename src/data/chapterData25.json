@@ -1,40 +1,273 @@
-
 {
   "emailColumn": {
-    "title": "Email Templates - Chapter 13",
+    "title": "BeOptic: From AI Studio to Global Vision, Journey Through MENA, Qatar, and Silicon Valley",
     "authorInfo": {
       "title": "About the Author",
-      "description": "Dr. Sarah Kim specializes in data analytics and business intelligence with focus on predictive modeling and decision support systems."
+      "description": "Roma is the founder of BeOptic (formerly EORA), an AI and machine learning studio that expanded from Russia to international markets including MENA, Qatar, and the United States. With experience from the Displayer company's international operations and four years in AI development, Roma pioneered one of the first ML studios in his local market. He later founded Optica.com, developing AI Note for music platform fraud detection, and currently leads a biotech venture focused on drug discovery for pharmaceutical companies. Roma divides his time between Dubai and San Francisco, embodying the international entrepreneur lifestyle he always envisioned."
     },
     "materialsUsed": [
-      "Provost, F. (2013). Data Science for Business. O'Reilly Media.",
-      "Davenport, T. (2017). Competing on Analytics. Harvard Business Press.",
-      "Kimball, R. (2013). The Data Warehouse Toolkit. Wiley.",
-      "MIT Technology Review (2023). \"AI in Business Decision Making\" - Data Science Quarterly."
+      "Dubai AI Campus Initiative Reports. (2024). DIFC AI Hub and Future Sustainability Programs - https://dubaiaicampus.com/",
+      "MENA Tech Startup Market Difficulty Report. (2024). Clearworld Analysis of 30 Industry Sectors - https://clear.world/mena-tech-startup-market-difficulty-report-2024",
+      "UAE Startup Ecosystem Valuation Report. (2024). Fast Company ME - $23 Billion Market Analysis - https://fastcompanyme.com/news/uaes-startup-ecosystem-valued-at-23-billion-by-end-of-2023/",
+      "Y Combinator Success Analysis. (2025). ByteBridge Medium - Comprehensive Accelerator Impact Study - https://bytebridge.medium.com/y-combinator-a-comprehensive-analysis-of-the-worlds-leading-startup-accelerator-5c927b8af7ae",
+      "Google AI First Accelerator MENA Launch. (2024). Wamda - Dubai Future Foundation Initiative - https://www.wamda.com/2024/10/google-launches-ai-startup-accelerator-mena"
     ],
     "keyTakeaways": {
-      "title": "Key Takeaways",
-      "description": "Data-driven decision making requires quality data, proper analysis tools, and organizational commitment to evidence-based strategies."
+      "title": "Strategic Insights for International AI Expansion",
+      "description": "BeOptic's journey reveals critical lessons for AI startups expanding internationally. Key insights include: Physical presence is non-negotiable for B2B sales - remote selling rarely works in international markets, especially MENA and America. Cultural adaptation goes beyond language - understanding meeting preferences, communication styles, and business relationship dynamics is essential. Hackathons and competitions provide powerful market entry strategies, offering visibility and instant credibility as domain experts. Hiring non-native speakers early forces English adoption and global mindset development. Market research should balance analytics with rapid execution - over-analysis can paralyze small studios that need to move fast. Geographic and political factors significantly impact market access - Qatar's regional conflicts limited expansion despite initial success. For serious global expansion, founders must commit fully to living in target markets rather than managing remotely."
     }
   },
   "emails": [
     {
       "id": "1",
-      "sender": "Sarah Kim",
-      "date": "2 days ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-3.png",
-      "subject": "Data Analytics Mastery: Turn Data into Competitive Advantage",
-      "preview": "Dear Data Professional, transforming raw data into actionable insights is the key to staying competitive in today's market. Discover advanced analytics techniques...",
-      "signature": {
-        "name": "Sarah Kim",
-        "title": "Data Analytics Director",
-        "company": "InsightDriven Analytics"
+      "date": "3 years ago",
+      "avatar": "beoptic",
+      "subject": "The Global Vision: From Displayer Lessons to International Dreams",
+      "greeting": "Hi there,",
+      "cta": {
+        "message": "explore Dubai AI ecosystem",
+        "link": "https://dubaiaicampus.com/"
       },
-      "meta": "Template • Analytics",
-      "likes": 81,
+      "body": "Regarding when I first started thinking about going global - the idea came probably right before covid, around 2018-19. I already had experience with international markets from the Displayer company, which had operations in America 🇺🇸 and production in China 🇨🇳. I saw how hard it was - our guys lived there for weeks, someone was constantly deceiving us.\n\nI always dreamed of living the life I have now - flying a lot ✈️, traveling extensively. This freedom of movement has materialized into flights, negotiations, and different countries. Dubai is now my most convenient base - I live there and spend about 4 months in San Francisco 🌉 with many business trips.\n\nAt that time, <a href='https://eora.ai'>EORA</a> was one of the first machine learning studios in our local market, if not the first. We'd been working in AI for about four years and felt the desire to try ourselves internationally as a studio since we didn't have products, just expertise. We don't have investors - EORA was initially founded by me, then partners appeared. There was no external push. I wanted to be international, do something big, global. 🚀",
+      "signature": {
+        "name": "Roma",
+        "title": "Founder",
+        "company": "BeOptic / EORA"
+      },
       "highlight": {
-        "title": "Advanced Analytics Framework",
-        "description": "Comprehensive data strategy with predictive modeling and real-time business intelligence dashboards"
+        "title": "Learning from Pain: Why Bad International Experience Can Be Good Teacher",
+        "description": "Sometimes the worst experiences teach the best lessons! Roma's early disaster with Displayer - where people lived in other countries for weeks and got tricked - was actually super valuable. It's like touching a hot stove teaches you not to do it again! Instead of being scared, he learned what NOT to do and got excited about doing international business the RIGHT way. He realized he needed to be smarter about how to work with people in other countries and not get fooled by dishonest partners."
+      }
+    },
+    {
+      "id": "2",
+      "date": "3 years ago",
+      "avatar": "beoptic",
+      "subject": "Why MENA Over Europe and America: The Strategic Market Choice",
+      "greeting": "Hi,",
+      "cta": {
+        "message": "discover MENA startup trends",
+        "link": "https://clear.world/mena-tech-startup-market-difficulty-report-2024"
+      },
+      "body": "You asked about choosing MENA as our first international market. Europe is quite poor, complex, and lengthy. America requires completely changing your life to move there - very difficult; you can't sit on two chairs. 🪑\n\nThe Middle East is close to us mentally - you can understand them quickly. They're much simpler than Indians 🇮🇳 or especially Chinese 🇨🇳. I still believe the Middle East and Africa will grow rapidly because it's the only place where cheap labor is preserved. People there still live on $5 💵, so capitalism in neoclassical form is possible.\n\nWe didn't do much cabinet research. China and India have huge AI competition. London looked interesting, but we were afraid we wouldn't handle it financially - setting up a studio there would be expensive 💸. The Middle East seemed attractive - they're open to innovation, need AI, and everything is tied to dollars 💰, which is very profitable and easy with legal entities and banks.\n\nI'm from the category of people who are about ideas 💡, not just money. It wasn't important to me what market share we occupy - the quality of projects we do is important. I never had the idea to cut everyone in the market.",
+      "signature": {
+        "name": "Roma",
+        "title": "Founder",
+        "company": "BeOptic / EORA"
+      },
+      "highlight": {
+        "title": "Smart Market Selection: Why Simple Can Be Better Than Big",
+        "description": "Roma made a really smart choice by picking markets that were easier to understand instead of just the biggest ones! It's like choosing to play a video game on medium difficulty instead of expert level when you're still learning. China and India might have huge opportunities, but they're super complicated and competitive. The Middle East was like finding the perfect middle ground - good opportunities, easier to understand the culture, and not as crowded with competitors. Sometimes the 'easier' choice is actually the smarter choice!"
+      }
+    },
+    {
+      "id": "3",
+      "date": "3 years ago",
+      "avatar": "beoptic",
+      "subject": "The Hackathon Strategy: Winning Qatar's First AI Competition",
+      "greeting": "Hello,",
+      "cta": {
+        "message": "learn about AI competitions",
+        "link": "https://www.wamda.com/2024/10/google-launches-ai-startup-accelerator-mena"
+      },
+      "body": "Concerning our specific strategy - I actually hadn't even been to Dubai when we decided. We'd won millions in competitions 🏆, various Kaggle competitions, hackathons. We realized Dubai might be expensive, but Qatar was preparing for the World Championship with quite a lot of money 💰 and movement.\n\nThe strategy was going through hackathons. When you win them consistently, it can work because you show yourself as an expert 🧠. We went to Qatar-Con - the first hackathon in Qatar's history. Why MENA specifically? In Innopolis where we had an office, there were many Egyptians and Syrians. It was easy to get expertise from Arabic speakers 🗣️. I knew we could build an Arabic subdivision since they all speak Arabic naturally.\n\nWe won the first hackathon in Qatar's history 🥇, which gave us many connections. We met everyone - universities 🎓, tech parks (there are two there). We agreed on starting a company there. But we miscalculated. There were conflicts between the Emirates and Qatar 🌊, and I thought they were establishing relations. I believed that from a Qatari company, you could work with any MENA market. This turned out to be completely wrong ❌. The only thing you can do is micro companies for the Qatar market, and that's it.",
+      "signature": {
+        "name": "Roma",
+        "title": "Founder",
+        "company": "BeOptic / EORA"
+      },
+      "highlight": {
+        "title": "Hackathons as Business Cards: Why Winning Competitions Opens Doors",
+        "description": "Think of hackathons like talent shows on TV - when you win, everyone suddenly knows you're good at what you do! Roma was super smart to use competitions as his way to meet important people and prove his team was excellent at AI. It's much better than just sending emails saying 'we're good' - winning competitions SHOWS you're good. But he learned an important lesson about politics: just because two countries are neighbors doesn't mean companies from one can easily work in the other. Sometimes grown-up countries have fights that affect business!"
+      }
+    },
+    {
+      "id": "4",
+      "date": "3 years ago",
+      "avatar": "beoptic",
+      "subject": "Physical Presence Imperative: Why B2B Requires Being There",
+      "greeting": "Hi,",
+      "cta": {
+        "message": "read UAE startup insights",
+        "link": "https://fastcompanyme.com/news/uaes-startup-ecosystem-valued-at-23-billion-by-end-of-2023/"
+      },
+      "body": "One crucial lesson I learned: in Dubai, you can't sell without being there, like in America 🇺🇸. Probably in B2C products you can, but in B2B - zero chances ❌. You need to be physically in the region where you have business. I don't believe otherwise in B2B.\n\nWe were engaged in MENA for about a year ⏰. Then the war started, and I started another company that was immediately international. EORA still engaged internationally, but we did a couple of projects and realized it doesn't work the way we thought.\n\nWhen you asked about deadlines - I don't set strict deadlines 📅. The main thing is technological community and technology perceptiveness. I didn't set myself \"if it doesn't work, we abandon it\" - this is obvious anyway. If for six months or a year it didn't work and there are no prospects, you either start something from scratch or return to what worked. There are people who kick a dead idea for three years - it's important for them to set deadlines ⏰.",
+      "signature": {
+        "name": "Roma",
+        "title": "Founder",
+        "company": "BeOptic / EORA"
+      },
+      "highlight": {
+        "title": "The Magic of Being There: Why Video Calls Don't Replace Handshakes",
+        "description": "Roma discovered something super important: when you're trying to sell to businesses (B2B), you absolutely MUST be there in person! It's like trying to make friends through a screen versus hanging out in real life - it's just not the same. Business people want to see you, shake your hand, have tea together, and know you're committed to being in their city. If you're far away on a video call, they think 'this person isn't serious about us.' It's like the difference between a pen pal and a real friend who lives nearby!"
+      }
+    },
+    {
+      "id": "5",
+      "date": "3 years ago",
+      "avatar": "beoptic",
+      "subject": "Building International Teams: The English-First Strategy",
+      "greeting": "Hello,",
+      "cta": {
+        "message": "explore team building strategies",
+        "link": "https://dubaiaicampus.com/"
+      },
+      "body": "About team distribution - we divided completely. We had Jordanians leading this team, several Egyptians who didn't speak our language at all. The Jordanians were at hand because of Innopolis - many students study there from Syria, Jordan, Egypt 🎓.\n\nThis is crucial for international companies: hire at least one or two people who don't speak your language 🗣️, so the whole company switches to English and thinks in English. Otherwise, you won't grow into global culture. The earlier you go through this painful process - when it's easier to discuss everything in your home language but you switch completely to English - the better 💪.\n\nFor international markets, sales, marketing, PR, project management all should be local 📍. Developers can be local. We had account functions in projects - if you ordered a project from us, first you had onboarding with sales accounts, then a project manager reports to you. We didn't split this into two people because clients want to know exactly what's happening, and the client speaks Arabic or English 🗣️.",
+      "signature": {
+        "name": "Roma",
+        "title": "Founder",
+        "company": "BeOptic / EORA"
+      },
+      "highlight": {
+        "title": "The Smart Language Trick: How Non-Native Speakers Force Global Thinking",
+        "description": "Roma discovered a brilliant trick for becoming truly international! He hired people who couldn't speak his native language, which FORCED everyone to speak English all the time. It's like joining a sports team where everyone speaks different languages - you all have to use the common language to work together. This was hard at first (like learning to write with your opposite hand), but it made the whole company think like a global company instead of a local one trying to go global. Smart idea!"
+      }
+    },
+    {
+      "id": "6",
+      "date": "3 years ago",
+      "avatar": "beoptic",
+      "subject": "Cultural Mysteries: PR, Marketing, and the MENA Puzzle",
+      "greeting": "Hi there,",
+      "cta": {
+        "message": "understand MENA market dynamics",
+        "link": "https://clear.world/mena-tech-startup-market-difficulty-report-2024"
+      },
+      "body": "You mentioned why PR and marketing can't be done remotely - they don't know the market or cultural specifics. How is PR arranged in the Emirates? It's a big mystery 🤔. There's no single newspaper - there's Khalifa Times-like publications, but these aren't New York Times 📰. There are many cultures living in their bubbles here. Which bubble do you need? 💭\n\nEach market has huge amounts of specifics in MENA that you won't understand until you break against the rocks ⛰️. You get those situations where you are shocked. You think you're cool, everything's great, but they tell you \"no, actually.\" This happens in almost all markets.\n\nWhen you asked about market research - we looked at analytics a little, compiled maps of companies, contact maps, and went through LinkedIn 💼. But you need to understand that EORA is a small company with 25-30 people 👥. For a big company, I'd hire analysts and make this decision for a long time. When you're a small studio, you need to go sell 💰. You can get buried in analytics and still lose.",
+      "signature": {
+        "name": "Roma",
+        "title": "Founder",
+        "company": "BeOptic / EORA"
+      },
+      "highlight": {
+        "title": "The Research Trap: When Too Much Thinking Stops You From Doing",
+        "description": "Roma learned that there's a difference between being smart and being paralyzed by too much research! For big companies, spending months studying the market makes sense. But for small companies, it's like spending so much time planning the perfect camping trip that summer ends before you actually go camping! Sometimes you need to do basic research and then just jump in and learn by doing. You can always study forever, but at some point you have to actually try selling to real customers to see what works!"
+      }
+    },
+    {
+      "id": "7",
+      "date": "3 years ago",
+      "avatar": "beoptic",
+      "subject": "Meeting Cultures: Tea in Dubai vs Zoom in America",
+      "greeting": "Hi,",
+      "cta": {
+        "message": "learn about business cultures",
+        "link": "https://dubaiaicampus.com/"
+      },
+      "body": "About meeting cultures - in Emirates, if you suggest a meeting via Zoom, it's super bad tone 📞. They'll say \"Let's meet in person.\" If you say you're in Moscow and suggest Zoom, they think \"Don't you respect me? We have tea 🫖.\" If you don't meet in person, it's always perceived badly because it's generally super rude. You should definitely meet in person and most likely meet many times.\n\nIn America, personality is very important too, but Zoom is still acceptable 💻. For them, it's super important that you deeply understand American conversation culture, joke culture, meta context, and speak very well in English. If you could stand up and they'd laugh, that's one thing, but if you can't brightly tell a story or concisely express yourself, they'll politely tell you \"yes but no\" 🙅‍♂️.\n\nIn America, you need to really put on Americanness 🇺🇸. You should very strongly change the firmware in your head and make it American. Remotely working with America B2B? I don't believe it at all. Only if you have something very cheap and needed.",
+      "signature": {
+        "name": "Roma",
+        "title": "Founder",
+        "company": "BeOptic / EORA"
+      },
+      "highlight": {
+        "title": "Cultural Software Updates: Why Your Brain Needs Different 'Firmware' for Each Country",
+        "description": "Roma explains business culture like updating software on your phone! In Dubai, suggesting a Zoom meeting instead of meeting for tea is like wearing pajamas to a wedding - technically possible but totally wrong. In America, you need to reprogram your brain to think like an American - understand their jokes, tell stories their way, and speak so well they forget you're not from there. It's like learning to play different video games - each one has different rules and you need to master them to win!"
+      }
+    },
+    {
+      "id": "8",
+      "date": "3 years ago",
+      "avatar": "beoptic",
+      "subject": "AI Note Product: From Music Fraud Detection to Global Scale",
+      "greeting": "Hello,",
+      "cta": {
+        "message": "explore AI detection technology",
+        "link": "https://optica.com"
+      },
+      "body": "When you mentioned our product development - I created AI Note as part of <a href='https://optica.com'>Optica.com</a>. It predicts whether images generated by sounds and music are AI, human, or mixed 🎵🤖. This is needed for KYC and music platforms. Apple 🍎, Spotify 🎧 don't want people uploading songs with Drake's voice because they're gamed by bots. Sony Music comes and says this voice belongs to them, why did your moderators allow this upload.\n\nWe immediately went global because when you're in America, there's either only the American market, which equals the global market 🌍. We had an American co-founder, so there was no talk of other markets.\n\nFor foreign markets, you should start with advisors 👥. Take about 3-4% equity and give it to advisors, but it's important that advisors work under KPIs 📊. Not just \"we gave you 10 percent,\" but they actually make investor meetings where you pitch. So a vice-president of META could tell his friends at a barbecue about you 🔥. We had MAU of 50 thousand visits per month organically in the first three months 📈, growing 20-30% week to week without any advertising.",
+      "signature": {
+        "name": "Roma",
+        "title": "Founder",
+        "company": "BeOptic / EORA"
+      },
+      "highlight": {
+        "title": "The Advisor Superpower: Why Smart People Talking About You Beats Advertising",
+        "description": "Roma discovered that having the right advisors is like having popular kids at school tell everyone you're cool! Instead of spending money on ads, he gave small pieces of his company to important people who would actually work to help him succeed. These advisors don't just take the equity and disappear - they have to hit specific goals (KPIs) and introduce him to investors. When a VP from META mentions your company at a party, that's worth way more than any Facebook ad because people trust recommendations from friends more than advertisements!"
+      }
+    },
+    {
+      "id": "9",
+      "date": "2 years ago",
+      "avatar": "beoptic",
+      "subject": "Biotech Pivot: Making Drugs in Days Instead of Months",
+      "greeting": "Hello,",
+      "cta": {
+        "message": "discover biotech innovation",
+        "link": "https://www.ycombinator.com/"
+      },
+      "body": "Concerning our current biotech approach - we make drugs at early stages 💊. Our clients are pharma companies wanting to go through cycles in days instead of months ⚡. We're ready for first clients; we have money to sponsor first experiments so companies lose nothing 💰. We say \"let's work together, you lose nothing if we bring you the right molecule, take it through animals and people.\"\n\nWe have classic outreach now 📧. We hired an American woman for outreach. We're an American company, hired by skills 🇺🇸. If a developer is cool, it doesn't matter where they're from 🌍. But for sales in America, cultural fit matters enormously.\n\nAbout managing international teams - we have a head of science that's Vietnamese 🇻🇳, we had CBDO from India 🇮🇳 for two years, and the partnership lead is American 🇺🇸. You become softer working internationally 🤗. If we have employees not ready to speak English, we simply don't take them to work. We have <a href='https://optica.com'>Optica</a> - an American company with a San Francisco address 🏢. It's very important that you were culturally in their code.",
+      "signature": {
+        "name": "Roma",
+        "title": "Founder",
+        "company": "BeOptic / EORA"
+      },
+      "highlight": {
+        "title": "The No-Risk Offer: How to Make Big Companies Say Yes",
+        "description": "Roma found a super smart way to work with huge pharmaceutical companies: he offers to do the work for FREE first! It's like offering to mow someone's lawn for free to prove you're good at it, then they'll hire you for the whole summer. Big companies are usually scared to try new things because they might lose money, but if you say 'I'll pay for the experiment and you only pay me if it works,' suddenly they're very interested. It removes all their risk and fear!"
+      }
+    },
+    {
+      "id": "10",
+      "date": "2 years ago",
+      "avatar": "beoptic",
+      "subject": "Sales Funnels: Dubai vs Eastern Europe vs America Timelines",
+      "greeting": "Hi there,",
+      "cta": {
+        "message": "understand international sales",
+        "link": "https://fastcompanyme.com/news/uaes-startup-ecosystem-valued-at-23-billion-by-end-of-2023/"
+      },
+      "body": "About conversion and sales funnels - everything differs between Dubai 🇦🇪, Eastern Europe, America 🇺🇸. These are three completely different funnels. The only similarity is that B2B will be very long everywhere ⏰.\n\nI think Emirates is the longest - it can go infinitely ♾️. America is long because there will be many contracts and they'll be expensive. At home, a deal costs you something around 50k 💰, lawyers check it. In America, this will be completely different - very expensive contracts, any contract costs thousands of dollars 💸. Lawyers are $500+ per hour now.\n\nYour presence matters everywhere 📍. Here, everyone doesn't care if you're in Nizhny Novgorod or Krasnoyarsk. In America, if you're in Europe, they think you're far away and don't want to work with you 🌊. Jurisdiction matters too - if you have a company in another jurisdiction, they prefer their own ⚖️.\n\nIf you're on US territory, everyone is from somewhere originally 🗽. It's super important to them that you were like an adept of American culture. Good language at the level of meta-understanding is one of such signals 🧠. If you look like Vasya from the 90s, they'll politely smile at you 😊.",
+      "signature": {
+        "name": "Roma",
+        "title": "Founder",
+        "company": "BeOptic / EORA"
+      },
+      "highlight": {
+        "title": "The Geography Game: Why 'Where You Are' Affects 'Who Trusts You'",
+        "description": "Roma learned that business is like dating - people want to work with someone who's 'nearby' and committed to them! In America, if you're calling from Europe, they think you're too far away and not serious. It's like trying to be best friends with someone who lives on the other side of the world - possible, but much harder. Even though everyone in America originally came from somewhere else, they still want you to 'become American' in how you think, speak, and do business. It's about fitting in, not just being smart!"
+      }
+    },
+    {
+      "id": "11",
+      "date": "2 years ago",
+      "avatar": "beoptic",
+      "subject": "MENA Strategy: Web3, Wow Factors, and Market Positioning",
+      "greeting": "Hi,",
+      "cta": {
+        "message": "explore MENA opportunities",
+        "link": "https://clear.world/mena-tech-startup-market-difficulty-report-2024"
+      },
+      "body": "About Emirates strategy now - if I were going to Emirates market, I wouldn't go into typical B2B 📊. Because they'll work with Indians 🇮🇳, then Egyptians 🇪🇬, then Europeans 🇪🇺, and with you last. You need to come with something marginal like web3 exchange where super margin matters 💎, but you depend on tax arbitrage.\n\nI'd look for local guys up to 45 who sit on top of developers or banks 👔. Come up with some product so everyone goes crazy - like contact lenses with built-in displays 👁️ or holography. Something with a strong wow factor so Dubai can say we're the best in the world again 🌟. If you're doing some B2B SaaS contact center operator - zero chances ❌. But if you're doing next gen robot-system or medicine 🤖💊 - these things they're ready for.\n\nYou need to understand that everything depends on your specificity 🎯. The better you segment - B2B, SaaS or specific market - the more accurate the prediction will be. Every business model is different - stores, delivery services, factories 🏭. These companies require completely different approaches.\n\nIn B2B, presence matters everywhere 📍. You can't sell systematically without being there. In B2C, you can probably work remotely, but in B2B it's completely different.",
+      "signature": {
+        "name": "Roma",
+        "title": "Founder",
+        "company": "BeOptic / EORA"
+      },
+      "highlight": {
+        "title": "The Wow Factor Strategy: Why Dubai Loves Being First and Best",
+        "description": "Roma figured out Dubai's secret: they LOVE being the coolest and most advanced place in the world! Instead of competing with boring business software (where they'll pick cheaper options), bring something so amazing that Dubai can brag about having it first. It's like bringing the newest, coolest toy to show-and-tell - everyone wants to see it and be associated with it. Dubai wants to be known for having the most futuristic stuff, so if you can help them look like the most advanced city on Earth, they'll pay attention to you!"
+      }
+    },
+    {
+      "id": "12",
+      "date": "1 year ago",
+      "avatar": "beoptic",
+      "subject": "Strategic Philosophy: Big Markets, Big Ideas, and Y Combinator Focus",
+      "greeting": "Hello,",
+      "cta": {
+        "message": "learn about Y Combinator",
+        "link": "https://bytebridge.medium.com/y-combinator-a-comprehensive-analysis-of-the-worlds-leading-startup-accelerator-5c927b8af7ae"
+      },
+      "body": "If I were starting now, I wouldn't do service companies 🚫. Only big markets, big ideas, big products 🌟. Two answers: am I ready to live in America or not? 🇺🇸\n\nIf you are ready to live in America, then any startup to conquer the world 🌍. If I'm not ready to live in America, I'd do deep tech B2G and try something in Dubai - some big B2G project 🏛️.\n\nStrategy for America: hammer top accelerators until you get into <a href='https://www.ycombinator.com/'>Y Combinator</a> 🎯. Move only through Y Combinator or Alchemist. I'd gather money for life and survival 💰, collect $25-30k angel funding - in America they can write this check in a café ☕. I'd run through the valley, pitch everywhere 🗣️, train to pitch, keep two developers in the CIS motivated, and work with fanatics.\n\nYou need money so chances are at least reasonable for a year of life 📅. You'll suck everything for a year, most likely need two years ⏰. If you have a studio model, you'll never attract serious money 💸. It's strange to invest in a studio just like that.\n\nAbout product market fit on international markets - it's the hardest to get 🎯. At home it's difficult, abroad it's many times more difficult because the probability of errors is higher ❌. But who said it would be easy? It depends on what you're doing, where, what business model.",
+      "signature": {
+        "name": "Roma",
+        "title": "Founder",
+        "company": "BeOptic / EORA"
+      },
+      "highlight": {
+        "title": "The Big Decision: America or Everywhere Else",
+        "description": "Roma learned that international expansion really comes down to one big choice: are you willing to move to America and live there, or not? If yes, then focus everything on getting into Y Combinator and conquering the world from Silicon Valley. If no, then focus on big government projects in places like Dubai. It's like choosing between joining the NBA (you have to move to America and play by their rules) or becoming the best player in your local league. Both can work, but they require totally different strategies and commitments!"
       }
     }
   ]

@@ -1,161 +1,188 @@
 {
   "emailColumn": {
+    "title": "getcourse: Indonesian Market Mastery Through Cultural Adaptation",
     "authorInfo": {
       "title": "About the Author",
-      "description": "Market expansion consultant specializing in emerging market entry strategies, with extensive experience in tech education sector expansion and cultural adaptation frameworks for international business development."
+      "description": "Mikhail Tolstikhin is an international expansion specialist who led getcourse's systematic global market analysis and entry into multiple international markets, with particular expertise in the Indonesian online education market. getcourse is a comprehensive B2B2C platform for creating, managing, and selling online courses, serving over 17,000 clients and generating 95 billion rubles in revenue for online schools in 2022. Founded in 2014 and headquartered in Moscow, the company has raised $50M from investors including Baring Vostok Capital Partners and Goldman Sachs Asset Management. Mikhail's methodical approach to international expansion involved analyzing 50+ countries, conducting pilots in 7-8 markets, and establishing legal entities in promising regions including Indonesia, where getcourse achieved significant market penetration despite unique cultural and operational challenges."
     },
     "materialsUsed": [
-      "IBEF. (2023). Growth and Expansion of India's EdTech Industry. India Brand Equity Foundation.",
-      "Harvard Business Review. (2005). Strategies That Fit Emerging Markets - Khanna, T., Palepu, K., Sinha, J.",
-      "McKinsey & Company. (2024). Market selection for international expansion: Assessing opportunities in emerging markets.",
-      "Grand View Research. (2024). Education Technology Market Size, Share & Trends Analysis Report.",
-      "Smartling. (2024). Market expansion strategies: Key insights and examples.",
-      "Business Research Insights. (2025). Education Technology (EdTech) Market Report | Forecast 2033.",
-      "ScienceDirect. (2023). Lessons learned from international expansion failures and successes.",
-      "Emerald Insight. (2021). International expansion or stagnation: market development for mature products."
+      "Statista Market Forecast. (2024). Indonesia Online Learning Platforms: 16.55M to 20.77M users by 2028, 25.3% growth.",
+      "Ken Research. (2024). Indonesia Online Education Market Analysis: $1.2B market valuation with strong growth trajectory.",
+      "Verified Market Reports. (2025). Global Online Course Platform Market: $325B by 2025, 7% CAGR.",
+      "ECDB Indonesia eCommerce Report. (2025). Digital Market Growth: $95B revenue projection for 2025."
     ],
     "keyTakeaways": {
       "title": "Key Takeaways",
-      "description": "Successful market expansion requires genuine product-market fit, deep cultural understanding, local team building, and sustainable growth models beyond marketing-driven strategies. Arrogance and assumption of superiority over local competitors often leads to failure in emerging markets."
+      "description": "Mikhail Tolstikhin's systematic approach to getcourse's international expansion demonstrates the critical importance of cultural adaptation and on-ground market immersion in complex B2B markets. Key insights include: the value of comprehensive global market analysis before selecting target countries (50 countries analyzed, 7-8 pilots conducted), the necessity of three-month minimum market immersion for proper calibration of expectations and operations, the challenge of managing headquarters expectations while adapting to local business rhythms, the importance of hiring and training local technical personnel early in market entry, and the recognition that absence of competitors can indicate market education challenges rather than opportunities. Getcourse's Indonesian experience highlights how systematic research and pilot testing can identify promising markets, but success requires deep cultural adaptation, patient relationship building, and acceptance of fundamentally different business operating speeds and customs."
     }
   },
   "emails": [
     {
       "id": "1",
-      "sender": "Market Expansion Team",
-      "date": "6 months ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-3.png",
-      "subject": "The Accidental Discovery: How We Identified India as Our Expansion Target",
-      "greeting": "Hi John,",
+      "date": "3 years ago",
+      "avatar": "getcourse",
+      "subject": "Early Internationalization Efforts and Market Analysis",
+      "greeting": "Hello,",
       "cta": {
-        "message" : "download report",
-        "link" : "google.com"
+        "message": "explore systematic market analysis",
+        "link": "getcourse.com/international-expansion"
       },
-      "body": "**Our entry into India was largely accidental.** It began when Misha Mikhno, founder of Maximum Education, was organizing international expeditions. He had traveled to China frequently and posted on Facebook about attending a conference in India. We asked to join him, coincidentally around the same time we were raising a round from Mail.ru. **This was right before COVID, during a period when many Russian startups were exploring international opportunities.**\n\n**We arrived in Delhi for the conference, networked with attendees, and continued socializing outside the formal events.** Through these interactions, we realized there was significant potential for our business model in India. **We recognized that we spoke the 'same language' with the local professionals we met, and the market dynamics seemed familiar enough to navigate.**\n\n**Only after deciding to pursue India did we develop a rational justification:** it's an English-speaking market where education is highly valued, particularly engineering education. India represents one of the foundational markets for global education. **Surprisingly, we never seriously considered other countries or conducted comprehensive comparative analysis. We simply followed our instinct after seeing an opportunity firsthand.**",
+      "body": "You inquired about our initial approach to international markets at getcourse, so I'm happy to share my perspective on how things evolved 🌍.\n\nI joined getcourse three and a half years ago, around the same time as Alexei Krasnoselsky. This period coincided with getcourse's increased focus on internationalization 🚀. At the time of our arrival, the company could only allocate minimal resources to international business - perhaps a week of total company bandwidth - and additional resources were needed to move forward effectively.\n\nThere was already some presence in the Brazilian market, with a handful of clients who had organically found the platform 🇧🇷. I was brought in to manage the technical and product components, while Alexei took responsibility for development, growth, and marketing. Given that getcourse is a complex B2B2C platform rather than a simple course-selling solution, my role involved identifying potential technical and non-technical limitations for international expansion.\n\nWe conducted a comprehensive analysis of potential countries for expansion 📊. From an initial list of approximately 50 countries we kept in mind, about 20-25 were in our long list for gathering preliminary information. Around seven countries made it to our shortlist, where we attempted pilot projects. These pilots helped us confirm that we could develop business in these markets - verifying client interest, user behavior patterns, technical feasibility, and sales potential.\n\nOur market evaluation included several key criteria: GDP (both total and per capita), population size, language groups, purchasing power, cultural factors and many others 📈.\n\nOne approach that proved valuable was examining consumer behavior patterns 🔍. For instance, we assumed that high VOD indicator or streaming service adoption indicated comfort with card payments and recurring subscription models. Also, the proportion of suppliers varies from country to country.\n\nBased on our analysis, we identified markets where we wanted to establish legal entities and others where we preferred to operate without formal legal presence ⚖️. For a complex product like getcourse, this distinction significantly impacts operations - legal entities allow for localized payment systems, while operating without them limits even basic technical capabilities like regional page loading or video buffering.",
       "signature": {
-        "name": "Code Invaders Team",
-        "title": "Market Expansion",
-        "company": "International EdTech Ventures"
+        "name": "Mikhail Tolstikhin",
+        "title": "International Expansion Specialist",
+        "company": "getcourse"
       },
-      "meta": "Market Entry • India Strategy",
-      "likes": 45,
       "highlight": {
-        "title": "Serendipitous Market Discovery",
-        "description": "Sometimes the best market opportunities are discovered through direct exposure rather than comprehensive analysis - but this requires validation through structured approach"
+        "title": "Analyze 50 Countries, Test 7, Choose Carefully",
+        "description": "Mikhail and his team looked at 50 different countries before picking the best ones to try their online course platform! They narrowed it down to 20-25 for basic research, then tested only 7 countries with real pilot projects. They checked things like how much money people have, how comfortable they are with online payments, and whether they like streaming videos. It's like trying to choose the best school for college - you research lots of options, visit a few, and then pick the one that fits you best. Sometimes doing lots of homework upfront saves you from making big mistakes later!"
       }
     },
     {
       "id": "2",
-      "sender": "Marketing Strategy Team",
-      "date": "5 months ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-3.png",
-      "subject": "Initial Market Approach: The Naive Strategy That Failed",
-      "body": "**When we first entered India, we took quite a naive approach.** We started by simply copying our Russian website, translating it to English, and launching digital advertising. **Our initial metrics seemed promising - leads were approximately 50 times cheaper than in Russia,** which created temporary excitement. **However, within a month, we had made zero sales,** which was quite sobering.\n\n**While we initially targeted all of India, we quickly discovered this wasn't effective.** India has distinct market tiers - Tier 1 cities (Delhi, Mumbai, Bangalore) and Tier 2 cities (like Pune) generate vastly different results. **When we refined our targeting to these urban centers, lead quality dramatically improved.** The broader regions produced irrelevant leads from people with inadequate English skills or insufficient purchasing power.\n\n**Our strategy in India initially mirrored our Russian approach.** This stemmed from a rather arrogant assumption that we were simply smarter than local competitors. **We believed we had developed a perfect playbook in Russia that just needed to be implemented in India.** This confidence made it very difficult for us to abandon this mindset even when faced with contradictory evidence.",
-      "signature": {
-        "name": "Code Invaders Marketing",
-        "title": "Digital Strategy",
-        "company": "International EdTech Ventures"
+      "date": "3 years ago",
+      "avatar": "getcourse",
+      "subject": "Team: International Market Development",
+      "greeting": "Hi there,",
+      "cta": {
+        "message": "build international teams effectively",
+        "link": "getcourse.com/team-building"
       },
-      "meta": "Marketing Strategy • Failure Analysis",
-      "likes": 67,
+      "body": "I wanted to address your question about our international team structure during the early expansion phase 👥.\n\nWhen we began focusing on internationalization in early 2021, Alexei Krasnoselsky played a crucial role in building our team. Rather than starting from scratch, he sought out people within getcourse who had both product knowledge and language skills that could support international operations 🔍. He also recruited external specialists with international experience, particularly in technical roles.\n\nBy the end of 2021, our international team had grown to approximately 30 people 📈. This included dedicated teams for various markets - for example, 4-6 people focused exclusively on France and Germany. These European initiatives were ultimately paused when the war began, which is why I sometimes forget to include them in our country count.\n\nWe approached our market research methodically, rapidly progressing through the analysis stage in about three months ⏰. For particularly interesting directions, we brought in interns and students knowledgeable about specific countries - for instance, students from institutes specializing in Asian countries. These researchers conducted in-depth analyses for approximately two months.\n\nMy first international trip was to India in late 2021 or early 2022 🇮🇳. By then, Yulia Ponomareva was already operating there, having been placed in charge after I had initially expressed reservations about rushing into the Indian market. The purpose of my India trip was multifaceted:\n- Meeting with clients in person 🤝\n- Conducting live pilot projects 🧪\n- Hosting web events with local participants 💻\n- Demonstrating to potential partners that they would be working with an international team 🌍\n- Building relationships with foundations who could provide valuable introductions 🏛️\n- Meeting with technical integrators and local payment service providers 💳\n\nIt was an intensive 10-day immersion that provided invaluable insights into the market dynamics 📚.",
+      "signature": {
+        "name": "Mikhail Tolstikhin",
+        "title": "International Expansion Specialist",
+        "company": "getcourse"
+      },
       "highlight": {
-        "title": "The Copy-Paste Fallacy",
-        "description": "Direct translation and replication of successful domestic strategies often fails in new markets - tier-based targeting and cultural adaptation are essential"
+        "title": "Use People You Already Have, Then Add Specialists",
+        "description": "Instead of hiring a completely new team, Mikhail's boss first looked for people already working at getcourse who spoke other languages and understood the product. Then they added specialists from outside. By 2021, they had 30 people working on international markets! Mikhail spent 10 days in India meeting customers, doing live demos, and building relationships with local partners. It's like starting a school club by first asking your current friends who might be interested, then inviting new people who have special skills you need."
       }
     },
     {
       "id": "3",
-      "sender": "Strategic Planning Team",
-      "date": "4 months ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-3.png",
-      "subject": "The Reality Check: When Arrogance Meets Market Intelligence",
-      "body": "**Our confidence was seriously challenged during our first extended business trip to India.** When we visited Delhi, Mumbai, and Bangalore purposefully to meet with serious market players, **we were stunned by what we found. These weren't the unsophisticated operators we had imagined - they were highly intelligent, advanced professionals running businesses much larger than ours.** It became immediately obvious that our plan to revolutionize the market with our 'superior' marketing techniques was fundamentally flawed.\n\n**For example, we initially observed that many educational providers weren't using paid advertising in Delhi. We incorrectly assumed this meant they didn't understand digital marketing.** In reality, they were targeting a different market segment entirely - university graduates seeking reskilling opportunities. **This segment doesn't exist at the same scale in Russia due to our relatively healthy labor market and different educational system.**\n\n**The Indian higher education landscape is drastically different from Russia's.** In India, there's an extreme hierarchy: **top universities (like IITs) have incredible competition with tens of thousands of applicants per spot, while Tier 3 institutions offer paid degrees that often lead nowhere professionally.** This creates a massive market for supplementary education and skills development that simply doesn't exist in Russia.",
-      "signature": {
-        "name": "Code Invaders Strategy",
-        "title": "Market Intelligence",
-        "company": "International EdTech Ventures"
+      "date": "3 years ago",
+      "avatar": "getcourse",
+      "subject": "Strategy: Pilot Projects and Market Testing",
+      "greeting": "Hello,",
+      "cta": {
+        "message": "master pilot project methodology",
+        "link": "getcourse.com/pilot-strategy"
       },
-      "meta": "Competitive Analysis • Humility",
-      "likes": 89,
+      "body": "I'd like to clarify our pilot project approach since you asked about this specific aspect of our expansion methodology 🧪.\n\nA pilot project in our context involves partnering with either a local school or an educational provider to launch a course on getcourse in English or the local language 🎓. We identify partners willing to invest their time and ensure adequate market coverage. Through paid advertising, we collect leads that flow into automated funnels and convert into sales.\n\nIf we observe positive metrics, we proceed with further testing 📊. Even slightly negative results can be valuable - they often indicate interest exists but adjustments are needed. After conducting several successful pilots across different niches, we deem a market worthy of further investment.\n\nOnline schools, which were already interested in international expansion, became important pilot partners 🌍. We conducted joint tests in multiple countries, including Brazil and India, though I don't recall if Indonesia was part of those early pilots.\n\nOnce a market shows promise through these pilots, we implement the next phase: finding a local representative who ideally lives in that country 🏠. We typically search through platforms like Upwork for mid-level sales managers (not necessarily requiring a full degree). We train this person about our platform, business model, and startup approach, and then wait for their feedback while providing access to our customer data, partner information, and acceleration opportunities.\n\nFrom our initial long list, we conducted pilots in approximately 7-8 countries 🗺️. Turkey stands out as a market where the pilot results were disappointing, leading us to abandon that market. For most other markets - Indonesia, India, Vietnam, Brazil, France, and Germany - the pilots delivered promising results.\n\nThe pilots with partners in India generated thousands of transactions, indicating significant potential 🚀. While I'm not certain about their current international operations, they were among the few local educational companies actively exploring global markets.",
+      "signature": {
+        "name": "Mikhail Tolstikhin",
+        "title": "International Expansion Specialist",
+        "company": "getcourse"
+      },
       "highlight": {
-        "title": "Competitor Intelligence Shock",
-        "description": "Underestimating local competition is a critical error - emerging market players are often more sophisticated and better adapted to local conditions than foreign entrants assume"
+        "title": "Test Small Before You Go Big",
+        "description": "Mikhail's pilot projects were like small experiments - they partnered with local schools to run courses using their platform and see if people would actually buy them. If the test worked well, they knew the country was worth investing in more. If it didn't work (like in Turkey), they stopped trying there. After successful pilots, they would hire a local person through websites like Upwork to be their representative in that country. It's like testing a new recipe with a few friends before cooking it for a big party - you want to make sure people like it before you spend lots of money and time!"
       }
     },
     {
       "id": "4",
-      "sender": "Product Development Team",
-      "date": "3 months ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-3.png",
-      "subject": "Evolving Our Approach: From Zero Sales to Market Validation",
-      "body": "**After our first unsuccessful month with zero sales, we completely restructured our approach.** We rebuilt our product, added a job guarantee program, lowered prices, and implemented webinar-based sales. **To address trust issues (which we found were much higher in India than Russia),** we created a certificate program that encouraged reviews, positioning testimonials differently, and ensured our webinars featured foreign instructors to build credibility.\n\n**Sales capability proved crucial.** We fired our initial representative Sandeep (hired from Upwork) and recruited experienced sales professionals who had worked at established Indian educational companies. **Having team members who understood the local sales dynamics made an enormous difference.**\n\nOur team structure evolved gradually. Initially, just two of us (myself and Sasha) managed everything - building the website, running advertising, and conducting sales calls ourselves. **We maintained this lean approach until securing our first sales.** Once we had validation, we began registering a proper legal entity.\n\n**For our market testing, we favored rapid experimentation over extensive research.** Rather than spending months on desk research and customer interviews, we implemented changes quickly, observed results, and adjusted accordingly. **This approach allowed us to fail fast and find what worked through rapid iteration cycles.**\n\n**Trust-building became a central focus. Indian customers were far more skeptical than Russians** - they would question why our IP name didn't match our domain, send relatives to verify our physical office location, and thoroughly investigate our credentials before purchasing.",
-      "signature": {
-        "name": "Code Invaders Product",
-        "title": "Product Strategy",
-        "company": "International EdTech Ventures"
+      "date": "3 years ago",
+      "avatar": "getcourse",
+      "subject": "Expansion Timeline and Country Selection Process",
+      "greeting": "Greetings,",
+      "cta": {
+        "message": "optimize country selection criteria",
+        "link": "getcourse.com/market-selection"
       },
-      "meta": "Product Development • Pivot Strategy",
-      "likes": 73,
+      "body": "To address your question about our expansion timeline and how we prioritized different markets 📅:\n\nOur initial focus was on Europe, India, and Brazil, with pilots running concurrently in these markets. The subsequent wave of pilots included Turkey, Argentina, Mexico, Vietnam, and Indonesia 🌍. When the war began and we had to close our European operations (France and Germany), we redirected our attention to developing countries.\n\nThis shift led us to explore additional markets like Bangladesh, the Philippines, Malaysia, and Thailand 🔍. Our evaluation considered numerous technical criteria beyond just market size. For example, Thailand appeared promising from an economic perspective - solid per capita GDP, technological adoption, and digital literacy (even in rural areas). However, its uniquely complex language presented an immediate barrier 🇹🇭.\n\nSouth Korea and Japan were ultimately rejected despite their technological advancement because of market oversaturation 🇰🇷🇯🇵. These markets have long-established local players with entrenched patterns that would be difficult to disrupt as newcomers.\n\nRegarding Indonesia specifically, our serious exploration began in late 2022 with a three-week market research expedition 🇮🇩. The results were overwhelmingly positive, convincing us to move forward aggressively. We established a legal entity in March 2023, just months after our initial visit.\n\nThree main factors made Indonesia particularly attractive:\n\n1. Customer enthusiasm - Potential clients were extraordinarily excited about getting away from WordPress plugins and gaining more freedom and control 🎉. We spoke with over a dozen prospects who expressed genuine interest in our solution.\n\n2. Competitive landscape - The online education sector in Indonesia appeared to be receiving substantial political support and funding, yet existing solutions were providing poor value to creators 💰. For instance, existing referral programs typically offer experts only 5-10% of profits, creating an opportunity for us to introduce a more equitable model.\n\n3. Technical feasibility - Our on-the-ground meetings with banks, payment providers, infrastructure services, and communication platforms all yielded positive responses 🏦. Everyone seemed excited about new market entrants, which contrasted with their typical hesitation toward foreign companies.\n\nThese factors, combined with Indonesia's impressive demographics (large population, average age of 27, high TikTok adoption indicating technological familiarity), made it a compelling market 📱.",
+      "signature": {
+        "name": "Mikhail Tolstikhin",
+        "title": "International Expansion Specialist",
+        "company": "getcourse"
+      },
       "highlight": {
-        "title": "Rapid Iteration Framework",
-        "description": "Quick experimentation cycles and local sales expertise proved more valuable than extensive research - trust-building mechanisms are crucial in high-skepticism markets"
+        "title": "Look for Excited Customers and Weak Competition",
+        "description": "Mikhail chose Indonesia because potential customers were really excited about better tools (they were tired of using WordPress plugins), the competition was weak (only giving creators 5-10% of profits), and all the banks and tech companies were happy to work with new foreign companies. Indonesia also had great demographics - lots of young people (average age 27) who already used TikTok and understood technology. It's like finding a neighborhood where everyone complains about the only pizza place, all the suppliers want to work with new restaurants, and lots of hungry teenagers live there!"
       }
     },
     {
       "id": "5",
-      "sender": "Human Resources Team",
-      "date": "2 months ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-3.png",
-      "subject": "Team Structure and Cultural Dynamics: Building Local Operations",
-      "body": "**We quickly learned that Russian management styles don't work in India** - in fact, they don't work well anywhere outside Russia. **The most critical insight was that we couldn't effectively operate with a mixed Russian-Indian team. We needed to build a fully Indian operation.**\n\n**The cultural differences were substantial.** Even highly skilled Indian professionals typically expected daily direction and supervision rather than autonomous work. **When our Russian manager told the Indian team, 'I don't care about lead quality; I care about conversion rates,' they were completely baffled by this communication style.**\n\nOur early team expansion focused on product and marketing roles. For substantial positions, we initially hired Russians, which proved problematic. **Having Raina (a team member who lived in India) was beneficial, but most of our Russian hires had no understanding of India,** creating significant challenges.\n\n**We attempted to work with local agencies but found their performance disappointing** and quickly shifted to building in-house capabilities. The one exception was our back-office functions (legal, accounting, payments), where we found a reliable Indian agency that supported us throughout our operations.\n\n**The student culture also differed dramatically from Russia.** Indian students communicated extensively with each other, forming tight-knit communities. **Before purchasing a course, prospective students would typically contact 5-6 existing students through LinkedIn or other channels** - something almost unimaginable in Russia. Once enrolled, students would call each other daily and become close friends.",
-      "signature": {
-        "name": "Code Invaders HR",
-        "title": "Team Development",
-        "company": "International EdTech Ventures"
+      "date": "3 years ago",
+      "avatar": "getcourse",
+      "subject": "On-the-Ground Insights vs. Desk Research",
+      "greeting": "Hello,",
+      "cta": {
+        "message": "understand market research realities",
+        "link": "getcourse.com/ground-insights"
       },
-      "meta": "Team Building • Cultural Management",
-      "likes": 92,
+      "body": "Your question about what we learned on the ground versus through desk research touches on a crucial aspect of international expansion 🔍.\n\nBefore arriving in Indonesia, we had collected approximately 40% of the key information through desk research 📊. This preliminary work helped form our expectations and identify potential contacts. However, the most valuable insights came from in-person meetings where conversations often revealed entirely new avenues we hadn't considered.\n\nThere's a common Indonesian saying that \"for every 100 yeses, there are 99 noes\" 💭. While we had heard this expression from expatriates in Indonesia, we didn't fully appreciate its implications when building business relationships.\n\nIn Indonesian business culture, people often express interest and agreement because they genuinely want to be supportive and maintain positive relationships, not because they're ready to commit 🤝. Many meetings that seemed productive were actually driven by curiosity about meeting foreign entrepreneurs or the social status associated with business discussions, rather than serious intent to work together.\n\nA telling example: we found an apparently ideal partner earlier this year - a significant blogger with half a million followers who seemed perfectly aligned with our business 📱. Despite our immediate rapport and handshake agreement, it took 68 days before this relationship produced our first client. This timeline dramatically affects projections and planning.\n\nAnother challenge unique to Indonesia is the pace of business operations ⏰. Everything moves exceptionally slowly compared to our expectations. For instance, obtaining a credit card from a bank takes three months, and then at the final stage, you're asked to deposit 110% of the credit limit - a practice standard across Indonesian banks but completely unexpected from our perspective.\n\nManaging these expectations becomes one of the most significant challenges - both for the founder/shareholder deciding to enter overseas markets and for the person on the ground creating expectations for leadership 📈. This constant tension can undermine otherwise promising market entries.\n\nHad we not spent time on the ground in December 2022 and then returned on tourist visas in March 2023 to establish our legal entity, we might have taken the same approach as in India - rushing in without appreciating the market's natural rhythm 🌊.",
+      "signature": {
+        "name": "Mikhail Tolstikhin",
+        "title": "International Expansion Specialist",
+        "company": "getcourse"
+      },
       "highlight": {
-        "title": "Local Team Imperative",
-        "description": "Cultural management styles cannot be exported - local teams with appropriate supervision and communication approaches are essential for success"
+        "title": "People Say Yes to Be Nice, Not Because They'll Buy",
+        "description": "Mikhail learned that in Indonesia, when people say \"yes\" in business meetings, they're often just being polite and friendly, not promising to actually buy anything! There's even a saying: \"for every 100 yeses, there are 99 noes.\" He found a perfect partner with 500,000 followers who seemed super excited, but it took 68 days to get the first customer. Everything in Indonesia takes much longer than expected - even getting a credit card takes 3 months! It's like when your friend says \"yes, let's hang out soon\" but doesn't actually set a date - they're being nice, but it doesn't mean it will happen quickly."
       }
     },
     {
       "id": "6",
-      "sender": "Finance Team",
-      "date": "1 month ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-3.png",
-      "subject": "Financial Journey: From $700K Monthly Revenue to Closure",
-      "body": "After several iterations, we began seeing promising results by summer. **While we weren't yet profitable, our unit economics were improving.** At this point, we raised our first investment round, giving us runway to continue growing.\n\n**The real breakthrough came when we implemented influencer marketing.** This channel performed extraordinarily well, **with ROI reaching up to 1000% because nobody else in India was using this approach effectively.** We had to replace our entire marketing team to make this happen, as the original team didn't believe in this strategy despite our leadership's conviction.\n\n**This success led to another funding round as our economics looked strong. At our peak, we reached monthly revenues of $600,000-$700,000 and had approximately 100 people on our sales team alone.** However, this growth proved unsustainable.\n\n**As competitors entered the influencer marketing space, our exceptional results normalized.** Meanwhile, we never achieved consistent performance on other channels like Google and Facebook. **The influencer channel that had driven our growth began declining, and we couldn't recover even at reduced volumes.**\n\nWe spent considerable time trying to diagnose and fix the problem but ultimately concluded that **our product-market fit had simply disappeared.** The channel that had temporarily made our economics work was no longer performing exceptionally, revealing that our underlying product and brand weren't sufficiently differentiated.\n\n**This experience fundamentally changed my perspective on marketing-driven growth. I now believe you can't build a sustainable company through marketing excellence alone** - you need genuine product-market fit reflected in retention metrics and organic growth.",
-      "signature": {
-        "name": "Code Invaders Finance",
-        "title": "Financial Analysis",
-        "company": "International EdTech Ventures"
+      "date": "3 years ago",
+      "avatar": "getcourse",
+      "subject": "Lessons Transferred Between Markets",
+      "greeting": "Hi there,",
+      "cta": {
+        "message": "apply cross-market learnings",
+        "link": "getcourse.com/market-lessons"
       },
-      "meta": "Financial Performance • Sustainability",
-      "likes": 156,
+      "body": "Regarding your question about transferring lessons between markets - indeed, our experiences in India and Brazil informed our approach to Indonesia in several important ways 🔄.\n\nOne fundamental lesson we applied was the importance of hiring and training technical personnel early in the market entry process 👥. Given our platform's complexity, we recognized the need for at least two local technical specialists who could undergo extended training. These individuals would not only support customers but also channel feedback to product development.\n\nWe also transferred sales techniques and objection-handling approaches between markets 💼. While these required cultural adaptation, the core elements remained consistent - education marketing still addresses similar fundamental concerns regardless of location, and money motivates similar behaviors across cultures. We could adapt rather than completely reinvent our sales methodologies.\n\nRegarding market timing and pace, Indonesia proved to be the slowest market we've encountered ⏰. The difference is particularly noticeable when comparing direct communications. When a Brazilian says a process takes a month, as outsiders we might question their commitment. However, when a team member in Indonesia reports the same timeline after thoroughly researching requirements, the credibility is different.\n\nWe adjusted our year-one targets based on the understanding that the customer journey would be different 📊. This proved accurate, and we met our first-year targets. By the second year, however, we encountered deeper challenges around product adoption depth - Indonesian users were utilizing only 5-10% of the platform's capabilities compared to 40% at home.\n\nThis revealed a crucial market difference we hadn't fully anticipated: without established competitors offering similar solutions, Indonesian users lacked context for our product category 🤔. Their extreme caution manifested in behaviors we hadn't seen elsewhere - waiting weeks after creating a page before sending it to ensure it wouldn't disappear, waiting additional weeks before uploading courses to verify content security, and general hesitancy that dramatically slowed adoption.\n\nWhile we had competitors in India and Brazil, Indonesia lacked direct equivalents 🏆. This absence of competition initially seemed advantageous as it indicated an open market, but we later recognized it also meant the market needed education about the product category itself - a much bigger challenge than we anticipated.",
+      "signature": {
+        "name": "Mikhail Tolstikhin",
+        "title": "International Expansion Specialist",
+        "company": "getcourse"
+      },
       "highlight": {
-        "title": "Marketing-Driven Growth Trap",
-        "description": "Exceptional performance on single marketing channels can mask fundamental product-market fit issues - sustainable growth requires multiple validated channels"
+        "title": "No Competition Can Actually Be a Bad Thing",
+        "description": "Mikhail discovered that Indonesia was much slower than other countries, and users only used 5-10% of the platform features compared to 40% back home. The big surprise was that having no competitors in Indonesia wasn't good news - it meant people didn't understand what the product was supposed to do! Users were super careful and scared, waiting weeks before even trying features to make sure they wouldn't break. It's like being the first pizza place in a town where people have never seen pizza - you have to teach them what pizza is before you can sell it to them!"
       }
     },
     {
       "id": "7",
-      "sender": "Leadership Team",
-      "date": "2 weeks ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-3.png",
-      "subject": "Lessons Learned: From Marketing-Driven to Product-First Philosophy",
-      "body": "**Our first major mistake was arrogance** - believing we were smarter than local competitors and that our Russian expertise would automatically translate to India. **India isn't a 'donor' country that passively consumes foreign products; it's a highly competitive market with hungry, tech-savvy professionals who can execute effectively at lower costs.** Often, they're simply better than foreign entrants.\n\n**Second, we scaled prematurely without finding true product-market fit.** Instead of experimenting with small groups to identify optimal outcomes and customer segments, we immediately invested heavily in performance marketing with a mediocre product. **We should have grown more gradually, ensuring we had found our ideal customer segment before scaling.**\n\n**The job guarantee feature also proved problematic,** attracting the wrong audience - 'free riders' who expected to receive training without genuinely committing to the work required. This created ongoing challenges with completion rates and job placement.\n\nOperationally, **we were slow to recognize the need for a fully Indian team and the unique dynamics of the Indian market.** We also failed to appreciate the limitations of performance marketing in this context.\n\n**My greatest takeaway is the importance of genuine product value. A truly great product should generate some form of organic acquisition** - either through free users, virality, or exceptional word-of-mouth. **Without this engine, you're essentially trying to 'bark at a closed door' with expensive marketing.**\n\n**The reliance on paid acquisition creates cascading problems:** it forces a higher average price point, often leading to installment payments and unhappy customers who feel trapped.\n\n**I've completely reversed my thinking.** I started as a marketing-driven entrepreneur who believed great marketing could sell anything. **Now I believe the opposite - marketing can help capture existing demand, but you can't build a great company without solving real customer problems that drive retention and organic growth.**",
-      "signature": {
-        "name": "Code Invaders Leadership",
-        "title": "Strategic Insights",
-        "company": "International EdTech Ventures"
+      "date": "3 years ago",
+      "avatar": "getcourse",
+      "subject": "Market Entry Strategy through Events",
+      "greeting": "Hello,",
+      "cta": {
+        "message": "leverage events for market entry",
+        "link": "getcourse.com/events-strategy"
       },
-      "meta": "Strategic Learning • Philosophy",
-      "likes": 234,
+      "body": "Your question about our events-focused strategy in Indonesia touches on a key aspect of our international approach 🎪.\n\nWhen promoting a complex B2B platform like getcourse through advertising, prospects often misunderstood the offering - assuming we were selling courses directly rather than providing infrastructure for course creators 🤔. This misalignment of expectations led to poor conversion rates and occasional refund requests.\n\nEvents provided a superior alternative by capturing attention for 2-3 hours, allowing us to clearly explain that users would be creating their own courses rather than purchasing ready-made content 💡. We could outline earning potential and immerse attendees in the context of the platform, providing physical materials they could share with friends and colleagues.\n\nWe tested this events-focused approach across multiple markets - India, Vietnam, and Indonesia. The results varied significantly by country:\n\n- In Indonesia, events proved remarkably effective as both sales channels and networking platforms 🇮🇩. This aligned perfectly with Indonesia's communal culture, where people typically belong to close-knit groups of approximately 3,000 people (often organized around places of worship). Information shared at events would naturally circulate throughout these communities within days.\n\n- In Vietnam, events generated less direct sales but created more market buzz and awareness 🇻🇳. Attendees treated events more as networking opportunities, and we even attracted press coverage. This created valuable word-of-mouth momentum despite fewer immediate conversions.\n\n- In India, our events strategy was less developed as we entered that market earlier in our international journey 🇮🇳.\n\nThis strategy specifically targeted the segment of our audience that was \"problem aware\" - people who recognized challenges but didn't yet understand the solution 🎯. These individuals comprised approximately 20-25% of our potential audience, with the remaining 75% being entirely \"unaware\" of the problems our platform solved. Through events, we effectively captured this problem-aware segment, achieving up to 10% sales conversion rates.\n\nRegarding outreach and LinkedIn strategies, we found them particularly challenging in Indonesia due to several market-specific factors:\n1. The prevalence of spam has made Indonesians highly skeptical of unsolicited messages 📧\n2. Business communication culture differs significantly - Indonesians prefer discussing business matters in person 🤝\n3. Geographic considerations play a major role - prospects immediately want to know if you have representatives on their specific island 🏝️",
+      "signature": {
+        "name": "Mikhail Tolstikhin",
+        "title": "International Expansion Specialist",
+        "company": "getcourse"
+      },
       "highlight": {
-        "title": "Product-Market Fit Foundation",
-        "description": "Marketing excellence cannot compensate for product shortcomings - genuine value creation drives organic growth, retention, and sustainable expansion"
+        "title": "In-Person Events Work Better Than Online Ads",
+        "description": "Mikhail found that online ads confused people who thought getcourse was selling finished courses instead of tools to create courses. But at events, he could spend 2-3 hours explaining exactly what the platform does and even got 10% of attendees to buy! In Indonesia, events worked amazingly because people belong to tight communities (about 3,000 people each, often centered around religious places) and news spreads fast within these groups. It's like the difference between a confusing TV commercial and having someone visit your school to do a live demonstration with Q&A!"
+      }
+    },
+    {
+      "id": "8",
+      "date": "3 years ago",
+      "avatar": "getcourse",
+      "subject": "Key Lessons and Reflections on Indonesia",
+      "greeting": "Greetings,",
+      "cta": {
+        "message": "learn from market entry challenges",
+        "link": "getcourse.com/indonesia-lessons"
+      },
+      "body": "As I reflect on our Indonesian market entry experience, I'd like to share some key insights about what we might have done differently 💭.\n\nOne fundamental approach I would change involves market entry sequencing. Rather than immediately establishing our own legal entity, I would recommend a longer track of working through local partners first 🤝. This could involve borrowing talent from an established local company and paying accordingly, while avoiding the overhead of creating a separate legal presence.\n\nThe decision to establish a legal entity carries significant implications, especially for a company like getcourse with only 50-60 people at headquarters ⚖️. It diverts substantial resources toward office maintenance, legal compliance, tax filings, accounting, and payroll. Working through partners as long as it remains mutually beneficial would allow for testing the market without this administrative burden.\n\nAnother critical insight relates to market immersion. I believe three months of daily, in-person interaction with clients is the minimum required to properly calibrate expectations and build appropriate operational structures 🏠. From June through September, I focused exclusively on constructing our organizational framework - not because I lacked a vision, but because direct observation of local realities continually reshaped my understanding of what would work.\n\nRegarding local leadership, we struggled to find a suitable Indonesian director who could drive the local team independently 👨‍💼. I filled this role myself while on the ground, but this created a system that couldn't function without me. This challenge stemmed partly from Indonesia's unique business patterns (like Friday prayer schedules affecting meeting times) and partly from the absence of an established industry from which to recruit experienced leadership.\n\nEven when hiring English-speaking Indonesian staff, we observed they typically completed about 40% less work than equivalent teams at home 📊. Cultural factors like deep-rooted mistrust of automation meant that despite training and demonstrations, staff would revert to manual processes they considered more reliable.\n\nThe cultural differences extended beyond business practices 🎭. Our assumptions about influencer marketing, for example, proved entirely inapplicable. We spent approximately 10 months calling, meeting, and pitching revenue-sharing partnerships to hundreds of influencers, ultimately securing only one who dropped out at the contract stage. Indonesian influencers operate almost exclusively on an endorsement model with upfront pricing.\n\nAs I prepare to conclude my journey with getcourse in early February and transition responsibilities to the liquidation team, I'm reflecting on whether Indonesia was the right fit for me personally 🤔. The business environment is so markedly different from what I'm accustomed to that I believe I might perform better in other markets.",
+      "signature": {
+        "name": "Mikhail Tolstikhin",
+        "title": "International Expansion Specialist",
+        "company": "getcourse"
+      },
+      "highlight": {
+        "title": "Some Markets Are Just Really, Really Different",
+        "description": "After years of working in Indonesia, Mikhail realized some markets are so different that they might not be right for everyone. Indonesian workers did 40% less work than expected, always preferred manual processes over automation, and influencers only wanted upfront payments instead of revenue sharing. Even simple things like Friday prayer schedules affected business meetings. He learned that you need at least 3 months of daily interaction to understand how a market really works. Sometimes being honest about whether you're the right person for a particular market is the most important lesson of all."
       }
     }
   ]

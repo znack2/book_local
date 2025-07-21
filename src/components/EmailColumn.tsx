@@ -56,6 +56,7 @@ interface EmailColumnProps {
   onEmailToggle?: () => void;
   isVisible?: boolean;
   animateEmails?: boolean;
+  isMobile?: boolean;
   chapterId?: string;
 }
 
@@ -63,6 +64,7 @@ const EmailColumn: React.FC<EmailColumnProps> = ({
   showEmailToggle = false, 
   onEmailToggle,
   isVisible = true,
+  isMobile = true,
   animateEmails = false,
   chapterId = '1'
 }) => {
@@ -284,19 +286,42 @@ const EmailColumn: React.FC<EmailColumnProps> = ({
         <div className="p-4">
           <div className="text-sm text-gray-800 space-y-3">
             <div className="flex items-center gap-3 mb-3">
-              <Avatar className="w-8 h-8">
-                <img 
-                  src={`https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/${email.avatar}.png`}
-                  className="aspect-square h-full w-full rounded-full object-cover"
-                />
-              </Avatar>
-              <div className="flex-1">
-                <div className="flex justify-between items-start mb-1">
-                  <h4 className="font-medium text-black-900 text-sm">{email.subject}</h4>
+
+               <div className="flex-1">
+                <div className="mb-1" style={{
+                  margin: '40px 40px 40px 10px',
+                   textAlign: 'center'
+                }}>
+                  <h1 className="font-medium text-black-900 text-lg w-full" style={{
+  fontWeight: 900,
+  lineHeight: '5rem',
+  margin: '-10px',
+  textTransform: 'uppercase',
+  background: 'linear-gradient(45deg, #3B82F6, #21293a)',
+      WebkitBackgroundClip: 'text',
+      WebkitTextFillColor: 'transparent',
+      backgroundClip: 'text',
+  fontSize: 'clamp(2rem, 15vw, 6rem)',
+  letterSpacing: '-0.02em',
+  fontStretch: 'condensed',
+  fontFamily: 'system-ui, -apple-system, sans-serif'
+}}>
+                    {email.subject.split(':')[0]}
+                  </h1>
+                  {email.subject.includes(':') && (
+                    <p className="font-medium text-black-900 text-sm mt-1" style={{
+                  margin: '50px 10px 5px',
+                }}>
+                      {email.subject.split(':')[1].trim()}
+                    </p>
+                  )}
+                  <div className="text-xs text-black-600" style={{
+                  textAlign: 'center'
+                }}>
+                    <span className="ml-2">{email.date}</span>
+                  </div>
                 </div>
-                <div className="text-xs text-black-600">
-                  <span className="ml-2">{email.date}</span>
-                </div>
+
               </div>
             </div>
             
@@ -306,18 +331,58 @@ const EmailColumn: React.FC<EmailColumnProps> = ({
             )}
             
             {/* Body paragraphs */}
-            <div 
-              className="text-xs text-black-800 leading-relaxed whitespace-pre-line"
+<div 
+              className="text-xs text-black-800 leading-relaxed whitespace-pre-line mb-4"
               dangerouslySetInnerHTML={{ __html: formatLinksAndBoldText(email.body) }}
             />
+            
+            {/* Email Signature Section */}
+            <div className="flex items-center gap-3 mt-4 pt-3 border-t border-gray-200">
 
-            <div className="text-xs text-black-700 italic" style={{
-              textAlign: 'end'
-            }}>
-              Best regards,<br/>
-              {email.signature.name}<br/>
-              {email.signature.title}<br/>
-              {email.signature.company}
+                          {/* Avatar - Right Side */}
+              <div className="flex">
+                <Avatar className="w-12 h-12">
+                  <img 
+                    src={`https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/${email.avatar}.png`}
+                    className="aspect-square h-full w-full rounded-full object-cover"
+                    alt={`${email.signature.name} avatar`}
+                  />
+                </Avatar>
+              </div>
+              {/* Signature Text - Left Side */}
+              <div className="flex" style={{
+                width: '500px'
+              }}>
+                <div className="text-xs text-black-700">
+                  <div className="italic mb-1">Best regards,</div>
+                  <div className="font-medium text-black-900">{email.signature.name}</div>
+                  <div className="text-black-600">{email.signature.title}</div>
+                  <div className="text-black-600">{email.signature.company}</div>
+                </div>
+              </div>
+
+                         {email.highlight && (
+                          <div className="flex">
+                            <div className="mt-2 p-4 bg-gradient-to-r from-yellow-100 to-amber-100 border-l-4 border-amber-400 rounded-r-lg shadow-sm relative">
+                              <div className="absolute top-2 right-2 text-amber-600 opacity-60">
+                                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                  <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                              </div>
+                              <div className="font-semibold text-amber-900 text-sm leading-relaxed mb-1">
+                                {email.highlight.title}
+                              </div>
+                              <div className="text-amber-800 text-xs leading-relaxed italic">
+                                "{email.highlight.description}"
+                              </div>
+                              <div className="absolute bottom-1 right-2 text-amber-500 text-xs font-medium opacity-75">
+                                highlight
+                              </div>
+                            </div>
+                          </div>
+                        )}
+              
+
             </div>
           </div>
         </div>
@@ -388,24 +453,7 @@ const EmailColumn: React.FC<EmailColumnProps> = ({
                       <>
                         {email && EmailStructured(email, chapterId, justLoadedEmails.has(index))}
                         
-                        {email.highlight && (
-                          <div className="mt-2 p-4 bg-gradient-to-r from-yellow-100 to-amber-100 border-l-4 border-amber-400 rounded-r-lg shadow-sm relative">
-                            <div className="absolute top-2 right-2 text-amber-600 opacity-60">
-                              <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                              </svg>
-                            </div>
-                            <div className="font-semibold text-amber-900 text-sm leading-relaxed mb-1">
-                              {email.highlight.title}
-                            </div>
-                            <div className="text-amber-800 text-xs leading-relaxed italic">
-                              "{email.highlight.description}"
-                            </div>
-                            <div className="absolute bottom-1 right-2 text-amber-500 text-xs font-medium opacity-75">
-                              highlight
-                            </div>
-                          </div>
-                        )}
+
                         
                         <div className="flex justify-center my-4">
                           <span className="text-amber-700 text-sm font-medium mr-3 italic">

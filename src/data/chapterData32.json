@@ -1,40 +1,252 @@
-
 {
   "emailColumn": {
-    "title": "Email Templates - Chapter 13",
+    "title": "yango: Strategic International Expansion Insights",
     "authorInfo": {
       "title": "About the Author",
-      "description": "Dr. Sarah Kim specializes in data analytics and business intelligence with focus on predictive modeling and decision support systems."
+      "description": "Andrei Krugliak is an experienced international expansion executive who led Yango's global market entry strategy. He spearheaded the company's expansion beyond the CIS region into Europe, Africa, Latin America, and Asia, managing market research, team building, and strategic partnerships across multiple continents."
     },
     "materialsUsed": [
-      "Provost, F. (2013). Data Science for Business. O'Reilly Media.",
-      "Davenport, T. (2017). Competing on Analytics. Harvard Business Press.",
-      "Kimball, R. (2013). The Data Warehouse Toolkit. Wiley.",
-      "MIT Technology Review (2023). \"AI in Business Decision Making\" - Data Science Quarterly."
+      "Statista Market Forecast. (2025). Ride-hailing Market Worldwide - Projected to grow by 4.91% (2025-2029) reaching US$212.80bn.",
+      "Straits Research. (2024). Global Ride-hailing and Taxi Market - Expected to reach USD 639.55 billion by 2032 at CAGR of 11.34%.",
+      "Grand View Research. (2024). Ride Sharing Market Size & Growth Report - Valued at USD 42.9 billion with 13.7% CAGR to 2030.",
+      "IMARC Group. (2024). Global Taxi Market Analysis - Valued at USD 244.02 Billion with 4.66% CAGR through 2033.",
+      "ResearchAndMarkets. (2024). Global Ride Sharing Market Report - Projected to reach US$ 439.4 billion by 2032."
     ],
     "keyTakeaways": {
       "title": "Key Takeaways",
-      "description": "Data-driven decision making requires quality data, proper analysis tools, and organizational commitment to evidence-based strategies."
+      "description": "Successful international expansion requires starting with your strongest existing talent rather than hiring externally. Keep initial teams small and maintain physical presence in each target market - remote analysis cannot replace on-the-ground insights. Approach each market with humility, as there are usually substantial reasons why other players haven't succeeded. Timing often outweighs execution quality, and some markets need foundational development that can't be accelerated regardless of resources. The most critical success factor is finding strong, motivated local teams, as they consistently outperform additional subsidies or discounts."
     }
   },
   "emails": [
     {
       "id": "1",
-      "sender": "Sarah Kim",
-      "date": "2 days ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-3.png",
-      "subject": "Data Analytics Mastery: Turn Data into Competitive Advantage",
-      "preview": "Dear Data Professional, transforming raw data into actionable insights is the key to staying competitive in today's market. Discover advanced analytics techniques...",
-      "signature": {
-        "name": "Sarah Kim",
-        "title": "Data Analytics Director",
-        "company": "InsightDriven Analytics"
+      "date": "3.5 years ago",
+      "avatar": "yandex",
+      "subject": "Initial Market Entry: From CIS to International Markets 🌍",
+      "greeting": "Hello,",
+      "cta": {
+        "message": "explore ride-hailing expansion strategies",
+        "link": "https://yandex.com/company/"
       },
-      "meta": "Template • Analytics",
-      "likes": 81,
+      "body": "I wanted to provide some background on our early international expansion efforts since you inquired about our approach to new markets.\n\nFrom what I observed while working on the product, the CIS network was essentially treated as just another region of the home market. There wasn't any special planning or novel strategies - we simply had a separate team managing these launches. Occasionally there were last-minute rushes when translations weren't ready, but overall, it wasn't particularly challenging. 📱\n\nThese countries launched relatively easily and grew efficiently in terms of cash expenditure. Many became profitable within the first year, making the expansion quite straightforward for the company. 💰\n\nAbout five or six years ago, the previous international team attempted to launch in a rather peculiar set of countries: Finland 🇫🇮, Israel 🇮🇱, Ivory Coast 🇨🇮, and Ghana 🇬🇭. When our team took over, there had already been two or three unsuccessful restart attempts, and growth was stagnant.\n\nAround three and a half years ago, we decided to abandon previous efforts and make one final attempt to restart the international organization. Our initial plan was to normalize operations in existing markets and then determine our next steps. We got involved by changing tariffs, adding subsidies and discounts, which helped those markets begin growing again. 📈\n\nAt the same time, we explored our future direction. We had two major clusters to consider: our European launches (Finland and Norway 🇳🇴) and our African ventures. We needed to determine which would become our focus for further expansion.",
+      "signature": {
+        "name": "Andrei Krugliak",
+        "title": "International Expansion Lead",
+        "company": "Yango"
+      },
       "highlight": {
-        "title": "Advanced Analytics Framework",
-        "description": "Comprehensive data strategy with predictive modeling and real-time business intelligence dashboards"
+        "title": "CIS Success Created False Confidence for Global Expansion",
+        "description": "Early success in similar markets can make international expansion seem easier than it actually is. What works in culturally and economically similar regions may not translate to completely different markets without major adaptations."
+      }
+    },
+    {
+      "id": "2",
+      "date": "3.5 years ago",
+      "avatar": "yandex",
+      "subject": "Evaluating Initial Markets and Team Transition 🔄",
+      "greeting": "Hi there,",
+      "cta": {
+        "message": "learn about market evaluation strategies",
+        "link": "https://yandex.com/company/"
+      },
+      "body": "Regarding your question about when I joined and how market decisions were made, I've been with the international team since we inherited those four countries (Finland 🇫🇮, Norway 🇳🇴, Ivory Coast 🇨🇮, and Israel 🇮🇱).\n\nI can speak confidently about developments after that point. However, regarding earlier business decisions, I'd rather not speculate about how those initial target markets were selected. 🤔\n\nFrankly, the selection of countries like Ivory Coast and Ghana remains puzzling to me - I wouldn't have chosen that particular combination of markets. Finland and Norway make sense, and Israel was chosen because one of our executives, Arkady, had personal connections there. But the African choices were less obvious from a strategic perspective. 🌍\n\nThese markets came to our team because they weren't showing growth. The company faced a fundamental question about future direction - we had launched in many markets previously with clear performance track records, but growth was slowing. We needed to find ways to continue expanding our taxi business. 🚗\n\nExtensive growth through geographic expansion seemed the most straightforward path. In our established CIS markets, we were limited to intensive growth - launching new rate tiers or minor improvements, but the core economy-class product was difficult to significantly expand. The central question was whether taxis would continue growing at our desired rate or if market saturation would force us to explore other business lines.\n\nThe inherited markets simply weren't growing. Even at home, the taxi business was still showing year-over-year growth, but these international markets presented flat lines on our dashboards. We were spending money without earning returns or seeing meaningful growth. 📊",
+      "signature": {
+        "name": "Andrei Krugliak",
+        "title": "International Expansion Lead",
+        "company": "Yango"
+      },
+      "highlight": {
+        "title": "Personal Connections Don't Equal Market Strategy",
+        "description": "Many international expansion decisions are made based on personal relationships rather than solid market analysis. This approach often leads to poor market selection and wasted resources in unsuitable markets."
+      }
+    },
+    {
+      "id": "3",
+      "date": "3.5 years ago",
+      "avatar": "yandex",
+      "subject": "Market Evaluation Criteria and Performance Benchmarks 📊",
+      "greeting": "Greetings,",
+      "cta": {
+        "message": "discover market benchmarking methods",
+        "link": "https://yandex.com/company/"
+      },
+      "body": "You've asked an excellent question about how we determined what constituted acceptable growth in new markets.\n\nWe evaluate taxi markets at the city level since this is fundamentally a city-based service. For each city where we launch, we look at population size and establish performance proxies based on comparable cities where we operate successfully. 🏙️\n\nIf a new market falls dozens of times behind these benchmark indicators and shows no signs of improvement, it signals fundamental market issues. With hundreds of thousands of reference cities across our country and the CIS, we have robust data to predict how similar cities should perform. 📈\n\nThe underperforming markets we inherited had been operating for approximately two and a half years before our team took over. All countries had launched around the same time, but showed minimal progress despite the extended timeline. ⏰\n\nWhen our team assumed responsibility, we received two primary directives. First, revitalize growth in existing markets. Second, identify and launch in additional promising markets. We organized our approach around two geographical clusters - Africa 🌍 and Europe 🇪🇺 - and began exploring potential expansion beyond these regions.\n\nOur initial business trips targeted these areas. We first visited Africa and then traveled to Europe to evaluate larger markets, particularly Germany 🇩🇪 and Austria 🇦🇹. These were exploratory visits without predetermined strategies. We gathered information through conversations with local stakeholders and developed our recommendations through an iterative process, completely rewriting our analysis each day as we gained new insights. 💡\n\nOriginally, Europe was supposed to be our primary focus, but when the war began in February 2022, our European expansion plans were halted. With developed countries suddenly inaccessible, we shifted to explore the remaining available markets. ⚔️",
+      "signature": {
+        "name": "Andrei Krugliak",
+        "title": "International Expansion Lead",
+        "company": "Yango"
+      },
+      "highlight": {
+        "title": "City-Level Benchmarking Provides Accurate Performance Predictions",
+        "description": "Using comparable cities from successful markets as benchmarks helps set realistic expectations and quickly identify when markets are fundamentally problematic rather than just slow to develop."
+      }
+    },
+    {
+      "id": "4",
+      "date": "3.5 years ago",
+      "avatar": "yandex",
+      "subject": "Market Selection Process and Research Methodology 🔍",
+      "greeting": "Hello,",
+      "cta": {
+        "message": "explore market research frameworks",
+        "link": "https://yandex.com/company/"
+      },
+      "body": "I wanted to address your question about our market selection methodology prior to international visits.\n\nWe developed a systematic approach to identify promising markets. We started with desk research that analyzed several key factors: 📋\n\n1. A list of countries worldwide 🌎\n2. Cities with populations over one million (as we operate city-centric services) 🏙️\n3. Macroeconomic indicators: GDP size, GDP per capita, economic stability 💰\n4. Competitive landscape in each market 🏁\n5. Regulatory environment ⚖️\n\nThe regulatory factor is particularly crucial in the taxi industry. For example, Istanbul presents an attractive market with over 10 million residents and no dominant players, but strict regulations make business operations extremely challenging. By contrast, industries like food delivery or marketplaces face different regulatory considerations. 🚕\n\nFrom this analysis, we eliminated countries with:\n- Established market leaders 👑\n- Overregulation 📜\n- Small market potential 📉\n- Cultural or operational complexity beyond our current understanding 🤯\n\nInitially, we focused on Europe and Africa because we already had some familiarity with both regions. When Europe became inaccessible, we prioritized African markets and then moved to Latin America 🌎, and now we're exploring Asian opportunities 🌏.\n\nWhile desk research provides a valuable foundation, we've learned that on-the-ground presence is essential. In developing countries particularly, published data often proves unreliable. City-specific information is frequently unavailable or inaccurate. 📊\n\nOur process typically involves team members visiting potential markets to meet potential partners, interview candidates, and engage with the local startup ecosystem. This approach typically yields a comprehensive understanding of market dynamics within a week, proving far more cost-effective than launching and later withdrawing from an unsuitable market. 💡",
+      "signature": {
+        "name": "Andrei Krugliak",
+        "title": "International Expansion Lead",
+        "company": "Yango"
+      },
+      "highlight": {
+        "title": "Desk Research Has Limits - On-Ground Validation Is Essential",
+        "description": "While systematic market analysis helps narrow down options, published data in developing markets is often unreliable. Physical presence and local conversations provide insights that can't be obtained remotely."
+      }
+    },
+    {
+      "id": "5",
+      "date": "3.5 years ago",
+      "avatar": "yandex",
+      "subject": "Research Methodology and Team Structure 👥",
+      "greeting": "Good day,",
+      "cta": {
+        "message": "learn about lean team management",
+        "link": "https://yandex.com/company/"
+      },
+      "body": "Regarding your question about our research process and external resources, we conducted all market analysis internally. In the early stages, I personally handled much of this work using Excel and Google Docs. 📊\n\nWe avoided external consultants because their understanding of our specific business dynamics would be limited. We reviewed some consultant reports but found they rarely provided actionable insights, especially for secondary markets. Most high-quality research covers only primary markets in regions like Africa, Latin America, and Asia - when analyzing less prominent markets, available information becomes severely limited. 🔍\n\nAs for team structure, when we initially took over the international division, the existing team was practically non-existent with significant attrition. We needed to rebuild from scratch. Our approach was to develop separate functional teams for central operations while establishing country-specific operational teams on the ground. 🏗️\n\nThe organizational structure evolved naturally - each new country launch required local operational capacity, while gradually central functions emerged to support multiple countries. Some roles, like marketing 📢, could effectively support two or three countries simultaneously, while operational functions scaled linearly with country count.\n\nFor country selection and initial strategy, we maintained a small core team. During early stages, having fewer people is advantageous - large teams can shift focus from market exploration to organizational management. Our operations leaders spent significant time in the field - for example, one executive spent 250 days in Latin America that year, frequently moving between countries and leveraging talent across regions. ✈️\n\nThis approach allowed us to remain agile while gaining firsthand market knowledge that couldn't be obtained remotely. 🎯",
+      "signature": {
+        "name": "Andrei Krugliak",
+        "title": "International Expansion Lead",
+        "company": "Yango"
+      },
+      "highlight": {
+        "title": "Keep Early Expansion Teams Small and Field-Focused",
+        "description": "Large teams create management overhead instead of market insights. Small, agile teams that spend significant time on the ground can move faster and gather better intelligence than big remote operations."
+      }
+    },
+    {
+      "id": "6",
+      "date": "3.5 years ago",
+      "avatar": "yandex",
+      "subject": "On-the-Ground Research Approach in Germany 🇩🇪",
+      "greeting": "Hi there,",
+      "cta": {
+        "message": "discover field research techniques",
+        "link": "https://yandex.com/company/"
+      },
+      "body": "You asked about our approach to on-the-ground market research, specifically regarding our initial exploration of Germany.\n\nFor our first international research trip, three of us traveled to Germany with a minimalist plan: arrive, observe, and gather intelligence directly from the source. Before arriving, we arranged some meetings with potentially useful contacts, but much of our research happened spontaneously. 🚗\n\nIn the taxi industry, primary research can be quite straightforward - we would flag down taxis, ask drivers who they worked for, and request to visit their taxi ranks. At these locations, we'd speak with local authorities and gain insights into operational practices. Through this chain of conversations, we quickly developed a comprehensive understanding of the market. 🗣️\n\nWe began in Berlin, then visited Hamburg and other cities. When we noticed information gaps, we rented a car and drove throughout Germany, engaging with local stakeholders in each location. 🛣️\n\nThe ultimate objective was determining whether we could successfully launch in the country, particularly when others had failed. Our assessment focused on identifying unique advantages we might leverage. We recognized that unlike competitors like Uber who worked directly with drivers, our historical strength lay in aggregating taxi companies - the exact model that dominated in German markets outside Berlin. 💡\n\nThese traditional taxi companies, complete with call centers and established operations, remained market leaders despite significant investments from competitors. We identified an opportunity to provide these companies with superior technology while respecting their established business model. The taxi companies' general antipathy toward Uber created a potential partnership advantage for us. 🤝\n\nThrough these insights, we developed a narrative we believed in enough to pursue market entry. The entire approach was direct, practical, and focused on building a first-person understanding that couldn't be obtained remotely. 🎯",
+      "signature": {
+        "name": "Andrei Krugliak",
+        "title": "International Expansion Lead",
+        "company": "Yango"
+      },
+      "highlight": {
+        "title": "Direct Stakeholder Engagement Reveals Hidden Market Dynamics",
+        "description": "Simple techniques like talking to taxi drivers and visiting taxi ranks can provide more valuable insights than expensive market research. Understanding why competitors failed helps identify unique positioning opportunities."
+      }
+    },
+    {
+      "id": "7",
+      "date": "3.5 years ago",
+      "avatar": "yandex",
+      "subject": "Team Focus and Resource Allocation ⚖️",
+      "greeting": "Hello,",
+      "cta": {
+        "message": "understand resource allocation strategies",
+        "link": "https://yandex.com/company/"
+      },
+      "body": "Regarding your questions about how we allocated our time between markets and managed our local operations:\n\nOur team made a complete transition to international business, entirely abandoning our previous responsibilities in the home market. We made a strategic bet on international expansion - if it hadn't succeeded, we would have needed to seek new opportunities. 🎲\n\nThe transition wasn't particularly difficult. I handed my product responsibilities to another team member, we brought back a colleague who had been working elsewhere in the company, and the third member was already part of the international team. Replacing three people, even highly valued ones, is relatively straightforward in an organization of our size. 🔄\n\nWe didn't maintain a strict time allocation between different markets. Our focus shifted organically based on priorities and opportunities. Initially, we divided attention between evaluating potential new markets and optimizing existing ones. Over time, the proportion dedicated to new launches increased, though it's now decreasing again as we shift toward optimizing current operations rather than pursuing additional expansion. Currently, new launches represent approximately 30-40% of our focus. 📊\n\nOur European exploration trip included Germany 🇩🇪, Austria 🇦🇹, and Slovenia 🇸🇮. The strategy was to establish operations in Germany first, then expand to Austria and other nearby countries due to their similarities. This would have created a foundation for broader European presence. 🌍",
+      "signature": {
+        "name": "Andrei Krugliak",
+        "title": "International Expansion Lead",
+        "company": "Yango"
+      },
+      "highlight": {
+        "title": "Full Commitment Beats Divided Attention in International Expansion",
+        "description": "Successful international expansion requires complete focus rather than splitting time with domestic responsibilities. Making it an all-or-nothing bet ensures proper dedication and resource allocation."
+      }
+    },
+    {
+      "id": "8",
+      "date": "3.5 years ago",
+      "avatar": "yandex",
+      "subject": "Decision-Making Process and Business Structure 🏢",
+      "greeting": "Greetings,",
+      "cta": {
+        "message": "explore flat organization benefits",
+        "link": "https://yandex.com/company/"
+      },
+      "body": "You inquired about our presentation process to senior management after research trips - this actually highlights an important aspect of our company culture.\n\nWe operate with a remarkably flat organizational structure. Most of us have worked together for 8-10 years, creating a dynamic decision-making environment without rigid hierarchical approvals. We didn't have a situation where we made a decision and then executed it unchanged for five years. Instead, our approach continuously evolved - adding markets, removing others, and adapting strategies based on emerging information. 🔄\n\nAfter our Germany trip, we shared our findings with the broader team and proceeded with exploration in Africa. For Germany specifically, we began assessing a potential acquisition rather than organic entry. We engaged with a German company that developed software for local taxi drivers and controlled a larger supply market share than Uber. This approach would bypass the time-consuming process of establishing relationships with individual taxi companies, which is particularly challenging in Germany. 🤝\n\nWe initiated discussions in summer 2021, with plans to close the acquisition on February 22, 2022 - timing that proved unfortunate given subsequent events. ⚔️\n\nOur acquisition strategy stemmed from practical considerations after meeting the company's team. They had already solved the critical supply-side challenge by building relationships with taxi companies - a time-consuming process, especially in Germany. Based on our experience operating taxis at home and interactions with the German market, we recognized that relationship-building would be particularly prolonged given the deliberate business pace there. 🇩🇪\n\nIn Africa, our approach differed significantly. Markets were generally more open without established local players, allowing us to launch using our standard model: finding partners, recruiting drivers, and launching the service directly. 🌍",
+      "signature": {
+        "name": "Andrei Krugliak",
+        "title": "International Expansion Lead",
+        "company": "Yango"
+      },
+      "highlight": {
+        "title": "Flat Organizations Enable Faster International Decision-Making",
+        "description": "Long-standing team relationships and minimal hierarchy allow for rapid strategy adaptation. Different markets may require completely different entry approaches - acquisitions vs. organic growth."
+      }
+    },
+    {
+      "id": "9",
+      "date": "3.5 years ago",
+      "avatar": "yandex",
+      "subject": "Timeline of International Expansion ⏰",
+      "greeting": "Hi there,",
+      "cta": {
+        "message": "track expansion chronology",
+        "link": "https://yandex.com/company/"
+      },
+      "body": "To clarify the chronology of our international expansion: our African launches began in fall 2021, preceding the war that started in early 2022. 🌍\n\nOur international expansion approach remained consistent across regions. Whether in Germany 🇩🇪, Africa 🌍, or later markets, we focused on meeting potential business partners, taxi companies, and other relevant industry participants. We also prioritized connecting with the best talent in each country and engaging with local startups to understand the ecosystem. 🤝\n\nThis methodology provides reliable insights into operational viability that couldn't be obtained remotely. Sometimes we hired local translators in non-English speaking countries, but generally managed without significant local support. 🗣️\n\nFor staffing, we followed similar talent structures across markets. The fundamental roles in taxi operations remain consistent globally - general managers, fleet connection specialists, driver management, marketing, and so on. The functions are largely universal across the industry. 👥\n\nEach country operated with a business plan outlining growth rates and financial expectations. When performance didn't meet projections, we typically conserved resources rather than completely withdrawing. We've only entirely closed operations in a handful of countries for business reasons (Hong Kong 🇭🇰 and Algeria 🇩🇿), while most launches remain operational. 📊\n\nMarket performance becomes evident quite quickly - within approximately three months, we can generally determine if operations are gaining traction. When negative trends emerge, we attempt operational adjustments, sometimes by sending more experienced team members, rehiring local staff, or investing personal time in the market to resolve issues. ⚡\n\nThe most common challenges involve operational execution - either suboptimal local hiring or team performance issues. The taxi business requires managing physical processes on the ground, negotiating with partners, and addressing driver acquisition challenges. Finding individuals with relevant experience can be challenging, particularly in markets with limited talent pools. 🎯\n\nHiring primarily occurs through our internal recruitment team, with agencies sometimes assisting with senior positions. Once we establish local leadership, they typically take responsibility for subsequent hiring with appropriate oversight and cross-checking. 🔍",
+      "signature": {
+        "name": "Andrei Krugliak",
+        "title": "International Expansion Lead",
+        "company": "Yango"
+      },
+      "highlight": {
+        "title": "Three Months Is Enough to Judge Market Viability",
+        "description": "Market performance becomes clear quickly in the taxi business. Most expansion challenges stem from operational execution and local talent acquisition rather than fundamental market issues."
+      }
+    },
+    {
+      "id": "10",
+      "date": "3.5 years ago",
+      "avatar": "yandex",
+      "subject": "Expansion Beyond Africa to New Regions 🌎",
+      "greeting": "Hello,",
+      "cta": {
+        "message": "discover regional expansion patterns",
+        "link": "https://yandex.com/company/"
+      },
+      "body": "Regarding your question about our expansion beyond African markets:\n\nAs we approached the limits of our African expansion, we strategically diversified into new regions. First, we launched in Dubai 🇦🇪, leveraging an existing team presence there. Subsequently, we expanded into Latin America, beginning with Bolivia 🇧🇴, followed by Guatemala 🇬🇹, Peru 🇵🇪, Colombia 🇨🇴, and Paraguay 🇵🇾. Currently, we're exploring opportunities in select Asian markets. 🌏\n\nOur market selection remains strategic despite appearances of opportunism. For instance, Australia remains inaccessible to our local companies due to entry barriers. In Latin America, the viable market list is relatively limited after eliminating countries where:\n- Uber maintains dominant positions (Chile 🇨🇱)\n- Macroeconomic conditions are unfavorable (Argentina 🇦🇷)\n- Markets are divided between major players like Uber and DiDi (Brazil 🇧🇷 and Mexico 🇲🇽)\n\nThis left us with a modest list of opportunities. Peru and Colombia represented larger markets requiring more operational experience, while Bolivia offered an ideal training ground with lower stakes. We successfully launched in Bolivia, developed operational expertise for the region, and then expanded to the larger markets of Peru and Colombia. 📈\n\nOur approach remained consistent across regions - we conducted preliminary visits with team members to assess conditions firsthand before committing resources. This direct engagement model has proven more effective than relying on external analysis or remote decision-making. 🎯\n\nThroughout our expansion, we've maintained our core functions in-house rather than outsourcing. This reflects our experience that third-party services rarely deliver value proportionate to their cost, particularly in understanding our specific business dynamics. 💡\n\nThis applies equally to marketing, where we maintained internal control rather than engaging local agencies. Our marketing approach follows consistent principles across markets - performance marketing doesn't fundamentally differ between countries, and offline marketing requires only basic localization (substituting local currency in price messaging, for example). 📢\n\nThe most effective marketing remains our core value proposition: competitive pricing and service quality. When cars arrive promptly at affordable prices, word of mouth drives adoption. Over time, we've developed local marketing teams in larger countries to incorporate regional creative preferences, but the fundamental approach remains 90% consistent with 10% local adaptation. 🚗\n\nChannel effectiveness varies somewhat between markets (TikTok penetration differs regionally, for instance), but these represent tactical adjustments rather than strategic shifts. Our marketing teams also visit markets, typically after launch, to refine local approaches. 📱",
+      "signature": {
+        "name": "Andrei Krugliak",
+        "title": "International Expansion Lead",
+        "company": "Yango"
+      },
+      "highlight": {
+        "title": "Sequential Market Entry Builds Regional Expertise",
+        "description": "Using smaller markets as training grounds before entering larger ones allows teams to develop regional expertise with lower risk. Marketing fundamentals remain consistent globally with only tactical local adjustments needed."
+      }
+    },
+    {
+      "id": "11",
+      "date": "3.5 years ago",
+      "avatar": "yandex",
+      "subject": "Key Lessons from Global Expansion 🎓",
+      "greeting": "Greetings,",
+      "cta": {
+        "message": "master expansion best practices",
+        "link": "https://yandex.com/company/"
+      },
+      "body": "I'd like to address your question about the most valuable lessons from our international expansion:\n\nFirst and foremost, starting with the right team is critical. This team must possess relevant expertise, enjoy the trust of the broader organization, and have significant operational autonomy. The common approach of hiring new external talent exclusively for international expansion rarely succeeds. Instead, taking your strongest existing talent, incentivizing them appropriately, and giving them freedom to operate yields better results. 👥\n\nSecond, keep the initial team small. I've observed many companies, particularly those led by founders, allocate hundreds of staff to international projects from the outset. This approach is counterproductive - large teams create management overhead rather than market penetration. Start lean and expand deliberately. 📏\n\nThird, maintain physical presence in each market. Understanding cannot be achieved remotely, regardless of data quality. On-the-ground engagement reveals critical insights that reshape strategy. 🌍\n\nFourth, approach each market with humility. When other players haven't succeeded in a market, there's usually a substantive reason beyond execution quality. Business models across our industry are fundamentally similar - some markets simply haven't reached appropriate development stages yet. 🙏\n\nAnother critical factor is timing. Market entry timing often outweighs most other considerations. Companies like Endrive succeeded internationally despite initial product and team limitations simply because they experimented extensively early on. This early-mover advantage allowed them to overcome numerous disadvantages. ⏰\n\nTime also matters regarding market development. Some markets require foundational groundwork that can't be accelerated regardless of resources applied. We've experienced situations where markets didn't respond to intensive efforts, only to develop organically later without intervention. Patience sometimes outperforms investment. ⏳\n\nFor offline-online businesses like ours, local team quality becomes the determinative factor. A strong, motivated local team consistently outperforms additional subsidies or discounts. However, finding such talent remains challenging in many markets. The approach of temporarily relocating staff from headquarters seldom works long-term - these transplants eventually burn out and struggle to maintain effectiveness. Living in another country presents significant adaptation challenges that many underestimate. 💪\n\nOur most significant mistake was timing - had we begun our international expansion three years earlier, our global footprint would be substantially larger today. We also over-indexed on Africa when Latin America could have delivered stronger results had we prioritized it earlier. Additionally, some internal reorganization decisions could have happened faster, conserving resources for more promising opportunities. 😔\n\nI hope these insights prove valuable. Please let me know if you have any questions or if I can assist you with connections in markets where we operate. 🤝",
+      "signature": {
+        "name": "Andrei Krugliak",
+        "title": "International Expansion Lead",
+        "company": "Yango"
+      },
+      "highlight": {
+        "title": "Timing and Team Quality Matter More Than Resources",
+        "description": "Early market entry often trumps perfect execution. Strong local teams outperform subsidies and discounts. Starting earlier with smaller budgets typically yields better results than waiting for perfect conditions with large investments."
       }
     }
   ]

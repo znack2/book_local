@@ -1,40 +1,273 @@
-
 {
   "emailColumn": {
-    "title": "Email Templates - Chapter 13",
+    "title": "MDinc: From Stroke Rehabilitation Pioneer to Global Neurotechnology Leader",
     "authorInfo": {
       "title": "About the Author",
-      "description": "Dr. Sarah Kim specializes in data analytics and business intelligence with focus on predictive modeling and decision support systems."
+      "description": "Amin Idilov is the CEO and Founder of MDinc, a pioneering neurotechnology company that started in 2016 with a mission to make healthcare more efficient through digital solutions. Based initially in Latvia and later expanding globally, MD has become a leader in digital neurology rehabilitation, using AI-powered platforms for stroke recovery, cognitive rehabilitation, and mental health assessment."
     },
     "materialsUsed": [
-      "Provost, F. (2013). Data Science for Business. O'Reilly Media.",
-      "Davenport, T. (2017). Competing on Analytics. Harvard Business Press.",
-      "Kimball, R. (2013). The Data Warehouse Toolkit. Wiley.",
-      "MIT Technology Review (2023). \"AI in Business Decision Making\" - Data Science Quarterly."
+      "Digital Health in Neurology Market Report 2025. Global market valued at USD 39.82 billion in 2024, expected to reach USD 303.23 billion by 2034 (CAGR 22.51%)",
+      "MENA Healthcare Services Market Analysis 2025. Market size valued at $241.13 billion in 2024, projected to reach $412.25 billion by 2032",
+      "Europe Digital Health Market Forecast 2025. Market expected to grow from USD 99.14 billion in 2025 to USD 499.5 billion by 2033 (CAGR 22.4%)",
+      "MENA AI in Healthcare Market Report 2025. Market reached $290.0 million in 2023, expected to grow to $1.8 billion by 2029 (CAGR 35.8%)",
+      "Neurorehabilitation Devices Market Report 2025. Global market size estimated at USD 2,001.5 million in 2023, expected to grow at CAGR 13.9% through 2030"
     ],
     "keyTakeaways": {
       "title": "Key Takeaways",
-      "description": "Data-driven decision making requires quality data, proper analysis tools, and organizational commitment to evidence-based strategies."
+      "description": "MDinc represents a masterclass in international expansion for healthcare technology companies. Starting with a clear mission to solve real healthcare inefficiencies, the company successfully navigated regulatory challenges, geopolitical shifts, and market adaptations. Key lessons include: 1) The importance of having backup expansion plans when primary markets become unavailable, 2) How language considerations are critical for speech-based medical technologies, 3) The value of distributor partnerships when direct market access becomes challenging, 4) The need to adapt cultural and religious sensitivities in different markets, and 5) The strategic advantage of aligning with government initiatives like Saudi Arabia's healthcare focus and Islamic banking principles."
     }
   },
   "emails": [
     {
-      "id": "1",
-      "sender": "Sarah Kim",
-      "date": "2 days ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-3.png",
-      "subject": "Data Analytics Mastery: Turn Data into Competitive Advantage",
-      "preview": "Dear Data Professional, transforming raw data into actionable insights is the key to staying competitive in today's market. Discover advanced analytics techniques...",
-      "signature": {
-        "name": "Sarah Kim",
-        "title": "Data Analytics Director",
-        "company": "InsightDriven Analytics"
+      "id": "1", 
+      "date": "2 years ago",
+      "avatar": "MDinc",
+      "subject": "The Beginning: Origins in Healthcare Technology",
+      "greeting": "Hi there,",
+      "cta": {
+        "message": "explore digital neurology solutions",
+        "link": "https://MDinc.com"
       },
-      "meta": "Template • Analytics",
-      "likes": 81,
+      "body": "In response to your question about our company's origins, I'm happy to share our story from the very beginning.\n\nWe started MD in 2016 with a fundamental observation: while information technology typically makes processes more efficient and less expensive in most industries, healthcare seemed to be the exception. When IT enters the medical field, treatment costs often increase dramatically - sometimes by factors of tens or hundreds. 🏥💻\n\nOur mission became clear: use digital technologies to increase the capacity of existing healthcare systems. We chose to focus on neurology, where specialist shortages create long waiting times that can lead to irreversible consequences for patients. 🧠⏰\n\nOur first product was a rehabilitation service for stroke patients during the outpatient stage. We implemented this within both public and private clinics at home. The solution was a web platform that processed human behavior using artificial intelligence components, allowing patients to receive effective rehabilitation without leaving home. 🏠💪\n\nThe platform included several key modules:\n- A computer vision system that analyzed and corrected a patient's movements 👁️‍🗨️\n- A speech recognition module that could assess not only what was said but how it was said - including pace, type, and speed of speech (even damaged speech) 🗣️\n- A cognitive rehabilitation component that selected appropriate exercises based on the patient's condition 🧩\n\nBy 2021, our system was functioning very effectively, particularly after COVID accelerated interest in telemedicine and online rehabilitation. We became one of the leaders in this field in home market, collaborating with top private medical institutions like EMC, MIC-SIS, HADASSA, Medscan. 🚀\n\nA turning point came in mid-2021 when we noticed a concerning pattern among stroke patients - many exhibited suicidal tendencies. This led us to expand our capabilities to analyze psycho-emotional states, including depression, anxiety, and suicidal risk. When we integrated this functionality, the system worked even better, as we discovered that some cognitive issues were actually consequences of poor emotional states rather than neurological damage. 💡\n\nThis realization broadened our vision beyond stroke rehabilitation to three directions: restoration of lost skills due to illness, preventive medicine, and developmental medicine. We also began addressing mild cognitive impairments (MCI), often associated with aging. 🌱",
+      "signature": {
+        "name": "Amin Idilov",
+        "title": "Founder & CEO", 
+        "company": "MDinc"
+      },
       "highlight": {
-        "title": "Advanced Analytics Framework",
-        "description": "Comprehensive data strategy with predictive modeling and real-time business intelligence dashboards"
+        "title": "Turning Healthcare Pain Points into Innovation Opportunities",
+        "description": "Instead of accepting that technology makes healthcare more expensive, MD identified this as a problem to solve. They found a specific area (neurology) where shortages create real patient harm and built a focused solution. The key insight: they discovered that emotional health affects physical recovery, showing how one solution can reveal new opportunities."
+      }
+    },
+    {
+      "id": "2",
+      "date": "2 years ago", 
+      "avatar": "MDinc",
+      "subject": "Market Expansion and International Challenges",
+      "greeting": "Greetings,",
+      "cta": {
+        "message": "learn about international expansion",
+        "link": "https://MDinc.com/expansion"
+      },
+      "body": "I wanted to address your question about how our international expansion plans evolved, particularly during early 2022.\n\nBy January 2022, we were already working with European clinics through our Latvian company, which we had registered in parallel with our local entity. We were at the peak of our influence in digital neurology rehabilitation and had presented to investors, structuring an investment round at home with a signed memorandum. 📈\n\nThen February 2022 happened, and everything changed. We lost our investment round and realized we needed to focus exclusively on revenue-generating activities. On March 3rd, I received notice that my Latvian residence permit was frozen. Our Latvian company, registered in my name, began experiencing difficulties with banking and counterparties. ❄️💼\n\nWe quickly understood that supporting our European business—which was already generating more revenue than our home operations due to higher European price points—would be impossible under these circumstances. We initially planned a simple separation of these businesses, but complications mounted. 🌍💰\n\nEuropean regulatory requirements led us to focus exclusively on rehabilitation and MCI, with our broader brain health initiatives temporarily frozen. We were simply finalizing our remaining contracts at home with the intention of eventually moving the entire team to Europe. 🏢➡️\n\nBy November 2023, we found a legal solution that allowed us to maintain both our local and international operations. Today, we operate through a distributor for medical rehabilitation in American and European markets, while our home entity handles prevention and developmental medicine in B2C, B2B2C, and B2B segments. 🤝\n\nJust this week, you'll see news in Forbes and other media that we've raised $2.2 million to enter the MENA (Middle East and North Africa) market—also operating through our local entity. 📰💵",
+      "signature": {
+        "name": "Amin Idilov",
+        "title": "Founder & CEO",
+        "company": "MDinc"
+      },
+      "highlight": {
+        "title": "When Plans Change Overnight: Building Business Resilience",
+        "description": "MD's story shows how external events can completely change business plans. When their European expansion was blocked, they didn't give up - they found new legal structures and different markets. The lesson: always have backup plans and be ready to pivot quickly when circumstances change beyond your control."
+      }
+    },
+    {
+      "id": "3",
+      "date": "2 years ago",
+      "avatar": "MDinc", 
+      "subject": "Choosing Markets: America, Europe, and FDA Challenges",
+      "greeting": "Hello,",
+      "cta": {
+        "message": "understand market selection strategy",
+        "link": "https://MDinc.com/markets"
+      },
+      "body": "Responding to your inquiry about our market selection process, particularly why we focused on Europe rather than America or Asia.\n\nAmerica was actually our primary target initially and remains the most important market for our product. However, there was a significant hurdle: the FDA (Food and Drug Administration), which can be extremely challenging for medical startups without stable cash flow. 🇺🇸🏛️\n\nIn 2021, the FDA hadn't yet established clear protocols for medical software, meaning solutions like ours would be classified as devices. This classification entails a lengthy, nurturing, and—most importantly—expensive certification path. 💰⏳\n\nOur strategy became entering the European market first, where the EMA (European Medicine Agency) offered some regulatory relief compared to the FDA. This would allow us to generate consistent revenue that could then fund our FDA certification process. 🇪🇺💡\n\nBy that time, we had already participated in numerous international competitions, particularly in Finland 🇫🇮, Sweden 🇸🇪, and the Netherlands 🇳🇱, which had raised our profile and built valuable connections. When we decided to establish a Latvian company, it was primarily for practical reasons—Latvia offered the easiest and most affordable path to EU residency, allowing us to conduct business throughout the European Union. 🇱🇻\n\nRegarding Asia, we never considered it a core target market. The region has a high prevalence of alternative medicine practices rather than the evidence-based approaches our technology requires. Singapore was the only exception, but it's prohibitively expensive for business operations. 🇸🇬💸\n\nWe found competitions to be an efficient way to gain visibility. They provided access to concentrated groups of specialized professionals, decision-makers, investors, and clinic directors. Winning these competitions helped establish both our medical credibility and our technical expertise, positioning us as a strong tech company in the healthcare space, not just a medical service provider. 🏆🎯",
+      "signature": {
+        "name": "Amin Idilov", 
+        "title": "Founder & CEO",
+        "company": "MDinc"
+      },
+      "highlight": {
+        "title": "Smart Market Entry: Use Easier Markets to Fund Harder Ones",
+        "description": "MD wanted to enter the US market but knew FDA approval was expensive and slow. Instead of waiting or struggling with funding, they entered Europe first where approval was easier. This gave them revenue to later fund US entry. The smart move: start where you can win, then use those wins to tackle harder markets."
+      }
+    },
+    {
+      "id": "4",
+      "date": "2 years ago",
+      "avatar": "MDinc",
+      "subject": "European Market Focus and Language Considerations", 
+      "greeting": "Greetings!",
+      "cta": {
+        "message": "explore language-specific solutions",
+        "link": "https://MDinc.com/language"
+      },
+      "body": "I noticed your question about our specific approach to European markets, given Europe's diversity and multiple languages.\n\nWe specifically targeted countries with high English language penetration. Since our product includes a speech rehabilitation component, the language a person speaks and thinks in is critically important. We deliberately avoided countries like France 🇫🇷 and Germany 🇩🇪, where English hasn't penetrated as deeply and where cultural peculiarities related to the language exist. 🗣️🌍\n\nOur focus was Northern Europe, including:\n- The Benelux countries (particularly Holland 🇳🇱 and Belgium 🇧🇪)\n- Scandinavian countries (Norway 🇳🇴 and Sweden 🇸🇪)\n\nWe selected these regions for two primary reasons. First, they have high English language proficiency. Second, since rehabilitation is often needed for elderly populations, these northern European countries have a significant elderly English-speaking demographic. 👥📈\n\nWe understood that eventually we would need to enter markets like France and Germany, but only after properly localizing our product for those specific languages and cultures. The technical complexity of our speech recognition and rehabilitation modules makes language adaptation far more involved than simple translation. 🔧💬",
+      "signature": {
+        "name": "Amin Idilov",
+        "title": "Founder & CEO", 
+        "company": "MDinc"
+      },
+      "highlight": {
+        "title": "Product Features Drive Market Selection",
+        "description": "MD didn't just pick markets randomly - their speech therapy product required English-speaking users, so they focused on countries where English was common. This shows how your product's specific features should guide which markets you enter first. Don't try to adapt everything at once - start where your product works best as-is."
+      }
+    },
+    {
+      "id": "5",
+      "date": "2 years ago",
+      "avatar": "MDinc",
+      "subject": "Market Research Approach Before International Entry",
+      "greeting": "Good day,",
+      "cta": {
+        "message": "view market research methodology",
+        "link": "https://MDinc.com/research"
+      },
+      "body": "I'm happy to share our market research methodology, as you've inquired about how we evaluated different European markets before entry.\n\nOur research was conducted well before physical market entry and shaped our international strategy. We had originally planned full EU expansion for 2025, but accelerated this timeline based on our ongoing research findings. 📊⚡\n\nWe conducted several types of studies:\n\n1. **User perception research** - We assessed how European users and clinicians perceived our technology. 👥💭\n\n2. **Operational environment analysis** - We examined working conditions, tax structures, and optimization processes in target countries. 🏢📋\n\n3. **Marketing studies** - As we considered transitioning from a B2B to B2C model, we needed to understand customer acquisition costs. Medical projects rarely enjoy \"cheap traffic,\" which is why many healthcare startups focus exclusively on B2B with larger contracts and lower marketing needs. 💰📈\n\nTo evaluate acquisition costs, we ran test advertising campaigns through Facebook Ads and Google Ads, analyzing click costs by country. We also tested different product positioning for different markets. For example:\n- In the United States 🇺🇸, messaging around **memory improvement** generated the strongest response\n- In Europe 🇪🇺, **\"active longevity\"** messaging performed exceptionally well with our product positioned as a solution to slow brain aging 🧠⏳\n\nThis market-specific research prepared us for targeted approaches in each region and informed our overall expansion strategy. 🎯✨",
+      "signature": {
+        "name": "Amin Idilov",
+        "title": "Founder & CEO",
+        "company": "MDinc"
+      },
+      "highlight": {
+        "title": "Test Before You Invest: Smart Market Research on a Budget",
+        "description": "MD didn't spend huge amounts on market research. Instead, they ran small Facebook and Google ad tests to see which messages worked in different countries. They learned that Americans cared about memory improvement while Europeans wanted to slow aging. This cheap testing saved them from expensive mistakes later."
+      }
+    },
+    {
+      "id": "6", 
+      "date": "2 years ago",
+      "avatar": "MDinc",
+      "subject": "Strategic Testing in America despite European Focus",
+      "greeting": "Dear colleague,",
+      "cta": {
+        "message": "learn about strategic planning",
+        "link": "https://MDinc.com/strategy"
+      },
+      "body": "You've raised an excellent point about why we conducted tests in America despite our initial focus on Europe.\n\nThese tests were part of our long-term strategic planning. I wanted a clear picture of where our company would be in one, three, five, and ten years to establish development priorities and market entry sequence. 📅🔍\n\nHad the American market shown extraordinary conversion rates during our tests, my strategy as CEO would have shifted dramatically? We would have prioritized raising investment for FDA certification and entering the American market immediately, potentially bypassing both European and home markets entirely. 🇺🇸🚀\n\nHowever, our results confirmed that the European market remained our best immediate opportunity. It was geographically closer and showed strong product-market fit, making it the logical first step in our international expansion. 🇪🇺✅\n\nWe developed our comprehensive long-term strategy in 2020, even before establishing our Latvian company. While we've continuously adjusted this strategy in response to global events, we've maintained our core product development roadmap and vision. The business aspects have required more flexibility, but our fundamental direction remains consistent. 🗺️💡",
+      "signature": {
+        "name": "Amin Idilov",
+        "title": "Founder & CEO",
+        "company": "MDinc"
+      },
+      "highlight": {
+        "title": "Always Keep Your Options Open",
+        "description": "MD tested multiple markets even though they planned to focus on Europe. This was smart because if the US had shown amazing results, they could have changed their entire strategy. The lesson: don't put all your eggs in one basket. Test multiple options so you can pivot if you discover a better opportunity."
+      }
+    },
+    {
+      "id": "7",
+      "date": "2 years ago", 
+      "avatar": "MDinc",
+      "subject": "Testing Multiple Markets: MENA Strategy Considerations",
+      "greeting": "Hi there,",
+      "cta": {
+        "message": "explore MENA market opportunities",
+        "link": "https://MDinc.com/mena"
+      },
+      "body": "Regarding your question about which markets we tested beyond Europe and America - we actually tested the MENA (Middle East and North Africa) region as well.\n\nIn fact, when deciding where to register our company in 2022, we seriously considered Saudi Arabia 🇸🇦, which was actively opening its doors to startups, especially in the medical field. Saudi Arabia offered significant advantages - certification obtained in the United Arab Emirates 🇦🇪 or Saudi Arabia would be recognized in Europe under a facilitated program, potentially simplifying our European certification process. ⚡🏥\n\nThe primary barrier preventing us from choosing MENA over Europe was language. Adapting our product to Arabic presented substantial challenges. For us, localization isn't simply a matter of translation - every assessment and development methodology must be rewritten in collaboration with doctors to function properly in a new language. 🔤👨‍⚕️\n\nSince English remains a common language among expats living in MENA territories, we decided to focus on English-speaking Europe first. Our plan was to develop our core product there while gathering insights that would help us adapt for other markets later. 🌍📈\n\nWe are now considering other regions like Latin America, given that Spanish is the second most common native language globally. However, we evaluate multiple factors beyond language, including the penetration of evidence-based medicine, subscription payment habits, and cultural receptiveness to our service model. We carefully weigh all these elements before committing to specific market entry. 🌎⚖️\n\nFor our product specifically, we discovered an important cultural insight: because we offer personalized meditations for mental health, we needed to be sensitive to Islamic perspectives. Meditation has associations with Hinduism that could be considered problematic (shirk or apostasy) in Muslim cultures. We adapted by renaming \"meditations\" to \"spiritual practices\" and making appropriate adjustments to content. 🕌💭",
+      "signature": {
+        "name": "Amin Idilov",
+        "title": "Founder & CEO",
+        "company": "MDinc"
+      },
+      "highlight": {
+        "title": "Cultural Sensitivity Can Make or Break Market Entry",
+        "description": "MD almost made a big mistake by calling their mental health features \"meditations\" in Muslim countries, where this could be seen as promoting other religions. They changed it to \"spiritual practices\" instead. This shows why you need to understand not just language, but culture and religion when entering new markets."
+      }
+    },
+    {
+      "id": "8",
+      "date": "2 years ago",
+      "avatar": "MDinc", 
+      "subject": "KPIs and Market Entry Timelines",
+      "greeting": "Hello,",
+      "cta": {
+        "message": "view expansion metrics",
+        "link": "https://MDinc.com/metrics"
+      },
+      "body": "To answer your question about timelines and metrics for our international expansion, our approach was somewhat unconventional.\n\nWhen we initially entered international markets, we established more qualitative KPIs than quantitative ones. This changed in 2022 when our investment round fell through, creating an urgent need to achieve financial self-sufficiency - at minimum, operating at zero net loss. 📊💼\n\nWe set an aggressive timeline of 2-3 months to register our new company and transfer all contacts from our Latvian entity to the new Cyprus company. We successfully met this deadline, and the revenue we subsequently generated through our Cyprus operations was sufficient to keep the company viable. 🇨🇾⏰\n\nFor our European operations, we pursued a purely B2B strategy, working through a distributor model. We engaged a European company with European leadership and personnel, granting them exclusive distribution rights until summer 2025. This arrangement allows us to focus entirely on product development while they handle market distribution, with the distributor receiving a discount on license costs. 🤝🎯\n\nInterestingly, this partnership came from a connection we had established back in 2020, when this distributor had shown interest in our rapidly growing business. At that time, we declined the partnership. In 2022, when circumstances changed dramatically, we reached out to them and proposed collaboration. 🔄💡\n\nPreviously, we had preferred direct sales to clinics, working through personal connections with clinic owners and paying only one-time small percentages for introductions. The distributor model required sharing ongoing revenue, which initially seemed less attractive. However, when our passports became problematic for business development, working with established European partners became our only viable option. 🏥🌍",
+      "signature": {
+        "name": "Amin Idilov", 
+        "title": "Founder & CEO",
+        "company": "MDinc"
+      },
+      "highlight": {
+        "title": "Sometimes Old Connections Become New Opportunities",
+        "description": "MD turned down a distributor partnership in 2020 when times were good. But when they faced challenges in 2022, they called that same distributor for help. The lesson: be nice to everyone and keep good relationships, because you never know when you might need their help later. Today's 'no' might become tomorrow's lifeline."
+      }
+    },
+    {
+      "id": "9",
+      "date": "2 years ago",
+      "avatar": "MDinc",
+      "subject": "Time Allocation between Markets",
+      "greeting": "Greetings,", 
+      "cta": {
+        "message": "understand CEO time management",
+        "link": "https://MDinc.com/leadership"
+      },
+      "body": "You've asked an insightful question about how I allocated my time between different markets during our expansion phase.\n\nUntil November 2023, approximately **95% of my time** was devoted to developing our European market, with only **5%** remaining for home market. Since November 2023, this balance has shifted dramatically - now about **70% of my focus** is on building home market, **20%** on establishing a new legal entity in MENA, and just **10%** on the European market. ⏰📊\n\nThis reallocation reflects a fundamental aspect of my role as CEO. My primary function is securing financing, so I direct my attention to markets where capital is most needed at any given time. Currently, our European operations don't require additional funding, which allows me to concentrate on opportunities at home and on MENA. 💰🎯\n\nThe MENA strategy has been in development since around 2020, when we observed Saudi Arabia's emerging competition with Dubai for regional dominance. While Dubai established itself as a hub for IT and crypto projects, Saudi Arabia needed its own niche to attract investment. They selected medical and healthcare projects, offering tax breaks, subsidies, and grants to companies in this sector. 🇸🇦🏥\n\nBy 2022-2023, Saudi Arabia announced two major initiatives: **\"The Line\"** (a linear city project) and **\"NEOM\"** (a desert city targeting royalty and focused on mental health and longevity). Our product aligns perfectly with these priorities, making this an ideal time to enter the market. 🏗️🧠\n\nWe had planned to establish a MENA presence by 2024-2025, and we're maintaining that timeline. We recently secured **$2.2 million** specifically to enter the MENA market and relocate our operations there by 2025. 💵🚀",
+      "signature": {
+        "name": "Amin Idilov",
+        "title": "Founder & CEO", 
+        "company": "MDinc"
+      },
+      "highlight": {
+        "title": "CEO Time = Where the Money Is",
+        "description": "Amin spent 95% of his time on Europe when they needed European funding, then switched to 70% on home market when that's where the money was. As CEO, your time should go where the biggest opportunities and needs are right now, not necessarily where you prefer to work. Follow the money and the urgent needs."
+      }
+    },
+    {
+      "id": "10",
+      "date": "2 years ago",
+      "avatar": "MDinc",
+      "subject": "MENA Market Entry Strategy versus European Approach", 
+      "greeting": "Dear colleague,",
+      "cta": {
+        "message": "discover MENA strategy",
+        "link": "https://MDinc.com/mena-strategy"
+      },
+      "body": "I noticed your question about our MENA strategy compared to our European approach, particularly regarding distribution partnerships.\n\nFor MENA, we're pursuing an independent strategy rather than working through distributors. There's an interesting backstory here: we had an American fund investing in our European company through a tranche structure, with **$25 million allocated** in portions dependent on meeting specific KPIs through the end of 2024. Originally, we planned to use this funding to enter the MENA market early this year. 💰📅\n\nHowever, after the October 7, 2023 attack on Israel, our investor cited reputational risks in Arab markets and withdrew support for this direction. Since they hold **25% of the company**, and such decisions require **76% approval**, we couldn't proceed as planned despite having an approved budget, team, and strategy for MENA development. ⚖️🚫\n\nWe subsequently reached an agreement with this investor to revitalize our home market first and then approach MENA through our local entity. This pivot received investor approval, and we've since attracted Arab investment as well. 🤝🌍\n\nInterestingly, after reviewing our company history, we realized we had never taken on debt, operating exclusively through venture capital. This philosophy aligns well with **Islamic banking principles**. We're positioning ourselves as the first startup to raise funding through Islamic banking and aiming to become the first unicorn under Islamic banking principles, which creates a compelling narrative for our MENA entry. 🏦🦄\n\nBy **Q1 2025**, we plan to have registered companies in the region, establish a functioning B2B model with product-market fit in Saudi Arabia by **Q2**, and expand to North African countries and the United Arab Emirates by year-end. 📈⏰",
+      "signature": {
+        "name": "Amin Idilov",
+        "title": "Founder & CEO",
+        "company": "MDinc"
+      },
+      "highlight": {
+        "title": "Turn Investor Restrictions into Marketing Advantages",
+        "description": "When their American investor blocked MENA expansion due to political concerns, MD didn't just accept it. They found new Arab investors and turned their debt-free approach into a selling point for Islamic banking. Sometimes obstacles force you to find better opportunities you wouldn't have discovered otherwise."
+      }
+    },
+    {
+      "id": "11", 
+      "date": "2 years ago",
+      "avatar": "MDinc",
+      "subject": "B2B Focus in MENA: Market Research Insights",
+      "greeting": "Hi,",
+      "cta": {
+        "message": "view market research insights",
+        "link": "https://MDinc.com/mena-research"
+      },
+      "body": "I'd like to address your question about our decision to focus on B2B rather than B2C in the MENA region.\n\nOur research indicates that the Arab market isn't ready for direct B2C medical services. Studies show that while users actively engage with online services for general purposes, medical decisions follow a different pattern. There's a strong cultural preference for in-person appointments and hand-holding through the medical process. 🏥👥\n\nWe're pursuing a **two-track strategy**: focusing on B2B relationships while simultaneously warming up the consumer audience through PR, communications, and media engagement. Our goal is to prepare the market for eventual B2C offerings, but we recognize this will take time. 📈⏳\n\nThe market needs multiple companies with similar approaches to establish a new culture of personalized and online medicine. Companies like **Bionic** and **Genotech** are also contributing to this ecosystem development, but none of us are aggressively pursuing B2C yet due to market readiness concerns. 🏗️🤝\n\nOur market validation process was thorough. We launched advertising campaigns directing to a blank 404 page to estimate potential market value from ad interactions. We collected contact information from interested parties, conducted **200 interviews** with both interested and non-interested individuals, and consulted with Arab medical professionals about the viability of B2C services. 📊💬\n\nThe consensus was clear - the market isn't prepared for direct-to-consumer medical technology solutions yet. We also discovered an important cultural insight specific to our product: because we offer personalized meditations for mental health, we needed to be sensitive to Islamic perspectives. Meditation has associations with Hinduism that could be considered problematic (shirk or apostasy) in Muslim cultures. We adapted by renaming \"meditations\" to \"spiritual practices\" and making appropriate adjustments to content. 🕌💭\n\nFor market research, we leveraged our internal product and marketing team led by **Dima Naumov**, Oracle's former CPO for B2B. We purchased market analyses from research centers like **Markets and Markets** for healthcare spending trends, finding it more cost-effective to acquire these specialized reports than to conduct this research ourselves, particularly for healthcare systems where data is often behind closed sources. 📋💡",
+      "signature": {
+        "name": "Amin Idilov",
+        "title": "Founder & CEO",
+        "company": "MDinc"
+      },
+      "highlight": {
+        "title": "Test Smart: Use Fake Landing Pages to Validate Demand",
+        "description": "MD created fake websites that led to 404 error pages, then measured how many people clicked their ads. This cheap trick told them if people were interested before building anything real. They also did 200 interviews to understand the culture. Smart testing saves money and prevents big mistakes."
+      }
+    },
+    {
+      "id": "12",
+      "date": "2 years ago",
+      "avatar": "MDinc",
+      "subject": "Funding Strategy for MENA Expansion",
+      "greeting": "Hello,",
+      "cta": {
+        "message": "explore funding strategies",
+        "link": "https://MDinc.com/funding"
+      },
+      "body": "I want to address your question about our **$2.2 million funding** for MENA expansion and how we determined this amount.\n\nOur original financial plan was to use funds from our European company to enter the MENA market, but after our European investor placed restrictions on this approach, we needed to seek alternative financing either at home or MENA directly. MENA became our focus. 💰🎯\n\nThe core funding requirement was calculated at **$2 million** - a figure based on supporting a dedicated MENA team for one year in the most pessimistic scenario (no revenue generation by summer 2025). The additional **$200,000** came from a business angel who aligned perfectly with our values and vision, and to whom we sold a small equity stake. 👼💼\n\nOur financial planning for MENA follows three key milestones:\n1. **Register companies** by the end of Q1 2025 🏢\n2. **Establish a functioning B2B model** with product-market fit in Saudi Arabia by the end of Q2 📈\n3. **Expand to North African countries and the United Arab Emirates** by year-end, achieving product-market fit in these regions within the B2B segment 🌍\n\nWe're deliberately approaching B2C cautiously, focusing on building the necessary infrastructure and market awareness before fully committing to direct consumer offerings. 🏗️⏰\n\nThank you for your interest in our international journey. I'm always happy to share insights from our experience, as I understand firsthand the challenges of entering new markets. 🌟🤝",
+      "signature": {
+        "name": "Amin Idilov",
+        "title": "Founder & CEO",
+        "company": "MDinc"
+      },
+      "highlight": {
+        "title": "Plan for the Worst Case Scenario",
+        "description": "MD calculated their MENA funding based on supporting a team for one full year with zero revenue - the worst possible outcome. This pessimistic planning meant they had enough money even if everything went wrong. When raising money, always plan for bad scenarios, not just the optimistic ones."
       }
     }
   ]

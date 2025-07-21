@@ -1,40 +1,276 @@
-
 {
   "emailColumn": {
-    "title": "Email Templates - Chapter 13",
+    "title": "amivisor: Energy Tech Pioneer and the Latin America Market Entry Strategy",
     "authorInfo": {
       "title": "About the Author",
-      "description": "Dr. Sarah Kim specializes in data analytics and business intelligence with focus on predictive modeling and decision support systems."
+      "description": "Pavel Galkin is the founder and CEO of an energy automation software company specializing in meter data management and power grid optimization solutions. With deep expertise in energy sector digitalization, Pavel has led his company's strategic expansion from the CIS region into Latin American markets, particularly focusing on Colombia's growing renewable energy sector. His hands-on approach to international market entry combines technical innovation with cultural adaptation, making him a recognized voice in cross-border energy technology expansion."
     },
     "materialsUsed": [
-      "Provost, F. (2013). Data Science for Business. O'Reilly Media.",
-      "Davenport, T. (2017). Competing on Analytics. Harvard Business Press.",
-      "Kimball, R. (2013). The Data Warehouse Toolkit. Wiley.",
-      "MIT Technology Review (2023). \"AI in Business Decision Making\" - Data Science Quarterly."
+      "Americas Market Intelligence (2024). Latin America Process Instrumentation and Automation Market Analysis",
+      "International Energy Agency (2024). World Energy Investment 2024 - Latin America and the Caribbean",
+      "Expert Market Research (2024). Latin America Process Instrumentation and Automation Market Size, Trends, and Forecast 2024-2032",
+      "Next Move Strategy Consulting (2024). Latin America Industrial Process Automation Market Report",
+      "MarkNtel Advisors (2024). Latin America Energy Storage Market Analysis 2024-2030",
+      "BloombergNEF (2024). Latin America's Clean Energy Build to Peak in 2024",
+      "U.S. Trade Administration (2024). Colombia - Electric Power and Renewable Energy Systems Market Overview",
+      "Chambers and Partners (2024). Renewable Energy 2024 - Colombia Global Practice Guide"
     ],
     "keyTakeaways": {
       "title": "Key Takeaways",
-      "description": "Data-driven decision making requires quality data, proper analysis tools, and organizational commitment to evidence-based strategies."
+      "description": "Pavel's journey reveals that successful international expansion in energy tech requires a three-pillar approach: 🎯 **Market Timing** - Enter growing markets before they become oversaturated, as Pavel did with Colombia's emerging renewable sector versus Brazil's mature market. 💼 **Cultural Integration** - Language skills and local presence trump remote operations; Pavel's Spanish fluency was crucial for building trust in Latin America. 🔧 **Product Localization** - Technical solutions must be culturally adapted; Pavel spent significant resources translating software and building local hardware partnerships rather than just marketing materials. The most surprising insight: government export programs can be game-changers for SMEs, providing not just funding but structured frameworks that force strategic thinking and execution discipline."
     }
   },
   "emails": [
     {
       "id": "1",
-      "sender": "Sarah Kim",
-      "date": "2 days ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-3.png",
-      "subject": "Data Analytics Mastery: Turn Data into Competitive Advantage",
-      "preview": "Dear Data Professional, transforming raw data into actionable insights is the key to staying competitive in today's market. Discover advanced analytics techniques...",
-      "signature": {
-        "name": "Sarah Kim",
-        "title": "Data Analytics Director",
-        "company": "InsightDriven Analytics"
+      "date": "2 years ago",
+      "avatar": "amivisor",
+      "subject": "International Expansion: Starting in Latin America",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "explore our Latin America energy automation solutions",
+        "link": "galkin-energy-tech.com/latam"
       },
-      "meta": "Template • Analytics",
-      "likes": 81,
+      "body": "I wanted to share some thoughts on why we decided to expand internationally and specifically chose Latin America. You asked about our initial decision to explore markets outside the home market, and it's an interesting story. 📈\n\nThe truth is, while we started looking at international markets earlier, the military actions and changing situation in CIS really pushed us in that direction. At home, we're seeing massive market consolidation and monopolization across sectors. This is particularly evident in the energy sector where we operate - smaller players are being squeezed out through new legislation with minimum requirements. I realized this would eventually lead to Rosseti's growth, leaving us with no market at home at all. 🏭\n\nWhy not Europe or North America? 🤔 We're significantly behind in those markets. The technologies we offer are nothing new there, and considering the current geopolitical situation and my roots, I believe that path is closed to us. Deal cycles are already long in those regions, and I didn't want to invest months in negotiations only to have everything fall through because someone says, \"we can't work with you because of your language.\" 💬",
+      "signature": {
+        "name": "Pavel Galkin",
+        "title": "Founder & CEO",
+        "company": "amivisor"
+      },
       "highlight": {
-        "title": "Advanced Analytics Framework",
-        "description": "Comprehensive data strategy with predictive modeling and real-time business intelligence dashboards"
+        "title": "Leveraging Market Disruption for Strategic Pivot",
+        "description": "Smart leaders turn home market challenges into international opportunities. Pavel's decision shows how regulatory pressure and geopolitical changes can actually accelerate global expansion plans. The key insight: sometimes being pushed out of your comfort zone leads to discovering much bigger opportunities abroad."
+      }
+    },
+    {
+      "id": "2",
+      "date": "2 years ago",
+      "avatar": "amivisor",
+      "subject": "Market Selection Process",
+      "greeting": "Hi there,",
+      "cta": {
+        "message": "learn about our market research methodology",
+        "link": "galkin-energy-tech.com/research"
+      },
+      "body": "You asked about our decision process for choosing Latin America among all possible regions. 🗺️\n\nWe actually started with Kazakhstan as it seemed the most obvious choice, but that proved unsuccessful. 🇰🇿\n\nKazakhstan already had a state program for energy companies 10 years ago, providing tariff concessions for implementing these systems. By the time we looked at the market, most companies had already invested in similar systems, and we had nothing new to offer them. They also had no incentive to change their existing infrastructure, so we crossed Kazakhstan off our list. ❌\n\nWe considered several other regions: 🌍\n\nAfrica is interesting because like Latin America, there's some language consolidation, though with more diversity (Spanish, French, English, Portuguese alongside local languages) 🌐\nUnited Arab Emirates was popular for many businesses, but it's ultimately a small market with few companies 🏙️\nAsia has options like Vietnam, Thailand, Indonesia, and the Philippines (some Spanish-speaking), but China was too developed 🌏\n\nI ultimately chose Latin America partly because I speak Spanish, which was crucial for communication. This allowed me to actively participate in meetings and webinars, comment on industry developments, and connect with potential partners directly. 🗣️",
+      "signature": {
+        "name": "Pavel Galkin",
+        "title": "Founder & CEO",
+        "company": "amivisor"
+      },
+      "highlight": {
+        "title": "First-Mover Advantage vs. Market Maturity Balance",
+        "description": "Pavel's Kazakhstan experience teaches us that arriving too late to an established market is just as bad as being too early. The sweet spot is finding markets where awareness exists but implementation is just beginning. Language capabilities can be a decisive competitive advantage in business development."
+      }
+    },
+    {
+      "id": "3",
+      "date": "2 years ago",
+      "avatar": "amivisor",
+      "subject": "Choosing Colombia",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "discover Colombian energy market opportunities",
+        "link": "galkin-energy-tech.com/colombia"
+      },
+      "body": "You asked specifically about why I chose Colombia among all Latin American countries. The decision came after some trial and error. 🎯\n\nActually, I started with Brazil first. While I could read Portuguese, I couldn't effectively communicate with people there. I could have solved this by hiring local staff, but I didn't have the budget considering how long deal cycles might be. Rather than establishing a local branch that could be financially risky, I focused on finding partners. 🇧🇷\n\nI met with many potential partners in Brazil, and while they communicated normally and shared insights about their market, nothing materialized when I asked them to collaborate. They would say, \"Yes, we'll look into it and think about it,\" but then nothing happened. I may still try Brazil again after creating a Portuguese page and launching an advertising campaign. 💭\n\nWhy Colombia specifically? I considered several factors: 📊\n\nSome countries like Bolivia have only one energy company for the entire country 🏢\nArgentina's economy moves from one crisis to another, making business unpredictable 📉\nMexico would have been suitable but requires visas, which deterred me ✈️\nColombia is visa-free, has a rapidly growing economy, and is the third-largest market after Brazil and Mexico 📈\n\nMost importantly, Colombia has over 50 energy companies (one for each region), giving us multiple potential clients rather than just one nationwide monopoly. This creates more opportunities for communication, finding the right fit, and eventually generating referrals and word of mouth. 🤝\n\nCurrently, we're facing challenges with recommendations and references. In Colombia, they heavily rely on \"Sitos\" (reference letters). We've been providing recommendations from CIS companies, but I'm unsure if those will be effective. To get local recommendations, we need to implement our solution somewhere first, which could then create a snowball effect of referrals. ⭐",
+      "signature": {
+        "name": "Pavel Galkin",
+        "title": "Founder & CEO",
+        "company": "amivisor"
+      },
+      "highlight": {
+        "title": "Fragmented Markets Create More Opportunities Than Monopolies",
+        "description": "Pavel's Colombia choice demonstrates brilliant market analysis: multiple regional energy companies mean multiple sales opportunities, shorter sales cycles, and faster market penetration. Sometimes practical factors like visa requirements can eliminate otherwise attractive markets. The reference letter challenge highlights how local business culture affects sales strategy."
+      }
+    },
+    {
+      "id": "4",
+      "date": "2 years ago",
+      "avatar": "amivisor",
+      "subject": "Initial Market Research Approach",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "access our market research templates",
+        "link": "galkin-energy-tech.com/templates"
+      },
+      "body": "You asked about my initial approach to researching new markets, and I'll share the step-by-step process we followed when first exploring international opportunities. 🔬\n\nOur market research was admittedly quite superficial. I started by examining: 📈\n\nCompanies operating in our sector - identifying how many potential clients existed 🏢\nLaws and regulations governing our industry - it's always easier when there are regulatory requirements we can reference or economic incentives (like cheaper electricity rates through such systems or penalties for reactive power). ⚡\n\nAfter this basic research, I looked for integrator companies that deal with automation systems and work with energy companies. I approached them primarily to learn about the market - understanding what meters they use, what technologies are prevalent, and what pilot projects might be underway. For example, one mentioned they had a pilot with 200 Chinese meters using a specific technology. 🔌\n\nMost of my initial research was simply through Google searches. I didn't hire anyone to conduct formal market research or commission reports. I did read some articles on industry developments, but these were very general - mostly introducing the concept of these systems rather than providing specific data on implementations or results. They typically just mentioned that such systems were beginning to emerge in Colombia and that some foundational laws had been passed. 🔍\n\nAs for direct market experience, I first visited as a tourist, examining meters in houses and observing the infrastructure. Before that visit, I had connected with some industry experts on LinkedIn, though these conversations weren't particularly productive. What I observed convinced me that the Colombian market was similar to our 10 years ago - still developing and with significant growth potential. 👀\n\nWhile being a pioneer has challenges (potential customers don't yet understand what we're offering), I believe the timing is actually good - energy companies are aware of these technologies, some have pilot projects, and many want to explore implementation. It feels like the perfect moment to enter the market. ⏰",
+      "signature": {
+        "name": "Pavel Galkin",
+        "title": "Founder & CEO",
+        "company": "amivisor"
+      },
+      "highlight": {
+        "title": "Grassroots Research Beats Expensive Reports for SMEs",
+        "description": "Pavel proves that effective market research doesn't require big budgets - just curiosity and systematic observation. Google searches, LinkedIn connections, and tourist visits can provide more actionable insights than expensive consulting reports. The key is identifying markets at the right development stage where your solution fills an emerging need."
+      }
+    },
+    {
+      "id": "5",
+      "date": "2 years ago",
+      "avatar": "amivisor",
+      "subject": "Finding Local Contacts",
+      "greeting": "Hello there!",
+      "cta": {
+        "message": "join our partner network",
+        "link": "galkin-energy-tech.com/partners"
+      },
+      "body": "You asked about how I identified who to contact in these new markets and through which channels I approached them. 🎯\n\nI specifically targeted integrators - companies dealing with automation systems related to our field. My reasoning was that if they were already handling automation, they had likely encountered the same problems we solve. Using LinkedIn, I searched for such companies and reached out to people working there, though many of these initial conversations didn't progress very far. 💼\n\nLinkedIn was my primary channel for making contacts. I didn't participate in webinars or conferences at that early stage - just direct outreach through LinkedIn messages. 📱\n\nMy workflow was essentially: 📝\n\nSelect a target market (Latin America) 🎯\nGather information through Google research 🔍\nFind relevant professionals on LinkedIn 👥\nMessage them to learn about the market 💬\nPlan a visit to see the market firsthand ✈️\n\nWhen I first contacted people, I had very limited materials. My initial outreach included a basic PowerPoint presentation - literally just our presentation with Spanish comments added on top. It was quite poor and purely introductory. We didn't have a proper Spanish website at this stage. 📊\n\nAfter visiting Colombia as a tourist and confirming the market potential, I decided to create a proper website. For this, we utilized a program through our local export center where they covered 80% of the cost and we paid 20%. The initial website was built on WordPress, but we faced limitations because our software itself hadn't been translated at that time. 💻\n\nDuring my first meetings with integrators two years ago, when they asked for demonstrations, I had nothing substantial to show them. I had to rely on Google Translate to showcase our interfaces on the fly, which was far from ideal. It wasn't until last summer that we began properly translating our program, completing it by fall. Only then did I return to Colombia with a properly translated version. 🌟",
+      "signature": {
+        "name": "Pavel Galkin",
+        "title": "Founder & CEO",
+        "company": "amivisor"
+      },
+      "highlight": {
+        "title": "Start Small but Iterate Quickly on Market Feedback",
+        "description": "Pavel's evolution from Google Translate demos to fully localized software shows the importance of progressive improvement based on market feedback. Export center programs can provide crucial financial support for market entry investments. The lesson: don't wait for perfect materials to start conversations, but do invest in proper localization before serious sales efforts."
+      }
+    },
+    {
+      "id": "6",
+      "date": "2 years ago",
+      "avatar": "amivisor",
+      "subject": "Working with Export Support",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "explore export support programs",
+        "link": "galkin-energy-tech.com/export-support"
+      },
+      "body": "You asked about our experience with the export center and how that relationship developed. 🤝\n\nOur connection with the export center came through our regional innovation center in CIS. We'd been involved with the innovation center for years, attending their events and receiving their newsletters. They introduced us to the export center quite some time ago, when international expansion was just a distant plan. 📧\n\nOur first collaboration with the export center was actually for an event in Kazakhstan many years ago. Since then, we've maintained contact through their regular communications about programs and opportunities. When I needed support for the Colombian market entry, they were a natural resource to turn to. 🇰🇿\n\nLooking back, I believe we actually created the website before my first trip to Colombia, probably in fall 2022. It was basically just a business card website without much useful information, created in both Portuguese (for Brazil) and Spanish. Over time, it has grown to include a blog with periodic articles. 🌐\n\nAfter my first Colombia trip and meetings with integrators, my primary focus shifted to translating our actual software into Spanish. I recognized that we needed to be able to properly demonstrate our product, not just talk about it. 💻",
+      "signature": {
+        "name": "Pavel Galkin",
+        "title": "Founder & CEO",
+        "company": "amivisor"
+      },
+      "highlight": {
+        "title": "Government Export Programs Provide Structure and Funding",
+        "description": "Export centers offer more than money - they provide frameworks, accountability, and long-term support relationships that can be invaluable for SMEs. Pavel's experience shows how maintaining relationships with innovation ecosystems opens doors to international opportunities. The progression from basic website to full software localization shows how market feedback drives investment priorities."
+      }
+    },
+    {
+      "id": "7",
+      "date": "2 years ago",
+      "avatar": "amivisor",
+      "subject": "Planning International Visits",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "schedule a market visit consultation",
+        "link": "galkin-energy-tech.com/consulting"
+      },
+      "body": "You asked about how I planned my international trips and what made me finally take the leap to visit these markets in person. 🌍\n\nTo be honest, my first trip wasn't meticulously planned with specific meetings and visits. I generally went and figured things out as I went along. Of course, I had broad objectives - we even documented these plans for the Internet Initiative Development Fund (IIDF), where we outline goals like entering foreign markets and securing initial sales. But the reality of executing those plans is much more fluid. 📋\n\nWhat I've found most challenging is maintaining momentum with international expansion while being at home (I get completely caught up in daily operations and have difficulty focusing on international initiatives). My most productive international work happens when I physically travel to the target market - it forces me to disconnect from CIS operations and focus entirely on that market. Also being physically present in the target market also creates opportunities for spontaneous meetings and observations that wouldn't happen remotely. 🎯\n\nOnce I return back, everything related to international expansion gradually slows down again as local priorities take over. 🏠\n\nFor future market entries, I'll likely continue this approach of immersion trips, but perhaps with more structured planning beforehand to maximize the time spent in each market. 📈",
+      "signature": {
+        "name": "Pavel Galkin",
+        "title": "Founder & CEO",
+        "company": "amivisor"
+      },
+      "highlight": {
+        "title": "Physical Presence Accelerates International Progress",
+        "description": "Pavel discovered that remote international business development doesn't work - you need boots on the ground. Physical presence creates spontaneous opportunities and forces focus that's impossible from home office. This insight challenges the remote-first approach many companies take to international expansion. Sometimes the best strategy is structured immersion rather than detailed planning."
+      }
+    },
+    {
+      "id": "8",
+      "date": "2 years ago",
+      "avatar": "amivisor",
+      "subject": "Managing Time between Markets",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "learn about our AI support solutions",
+        "link": "galkin-energy-tech.com/ai-support"
+      },
+      "body": "You asked about how I structure my time and develop plans for international operations. 📅\n\nOnce I arrive in Colombia or Brazil, I can more effectively identify who I need to meet with and start working with practical hypotheses - running different experiments, testing advertising campaigns, and making adjustments in real-time. ⚡\n\nMy time management is quite challenging - even when abroad, I'm not completely focused on the local market. I typically wake up at 4 AM to work on CIS operations until around noon. Only after that I started focusing on Latin American activities. So effectively, I'm splitting my day between two markets. 🌅\n\nOne significant advancement that has helped our international expansion is our AI-powered interactive assistant. We've trained it using our software to provide technical support to users - a critical service for international markets where we don't have local support staff. While the AI is trained on our content, it responds effectively in any language. This means that if someone in Colombia has a technical issue, they'll receive an instant response in Spanish rather than waiting 8+ hours for our local team at home to respond through a translator. Even if the AI solution isn't perfect, it creates the impression that someone is actively working on their problem, and our technical team can follow up later if needed. 🤖",
+      "signature": {
+        "name": "Pavel Galkin",
+        "title": "Founder & CEO",
+        "company": "amivisor"
+      },
+      "highlight": {
+        "title": "AI Solves the International Support Challenge for SMEs",
+        "description": "Pavel's AI support solution is brilliant - it provides instant, localized customer service without hiring local staff. This is a game-changer for small companies entering international markets. The 4 AM split-schedule approach shows the reality of managing multiple time zones as a small team. Technology can bridge the gap between customer expectations and resource limitations."
+      }
+    },
+    {
+      "id": "9",
+      "date": "2 years ago",
+      "avatar": "amivisor",
+      "subject": "Maintaining International Momentum",
+      "greeting": "Hi there!",
+      "cta": {
+        "message": "follow our international expansion journey",
+        "link": "galkin-energy-tech.com/journey"
+      },
+      "body": "You asked about the timing between my international trips and how we maintain momentum between visits. 📈\n\nMy approach has settled into a rhythm of spending roughly six months in CIS and six months abroad. My first real business trip to Latin America was in fall 2022 to spring 2023, followed by a second trip from fall 2023 to summer 2024. I'm planning to continue this pattern going forward. 🔄\n\nDuring the six months between international trips when I'm back at home, there's admittedly very little progress on international initiatives. 😅\n\nLet me clarify the timeline of my visits: 📅\n\nI first visited Latin America briefly as a tourist 🏖️\nMy first business trip to Brazil started February, 2023 🇧🇷\nIn March 2023, I flew to Colombia 🇨🇴\nThen I returned to CIS for about six months 🏠\nMy second major business trip covered fall 2023 to summer 2024 ✈️\n\nThis cycle of intense activity during in-market visits followed by relative inactivity while at home seems to be the pattern that works for our current stage of development. 🔄",
+      "signature": {
+        "name": "Pavel Galkin",
+        "title": "Founder & CEO",
+        "company": "amivisor"
+      },
+      "highlight": {
+        "title": "Cyclical International Presence Can Work for Bootstrapped Companies",
+        "description": "Pavel's 6-month rotation model shows that consistent international presence doesn't require permanent offices. This cyclical approach might actually work better than trying to maintain constant remote engagement. It concentrates resources and attention for maximum impact during in-market periods. The honesty about momentum loss during home periods is refreshing and probably more common than most admit."
+      }
+    },
+    {
+      "id": "10",
+      "date": "2 years ago",
+      "avatar": "amivisor",
+      "subject": "Export Accelerator Experience",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "find export accelerator programs",
+        "link": "galkin-energy-tech.com/accelerators"
+      },
+      "body": "You asked about my experience with export consultants and accelerator programs - it's been quite valuable. 💎\n\nMy introduction to formal export support came in fall 2022 when I joined an export accelerator program at Skolkovo organized by our local export center. Initially, I was skeptical - I had a preconceived notion that anything with the Skolkovo label might not be worthwhile. But I reluctantly signed up, partly because of the co-financing program (similar to the 80/20 website development program I mentioned earlier). 🤔\n\nThe experience completely changed my perspective. The program was excellent, with remarkably strong experts and valuable content. They provided insights about the international market in general and specific approaches for different regions. They covered working with Arab markets (which I immediately dismissed) and extensively discussed Asian markets, though unfortunately, they barely mentioned Latin America. 🌟\n\nThe program helped me understand how international markets function differently from CIS. Experienced entrepreneurs like Alexei Baranov shared their personal journeys, which was incredibly valuable. I learned practical skills like optimizing my LinkedIn profile and began posting regularly. We discussed scientifically-backed approaches to entering established international systems. 💼\n\nWhile I can't say I'm following everything I learned there perfectly, much of it has stuck with me. The experience was so positive that I now recommend similar programs to others in my city. If someone asks, I enthusiastically tell them, \"Yes, go for it! You won't regret it - it's an excellent program.\" 👍\n\nMy participation in structured programs has consistently driven our company's growth. When we operate independently, we tend to stagnate, but joining programs like the IIDF accelerator or this export accelerator creates immediate momentum. We've always sought out such opportunities. 📈\n\nThe key benefit of these programs is having dedicated time to work purposefully on specific business development aspects with expert guidance. More importantly, it was through this program that I made the decision to definitely visit Brazil, purchasing tickets before the program even ended. All the successful entrepreneurs who shared their experiences emphasized that you can't expect results while sitting at home - you need to physically go to your target markets and meet people directly. ✈️",
+      "signature": {
+        "name": "Pavel Galkin",
+        "title": "Founder & CEO",
+        "company": "amivisor"
+      },
+      "highlight": {
+        "title": "Structured Programs Force Action and Provide Accountability",
+        "description": "Pavel's Skolkovo experience demonstrates how accelerator programs provide structure and momentum that's hard to generate independently. The peer learning from other entrepreneurs can be more valuable than expert advice. Most importantly, these programs force decision-making and action - Pavel bought his Brazil tickets before the program ended. Sometimes external structure is exactly what ambitious plans need to become reality."
+      }
+    },
+    {
+      "id": "11",
+      "date": "2 years ago",
+      "avatar": "amivisor",
+      "subject": "Hardware Partnerships in New Markets",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "explore our hardware partnership program",
+        "link": "galkin-energy-tech.com/hardware-partners"
+      },
+      "body": "You asked about our experience with potential partnerships discovered during our market research and why they didn't materialize. 🤝\n\nThe primary challenge we faced in Brazil was that most potential clients needed a comprehensive hardware-software solution, not just software. This is actually a significant obstacle for us internationally because our software doesn't function without compatible hardware. In CIS, this isn't an issue since suppliers know us well - they even pay us to integrate their meters into our system. But in new markets where we're unknown, we need to purchase local hardware and allocate resources to integrate it with our system. 🔌\n\nI tried contacting hardware manufacturers in Brazil to establish partnerships. Some never responded, while others said, \"We have our own software, we're not interested.\" This left me without hardware partners to recommend alongside our software, making our offer less compelling. 🇧🇷\n\nThe situation improved in Colombia. I identified which meter manufacturers were recognized there (American, European, and Chinese companies) and reached out to them about integration opportunities. Out of all the companies I contacted, only two responded, and with one of them, the relationship developed more productively. They fulfilled our order, and we added them to our partner list. Now we can recommend each other - I consistently recommend them, and they have a representative in Colombia who confirms our partnership if asked. 🇨🇴\n\nThis makes approaching potential clients much easier because we can offer a complete solution. There's a great supplier of metering devices that have been tested for years, the meters work excellently, buy from them, and we'll handle the rest. It sounds much more convincing than asking clients to source their own hardware. 💪\n\nBeyond the hardware partnership challenge, Brazil presented two additional obstacles: 🚧\n\nA strong local programming community with approximately 20 competing solutions similar to ours. 💻\nThe language barrier - while I initially met many Spanish-speaking people at the airport and during my first days (giving me false confidence), when I began meeting with integrators and potential partners, virtually none spoke Spanish. 🗣️\n\nThese factors combined led me to view Brazil as less promising than Colombia, which had fewer barriers to entry. ✅",
+      "signature": {
+        "name": "Pavel Galkin",
+        "title": "Founder & CEO",
+        "company": "amivisor"
+      },
+      "highlight": {
+        "title": "Complete Solutions Sell Better Than Point Products",
+        "description": "Pavel learned that international clients want turnkey solutions, not just software. His Brazil struggles versus Colombia success shows how hardware partnerships can make or break market entry. The lesson: in new markets, you're not just selling your product - you're selling a complete ecosystem. Sometimes market selection should prioritize partnership opportunities over market size."
+      }
+    },
+    {
+      "id": "12",
+      "date": "2 years ago",
+      "avatar": "amivisor",
+      "subject": "Advertising Strategy in New Markets",
+      "greeting": "Hello there!",
+      "cta": {
+        "message": "review our digital marketing approach",
+        "link": "galkin-energy-tech.com/marketing"
+      },
+      "body": "You asked about our approach to advertising campaigns in Colombia and how we selected platforms and strategies. 🎯\n\nFor our initial advertising efforts, I built and tested various hypotheses about which topics might be interesting in the Colombian market. I quickly created landing pages for different concepts and launched Google ads to see which generated responses. Unfortunately, the results were generally disappointing across most topics, with the exception of our affiliate program. 📊\n\nI focused primarily on Google for our advertising, though I was aware that LinkedIn and Facebook were also important channels in these markets. This decision was largely practical - when I researched hiring local contractors to manage advertising, costs were quite high in both Brazil and Colombia. Instead, I leveraged our existing relationship with our CIS agency that handles our domestic advertising. 💰\n\nThis approach had several advantages: ✅\n\nCost efficiency - it was significantly cheaper than hiring local agencies 💵\nEase of communication - without language barriers, we could brainstorm and analyze results more effectively 💬\nTransferable expertise - Google's advertising policies are largely consistent globally, so their experience was applicable 🌐\n\nThe main adaptation needed was translation, which I handled myself. While this approach might not be ideal, it produced acceptable results - we generated website visits and gained insights about what needed improvement. 📈\n\nFor example, our CIS agency provided insights that local agencies might have struggled to communicate clearly due to language barriers. They explained technical aspects like budget management and campaign optimization in terms I could easily understand. 🔍\n\nIn retrospect, this hybrid approach of using our trusted partners while incorporating local market knowledge worked reasonably well for our initial market entry phase. 🎪",
+      "signature": {
+        "name": "Pavel Galkin",
+        "title": "Founder & CEO",
+        "company": "amivisor"
+      },
+      "highlight": { 
+        "title": "Leverage Existing Agencies with Local Adaptations",
+        "description": "Pavel's approach of using his trusted CIS agency for international campaigns shows how SMEs can maintain quality while controlling costs. The key insight: global platforms like Google allow you to leverage existing relationships rather than starting fresh in each market. Sometimes familiar partnerships with local translation beat expensive local agencies, especially in early market testing phases."
       }
     }
   ]

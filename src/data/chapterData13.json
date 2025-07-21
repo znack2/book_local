@@ -1,40 +1,189 @@
-
 {
   "emailColumn": {
-    "title": "Email Templates - Chapter 13",
+    "title": "Altegio: A SaaS Survival Story",
     "authorInfo": {
       "title": "About the Author",
-      "description": "Dr. Sarah Kim specializes in data analytics and business intelligence with focus on predictive modeling and decision support systems."
+      "description": "Yuri Petrou is a co-founder of Altegio, a SaaS company that began in Silicon Valley as a salon aggregator before pivoting to a B2B salon management platform. The company started with American customers but discovered better product-market fit in their home market. After maintaining international capabilities despite operational complexity, they survived a major geopolitical crisis that forced them to pivot entirely away from their domestic market, leveraging their previously built international foundation to continue operations globally."
     },
     "materialsUsed": [
-      "Provost, F. (2013). Data Science for Business. O'Reilly Media.",
-      "Davenport, T. (2017). Competing on Analytics. Harvard Business Press.",
-      "Kimball, R. (2013). The Data Warehouse Toolkit. Wiley.",
-      "MIT Technology Review (2023). \"AI in Business Decision Making\" - Data Science Quarterly."
+      "Global Salon Software Market Report 2025. Market valued at USD 0.95 billion in 2024, projected to reach USD 3.16 billion by 2033 (CAGR 14.31%)",
+      "Brazil SaaS Market Analysis 2025. Market reached USD 6.91 billion in 2024, expected to reach USD 23.54 billion by 2033 (CAGR 14.60%)",
+      "Spa & Salon Software Market 2025. Market size estimated at USD 1.01 billion in 2025, growing at CAGR 10.90% to USD 1.69 billion by 2030",
+      "B2B SaaS Brazil Report 2025. 76.9% of emerging companies in Brazil have B2B sales as their main model, with software segment holding 99.41% revenue share",
+      "Global SaaS Market Forecast 2025. Market projected to grow from USD 315.68 billion in 2025 to USD 1,131.52 billion by 2032 (CAGR 20.0%)"
     ],
     "keyTakeaways": {
       "title": "Key Takeaways",
-      "description": "Data-driven decision making requires quality data, proper analysis tools, and organizational commitment to evidence-based strategies."
+      "description": "This SaaS company's journey reveals critical lessons about international expansion and business resilience: 1) Maintaining international capabilities, even when they slow domestic growth, can become a lifeline during crises, 2) Product-market fit often emerges in unexpected markets - listen to where customers are actually succeeding, 3) Supporting multiple languages and markets adds 15-20% operational complexity but provides strategic optionality, 4) Cultural and regulatory differences (like Brazil's installment payment culture) require deep local adaptation, not just translation, 5) An 'abstract geography' approach targeting English speakers globally can be more effective than country-specific strategies, and 6) Sometimes the inefficient decision (supporting multiple markets) becomes the survival strategy when external events force pivots."
     }
   },
   "emails": [
     {
       "id": "1",
-      "sender": "Sarah Kim",
-      "date": "2 days ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-3.png",
-      "subject": "Data Analytics Mastery: Turn Data into Competitive Advantage",
-      "preview": "Dear Data Professional, transforming raw data into actionable insights is the key to staying competitive in today's market. Discover advanced analytics techniques...",
-      "signature": {
-        "name": "Sarah Kim",
-        "title": "Data Analytics Director",
-        "company": "InsightDriven Analytics"
+      "date": "2 years ago",
+      "avatar": "altegio",
+      "subject": "Origins and Early Pivots",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "explore our platform",
+        "link": "https://altegio.com"
       },
-      "meta": "Template • Analytics",
-      "likes": 81,
+      "body": "You asked about our journey and how it all began. Let me share the story from the beginning.\n\nUnlike many companies, we didn't start in our home market first. Our company actually began in Silicon Valley 🏙️ as a pivot from a purely home project. Originally, we had created an aggregator of salons at home, but then developed a SaaS product specifically for the Valley market under their guidance.\n\nInterestingly, our first customers were in the USA 🇺🇸, but we discovered that the product was getting better results with our local clients. It was a strange situation - we developed something for American users based on their feedback, but it worked better in the domestic market. 🤔💡\n\nThere was no strategic choice about where to focus at the beginning because we simply had no money to continue developing for the US market. We tried to raise some funding, but it seemed unrealistic at the time, so we decided to return back home and try to build a global product from there. 💰❌\n\nThe most important feedback came from what's now called \"product-market fit\" - when customers themselves started coming to us and giving serious feedback. We realized that the home market would be our main market, but we maintained multilingual support from the beginning, even though in retrospect this probably slowed down our growth in our primary market. 🌍📊\n\nLooking back, it's fascinating how market forces guide you toward where you're actually needed, not where you think you should be. The Silicon Valley dream was compelling, but the real traction was elsewhere. 🚀✨",
+      "signature": {
+        "name": "Yuri Petrou",
+        "title": "Co-Founder",
+        "company": "altegio"
+      },
       "highlight": {
-        "title": "Advanced Analytics Framework",
-        "description": "Comprehensive data strategy with predictive modeling and real-time business intelligence dashboards"
+        "title": "Product-Market Fit Finds You, Not the Other Way Around",
+        "description": "This company built for Silicon Valley but found their product worked better in their home market. They learned to follow where customers were actually succeeding rather than where they thought they should succeed. Sometimes the market tells you where to go - the key is listening to real traction, not just initial assumptions."
+      }
+    },
+    {
+      "id": "2",
+      "date": "2 years ago",
+      "avatar": "altegio",
+      "subject": "The Operational Burden of Internationalization",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "learn about international operations",
+        "link": "https://altegio.com/international"
+      },
+      "body": "You asked about how maintaining international support complicated our operations. The impact was significant - it added about 15-20% more complexity to everything we did. 📈⚙️\n\nThe basic service to foreign customers was never great. Our localization was multi-language but often low quality. We constantly had embarrassing issues like notifications accidentally being sent to users in the USA using our local language - completely unacceptable! We were continuously repairing and maintaining these systems rather than focusing on core product development. 🔧😅\n\nAs the product evolved, it became about 5-10 times more difficult to support multiple languages. Even trivial aspects like writing code are significantly different when you have to support two or three languages instead of one. 💻🌐\n\nDespite these challenges, we continued to grow organically in international markets. We always had some customers coming from other countries, and people we knew would occasionally reach out about payment systems we supported. About 90% of people understood we were a CIS company, and while this may have interfered with our perceived value before the war, for many the quality of our product outweighed this concern. 🌍⚖️\n\nBy the start of the conflict, we had accumulated thousands of customers outside home, with approximately one-fifth of them being foreigners. This international foundation proved crucial when we needed to pivot. 🎯💪\n\nThe irony is that what seemed like inefficiency at the time - supporting markets that gave us small returns - became our survival strategy. Sometimes maintaining optionality is more valuable than short-term optimization. 💡🛡️",
+      "signature": {
+        "name": "Yuri Petrou",
+        "title": "Co-Founder",
+        "company": "altegio"
+      },
+      "highlight": {
+        "title": "Inefficiency Today Can Be Survival Tomorrow",
+        "description": "Supporting international markets added 15-20% complexity and seemed inefficient while they focused on their home market. But when crisis hit and they lost their domestic business, those international customers became their lifeline. Sometimes what looks like wasted effort is actually strategic insurance for uncertain futures."
+      }
+    },
+    {
+      "id": "3",
+      "date": "2 years ago",
+      "avatar": "altegio",
+      "subject": "Maintaining International Capabilities",
+      "greeting": "Hi there,",
+      "cta": {
+        "message": "discover our global approach",
+        "link": "https://altegio.com/global"
+      },
+      "body": "You asked why we supported multilingualism while focusing on the home market. In hindsight, this was probably not the most efficient decision. 🤷‍♂️\n\nSupporting multiple languages is just the most obvious aspect. Less obvious were the many technical requirements: ensuring SMS notifications reached other countries, maintaining various integrations relevant to different markets, and managing a complex infrastructure that gave small results but added costs and slowed down development in our main market. 📱🔗\n\nLooking back, we should have turned off international support entirely to focus on the home market. If we had moved faster and sold the business before the war, we might have achieved a better outcome. But since the war did happen, having maintained that international presence ultimately helped us survive. ⚡🛡️\n\nAt the time when the conflict began, we had about 10-15% of our business outside our country. This gave us something to build upon when we needed to pivot away from the home market completely. Without that foundation, we would have been left with perhaps only the Kazakh market, which wouldn't have been sufficient. 🇰🇿📊\n\nHad we known what would happen, we might have made different decisions, but we couldn't have predicted future events. In retrospect, maintaining those international capabilities, despite the operational complexity it added, became our lifeline. 🔮💡\n\nThis taught us that strategic patience and maintaining optionality, even when it's costly, can be the difference between survival and extinction when the world changes unexpectedly. 🌍⏳",
+      "signature": {
+        "name": "Yuri Petrou",
+        "title": "Co-Founder",
+        "company": "altegio"
+      },
+      "highlight": {
+        "title": "Strategic Patience vs. Short-term Efficiency",
+        "description": "They almost shut down international support to move faster domestically, which would have been more efficient short-term. But maintaining those capabilities, despite the costs, gave them a foundation when crisis forced them to pivot completely. Sometimes the 'inefficient' choice provides crucial optionality for unknown futures."
+      }
+    },
+    {
+      "id": "4",
+      "date": "2 years ago",
+      "avatar": "altegio",
+      "subject": "Brazilian Market Challenges",
+      "greeting": "Hi there,",
+      "cta": {
+        "message": "explore market research insights",
+        "link": "https://altegio.com/research"
+      },
+      "body": "Regarding your question about our Brazilian market experience, we encountered several unexpected challenges.\n\nBefore the war, we had only one international experiment: Brazil 🇧🇷. We chose it because during COVID, the country showed significant growth in digitalization. Everyone was talking about Brazil as the next big market, with banks leading digital transformation and a clear need for our services. 💻📈\n\nWe assembled a small research department to validate our assumptions, comparing Brazil with India and Eastern Europe. What attracted us was Brazil's market structure - São Paulo functioned like our capital, Rio like our \"second capital\", with several other million-plus cities similar to home regional centers. The banking system and e-commerce adoption looked positive, and local competitors were technologically far behind us. 🏙️🏦\n\nWe allocated a modest budget to hire a country manager and two salespeople. The goal was to acquire at least 100 clients in the first year who could provide valuable feedback. We even received help from a local accelerator program focused on helping companies enter international markets. 👥🎯\n\nInitially, we saw promising results, especially after the accelerator program helped push our local team. However, after reaching our first milestone of 100 clients, we discovered these weren't quality customers. They had the lowest average check sizes and only used the simplest features. They weren't representative of our ideal customer profile and weren't the type of clients our sales managers would normally prioritize. 📊❌\n\nWe changed the team multiple times but struggled to achieve the right results. We identified two main issues: finding the right people remained extremely difficult, and local market specifics required significant product adaptations that we're still developing. 🔄🛠️\n\nThe lesson: market size and digitalization trends don't guarantee product-market fit. Local nuances matter more than macro indicators. 💡🎯",
+      "signature": {
+        "name": "Yuri Petrou",
+        "title": "Co-Founder",
+        "company": "altegio"
+      },
+      "highlight": {
+        "title": "100 Customers Doesn't Mean Success If They're the Wrong 100",
+        "description": "They hit their goal of 100 Brazilian customers but discovered these were low-value users who only used basic features. Quantity of customers means nothing if they don't match your ideal customer profile. Better to have 10 customers who represent your target market than 100 who don't fit your business model."
+      }
+    },
+    {
+      "id": "5",
+      "date": "2 years ago",
+      "avatar": "altegio",
+      "subject": "Product Adaptation for Brazil",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "learn about localization challenges",
+        "link": "https://altegio.com/localization"
+      },
+      "body": "You asked about the product adaptations needed specifically for the Brazilian market.\n\nThe most critical challenge was payment behavior, particularly installment payments. While installment services (BNPL - Buy Now Pay Later) exist globally as startups, in Brazil every bank offers this functionality out of the box, and it's deeply integrated into consumer behavior. 💳🏦\n\nWe never expected that services like haircuts would be sold in installments, but many of our customers' businesses required this capability. The system works differently from other markets - merchants pay large commissions but receive money in their accounts immediately, while customers wait up to 12 months for the full payment cycle. ✂️💰\n\nThis affects not just payment processing but also employee commission calculations. If a business doesn't receive money immediately, it impacts when and how staff receive their commissions. These specifics vary across businesses, creating complex requirements. 👥📊\n\nWe approached the problem backward - starting with regulatory compliance rather than payment processing. When we realized this mistake, we shifted focus, but by then we'd already lost valuable time. However, even with the correct sequence, I'm not sure we would have achieved product-market fit. The gap between market needs and our solution was substantial. 🔄❌\n\nOther challenges included helping customers comply with Brazilian tax regulations and visualization requirements. These issues weren't easily understood without deep immersion in the market. 📋🇧🇷\n\nThe key insight: localization isn't just translation or adding features. It's rebuilding core business logic to match local behaviors and regulations. Cultural payment habits run deeper than technology can easily solve. 💡🌍",
+      "signature": {
+        "name": "Yuri Petrou",
+        "title": "Co-Founder",
+        "company": "altegio"
+      },
+      "highlight": {
+        "title": "Cultural Behaviors Trump Technology Features",
+        "description": "They discovered that Brazilians buy haircuts in installments and that this affects not just payments but staff commissions, tax compliance, and core business operations. True localization means rebuilding business logic around local behaviors, not just adding features. Cultural habits go deeper than software can easily adapt to."
+      }
+    },
+    {
+      "id": "6",
+      "date": "2 years ago",
+      "avatar": "altegio",
+      "subject": "Partner Strategy and Business Model",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "explore partnership models",
+        "link": "https://altegio.com/partners"
+      },
+      "body": "You asked about our approach to partnerships compared to competitors like Bitrix who work through partners in Brazil.\n\nWe constantly look at Bitrix's model, studying and admiring their success in Brazil - it's rare to find a company so happy with their international performance! Though we seem to offer similar automation software, our models are fundamentally different. 🏆📊\n\nOur market is microbusinesses and small enterprises that aren't ready to pay much. Bitrix has a unit economy where they can give partners 50% while still building a viable business. With this model, partners can cover sales and support costs while making a profit and Bitrix still keeps 50% for R&D and marketing. 💰⚖️\n\nOur approach is different. Due to our internal efficiency, we know exactly how much sales and support cost. If we tried the partner model with a 50/50 split, we'd have to significantly raise prices - and at those higher prices, customers simply wouldn't buy. 📈❌\n\nThis efficiency is actually our superpower in the home market - it's why competitors couldn't beat us there. We know how to operate so efficiently that even if we wanted to use the partner model for a specific geography, we'd need to dramatically change our business structure. It's possible but would present major difficulties. ⚡💡\n\nThis difference is both our strength and our curse - we're extremely efficient in our core market, but this same characteristic makes certain expansion strategies challenging for us. 🎯🤷‍♂️\n\nThe lesson: what makes you strong in one market can limit your options in another. Efficiency advantages don't always translate across different business models or market requirements. 💭⚡",
+      "signature": {
+        "name": "Yuri Petrou",
+        "title": "Co-Founder",
+        "company": "altegio"
+      },
+      "highlight": {
+        "title": "Your Biggest Strength Can Become Your Biggest Limitation",
+        "description": "Their ultra-efficient operations made them unbeatable at home but prevented them from using partner models internationally - they couldn't give partners 50% without raising prices beyond what customers would pay. What makes you dominant in one market can limit your expansion strategies in others. Strengths in one context become constraints in another."
+      }
+    },
+    {
+      "id": "7",
+      "date": "2 years ago",
+      "avatar": "altegio",
+      "subject": "Cultural Perception Challenges",
+      "greeting": "Greetings!",
+      "cta": {
+        "message": "understand global perceptions",
+        "link": "https://altegio.com/global-perspective"
+      },
+      "body": "You asked about how our origins affected our business internationally. It's an interesting question.\n\nI wouldn't say that my roots created direct negative perceptions like \"we don't want to work with you.\" The issue was more subtle - there's a mild global bias where software from companies outside the USA and Western Europe is perceived as slightly less reliable. 🌍🤔\n\nThis is the same phenomenon you see everywhere - in the capital, people might prefer to buy from a local citizen rather than from someone in Kazakhstan, assuming higher quality. Similarly, when choosing software, companies not from Western countries face an implicit disadvantage. Everyone making global business from our home tried to package themselves as American companies, opening offices abroad to overcome this perception. 🇺🇸🏢\n\nAfter the war began, many of these issues became more pronounced. However, before that, we maintained a parent company in Cyprus 🇨🇾, which helped somewhat with international credibility. We didn't deliberately hide our origins, but we weren't emphasizing them either.\n\nOn our landing pages, the imperfect English or flow of registration might give away that we weren't a truly international product. Small signs like integrations with Yandex Maps would be clear indicators to anyone familiar with the market. These seemingly minor issues created numerous small complexities throughout our product that were difficult to eliminate completely. 🗺️💻\n\nThe reality is that perception affects purchasing decisions, especially in B2B software where trust and reliability are paramount. It's not fair, but it's a market reality that non-Western companies must navigate carefully. 💼🎯",
+      "signature": {
+        "name": "Yuri Petrou",
+        "title": "Co-Founder",
+        "company": "altegio"
+      },
+      "highlight": {
+        "title": "Origin Bias is Real But Subtle in B2B Software",
+        "description": "They faced implicit bias where software from non-Western countries is perceived as less reliable. It wasn't direct rejection, but subtle preference for Western brands. Small details like imperfect English or local integrations gave away their origins. In B2B software, trust and perceived reliability matter - geography influences purchasing decisions more than we'd like to admit."
+      }
+    },
+    {
+      "id": "8",
+      "date": "2 years ago",
+      "avatar": "altegio",
+      "subject": "Current Global Strategy",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "explore our global approach",
+        "link": "https://altegio.com/strategy"
+      },
+      "body": "Regarding your question about our current global approach, we've developed what I call an \"abstract geography\" strategy rather than focusing on specific countries.\n\nWe've created an \"Office Global\" structure - a commercial division without specific geography that handles incoming demand from all countries. Within this structure, we have staff handling expat clients who aren't from the CIS countries, others working with English-speaking clients, and some attempting to work with clients who don't speak either language. 🌍🏢\n\nRecent advances in technology have enabled us to communicate in various languages through OpenAI integrations. Though not perfect, it's producing results. We've found that a significant portion of our clients speak English regardless of their location, and finding people who can present our service to them isn't difficult. 🤖💬\n\nEastern Europe has been particularly valuable - most people there speak English, and service workers are not prohibitively expensive. Culturally, they work similarly to us but with better English skills. This has allowed us to build cost-effective operations targeting global English-speaking markets. 🇪🇺💰\n\nWhat we've discovered is that with the right organization, we can make this abstract geography approach viable. While it won't build a billion-dollar company, these activities produce significantly better results than our focused efforts in Brazil. 📊✨\n\nRather than concentrating exclusively on one country, we've found greater success with a distributed approach that leverages language skills and cultural compatibility across multiple markets. 🌐🎯\n\nSometimes the best strategy isn't picking one market to dominate, but finding efficient ways to serve many markets simultaneously. Geography becomes less important than language and cultural fit. 💡🚀",
+      "signature": {
+        "name": "Yuri Petrou",
+        "title": "Co-Founder",
+        "company": "altegio"
+      },
+      "highlight": {
+        "title": "Abstract Geography: Language Matters More Than Location",
+        "description": "Instead of targeting specific countries, they created an 'abstract geography' approach targeting English speakers globally, supported by Eastern European talent. This distributed strategy worked better than their focused Brazil effort. Sometimes cultural and language compatibility matters more than geographic market selection - think globally, hire regionally."
       }
     }
   ]

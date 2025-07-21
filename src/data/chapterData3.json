@@ -1,171 +1,212 @@
 {
   "emailColumn": {
-    "title":"24ttl",
+    "title": "ebac: International Education Expansion From Europe to Latin America",
     "authorInfo": {
-      "title": "From the Author",
-      "description": "24TTL is a company that specializes in providing innovative solutions for e-commerce, focusing on enhancing the online shopping experience for both retailers and brands. The company is headquartered in Dubai, United Arab Emirates, but operates internationally, including recently expanding to Seoul, South Korea, to tap into the innovative e-commerce market there.\n\n 24TTL is recognized for changing the customer experience in e-commerce and is trusted by Fortune Global 500 companies. They have partnerships with over 400 retailers and marketplaces, focusing on delivering a seamless and omnichannel buying process for online shoppers."
+      "title": "About the Author",
+      "description": "Alex Avramov is an international education entrepreneur who successfully expanded from Europe into Latin America's education market. He founded and sold the British Higher School of Art & Design and Universal University before establishing operations in Brazil and Mexico. His journey represents one of the notable international education ventures in Latin America's rapidly growing online learning sector, which reached $1.5 billion in Brazil alone by 2024."
     },
     "materialsUsed": [
-      "UAE Ministry of Economy. (2025). Business Expansion in UAE: Opportunities & Growth Strategies.",
-      "Netherlands Trade & Investment Office. (2024). Market Entry Strategy Guide for the Netherlands.",
-      "Indonesia Investment Coordinating Board (BKPM). (2025). Business Expansion to Indonesia: Complete Strategy Guide.",
-      "Mexico Trade & Investment Promotion. (2024). Benefits and Challenges of Expanding to Mexico.",
-      "Harvard Business Review. (2023). Cultural Understanding Impact on Global Expansion Strategies.",
-      "McKinsey & Company. (2024). International Business Expansion: Cultural Adaptation Framework.",
-      "World Bank. (2025). Doing Business Report - Cross-Country Analysis.",
-      "Baker Institute. (2024). Nearshoring in Mexico: Opportunities and Challenges."
+      "EdWeek Market Brief. (2024). Poised for Growth: Key Trends to Watch in Latin America's Education Market.",
+      "IMARC Group. (2025). Brazil Online Education Market 2033 - Market Size and Growth Analysis.",
+      "U.S. Trade.gov. (2023). Brazil - Education and Training Market Snapshot.",
+      "Americas Market Intelligence. (2018). LatAm Education Market Research Reports & Analysis.",
+      "Statista. (2024). Online Education Market Forecast - Brazil.",
+      "IndustryARC. (2024). Latin America Education Market Report - Forecast 2024-2030.",
+      "Actual Market Research. (2025). Brazil E-learning Market Research Report 2030."
     ],
     "keyTakeaways": {
       "title": "Key Takeaways",
-      "description": "Successful international expansion requires local entity establishment, deep cultural understanding, systematic business development approach, and long-term commitment. Quick spray-and-pray strategies often fail - sustainable growth comes from building reputation, trust, and genuine local partnerships over time."
+      "description": "Alex's expansion story reveals critical insights for international education ventures: 📊 Market selection should balance size with cultural accessibility - Brazil's $24B education market proved more approachable than Asia. 🤝 High-caliber local partnerships are essential - partnering with ex-Qualcomm Latin America President provided instant credibility. ⚖️ Legal structure mistakes can be costly - their Malta jurisdiction choice created unnecessary expenses. 🎯 Cultural adaptation is crucial - weekend learning models failed completely in Brazil, requiring full restructuring to weekday evenings. 💡 Speed vs. perfection matters - using agencies initially provided faster market entry than building internal teams."
     }
   },
   "emails": [
     {
       "id": "1",
-      "date": "8 months ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
-      "subject": "The Genesis: From Russia to Dubai - Our First International Leap",
-      "greeting": "Hey there,",
+      "date": "2 years ago",
+      "avatar": "ebac",
+      "subject": "When Did You First Consider Going International?",
+      "greeting": "Hello!",
       "cta": {
-        "message": "download expansion guide",
-        "link": "google.com"
+        "message": "explore international education expansion guide",
+        "link": "international-education-strategy.com"
       },
-      "body": "FROM 🇷🇺 TO 🇦🇪: Our Global Journey Begins! ✈️\n\nStarted as a Russian agency in 2016 📅 Working with big brands like LG 💼\n\nThen magic happened... 🪄\nOur LG client moved to Dubai and said: \"Your work is WAY better than what's here locally. Come with us!\" 🔥\n\nSuddenly we're flying ✈️ back and forth:\n• Meet clients 🤝\n• Get briefs 📋\n• Deliver results ✅\n\nReality check: UAE market was YEARS behind Russia in e-commerce 🛒\n\nBUT here's the game-changer 💡\n👉 You NEED local presence to really grow internationally\n👉 Remote work only gets you so far\n👉 Real growth = local teams + local ops\n\n#InternationalBusiness #StartupLife #GlobalExpansion #Entrepreneurship #BusinessLessons #Dubai #Russia #Ecommerce #24TTL",
+      "body": "You asked about when I first considered expanding internationally, particularly about that \"Britanka (British Higher School of Art & Design)\" I sold. 🎓\n\nThe truth is, I never had a specific moment when I decided to \"go international.\" I had always worked with international connections and partnerships, even when my core business was bringing British/international education to the homeland. I never felt limited to the local market, despite having my clients, money, and structure there. 🌐\n\nI was already living across multiple countries simultaneously, with various side investments and businesses in the UK. So there wasn't a clear moment when I woke up at home and suddenly decided to try something abroad. It was just a natural feeling that large-scale opportunities existed in other countries. 💡\n\nEven before exiting the British Higher School of Art & Design and Universal University, I started exploring different hypotheses, calculating various models and business plans. I leveraged my connections with influential people, investors, and started testing ideas through meetings. Eventually, I connected with Brazilians and investors with interests in Brazil (in areas like fast fashion, refurbishing and resale of pre-owned phones, etc). 🤝\n\nAfter conducting deeper market analysis, I saw interesting educational opportunities in my area of expertise. A concept emerged to build something based on high international education standards, applying insights from my accumulated experience. I didn't specifically target Brazil - it was a combination of individual circumstances and connections with people who had experience there, including our partner from Argentina who had lived in Brazil for 2 years. 🇧🇷\n\nI eventually exited my home project and relocated to Brazil. ✈️",
       "signature": {
-        "name": "24TLL Expansion Team",
-        "title": "International Growth",
-        "company": "Cross-Border Business Development"
+        "name": "Alex Avramov",
+        "title": "International Education Entrepreneur",
+        "company": "ebac"
       },
       "highlight": {
-        "title": "Client-Driven Market Entry",
-        "description": "Sometimes the best market opportunities come through existing client relationships rather than theoretical market analysis - but success requires eventual local establishment"
+        "title": "International Mindset from Day One",
+        "description": "Alex shows that successful international expansion often starts with a global mindset rather than a specific moment of decision. His approach of maintaining international connections and investments created natural pathways for expansion opportunities."
       }
     },
     {
       "id": "2",
-      "date": "7 months ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
-      "subject": "Why Local Entities Matter: From Services to SaaS Across Markets",
-      "greeting": "Hello, my friend,",
+      "date": "2 years ago",
+      "avatar": "ebac",
+      "subject": "Why Brazil Instead of Other Markets?",
+      "greeting": "Greetings!",
       "cta": {
-        "message": "read entity guide",
-        "link": "google.com"
+        "message": "download brazil market analysis report",
+        "link": "brazil-education-market-guide.com"
       },
-      "body": "GAME CHANGER: From Agency to SaaS 🚀\n\n2019 = PIVOT YEAR 🔄\nSwitched from services to IT/SaaS business\n\nWhy this matters 👇\n✅ Sell same product multiple times\n✅ Scale across markets\n✅ Work remotely\n\nBUT plot twist... 😱\nBig enterprise clients ONLY want local partners!\n\nReasons:\n• Tax stuff 💸\n• VAT reclaim 🧾\n• Compliance headaches 😵\n\nSo we opened entities:\n🇳🇱 Netherlands (2020)\n🇦🇪 Dubai (2022)\n\nLaunched 10 products → Only 4 survived 📊\nBut those 4? PURE GOLD 🏆\n\nEurope gave us:\n💰 Higher purchasing power\n💰 Better order values\n💰 More GMV\n\nThen 2022 happened... 💥\nAmericans: \"We don't work with Russians\" 🚫\nContract canceled overnight 😤\n\nDubai became our lifeline:\n• Only 1hr time difference from Russia 🕐\n• Neutral territory 🤝\n• Banking infrastructure ✅\n\nSometimes forced moves = best opportunities! 🎯\n\n#SaaS #TechStartup #GlobalBusiness #PivotStory #Entrepreneurship #Dubai #Netherlands #Resilience #24TTL",
+      "body": "You asked why I chose Brazil over other potential markets and whether I considered other options. 🤔\n\nWhile I already had various projects mainly in the UK and Europe, I wanted something big and promising. Brazil represented a very large market with clearly defined problems. It's similar to other developing economies in some ways. 📈\n\nAsia seemed more complicated because it's mentally and culturally very different from European culture, making it harder to establish a foothold. Latin America felt more accessible mentally while still offering great prospects. 🌎\n\nMy choice was significantly influenced by my personal connections and feelings about potential collaborations. I had conversations in different places, and Brazil clicked - I could envision what we might accomplish together. 💭\n\nPersonal preferences played a major role too. I needed to be physically present in whatever country I chose, spending significant time there. For example, I wouldn't consider Nigeria despite recognizing it as a rich, powerful country - I had no connections there and serious concerns about safety and security. 🛡️\n\nBrazil, despite some external perceptions about safety, has a completely different reality than what many assume. It was simply more aligned with my preferences and vision. ✨",
       "signature": {
-        "name": "24TLL Strategy Team",
-        "title": "Market Expansion",
-        "company": "Global Operations"
+        "name": "Alex Avramov",
+        "title": "International Education Entrepreneur",
+        "company": "ebac"
       },
       "highlight": {
-        "title": "Local Entity Imperative",
-        "description": "Enterprise clients require local legal entities for tax efficiency and regulatory compliance - remote operations have fundamental limitations for B2B growth"
+        "title": "Cultural Proximity Over Market Size",
+        "description": "Smart entrepreneurs balance market opportunity with cultural accessibility. Alex chose Latin America over Asia because cultural similarity reduced operational complexity, even though Asia might have offered larger markets."
       }
     },
     {
       "id": "3",
-      "date": "6 months ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
-      "subject": "Market Selection: Why UAE, Mexico, and Indonesia Made Sense",
-      "greeting": "Hi there,",
+      "date": "2 years ago",
+      "avatar": "ebac",
+      "subject": "Finding Reliable Partners in Brazil",
+      "greeting": "Hello!",
       "cta": {
-        "message": "view market analysis",
-        "link": "google.com"
+        "message": "access partner verification checklist",
+        "link": "international-partner-due-diligence.com"
       },
-      "body": "MARKET SELECTION 101: Where to Expand? 🌍\n\nPost-crisis, we had OPTIONS:\n🇺🇸 U.S. | Portugal | Asia | LatAm\n\nOur strategy? Test 3 markets simultaneously 🎯\n\n🇲🇽 MEXICO\nWhy: Sister Anna ran accelerator there\nThought: Easy gateway to U.S. market\nREALITY: Cultural clash with \"mañana\" attitude 😅\nCOST: $130K for ONE client 💸\n\n🇮🇩 INDONESIA\nWhy: Dubai client moved there\nPOTENTIAL: 270M people + growing e-commerce 📈\nRESULT: 6 clients (Samsung, Panasonic) ✅\nBONUS: Expanding to Singapore/Malaysia 🚀\n\n🇦🇪 UAE\nWhy: Our steady base since 2016\nADVANTAGE: Almost zero competition vs Europe\nSTATUS: Rock solid foundation 💪\n\nEach market = different lessons:\n• Competition levels ⚔️\n• Cultural nuances 🎭\n• Customer behavior patterns 📊\n\nKey takeaway 👇\nDon't put all eggs in one basket!\nTest multiple markets, see where magic happens ✨\n\n#MarketExpansion #GlobalStrategy #Entrepreneurship #BusinessLessons #Mexico #Indonesia #UAE #StartupLife #24TTL",
+      "body": "Regarding how I found reliable partners in Brazil and evaluated their credibility - it came down to professional background and verification. 🔍\n\nMy partner Rafael had an impressive track record as President of <a href=\"https://www.qualcomm.com\">Qualcomm</a> Latin America (an 11 billion-dollar company), and had previously held leadership positions at <a href=\"https://www.cisco.com\">Cisco</a> Latin America and <a href=\"https://www.nortel.com\">Nortel</a>. His credentials spoke for themselves. Our third partner (who later left) was a prominent Swiss investor with projects in Brazil and elsewhere. I had also invested in some of his projects. 💼\n\nEssentially, I applied a due diligence process similar to KYC (Know Your Customer) protocols. I examined what these potential partners were doing and who they represented. This verification process is necessary at all levels, even with less high-profile partners - you need to investigate their activities and conduct reference checks. ✅\n\nCould I have moved to Brazil without such partners? There are countless paths to achieving business goals. You can try it yourself - come to a country, talk to people who live there, build trust, make friends, and explore possibilities together. This approach might lead nowhere, or you might meet your ideal partner at the first meeting. The process is unpredictable, but you must be prepared for various outcomes. 🎲",
       "signature": {
-        "name": "24TLL Research Team",
-        "title": "Market Intelligence",
-        "company": "International Expansion"
+        "name": "Alex Avramov",
+        "title": "International Education Entrepreneur",
+        "company": "ebac"
       },
       "highlight": {
-        "title": "Portfolio Approach to Markets",
-        "description": "Testing multiple markets simultaneously helps identify where natural traction occurs - but requires significant resources and cultural adaptation for each region"
+        "title": "Quality Partners Are Worth Their Weight in Gold",
+        "description": "High-caliber local partners can make or break international expansion. Alex's partnership with a former Qualcomm Latin America President provided instant market credibility and access to networks that would have taken years to build independently."
       }
     },
     {
       "id": "4",
-      "date": "5 months ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
-      "subject": "Expensive Lessons: What We Got Wrong in the U.S. Market",
-      "greeting": "Hello!",
+      "date": "2 years ago",
+      "avatar": "ebac",
+      "subject": "Market Research Approach for Brazil",
+      "greeting": "Hi there!",
       "cta": {
-        "message": "learn from mistakes",
-        "link": "google.com"
+        "message": "get market research template",
+        "link": "international-market-research-toolkit.com"
       },
-      "body": "💸 $100K MISTAKE: What NOT to Do in America 🇺🇸\n\nHere's how we FAILED in the world's biggest market 👇\n\nMISTAKE #1: No clear budget or timeline 🤦‍♂️\nWe just \"figured it out as we go\"\nResult: Endless money drain 💸\n\nMISTAKE #2: Tiny team for HUGE market 😅\n1-2 people trying to crack Samsung/LG?\nIn the most competitive market on Earth? ⚔️\nYeah... that didn't work 🤡\n\nREALITY CHECK:\n• U.S. = Salesforce, SAP territory\n• Big brands need EXTRAORDINARY value\n• Small teams = instant failure\n\nOur solution only works for BIG brands 🏢\nSMBs just hire 2 people instead\nSo we're stuck in enterprise hell 😵\n\nTHE DAMAGE:\n💰 $50K-$100K spent\n✈️ Roadshows, NRF Chicago\n👥 Hired biz-dev team\n📅 1 full year invested\n\nResult: ZERO 🥜\n\nLESSON LEARNED:\nDon't casually enter hyper-competitive markets\nYou need:\n✅ Extraordinary product\n✅ Systematic approach\n✅ Serious funding\n✅ Local expertise\n\nSometimes the biggest markets aren't the best markets 🎯\n\n#StartupFail #BusinessLessons #USA #MarketEntry #Entrepreneurship #Mistakes #LessonsLearned #24TTL",
+      "body": "You asked about my research process for Brazil and what parameters I investigated before launching. 🔬\n\nAfter meeting my Brazilian connections, I visited the country and began meeting various people to gather insights. Rather than formal research, I focused on direct conversations to learn about the market, key players, operational dynamics, and opportunities. The market volume data was relatively easy to find, but the deeper insights came through interviews and networking. 💬\n\nI organized many meetings with people who might provide valuable perspectives. There was nothing particularly unique about this approach - it was standard market investigation through direct engagement. 🤝\n\nThe entire research and preparation process took about ten months before launch. During this period (roughly 2015-2016), I was constantly traveling between countries - living \"on airplanes\" ✈️ for about three years, splitting my time between the UK, Moscow, Brazil, and other locations. I would stay in Brazil for varying periods - a week, two weeks, or a month - then leave and return.\n\nI maintained this international presence while ensuring I spent enough time in Brazil (about 48% of my time) to avoid visa issues. While some aspects could potentially have been managed remotely, my physical presence was crucial for establishing corporate culture. 🏢\n\nThe process of creating a corporate culture doesn't happen overnight - it requires forming a core group with direct involvement from founders/leaders. This culture needed to be transmitted from the top down, supported and reinforced over time so the initial team and subsequent hires would understand, accept, process, and eventually pass it on. Like a ship needing both sails and a rudder ⛵, my presence helped steer the company in the right direction.",
       "signature": {
-        "name": "24TLL Lessons Team",
-        "title": "Strategic Learning",
-        "company": "Market Expansion Consulting"
+        "name": "Alex Avramov",
+        "title": "International Education Entrepreneur",
+        "company": "ebac"
       },
       "highlight": {
-        "title": "Enterprise Sales Reality Check",
-        "description": "Hyper-competitive markets like the U.S. require extraordinary value propositions and systematic approaches - small teams cannot penetrate established enterprise markets"
+        "title": "Boots on the Ground Beat Desk Research",
+        "description": "While market data is accessible online, the real insights come from face-to-face conversations with local stakeholders. Alex's 10-month research phase and 48% time commitment in Brazil shows the importance of physical presence for cultural understanding."
       }
     },
     {
       "id": "5",
-      "date": "4 months ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
-      "subject": "Cultural Nuances: The Hidden Business Killers We Discovered",
-      "greeting": "Good afternoon, my friend,",
+      "date": "2 years ago",
+      "avatar": "ebac",
+      "subject": "Building the Initial Team in Brazil",
+      "greeting": "Hello!",
       "cta": {
-        "message": "cultural guide download",
-        "link": "google.com"
+        "message": "download team building playbook",
+        "link": "international-team-building-guide.com"
       },
-      "body": "CULTURE SHOCK: When Politeness = Business Killer 😵\n\nGoing global? Prepare for MIND-BENDING cultural differences 🌍\n\nTHE TRAP WE FELL INTO 👇\n\n🇲🇽 MEXICO:\n\"You're great guys!\" = Means NOTHING\nMexicans literally CAN'T say \"no\" directly 🚫\nThere are YouTube videos on how to say \"yes\" properly!\nSay \"sim\" instead of \"sí\"? You're instantly BUSTED as foreign 🤦‍♂️\n\n🇮🇩 INDONESIA:\nSame politeness trap 🪤\nWe mistook nice words for validation\nHUGE mistake!\n\nOUR MATH WAS WRONG:\n💰 300k MRR × 20 markets = Unicorn! 🦄\nBUT reality check:\nNo deep integration = No real success\n\nYou need to:\n👀 Be seen 20+ times at events\n🤝 Know everyone personally\n🏠 Actually LIVE there\n\nHIRING REALITY:\n🇲🇽 Mexico: $4k/month (English speakers)\n🇮🇩 Indonesia: $1k/month\n🇦🇪 Dubai: $2.5k-3k/month\n\nMexican team = BRUTAL 😤\nNo feedback tolerance\nRussian bluntness = DISASTER\nPeople playing phone games in Zoom! 📱\n\nIndonesian team = Chill vibes 😌\nResponsible but relaxed\nCultural fit = EVERYTHING\n\n#CulturalDifferences #GlobalBusiness #Mexico #Indonesia #StartupLife #BusinessLessons #Hiring #TeamBuilding #24TTL",
+      "body": "Regarding our initial team composition in Brazil and how we got started - we approached it with a blend of imported expertise and local talent. 🌍\n\nAlthough it was 8-9 years ago and details are hazy; I brought in some people from my side. We received support from home and found local agencies in Brazil through our networks. We hired an operations director and local IT specialists for infrastructure. 💻\n\nEvery project is unique in its staffing needs - whether you're launching a SaaS service or a processing plant, requirements differ significantly. Our approach focused on testing the market with sufficient resources to determine what budget, timeframe, and team would be needed before scaling up. ⚡\n\nImportantly, we didn't set a strict 10-month deadline with plans to abandon the project if unsuccessful. This was a committed offline business venture that required continued forward progress regardless of initial results. 📈\n\nWe began by calculating our business model and searching for appropriate facilities. This involved renovation work, preparing promotional materials, marketing campaigns, and hiring sales staff. We engaged PR agencies to make initial announcements, and then focused on renovating premises while conducting parallel recruitment and launching online advertising through agencies. 🏗️\n\nWe opted for agencies rather than immediate hiring because it was faster, though not necessarily easier. Speed was a priority for us. When we didn't have our own people with local market expertise, using agencies was a practical first step rather than immediately building an internal team. 🚀",
       "signature": {
-        "name": "24TLL Cultural Team",
-        "title": "Cross-Cultural Operations",
-        "company": "International Business Development"
+        "name": "Alex Avramov",
+        "title": "International Education Entrepreneur",
+        "company": "ebac"
       },
       "highlight": {
-        "title": "Cultural Misreading Trap",
-        "description": "Politeness is often mistaken for business validation - understanding indirect communication styles and cultural feedback patterns is crucial for accurate market assessment"
+        "title": "Speed vs. Perfection in Team Building",
+        "description": "Alex shows that using local agencies initially can accelerate market entry, even if building an internal team might be better long-term. When speed matters more than control, outsourcing can be the right strategic choice."
       }
     },
     {
       "id": "6",
-      "date": "3 months ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
-      "subject": "Fracturing Success: How We Split Teams Across Four Markets",
-      "greeting": "Hi, dear friend,",
+      "date": "2 years ago",
+      "avatar": "ebac",
+      "subject": "Initial Mistakes and Challenges in Brazil ",
+      "greeting": "Hi there!",
       "cta": {
-        "message": "team management guide",
-        "link": "google.com"
+        "message": "avoid these common expansion mistakes",
+        "link": "international-expansion-pitfalls.com"
       },
-      "body": "TEAM SPLIT: How We Divided & Conquered 4 Markets 🌍\n\nFROM 1 BUSINESS TO 4 CHAOS 🤯\nMature Russia + 3 startup experiments\nNow: Russia + Global startup ✅\n\nBUSINESS DEVELOPMENT = 3 ROLES:\n1️⃣ Contact miners (LinkedIn scraping) 💼\n2️⃣ SDRs (emails + WhatsApp) 📧💬\n3️⃣ Account executives (closing deals) 🤝\n\nWe tried doing it ourselves...\nBroken English + Zero local trust = FAIL 😅\n\nTHE MAGIC: Cultural matching 🎯\n\n👨‍💼 Gen → Mexico 🇲🇽\nWhy? Loves football ⚽ + culture fit\nPERFECT match!\n\n👨‍💼 Tyoma → Indonesia 🇮🇩\nWhy? Bali lifestyle called to him 🏝️\nVibes aligned!\n\nDubai team = United Nations 🌍\n🇸🇾 Syrians\n🇮🇷 Iranians\n🇮🇳 Indians\nMulticultural magic with regional expertise!\n\nLANGUAGE = EVERYTHING 🗣️\nHired locals through agencies\nAuthentic market penetration finally!\n\nLEAD GEN EXPERIMENT:\n💰 $5k/month for meetings\nMonth 1: AMAZING results ✅\nMonth 2: Ghosted everywhere 👻\n\nSo we STOLE their playbooks 😈\n200 leads → SDR → calls → LinkedIn automation\n\nCultural fit > Everything else 💡\n\n#TeamBuilding #GlobalTeams #CulturalFit #Leadership #Mexico #Indonesia #Dubai #StartupLife #24TTL",
+      "body": "You asked about mistakes we made when first entering Brazil, and there were certainly some valuable lessons learned. 📚\n\nOne significant oversight was insufficient research into structured holding companies. This area is crucial as it can either save or cost substantial money 💰. We relied on a locally-recommended company for registering and managing international entities, who advised us to use Malta as our jurisdiction for entering Brazil. They cited benefits like double taxation agreements, but this proved to be problematic.\n\nMalta turned out to be an extremely expensive jurisdiction - everything from registration fees to mandatory audits for public companies came with high costs 💸. This arrangement made sense for large businesses with substantial backing, not for our relatively small operation. We failed to approach this recommendation critically, resulting in significant administrative and audit expenses being drawn from our accounts.\n\nWe also encountered hiring challenges. There were many \"posers\" in the market, and we had to later correct mistakes made by our team members who didn't always treat shareholder money with appropriate care. While they weren't deliberately careless, they sometimes failed to recognize problematic deviations from standard practices. 🚫\n\nFor instance, we were unprepared for Brazil's exceptionally high social taxes and severance requirements. When terminating employees, we discovered they received not just one or two extra payments but sometimes five - a shocking revelation about local labor practices! These were normal practices in Brazil that no one specifically warned us about because they're considered standard locally. 😱\n\nWe gradually corrected these issues as we learned more about local operations. It's worth noting that salaries in Brazil are relatively lower than in America or Europe because companies pay approximately 70% on top in various deductions, resulting in a comprehensive social package despite lower base compensation. 📊",
       "signature": {
-        "name": "24TLL Team Insights",
-        "title": "Global Team Management",
-        "company": "International Operations"
+        "name": "Alex Avramov",
+        "title": "International Education Entrepreneur",
+        "company": "ebac"
       },
       "highlight": {
-        "title": "Cultural Leadership Matching",
-        "description": "Matching leadership personalities with market cultures significantly improves team performance and market penetration - cultural fit affects operational success"
+        "title": "Legal Structure Mistakes Can Be Expensive",
+        "description": "Alex's Malta jurisdiction mistake shows how costly it can be to accept local advisor recommendations without independent verification. Always get second opinions on legal structures, especially from advisors who understand your business size and needs."
       }
     },
     {
       "id": "7",
-      "date": "2 months ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
-      "subject": "Managing Chaos: Lessons from Running Four Markets Simultaneously",
-      "greeting": "Greetings, my dear friend,",
+      "date": "2 years ago",
+      "avatar": "ebac",
+      "subject": "Business Model Adaptations for Brazil",
+      "greeting": "Hello!",
       "cta": {
-        "message": "final strategy report",
-        "link": "google.com"
+        "message": "learn cultural adaptation strategies",
+        "link": "business-model-localization.com"
       },
-      "body": "CHAOS MODE: Managing 4 Markets Simultaneously 🤯\n\nHere's what nearly broke us 👇\n\nTIMEZONE HELL 🕐\nGen: \"You're ignoring Mexico!\" 🇲🇽\nMe: Trying to sync at 3am 😵\nIndonesia: Only +4h (manageable) 🇮🇩\n\nBIG MISTAKE #1: \"Growth Director\" 🤦‍♂️\nToo early to delegate!\nYear 1: I barely touched biz-dev\nReports: \"Great meetings! Amazing connections!\" ✨\nRevenue: ZERO 💀\n\nAfter 1.5 years: PIVOT TIME ⚡\n❌ Slashed teams\n🎯 Hyper-focused on deals\n\nOUR $2M EDUCATION:\n1️⃣ Spray-and-pray = Expensive lesson 💸\n2️⃣ Validate first, scale later 💡\n3️⃣ Timezone sprawl kills coordination 🕐\n\nNow testing Korea 🇰🇷:\n1 full-time + 2 interns 👨‍🎓👩‍🎓\nSmart approach finally!\n\nSURPRISE WIN: Community Building 🏘️\nOnly Tyoma & I believed in it\nRussia: FLOP 🇷🇺\nIndonesia: EXPLOSION 💥🇮🇩\n\nNow it's our #1 B2B weapon! 🚀\nMeta-events (IDRF forum) = Pure gold\nWe totally underestimated this power ⚡\n\nCURRENT FOCUS:\n🥇 Dubai (daily presence)\n🥈 Indonesia (timezone advantage)\n🥉 Russia (steady operations)\n🤷‍♂️ Mexico (neglected child)\n\nLesson: Build community BEFORE selling! 🏘️→💰\n\n#StartupChaos #GlobalExpansion #CommunityBuilding #BusinessLessons #Dubai #Indonesia #Entrepreneurship #24TTL",
+      "body": "You asked about marketing mistakes and business model adjustments we needed to make in Brazil. 🎯\n\nOne significant business model adaptation involved our training schedule. There was a large segment for additional professional education conducted offline (now primarily online) at home. The model which we used at home relied heavily on weekend classes - specifically Saturdays - where people would dedicate entire days to study, consistently attending from morning until evening throughout the academic year for one to two years. 📅\n\nThis model failed completely in Brazil, where Saturday is considered sacred personal time! 🙅‍♂️ While Brazilians might occasionally attend weekend sessions, expecting weekly commitment for several months proved too demanding. We had to restructure everything to weekday evenings instead.\n\nThis reflects fundamental differences in work-life balance perceptions. My countrymates typically take fewer vacations (partly due to climate limitations) and don't mind dedicating Saturdays and evenings to education. Brazilians have different motivations and priorities, so we had to adapt our product characteristics and training periods accordingly. 🌴\n\nThis was particularly relevant during our offline period - our subsequent online transition changed these dynamics again. 💻",
       "signature": {
-        "name": "24TLL Growth Team",
-        "title": "Strategic Expansion",
-        "company": "Global Market Development"
+        "name": "Alex Avramov",
+        "title": "International Education Entrepreneur",
+        "company": "ebac"
       },
       "highlight": {
-        "title": "Reputation Before Revenue",
-        "description": "Community-building and reputation development often matter more than direct sales efforts - B2B markets require trust and relationship-building over time"
+        "title": "Cultural Values Trump Business Models",
+        "description": "Alex's Saturday learning failure in Brazil demonstrates how deeply cultural values impact business operations. What works in one culture can completely fail in another, requiring fundamental model restructuring rather than minor adjustments."
+      }
+    },
+    {
+      "id": "8",
+      "date": "2 years ago",
+      "avatar": "ebac",
+      "subject": "Experimentation and Lessons Learned",
+      "greeting": "Hi there!",
+      "cta": {
+        "message": "access experimentation framework",
+        "link": "continuous-improvement-system.com"
+      },
+      "body": "Regarding our key lessons and experimental approaches - our entire operation is fundamentally based on continuous experimentation. 🔬\n\nOur teams in marketing, sales, and product development constantly experiment through various approaches. Sometimes this involves structured testing like A/B comparisons, other times it involves launching new formats based on intuition about what might work. We also rely on data analytics from our Learning Management System to identify improvement areas and allocate resources accordingly. 📈\n\nRather than isolated experiments at specific moments in time, we embrace an iterative improvement process through ongoing experimentation. It's difficult to single out one particular lesson that made the most difference, as our progress comes from consistent, cumulative improvements. 🔄\n\nWhen we expanded to Mexico in 2021, we applied a quick-validation approach to test the market 🇲🇽. We found a capable country manager and provided her with a budget to replicate our successful Brazilian products for the American market. This expansion coincided with our rapid growth period - we grew from zero to $20 million in revenue in just two years (launching officially in mid-2020, reaching approximately $12 million in 2021, and $20 million in 2022). 💰\n\nThe Mexico expansion ran parallel to our Brazilian operations, using the same platform. We simply needed to develop courses in Spanish, create landing pages, and establish basic support infrastructure while student numbers remained manageable. 🛠️\n\nOur focus on Latin America was strategic - my Spanish language skills, regional connections, and the cultural similarities made it a logical extension. The proximity also helped, with flights between countries taking a few hours. ✈️",
+      "signature": {
+        "name": "Alex Avramov",
+        "title": "International Education Entrepreneur",
+        "company": "ebac"
+      },
+      "highlight": {
+        "title": "Systematic Experimentation Beats Big Bets",
+        "description": "Alex's approach shows that continuous small experiments often outperform major strategic pivots. Their $20M growth came from iterative improvements across marketing, sales, and product, not from a single breakthrough insight."
+      }
+    },
+    {
+      "id": "9",
+      "date": "2 years ago",
+      "avatar": "ebac",
+      "subject": "Expansion to Mexico and Budget Allocation",
+      "greeting": "Greetings!",
+      "cta": {
+        "message": "get expansion budget template",
+        "link": "international-expansion-budgeting.com"
+      },
+      "body": "You asked about our budget allocation for Mexico and whether we made similar mistakes there. 💭\n\nWhen expanding to Mexico, we didn't simply hand our country manager a lump sum budget. Instead, we calculated specific requirements: salaries for team members, development costs for the first ten courses, and marketing expenses for a six-month period. The work involved preparing these launches, executing them sequentially, and building marketing efforts in parallel. 📋\n\nOur organizational structure was quite efficient - our performance marketing team, platform team, and localization efforts operated concurrently. The expenses for the Mexican team specifically weren't very large, as they primarily focused on product creation and initial customer support (essentially one manager). The majority of our budget was directed toward marketing, which provided transparent analytics tracking sales volume and spending efficiency. 📊\n\nRegarding mistakes in Mexico, there weren't any major Mexico-specific errors. Our challenges were more global in nature. During our period of aggressive growth (when investment capital was relatively accessible), we spent liberally to fuel expansion - a reasonable strategy when companies are primarily evaluated on growth rates 📈. However, when economic conditions shifted in 2022 (closed borders, skyrocketing interest rates), we pivoted sharply toward profitability, reducing our burn rate while sacrificing growth speed.\n\nBy late 2022 and throughout 2023, we rebuilt the company with a focus on margins rather than aggressive growth, operating with minimal burn rate. This wasn't so much a mistake as a necessary adaptation to changing circumstances. 🔄\n\nMexico essentially followed Brazil's strategic path, with no radically new approaches. All successful tactics reached Mexico after being proven in Brazil, with our Mexican portfolio containing fewer courses - specifically those that had demonstrated the greatest success in our Brazilian market. 🎯",
+      "signature": {
+        "name": "Alex Avramov",
+        "title": "International Education Entrepreneur",
+        "company": "ebac"
+      },
+      "highlight": {
+        "title": "Replication Beats Innovation for Second Markets",
+        "description": "Alex's Mexico expansion shows the power of replicating proven strategies rather than innovating from scratch. By using only their most successful Brazilian courses and tested approaches, they minimized risk while maximizing efficiency."
       }
     }
   ]

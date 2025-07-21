@@ -1,40 +1,168 @@
-
 {
   "emailColumn": {
-    "title": "Email Templates - Chapter 13",
+    "title": "Jet: From Northern Markets to Brazilian Streets",
     "authorInfo": {
       "title": "About the Author",
-      "description": "Dr. Sarah Kim specializes in data analytics and business intelligence with focus on predictive modeling and decision support systems."
+      "description": "Aleksei Verevkin is a key executive at JET, a micromobility company specializing in electric scooter sharing services. With extensive international experience across 8 countries including Georgia, Uzbekistan, and Armenia, he led the company's expansion into Brazil. The company operates a seasonal business model with swappable battery technology, positioning itself as a technologically advanced alternative to previous failed operators in the Brazilian market. They currently operate in 10 Brazilian cities with plans for continued expansion through both direct operations and franchise partnerships."
     },
     "materialsUsed": [
-      "Provost, F. (2013). Data Science for Business. O'Reilly Media.",
-      "Davenport, T. (2017). Competing on Analytics. Harvard Business Press.",
-      "Kimball, R. (2013). The Data Warehouse Toolkit. Wiley.",
-      "MIT Technology Review (2023). \"AI in Business Decision Making\" - Data Science Quarterly."
+      "Global Micromobility Market Report 2025. Market valued at USD 61.55 billion in 2024, expected to reach USD 223.66 billion by 2032 (CAGR 17.5%)",
+      "Brazil E-Scooter Sharing Market 2025. Market projected to reach USD 47.23 million by 2028, growing at 15.37% CAGR (2024-2028)",
+      "Brazil Electric Scooter Market 2025. Market size reached USD 420.09 million in 2024, expected to reach USD 1.21 billion by 2033 (CAGR 12.50%)",
+      "Latin America Electric Scooter Sharing 2025. Brazil market valued at USD 45.85 million in 2025, projected to grow at CAGR 17.0%",
+      "Global Micromobility Platform Market 2025. Market projected to grow from USD 7.95 billion in 2025 to USD 26.38 billion by 2035 (CAGR 10.6%)"
     ],
     "keyTakeaways": {
       "title": "Key Takeaways",
-      "description": "Data-driven decision making requires quality data, proper analysis tools, and organizational commitment to evidence-based strategies."
+      "description": "This micromobility expansion story reveals crucial insights for physical service businesses entering emerging markets: 1) Local connections and established relationships often matter more than formal market research - having partners with existing infrastructure accelerated entry, 2) Understanding why previous competitors failed provides competitive advantages - swappable battery technology vs. collection-based models created superior unit economics, 3) Mindset and work culture differences require constant management - local expectations of 'impossibility' must be overcome with persistent problem-solving approaches, 4) Political complexity in Brazil requires city-by-city negotiations, making expansion inherently slow and relationship-dependent, 5) Security considerations in emerging markets cannot be underestimated - risking personnel and assets to save costs is never worth it, and 6) Diversification into complementary services (power banks, bicycles) helps establish market presence where regulatory barriers prevent core product deployment."
     }
   },
   "emails": [
     {
       "id": "1",
-      "sender": "Sarah Kim",
-      "date": "2 days ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-3.png",
-      "subject": "Data Analytics Mastery: Turn Data into Competitive Advantage",
-      "preview": "Dear Data Professional, transforming raw data into actionable insights is the key to staying competitive in today's market. Discover advanced analytics techniques...",
-      "signature": {
-        "name": "Sarah Kim",
-        "title": "Data Analytics Director",
-        "company": "InsightDriven Analytics"
+      "date": "2 years ago",
+      "avatar": "jet",
+      "subject": "International Expansion: Brazilian Micromobility Market",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "explore micromobility solutions",
+        "link": "https://jet.com"
       },
-      "meta": "Template • Analytics",
-      "likes": 81,
+      "body": "You asked about how we selected Brazil as our market entry point and our initial expansion strategy. Let me share our experience.\n\nOur entry into Brazil actually began with an initial interest in Argentina 🇦🇷, but then we received an opportunity from some contacts in Santos, Brazil 🇧🇷. Eugene Dyba and his investor reached out saying they wanted us to come. Our team lead Andrei flew over to check out Santos, assess the infrastructure, weather conditions, population, and general environment. He was immediately convinced this was where we needed to be. ✈️🌆\n\nWe quickly assembled a small team, with Ruslan and me being the first to arrive. Our business has four main operational areas - logistics, service (repairs), business development, and promotions. I handled the logistics side while Ruslan took charge of the service component (specifically scooter repairs, not customer service). We built our operations from the ground up, and Ruslan still oversees part of the process today. Being a seasonal business, we were able to leverage freed-up capacity after the Northern Hemisphere season ended. 🛴🔧\n\nRegarding country selection, we definitely focused on Latin America rather than considering regions like Africa (even though Nigeria might have been interesting). Our assessment prioritized larger developing markets. While Mexico 🇲🇽 and Chile 🇨🇱 were options, we didn't seriously consider them at the time. The key question was scalability - could we scale as effectively as in Brazil? Probably not, since Brazil more closely resembles our country in terms of population size and growth opportunities. 📊🚀\n\nOther markets like Chile might be significant, but they're essentially dominated by one major city, limiting the total market capacity. When you have to invest in localization, translations, and other market-specific adaptations, it makes more sense to do it for a larger market with greater potential return. After establishing ourselves in Brazil, we could then look at expanding to other markets. 🎯💡\n\nWe started specifically in Santos because we had connections there - Eugene had contacts with a local business that operated car and motorcycle rentals with around 10 tech parks. It's also conveniently located near São Paulo, has good tourist infrastructure, and features a major port, all of which were advantageous for our operations. 🏖️🚢",
+      "signature": {
+        "name": "Aleksei Verevkin",
+        "title": "International Expansion Lead",
+        "company": "jet"
+      },
       "highlight": {
-        "title": "Advanced Analytics Framework",
-        "description": "Comprehensive data strategy with predictive modeling and real-time business intelligence dashboards"
+        "title": "Connections Beat Market Research",
+        "description": "Their Brazil entry came through existing contacts in Santos rather than formal market analysis. Having local partners with established infrastructure (10 tech parks) and proximity to São Paulo made the choice obvious. Sometimes the best market entry strategy is following warm introductions to places where you already have operational support, rather than pursuing theoretically perfect markets."
+      }
+    },
+    {
+      "id": "2",
+      "date": "2 years ago",
+      "avatar": "jet",
+      "subject": "Expansion Approach & Challenges",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "learn about expansion methodology",
+        "link": "https://jet.com/expansion"
+      },
+      "body": "You asked about our approach to international expansion based on previous experiences in other markets. While I've had substantial international experience before Brazil (having worked in 8 countries), our expansion methodology is surprisingly straightforward.\n\nPrior to Brazil, I was involved in launching operations in Georgia 🇬🇪 and Uzbekistan (Tashkent) 🇺🇿 and also worked in Armenia 🇦🇲. This gave me valuable experience in dealing with international payments, support structures, language localization, and related challenges. After completing those projects, I returned to home for a season before being fully assigned to the Brazil initiative. 🌍💼\n\nWhen it comes to expansion strategy, there's really only one approach: go there and work hard. That might sound simplistic, but the reality is that each market has countless nuances, and they differ everywhere. Even cities within our country have significant differences, so countries definitely vary in terms of mentality, average salaries, economic conditions, and tax systems. 💪🏙️\n\nThe fundamentals of our business remain the same across markets - just like in the food industry, where you buy ingredients, create a product, and sell it. For our scooter business, we need to acquire scooters, deploy them in the city, and manage operations. But the details of execution vary dramatically by location. 🛴🍔\n\nIn Brazil, government relations are much more complex compared to ours. Georgia was actually easier in many respects. Each market has different tax systems, different approaches to employing people, different mentalities, and different legal requirements. Even technical aspects like permitted scooter speeds, riding regulations, and user behavior patterns vary substantially. 🏛️⚡\n\nRather than setting rigid financial or performance targets initially, we approach each market with the fundamental belief that we can make it work. We don't entertain the possibility that we won't be profitable or won't be able to operate successfully - we simply identify the difficulties that need to be solved and tackle them methodically. For example, we track metrics like revenue per scooter per month to gauge profitability, but we don't set \"make or break\" deadlines like \"if we don't achieve X in six months, we'll shut down.\" 📈🎯\n\nFor our Brazil launch, we allocated roughly 10% of our capital expenditure budget for opening costs, operations, and initial setup. We expected to burn some money initially due to the learning curve and inevitable mistakes, but we approached this as a necessary investment phase. 💰📊",
+      "signature": {
+        "name": "Aleksei Verevkin",
+        "title": "International Expansion Lead",
+        "company": "jet"
+      },
+      "highlight": {
+        "title": "Expansion Strategy: Go There and Work Hard",
+        "description": "Despite experience in 8 countries, their expansion methodology is simple: go to the market and work hard. They don't set rigid financial deadlines but approach each market believing they can make it work, then systematically solve problems. Success comes from commitment and adaptation, not perfect planning. Sometimes the best strategy is simple persistence with strong execution."
+      }
+    },
+    {
+      "id": "3",
+      "date": "2 years ago",
+      "avatar": "jet",
+      "subject": "Cultural Differences & Management Approach",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "understand cultural challenges",
+        "link": "https://jet.com/culture"
+      },
+      "body": "You asked about the cultural differences and unique challenges we've encountered in Brazil compared to our previous markets.\n\nOne significant challenge is that we're still seen as \"gringos\" here, which makes us vulnerable to certain issues. For instance, locals might more easily take advantage of us when we don't fully understand local legislation or business practices. Fortunately, our CEO quickly found a reliable attorney and accounting partner, which has been crucial for navigating the legal landscape. 👨‍💼⚖️\n\nThe work culture and attitudes are dramatically different from what we're accustomed to at home. Let me share a revealing example: We needed to print some scooter hangers and cards (around 300 pieces) by the end of the day. We assigned this task to an expat who had lived in Brazil for five years. His immediate response was, \"No, you're in Brazil, it doesn't work like that. It's unrealistic, impossible. Nobody's working anymore; everyone's already sitting in cafes drinking beer.\" ☕❌\n\nWe also had a Brazilian intern working with us. I told her: \"Whatever you want to do, you don't have an option not to do it. Don't even make excuses. Your job is to find a solution - call 10 different places, offer more money, arrange a taxi pickup, whatever it takes.\" This illustrates a fundamental difference in approach. Many people quickly adopt the belief that certain things are impossible, while we operate with the paradigm that everything is possible as long as the laws of physics aren't violated. 🔧💪\n\nThis mentality has served us well. Sometimes we take calculated risks, and often they pay off. We've found that many of the perceived limitations are simply differences in expectations and work culture. 🎯✨\n\nOne notable observation is how this affects our hiring and management approaches. We've developed a robust internship program to test many candidates, as our growth plans require discovering talented managers. Finding the right people who can adapt to our work style while understanding the local market has been challenging but essential. 👥🔍\n\nThe key insight: what locals consider \"impossible\" is often just a matter of different work culture expectations. Maintaining our problem-solving mindset while respecting local realities has been crucial for success. 💡🌟",
+      "signature": {
+        "name": "Aleksei Verevkin",
+        "title": "International Expansion Lead",
+        "company": "jet"
+      },
+      "highlight": {
+        "title": "Challenge Local 'Impossibility' Mindset",
+        "description": "They encountered cultural attitudes where locals (including long-term expats) would quickly declare tasks 'impossible' in Brazil. Their approach: reject the impossibility mindset and demand solutions - call 10 places, offer more money, arrange taxi pickup. Success often comes from refusing to accept local limitations as absolute truth. Sometimes what's 'impossible' is just different work culture expectations."
+      }
+    },
+    {
+      "id": "4",
+      "date": "2 years ago",
+      "avatar": "jet",
+      "subject": "Growth Strategy & City Selection",
+      "greeting": "Hello there!",
+      "cta": {
+        "message": "explore growth strategies",
+        "link": "https://jet.com/growth"
+      },
+      "body": "You asked about our scaling approach and how we determine which cities to enter next.\n\nWe've consistently operated with the mindset that we need to grow and scale aggressively. However, expansion in Brazil presents unique challenges because we need to negotiate with each city government individually. This is inherently political since our scooter business affects many aspects of public life and urban mobility. 🏛️🛴\n\nWhile some competitors have pursued a strategy of focusing exclusively on major cities (which has its merits and they're seeing success with that approach), we've opted to include smaller cities in our expansion. Currently, we operate in 10 different towns across Brazil, with more continuously being added to our pipeline. 🌆📈\n\nCity selection involves assessing several factors:\n\n• Ease of government negotiations 🤝\n• Market size and potential usage 📊\n• Infrastructure compatibility 🛣️\n• Operational feasibility ⚙️\n\nThe process of selecting and prioritizing cities is ongoing - we maintain a pool of potential locations and make decisions based on current resource availability and strategic priorities. Larger cities generally offer better traffic, bigger markets, and greater potential revenue, but they also require more resources to enter. 🎯💰\n\nOne significant constraint is the high cost of scooters in Brazil. There the scooters themselves are expensive, customs fees are substantial, delivery times are long, and import processes are complex. This means we need to maximize the lifespan of each scooter to around five years for the business to be viable compared to shorter lifespans in other markets. 🚛💸\n\nThis financial reality affects our expansion pace and city selection decisions. We're always balancing the desire for rapid growth against the need to ensure each new location can support the economics of our business model. ⚖️📉\n\nThe Brazilian market requires patience and careful resource allocation. Unlike markets where you can quickly deploy and test, here every expansion decision has significant long-term implications due to the high unit costs and complex regulatory environment. 🕐🎪",
+      "signature": {
+        "name": "Aleksei Verevkin",
+        "title": "International Expansion Lead",
+        "company": "jet"
+      },
+      "highlight": {
+        "title": "Brazil Requires City-by-City Political Negotiations",
+        "description": "Unlike other markets, Brazil expansion requires individual negotiations with each city government, making it inherently political and slow. High scooter costs (customs, delivery, import complexity) mean they need 5-year lifespans vs. shorter periods elsewhere. Expansion becomes a careful balance between growth ambition and unit economics - every decision has long-term implications."
+      }
+    },
+    {
+      "id": "5",
+      "date": "2 years ago",
+      "avatar": "jet",
+      "subject": "Learning from Market Challenges",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "discover market insights",
+        "link": "https://jet.com/insights"
+      },
+      "body": "You asked about market research and learning from previous failures in the Brazilian market - this has been an important part of our approach.\n\nWhile we didn't conduct extensive formal market research before entering Brazil, we did have access to important internal data and competitive intelligence. We knew other companies had operated here previously, and we could observe their experiences. Importantly, we recognized that Brazil represented a market at the early stages of development for micromobility solutions, which presented a \"white road\" opportunity for us. 📊🛣️\n\nInterestingly, when we entered the market, the major players had already closed their operations. Rather than viewing this as a warning sign, we investigated to understand why they failed where we might succeed. We identified several key factors:\n\n• COVID-19 dealt a severe blow to their operations, particularly challenging because they had organized workforces with significant tax obligations and employment costs 🦠💼\n• They used older scooter models that are now technologically outdated 📱❌\n• Their scooters didn't have swappable batteries, requiring each device to be collected, charged, and redeployed daily - a labor-intensive and costly operational model 🔋🚚\n\nBy contrast, our approach uses newer scooter models with replaceable batteries, significantly reducing operational costs. This technological difference alone dramatically changes the unit economics of the business. Markets like Russia, the CIS, Europe, and Turkey have all shifted to replaceable battery models because logistics are operationally cheaper when you can swap batteries rather than collecting entire scooters. ⚡💡\n\nThe perception that \"scooter businesses failed in Brazil\" has created both challenges and opportunities for us. On one hand, it makes fundraising and partnerships more difficult, as investors are wary after previous failures. On the other hand, it has reduced competition and given us room to establish ourselves with a more advanced operational model. 💰🏆\n\nRegarding marketing and user acquisition, our approach differs from traditional advertising models. We've found that the best marketing for scooters is ensuring they're available in the right place at the right time. We employ sophisticated analytics to understand every parking location's performance - tracking trips, users, paths, and other metrics. This data-driven approach to scooter placement is far more effective than traditional advertising. If someone needs a scooter but there isn't one nearby, no amount of Instagram ads or flyers will make them walk several blocks to find one. 📍📊📱",
+      "signature": {
+        "name": "Aleksei Verevkin",
+        "title": "International Expansion Lead",
+        "company": "jet"
+      },
+      "highlight": {
+        "title": "Learn Why Competitors Failed, Then Fix Those Problems",
+        "description": "Instead of seeing previous failures as warnings, they analyzed why competitors failed: outdated technology, collection-based charging models, high employment costs during COVID. Their swappable battery technology solved the main operational cost problem. Sometimes entering markets where others failed gives you advantages - less competition and clear understanding of what not to do."
+      }
+    },
+    {
+      "id": "6",
+      "date": "2 years ago",
+      "avatar": "jet",
+      "subject": "Partnership Strategy & Business Diversification",
+      "greeting": "Hi there!",
+      "cta": {
+        "message": "explore partnership opportunities",
+        "link": "https://jet.com/partnerships"
+      },
+      "body": "You asked about our partnership approach and product diversification strategy in Brazil.\n\nWe're actively pursuing partnerships and franchise opportunities, which has been a successful model for us at home. This strategy strengthens our business by leveraging local knowledge and resources. We're particularly focused on developing smaller towns through these partnerships. 🤝🏘️\n\nThe partnership model is especially valuable because locals understand their cities better - they know how to coordinate with municipal authorities more effectively and understand traffic patterns (where people go in the mornings versus afternoons). This local expertise makes them powerful allies. 🌅🌆\n\nHowever, establishing these partnerships in Brazil has some unique challenges. The investment climate for scooter businesses is complicated because previous operators closed down, creating skepticism about the business model. Additionally, while we have a Brazilian company with Brazilian faces on the leadership team, we're still perceived as a foreign company, which can create hesitation among potential partners. 🇧🇷🤔\n\nTo overcome these obstacles, we're focused on demonstrating strong operational numbers and unit economics. Our goal is to show partners how to earn money with our model, spread positive information about the business, and create a sustainable growth trajectory. We simply cannot grow at the pace we want without effective partnerships, especially in smaller cities. 📈💪\n\nRegarding business diversification, we're expanding beyond scooters to include power banks 🔋, bicycles 🚲, and car rentals 🚗. This diversification serves multiple strategic purposes:\n\n• **Increased user value** - offering more services to the same customer base improves retention and lifetime value 💎\n• **Market seeding** - in cities where we can't immediately deploy scooters (due to regulatory or economic reasons), we can establish our brand and user base with power banks first 🌱\n• **Seasonality management** - different services have different peak seasons, helping to smooth out revenue 📊\n• **Market penetration** - every market has natural limits, so diversification allows for continued growth 🚀\n\nWe're initially deploying 500 power bank stations to test this model. The idea is that in cities where we face regulatory challenges or don't yet have sufficient capital for scooter deployment, we can build user relationships through power banks first. Then, when we later introduce scooters, we already have an established user base familiar with our app and payment systems. 📱💡",
+      "signature": {
+        "name": "Aleksei Verevkin",
+        "title": "International Expansion Lead",
+        "company": "jet"
+      },
+      "highlight": {
+        "title": "Use Service Diversification to Seed New Markets",
+        "description": "They're deploying power banks in cities where scooter regulations are challenging, building user relationships first. When they later introduce scooters, they already have established customer base familiar with their app. Smart strategy: use simpler services to establish market presence where your core product faces barriers, then expand once you have user trust and regulatory clarity."
+      }
+    },
+    {
+      "id": "7",
+      "date": "2 years ago",
+      "avatar": "jet",
+      "subject": "Operational Challenges & Lessons Learned",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "learn from our experiences",
+        "link": "https://jet.com/lessons"
+      },
+      "body": "You asked about our biggest mistakes and lessons learned from our Brazilian expansion. I'll share some of the most notable examples that illustrate the unique challenges we've faced.\n\nOne recent incident highlights the security concerns we sometimes underestimate. We needed to launch operations in Maceió Primeiro but faced a challenge - our container shipment hadn't arrived at the port yet. To solve this, we decided to temporarily relocate scooters from underperforming cities. Our head of service, Valmer, took a bus to handle the service setup, while we sent one of our team members, Artem, with a truck carrying 250 scooters (worth many thousands of dollars). 🚛💰\n\nThe same morning, we learned that Valmer's bus had been stopped on the highway by armed men who robbed the passengers of their phones. Meanwhile, Artem was traveling the same route with our valuable cargo. We spent three terrifying hours unable to contact him, fearing the worst. Ultimately, he arrived safely, but this experience taught us a painful lesson about risk assessment. To save approximately $10,000 in security and shipping costs, we put both personnel and assets at significant risk - something we absolutely won't do again. 😰🚫\n\nWe now have policies that key employees shouldn't travel together on the same bus or airplane, and we're more cautious about transporting large quantities of equipment through certain regions. ✈️🚌\n\nOther lessons have been less dramatic but equally important:\n\n**Real estate management** - We initially rented an excessively large 300-square-meter warehouse in Florianópolis that cost $200 monthly, but we barely used it. We've since become much more disciplined about optimizing our real estate footprint. 🏢💸\n\n**Team development approaches** - We've discovered that we need multiple paths to building our management team in Brazil:\n• Hiring and training local managers 👥\n• Bringing managers from home 🏠\n• Finding expat managers already in Brazil 🌍\n\nEach approach has different cost and effectiveness tradeoffs. Initially, we were hesitant to invest heavily in bringing managers from home due to the costs and adaptation challenges, but we've found that sometimes it's necessary to maintain our operational standards. 📊⚖️\n\n**Legal structure and employment** - We learned it's essential to have proper legal entities from the start. While some advisors suggested testing operations before formal establishment, we recognized that payments, government relations, and other essentials required proper legal foundation. Similarly, we've learned to be extremely careful about employment arrangements, as misclassifying workers can result in substantial fines that far exceed any potential savings. ⚖️💼\n\n**Cultural adaptation for expats** - our managers often struggle to adapt their mindsets to Brazilian realities. The force of habit is powerful, and we've had to invest significant energy in helping even experienced managers adjust their approaches. Common reactions like \"it won't work that way here\" require persistent effort to overcome. 🧠🔄\n\nPerhaps the most profound lesson has been about balancing control with adaptation. We believe in bringing our operational discipline and efficiency to Brazil, but we've had to recognize when and how to adapt to local realities without compromising our standards. 🎯💡",
+      "signature": {
+        "name": "Aleksei Verevkin",
+        "title": "International Expansion Lead",
+        "company": "jet"
+      },
+      "highlight": {
+        "title": "Never Risk Personnel Safety to Save Money",
+        "description": "They risked $10,000 savings by sending employees with valuable cargo on routes where armed robberies occurred. Three hours of terror taught them that no cost savings justify personnel safety risks. Now they have policies against key employees traveling together and proper security protocols. In emerging markets, security considerations must always trump cost optimization."
       }
     }
   ]

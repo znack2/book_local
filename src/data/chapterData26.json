@@ -1,40 +1,189 @@
-
 {
   "emailColumn": {
-    "title": "Email Templates - Chapter 13",
+    "title": "Makelove: Employer Branding Agency's Global Journey",
     "authorInfo": {
       "title": "About the Author",
-      "description": "Dr. Sarah Kim specializes in data analytics and business intelligence with focus on predictive modeling and decision support systems."
+      "description": "Igor Trofimov is an international expansion specialist for an employer branding and HR communications agency. His company Makelove operates across multiple international markets including London, Hong Kong, Johannesburg, and Brazil, serving multinational clients like BMW, IKEA, Oriflame, and ABB. The agency specializes in treating employer brands as true brands, focusing on people's needs rather than just promoting jobs, and has won gold at prestigious HR competitions including the Recruiting Marketing Awards (RMA) and Employer Branding Marketing Awards (EBMA) in London."
     },
     "materialsUsed": [
-      "Provost, F. (2013). Data Science for Business. O'Reilly Media.",
-      "Davenport, T. (2017). Competing on Analytics. Harvard Business Press.",
-      "Kimball, R. (2013). The Data Warehouse Toolkit. Wiley.",
-      "MIT Technology Review (2023). \"AI in Business Decision Making\" - Data Science Quarterly."
+      "Grand View Research. (2024). Human Resource Management Market Size & Share Analysis - Industry Report 2024-2030.",
+      "Future Market Insights. (2024). HR Tech Market Size & Trends Analysis 2024-2034.",
+      "Universum Global. (2024). Employer Branding Trends for 2025: Research Insights and Market Analysis.",
+      "Vouch. (2025). 25 Employer Brand Statistics To Know in 2025: Updated Market Research.",
+      "Multiplier. (2024). What is Global Employer Branding & Recruitment: International Market Guide."
     ],
     "keyTakeaways": {
       "title": "Key Takeaways",
-      "description": "Data-driven decision making requires quality data, proper analysis tools, and organizational commitment to evidence-based strategies."
+      "description": "Igor Trofimov's international expansion reveals essential lessons for service-based agencies: 1) Research first, assume nothing - systematic analysis of international markets can reveal unexpected opportunities and competitive advantages, 2) Awards and recognition open doors - industry credibility through competitions provides access that traditional networking cannot achieve, 3) Cultural fit matters for meaning-based services - since they create 'meaning' rather than tangible products, cultural understanding is essential for success, 4) Network-based hiring beats formal recruitment - country managers and representatives work best when found through existing relationships and referrals, 5) Hub strategies work for budget-centralized markets - targeting decision-making centers (like London for Western Europe) can unlock entire regions, 6) Flexibility enables pivots - having multiple market options provides resilience when geopolitical changes affect business conditions, 7) Face-to-face relationship building remains irreplaceable - despite digital tools, personal connections and trust-building require physical presence in target markets."
     }
   },
   "emails": [
     {
       "id": "1",
-      "sender": "Sarah Kim",
-      "date": "2 days ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-3.png",
-      "subject": "Data Analytics Mastery: Turn Data into Competitive Advantage",
-      "preview": "Dear Data Professional, transforming raw data into actionable insights is the key to staying competitive in today's market. Discover advanced analytics techniques...",
-      "signature": {
-        "name": "Sarah Kim",
-        "title": "Data Analytics Director",
-        "company": "InsightDriven Analytics"
+      "date": "2 years ago",
+      "avatar": "makelove",
+      "subject": "Initial Research and Market Assessment",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "discover market research strategies",
+        "link": "employerbranding.com/research-approach"
       },
-      "meta": "Template • Analytics",
-      "likes": 81,
+      "body": "You asked about how we first started thinking about international expansion and our initial market research approach. Let me share our journey.\n\nIn 2012-2017, we had been operating as an HR agency when we had a significant realization. For a long time, we'd been working under the assumption that we were just following what was already happening in more advanced markets. However, we decided to test this assumption by researching what was happening internationally in our field.\n\nWe began participating in various activities like conferences and projects, outsourcing the team and looking at global marketing festivals and competitions like 🏆 Golden Drum, 🎬 Cannes Lions, ✏️ D&AD (the one with pencils), and others. We systematically analyzed what other agencies were submitting, what cases were winning competitions, and what was being published in the industry.\n\nThis research process involved deep dives into different markets. For each major city (🇩🇪 Berlin, 🇮🇹 Rome, 🇫🇷 Paris, 🇬🇧 London), I would spend around three days researching everything I could find. The process included: searching for HR conferences and events, making calls, arranging meetings, identifying key influencers and their content, analyzing presentations and case studies, looking at award-winning submissions, mapping out the agency landscape and so on.\n\nWhat we discovered was eye-opening. There were virtually no dedicated agencies in 🌍 Europe focusing exclusively on employer branding or HR communications. The agencies we found were primarily marketing agencies that occasionally handled HR projects. When awards were given for HR work, the agency was rarely mentioned, suggesting the work was done in-house or by marketing generalists.\n\nThis discovery gave us a new perspective on our own work. We realized that our approach of treating employer brands as true brands — focusing on people's needs rather than just promoting jobs — was actually more advanced than what we were seeing internationally. Rather than selling work opportunities directly, we were creating communications that addressed deeper concerns (like our campaign explaining why people shouldn't be afraid, allowing them to draw their own conclusions).\n\nThis realization completely changed our thinking about global expansion. What had begun as curiosity evolved into recognition that we had unique expertise that could potentially succeed in international markets.",
+      "signature": {
+        "name": "Igor Trofimov",
+        "title": "International Expansion Specialist",
+        "company": "makelove"
+      },
       "highlight": {
-        "title": "Advanced Analytics Framework",
-        "description": "Comprehensive data strategy with predictive modeling and real-time business intelligence dashboards"
+        "title": "Question Your Assumptions by Looking at the World",
+        "description": "Igor's team thought they were behind other countries in employer branding, like thinking everyone else had better toys. But when they looked carefully at what agencies in Europe were actually doing, they discovered they were actually ahead! Their approach was more advanced than what they found internationally. It's like thinking you're bad at cooking, then visiting other kitchens and realizing you're actually the best chef. Sometimes you need to look outside to understand how good you really are."
+      }
+    },
+    {
+      "id": "2",
+      "date": "2 years ago",
+      "avatar": "makelove",
+      "subject": "First International Steps",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "learn exploratory expansion tactics",
+        "link": "employerbranding.com/first-steps"
+      },
+      "body": "You asked about our first steps into international markets and how we approached them practically. After our initial research, we began a series of exploratory trips to test the waters.\n\nOur approach wasn't systematic at first. While on vacation, I would dedicate part of my time to exploring potential markets — arranging meetings, packing a jacket, and connecting with local professionals.\n\nOur outreach process was far from efficient. I would typically write to around 300 companies, and none would respond initially. Then I'd invest in 💻 Skype credits and start calling them directly. Many didn't speak English or were confused about why we were contacting them. Through persistence, we might get 15 of those 300 to respond, and perhaps 7 would agree to meet.\n\nWe later organized more structured trips, including driving tours through 🇩🇪 Germany and 🇫🇷 France, focusing on major cities. We also did a dedicated road trip through the Baltic states (🇱🇻 Latvia, 🇱🇹 Lithuania, 🇪🇪 Estonia, and 🇫🇮 Finland), during which three of us drove between countries for two weeks, conducting meetings and learning about the markets.\n\nThese trips were quite challenging. After the third meeting each day, we'd usually go for drinks, wake up exhausted, and then drive to the next country to repeat the process. However, these face-to-face interactions were invaluable for building our understanding of each market.\n\nThis process helped build a network that remains valuable to this day. Even more importantly, these connections gave us crucial insights into what was happening around the 🌍 world. We discovered that our cases were actually much stronger than what others were doing internationally, which gave us tremendous confidence.\n\nDuring this time, my business partner (who now manages our home office while I handle 🇧🇷 Brazil) and I shared our international insights through blog posts and lectures at home. We positioned ourselves as having unique global knowledge — explaining to local audiences what was happening internationally with employer branding and how we were perceived. This helped our reputation domestically while building our international presence.\n\nThe first stage was primarily about exploration and making connections, without immediate expectations of landing clients. We were establishing a foundation of relationships and understanding that would support our future expansion.",
+      "signature": {
+        "name": "Igor Trofimov",
+        "title": "International Expansion Specialist",
+        "company": "makelove"
+      },
+      "highlight": {
+        "title": "Persistence Pays Off, Even with Low Response Rates",
+        "description": "Igor learned that international expansion is like fishing - you have to throw many lines in the water to catch a few fish. Out of 300 companies he contacted, only 15 would respond, and only 7 would meet. That sounds discouraging, but those 7 meetings were enough to build valuable relationships! It's like making friends at a new school - most people might not respond, but the few who do can become really good friends. The key is not giving up when most people don't answer."
+      }
+    },
+    {
+      "id": "3",
+      "date": "1 year ago",
+      "avatar": "makelove",
+      "subject": "Targeted Approach to London",
+      "greeting": "Hello there!",
+      "cta": {
+        "message": "understand hub market strategies",
+        "link": "employerbranding.com/london-strategy"
+      },
+      "body": "You asked about our strategy for targeting specific markets after our initial exploration phase.\n\nAfter traveling through 🌍 Europe and realizing that most countries had limited budgets for employer branding, we identified a critical insight: the entire region was largely served by two budget centers - 🇬🇧 London and 🇷🇺 Moscow.\n\n🇬🇧 London was responsible for Western Europe, while 🇷🇺 Moscow covered Eastern Europe and neighboring countries. We discovered that in most countries, international companies relied on materials developed in 🇬🇧 London, which were then simply translated without proper adaptation to local markets. The work was generic and uninteresting - using \"average European faces\" without any cultural customization.\n\nThis realization led us to focus our efforts specifically on 🇬🇧 London as the key decision-making hub. However, penetrating the 🇬🇧 London market proved extremely challenging. Everyone was polite and welcoming in meetings, but this rarely translated into actual business opportunities. We met with numerous agencies, creative directors, and managers, but made little tangible progress.\n\nThe breakthrough came unexpectedly through awards. We applied to several prestigious HR and employer branding competitions in 🇬🇧 London - the 🏆 Recruiting Marketing Awards (RMA), 🏆 Employer Branding Marketing Awards (EBMA), and 🏆 RAD. The first year, we attended in our suits and bow ties but didn't win anything. The second year, however, we won 🥇 gold, which completely changed our reception.\n\nSuddenly, the same people who had previously been dismissive approached us asking, \"Who are you guys? Where did you come from? What did you do before?\" The award gave us immediate credibility in a market that had been nearly impenetrable through traditional networking alone.\n\nBuilding on this success, we continued to participate in these awards, eventually becoming jury members ourselves. While attending jury meetings in 🇬🇧 London was initially uncomfortable due to language barriers and cultural differences, this involvement further cemented our position in the community.\n\nThe awards and subsequent industry recognition led to invitations from agencies to participate in joint tenders and collaborations. Communities that organized these awards would also invite us to comment on industry trends, write case studies, or give presentations, which further increased our visibility to potential clients.\n\nThe entire process of establishing ourselves in 🇬🇧 London took approximately two years. Just as things were beginning to work out commercially, however, the war in 🇺🇦 Ukraine started, creating new challenges for our international presence.",
+      "signature": {
+        "name": "Igor Trofimov",
+        "title": "International Expansion Specialist",
+        "company": "makelove"
+      },
+      "highlight": {
+        "title": "Awards Are Like Golden Keys That Open Doors",
+        "description": "Igor discovered that winning awards was like getting a special badge that made people suddenly pay attention. Before winning gold in London, people were polite but didn't really care about their agency. After winning, the same people came asking 'Who are you guys?' It's like being ignored at school until you win a big competition, then everyone wants to be your friend. Awards gave them instant credibility that years of networking couldn't achieve."
+      }
+    },
+    {
+      "id": "4",
+      "date": "1 year ago",
+      "avatar": "makelove",
+      "subject": "Building International Credibility",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "explore credibility building tactics",
+        "link": "employerbranding.com/credibility-building"
+      },
+      "body": "You asked about how we developed international credibility and began attracting clients after our initial success in 🇬🇧 London. While we didn't immediately secure direct clients in 🇬🇧 London, our presence there significantly enhanced our international profile.\n\nOur activities in 🇬🇧 London - participating in awards, serving on juries, and engaging with industry communities - demonstrated our international nature. This helped when connecting with multinational companies elsewhere. For example, when 🧴 Oriflame from 🇸🇪 Sweden approached us, they already knew we were international. We had country managers, awards, and representation on various juries - all factors that proved our understanding of different regional cultures.\n\nThis approach helped us secure several international clients, although often indirectly. For instance, our work with the 🇷🇺 Moscow office of 🧴 Oriflame led to recommendations for global projects. When 🧴 Oriflame asked if we only operated in 🇷🇺 Moscow, we could truthfully respond that we also had a 🇬🇧 London office. Similarly, when 🛋️ IKEA faced restrictions on working with 🇷🇺 Moscow-based agencies, we could route the work through our 🇬🇧 London representation.\n\nDuring this period, we completed a major project for ⚡ ABB (an engineering company based in 🇩🇪 Germany) that discovered us through a competition; projects for 🛋️ IKEA, who later introduced us to their 🇫🇷 French branch and some more.\n\nBeyond these specific clients, our international profile helped with other business development activities. Being able to demonstrate our global presence - showing that we weren't just a local agency - became increasingly important as international tensions grew.\n\nBy the time 2022 arrived, we had several active international clients including 🚗 BMW.\n\nThe groundwork we had laid internationally became especially valuable during this challenging period, as it gave us options for continuing our business outside of the home.",
+      "signature": {
+        "name": "Igor Trofimov",
+        "title": "International Expansion Specialist",
+        "company": "makelove"
+      },
+      "highlight": {
+        "title": "International Presence Opens Doors Everywhere",
+        "description": "Igor's agency learned that being known in one important place (London) made other countries take them seriously too. It's like being accepted at the coolest school in town - suddenly other schools want to invite you to their events too. When companies like Oriflame from Sweden heard they had won awards in London and had offices there, they thought 'These people must be good!' Having international credibility in one key market helped them get clients in many other countries."
+      }
+    },
+    {
+      "id": "5",
+      "date": "6 months ago",
+      "avatar": "makelove",
+      "subject": "Exploring Beyond Europe",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "discover market diversification strategies",
+        "link": "employerbranding.com/beyond-europe"
+      },
+      "body": "You asked about our exploration of markets beyond 🌍 Europe and how we approached these new regions.\n\nAfter establishing our presence in 🇬🇧 London (which was our most challenging market), we began investigating other potential regions. One early experiment was with 🇭🇰 Hong Kong, where we connected with a British expatriate who had established an agency there after working in 🇬🇧 London for many years.\n\nThis connection came through our network in 🇬🇧 London - I had met him personally while serving on a jury there. Working with a familiar face made the trust-building process much easier. We completed a promotional project for 🚗 BMW in 🇭🇰 Hong Kong through this partnership, though we found the work demanding with high expectations for round-the-clock availability and weekend work. After this experience, we decided not to further develop this direction at that time.\n\nOur next international focus was 🇿🇦 Johannesburg, South Africa. We placed a country manager there and began targeting the African market, particularly focusing on regions with stronger economic conditions.\n\nOur approach was to look for places where:\n\n✅ The culture had at least some similarities to ours (since we produce \"meaning\" rather than tangible products, cultural understanding is essential)\n✅ The economic situation showed potential for HR services\n✅ The unemployment rate and its trends were favorable (high unemployment typically means companies have no incentive to invest in employer branding)\n\nTo identify potential markets, we developed a set of around ten indicators that we used to evaluate different countries. For 🇿🇦 South Africa specifically, we hired a full-time employee whose role was focused exclusively on sales. We connected with this person through 🌐 Universum (a large international network in our field) with whom we had close relationships. This demonstrates how the global HR market is relatively small at the top level, making personal connections extremely valuable.\n\nIn 🇿🇦 Johannesburg, our arrangement was a fixed monthly fee plus a percentage of any projects secured. This structure ensured our representative was motivated to actively pursue opportunities rather than simply maintaining a presence. During this period, we worked briefly with 🔧 Bosch in the region, but ultimately found that our pricing was too high for the local market, making it difficult to organize and train a local team while remaining competitive.",
+      "signature": {
+        "name": "Igor Trofimov",
+        "title": "International Expansion Specialist",
+        "company": "makelove"
+      },
+      "highlight": {
+        "title": "Cultural Fit Matters More for Creative Services",
+        "description": "Igor learned that when your business creates 'meaning' (like employer branding) instead of physical products, you need to understand how people think and feel in each country. It's like being a storyteller - the same story might be funny in one place but confusing in another. Since they help companies tell stories about why people should work there, they need to understand local culture deeply. This is different from selling something concrete like shoes, where the product works the same everywhere."
+      }
+    },
+    {
+      "id": "6",
+      "date": "6 months ago",
+      "avatar": "makelove",
+      "subject": "Country Manager Strategy",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "understand local representation models",
+        "link": "employerbranding.com/country-managers"
+      },
+      "body": "You asked about our approach to establishing country managers and how we structured these relationships across different markets.\n\nOur country managers essentially functioned as our local representatives and salespeople. Their role was to attend conferences, speak at events, track market activities, gather industry gossip, and most importantly, represent us with credibility to potential clients. You simply can't effectively monitor these activities from home, which is why local representation is crucial.\n\nRather than posting job advertisements and conducting formal interviews, we found these representatives through our networks and existing relationships. This approach was essential because the role required a high level of trust - I couldn't entrust our brand representation to someone who simply responded to a job posting without any prior connection or recommendation.\n\nThe specific arrangements varied by market:\n\n🇬🇧 **In London**, we worked with someone from the agency scene who was recommended by colleagues. We didn't expect him to actively sell on our behalf (which would be difficult in 🇬🇧 London's established market), but rather to be available for meetings and represent us when needed. We paid him per activity - for attending meetings, processing orders, or visiting clients.\n\n🇿🇦 **In Johannesburg**, we had a full-time employee dedicated to sales who worked from our office and reported on her activities daily. We paid her a fixed monthly fee plus a percentage of projects secured.\n\n🇧🇷 **In Brazil**, we initially worked with a CIS resident living in 🏖️ Florianópolis who charged per meeting arranged. She was upfront about her limitations, saying she would go through her contacts but wasn't confident about cold calling. After she arranged about 30 meetings, she informed us that she wouldn't continue with cold outreach. Now we work with a local partner with extensive HR connections.\n\nThe common thread in all these relationships is that they evolved organically through our network rather than through formal recruitment processes. Each arrangement was tailored to the specific market conditions and individual circumstances.\n\nOne crucial insight we've gained is that potential clients in every market want to know that you're committed to their region, not just passing through. They often ask questions like \"How long are you staying?\" or \"Do you have return tickets?\" Having a local representative with their contact information and address on our website demonstrates our long-term commitment to the market.\n\nWe look for representatives, who are known locally, can respond quickly in the appropriate time zone, and understand the cultural nuances of doing business in that region. While we believe having local representatives is most effective, the specific approach varies based on each unique situation.",
+      "signature": {
+        "name": "Igor Trofimov",
+        "title": "International Expansion Specialist",
+        "company": "makelove"
+      },
+      "highlight": {
+        "title": "Trust People You Know, Not Job Applications",
+        "description": "Igor discovered that finding good country managers is like choosing someone to take care of your house while you're away - you want someone recommended by friends, not a stranger from a job ad. Since these people represent your company's reputation in other countries, you need to trust them completely. It's better to work with someone your network recommends, even if they're not perfect, than to hire a stranger who might damage your brand. Trust beats qualifications when it comes to representing your company internationally."
+      }
+    },
+    {
+      "id": "7",
+      "date": "3 months ago",
+      "avatar": "makelove",
+      "subject": "Pivoting to Brazil",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "explore crisis-driven expansion",
+        "link": "employerbranding.com/brazil-pivot"
+      },
+      "body": "You asked about our decision to enter the 🇧🇷 Brazilian market and how we approached this significant move.\n\nThe catalyst for exploring 🇧🇷 Brazil came when we observed growing hostility toward local businesses in 🌍 Europe following the outbreak of war in 🇺🇦 Ukraine. We needed to identify markets where we could continue to operate effectively, which led us to consider the BRICS countries (🇧🇷 Brazil, 🇷🇺 Russia, 🇮🇳 India, 🇨🇳 China, 🇿🇦 South Africa).\n\nWe immediately ruled out 🇨🇳 China due to cultural differences that we felt would be too challenging to navigate. We'd also already had mixed experiences in the 🇿🇦 South African market. This left us primarily looking at 🇧🇷 Brazil and 🇮🇳 India, with a focus on 🌎 Latin America.\n\nOur analysis quickly identified 🇧🇷 São Paulo and 🇲🇽 Mexico City as the primary business hubs in 🌎 Latin America. The 🇺🇸 United States was considered briefly but deemed too expensive for establishing a presence and maintaining operations. We also anticipated potential reluctance from 🇺🇸 US businesses to work with local companies, though this was more of an assumption than a confirmed fact.\n\nOur market selection process combined intuitive assessment with data analysis:\n\n📊 We eliminated regions that were economically underdeveloped or had cultures vastly different from our own (which would make remote work challenging)\n📊 We examined economic indicators, with a particular focus on unemployment rates and trends (🇲🇽 Mexico had higher unemployment than 🇧🇷 Brazil, suggesting our HR services might face greater challenges there)\n📊 We considered factors like gross domestic product, education levels, and other socioeconomic indicators\n\nRather than commissioning expensive formal research, we gathered publicly available information and made comparative assessments. Our approach wasn't rigidly scientific, but it gave us a foundation for decision-making.\n\nWhat ultimately solidified our choice was the human connection. After our first ten meetings in 🇧🇷 Brazil, we discovered surprising cultural similarities that made communication flow naturally. The jokes, conversations, and overall interactions felt familiar and comfortable - a factor we hadn't anticipated but found extremely valuable.\n\nUpon deciding on 🇧🇷 Brazil, we began our typical outreach process - contacting agencies and potential clients to establish initial relationships. Through this process, we accidentally discovered a community focused on HR and connected with a key individual who immediately understood our value proposition. Although we were initially skeptical (wondering \"What's in it for him?\" and \"Can we trust him?\"), this connection proved genuine and has since evolved into a friendship that includes our families.\n\nThis person introduced us to a potential partner who has become our local representative, demonstrating once again how personal connections and cultural fit have been crucial to our international expansion strategy.",
+      "signature": {
+        "name": "Igor Trofimov",
+        "title": "International Expansion Specialist",
+        "company": "makelove"
+      },
+      "highlight": {
+        "title": "Sometimes Bad News Forces Good Decisions",
+        "description": "When war made it hard for Igor's company to work in Europe, they had to quickly find new places to do business. It's like when your favorite playground closes and you're forced to explore other neighborhoods - you might discover an even better place to play! Brazil seemed like a scary, unknown choice at first, but after meeting people there, they realized it felt surprisingly familiar and comfortable. Sometimes crisis pushes you to discover opportunities you never would have considered otherwise."
+      }
+    },
+    {
+      "id": "8",
+      "date": "1 month ago",
+      "avatar": "makelove",
+      "subject": "Lessons from Our Global Journey",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "apply international expansion lessons",
+        "link": "employerbranding.com/global-lessons"
+      },
+      "body": "Looking back on our international expansion journey, there are several key insights that might be valuable for others considering similar paths.\n\nFirst, our approach has been more organic and relationship-driven than systematically planned. We've found that real-world exploration yields insights that desk research alone cannot provide. While we certainly analyzed economic indicators and market conditions, our most valuable information came from face-to-face meetings and building relationships in each market.\n\nSecond, we've learned that budgeting for international expansion requires flexibility and tolerance for uncertainty. Rather than rigid ROI calculations, we developed a funding system where a percentage of our profits is allocated to specific \"funds\" for different purposes - including international investments, training, and employee benefits. When considering a new market, we assess how much we can afford to invest from these funds and how long we can sustain operations without immediate returns. We typically set milestone targets but remain flexible if we see promising signs even when initial deadlines pass.\n\nThird, recognition through awards and industry participation has proven more valuable than traditional marketing for establishing credibility in new markets. Winning 🥇 gold at respected industry competitions in 🇬🇧 London completely transformed our reception in that market. Similarly, participating in juries, speaking at events, and contributing to industry publications has helped position us as legitimate players in the international arena.\n\nFourth, we've discovered that most markets have unexpected entry barriers that only become apparent through direct experience. In 🌍 Europe, we found that all budgets were controlled from 🇬🇧 London or 🇷🇺 Moscow, with local markets operating primarily as translation hubs. In 🌍 Africa, we learned our pricing was too high for the market despite initial enthusiasm. Each market has required unique adaptations to our approach.\n\nFinally, we've found that success in new markets often hinges on finding the right local representative - someone who understands both our offering and the local business culture. These relationships rarely develop through formal hiring processes but rather through networks, referrals, and sometimes serendipitous encounters. The trust factor is paramount; we need representatives who can embody our brand values while navigating local cultural nuances.\n\nThroughout our journey, we've maintained the flexibility to pivot when necessary. When political circumstances made 🌍 European expansion challenging, we redirected our attention to BRICS countries. When certain partnerships didn't yield results, we adjusted our approach rather than rigidly adhering to original plans.\n\nThis adaptability, combined with genuine curiosity about different markets and a willingness to invest in relationships before expecting returns, has been the foundation of our international growth.",
+      "signature": {
+        "name": "Igor Trofimov",
+        "title": "International Expansion Specialist",
+        "company": "makelove"
+      },
+      "highlight": {
+        "title": "Be Like Water - Flexible and Ready to Change Direction",
+        "description": "Igor's biggest lesson is that successful international expansion is like being water - you need to be flexible and ready to change shape based on the container (market) you're in. When Europe became difficult, they flowed to Brazil. When some partnerships didn't work, they tried new approaches. The companies that succeed internationally are those that can adapt quickly when circumstances change, rather than stubbornly sticking to one plan even when it's not working."
       }
     }
   ]

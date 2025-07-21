@@ -15,12 +15,34 @@
   }, 
   {
     "id": 2,
-    "title": "JuicyScore",
+    "title": "Tripleten",
     "preview": "Anti-fraud and risk management solutions company founded in 2016 with international expansion including Kenya.",
     "logo": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/24ttl.png",
     "image": "",
     "category": "Fintech",
     "tags": ["Africa", "Brasil"],
+    "locked": true,
+    "emailCount": 0
+  },
+  {
+    "id": 3,
+    "title": "Maramio",
+    "preview": "A specialized international expansion agency, particularly strong in Latin America and APAC deployment for tech/software firms.",
+    "logo": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/Greatleads.png",
+    "image": "",
+    "category": "Agency",
+    "tags": ["LATAM","Mena","Apac"],
+    "locked": true,
+    "emailCount": 0
+  }
+  {
+    "id": 45,
+    "title": "greatleads",
+    "preview": "A specialized international expansion agency, particularly strong in Latin America and APAC deployment for tech/software firms.",
+    "logo": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/Greatleads.png",
+    "image": "",
+    "category": "Agency",
+    "tags": ["LATAM","Mena","Apac"],
     "locked": true,
     "emailCount": 0
   }

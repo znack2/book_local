@@ -1,40 +1,173 @@
-
 {
   "emailColumn": {
-    "title": "Email Templates - Chapter 13",
+    "title": "CityAds: A Founder's Journey Through Brazil and Beyond",
     "authorInfo": {
       "title": "About the Author",
-      "description": "Dr. Sarah Kim specializes in data analytics and business intelligence with focus on predictive modeling and decision support systems."
+      "description": "Aleksei Verevkin shares his authentic journey of expanding a technology company from CIS markets to Brazil and beyond. This interview series provides raw, unfiltered insights into the real challenges, unexpected successes, and costly mistakes of international business expansion. Based on actual experiences from 2011-2015, these lessons offer practical guidance for entrepreneurs considering global growth."
     },
     "materialsUsed": [
-      "Provost, F. (2013). Data Science for Business. O'Reilly Media.",
-      "Davenport, T. (2017). Competing on Analytics. Harvard Business Press.",
-      "Kimball, R. (2013). The Data Warehouse Toolkit. Wiley.",
-      "MIT Technology Review (2023). \"AI in Business Decision Making\" - Data Science Quarterly."
+      "World Bank. (2025). Doing Business Report - Cross-Country Analysis.",
+      "Dearin & Associates. (2024). The Ultimate Guide to International Expansion.",
+      "Globalization Partners. (2025). Tips for Developing an International Expansion Strategy.",
+      "Stripe. (2024). International Business Expansion 101: A Primer for Businesses.",
+      "Novatrade Brazil. (2024). Navigating the Challenges of Doing Business in Brazil.",
+      "U.S. Department of State. (2025). Investment Climate Statements: Brazil.",
+      "Velocity Global. (2023). Doing Business in Brazil: Considerations for Global Companies.",
+      "Grant Thornton. (2024). Growing Your Business in Brazil - Market Insights.",
+      "IRIS Global. (2025). Top 9 Countries for International Expansion.",
+      "Harvard Business Review. (2023). Cultural Understanding Impact on Global Expansion Strategies."
     ],
     "keyTakeaways": {
       "title": "Key Takeaways",
-      "description": "Data-driven decision making requires quality data, proper analysis tools, and organizational commitment to evidence-based strategies."
+      "description": "International expansion success requires three critical elements: direct founder involvement in early stages, deep local market understanding, and sufficient financial resources to weather initial mistakes. Quick iteration beats extensive planning - try fast, identify what works, discard what doesn't, and scale successes. Local partnerships and cultural adaptation are non-negotiable, while premature corporate procedures can kill entrepreneurial flexibility. Most importantly, treat expansion as a marathon, not a sprint - sustainable growth comes from building reputation and trust over time."
     }
   },
   "emails": [
     {
       "id": "1",
-      "sender": "Sarah Kim",
-      "date": "2 days ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-3.png",
-      "subject": "Data Analytics Mastery: Turn Data into Competitive Advantage",
-      "preview": "Dear Data Professional, transforming raw data into actionable insights is the key to staying competitive in today's market. Discover advanced analytics techniques...",
-      "signature": {
-        "name": "Sarah Kim",
-        "title": "Data Analytics Director",
-        "company": "InsightDriven Analytics"
+      "date": "8 months ago",
+      "avatar": "cityads",
+      "subject": "From Local Success to Global Dreams: How Data Sparked Our Brazil Expansion",
+      "greeting": "Hello,",
+      "cta": {
+        "message": "download expansion playbook",
+        "link": "google.com"
       },
-      "meta": "Template • Analytics",
-      "likes": 81,
+      "body": "You've asked about how our international expansion began, so I'll share the story from the very beginning of our global journey 🌍.\n\nBy 2011-2012 📅, we had already opened our first foreign office in Kiev, Ukraine, which became very successful ✅. Within just three 📅 months, we were already profitable from that setup 💰, which got us thinking about where to expand next 🤔.\n\nAt that ⏰ time, [Criteo](https://www.criteo.com) was a unicorn 🦄 company growing rapidly across different countries. I was researching several technology companies, including [Criteo](https://www.criteo.com), to understand international 🏪 market dynamics. What I discovered was fascinating: **[Criteo](https://www.criteo.com)'s yield per click in Brazil 🇧🇷 and Latin America was seven ⏰ times higher than in CIS**, despite similar click volumes 📊.\n\nThis was the trigger that motivated me to consider opening an office in Brazil 🇧🇷. The idea was born from this concrete data showing the potential revenue opportunity in the Brazilian 🏪 market 💡.\n\nThe decision to expand internationally wasn't driven by investors 💰 - we had started the company with our own 💰 money and grown organically. Some people call our financial partners 'investors,' but they're more accurately described as partners who bought shares from my co-founders over ⏰ time. I never sold my shares, so the company remained founder-controlled 👨‍💼 and grew through organic partnerships rather than traditional venture investment.\n\nWe were doing well in the CIS, but I wanted the challenge of building a truly international company 🌍. The motivation was both strategic (seeing the 🏪 market opportunity) and personal (wanting to expand beyond our successful but geographically limited operations) 🚀.",
+      "signature": {
+        "name": "Aleksei Verevkin",
+        "title": "Founder & CEO",
+        "company": "CityAds"
+      },
       "highlight": {
-        "title": "Advanced Analytics Framework",
-        "description": "Comprehensive data strategy with predictive modeling and real-time business intelligence dashboards"
+        "title": "Data-Driven Market Discovery",
+        "description": "Sometimes the best expansion opportunities are hidden in competitor data. Look for markets where your industry shows higher profits - this often signals less competition and better opportunities than obvious choices like the U.S."
+      }
+    },
+    {
+      "id": "2",
+      "date": "7 months ago",
+      "avatar": "cityads",
+      "subject": "Why We Chose Brazil Over America: Market Size vs. Market Complexity",
+      "greeting": "Hi there,",
+      "cta": {
+        "message": "read market selection guide",
+        "link": "google.com"
+      },
+      "body": "I want to detail why we chose Brazil 🇧🇷 specifically and how we approached this 🏪 market entry 🎯.\n\n**Market Analysis:** 📊\nWe analyzed several key factors before settling on Brazil 🇧🇷. Our company operates across multiple verticals, with e-commerce being our primary focus 🛒. Brazil 🇧🇷 had very well-developed e-commerce infrastructure with a huge number of online stores 🏪.\n\nAt that ⏰ time, many online retailers from 🏠 home claimed that our e-commerce economy was larger than Brazil's 🇧🇷, but I think they were simply envious 😅. **Only [Ulmart](https://www.ulmart.ru) had exceeded 💰 $1 billion in annual turnover at 🏠 home, while Brazil 🇧🇷 already had five companies at that scale** 📈. This fundamental difference in 🏪 market maturity was compelling.\n\n🇪🇺 Europe was considered but ruled out due to language complexity - too many different languages across countries 🗣️. Brazil 🇧🇷 offered a large population with a single language (Portuguese), GDP levels comparable to our target 🏪 markets, and cultural similarities to ours in terms of mentality 🤝.\n\n**Entry Strategy:** 🎯\nOur approach was straightforward: find a trustworthy person 👨‍💼, train them, and facilitate communication with our central office 🏢. We found an exceptional candidate who wasn't even from the internet industry but was an excellent manager who followed tasks clearly ✅.\n\nMost importantly, he was half-Brazilian 🇧🇷 and spoke four languages perfectly: Portuguese, Spanish, English, and Russian 🗣️. This cultural and linguistic combination eliminated communication barriers that typically plague international expansion 🌍.\n\n**Conference Marketing Success:** 🎪\nOur first major marketing effort illustrates the importance of local cultural understanding 🎭. When we attended a conference in Brazil 🇧🇷, our country manager bought 200-300 matryoshka dolls 🪆. I was surprised and suggested buying flash drives or pencils instead, but he insisted Brazil 🇧🇷 was special ✨.\n\nWe had a small booth, but he went to the center of the conference, gave matryoshka dolls 🪆 to random people, and announced that matryoshka dolls 🪆 could be exchanged for business cards at our corner 📇. **We quickly had huge lines of people wanting matryoshka dolls 🪆, allowing us to collect all the targeted business cards we needed efficiently** 🎯.",
+      "signature": {
+        "name": "Aleksei Verevkin",
+        "title": "Founder & CEO",
+        "company": "CityAds"
+      },
+      "highlight": {
+        "title": "Cultural Marketing Magic",
+        "description": "Local managers understand their market better than you do. Trust their instincts about what will work locally, even if it seems strange. A simple cultural touch can outperform expensive traditional marketing."
+      }
+    },
+    {
+      "id": "3",
+      "date": "6 months ago",
+      "avatar": "cityads",
+      "subject": "Breaking Through Brazilian Barriers: From Cold Rejection to Hot Contracts",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "view sales strategy",
+        "link": "google.com"
+      },
+      "body": "**Sales Development:** 💼\nInitially, we faced challenges when approaching advertisers directly - there was a cold reception ❄️, with many saying contract decisions were made in 🇪🇺 Europe, 🇺🇸 America, or other cities. **We solved this by hiring strong salespeople poached from competitors** 🎯. Suddenly, the same people who had been dismissive became decision-makers 👨‍💼. Our new sales 👨‍💼👩‍💼 team had the right relationships and cultural understanding to close contracts effectively 🤝.\n\nThis experience taught us that **local 🏪 market knowledge and relationships are crucial** - what matters isn't just having a good product, but understanding how business actually gets done in each specific 🏪 market 💡.\n\n**Timeline and Planning:** ⏰\nWe had no formal business plan or structured timeline with specific KPIs 📊. Our approach was entrepreneurial rather than corporate - we wanted to enter another country and start making 💰 money quickly. I knew substantial 💰 money could be made in the region, so the question was why others were succeeding but we weren't yet 🤔.\n\nOur philosophy was simple: **try quickly, identify what works and what doesn't, discard unsuccessful approaches, and scale successful ones** 🚀. We collected business cards 📇, attempted to convert them to contracts, and when that didn't work initially, we hired local sales talent and contracts started flowing 💰.\n\n**Administrative Obstacles:** 🏢\nWe made numerous operational mistakes because we didn't prepare for basic business setup requirements:\n\n- **Office rental:** Required either guarantors or huge deposits we hadn't anticipated 💰\n- **Banking:** Brazilian 🏦 banks assign new foreign companies 'level 0' status with no dedicated 🏦 bank manager for consultation\n- **Legal compliance:** Brazil's 🇧🇷 tax office is notoriously strict, but you need to optimize tax efficiency for business viability - getting proper tax consultation was challenging 📋\n- **💰 Money transfers:** Transferring funds out of Brazil 🇧🇷 required understanding complex regulations and procedures\n\nI don't consider these 'mistakes' per se, but rather tasks that needed quick resolution ⚡. The real mistake would have been if we had sent our country manager to handle these issues alone without my direct involvement 👨‍💼.",
+      "signature": {
+        "name": "Aleksei Verevkin",
+        "title": "Founder & CEO",
+        "company": "CityAds"
+      },
+      "highlight": {
+        "title": "Relationship-Based Sales",
+        "description": "In many markets, people buy from people they know and trust, not companies. Hiring local sales talent with existing relationships can instantly transform your market reception from cold to hot."
+      }
+    },
+    {
+      "id": "4",
+      "date": "5 months ago",
+      "avatar": "cityads",
+      "subject": "The Million-Dollar Mistake: How Moving Our Best Manager Broke Everything",
+      "greeting": "Good afternoon, my friend,",
+      "cta": {
+        "message": "learn from our mistakes",
+        "link": "google.com"
+      },
+      "body": "**Scaling Challenges:** 📈\nOur biggest actual mistake was moving our successful Brazilian 🇧🇷 country manager to open 🇲🇽 Mexico. He warned us upfront: **'🇲🇽 Mexico is completely different from Brazil 🇧🇷. Just because I understand everything about Brazil 🇧🇷 doesn't mean I understand 🇲🇽 Mexico.'** We didn't listen 👂❌.\n\nThe result was catastrophic: **we lost our excellent Brazilian 🇧🇷 manager, got a poor 🇲🇽 Mexico launch without my direct involvement (which then closed), and had to replace our proven Brazilian 🇧🇷 leader with someone unfamiliar with the 🏪 market** 💥. In advertising, reputation, connections, and relationships are everything - we started losing all these advantages rapidly 📉.\n\n**Management Philosophy:** 🧠\nLooking back, I should have been less cautious and moved faster to generate revenue 💰. When you enter a new country and see everyone around you earning 💰 money in your niche, there's often hesitation about whether it's really that simple or if there are hidden taxes or regulatory issues 🤔. This conservatism can slow down necessary aggressive 📈 growth.\n\nThe decision was eventually made to send Stas back to Brazil 🇧🇷 to restore our 🏪 market position, which proved successful ✅.\n\n**Corporate Structure Problems:** 🏢\nAround the same ⏰ time as our Brazil 🇧🇷 expansion, we were approached by an investment fund called Clever Internet Investments 💰. This fund bought out my partners and promised professional financial accounting and management expertise.\n\nWhat we got instead was dramatically increased operational costs and complexity:\n- Immediate need for a parent company in Cyprus 🏝️\n- Multiple lawyers and legal consultants 👨‍💼\n- Implementation of extensive corporate procedures 📋\n- Transformation into a [Microsoft](https://www.microsoft.com)-like corporate structure without [Microsoft](https://www.microsoft.com)-level revenue 💰\n\n**All the fund managers came with impressive credentials and important attitudes, telling us how to conduct business, but none had actually run businesses themselves** 🎓. They were university graduates who spoke English and understood terms like CEO, CFO, COO, audit, and P&L, but lacked operational experience 💼.\n\n**Impact on Business Focus:** 🎯\nThe result was devastating to my personal focus and our 🏪 market leadership:\n- I became distracted from core business activities 😵‍💫\n- We began losing leadership positions in specific niches 📉\n- Corporate procedures were imposed regardless of company development stage 📋\n- The 👨‍💼👩‍💼 team was forced to work within rigid frameworks rather than entrepreneurial flexibility 🔒",
+      "signature": {
+        "name": "Aleksei Verevkin",
+        "title": "Founder & CEO",
+        "company": "CityAds"
+      },
+      "highlight": {
+        "title": "Don't Break What's Working",
+        "description": "Your best managers are gold - don't move them around just because they're good. Each market is unique and requires dedicated expertise. Also, avoid early corporate procedures that can kill the entrepreneurial spirit your company needs to grow."
+      }
+    },
+    {
+      "id": "5",
+      "date": "4 months ago",
+      "avatar": "cityads",
+      "subject": "Building Teams Across Borders: The Art of Cultural Hiring",
+      "greeting": "Hi there,",
+      "cta": {
+        "message": "download hiring guide",
+        "link": "google.com"
+      },
+      "body": "**Local Team Development:** 👥\nAfter establishing our country manager, our hiring sequence was systematic:\n\n1. **Head of Sales:** Someone who could bring in direct contracts immediately 💼\n2. **Traffic Specialist:** A person who knew 🌐 website owners and services, eliminating the need for cold prospecting - someone who already knew who to approach and what to offer 🎯\n3. **Support Functions:** Additional roles as the operation scaled 📈\n\nThis combination formed an effective core that could generate revenue quickly while building 🏪 market presence 🚀.\n\n**Outsourcing vs. In-House:** 🏢\nInitially, we kept operational costs minimal by outsourcing legal services through contracted law firms rather than hiring full-⏰ time legal staff 👨‍💼. We avoided spending on marketing or other expensive functions until achieving financial stability 💰. Only after reaching consistent profitability did we begin investing in additional marketing capabilities 📈.\n\n**Timeline to Profitability:** ⏰\n- Break-even point: 6-7 📅 months\n- Continued hiring with small losses: Another 6-7 📅 months\n- Stable break-even: After one 📅 year\n- 📈 Growth phase: 📅 Year two and beyond\n\n**Hiring Philosophy by Market:** 🌍\nWe maintained a strict policy of hiring only local nationals in each country:\n- Brazil 🇧🇷: Only Brazilians (except for Stas as country manager)\n- All other 🏪 markets: Same pattern - non-local country manager with local 👨‍💼👩‍💼 team\n\n**When we hired a local French manager, we saw a 30% business decline** 📉. Local managers, regardless of their background, struggled to maintain the entrepreneurial pace and decision-making speed that characterized our company culture ⚡.\n\n**Cultural Management Insights:** 🎭\nEach 🏪 market required different management approaches based on cultural characteristics:\n\n- **Brazilians 🇧🇷:** Very similar to us - generally in good moods 😊, can take offense quickly, occasionally dramatic, but easy to engage in adventurous business initiatives 🚀\n- **Poles 🇵🇱:** More cautious and cold-blooded ❄️, but also more deliberate in decision-making 🤔\n- **Vietnamese 🇻🇳:** Require clearer target-setting and goal definition 🎯, less creative but excellent execution ✅\n\nUnderstanding these cultural differences became crucial for effective 👨‍💼👩‍💼 team management and performance optimization across 🏪 markets 🌍.\n\n**Product and Business Model Adaptation:** 🔄\nInterestingly, our core business model remained consistent across 🏪 markets. The main adaptations involved finding the right specialists for each location - some countries made it easier to find certain types of talent while others presented different challenges 🎯. Whether we had difficulty finding sales talent, traffic generation specialists, or legal support varied by 🏪 market, but the fundamental business approach remained stable 💼.",
+      "signature": {
+        "name": "Aleksei Verevkin",
+        "title": "Founder & CEO",
+        "company": "CityAds"
+      },
+      "highlight": {
+        "title": "Hire Local, Think Global",
+        "description": "Always hire local people who understand their market's culture and business practices. But keep your country managers from your home culture - they understand your company's DNA and can maintain the entrepreneurial pace you need."
+      }
+    },
+    {
+      "id": "6",
+      "date": "3 months ago",
+      "avatar": "cityads",
+      "subject": "The Multi-Market Juggling Act: Lessons from Running 4 Countries at Once",
+      "greeting": "Dear colleague,",
+      "cta": {
+        "message": "read expansion framework",
+        "link": "google.com"
+      },
+      "body": "**Multi-Market Management:** 🌍\nBy this ⏰ time, we were operating in the CIS and Brazil 🇧🇷 simultaneously, which required developing new management approaches 📊. Unfortunately, I had no experience as a global manager, so everything was learned through my own mistakes 🎓.\n\n**Simultaneous Multi-Market Expansion:** 🚀\nDespite these challenges, we simultaneously expanded to 🇪🇺 Europe (🇵🇱 Poland, 🇪🇸 Spain), Asia (🇻🇳 Vietnam), and maintained our Brazil 🇧🇷 operations. However, the corporate procedures imposed by the fund created problems across all 🏪 markets 📋.\n\nThe fundamental issue was applying large corporation procedures to a growing startup 🏢. Imagine taking [Google](https://www.google.com)'s corporate procedures and immediately applying them to any technology startup - it would close very quickly ❌. There's also the concept of 'Italian strike' where everyone works strictly by the rules, which negatively impacts business during 📈 growth phases.\n\n**Team Structure Evolution:** 👥\nWe developed a model where we created an 'International' office - essentially a virtual office working with different countries 🌍. This International 👨‍💼👩‍💼 team would identify promising countries and opportunities, then deploy local 👨‍💼👩‍💼 teams.\n\nBased on my experience, my country mates have the strongest entrepreneurial skills 🚀, so our most successful approach involved experienced managers landing in new 🏪 markets, then hiring and managing local 👨‍💼👩‍💼 teams. **When we tried hiring local country managers without our company DNA, they struggled with internal communication, decision-making, and maintaining our operational pace** ⚡.\n\nThe most effective combination proved to be the management with local 👨‍💼👩‍💼 teams, where the manager understood our company culture and could adapt it to local 🏪 market needs 🎯.\n\n**Bootstrap Before Scaling:** 💰\nEntrepreneurs must bootstrap operations and ensure the business model works before hiring large 👨‍💼👩‍💼 teams 📈. The key moments are: proving the model works, then hiring the right 👨‍💼👩‍💼 team to scale it. These critical phases require founder attention and cannot be delegated effectively 👨‍💼.\n\n**Timing and Resource Management:** ⏰\nRather than waiting for complete stability in one 🏪 market before expanding to the next, we found success in simultaneous expansion once we had proven our model in Brazil 🇧🇷. This allowed us to leverage our learning and internal mechanics across multiple 🏪 markets efficiently 🚀.\n\nHowever, this approach requires having refined your expansion process and having confidence in your fundamental business model 💼. The risk is spreading resources too thin if you haven't achieved sufficient operational maturity 📈.",
+      "signature": {
+        "name": "Aleksei Verevkin",
+        "title": "Founder & CEO",
+        "company": "CityAds"
+      },
+      "highlight": {
+        "title": "Start Simple, Scale Smart",
+        "description": "Don't apply big company rules to small company problems. Bootstrap first, prove your model works, then scale with the right mix of your culture and local talent. Founder involvement is critical in early stages - you can't delegate expansion success."
+      }
+    },
+    {
+      "id": "7",
+      "date": "1 month ago",
+      "avatar": "cityads",
+      "subject": "What I Wish I'd Known: The Ultimate Guide to Avoiding Expansion Disasters",
+      "greeting": "Hello, my friend,",
+      "cta": {
+        "message": "get complete playbook",
+        "link": "google.com"
+      },
+      "body": "**Founder Involvement is Critical:** 👨‍💼\nThe most important lesson from our experience is that **successful international expansion requires direct founder involvement, at least initially** 🎯. **Every office I personally opened remains successfully operational today. Every office opened by hired employees from outside has since closed** ✅❌.\n\nThis isn't because those employees were bad or incompetent, but because they couldn't make critical decisions about when to contact us for operational support, handle subtle cultural issues, or maintain the entrepreneurial pace that characterizes successful startups ⚡.\n\n**Partner Selection Matters:** 🤝\nOur experience with captive partnerships (working with large industrial groups pursuing their own interests) taught us that **independent 🏪 market entry often works better than partnership-dependent strategies** 🎯. Large groups may seem attractive due to their resources, but their priorities don't always align with your expansion needs 💼.\n\n**Speed vs. Planning Balance:** ⚡\nOur philosophy of quick iteration - **try rapidly, identify what works, discard what doesn't, scale successes** - proved more effective than extensive planning and formal business plans 📋. However, this approach requires having sufficient resources to absorb initial mistakes and having leadership capable of making quick strategic adjustments 🧠.\n\n**Avoid Premature Corporatization:** 🏢\nOne of our biggest mistakes was accepting corporate procedures and investment fund management before we had reached sufficient scale 📈. **These procedures, while eventually necessary, can destroy entrepreneurial flexibility and speed during crucial 📈 growth phases** ❌.\n\n**Key Strategic Insights:** 💡\n\n1. **Market Selection:** Look for data-driven opportunities rather than obvious choices 📊. The 🇺🇸 U.S. may seem attractive, but smaller 🏪 markets with less ⚔️ competition can be more profitable.\n\n2. **Cultural Adaptation:** Invest heavily in understanding local business culture 🎭. What works in one 🏪 market can completely fail in another.\n\n3. **Team Building:** Hire locally but manage with your culture 👥. Local 👨‍💼👩‍💼 teams understand the 🏪 market, but your managers maintain company DNA.\n\n4. **Financial Planning:** Always budget for ⏰ time and 💰 money beyond your initial estimates. International expansion takes longer and costs more than you think 📈.\n\n5. **Legal Infrastructure:** Establish proper legal entities early 🏢. Enterprise clients prefer local partners for tax and compliance reasons.\n\nThese lessons reflect our specific experience in the advertising technology sector, but the fundamental principles about founder involvement, cultural balance, and operational focus seem applicable across industries and 🏪 markets 🌍.\n\n**Final Thought:** 🎯\nInternational expansion is like learning to drive - you can read all the manuals, but you won't truly understand until you're behind the wheel making real decisions in real traffic 🚗. The key is starting with enough resources to survive your learning period and having the flexibility to adapt quickly when things don't go as planned ⚡.",
+      "signature": {
+        "name": "Aleksei Verevkin",
+        "title": "Founder & CEO",
+        "company": "CityAds"
+      },
+      "highlight": {
+        "title": "Founder-Led Success Formula",
+        "description": "The secret to expansion success: founder involvement + local talent + cultural understanding + sufficient resources + quick adaptation. Skip any of these elements and you'll likely join the long list of failed international expansions."
       }
     }
   ]

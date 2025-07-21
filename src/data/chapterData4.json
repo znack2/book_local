@@ -1,40 +1,190 @@
-
 {
   "emailColumn": {
-    "title": "Email Templates - Chapter 13",
+    "title": "algorithmics: the Global EdTech Leader",
     "authorInfo": {
       "title": "About the Author",
-      "description": "Dr. Sarah Kim specializes in data analytics and business intelligence with focus on predictive modeling and decision support systems."
+      "description": "Iri Novi is a country manager in Apac region for Algorithmics, an international programming school for children aged 6-17, operating in 90+ countries with over 400,000 students. Founded in 2016, the company has grown tenfold and combines franchise and direct B2C business models to teach programming, game development, and digital skills through proprietary learning platforms and gamified curriculum."
     },
     "materialsUsed": [
-      "Provost, F. (2013). Data Science for Business. O'Reilly Media.",
-      "Davenport, T. (2017). Competing on Analytics. Harvard Business Press.",
-      "Kimball, R. (2013). The Data Warehouse Toolkit. Wiley.",
-      "MIT Technology Review (2023). \"AI in Business Decision Making\" - Data Science Quarterly."
+      "IMARC Group. (2024). Indonesia EdTech Market Size, Share, Trends, Forecast 2033.",
+      "World Bank. (2021). Indonesia's Education Technology During COVID-19 and Beyond.",
+      "Grand View Research. (2025). Education Technology Market Size | Industry Report, 2030.",
+      "Future Market Insights. (2024). Latin America EduTech Market Size, Trends & Forecast 2024-2034.",
+      "HolonIQ. (2023). Latin America EdTech 100 Market Analysis.",
+      "IMARC Group. (2024). Latin America EdTech Market Size, Trends, Forecast 2033."
     ],
     "keyTakeaways": {
       "title": "Key Takeaways",
-      "description": "Data-driven decision making requires quality data, proper analysis tools, and organizational commitment to evidence-based strategies."
+      "description": "Algorithmics' international expansion demonstrates that early global thinking can accelerate growth, but success requires patience and detailed local adaptation. While franchise models offer quick scale with lower investment, direct B2C operations provide better control and faster decision-making for ambitious growth targets. The company's experience shows that macro-level market research is usually accurate, but micro-level execution details require extensive local testing and iteration. Their systematic approach of setting clear proof-of-concept targets (100 monthly sales with positive economics) within 3-6 months provides a practical framework for international EdTech expansion."
     }
   },
   "emails": [
     {
       "id": "1",
-      "sender": "Sarah Kim",
-      "date": "2 days ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-3.png",
-      "subject": "Data Analytics Mastery: Turn Data into Competitive Advantage",
-      "preview": "Dear Data Professional, transforming raw data into actionable insights is the key to staying competitive in today's market. Discover advanced analytics techniques...",
-      "signature": {
-        "name": "Sarah Kim",
-        "title": "Data Analytics Director",
-        "company": "InsightDriven Analytics"
+      "date": "2 years ago",
+      "avatar": "algorithmics",
+      "subject": "Early International Vision and Business Models",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "explore global EdTech expansion strategies",
+        "link": "algorithmics-expansion-guide.com"
       },
-      "meta": "Template • Analytics",
-      "likes": 81,
+      "body": "You asked about when we started considering international markets, and our approach has been global-minded from the beginning 🎯.\n\nI've been with algorithmics for seven years - first as a franchise partner, then working at headquarters for the past five years. When I joined the company's headquarters, there was already an international division in place. Unlike many companies that develop fully in their home market before expanding, we began our international efforts relatively early, while still growing at home 🏠.\n\nOur international business operates through two distinct models 📊. The first is a franchise model, where we sell franchises worldwide 🌐, attract partners who open schools using our methodology, and support them in their development. In this approach, our primary client is the franchise partner, and we have dedicated marketing, sales, and development departments to attract and support these partners.\n\nThe second model is direct B2C operations, where we open schools ourselves without local partners 🏫. While we've been working with the franchise model globally for about six or seven years, our direct B2C international expansion only began in 2022. Interestingly, this decision was made before the geopolitical events of that year - the timing was coincidental.\n\nBoth models have their advantages. The franchise approach offers better margins since partners develop and invest their own money while we provide support 💰. However, the direct B2C model gives us more control, faster decision-making, and clearer goals 🎪. We found that with franchising alone, we couldn't achieve the volume, revenue, and scaling speed we needed to realize our ambition of building the world's largest programming school for children 🚀.\n\nOur experience at the home market also showed that our direct operations were performing at least as well as franchises, and in some areas even better. This gave us confidence to pursue direct expansion internationally.",
+      "signature": {
+        "name": "Iri Novi",
+        "title": "International Expansion Director",
+        "company": "algorithmics"
+      },
       "highlight": {
-        "title": "Advanced Analytics Framework",
-        "description": "Comprehensive data strategy with predictive modeling and real-time business intelligence dashboards"
+        "title": "Global Vision from Day One",
+        "description": "Starting international expansion early while still growing domestically can provide competitive advantages. Having both franchise and direct models gives companies flexibility to choose the best approach for different markets and growth stages."
+      }
+    },
+    {
+      "id": "2",
+      "date": "2 years ago",
+      "avatar": "algorithmics",
+      "subject": "Franchise Model Limitations and Expansion Triggers",
+      "greeting": "Hello there!",
+      "cta": {
+        "message": "learn about business model transitions",
+        "link": "algorithmics-business-models.com"
+      },
+      "body": "You asked about the specific trigger that led to our direct international expansion decision in 2022, rather than earlier.\n\nThere were several key factors that converged at that time ⚡. First, we began to recognize inherent limitations in the franchise model. When we first expanded internationally through franchising, we took a broad approach - selling franchises simultaneously across Europe, Africa, Australia, and Latin America 🌍. While this gave us tremendous volume and low-cost advertising opportunities, we discovered significant challenges in development.\n\nDespite programming education being universally in demand 💻, the numerous differences in markets, languages, and other details made it much more difficult to support partners across so many countries than we had initially anticipated. Over time, we became less optimistic about solving these franchise model limitations 📉.\n\nThe second factor was our growing success with the B2C model in the home market 📈. Initially, when franchising was successful both at home and internationally, our B2C operations weren't performing as well. However, after replacing the team with more competent specialists, our direct B2C business in the domestic market began to grow two-fold year over year. We simply understood how to make it work, and that was transformative 🚀.\n\nSo we had a dual realization: increasing disappointment with franchising as our only growth model, alongside confirmation that our B2C approach could work well when properly executed. This shifted our thinking about expansion strategies 💡.\n\nThere were also market analysis factors. Early on, our decision to prioritize franchising was influenced by successful examples of franchise organizations selling well and generating substantial revenue 💰. At that time, comparable B2C success stories were less evident, making it difficult to believe that direct B2C was worth pursuing for specific countries. This perception gradually changed as we gained more experience and saw our own B2C success at home.\n\nThis combination of factors - recognizing franchise limitations, proving our B2C model could work, and reassessing market dynamics - ultimately triggered our decision to pursue direct international expansion.",
+      "signature": {
+        "name": "Iri Novi",
+        "title": "International Expansion Director",
+        "company": "algorithmics"
+      },
+      "highlight": {
+        "title": "Learning from Model Limitations",
+        "description": "Sometimes the best expansion strategy emerges from recognizing the limitations of your current approach. Companies should continuously evaluate their business models and be ready to pivot when they find better paths to achieve their ambitious goals."
+      }
+    },
+    {
+      "id": "3",
+      "date": "2 years ago",
+      "avatar": "algorithmics",
+      "subject": "Selecting Indonesia as Our First Direct Market",
+      "greeting": "Hi there!",
+      "cta": {
+        "message": "discover market selection methodology",
+        "link": "algorithmics-market-research.com"
+      },
+      "body": "You asked about how we determined which market to enter for our direct international expansion.\n\nIndonesia was our first target market, and the selection process involved both macro and micro considerations 🔍. On the macro level, Indonesia is the largest country in Southeast Asia and one of the largest countries globally, with a growing population and developing economy. These fundamental factors made it attractive as a market with significant potential 📊.\n\nWe also found strong interest in IT education specifically in Indonesia 💻. Our research indicated a substantial gap between the number of IT vacancies and available professionals. Survey data showed that parents already understood the value of programming education for their children - we didn't need to explain what it was or why it was necessary ✅. This meant there was clear demand, but the market wasn't yet saturated. While some competitors existed, they were focused on different products or weren't targeting children.\n\nAnother positive signal came from some EdTech European startups, which at that time had Indonesia as one of their top markets either in terms of student numbers or pricing 🌟. This further validated our interest.\n\nWe also had franchise experience in Southeast Asia, including one partner in Indonesia who was demonstrating incredible demand, good lead generation, and strong interest - despite covering a country with over 300 million people on their own 🤝. This provided additional proof that the market was receptive to our offering.\n\nIn comparing Indonesia to alternatives like India or Brazil, we found Indonesia more accessible 🚪. India, while large, presents specific cultural challenges that make entry more complex. Brazil is also huge but appears to be a more closed market from various perspectives, including legal considerations.\n\nOur selection process was quite systematic 📋. We created a scoring model with numerous parameters to evaluate different countries mathematically. We also developed qualitative theses without trying to quantify everything. This combination of quantitative and qualitative assessment helped us make our decision.\n\nInterestingly, there were also some more intuitive factors at play 💭. Someone from our team had spent time in Indonesia, which created a personal connection. While not the deciding factor, it added to our positive feeling about the market. We approached the decision both pedantically with detailed analysis and with some degree of intuition about where we felt drawn.",
+      "signature": {
+        "name": "Iri Novi",
+        "title": "International Expansion Director",
+        "company": "algorithmics"
+      },
+      "highlight": {
+        "title": "Systematic Yet Intuitive Market Selection",
+        "description": "The best market selection combines rigorous data analysis with practical insights. Look for markets where demand already exists and you don't have to create the category. Personal connections and intuitive feelings, while not decisive, can provide valuable additional context."
+      }
+    },
+    {
+      "id": "4",
+      "date": "2 years ago",
+      "avatar": "algorithmics",
+      "subject": "Market Entry Approach and Research Process",
+      "greeting": "Greetings!",
+      "cta": {
+        "message": "access market entry playbook",
+        "link": "algorithmics-entry-strategy.com"
+      },
+      "body": "You asked about our market entry approach, research process, and how we set deadlines and budgets.\n\nOur market selection research was thorough but not exhaustive 📚. We spent several months conducting desk research before making a decision. Our process focused first on selecting the region (Southeast Asia) and then identifying the specific country within that region.\n\nThe decision was made entirely remotely - we didn't visit Indonesia before choosing it ✈️. Rather than conducting extensive on-the-ground research first, we approached it as an office-based company making decisions and then testing in the field with a small team. This approach made sense because we entered with minimal resources, keeping the cost of potential mistakes low 💰. If something didn't work in the field, we could regroup and adjust rather than investing in another round of research.\n\nFor our entry strategy, we set clear parameters 🎯. We established a \"safe period\" with sufficient financial resources to give the market a fair test. We defined targets that would constitute a successful proof of concept - specific numbers of sales within certain timeframes, along with positive economic trends. These weren't necessarily significant figures from a business perspective, but enough to indicate that we were on the right track with unit economics, conversions, and lifetime value metrics 📈.\n\nWe thought of our expansion in distinct phases: first a search or \"product-market fit\" phase, and then scaling once we confirmed our approach was working 🔄. The initial targets came from multiple sources - our home experience (adjusted for local conditions), competitor analysis including mystery shopping, data from our franchise partners (particularly in Indonesia), and our accumulated intuition from years in the business.\n\nInterestingly, our short-term expectations were not met, but our long-term results exceeded expectations 📊. In the first 3-6 months, results were disappointing - few sales, expensive leads, and poor conversions 😔. However, by 6-12 months, outcomes were substantially better than our initial projections 🚀. We underestimated the complexity of getting from zero to initial traction, but once we found the right approach, growth was stronger than anticipated.\n\nIn retrospect, what seemed like a long time to achieve results was actually quite reasonable ⏰. When I look at it now as someone preparing to launch in Mexico, I'd be thrilled to achieve in six months what Indonesia did, though at the time it felt slow due to our inexperience with international expansion.",
+      "signature": {
+        "name": "Iri Novi",
+        "title": "International Expansion Director",
+        "company": "algorithmics"
+      },
+      "highlight": {
+        "title": "Realistic Timeline Expectations",
+        "description": "International expansion typically takes longer than expected to gain initial traction, but growth can accelerate once you find the right local approach. Setting clear proof-of-concept metrics and maintaining patience during the early months is crucial for success."
+      }
+    },
+    {
+      "id": "5",
+      "date": "2 years ago",
+      "avatar": "algorithmics",
+      "subject": "🔧 Testing and Adaptation Process",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "learn local adaptation strategies",
+        "link": "algorithmics-localization.com"
+      },
+      "body": "You asked about how our research aligned with reality in Indonesia and what adaptations we had to make.\n\nOur macro-level research proved accurate ✅. The market size estimates, demand for programming education, and economic factors all matched our expectations. The binary criteria we assessed (market size, middle-class population, interest in programming) were confirmed. The predictions about average pricing being lower than home and the middle class being limited in size were also correct 📊.\n\nHowever, at the micro level, we discovered significant differences that required adaptation 🔄. While our fundamental approach remained similar across markets - using the same basic funnel structure, product formats, application processes, and sales scripts - the details required extensive customization.\n\nWhen we first launched in Indonesia, we essentially imported our successful local funnel but got very poor results - about 10 times worse than planned 📉. Despite seeming to do the same things that worked at home, small differences in details like banner colors, specific messaging, and other elements that might seem trivial proved crucial 🎨.\n\nOur team had to methodically work through the entire funnel, starting with the very first metrics like click-through rates 🔍. They would establish benchmarks based on competitor performance, then iterate until reaching the desired percentage before moving to the next stage. They maintained this disciplined approach throughout the entire conversion process, making incremental improvements while holding previous gains steady 📈.\n\nAnother unexpected discovery was about geographic concentration 🗺️. Through experimentation, we realized that, similar to how the capitals might account for 70% of the home market, Indonesia has specific cities where the vast majority of our customers are located. This wasn't something we had initially drawn from our domestic experience, though the pattern was similar.\n\nThe most significant lesson was that while the overall structure of our approach could remain consistent across markets, the details had to be carefully tailored to local preferences and behaviors 🎯. There was no magic solution - just methodical adaptation and optimization based on real market feedback 🔧.",
+      "signature": {
+        "name": "Iri Novi",
+        "title": "International Expansion Director",
+        "company": "algorithmics"
+      },
+      "highlight": {
+        "title": "Details Matter in Local Adaptation",
+        "description": "While your core business model and processes can remain consistent globally, success depends on carefully adapting the details to local market preferences. Even small elements like colors and messaging can significantly impact performance."
+      }
+    },
+    {
+      "id": "6",
+      "date": "2 years ago",
+      "avatar": "algorithmics",
+      "subject": "Team Structure and Local Hiring",
+      "greeting": "Hi there!",
+      "cta": {
+        "message": "explore team building strategies",
+        "link": "algorithmics-team-structure.com"
+      },
+      "body": "You asked about our team structure, resource allocation, and hiring approach in Indonesia.\n\nWhen we entered Indonesia, we didn't immediately dedicate a full team exclusively to that market 👥. The main decision-makers - our business unit leader Ira and our strategy director - were focused on Indonesia as a priority (perhaps 50-70% of their time) but still had other responsibilities. Ira was finishing another project, and the strategy director was working on other strategic initiatives as well.\n\nFor specialists like sales managers, we initially borrowed time from people in other business units 🤝. For example, the first sales manager might spend just 10% of their time helping with the Indonesia project. This approach made sense for the testing phase, as full-time specialists weren't required until we confirmed the market's viability.\n\nOur hiring timeline aligned with our market development 📈. When we transitioned from making perhaps 10 sales per week with suboptimal economics to a sharper increase - approaching 100 sales per month with improving economics - we began hiring dedicated staff. This inflection point from 10 to 100 monthly sales triggered our first full-time hires, including a head of performance marketing 🎯. The initial borrowed sales resource transformed into a supervisor role, overseeing a growing sales team.\n\nFrom the very beginning, we hired local people for roles that required working in the field 🌏. We couldn't teach Indonesian children in Bahasa without local teachers, so these were hired from day one of the sales launch. The initial operational work - building the structure, creating landing pages, and similar foundational tasks - was done by our home team without local input 💻.\n\nAn interesting evolution occurred with our first local hires 🚀. Initially hired as executors (salespeople, teachers), they gradually took on more responsibilities. One Indonesian salesperson was promoted to supervise a team of 3-5 salespeople, and in this role began to contribute intellectually to decision-making. This individual became our first true local manager and remains part of the management team today 👨‍💼. The rest of our employees continue to be either managers at home or local executors without managerial responsibilities.\n\nFor recruitment, we used a recruiter who spoke English to hire our Indonesian team members 🔍. While this process had its challenges at first, we eventually built our own expertise rather than outsourcing the function. We learned how to sell to Indonesians, attract recruiters, and handle recruitment ourselves - a process that was sometimes painful and involved mistakes and wasted money, but ultimately built valuable internal capabilities 💪.",
+      "signature": {
+        "name": "Iri Novi",
+        "title": "International Expansion Director",
+        "company": "algorithmics"
+      },
+      "highlight": {
+        "title": "Gradual Team Building Approach",
+        "description": "Start with shared resources during testing phase, then hire dedicated staff once you hit clear growth milestones. Local hires should focus on execution initially, with the best performers potentially growing into management roles over time."
+      }
+    },
+    {
+      "id": "7",
+      "date": "2 years ago",
+      "avatar": "algorithmics",
+      "subject": "Lessons and Insights from Indonesia to Mexico",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "discover expansion lessons learned",
+        "link": "algorithmics-lessons-learned.com"
+      },
+      "body": "You asked about our decision to expand to Mexico after Indonesia, and the lessons we've applied from our first international experience.\n\nOur expansion to Mexico is part of a broader strategic vision 🎯. We aim to become one of the world's largest schools teaching modern technology professions to children, targeting annual revenues in the $100-200 million range 💰. After analyzing our success in Indonesia and projecting growth across Southeast Asia, we realized that even in optimistic scenarios, this region alone wouldn't be sufficient to reach our ambitious goals within a reasonable timeframe ⏰.\n\nWe needed at least one more macro region, possibly more 🌍. Rather than selecting between Europe, Latin America, or Africa as regions, we focused on identifying a second country, which turned out to be Mexico. An advantage of Mexico is that it potentially offers easier expansion into the entire Spanish-speaking world 🗣️, unlike our experience in Indonesia where success doesn't necessarily translate well to neighboring countries like the Philippines due to language and cultural differences.\n\nFor our Mexico entry, we're applying numerous lessons from Indonesia 📚. First, we're setting much more realistic expectations about timelines and resources required. What once seemed like painfully slow progress in Indonesia now appears reasonable, and I'm approaching Mexico with a more methodical and patient mindset 🧘‍♂️.\n\nWe've also become more sophisticated in our research approach 🔍. While the macro-level process remains similar, we're implementing specific improvements. For example, we now ask potential customers to complete questionnaires that provide quantitative information - something we didn't know to do with Indonesia. We're also leveraging our existing franchise presence in Mexico, using customer data from dozens of partners to reach people who have already purchased algorithmics courses 🤝.\n\nAnother significant change is our increased openness to external expertise 👨‍🏫. Unlike our entry into Indonesia, we're now more willing to consult with advisors, mentors, and contractors who have specific experience in Mexico or with international expansion. This shift reflects both our evolution as a company and the growth of accumulated knowledge in the CIS business community since 2022, when many businesses began international operations.\n\nFor Mexico, our approach remains focused on reaching proof of concept within three months (optimistically) or six months (conservatively) 📅. We're targeting around 100 sales with positive economic indicators, but more importantly, we want to answer about 30 specific questions about customers, funnel performance, and market dynamics that will inform our long-term strategy 📋.",
+      "signature": {
+        "name": "Iri Novi",
+        "title": "International Expansion Director",
+        "company": "algorithmics"
+      },
+      "highlight": {
+        "title": "Building on Previous Experience",
+        "description": "Each market expansion becomes easier as you develop systematic approaches and realistic expectations. Leveraging existing franchise presence and seeking external expertise can accelerate the learning process for subsequent markets."
+      }
+    },
+    {
+      "id": "8",
+      "date": "2 years ago",
+      "avatar": "algorithmics",
+      "subject": "Key Lessons from International Expansion",
+      "greeting": "Greetings!",
+      "cta": {
+        "message": "access complete expansion framework",
+        "link": "algorithmics-expansion-framework.com"
+      },
+      "body": "You asked about our main mistakes and lessons learned from our international expansion experience.\n\nOne of our biggest mistakes was setting unrealistic expectations about how quickly we'd see results ⏱️. We underestimated the difficulty and complexity of entering a new market, particularly in terms of resources required and time to achieve meaningful indicators. Our experience taught us to approach international expansion with more patience and realistic targets 🎯.\n\nThis lesson is directly influencing our Mexico planning - I'm being much more careful and thorough in aligning expectations with founders and colleagues than I would have been two years ago 📊.\n\nSeveral other key lessons have emerged from our experience:\n\n1. Strategic decision-making should generally remain with local managers, while local staff focuses on execution 🏢. When locals do take management roles, they tend to be junior or mid-level professionals we've trained to adapt to our business culture.\n\n2. Attention to detail is crucial 🔍. While the fundamental structure of our operations (funnel design, product formats, etc.) remains similar across markets, success depends on careful adaptation of specific elements. The same customer journey stages exist everywhere - main page, request form, unique selling proposition - but the details like messaging, colors, and specific content need to be tailored to local preferences 🎨.\n\n3. Cultural adaptation is essential but must be balanced with maintaining core operational principles ⚖️. We've found that a systematic approach with clear goals and expected outcomes at each stage helps navigate this balance.\n\n4. Working across different markets requires both flexibility and consistency 🔄. We need to be adaptable enough to respond to local conditions while maintaining a coherent global strategy.\n\nAs we continue our international journey, we're becoming more sophisticated in how we evaluate opportunities and execute on them 🚀. We've learned to better assess how our experience in one market can transfer to another, and we're increasingly comfortable seeking external expertise when entering new territories 🤝.\n\nThese lessons continue to evolve as we gain more experience, and I expect our approach to further refine as we expand into Mexico and beyond 🌟.",
+      "signature": {
+        "name": "Iri Novi",
+        "title": "International Expansion Director",
+        "company": "algorithmics"
+      },
+      "highlight": {
+        "title": "Continuous Learning and Adaptation",
+        "description": "The biggest lesson is setting realistic expectations about timeline and complexity. Success requires balancing global consistency with local adaptation, and each new market teaches you something that improves your approach for the next expansion."
       }
     }
   ]

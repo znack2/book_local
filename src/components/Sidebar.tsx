@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { LogOut, HelpCircle, ExternalLink, BookOpen, Video, FileText } from "lucide-react";
+import { LogOut, HelpCircle, ExternalLink, BookOpen, Video, FileText, X, Star, Users } from "lucide-react";
 import { useAuth } from "@/contexts/AuthContext";
 import { useTutorialState } from '@/hooks/useTutorialState';
 import BusinessCanvasTutorial from '@/components/BusinessCanvasTutorial';
@@ -33,8 +33,19 @@ const Sidebar = ({
   const [openedChapters, setOpenedChapters] = useState<number>(0);
   const [isMobile, setIsMobile] = useState(false);
   const { resetTutorial } = useTutorialState();
+  const [showAnnouncement, setShowAnnouncement] = useState(true);
   const [showSidebarTutorial, setShowSidebarTutorial] = useState(false);
-  
+  const [votedCompany, setVotedCompany] = useState<string | null>(null);
+
+
+  // Mock voting data for the new book announcement
+  const votingData = [
+    { name: 'Kommo', votes: 142, logo: 'https://logo.clearbit.com/kommo.com' },
+    { name: 'Salmon', votes: 98, logo: 'https://logo.clearbit.com/salmon.ph' },
+    { name: 'Voximplant', votes: 87, logo: 'https://logo.clearbit.com/Voximplant.com' },
+    { name: 'Plata', votes: 73, logo: 'https://logo.clearbit.com/plata.mx' }
+  ];
+    
   // Check if mobile view
   useEffect(() => {
     const checkMobile = () => {
@@ -47,24 +58,30 @@ const Sidebar = ({
   }, []);
   
   const navigationItems = [
-    { 
-      icon: "M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z M22,6 12,13 2,6", 
-      text: "Playbook", 
-      active: location.pathname === '/' || activeItem === "Email Templates",
-      onClick: () => navigate('/')
-    },
-    { 
-      icon: "M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z M14,2 14,8 20,8", 
-      text: "Articles", 
-      active: location.pathname === '/articles' || activeItem === "Articles",
-      onClick: () => navigate('/articles')
-    },
-    { 
-      icon: "M23 7l-7 5 7 5V7z M16 4H2a2 2 0 0 0-2 2v12a2 2 0 0 0-2-2z", 
-      text: "Videos", 
-      active: location.pathname === '/videos' || activeItem === "Videos",
-      onClick: () => navigate('/videos')
-    }
+    // { 
+    //   icon: "M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z M22,6 12,13 2,6", 
+    //   text: "Playbook", 
+    //   active: location.pathname === '/' || activeItem === "Email Templates",
+    //   onClick: () => navigate('/')
+    // },    
+    // { 
+    //   icon: "M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z M22,6 12,13 2,6", 
+    //   text: "Questionnaire", 
+    //   active: location.pathname === '/questionnaire' || activeItem === "Questionnaire",
+    //   onClick: () => navigate('/questionnaire')
+    // },
+    // { 
+    //   icon: "M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z M14,2 14,8 20,8", 
+    //   text: "Articles", 
+    //   active: location.pathname === '/articles' || activeItem === "Articles",
+    //   onClick: () => navigate('/articles')
+    // },
+    // { 
+    //   icon: "M23 7l-7 5 7 5V7z M16 4H2a2 2 0 0 0-2 2v12a2 2 0 0 0-2-2z", 
+    //   text: "Videos", 
+    //   active: location.pathname === '/videos' || activeItem === "Videos",
+    //   onClick: () => navigate('/videos')
+    // }
   ];
 
   // Function to update progress
@@ -140,6 +157,27 @@ const Sidebar = ({
   const handleTutorialClick = () => {
     setShowSidebarTutorial(true);
   };
+
+  const handleCloseAnnouncement = () => {
+    setShowAnnouncement(false);
+    // Optionally save to localStorage to remember user preference
+    localStorage.setItem('hideNewBookAnnouncement', 'true');
+  };
+
+  const handleVote = (companyName: string) => {
+    if (!votedCompany) {
+      setVotedCompany(companyName);
+      console.log(`Voted for: ${companyName}`);
+    }
+  };
+
+  // Check if announcement was previously closed
+  useEffect(() => {
+    const wasHidden = localStorage.getItem('hideNewBookAnnouncement');
+    if (wasHidden === 'true') {
+      setShowAnnouncement(false);
+    }
+  }, []);
 
   const progressPercentage = (openedChapters / galleryData.books.length) * 100;
 
@@ -276,6 +314,81 @@ const Sidebar = ({
               </div>
             ))}
           </div>
+
+{/*isGalleryPage && */}
+
+          {/* New Book Announcement - Only show on gallery page and when not collapsed */}
+          {showAnnouncement && !collapsed && !isMobile && (
+            <div className="px-4 mb-6">
+              <div className="relative bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg p-4 text-white shadow-lg">
+                {/* Close button */}
+                <button
+                  onClick={handleCloseAnnouncement}
+                  className="absolute top-2 right-2 text-white/70 hover:text-white transition-colors"
+                >
+                  <X className="w-4 h-4" />
+                </button>
+                
+                {/* Header */}
+                <div className="flex items-center gap-2 mb-3">
+                  <Star className="w-5 h-5 text-yellow-300" />
+                  <h3 className="text-sm font-bold">New Book Coming!</h3>
+                </div>
+                
+                {/* Content */}
+                <p className="text-xs mb-3 leading-relaxed">
+                  Vote for companies to feature in our next playbook edition!
+                </p>
+                
+                {/* Voting Section */}
+                <div className="space-y-2">
+                  <div className="flex items-center gap-1 text-xs text-white/80 mb-2">
+                    <Users className="w-3 h-3" />
+                    <span>Top Companies:</span>
+                  </div>
+                  
+                  {votingData.map((company, index) => (
+                    <div
+                      key={company.name}
+                      className={`flex items-center justify-between p-2 rounded-md transition-all cursor-pointer ${
+                        votedCompany === company.name 
+                          ? 'bg-white/30 ring-2 ring-white/50' 
+                          : 'bg-white/10 hover:bg-white/20'
+                      }`}
+                      onClick={() => handleVote(company.name)}
+                    >
+                      <div className="flex items-center gap-2">
+                        <div className="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center overflow-hidden">
+                          <img 
+                            src={company.logo} 
+                            alt={company.name}
+                            className="w-4 h-4 object-contain"
+                            onError={(e) => {
+                              e.currentTarget.src = `data:image/svg+xml;base64,${btoa(`<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="16" height="16" fill="#4F46E5"/><text x="8" y="11" font-family="Arial" font-size="8" fill="white" text-anchor="middle">${company.name.charAt(0)}</text></svg>`)}`;
+                            }}
+                          />
+                        </div>
+                        <span className="text-xs font-medium">{company.name}</span>
+                      </div>
+                      <div className="flex items-center gap-1">
+                        <span className="text-xs font-bold">{company.votes}</span>
+                        {votedCompany === company.name && (
+                          <Star className="w-3 h-3 text-yellow-300 fill-current" />
+                        )}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+                
+                {/* Footer */}
+                <div className="mt-3 pt-3 border-t border-white/20">
+                  <p className="text-xs text-white/70">
+                    {votedCompany ? '✓ Thanks for voting!' : 'Click to vote for your favorite!'}
+                  </p>
+                </div>
+              </div>
+            </div>
+          )}
 
           {/* Bottom Section */}
           <div className="px-2 space-y-1">

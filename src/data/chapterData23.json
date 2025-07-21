@@ -1,40 +1,168 @@
-
 {
   "emailColumn": {
-    "title": "Email Templates - Chapter 13",
+    "title": "ivitech: Electric Mobility Expansion Journey in Southeast Asia",
     "authorInfo": {
       "title": "About the Author",
-      "description": "Dr. Sarah Kim specializes in data analytics and business intelligence with focus on predictive modeling and decision support systems."
+      "description": "Artem Moskalev is the founder and CEO of ivitech, a pioneering electric vehicle subscription service that bridges the gap between sustainable transportation and accessible financing. Founded in 2020, ivitech began as a fintech solution for taxi drivers in CIS countries before expanding into Southeast Asia's rapidly growing ride-hailing market. The company specializes in electric bike subscriptions for ride-hailing drivers and couriers, offering a unique B2B2C model that allows drivers to gradually own vehicles while generating income."
     },
     "materialsUsed": [
-      "Provost, F. (2013). Data Science for Business. O'Reilly Media.",
-      "Davenport, T. (2017). Competing on Analytics. Harvard Business Press.",
-      "Kimball, R. (2013). The Data Warehouse Toolkit. Wiley.",
-      "MIT Technology Review (2023). \"AI in Business Decision Making\" - Data Science Quarterly."
+      "Indonesia Ride Hailing Market Analysis. (2025). Mordor Intelligence: Market expected to reach USD 4.78 billion by 2030 with 8.80% CAGR.",
+      "Southeast Asia Electric Vehicle Market Report. (2025). Statista: Regional EV market projected to grow 4.02% annually, reaching $7,958.0m by 2029.",
+      "ASEAN Electric Vehicle Market Forecast. (2025). Mordor Intelligence: Expected to reach USD 6.23 billion by 2030 with 32.73% CAGR.",
+      "Electric Vehicle Startups in Southeast Asia. (2024). Tech Collective: Analysis of 342 EV startups in the region with 48 funded companies.",
+      "Indonesian Electric Two-Wheeler Market Analysis. (2024). Sustainable Earth Reviews: Middle-class households projected to rise to 68 million by 2030."
     ],
     "keyTakeaways": {
       "title": "Key Takeaways",
-      "description": "Data-driven decision making requires quality data, proper analysis tools, and organizational commitment to evidence-based strategies."
+      "description": "International expansion success requires early market validation, physical presence in target markets, and cultural adaptation. ivitech's journey from CIS to Indonesia demonstrates the importance of lean testing (284 leads in 24 hours), strategic market selection (73% of global ride-hailing market in Asia), and flexible execution (December target became February launch). Key lessons include: establish headquarters in business-friendly jurisdictions like Singapore, hire leaders who understand both local markets and company culture, and always expect timelines to extend beyond initial projections. The company's B2B2C model leveraging partnerships with ride-hailing platforms shows how startups can scale efficiently in complex emerging markets."
     }
   },
   "emails": [
     {
       "id": "1",
-      "sender": "Sarah Kim",
-      "date": "2 days ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-3.png",
-      "subject": "Data Analytics Mastery: Turn Data into Competitive Advantage",
-      "preview": "Dear Data Professional, transforming raw data into actionable insights is the key to staying competitive in today's market. Discover advanced analytics techniques...",
-      "signature": {
-        "name": "Sarah Kim",
-        "title": "Data Analytics Director",
-        "company": "InsightDriven Analytics"
+      "date": "2 years ago",
+      "avatar": "ivitech",
+      "subject": "Initial Global Ambitions: From Day One to International Vision",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "explore global expansion strategy",
+        "link": "ivitech-global-expansion.com"
       },
-      "meta": "Template • Analytics",
-      "likes": 81,
+      "body": "You asked about when we first started considering international expansion - our global ambitions were present almost from the beginning of our company's existence. 🌍\n\nWe founded ivitech in 2020, and while we were initially focused on establishing our business domestically, thoughts of international expansion appeared almost immediately. The home market served as our testing ground, where we worked closely with the taxi industry, particularly with [Yandex.Taxi](https://taxi.yandex.com) (a leading ride-hailing service). This partnership provided both valuable experience and our first potential bridge to international markets. 🚗\n\nAfter about a year to a year and a half of operations in CIS, we began our first explorations of international opportunities. Our initial approach was quite pragmatic - since we were already working with [Yandex.Taxi](https://taxi.yandex.com), we looked at where they were operating internationally, particularly in the Baltics (Estonia, Latvia, Lithuania). Our hypothesis was that this might provide a shortcut to entering these markets since we could potentially leverage Yandex's presence and partnerships. 🔗\n\nI personally handled this initial market research, which I believe is an important responsibility for a founder. Direct engagement with potential markets gives you a firsthand feel for the opportunities and challenges that might not be apparent from secondary research alone. Through these preliminary explorations, I was able to gather essential insights that would shape our international strategy moving forward. 📊\n\nOur path to global expansion wasn't driven by any particular trigger event or milestone achievement at home. Rather, it stemmed from my fundamental ambition to build a significant business with worldwide impact. Even though we found product-market fit quickly at home and were cash flow positive by our third month, I was already looking beyond our domestic market to identify opportunities for broader growth. 💡",
+      "signature": {
+        "name": "Artem Moskalev",
+        "title": "Founder & CEO",
+        "company": "ivitech"
+      },
       "highlight": {
-        "title": "Advanced Analytics Framework",
-        "description": "Comprehensive data strategy with predictive modeling and real-time business intelligence dashboards"
+        "title": "Early Global Vision Creates Expansion Momentum",
+        "description": "Smart founders think globally from day one, even when starting small. Artem's early international thinking while building locally gave ivitech a head start when they were ready to expand. It's like planting seeds - you start thinking about where you want to grow tomorrow while you're still growing today."
+      }
+    },
+    {
+      "id": "2",
+      "date": "2 years ago",
+      "avatar": "ivitech",
+      "subject": "Strategic Market Selection: From Baltics to Southeast Asia",
+      "greeting": "Hi there,",
+      "cta": {
+        "message": "discover market selection framework",
+        "link": "ivitech-market-selection.com"
+      },
+      "body": "Regarding your question about how we selected our first international market - this was a methodical process of evaluation based on market size, growth potential, and practical considerations. 🎯\n\nOur international market selection journey began with the Baltic (Estonia, Latvia, Lithuania). However, after preliminary research and conversations with local taxi companies, we discovered two significant drawbacks:\n\nFirst, these markets were highly regulated from a fintech perspective, meaning it would take 1.5-2 years just to obtain the necessary permits and licenses. ⏰\nSecond, and perhaps more importantly, the markets were simply too small to justify this investment of time and resources. While they might have been easier entry points, the long-term growth potential was limited.\n\nThis realization led us to broaden our perspective. I began researching the global ride-hailing market structure to understand where the most significant opportunities existed. What I discovered was eye-opening: approximately 73% of the global market share was in the Asian region, including India and China. 🌏\n\nSo, we naturally considered these massive markets first. However, each presented significant challenges for a company making its first international expansion:\n\n- China had a huge market with substantial funding issues for SMBs (our target segment), but the market operated in ways that were difficult for us to navigate as newcomers without experience in Chinese business culture. 🇨🇳\n\n- India was also complex - with its caste system, unique public transportation infrastructure, and vast size - making it too challenging for our first international venture. 🇮🇳\n\nThis led us to Southeast Asia, which represented approximately $13-14 billion in online ride-hailing, with $7 billion of that in Indonesia alone. Indonesia became our focus because it met several key criteria:\n\n1. Large market size (fourth largest economy globally with 182 million people) 📈\n2. Significant growth potential 🚀\n3. More accessible entry points compared to China or India\n4. Still complex enough to provide valuable learning but manageable for our first expansion\n\nThis methodical narrowing process - from \"where are our existing partners operating?\" to \"where is the global market concentrated?\" to \"which large markets are most accessible?\" - allowed us to identify Indonesia as our optimal first international market. 🎯",
+      "signature": {
+        "name": "Artem Moskalev",
+        "title": "Founder & CEO",
+        "company": "ivitech"
+      },
+      "highlight": {
+        "title": "Smart Market Selection Uses Elimination Strategy",
+        "description": "Instead of picking the first market that looks good, ivitech used a smart elimination process. They started with easy markets (too small), then looked at huge markets (too complex), and found the sweet spot - big enough to matter, accessible enough to enter. It's like Goldilocks finding the perfect porridge - not too hot, not too cold, just right!"
+      }
+    },
+    {
+      "id": "3",
+      "date": "2 years ago",
+      "avatar": "ivitech",
+      "subject": "Testing Market Viability: 284 Leads in 24 Hours",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "learn lean market testing",
+        "link": "ivitech-market-testing.com"
+      },
+      "body": "You asked about our approach to testing the Indonesian market before committing significant resources - we developed a quick and efficient process to validate our assumptions. 🔍\n\nOnce we had identified Indonesia as our target market, we created a focused testing strategy to determine whether there was genuine interest in our solution. Rather than investing heavily upfront, we took a lean approach:\n\n1. We studied the basic structure of the market, identifying our three potential customer segments: motorcycle drivers, car drivers, and taxi companies (roughly 15 companies in total). 🏍️🚗\n\n2. We quickly created a website specifically for the Indonesian market. For this landing page, we drew inspiration from several sources: we examined similar businesses operating in Africa that were at more advanced stages, adopted color schemes from local players like [Grab](https://www.grab.com) and [Gojek](https://www.gojek.com) to create cultural familiarity, and borrowed effective messaging from competitors while adapting it to our specific offering. 🌈\n\n3. We ran targeted Facebook ads to drive traffic to this landing page. We chose Facebook as our testing channel because it offered the quickest way to generate leads and test our hypotheses, with few alternatives that could provide the same immediate feedback. 📱\n\n4. We created the landing page in English initially, with a Google-translated Bahasa Indonesia version as a backup. Since we were targeting a B2B audience, English was generally sufficient for this testing phase. 🌐\n\nThe results exceeded our expectations: we generated 284 leads in less than 24 hours. We had no specific numerical target in mind - we would have considered 30-50 leads sufficient to proceed - so this response strongly validated our decision to pursue this market. 📊✨\n\nImportantly, we conducted this entire testing process remotely and with minimal resources. I worked with our product team to create the landing page and run the ad campaigns ourselves, without hiring any local staff or consultants. This lean approach allowed us to quickly validate market interest without significant investment. 💪\n\nThis testing phase demonstrated that there was substantial interest in our offering - a subscription service for electric bikes targeting ride-hailing drivers and couriers. The subscription essentially functions as a repackaged installment plan, allowing drivers to gradually own the vehicle while using it to generate income. ⚡🚲\n\nFor companies considering international expansion, I recommend this type of lightweight market testing before committing substantial resources. It provides valuable data about market interest while requiring minimal investment of time and money. 💡",
+      "signature": {
+        "name": "Artem Moskalev",
+        "title": "Founder & CEO",
+        "company": "ivitech"
+      },
+      "highlight": {
+        "title": "Fast Market Validation Saves Time and Money",
+        "description": "Before spending big money on a new market, test it first! ivitech spent just a little money on Facebook ads and got 284 interested customers in one day. They expected 30-50 leads but got almost 10 times more! It's like testing if kids want ice cream by offering a small sample - if they all want more, you know you're onto something good."
+      }
+    },
+    {
+      "id": "4",
+      "date": "2 years ago",
+      "avatar": "ivitech",
+      "subject": "Developing Market Entry Strategy: The 6-Month Framework",
+      "greeting": "Greetings!",
+      "cta": {
+        "message": "access market entry blueprint",
+        "link": "ivitech-entry-strategy.com"
+      },
+      "body": "I wanted to share more about how we developed our market entry strategy for Indonesia after our successful initial testing. 📋\n\nFollowing our promising test results, we shifted focus to refining our strategy for a full market entry. We had validated interest from one of our three target audiences and needed to develop a comprehensive approach for establishing our business in Indonesia. 🎯\n\nOur market entry strategy wasn't rigidly structured with specific deadlines, but we did establish a general framework with the goal of accomplishing most of our key objectives within six months. ⏰\nThe strategy included several essential components:\n\n1. **Deeper market research**: Now that we had confirmed basic interest, we needed to understand the market dynamics in greater detail, including customer behavior, regulatory requirements, and competitive landscape. 🔍\n\n2. **Product refinement**: We needed to adapt our offering based on local needs and feedback. This included selecting appropriate electric bike models for the Indonesian market and running financial projections. ⚡🚲\n\n3. **Investor outreach**: We planned to gauge interest from potential investors, both locally and globally, to support our expansion efforts. 💰\n\n4. **Partnership development**: We identified key partners for our B2B2C model, particularly ride-hailing and delivery platforms. [InDrive](https://indrive.com) and [Borzo](https://borzo.com) became our first partners, with plans to approach [Grab](https://www.grab.com) and [Gojek](https://www.gojek.com) later. These partnerships were crucial as they would provide data on drivers' performance, earnings, and reliability - essential information for our financing model. 🤝\n\n5. **Integration development**: We needed to build technical connections with our partners to access driver data and create seamless payment systems. 🔗\n\nThroughout this process, we continued to operate with a lean team. We believed that gaining firsthand experience in the market was essential before expanding the team. 👥\n\nOne important aspect of our approach was flexibility. We understood that we would likely encounter unforeseen challenges that would require us to adapt our plans. The strategy served as a general roadmap rather than a rigid blueprint, allowing us to respond to market realities as we discovered them. 🗺️\n\nFor founders developing their own international expansion strategies, I recommend this balanced approach - have a clear framework for what you want to accomplish and general timelines, but maintain flexibility to adjust as you learn more about the market through direct experience. ⚖️",
+      "signature": {
+        "name": "Artem Moskalev",
+        "title": "Founder & CEO",
+        "company": "ivitech"
+      },
+      "highlight": {
+        "title": "Flexible Planning Beats Rigid Strategies",
+        "description": "ivitech made a smart plan with 5 key steps but kept it flexible like a rubber band - strong enough to guide them but bendable when needed. They knew that real markets are like playgrounds - you can plan where to play, but you need to adapt when you get there and see what's actually happening."
+      }
+    },
+    {
+      "id": "5",
+      "date": "2 years ago",
+      "avatar": "ivitech",
+      "subject": "On-the-Ground Market Entry: From Remote to Physical Presence",
+      "greeting": "Hello there!",
+      "cta": {
+        "message": "explore physical expansion tactics",
+        "link": "ivitech-ground-entry.com"
+      },
+      "body": "You asked about our transition from remote planning to physical presence in Indonesia - this was a crucial turning point in our expansion journey. 🌍\n\nAfter approximately six months of remote preparation (from April/May to October 2022), I decided it was time to establish a physical presence in Indonesia. By this point, we had done everything possible remotely - created our landing page, developed our business model, selected appropriate electric bike models, and built our financial projections. 📊\n\nThe timing aligned fortuitously with the G20 summit being held in Bali, which was preceded by the B20 business forum. This presented an excellent opportunity for me to make initial connections with the local business community and potential partners. I viewed this event as an efficient first touchpoint with key stakeholders in the Indonesian market. 🤝\n\nI traveled alone rather than with a team, as this initial trip was focused on establishing foundational elements and gathering firsthand insights. My plan was ambitious - I aimed to have our operation fully running by the end of December, giving me approximately two months on the ground to complete the launch. ⏰\n\nWhile I had a general plan for my time in Indonesia, many decisions would need to be made on-site as I discovered the realities of the market. This balance between planning and flexibility proved essential, as we ultimately launched at the end of February rather than December as initially targeted. 📅\n\nAn important strategic decision was establishing our company headquarters in Singapore rather than Indonesia. This choice was driven by several practical considerations: 🏢\n1. Singapore offers maximum business transparency and efficiency 💼\n2. Company formation and bank account opening are significantly faster ⚡\n3. The country operates under British law, providing greater legal clarity and protection ⚖️\n4. Singapore's business-friendly environment minimizes political and corruption risks 🛡️\n5. The country serves as an excellent base for managing operations throughout Southeast Asia 🌏\n\nThis structure allowed us to establish a local entity in Indonesia while maintaining our headquarters in a jurisdiction known for its business efficiency and transparency. 🏗️\n\nFor founders preparing for on-the-ground market entry, I recommend planning key meetings and objectives in advance while maintaining flexibility to adapt as you learn more about the market firsthand. 🎯",
+      "signature": {
+        "name": "Artem Moskalev",
+        "title": "Founder & CEO",
+        "company": "ivitech"
+      },
+      "highlight": {
+        "title": "Physical Presence Beats Remote Planning",
+        "description": "After 6 months of computer work, Artem knew he needed to actually go to Indonesia to make it work. It's like learning to ride a bike - you can read about it all you want, but you have to actually get on the bike! Smart choice to base the company in Singapore though - it's like having your home base in the safest, most organized place while you explore new territories."
+      }
+    },
+    {
+      "id": "6",
+      "date": "2 years ago",
+      "avatar": "ivitech",
+      "subject": "Adapting to Local Realities: When Plans Meet Reality",
+      "greeting": "Hi!",
+      "cta": {
+        "message": "understand local adaptation strategies",
+        "link": "ivitech-local-adaptation.com"
+      },
+      "body": "I wanted to address your question about how our expansion plans evolved once we were operating on the ground in Indonesia - this phase revealed the gap between theoretical planning and practical implementation. 🌍\n\nWhile our initial market testing and remote planning were valuable, the reality of launching a business in Indonesia presented nuances that could only be discovered through direct experience. 💡\n\nOur original timeline projected a December launch, but we ultimately went live in late February - nearly two months later than planned. This delay wasn't due to any catastrophic mistakes but rather the accumulation of small adjustments required adapting our model to local conditions. We discovered that the Indonesian market differed from our expectations in subtle but important ways that influenced how we structured our business and approached customers. 📅\n\nDuring my time in Indonesia, I conducted numerous interviews to find the right local leader for our operation. After speaking with several Indonesian candidates, I ultimately decided to hire an expat who had lived in Indonesia for 3-4 years and had experience in finance. This decision was based on the need for someone who understood both the local market and could communicate effectively with me, especially since I wouldn't be in Indonesia full-time. 👥\n\nFinding this balance between local knowledge and cultural alignment proved crucial. The CEO immediately brought on another local professional to help navigate the Indonesian business environment, and has since built out a full local team. 🤝\n\nThis experience taught us that even the best remote planning can't fully prepare you for the reality of operating in a new market. The key is maintaining flexibility and being willing to adapt your approach based on what you learn on the ground. 🔄",
+      "signature": {
+        "name": "Artem Moskalev",
+        "title": "Founder & CEO",
+        "company": "ivitech"
+      },
+      "highlight": {
+        "title": "Reality Always Differs from Plans",
+        "description": "Even with great planning, ivitech's December launch became February - and that's totally normal! It's like planning a perfect birthday party but then it rains, so you move it inside and it's still awesome. The smart move was hiring someone who knew both the local culture and could talk to the boss easily - like having a translator who speaks both languages perfectly."
+      }
+    },
+    {
+      "id": "7",
+      "date": "2 years ago",
+      "avatar": "ivitech",
+      "subject": "Key Lessons Learned: Insights from International Expansion",
+      "greeting": "Greetings!",
+      "cta": {
+        "message": "download expansion lessons guide",
+        "link": "ivitech-lessons-learned.com"
+      },
+      "body": "As we conclude this overview of our international expansion journey, I wanted to share the most valuable lessons we've learned that might benefit other founders considering similar paths. 📚\n\nThe most fundamental insight is the irreplaceable value of being physically present in your target market. When you're on the ground, you discover that market realities are invariably different from your remote assumptions. No amount of desk research can substitute for direct experience of local business practices, customer preferences, and cultural nuances. 🌍\n\nThis principle extends to team building as well. We found that having a leader who understands both the local market and our company culture was essential for successful market entry. 👥\n\nAnother critical lesson is the importance of engaging with local players, partners, and communities as early as possible. These relationships provide invaluable insights, open doors to opportunities, and help navigate local business environments. Our partnerships with ride-hailing platforms like [InDrive](https://indrive.com) and [Borzo](https://borzo.com) have been fundamental to our business model in Indonesia. 🤝\n\nCultural sensitivity proved more important than we initially anticipated. Even with substantial preparation, cultural differences influenced everything from negotiations to team management. Being aware of and respectful toward these differences is crucial for building effective relationships in new markets. 🤲\n\nOn a practical level, we learned that establishing headquarters in a business-friendly jurisdiction like Singapore offers significant advantages for managing operations throughout a region. The transparency, efficiency, and legal clarity provided by Singapore's business environment have greatly facilitated our expansion into Southeast Asia. 🏢\n\nRegarding timing, we found that market entry timelines almost always extend beyond initial projections. ⏰\n\nInterestingly, we found that the mistakes made during the market entry process were generally less consequential than those made after the business began operating. The initial expansion phase involves primarily learning and adaptation, while operational errors after launch can have more significant impacts on business performance. 📊\n\nAbove all, approach international expansion with humility and curiosity. Recognize that you're entering an environment with established norms and practices that may differ from your expectations. Success comes not from imposing your model unchanged, but from adapting it thoughtfully to the realities of each new market. 🌱",
+      "signature": {
+        "name": "Artem Moskalev",
+        "title": "Founder & CEO",
+        "company": "ivitech"
+      },
+      "highlight": {
+        "title": "Humility and Curiosity Win in New Markets",
+        "description": "The biggest lesson? Be humble and curious, not bossy and stubborn. Going to a new country is like being a new kid at school - you need to watch, learn, and make friends before you can really succeed. Physical presence beats computer research every time, and timelines always take longer than you think - but that's okay if you stay flexible and keep learning!"
       }
     }
   ]

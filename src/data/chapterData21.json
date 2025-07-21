@@ -1,40 +1,147 @@
-
 {
   "emailColumn": {
-    "title": "Email Templates - Chapter 13",
+    "title": "Mellow: HR Tech Journey to Global Markets",
     "authorInfo": {
       "title": "About the Author",
-      "description": "Dr. Sarah Kim specializes in data analytics and business intelligence with focus on predictive modeling and decision support systems."
+      "description": "Alexander Norovyatkin is an PR specialist at Mellow, a leading HR tech company that serves 3,000+ businesses and manages 760,000+ freelancers across 190 countries. Mellow, winner of Deloitte's Technology Fast 50 Ranking, provides contractor management solutions and automated payment processing for global workforce management."
     },
     "materialsUsed": [
-      "Provost, F. (2013). Data Science for Business. O'Reilly Media.",
-      "Davenport, T. (2017). Competing on Analytics. Harvard Business Press.",
-      "Kimball, R. (2013). The Data Warehouse Toolkit. Wiley.",
-      "MIT Technology Review (2023). \"AI in Business Decision Making\" - Data Science Quarterly."
+      "Fortune Business Insights. (2024). Human Resource Technology Market Size, Share & Industry Analysis, By Type (Talent Management, Workforce Management, Recruitment, Payroll Management, Performance Management, and Others), By Deployment (Cloud and On-premise), By Enterprise Type (Small and Medium Sized Enterprises (SMEs) and Large Enterprises), By Industry (BFSI, IT and Telecommunication, Government, Manufacturing, Retail, Healthcare, and Others), and Regional Forecast, 2024-2032.",
+      "Drake Star. (2024). Global HR Tech Report Q4 2024: $7.2 Billion invested in 2024 YTD and expected market volume to reach ~$29 billion this year.",
+      "Grand View Research. (2024). Freelance Platforms Market Size & Share Analysis - Industry Report, 2024-2030.",
+      "The Business Research Company. (2024). Freelance Platforms Global Market Report 2024.",
+      "Mellow. (2024). Mellow Launches Mellow to Safely Streamline Contractor Workflow Integration and Offer Them Social Security Support."
     ],
     "keyTakeaways": {
       "title": "Key Takeaways",
-      "description": "Data-driven decision making requires quality data, proper analysis tools, and organizational commitment to evidence-based strategies."
+      "description": "Mellow's 7-year international expansion reveals critical lessons for HR tech companies: 1) Legal foundation must come first - validate business models through local agencies and consulting firms before market entry, 2) Dedicated regional teams are essential - shared resources between home and international markets create focus conflicts, 3) Product-market fit requires systematic testing, not rushed marketing campaigns, 4) Organic client acquisition validates demand better than conference-driven approaches, 5) Crisis can accelerate diversification - geopolitical events pushed faster international development, 6) Brand separation may be necessary for different regional contexts, 7) Systematic sales processes outperform founder-led relationship building at scale."
     }
   },
   "emails": [
     {
-      "id": "1",
-      "sender": "Sarah Kim",
-      "date": "2 days ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-3.png",
-      "subject": "Data Analytics Mastery: Turn Data into Competitive Advantage",
-      "preview": "Dear Data Professional, transforming raw data into actionable insights is the key to staying competitive in today's market. Discover advanced analytics techniques...",
-      "signature": {
-        "name": "Sarah Kim",
-        "title": "Data Analytics Director",
-        "company": "InsightDriven Analytics"
+      "id": "1", 
+      "date": "2 years ago",
+      "avatar": "mellow",
+      "subject": "Early International Thinking and Market Selection (2017)",
+      "greeting": "Hello,",
+      "cta": {
+        "message": "explore HR tech expansion strategies",
+        "link": "mellow.com/international-expansion"
       },
-      "meta": "Template • Analytics",
-      "likes": 81,
+      "body": "You've asked about how we began our international expansion process at 💼 Mellow, so I'll share our journey from the very beginning.\n\n🚀 Mellow was launched in 2014, but it wasn't profitable for some time initially. By 2016, the business model was working well, and Pavel (our founder) began thinking that his idea for automating deals with contractors might be valuable beyond CIS market, particularly in 🌍 Europe.\n\nThis realization came when he noticed the service was attracting clients from various industries beyond his original target of CPA networks and advertising markets. Different types of companies were finding value in our platform, which made him consider international expansion.\n\nThe team spent about a year just thinking about this possibility to expand before taking action in 2017. During this period, Pavel traveled extensively - to 🇭🇰 Hong Kong, lived in 🇳🇱 Amsterdam for extended periods, and was particularly impressed by the Netherlands. He observed large companies like 🏨 Booking.com that could potentially be our clients, since they work with numerous real estate agents, support and IT and need to scale their human operations people - a perfect fit for our service.\n\nWhen we decided to enter international markets in 2017, we always started with ⚖️ legal considerations first to avoid potential lawsuits. This is Pavel's approach as a lawyer by background - he immediately checks how our business model can operate legally in target countries.\n\nUnlike many competitors who provide simple SaaS tools, 💼 Mellow acts as an intermediary in companies' operations with non-employees. This contractual relationship has been fundamental since its inception, which means we needed to verify that we can actually communicate and do business with companies in countries we wanted to enter.\n\nThe first step was always legal validation. During expansion, Pavel tasked our Chief Legal Officer and legal team with hiring local agencies to audit our business model for compliance with regional regulations. Sometimes these agencies recommend getting approval from major consulting firms. For example, in the 🇺🇸 US, we needed confirmation from 📊 McKinsey to validate our business model, which cost us $1 million before we even started operating there.\n\nThis 📊 McKinsey approval served three purposes: protecting against patent issues (especially in the US), ensuring we don't violate local laws, and providing credibility with future clients. When potential clients saw 📊 McKinsey's stamp of approval, they spent less time vetting internally and trusted the validation from recognized names.\n\nThis approach has proven valuable multiple times in 🌍 Europe and the 🇺🇸 US, especially when our clients go public or seek investments and need to explain their vendor relationships to auditors.",
+      "signature": {
+        "name": "Alexander Norovyatkin",
+        "title": "International Business Development Specialist",
+        "company": "Mellow"
+      },
       "highlight": {
-        "title": "Advanced Analytics Framework",
-        "description": "Comprehensive data strategy with predictive modeling and real-time business intelligence dashboards"
+        "title": "Legal-First Expansion Strategy",
+        "description": "Smart companies validate their business models legally before entering new markets. Like getting permission before entering someone's house, Mellow spent $1 million on McKinsey approval in the US to make sure their business was allowed and trusted. This expensive step actually saved money later because clients trusted them faster."
+      }
+    },
+    {
+      "id": "2",
+      "date": "2 years ago", 
+      "avatar": "mellow",
+      "subject": "First European Attempt: Netherlands Strategy and Challenges (2017-2018)",
+      "greeting": "Hi there,",
+      "cta": {
+        "message": "learn from expansion mistakes",
+        "link": "mellow.com/lessons-learned"
+      },
+      "body": "Following up on our international expansion story, I want to detail our first serious attempt to enter 🌍 European markets through the 🇳🇱 Netherlands.\n\nPavel didn't just want to enter the 🇳🇱 Netherlands - his goal was to access all of 🌍 Europe. He genuinely liked the country from his time living there, and they were more open to startup entrepreneurs at the time, making it easier to establish business relationships and register as a company.\n\nHowever, we made a critical mistake and did not conduct any research on the actual market demand for our product among 🌍 European buyers. Additionally, we didn't understand how much technical work would be needed to adapt our product to meet 🌍 European buyer requirements and expectations.\n\nSo we tried to validate our legal model, prepare basic marketing (including finding a new brand name since we couldn't use \"💼 Mellow\"), make interface changes to look different, and then go to market. The strategy was to attend conferences and exhibitions, buy minimal stands, pitch our product, and see what happens.\n\nThe fundamental issue was that we thought all of 🌍 Europe was homogeneous - that success in the 🇳🇱 Netherlands would automatically translate to 🇧🇪 Belgium, 🇩🇪 Germany, and other 🌍 European countries. But 🌍 Europe does not work that way, every country is different and needs different approaches.\n\nPavel was very disappointed with this launch. He realized the technical team had failed to deliver what was needed and began looking for replacements within the company. After investing so much in the conference approach with poor results, he decided to temporarily abandon the 🌍 European expansion idea.\n\nBut an interesting insight: 🌍 European clients were already finding us organically. Through our B2B2C model, freelancers could recommend us to any foreign customer, and companies would refer other companies to us. 🌍 European companies from 🇩🇪 Germany, the 🇨🇿 Czech Republic, and other countries were already using our platform, which was amazing, since it showed the value of our product in the first place.\n\nThis organic client acquisition actually validated Pavel's belief that we could succeed in 🌍 Europe - we just needed to solve our execution problems first. The legal foundation we'd established also proved valuable because we realized that we could work with these 🌍 European companies without issues.\n\nWe assumed we were unique in the market and had no real competitors. We thought agencies were our only competition, not realizing there were other players offering similar solutions.\n\nAfter the conference failure, Pavel maintained the belief that the hypothesis was correct, but the execution was flawed. He kept the 🇳🇱 Netherlands legal entity and brand as a backup while returning focus to the home, with the intention to eventually retry 🌍 European expansion once internal issues were resolved.\n\nThen 🦠 COVID hit, which changed everything.",
+      "signature": {
+        "name": "Alexander Norovyatkin", 
+        "title": "International Business Development Specialist",
+        "company": "Mellow"
+      },
+      "highlight": {
+        "title": "Don't Assume Markets Are the Same",
+        "description": "Just because countries are neighbors doesn't mean they work the same way. Mellow thought all European countries would want the same thing, like assuming all kids in a class like the same games. Each country has different rules, languages, and business styles that need special attention."
+      }
+    },
+    {
+      "id": "3",
+      "date": "1 year ago",
+      "avatar": "mellow", 
+      "subject": "Second Attempt: US Market Focus and Legal Setup (2021-2022)",
+      "greeting": "Hello,",
+      "cta": {
+        "message": "discover US market strategies",
+        "link": "mellow.com/us-expansion"
+      },
+      "body": "I wanted to share our second major international expansion, this time targeting the 🇺🇸 US market.\n\nAround 2021, when I joined the company, Pavel began planning to move to the 🇺🇸 US market. At this point, we still had our 🇳🇱 Netherlands legal entity functioning as a backup for 🌍 European companies that preferred contracting through a 🌍 European entity rather than 🇨🇾 Cyprus.\n\nThe trigger for 🇺🇸 US expansion was 🦠 COVID's impact on remote work. And we saw massive growth in our home market, secured significant clients, and increased our turnover. Pavel thought we should dominate our home market while simultaneously pursuing the promising 🇺🇸 American market.\n\nHowever, there was no dedicated person responsible for the new region.\n\nAlthough the preparation process was extensive: business model validation, opening accounts, establishing a company, and hiring staff. Even then, it was difficult to obtain permissions for company registration and account opening due to CIS bureaucratic challenges and unresponsive lawyers. This process took months of searching for new legal representatives.\n\nWe conducted some research by participating in local 🗽 New York events, talking to local CEOs and various startup community members.\n\nWhen we had sorted out the legal structure and established our ability to do business in the 🇺🇸 US, we realized that we needed someone to handle sales.\n\nThus, we hired a team member who is still working with us. The right decision was based on understanding that our product doesn't sell through simple advertising - it's complex and requires personal conversations and presence.\n\nThere was some test advertising, but the focus was on finding someone who would be physically present in the market to communicate with audiences and test our specific proposals. This person became our researcher, conducting interviews about people's experiences with existing solutions rather than direct sales. He would pass insights to Pavel, who would consider positioning and strategy.\n\nHowever, the 🇺🇸 US remained a side project while the home market was still our main focus for growth.",
+      "signature": {
+        "name": "Alexander Norovyatkin",
+        "title": "International Business Development Specialist", 
+        "company": "Mellow"
+      },
+      "highlight": {
+        "title": "People Over Advertising for Complex Products",
+        "description": "Some products are like complicated recipes - you can't just show a picture and expect people to understand. Mellow learned their contractor management platform needed real people to explain it face-to-face, not just fancy ads. Having someone local to talk and listen was much more important than spending money on advertisements."
+      }
+    },
+    {
+      "id": "4",
+      "date": "1 year ago",
+      "avatar": "mellow",
+      "subject": "Pivots and Market Research Expansion (2022)", 
+      "greeting": "Greetings,",
+      "cta": {
+        "message": "understand crisis-driven expansion",
+        "link": "mellow.com/2022-pivots"
+      },
+      "body": "February 2022 fundamentally changed our international expansion approach and created new urgencies around market diversification.\n\n⚡ **Immediate Challenges:**\nWe faced a critical decision: stop our CIS business and go abroad, or somehow separate and continue both? We decided to continue CIS operations as usual while maintaining 🇺🇸 US activities under the same brand name. Looking back, this was perhaps naive - we should have considered splitting the business earlier, but we didn't have resources for brand separation and we weren't well-known enough to matter.\n\nWe continued promoting ourselves in CIS through rankings and other activities while simultaneously building a 🇺🇸 US presence. In April 2022, we began more serious market development activities.\n\n🤝 **Trust and Credibility Issues:**\nWe discovered significant problems with market entry. There was nothing about us in Western media. This created a crisis of mistrust - even our name seemed strange and scary to potential clients.\n\nBased on feedback from communications and sales attempts, we realized we needed to establish basic market presence. I was tasked with securing publications to address this credibility gap, beginning in August 2022.\n\n🔍 **Freelancer Product Research:**\nSimultaneously, we were developing our freelancer product (launched in CIS at the end of 2021) and believed it could work well in developing markets. This led to our engagement with agencies to research markets like 🇮🇳 India, 🇧🇷 Brazil, 🇲🇽 Mexico, and 🇮🇩 Indonesia.\n\nThe research was driven by the hypothesis that developing markets with many freelancers would be ideal for this product. It's true, but looking back, we did not have enough resources to expand to these markets properly.\n\n❓ **Strategic Confusion:**\nThroughout 2022, we faced uncertainty. The team was frustrated, constantly switching focus between regions. We set KPIs requiring 50% of revenue to come from 🇺🇸 American clients to achieve greater stability, but we lacked dedicated international teams.\n\nThere were no specific KPIs for international development because the war created planning horizons of only one month.\n\n📊 **Research Implementation:**\nWhen we received research data from our agency partnerships, we presented it internally to our board of directors (CFO, CTO, CEO, CLO, Pavel, and partner Igor).\n\nWe launched marketing campaigns, testing ads, different channels, performance, and contextual advertising. We also tried influencer marketing, working with agencies like 📱 Buzguru, and it was a success in terms of downloads — ten thousand installs in a few days. However, we were aiming at a fairly general profile and ended up getting a lot of newbies looking for jobs. This is a big feature of 🇮🇳 India, for example.\n\nThe proper approach would have been: take research insights as hypotheses, test with target users, identify bottlenecks, improve the product, and then develop proper marketing. Instead, we rushed into marketing campaigns that brought empty installs because our product wasn't adapted for these audiences.\n\nBy the end of 2022, we recognized our freelancer product generated less than 1% of our revenue, while our B2B service remained our core business. The business has been growing, though, and we have become one of the biggest companies in the CIS HR market.",
+      "signature": {
+        "name": "Alexander Norovyatkin",
+        "title": "International Business Development Specialist",
+        "company": "Mellow"
+      },
+      "highlight": {
+        "title": "Research First, Then Test, Then Market",
+        "description": "Mellow learned an expensive lesson: getting lots of app downloads doesn't mean success if the people downloading aren't the right customers. It's like opening a lemonade stand at a dentist's office - lots of people might take your flyer, but they're not there to buy lemonade. Always test with real potential customers before spending big money on marketing."
+      }
+    },
+    {
+      "id": "5", 
+      "date": "1 year ago",
+      "avatar": "mellow",
+      "subject": "Focus Shift and Team Development (2023)",
+      "greeting": "Hello,",
+      "cta": {
+        "message": "explore team building strategies", 
+        "link": "mellow.com/team-development"
+      },
+      "body": "I want to detail how our strategy evolved through 2023 as we learned from our previous expansion attempts and began building more structured international operations.\n\n🎯 **Product Focus Decision:**\nBy early 2023, we realized our freelancer product wasn't generating meaningful revenue despite our research investments in 🇮🇳 India, 🌎 Latin America, and 🇮🇩 Indonesia. Our B2B service remained our core profit driver, generating 99% of revenue.\n\nLooking at global market conditions and recognizing our need to conserve resources, we made a strategic decision: to maximize our CIS market potential while simultaneously establishing proper sales processes in the 🇺🇸 US market. We stopped active development in 🇮🇳 India, 🌎 Latin America, and 🇮🇩 Indonesia to focus resources more effectively.\n\n🇺🇸 **American Market Development:**\nThroughout this period, we continued communicating with 🇺🇸 US clients while we maintained our PR efforts. Our long-term goal was to establish Pavel as a thought leader in the space, since the founder's presence plays a crucial role in media and business development.\n\nWe developed specific content strategies based on market insights. For example, we noticed 🇺🇸 American companies frequently mentioned hiring from fast-growing regions like 🇮🇳 India and 🌎 Latin America. We created content around these themes, testing how audiences responded to different positioning approaches.\n\nOur PR strategy served two purposes: immediate sales support and long-term relationship building with journalists. This groundwork would make future marketing efforts easier, regardless of our eventual positioning, since journalists would already know who Pavel Shinkenko and 💼 Mellow were.\n\n👥 **Team Building and Management Evolution:**\nA significant challenge throughout our expansion was our dual-focus structure. The same teams handling CIS marketing and sales also managed 🇺🇸 American activities. This created obvious problems with focus and resource allocation.\n\n🎢 **Decision-Making Structure:**\nOur management style may be described as was \"intensely chaotic but truly effective\" - Pavel would jump into processes when unsatisfied with progress or excited by new ideas, throw resources at initiatives, then step back once momentum was established. It's actually helped us to become one of the fastest-growing companies in MENA, according to 📊 Deloitte.\n\n💰 **Budget Management:**\nBy late 2023, we finally established dedicated teams for specific regions - something we'd never had before. Previously, we just had task lists for different regions handled by teams working on everything simultaneously.\n\nWe began hiring people with specific international market experience, like our current CMO who had launched products in the 🇬🇧 UK and had experience with other international markets.\n\nThis evolution represents our learning from years of international expansion attempts - the importance of dedicated focus, proper team structure, and a systematic approach to market development.",
+      "signature": {
+        "name": "Alexander Norovyatkin",
+        "title": "International Business Development Specialist",
+        "company": "Mellow"
+      },
+      "highlight": {
+        "title": "Dedicated Teams Beat Shared Resources",
+        "description": "Imagine trying to play soccer and basketball at the same time - you'd probably lose both games! Mellow learned that having the same people work on home country and international markets created confusion and poor results. When they finally created separate teams for each region, everything worked much better."
+      }
+    },
+    {
+      "id": "6",
+      "date": "6 months ago", 
+      "avatar": "mellow",
+      "subject": "Strategic Pivots and Current Operations (2024)",
+      "greeting": "Hi there,",
+      "cta": {
+        "message": "see our current success",
+        "link": "mellow.com/2024-results"
+      },
+      "body": "I wanted to conclude our international expansion story with recent developments and lessons learned from our multi-year journey.\n\n📈 **Growing US Client Base:**\nBy 2023-2024, we were seeing significant growth in 🇺🇸 American clients. Working with CIS companies was becoming increasingly difficult for international businesses, which naturally increased demand for our services from 🇺🇸 US-based companies.\n\nWe leveraged this growing client base for product development, using Jobs-to-be-Done methodologies to understand customer needs better. We hired an experienced fractional head of sales who built proper SDR teams and sales processes, moving us beyond ad-hoc relationship building to systematic business development.\n\n🏷️ **Brand Separation Strategy:**\nA major strategic decision came in October 2023 when we realized we needed to spin off part of our business from home. This led to comprehensive rebranding efforts, which I managed internally with agency support for visual elements while handling naming, legal research, and other processes in-house.\n\nThis separation allowed us to create distinct market positioning for different regions while maintaining our core service capabilities.\n\n🏢 **Organizational Maturation:**\nOur international expansion taught us several crucial lessons about organization and focus:\n\n1. **Dedicated Teams Are Essential:** For years, we had the same teams handling both CIS and international markets, creating constant tension and resource conflicts. Only when we establish dedicated regional teams, we begin to control our growth.\n\n2. **Product Management Matters:** Our early failures often stemmed from launching products without proper user testing and iteration. Bringing in experienced product managers dramatically improved our ability to adapt services for different markets.\n\n3. **Legal Foundation First:** Pavel's lawyer background served us well - establishing proper legal structures before market entry prevented many complications we see other companies face.\n\n4. **Research vs. Execution Balance:** We learned that market research is valuable but must be followed by systematic product testing and iteration, not rushed marketing campaigns.\n\n🌐 **Current International Structure:**\nToday, we operate with:\n- Dedicated teams for specific regions\n- Proper product management processes  \n- Systematic sales development rather than founder-led business development\n- Clear budget allocation and approval processes\n- Separate brand positioning for different markets\n\n💡 **Key Insights:**\nOur journey from 2017 to 2024 demonstrates several important principles:\n\n- International expansion requires dedicated focus and resources, not just enthusiasm\n- Legal and compliance foundations are crucial but insufficient without proper market development\n- Product-market fit must be established through systematic testing, not assumptions\n- Team structure and decision-making processes must evolve as companies scale internationally\n- Brand and positioning may need separation for different geopolitical contexts\n\nOur experience shows that successful international expansion is less about finding the \"right\" market and more about building the organizational capabilities to succeed in any market you choose to enter.\n\nThe companies that succeed internationally are those that learn from their mistakes, build proper systems, and commit adequate resources to the challenge rather than treating it as a side project.\n\n🏃‍♂️ And remember that the race is won by those who endure and thrive!",
+      "signature": {
+        "name": "Alexander Norovyatkin",
+        "title": "International Business Development Specialist", 
+        "company": "Mellow"
+      },
+      "highlight": {
+        "title": "Building Systems Beats Finding Perfect Markets",
+        "description": "Mellow discovered that success isn't about finding the perfect country to expand to - it's about building a strong company that can succeed anywhere. Like learning to be a good student rather than just finding easy classes, companies that build proper teams, processes, and systems can win in any market they choose to enter."
       }
     }
   ]

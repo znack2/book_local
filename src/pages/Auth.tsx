@@ -117,6 +117,7 @@ const Auth = () => {
               : "Account created successfully! You have access to the first chapter. Enter a promocode later to unlock all chapters.",
           });
           setIsSignUp(false);
+          navigate('/questionnaire');
         } else {
           toast({
             title: "Success", 

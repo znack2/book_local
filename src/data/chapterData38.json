@@ -1,40 +1,230 @@
-
 {
   "emailColumn": {
-    "title": "Email Templates - Chapter 13",
+    "title": "getstage: the Brazilian Video Platform Launch Through Systematic Market Entry",
     "authorInfo": {
       "title": "About the Author",
-      "description": "Dr. Sarah Kim specializes in data analytics and business intelligence with focus on predictive modeling and decision support systems."
+      "description": "Andrew Luchkin is a project manager and researcher specializing in international market entry strategies for technology companies. With expertise in case studies and market analysis, Alexey led getstage's comprehensive global market research and systematic entry into the Brazilian video streaming market. getstage is a video monetization platform targeting content creators and influencers, focusing on the rapidly growing Latin American streaming market. The project involved extensive research across multiple continents, ultimately selecting Brazil from a shortlist that included several African markets, based on market size, audience potential, and economic factors."
     },
     "materialsUsed": [
-      "Provost, F. (2013). Data Science for Business. O'Reilly Media.",
-      "Davenport, T. (2017). Competing on Analytics. Harvard Business Press.",
-      "Kimball, R. (2013). The Data Warehouse Toolkit. Wiley.",
-      "MIT Technology Review (2023). \"AI in Business Decision Making\" - Data Science Quarterly."
+      "Grand View Research. (2025). Brazil Video Streaming Market: $2.9B to $11.7B by 2030, 22% CAGR.",
+      "Statista Market Forecast. (2024). Brazil Video Streaming (SVoD): $1.66B to $2.18B by 2027, 9.51% CAGR.",
+      "Omdia Research. (2025). Brazil FAST Streaming Market Analysis: Third-Largest Market by 2029.",
+      "Variety Media Report. (2025). Brazil Online Video Revenues: $14.4B by 2029, $3B from Advertising."
     ],
     "keyTakeaways": {
       "title": "Key Takeaways",
-      "description": "Data-driven decision making requires quality data, proper analysis tools, and organizational commitment to evidence-based strategies."
+      "description": "Andrew Luchkin's systematic approach to getstage's international expansion demonstrates the importance of thorough research and methodical execution in entering new markets. Key insights include: conducting comprehensive global market research before committing to any single market, the value of systematic product development phases with regular investor check-ins, the critical importance of maintaining direct control over core functions like performance marketing, the risks of relying on single-source agencies without backup options, and the necessity of building local teams for cultural understanding while maintaining centralized oversight of technical functions. getstage's experience shows that even well-researched market entry can face execution challenges, emphasizing the need for contingency planning and the balance between local expertise and centralized control in international expansion strategies."
     }
   },
   "emails": [
     {
       "id": "1",
-      "sender": "Sarah Kim",
-      "date": "2 days ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-3.png",
-      "subject": "Data Analytics Mastery: Turn Data into Competitive Advantage",
-      "preview": "Dear Data Professional, transforming raw data into actionable insights is the key to staying competitive in today's market. Discover advanced analytics techniques...",
-      "signature": {
-        "name": "Sarah Kim",
-        "title": "Data Analytics Director",
-        "company": "InsightDriven Analytics"
+      "date": "2 years ago",
+      "avatar": "getstage",
+      "subject": "Starting in Brazil",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "explore global market research methods",
+        "link": "getstage.com/market-research"
       },
-      "meta": "Template • Analytics",
-      "likes": 81,
+      "body": "Regarding your question about how we selected Brazil as our initial market - our approach was quite methodical 📊. Unlike many companies that start in their home market and then expand, we took a more global approach from the beginning.\n\nWe first spent about five months developing our product concept 💡. Our investors were clear from the start that they wanted to build a global product rather than focusing on CIS. After finalizing the product concept, we conducted thorough market research across multiple continents.\n\nThe research process was comprehensive - we began by examining regions globally, and then narrowed down to specific countries based on relevant characteristics for our video platform 🌍. We analyzed market data extensively and ultimately narrowed our focus to a handful of promising markets. Brazil emerged as one of our top three options, along with some countries in Africa.\n\nWe ultimately chose Brazil because it had a larger audience, more money in the market, and felt more understandable to us based on our analysis 🇧🇷. Though Africa showed certain advantages for product growth, we trusted the Brazilian market more for our initial launch.\n\nInterestingly, when making this decision, none of our team members had actually visited Brazil 🤔. We planned to hire a Brazilian team later in the process, closer to our launch date.",
+      "signature": {
+        "name": "Andrew Luchkin",
+        "title": "Project Manager & Researcher",
+        "company": "getstage"
+      },
       "highlight": {
-        "title": "Advanced Analytics Framework",
-        "description": "Comprehensive data strategy with predictive modeling and real-time business intelligence dashboards"
+        "title": "Research the Whole World Before Picking One Country",
+        "description": "Alexey and his team didn't just pick a country randomly or choose the closest one. They spent 5 whole months studying markets all around the world before deciding on Brazil! They looked at how much money people had, how big the audience was, and how well they could understand the market. It's like choosing where to build a treehouse by checking every tree in the forest instead of just picking the first one you see. Sometimes the best opportunities are far away from home, but you need to do your homework first."
+      }
+    },
+    {
+      "id": "2",
+      "date": "2 years ago",
+      "avatar": "getstage",
+      "subject": "Our Research Process",
+      "greeting": "Hi there,",
+      "cta": {
+        "message": "learn systematic research methodology",
+        "link": "getstage.com/research-methodology"
+      },
+      "body": "You were curious about our research methodology and timeline - let me walk you through that process 📋.\n\nThe first stage of our project lasted approximately five months, from February to June. During this period, our main task was to develop a product concept that our investors would believe in and continue funding 💰. This wasn't about testing the market yet - it was about defining what we wanted to build based on our expertise in video technology.\n\nWe started with broad exploration across B2B and B2C segments 🔍. The first month focused on high-level analysis to understand different potential directions, considering our team's expertise and investor interests. By month two, we had narrowed our focus to B2C, exploring areas like video reviews, interactive videos, and content monetization.\n\nIn months three and four, we scored our findings, developed specific ideas, and conducted preliminary surveys across about ten countries 📊. These weren't comprehensive market studies but rather initial validation of potential problems our product could solve.\n\nThroughout this process, we had regular meetings with investors - not just at the end of the five months 🤝. These biweekly or triweekly meetings helped us iterate and focus on directions that showed promise.\n\nOnly after selecting our product concept did we move to the second stage - detailed market research to determine where to launch 🎯. This second stage also took about five months, during which we built more sophisticated models based on reliable data and began working with analysts to develop our business approach.",
+      "signature": {
+        "name": "Andrew Luchkin",
+        "title": "Project Manager & Researcher",
+        "company": "getstage"
+      },
+      "highlight": {
+        "title": "Break Big Projects Into Small Steps",
+        "description": "Alexey didn't try to figure out everything at once. Instead, he broke the huge project into smaller pieces over 10 months total - 5 months to decide what to build, then 5 more months to decide where to sell it. He also met with his investors regularly instead of waiting until the very end to show them what he found. It's like doing a school project by working on it a little bit each week and checking with your teacher regularly, instead of trying to do everything the night before it's due!"
+      }
+    },
+    {
+      "id": "3",
+      "date": "2 years ago",
+      "avatar": "getstage",
+      "subject": "Team Structure & Development",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "optimize team building strategies",
+        "link": "getstage.com/team-development"
+      },
+      "body": "Your inquiry about our team composition and development approach is quite timely. Our team structure evolved significantly throughout the project phases 👥.\n\nWhen we started, we immediately hired developers and researchers, even before finalizing our market selection 💻. This might seem counterintuitive, but we needed to begin building infrastructure that would eventually support our platform. Some key technical components needed to be developed from scratch since no suitable solutions existed in the market.\n\nI joined early as a project manager/researcher, brought on because of my experience with case studies and market analysis 📊. Initially, there was no dedicated research or analytics team - I handled those responsibilities based on my previous experience launching new directions.\n\nDuring our second stage, we added analysts to help build our business model using the data we'd collected 📈. We gathered extensive information by parsing social networks and conducting quantitative surveys to understand metrics like average broadcast length and preferred monetization models.\n\nDevelopment continued in parallel with our research 🔄. Rather than create a minimal viable product (MVP), we aimed for what we called a Minimal Lovable Product (MLP) - something polished enough to avoid negative first impressions. This approach required more initial development time but would potentially yield better feedback.\n\nWe eventually built out a complete product for iOS, Android, and web platforms before our test launch 📱.",
+      "signature": {
+        "name": "Andrew Luchkin",
+        "title": "Project Manager & Researcher",
+        "company": "getstage"
+      },
+      "highlight": {
+        "title": "Build While You Research, Don't Wait",
+        "description": "Alexey did something smart - he started building the app while still researching which country to launch in. Most people think you should finish all your research first, then start building, but he realized some technical work could happen at the same time. He also decided to make a 'Minimal Lovable Product' instead of a basic version, because first impressions matter a lot. It's like starting to practice your presentation while still researching your topic - you can work on both things at once to save time."
+      }
+    },
+    {
+      "id": "4",
+      "date": "2 years ago",
+      "avatar": "getstage",
+      "subject": "Market Entry Strategy",
+      "greeting": "Greetings!",
+      "cta": {
+        "message": "develop market entry plans",
+        "link": "getstage.com/market-entry"
+      },
+      "body": "You wondered about our market entry approach and partner selection process - this was indeed a critical part of our strategy 🎯.\n\nAfter selecting Brazil as our target market during the second project stage, we developed a detailed business model specifically for this region 🇧🇷. This included identifying potential partners, understanding payment systems, and planning our integration approach.\n\nFor payment processing, we evaluated various gateways based on their commission structures, content policies (particularly around erotic content), and ease of integration 💳. We chose partners that are aligned with our needs and offer the fastest implementation path.\n\nAt this early stage, we weren't yet focused on marketing partnerships or influencer relationships 📱. Our plan was to have a Brazilian team in place by the following summer, before our limited audience launch, which would help us develop creative production and marketing strategies appropriate for the local market.\n\nOur technical infrastructure decisions focused primarily on hosting solutions, as we needed reliable services for our video platform 🖥️. The third stage of our project involved testing specific features for the Brazilian market and establishing relationships with the partners we'd identified.\n\nBy the end of the second stage, we had finalized our market selection, business model, integration plans, and had a clear understanding of what needed to be done to launch successfully in Brazil ✅.",
+      "signature": {
+        "name": "Andrew Luchkin",
+        "title": "Project Manager & Researcher",
+        "company": "getstage"
+      },
+      "highlight": {
+        "title": "Plan All the Details Before You Launch",
+        "description": "Alexey didn't just pick Brazil and start building immediately. He made a detailed plan for how to actually operate there - which payment systems to use, what partners to work with, and how to handle technical things like hosting videos. He even thought about content policies for different types of videos. It's like planning a school trip by figuring out transportation, meals, activities, and emergency contacts before you go, not just picking a destination and hoping everything works out when you get there."
+      }
+    },
+    {
+      "id": "5",
+      "date": "2 years ago",
+      "avatar": "getstage",
+      "subject": "Test Launch Planning",
+      "greeting": "Hello there,",
+      "cta": {
+        "message": "master test launch strategies",
+        "link": "getstage.com/test-launch"
+      },
+      "body": "I understand you're interested in how we structured our test launch before full market entry. After completing our five-month market research phase, we moved into the third stage of development, which culminated in our test launch to a limited audience 🧪.\n\nThe third stage involved completing our product development while preparing for a controlled release. We aimed to launch to approximately 1,000 users for a four-month test period from September to December ⏰. This lengthy test period was intentional - we needed sufficient time for users to fully experience the platform, including activities that naturally take several weeks, such as setting up custom domains or building an audience.\n\nWorking with an agency, we planned to onboard users gradually: 150 people in the first two weeks of September, another 150 in the second half of September, and so on 📈. This staggered approach allowed us to manage the process effectively and gather feedback at different stages of the user journey.\n\nThe goal wasn't just product testing - we wanted to build a pool of ambassadors who could potentially continue collaborating with us after the full launch 🤝. During this period, we conducted over 80 interviews and multiple surveys to refine our understanding of user needs.\n\nFollowing this test phase, we allocated December and January for product refinements based on user feedback 🔧. Our full launch was scheduled for February to coincide with Carnival - a strategic timing decision for the Brazilian market 🎭.",
+      "signature": {
+        "name": "Andrew Luchkin",
+        "title": "Project Manager & Researcher",
+        "company": "getstage"
+      },
+      "highlight": {
+        "title": "Test With Real People Before the Big Launch",
+        "description": "Instead of launching to everyone at once, Alexey decided to test with just 1,000 people first for 4 whole months. He added users slowly - 150 every two weeks - so he could handle any problems that came up. He also did 80 interviews to really understand what users thought! Plus, he timed the big launch for February during Carnival, when Brazilians are celebrating. It's like testing your lemonade recipe with your neighbors before setting up a stand at the school fair - you want to make sure people love it before you go big!"
+      }
+    },
+    {
+      "id": "6",
+      "date": "2 years ago",
+      "avatar": "getstage",
+      "subject": "Agency Selection & Events",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "optimize agency partnerships",
+        "link": "getstage.com/agency-strategy"
+      },
+      "body": "You inquired about our approach to selecting agencies and organizing events during our launch phases – here I elaborate on this important aspect of our strategy 🎪.\n\nWhen selecting our Brazilian agency partners, our options were quite limited. For our initial test launch, we went with the only agency we found willing to take on our specific tasks ⚠️. This wasn't ideal as it created risk without a clear backup plan, but we proceeded given our timeline constraints.\n\nFor our events strategy, we held regular gatherings for our test users 🎉. These events followed a structured format: first featuring an influencer-expert speaking on a topic related to our product (such as content monetization), followed by a product presentation, and concluding with an open Q&A session and networking time.\n\nThese events served multiple purposes: confirming our legitimacy as a company, motivating active users, generating social media content, and building our brand presence 📱. We typically invited the most engaged users, with around 50 attendees per event being sufficient for our objectives.\n\nWe held monthly events during the test phase, all in São Paulo 🇧🇷. Each event cost approximately $5,000-10,000, depending on the number of attendees. The budget covered venue rental, refreshments, influencer fees, and invitations. Our agency handled all logistics and follow-up, maintaining relationships with attendees to encourage continued platform usage.\n\nFor video production, we created short FAQ videos for our landing page and product explanations, with budgets of a few thousand dollars monthly for these content pieces 🎬.",
+      "signature": {
+        "name": "Andrew Luchkin",
+        "title": "Project Manager & Researcher",
+        "company": "getstage"
+      },
+      "highlight": {
+        "title": "Don't Put All Your Eggs in One Basket",
+        "description": "Alexey made a mistake by choosing the only agency that would work with them, without having a backup plan. But he did something smart with events - he organized monthly parties in São Paulo where influencers would speak, then he'd show his product, and people could ask questions and network. Each party cost $5,000-10,000 but helped prove his company was real and kept users excited. It's like only having one friend to help with your school project (risky!) but throwing great study parties to keep everyone motivated (smart!)."
+      }
+    },
+    {
+      "id": "7",
+      "date": "2 years ago",
+      "avatar": "getstage",
+      "subject": "Marketing Challenges & Pivot",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "overcome marketing obstacles",
+        "link": "getstage.com/marketing-challenges"
+      },
+      "body": "Regarding your question about our marketing challenges and how we adapted our strategy - we indeed faced significant hurdles that required us to pivot our approach 🔄.\n\nOur initial plan targeted a February 1st launch, but delays with the landing page and marketing distribution issues forced us to postpone until February 15th 📅. We had contracted a Brazilian marketing agency to handle creative materials, banners, and the landing page built on Webflow. We chose an external agency rather than using our in-house designers because we wanted local expertise for proper localization and cultural nuances.\n\nUnfortunately, when we finally launched, our Brazilian marketing team struggled to quickly gain traction 📉. The advertising campaigns were poorly optimized, and despite our attempts to help them improve, they repeatedly failed to implement our suggestions. After multiple unsuccessful attempts to salvage the situation, we realized we needed to take direct control.\n\nBy April, we began searching for marketing agencies capable of launching campaigns in Brazil 🔍. This was presented as a \"research team\" initiative to find specific connections before handing off to larger-scale marketing efforts. We ultimately engaged two different agencies, splitting a $10,000 monthly budget between them. Interestingly, we found that running parallel campaigns through different agencies didn't cause competition issues - the audience segmentation worked effectively.\n\nThese efforts helped us correct the course, but we still missed our May 1st targets because the previous ineffective Brazilian campaigns had trained the algorithms on irrelevant audiences 🤖. By June, we decided to completely halt all marketing, reconfigure our approach, and restart from scratch in July 🔄.",
+      "signature": {
+        "name": "Andrew Luchkin",
+        "title": "Project Manager & Researcher",
+        "company": "getstage"
+      },
+      "highlight": {
+        "title": "Sometimes You Have to Start Over Completely",
+        "description": "Alexey's first Brazilian marketing agency was terrible - they couldn't follow instructions and kept messing up the ads! So he hired two different agencies and split his budget between them (which worked better). But the damage was already done - the advertising algorithms had learned from the bad campaigns and were showing ads to the wrong people. So in June, he made a brave decision: stop everything and start completely over in July. Sometimes when something is broken, it's better to start fresh than to keep trying to fix it."
+      }
+    },
+    {
+      "id": "8",
+      "date": "2 years ago",
+      "avatar": "getstage",
+      "subject": "Technical Implementation & Team Changes",
+      "greeting": "Greetings!",
+      "cta": {
+        "message": "streamline technical operations",
+        "link": "getstage.com/technical-strategy"
+      },
+      "body": "You were interested in our technical implementation choices and team adjustments during our expansion - here's how that evolved 🛠️.\n\nFor our landing page, we selected Webflow as our platform, primarily for its flexibility and ease of maintenance 💻. This choice allowed our designers to make quick changes without requiring significant development resources. The Brazilian agency we hired had a specialist who built everything on Webflow, which simplified the process.\n\nPrior to this, we only had a basic HR-focused website that briefly explained who we were - essentially a technical necessity rather than a marketing tool 📝. The new landing page was developed specifically for the Brazilian market launch.\n\nThroughout this process, we carefully considered our team structure. After the May 1st milestone when we didn't reach our targets, we actually downsized rather than expanded 📉. The Brazilian marketing director was let go for failing to meet commitments. We continued working through agencies until November when we finally hired a full-time performance manager, as our growing marketing budgets made this more cost-effective than continuing with agency fees.\n\nOur technical solutions extended beyond the website 🔍. We tested numerous marketing channels including Meta, Google, TikTok, Bing, and LinkedIn to identify the most effective platforms for our audience. This broad approach allowed us to gather data across multiple channels without requiring massive budgets for each test.\n\nBy August, we had significantly improved our cost metrics for paying customers, bringing them to the level we had originally projected for February 📈. This was our first clear signal that we could successfully scale up our operations.",
+      "signature": {
+        "name": "Andrew Luchkin",
+        "title": "Project Manager & Researcher",
+        "company": "getstage"
+      },
+      "highlight": {
+        "title": "Sometimes Firing People Helps More Than Hiring",
+        "description": "When Alexey's team missed their targets in May, instead of hiring more people to help, he actually fired the Brazilian marketing director who wasn't doing a good job! He chose Webflow for his website because designers could change things quickly without needing programmers. He also tested ads on lots of different platforms (Meta, Google, TikTok, Bing, LinkedIn) with small budgets to see what worked best. By August, he finally got the costs down to where they should have been in February. Sometimes less is more!"
+      }
+    },
+    {
+      "id": "9",
+      "date": "2 years ago",
+      "avatar": "getstage",
+      "subject": "Measuring Success & Adjusting Targets",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "optimize success metrics",
+        "link": "getstage.com/success-measurement"
+      },
+      "body": "I wanted to address your question about how we measured success and adjusted our expectations throughout our expansion journey 📊.\n\nBy the end of our fifth stage (February-May), our primary metrics were subscription numbers and revenue 💰. We had specific targets for both total subscribers and the percentage of users who would be paying customers by May 1st. We aimed for about 30% of our user base to be paying for at least two months by that milestone date.\n\nWhen we didn't reach these targets due to marketing execution problems, we had to reassess 🔄. After taking over the marketing efforts ourselves, we presented a revised plan with more realistic figures, reducing our targets by approximately 80%. This adjustment came after discovering that our total addressable market in the Brazilian influencer space was actually much smaller than initially estimated - only about 200,000-300,000 users who created chargeable content that matched our target audience.\n\nOur sixth stage targets for September 1st were similarly focused on subscription and revenue metrics, but with these more realistic expectations 🎯. However, we encountered another challenge: the advertising algorithms had been trained on irrelevant traffic from previous campaigns, making our conversion costs artificially low but actually bringing in the wrong users.\n\nWhen we restarted our marketing in July, we saw that our true customer acquisition costs were much higher than previously calculated 📈. If only 10% of your traffic is relevant, your actual conversion cost is 10 times what you're measuring. This realization led us to completely reset our marketing approach.\n\nBy late July, we finally began seeing promising results with paying customers, bringing our acquisition costs down to levels we had originally projected for February 🎉. While we still didn't meet our September targets, these improvements gave us confidence that we were finally on the right track.",
+      "signature": {
+        "name": "Andrew Luchkin",
+        "title": "Project Manager & Researcher",
+        "company": "getstage"
+      },
+      "highlight": {
+        "title": "Bad Data Makes Everything Look Wrong",
+        "description": "Alexey learned a really important lesson about measuring success: if your ads are bringing in the wrong people, all your numbers will be wrong! He thought his costs were low, but it was only because 90% of the people clicking his ads weren't actually interested in his product. When only 1 out of 10 visitors is real, it means everything costs 10 times more than you think. He had to cut his goals by 80% when he realized the Brazilian influencer market was much smaller than expected. Sometimes being realistic is better than being optimistic!"
+      }
+    },
+    {
+      "id": "10",
+      "date": "2 years ago",
+      "avatar": "getstage",
+      "subject": "Key Lessons from International Expansion",
+      "greeting": "Hi!",
+      "cta": {
+        "message": "apply expansion insights",
+        "link": "getstage.com/expansion-lessons"
+      },
+      "body": "You were interested in understanding the broader lessons from our international expansion experience, particularly around agency relationships and market entry strategy 💡.\n\nOne of our key mistakes was underestimating the importance of having direct control over critical functions like performance marketing ⚠️. While agencies can be valuable for creative work and specialized tasks, core user acquisition should ideally be managed in-house or with very close oversight.\n\nThe Brazilian market taught us that local expertise is essential, but local execution capabilities can vary dramatically 🇧🇷. Having a Brazilian team was crucial for understanding cultural nuances, building credibility, and managing local partnerships. However, we should have maintained more direct control over technical marketing functions.\n\nOur agency selection process was also flawed 🤔. For the initial user acquisition agency, we essentially went with the only option we could find that was willing to take on our specific requirements. This lack of alternatives left us vulnerable when performance didn't meet expectations.\n\nThe staged approach to funding and development worked well overall 📈. Regular investor meetings kept us focused and accountable, while the iterative budget process allowed us to adjust based on learnings. However, we probably should have been more aggressive about testing marketing approaches earlier in the process.\n\nLooking back, the combination of strong technical product development with systematic market research created a solid foundation 🏗️. The execution challenges were primarily in areas where we relied too heavily on external partners without sufficient oversight or alternative options.\n\nThese experiences shaped our understanding of international market entry and the balance between local expertise and centralized control over critical business functions ⚖️.",
+      "signature": {
+        "name": "Andrew Luchkin",
+        "title": "Project Manager & Researcher",
+        "company": "getstage"
+      },
+      "highlight": {
+        "title": "Keep Control of the Most Important Stuff",
+        "description": "Alexey learned that while it's good to hire local people who understand the culture, you shouldn't let them control the most important parts of your business like advertising and getting customers. Local teams are great for creative work and understanding what people like, but the core technical stuff should stay under your control. He also made the mistake of only having one option for agencies - when they didn't work out, he had no backup plan. It's like letting your friend plan your birthday party (they know what you like) but you should still control the guest list and budget!"
       }
     }
   ]

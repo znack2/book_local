@@ -1,0 +1,244 @@
+import React, { useState } from 'react';
+import { Filter, Lock, Check } from "lucide-react";
+import { Badge } from "@/components/ui/badge";
+import { usePromoCode } from "@/contexts/PromoCodeContext";
+import { useToast } from "@/hooks/use-toast";
+
+const PromoCodeSection = ({ 
+  showFilters, 
+  setShowFilters, 
+  showPromocode, 
+  setShowPromocode,
+  selectedFilter, 
+  setSelectedFilter, 
+  repeatedTags,
+  galleryData 
+}) => {
+  const [promocodeInput, setPromocodeInput] = useState('');
+  const [promocodeError, setPromocodeError] = useState('');
+  const { unlockChapter } = usePromoCode();
+  const { toast } = useToast();
+
+  const tagEmojiMap = {
+    'USA': '🇺🇸',
+    'UK': '🇬🇧', 
+    'India': '🇮🇳',
+    'Kazakhstan': '🇰🇿',
+    'Brasil': '🇧🇷'
+  };
+
+  const getTagEmoji = (tag) => {
+    return tagEmojiMap[tag] || '🌍';
+  };
+
+  const handlePromocodeSubmit = async (e) => {
+    e.preventDefault();
+    setPromocodeError('');
+    
+    if (!promocodeInput.trim()) {
+      setPromocodeError('Please enter a promocode');
+      return;
+    }
+    
+    const result = await unlockChapter(promocodeInput);
+    
+    if (result.success) {
+      toast({
+        title: "Success! 🎉",
+        description: result.message || "Promocode applied successfully!",
+      });
+      setPromocodeInput('');
+      setPromocodeError('');
+    } else {
+      setPromocodeError(result.message || 'Invalid promocode. Please try again.');
+    }
+  };
+
+  return (
+    <div className="bg-amber-50 border-b border-amber-200/30 flex-shrink-0">
+      {/* Mobile Toggle Buttons */}
+      <div className="px-6 py-3 md:hidden flex gap-3">
+        <button
+          onClick={() => {
+            setShowFilters(!showFilters);
+            setShowPromocode(false);
+          }}
+          className={`flex items-center gap-2 px-3 py-2 rounded-md text-xs font-medium transition-colors ${
+            showFilters ? 'bg-blue-500 text-white' : 'bg-white text-amber-800 border border-amber-300'
+          }`}
+        >
+          <Filter className="w-3 h-3" />
+          Filter
+        </button>
+        <button
+          onClick={() => {
+            setShowPromocode(!showPromocode);
+            setShowFilters(false);
+          }}
+          className={`flex items-center gap-2 px-3 py-2 rounded-md text-xs font-medium transition-colors ${
+            showPromocode ? 'bg-blue-500 text-white' : 'bg-white text-amber-800 border border-amber-300'
+          }`}
+        >
+          <Lock className="w-3 h-3" />
+          Promocode
+        </button>
+      </div>
+      
+      {/* Desktop Layout */}
+      <div className="hidden md:flex md:items-start md:gap-4 px-6 py-3">
+        {/* Filter section - Left half */}
+        <div className="flex-1 w-1/2">
+          <div className="flex items-center gap-2 text-amber-800 mb-2">
+            <Filter className="w-3 h-3" />
+            <span className="text-xs font-medium leading-tight">Filter by category:</span>
+          </div>
+          <div className="flex flex-wrap gap-1">
+            <Badge
+              variant={selectedFilter === "All" ? "default" : "outline"}
+              className={`cursor-pointer ${
+                selectedFilter === "All" 
+                  ? "text-white hover:bg-blue-700" 
+                  : "text-gray-600 hover:bg-gray-50"
+              } border-gray-200 text-[10px] leading-tight`}
+              style={{
+                background: selectedFilter === "All" ? '#3b82f6' : 'rgba(255, 255, 255, 0.9)'
+              }}
+              onClick={() => setSelectedFilter("All")}
+            >
+              All
+            </Badge>
+            {repeatedTags.map((tag) => (
+              <Badge
+                key={tag}
+                variant={selectedFilter === tag ? "default" : "outline"}
+                className={`cursor-pointer ${
+                  selectedFilter === tag 
+                    ? "text-white hover:bg-blue-700" 
+                    : "text-gray-600 hover:bg-gray-50"
+                } border-gray-200 text-[10px] leading-tight`}
+                style={{
+                  background: selectedFilter === tag ? '#3b82f6' : 'rgba(255, 255, 255, 0.9)'
+                }}
+                onClick={() => setSelectedFilter(tag)}
+              >
+                <span className="w-2.5 h-2.5 rounded-full bg-white/20 flex items-center justify-center text-[8px] mr-0.5">
+                  {getTagEmoji(tag)}
+                </span>
+                {tag}
+              </Badge>
+            ))}
+          </div>
+        </div>
+        
+        {/* Promocode section - Right half */}
+        <div className="flex-1 w-1/2">
+          <div className="flex items-center gap-2 text-amber-800 mb-2">
+            <Lock className="w-3 h-3" />
+            <span className="text-xs leading-tight">{galleryData.limitedAccessMessage}</span>
+          </div>
+          <form onSubmit={handlePromocodeSubmit} className="flex items-center gap-2">
+            <label className="text-xs font-medium text-amber-900 whitespace-nowrap leading-tight">
+              Code:
+            </label>
+            <input
+              type="text"
+              value={promocodeInput}
+              onChange={(e) => setPromocodeInput(e.target.value)}
+              placeholder="Enter your code"
+              className="flex-1 px-2 py-1.5 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-xs leading-tight"
+              maxLength={16}
+            />
+            <button
+              type="submit"
+              className="px-3 py-1.5 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors text-xs leading-tight"
+            >
+              Apply
+            </button>
+          </form>
+          {promocodeError && (
+            <p className="text-red-500 text-xs mt-1 leading-tight">{promocodeError}</p>
+          )}
+        </div>
+      </div>
+      
+      {/* Mobile Filter Dropdown */}
+      {showFilters && (
+        <div className="px-6 pb-3 md:hidden">
+          <div className="flex flex-wrap gap-1">
+            <Badge
+              variant={selectedFilter === "All" ? "default" : "outline"}
+              className={`cursor-pointer ${
+                selectedFilter === "All" 
+                  ? "text-white hover:bg-blue-700" 
+                  : "text-gray-600 hover:bg-gray-50"
+              } border-gray-200 text-xs`}
+              style={{
+                background: selectedFilter === "All" ? '#3b82f6' : 'rgba(255, 255, 255, 0.9)'
+              }}
+              onClick={() => {
+                setSelectedFilter("All");
+                setShowFilters(false);
+              }}
+            >
+              All
+            </Badge>
+            {repeatedTags.map((tag) => (
+              <Badge
+                key={tag}
+                variant={selectedFilter === tag ? "default" : "outline"}
+                className={`cursor-pointer ${
+                  selectedFilter === tag 
+                    ? "text-white hover:bg-blue-700" 
+                    : "text-gray-600 hover:bg-gray-50"
+                } border-gray-200 text-xs`}
+                style={{
+                  background: selectedFilter === tag ? '#3b82f6' : 'rgba(255, 255, 255, 0.9)'
+                }}
+                onClick={() => {
+                  setSelectedFilter(tag);
+                  setShowFilters(false);
+                }}
+              >
+                <span className="w-3 h-3 rounded-full bg-white/20 flex items-center justify-center text-[10px] mr-1">
+                  {getTagEmoji(tag)}
+                </span>
+                {tag}
+              </Badge>
+            ))}
+          </div>
+        </div>
+      )}
+      
+      {/* Mobile Promocode Dropdown */}
+      {showPromocode && (
+        <div className="px-6 pb-3 md:hidden">
+          <div className="flex items-center gap-2 text-amber-800 mb-3">
+            <Lock className="w-4 h-4" />
+            <span className="text-xs">{galleryData.limitedAccessMessage}</span>
+          </div>
+          <form onSubmit={handlePromocodeSubmit} className="flex items-center gap-2">
+            <input
+              type="text"
+              value={promocodeInput}
+              onChange={(e) => setPromocodeInput(e.target.value)}
+              placeholder="Enter code"
+              className="flex-1 px-2 py-1.5 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-xs"
+              maxLength={16}
+            />
+            <button
+              type="submit"
+              className="px-2 py-1.5 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors text-xs"
+            >
+              <Check className="w-3 h-3" />
+            </button>
+          </form>
+          {promocodeError && (
+            <p className="text-red-500 text-xs mt-2">{promocodeError}</p>
+          )}
+        </div>
+      )}
+    </div>
+  );
+};
+
+export default PromoCodeSection;

@@ -1,41 +1,275 @@
-
 {
   "emailColumn": {
-    "title": "Email Templates - Chapter 13",
+    "title": "Flowwow: Flower Delivery to Global Marketplace Pioneer",
     "authorInfo": {
       "title": "About the Author",
-      "description": "Dr. Sarah Kim specializes in data analytics and business intelligence with focus on predictive modeling and decision support systems."
+      "description": "Andrey Makeev is the Co-Founder of Flowwow, a global gifting marketplace that connects customers with 14,000+ local brands across 1,000+ cities in 30+ countries. Starting as a flower delivery service in 2014, Flowwow has evolved into a comprehensive marketplace offering flowers, gifts, pastry, and artisan products. The company relocated its headquarters to Budapest in 2022 and continues expanding internationally with offices in Dubai, focusing on MENA region growth while maintaining operations across Europe, Americas, and CIS countries."
     },
     "materialsUsed": [
-      "Provost, F. (2013). Data Science for Business. O'Reilly Media.",
-      "Davenport, T. (2017). Competing on Analytics. Harvard Business Press.",
-      "Kimball, R. (2013). The Data Warehouse Toolkit. Wiley.",
-      "MIT Technology Review (2023). \"AI in Business Decision Making\" - Data Science Quarterly."
+      "Global Flower Delivery Service Market Report 2025. Market projected to grow from USD 7.25 billion in 2024 to USD 12.33 billion by 2032 (CAGR 6.86%)",
+      "Brazil E-commerce Market Analysis 2025. Market expected to reach USD 62.87 billion in 2025, growing at CAGR 18.91% to USD 149.46 billion by 2030",
+      "Global Cut Flowers Market Report 2025. Market valued at USD 31.1 billion in 2024, expected to reach USD 56.4 billion by 2034 (CAGR 6.3%)",
+      "Brazil Marketplace Dominance Study 2024. 86% of Brazilian consumers prefer marketplaces, with 71% buying exclusively on marketplaces in 2021",
+      "Floriculture Market Forecast 2025-2032. Global market showing continuous growth with North America CAGR 7.6% and Europe CAGR 8.3%"
     ],
     "keyTakeaways": {
       "title": "Key Takeaways",
-      "description": "Data-driven decision making requires quality data, proper analysis tools, and organizational commitment to evidence-based strategies."
+      "description": "Flowwow's journey illustrates critical lessons for marketplace international expansion: 1) Global ambitions require patient, staged execution rather than rushed moves, 2) Market size alone doesn't determine success - customer acquisition costs and local competition matter more, 3) External shocks can become expansion catalysts when you have the right team and infrastructure, 4) The 'chicken-and-egg' problem (stores vs customers) can be solved by leveraging expatriate communities initially, 5) Corporate structure evolution is essential - moving from entrepreneurial chaos to structured teams with dedicated resources, and 6) Testing markets through simple landing pages and traffic campaigns provides invaluable insights at low cost."
     }
   },
   "emails": [
     {
       "id": "1",
-      "sender": "Sarah Kim",
-      "date": "2 days ago",
-      "avatar": "https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/chapter-3.png",
-      "subject": "Data Analytics Mastery: Turn Data into Competitive Advantage",
-      "preview": "Dear Data Professional, transforming raw data into actionable insights is the key to staying competitive in today's market. Discover advanced analytics techniques...",
-      "signature": {
-        "name": "Sarah Kim",
-        "title": "Data Analytics Director",
-        "company": "InsightDriven Analytics"
+      "date": "2 years ago",
+      "avatar": "flowwow",
+      "subject": "Global Vision and Initial European Exploration",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "explore global marketplace solutions",
+        "link": "https://flowwow.com"
       },
-      "meta": "Template • Analytics",
-      "likes": 81,
+      "body": "You mentioned wanting to understand our early international thinking and first steps abroad. Let me walk you through how our global ambitions began.\n\nFrom the very beginning in 2014, we had this vision that we weren't just building a local company - we were building something bigger. The idea was always there: dominate the home market in a year or two, and then move straight to Europe and America. That was the mandatory program back then. Everything on the Internet was already quite big, so this global thinking was baked in from day one. 🌍💭\n\nBut reality moved slower than ambition. It wasn't until around 2017 that we took our first real step. I opened what's called e-residency in Estonia 🇪🇪 to set up payment processing, and we started some movement toward the UK market 🇬🇧. We thought Britain was our entry point into Europe.\n\nWe localized the product, translated everything, and opened acquiring through an Estonian legal entity. There were some orders, but they weren't substantial. At that time, we didn't have normal resources. We were operating in this light mode where orders came mainly from rich country mates ordering for their relatives, friends, daughters and sons living in London. 💐🏠\n\nThe marketplace business model seemed like something you could open anywhere - it's not tied to physical locations. And it seemed logical that the earlier you start the easier and better it would be since it's such a long process. But honestly, it ended up with nothing substantial. 📈❌\n\nThen there was another move in the USA 🇺🇸. Slava went to the United States, and he keeps telling this story about how when we started making some progress, we hired a girl to handle America. Picture this: a team of 40 people dealing with 2% of world GDP (home market) and one girl dealing with 30% of world GDP. Naturally, it didn't really amount to much either. But we gained some experience. 👥⚖️\n\nThis early period taught us that having global ambitions and actually executing internationally are very different things. The desire was always there - you want to do business, you want to make world history, work in other countries. But translating that desire into successful operations required much more than we initially understood. 🎯💡",
+      "signature": {
+        "name": "Andrey Makeev",
+        "title": "Co-Founder",
+        "company": "Flowwow"
+      },
       "highlight": {
-        "title": "Advanced Analytics Framework",
-        "description": "Comprehensive data strategy with predictive modeling and real-time business intelligence dashboards"
+        "title": "Simple Landing Page Tests Beat Expensive Market Research",
+        "description": "Instead of paying for expensive market research reports, Dmitry created simple landing pages with Google Translate Portuguese and ran ads to test Brazilian interest. This gave him real data about customer demand at a fraction of the cost. Smart approach: test real behavior, not theoretical reports."
+      }
+    },
+    {
+      "id": "2",
+      "date": "2 years ago",
+      "avatar": "flowwow",
+      "subject": "Market Selection and Research Approach",
+      "greeting": "Greetings!",
+      "cta": {
+        "message": "learn about market research strategies",
+        "link": "https://flowwow.com/research"
+      },
+      "body": "You were curious about how we chose our target markets and what analysis went into those decisions. Let me explain our approach to market selection during those early years.\n\nWhy Europe and specifically Britain? The answer was straightforward - those were the biggest markets. The United States was the biggest market globally, and Europe had substantial opportunities, particularly the UK. 🇺🇸🇬🇧📊\n\nOur analysis was pretty basic back then. We looked at open source information - market size data, rankings of the biggest markets. One, two, three, four. We were working purely in flowers at that point, specifically flower delivery and sales, so we researched that vertical specifically. 🌸📈\n\nWere we analyzing global markets or specifically for our business model? We focused on the market we were working in - flowers and delivery. But our approach was quite childish: \"here is a big market; we are going to go there now.\" We weren't looking at our own resources or capabilities very deeply. 🎯😅\n\nOther regions like China 🇨🇳, Asia 🌏, Latin America 🌎, and Africa 🌍 weren't even considered initially. It's actually a very different way of consuming there. Latin America at that point wasn't clear what it represented - everything seemed inflationary and uncertain. 📉❓\n\nLooking back, I approached it very simplistically. Later it became important to look not only at market size but also at factors like customer acquisition costs. For example, Brazil 🇧🇷 might not be the biggest market for delivering flowers and gifts, but the cost of attracting clients in traditional big markets was prohibitively high. In Brazil, we discovered super cheap traffic and very affordable customer acquisition costs, plus stores were eager to connect. There were problems, sure, but scaling was much easier. 💰⚡\n\nThe lesson here is that market size alone doesn't determine opportunity. Sometimes a smaller market with better economics and less competition provides a much better foundation for growth than trying to compete in oversaturated large markets. 🏆💡",
+      "signature": {
+        "name": "Andrey Makeev",
+        "title": "Co-Founder",
+        "company": "Flowwow"
+      },
+      "highlight": {
+        "title": "Big Markets Aren't Always Better Markets",
+        "description": "Flowwow initially chased the biggest markets (US, UK) but learned that smaller markets like Brazil offered much better economics. Cheap customer acquisition costs and eager local partners beat huge market size with expensive competition. Sometimes the 'obvious' choice isn't the smart choice. Look beyond size to find the real opportunities."
+      }
+    },
+    {
+      "id": "3",
+      "date": "2 years ago",
+      "avatar": "flowwow",
+      "subject": "Early UK Experience and Learning Curve",
+      "greeting": "Hi there!",
+      "cta": {
+        "message": "discover localization insights",
+        "link": "https://flowwow.com/localization"
+      },
+      "body": "You wanted to know more about our actual experience in England and how that first international venture unfolded. Let me share what really happened during those early days.\n\nOur UK experience through Estonia lasted until we got what I call a \"chain letter\" in 2018 or 2019. Estonia basically told all Eastern european companies - to get out. They closed all these e-residences and shut everything down. At that point, we already had some operations in America through a company opened in Belarus, but that wasn't smooth either. 🇪🇪🚫📧\n\nIf everything had stayed fine with Estonia, would we have continued developing Europe and England? Honestly, not necessarily. The cost of customer acquisition was just incredibly high. Even now in the UK, customer acquisition costs are through the roof. The interest rates, the engagement costs - everything is just extremely expensive. 💰📈🇬🇧\n\nThat first English experience - I honestly don't remember all the details because it was so long ago. But we did some minimal advertising, localized the product, and translated everything. The most important result was that we had an English version alongside the local one, though there were plenty of problems. 🔧🌐\n\nIt became even more complex when we tried the USA because we found even more problems. In London, there were lots of people from the CIS, so our localization issues weren't as obvious. In the United States, it became much more complicated because you're dealing with elderly customers who needed different communication methods entirely. 🇺🇸👴👵\n\nThe experience taught us we needed much tighter localization. We learned that success in one market doesn't automatically translate to another, even when they seem similar. The UK experience was like a stepping stone - not successful in itself, but educational for moving forward. 🪜📚\n\nIt didn't really end up being anything substantial, but we figured out how to move forward and what we needed to improve. 💡⚡",
+      "signature": {
+        "name": "Andrey Makeev",
+        "title": "Co-Founder",
+        "company": "Flowwow"
+      },
+      "highlight": {
+        "title": "Failed Markets Can Still Teach You Valuable Lessons",
+        "description": "Even though Flowwow's UK expansion didn't work out, they learned crucial lessons about localization and customer acquisition costs. Sometimes 'failure' is actually market research - you discover what doesn't work and what you need to fix. Don't waste failed experiments; extract every lesson you can from them."
+      }
+    },
+    {
+      "id": "4",
+      "date": "2 years ago",
+      "avatar": "flowwow",
+      "subject": "Strategy Evolution and Operational Challenges",
+      "greeting": "Hello again!",
+      "cta": {
+        "message": "explore operational strategies",
+        "link": "https://flowwow.com/operations"
+      },
+      "body": "You inquired about our overall strategy and whether it changed as we gained experience across different markets. Let me explain how our approach evolved.\n\nAt the beginning, we didn't really have much of a strategy beyond the basics. We'd bring in partners, drive traffic to customers, and promote products. It's as simple as that - no super sophisticated strategies. 🎯📋\n\nThis approach remained fundamentally the same across markets, but the execution became more complex. The basic logic is straightforward: to land customers, you need people to see merchandise and actually be able to fulfill orders. To have goods appear, you need stores. So you get stores to place goods, then customers start buying, and you work on improving service quality along the way. 🏪👥🛒\n\nIt sounds simple, but there's a huge chicken-and-egg problem. Stores have to believe in you and list products, and then wait for orders. Meanwhile, customers make orders but stores might have forgotten about us or lost track of the order. This creates a complicated process where the core concept is the same, but execution is challenging. 🐔🥚❓\n\nWhen we went into Brazil 🇧🇷, we added something new to this basic approach - we started running traffic tests. We created simple landing pages, like business cards, ran traffic to those pages and counted requests (not payments, just inquiries). We'd divide results by three to get realistic expectations. 📊🧪\n\nThe response in Brazil was overwhelming. Everything was super cheap, people were awesome and engaged, and the demand was real. Though we discovered many requests came from people wanting jobs rather than actual stores, and conversion rates would drop off for various reasons - like store owners being on vacation when orders came in. 🌟💼🏖️\n\nThe fundamental challenge remained consistent across markets: balancing supply and demand while maintaining quality service. But each market required its own tactical adaptations. ⚖️🎯",
+      "signature": {
+        "name": "Andrey Makeev",
+        "title": "Co-Founder",
+        "company": "Flowwow"
+      },
+      "highlight": {
+        "title": "The Chicken-and-Egg Problem Is Real in Marketplaces",
+        "description": "Every marketplace faces this challenge: you need stores to attract customers, but you need customers to attract stores. Flowwow solved this by testing with simple landing pages to prove demand existed before trying to onboard stores. Smart approach: prove one side of the equation first, then use that proof to convince the other side."
+      }
+    },
+    {
+      "id": "5",
+      "date": "2 years ago",
+      "avatar": "flowwow",
+      "subject": "Timeline Management and Goal Setting",
+      "greeting": "Dear colleague,",
+      "cta": {
+        "message": "view timeline strategies",
+        "link": "https://flowwow.com/planning"
+      },
+      "body": "You raised questions about our planning process and how we set deadlines for international expansion. Let me share how we approached timeline management.\n\nWe always had approximate deadlines and staged approaches. I'd divide expansion into phases - not expecting super results immediately, but setting milestone-based goals. Stage one: attract a certain number of stores by a specific date. Stage two: get those stores active and achieve the first successful order fulfillment. Next: reach 10 first orders, then 10 orders per week, then 50 orders per week, then 10 orders per day. 📅🎯📈\n\nWhere did these timelines come from? Honestly, it was a somewhat finger-in-the-sky approach. Just desires and limitations based on what we were observing. If you saw some dynamics and progress, you'd generate reports from that. It was really internal goal-setting rather than rigorous analysis. 👆☁️📊\n\nBut there was an interesting psychological element. When I was in Brazil specifically, I was conflicted about the whole endeavor. A couple of times I thought, \"What the hell am I doing with these windmills? Maybe I don't need this. Maybe I should just live normally without having to prove anything to anyone.\" 🇧🇷😅💭\n\nWhat kept me going was that I had publicly committed to making this work. That public commitment prevented me from dropping everything. And it was actually good, because after about a year of struggling, something amazing happened - it started working. 📢💪✨\n\nThis approach of public commitment and staged milestones worked in Brazil, but the situation with other markets was more complex. We developed two competing approaches within the company: my preference for focusing on one market at a time versus Slava's approach of digging wherever we could, wherever progress was faster. 🎯⚔️🏃‍♂️",
+      "signature": {
+        "name": "Andrey Makeev",
+        "title": "Co-Founder",
+        "company": "Flowwow"
+      },
+      "highlight": {
+        "title": "Public Commitment Prevents You From Quitting Too Early",
+        "description": "When Dmitry felt like giving up on Brazil, his public promise to make it work kept him going. Just when he wanted to quit after a year of struggle, things started working. Lesson: tell people what you're trying to achieve - the accountability will help you push through the hard parts that come before success."
+      }
+    },
+    {
+      "id": "6",
+      "date": "2 years ago",
+      "avatar": "flowwow",
+      "subject": "Resource Allocation and Team Strategy Conflicts",
+      "greeting": "Greetings!",
+      "cta": {
+        "message": "understand team strategies",
+        "link": "https://flowwow.com/teams"
+      },
+      "body": "You were interested in how we managed resources across multiple markets and resolved strategic differences within our team. This became one of our most significant operational challenges.\n\nWe had what I'd call healthy internal competition within the company. There were two distinct approaches competing for resources and attention. 🥊💼\n\nMy approach was sequential focus: concentrate on one market, get it working, and then move to the next one. The principle was to start a process, find the right person to manage it, and then begin the next market. This way, you have all your attention and focus on one thing at a time. 🎯➡️🎯\n\nSlava's approach was opportunistic diversification: dig wherever we can, wherever it's faster, direct attention there. I honestly didn't understand how you could do that initially - it seemed like defocus, which is generally considered bad practice. 🌍⚡🤷‍♂️\n\nBut Slava's approach had interesting logic. When we launched in different countries, our base became expats - essentially our target audience. They started getting advertised across multiple markets. These people were willing to order, knew us, and we didn't need to spend much money to attract them. 🌐👥💰\n\nWe could direct attention to attracting stores and increasing content, and these people would feed the stores with orders. This solved the chicken-and-egg problem beautifully. 🐔🥚✅\n\nHowever, I was concerned this approach had limitations. While it provided quick wins, we weren't learning to attract local audiences. In Brazil 🇧🇷, for example, we work with a market of potentially 100-200 million people. But in other markets, even major cities like Barcelona or Dubai, you're working with maybe 100,000 country mates. Your market becomes limited. 📊⚠️\n\nThis created a fundamental tension: one approach showed quick results but limited scale, while the other required more investment and time but offered much larger potential markets. The local language strategy worked well for immediate results, but we had to eventually learn to attract local audiences to achieve real scale. ⚖️🚀",
+      "signature": {
+        "name": "Andrey Makeev",
+        "title": "Co-Founder",
+        "company": "Flowwow"
+      },
+      "highlight": {
+        "title": "Expatriate Communities Can Solve the Cold Start Problem",
+        "description": "Flowwow discovered that targeting their home country's expats in new markets solved the chicken-and-egg problem. These customers already knew the brand and were willing to order, which gave stores initial sales. Smart hack: use expatriate communities as a bridge while you figure out how to attract local customers."
+      }
+    },
+    {
+      "id": "7",
+      "date": "2 years ago",
+      "avatar": "flowwow",
+      "subject": "Team Structure and Hiring Decisions",
+      "greeting": "Hello!",
+      "cta": {
+        "message": "explore hiring strategies",
+        "link": "https://flowwow.com/hiring"
+      },
+      "body": "You wanted to understand our hiring approach and team development for international markets. Let me explain how we structured our human resources during expansion.\n\nWhen we first tackled England, it wasn't just me - it was the whole team involved. It wasn't really a straight launch, more like localization. We translated everything into English, connected internet acquisition, and made it possible for people from other countries to order from us at home. 🇬🇧👥🌐\n\nFor finding partner stores in England, we had a small team that would reach out through groups and communities. We'd write something like \"we're guys looking to connect\" and managed to get three or four stores connected. Interestingly, at that time we weren't practically engaged in actively recruiting partners - they were finding us organically, which was completely different from today where partner acquisition is a major challenge. 🔍🤝📈\n\nWhen we moved to America 🇺🇸, that's when we hired our first dedicated international person - a girl who had good English and American English skills. She was based in our office, not living in America. We needed someone specifically to deal with bringing in local American partners. 💼🗣️\n\nWhy didn't we single out someone from our existing team instead of hiring separately? Primarily because of language requirements. She needed to handle communication with local partners effectively. 🗣️🎯\n\nBut honestly, she didn't achieve much. Her explanation was always that the product wasn't localized enough. This taught us that localization goes much deeper than simple translation. 🔧❌📚\n\nThe challenge was resource allocation. From a product development perspective, we had to choose: either localize properly for America or focus on other priorities. Slava was saying we needed complete localization, but that meant choosing between different development paths. ⚖️🛤️\n\nWe realized that for effective international expansion, you need dedicated people who understand both the local market and your product deeply. Having someone just translate existing processes isn't enough - they need to be able to adapt the entire customer experience for local preferences and expectations. 🧠🌍💡",
+      "signature": {
+        "name": "Andrey Makeev",
+        "title": "Co-Founder",
+        "company": "Flowwow"
+      },
+      "highlight": {
+        "title": "Language Skills Alone Don't Make Someone a Market Expert",
+        "description": "Flowwow hired someone who spoke good English for their US expansion, but she couldn't deliver results because she didn't understand the local market deeply enough. Speaking the language is just the starting point - you need people who can adapt your entire business model to local preferences and expectations."
+      }
+    },
+    {
+      "id": "8",
+      "date": "2 years ago",
+      "avatar": "flowwow",
+      "subject": "Product Localization Challenges and Strategic Pivots",
+      "greeting": "Hi!",
+      "cta": {
+        "message": "learn about localization challenges",
+        "link": "https://flowwow.com/localization"
+      },
+      "body": "You asked about our product development priorities and how international requirements competed with domestic growth needs. This became a critical decision point for our company.\n\nThe reality was that our American hire lasted about seven months before we realized it wasn't working. During that time, she constantly said the product wasn't localized enough for the US market, and she was probably right. 🇺🇸⏱️❌\n\nBut here's the complexity: proper localization isn't just translation. For the US market, you need different address systems, state indexes, zip codes, and countless other features. It's incredibly complicated to adapt one language and market setup to another. We tried to do it quickly and cheaply, but it turned out to be inadequate. 🗺️🔧💸\n\nWhen the moment came to decide, we faced a strategic choice. In 2019, we were expanding our product range and most of our team was engaged in adding new categories instead of just flowers. It took a full year to expand from one category to multiple categories. During that year, we didn't do any international development at all. 🌸➡️🎁📅\n\nThen 2020 came with the pandemic 🦠. At that moment, we were not only completing our product assortment expansion but also building our own courier system. I saw the risk that if we didn't create quality service and couldn't handle orders properly, we'd be destroyed by someone like Yandex with their logistics capabilities. 🚚⚡\n\nThis was actually the right decision. If we had gone to other countries at that moment without our own logistics and comprehensive business foundation, we would have eventually failed in both our home market and internationally. We wouldn't have had the resources to scale properly. ✅🏗️\n\nThe pandemic taught us that building strong foundations at home is essential before international expansion. We needed to expand our product range and develop our own logistics before we could successfully compete internationally. This allowed us to scale across all categories, not just flowers, which strengthened our position for future international efforts. 💪🌍\n\nThe experience reinforced that product development and localization require dedicated resources and can't be done halfway. Either you commit to doing it properly, or you focus your resources elsewhere. 🎯💯",
+      "signature": {
+        "name": "Andrey Makeev",
+        "title": "Co-Founder",
+        "company": "Flowwow"
+      },
+      "highlight": {
+        "title": "Sometimes You Need to Stop International Expansion to Build Better Foundations",
+        "description": "Flowwow paused international expansion for a full year to expand beyond flowers and build their own logistics. This wasn't giving up - it was getting stronger. When external challenges (pandemic) hit, they were ready because they had solid foundations. Sometimes stepping back is the smartest way to move forward."
+      }
+    },
+    {
+      "id": "9",
+      "date": "2 years ago",
+      "avatar": "flowwow",
+      "subject": "The 2022 Pivot and Strategic Refocus",
+      "greeting": "Dear friend,",
+      "cta": {
+        "message": "discover strategic pivots",
+        "link": "https://flowwow.com/strategy"
+      },
+      "body": "You were curious about what triggered our renewed international expansion efforts after the three-year domestic focus period. Let me explain the circumstances that led to our major strategic pivot.\n\nAfter 2020, we continued growing hard domestically. In 2020, we were focused on being able to handle and cook orders while keeping up with growth. We had good momentum at home and were building our capabilities. 🏠📈💪\n\nBut then came 2022 and the SWO (Special Military Operation). This changed everything dramatically. When you have a company valued at X amount, and then after this event it becomes worth essentially zero, you immediately realize: \"guys, well, that's it, let's go.\" It was a clear sign that we needed to move on. ⚡💰➡️🌍\n\nPlus, the whole team had relocated, which was actually a big advantage. The team lived through this experience and realized we had really great service capabilities, but the local situation had become problematic. We had strong products and proven systems. 👥✈️🛠️\n\nWhy international expansion specifically? The goal of any business is to sell - either to a strategic buyer or through an IPO. When your domestic market becomes uncertain, international expansion becomes the logical path to maintaining company value and growth trajectory. 💼📊🎯\n\nWe had two strategic approaches competing again. One was to have a separate team dealing specifically with one market - like a dedicated Brazilian team working independently. The other was the multi-market opportunistic approach. 🇧🇷👥 vs 🌍⚡\n\nInitially, I was looking at Germany 🇩🇪, thinking it might be our best option. But Germany proved very expensive to launch in, with extensive regulations. You need your own couriers, paying them hourly rates of at least 5 euros, plus other regulatory compliance costs. 💰📋\n\nThen Brazil came into focus. I was actually rooting for the Arab Emirates 🇦🇪 because we already had sales and stores there that were growing even without major focus. But eventually, Brazil became our primary target. 🇧🇷🎯\n\nThe 2022 events forced us to think globally again, but this time with much more operational experience and stronger foundational capabilities than our earlier attempts. 💡🚀",
+      "signature": {
+        "name": "Andrey Makeev",
+        "title": "Co-Founder",
+        "company": "Flowwow"
+      },
+      "highlight": {
+        "title": "Dreams Are Easy, Execution Is Hard",
+        "description": "Flowwow had big global dreams from day one but learned that wanting to be international and actually succeeding internationally are completely different things. Having one person manage 30% of world GDP while 40 people handle 2% shows how easy it is to underestimate what international expansion really takes. Good lesson: start with realistic resources for each market."
+      }
+    },
+    {
+      "id": "10",
+      "date": "2 years ago",
+      "avatar": "flowwow",
+      "subject": "Market Research and Decision-Making Process",
+      "greeting": "Greetings!",
+      "cta": {
+        "message": "view research methodology",
+        "link": "https://flowwow.com/research"
+      },
+      "body": "You inquired about our research methodology and how we evaluated different market opportunities during our renewed expansion phase. Let me detail our approach to market analysis.\n\nI personally did most of the research myself rather than commissioning external studies. 🔬👨‍💼\n\nMy research process was fairly straightforward. I'd look at open sources, examine market size data, check the biggest markets rankings, and assess basic economic indicators. For each potential market, I'd analyze parameters like growing economy trends and general market attractiveness. 📊📈🌍\n\nI was considering several options: Germany 🇩🇪, Netherlands 🇳🇱 (partly because I wanted to live there), Arab Emirates 🇦🇪, and Brazil 🇧🇷. Each had different advantages and challenges.\n\nGermany had significant regulatory hurdles despite being a large market. I calculated that realistically, you'd need about 6 million dollars just to get started properly. Even though we told media that Flowwow was investing 6 million - that was more of a story than reality. 💰📰😅\n\nThe Arab Emirates were attractive because we already had sales and stores there that were performing well without much focused effort. This gave us a foundation to build on. 🏗️✅\n\nBrazil emerged as the winner for several reasons: growing economy, lower customer acquisition costs compared to developed markets, and what appeared to be less saturated competition in our specific vertical. 🏆🇧🇷📊\n\nFor validation, we'd run traffic tests across multiple markets simultaneously. I'd look at the most interesting options, create simple landing pages with Portuguese text (even if just through Google Translate), run advertising, and measure response rates. This gave us concrete data about market receptiveness. 🧪📱📈\n\nThe approach was to find where online stores could be efficient, run targeted campaigns, and gather performance data. Why would you turn to expensive external research when you can test directly and get real market feedback? 💡🎯\n\nThis hands-on testing approach proved much more valuable than theoretical market studies. 🚀✨",
+      "signature": {
+        "name": "Andrey Makeev",
+        "title": "Co-Founder",
+        "company": "Flowwow"
+      },
+      "highlight": {
+        "title": "Crisis Can Force You to Make Moves You Should Have Made Earlier",
+        "description": "The 2022 events pushed Flowwow to go international when their home market became uncertain. But this time they had better products, systems, and experience than in their early attempts. Sometimes external pressure forces you to take actions that turn out to be exactly what you needed - even if the timing wasn't your choice."
+      }
+    },
+    {
+      "id": "11",
+      "date": "2 years ago",
+      "avatar": "flowwow",
+      "subject": "Current Operations and Strategic Focus",
+      "greeting": "Hello there!",
+      "cta": {
+        "message": "explore current operations",
+        "link": "https://flowwow.com/global"
+      },
+      "body": "You wondered about our current international footprint and how we're managing multiple markets today. Let me update you on where we stand now.\n\nWe currently operate across several international markets simultaneously, each developing according to local conditions and our strategic priorities. Our active markets include the Arab Emirates 🇦🇪, Spain 🇪🇸, Turkey 🇹🇷, and Brazil 🇧🇷, plus CIS. 🌍📍\n\nThe evolution has been significant. We've moved from my original quick, frugal, somewhat chaotic approach of doing everything myself to a more structured corporate system. Now we have teams, we give teams resources, and they develop ideas independently. 👨‍💼➡️👥🏢\n\nThese team members say \"we need research on this topic\" and we commission it. Not everyone has analytical thinking capabilities, and people need something concrete to work with. When reports come in, team members discover insights that become actionable for them, even if the conclusions seem obvious to me. 📊🧠💡\n\nIt's a different approach in a corporate environment, especially when you have substantial resources. For example, we work effectively with some experienced team members, but with others who are newer, there's less direct collaboration happening because they don't have time physically to engage in extensive mentoring. ⏰👥📈\n\nThe current model allows for parallel development across markets rather than the sequential approach I originally preferred. We can focus resources where we see the fastest growth while maintaining presence in other markets. 🎯⚡🌐\n\nBrazil continues to be our primary international success story, where we've learned to attract local audiences. In other markets, we still rely partially on the CIS diaspora communities, but we're gradually developing local customer acquisition capabilities. 🇧🇷🏆👥\n\nThe key lesson has been that you need different strategies for different stages of company development. The entrepreneurial, hands-on approach works for early stages, but as you scale, you need more structured, team-based approaches to manage complexity effectively. 🚀📋⚖️",
+      "signature": {
+        "name": "Andrey Makeev",
+        "title": "Co-Founder",
+        "company": "Flowwow"
+      },
+      "highlight": {
+        "title": "Grow from Entrepreneur Mode to Corporate Mode",
+        "description": "Flowwow evolved from Dmitry doing everything himself to having structured teams with their own resources and decision-making power. As companies grow, the scrappy founder approach needs to become systematic team management. Different company stages need different management styles."
+      }
+    },
+    {
+      "id": "12",
+      "date": "2 years ago",
+      "avatar": "flowwow",
+      "subject": "Critical Lessons and Future Outlook",
+      "greeting": "Dear colleagues,",
+      "cta": {
+        "message": "discover key insights",
+        "link": "https://flowwow.com/insights"
+      },
+      "body": "You asked about the most important lessons we've learned from our international expansion journey and how these insights shape our current approach. Let me reflect on our key discoveries.\n\nThe biggest lesson is about the difference between fatal mistakes and learning experiences. I make mistakes in very large numbers, but most aren't fatal - they're discoveries. Every failure opens up opportunities because you learn from it. 🚫➡️💡📚\n\nOne pattern I've noticed: people who win at everything sometimes become complacent and eventually fail because they relax. Constant challenges keep you sharp and motivated. I've been to events thinking we'd win awards we never got, but those experiences taught us valuable lessons about persistence and improvement. 🏆❌➡️💪\n\nThe corporate structure change has been fundamental. We've evolved from everyone doing multiple roles to having specialized teams and clear resource allocation processes. When team members request research or resources, there needs to be justification: what production problem does this solve? This creates accountability and strategic thinking. 🏢👥📊\n\nBut there's a balance. While structured processes are important, the entrepreneurial spirit that drives experimentation and quick adaptation remains crucial. We still need people who can say \"let's try this!\" and execute rapidly, like when we launched offline store franchises just for fun and had 10 stores respond within a week. ⚖️🚀😄\n\nLooking forward, we're focused on four key markets: Arab Emirates 🇦🇪, Spain 🇪🇸, Turkey 🇹🇷, and Brazil 🇧🇷 (plus CIS). This focused approach allows us to develop deep expertise rather than spreading too thin across many markets. 🎯🌍\n\nThe fundamental insight is that international expansion requires both systematic planning and opportunistic adaptation. You need strong foundations - product quality, operational capabilities, financial resources - but you also need flexibility to respond to market feedback and changing conditions. 📋🏗️🔄\n\nOur approach now balances structured corporate planning with entrepreneurial experimentation, allowing us to pursue opportunities while maintaining operational discipline. 🏢⚡⚖️\n\nThe journey from a small flower delivery service to a global marketplace has taught us that success isn't about avoiding mistakes - it's about learning from them faster than your competition and staying agile enough to adapt when the world changes around you. 🌸➡️🌍🏃‍♂️💨",
+      "signature": {
+        "name": "Andrey Makeev",
+        "title": "Co-Founder",
+        "company": "Flowwow"
+      },
+      "highlight": {
+        "title": "Most Mistakes Aren't Fatal - They're Education",
+        "description": "Dmitry says he makes mistakes in large numbers, but most aren't fatal - they're discoveries that open up new opportunities. The key is learning from failures faster than competitors and staying agile when conditions change. Don't fear mistakes; fear not learning from them quickly enough."
       }
     }
   ]
 }
+    
