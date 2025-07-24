@@ -55,7 +55,7 @@ const Gallery = () => {
     emails: item.emailCount || Math.floor(Math.random() * 50) + 5,
     avatar: "📖",
     locked: !isChapterUnlocked(item.id),
-    image: `https://raw.githubusercontent.com/znack2/book_local/main/docs/logos/${item.title}.svg`
+    image: `https://raw.githubusercontent.com/znack2/book_local/main/docs/logos/${item.title.charAt(0).toUpperCase()}${item.title.slice(1)}.svg`
   }));
 
   const toggleBookmark = (cardId) => {
