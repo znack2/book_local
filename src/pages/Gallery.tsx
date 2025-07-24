@@ -1,11 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
-import { Table, Lock, Filter, ChevronDown, ChevronUp, Check, BarChart3, Grid, List, Eye, CheckCircle, BookOpen } from "lucide-react";
+import { Table, Lock, Filter, ChevronDown, ChevronUp, Check, BarChart3, Grid, List, Eye, CheckCircle, BookOpen, Bookmark, Mail } from "lucide-react";
 import GalleryModal from "@/components/GalleryModal";
+import ChartModal from "@/components/ChartModal";
 import PageLayout from "@/components/PageLayout";
 import LockedChapterModal from "@/components/LockedChapterModal";
 import BookmarkIcon from "@/components/BookmarkIcon";
@@ -14,8 +15,8 @@ import { usePromoCode } from "@/contexts/PromoCodeContext";
 import { useToast } from "@/hooks/use-toast";
 import galleryData from '../data/galleryData.json';
 import canvasData from '../data/canvasData.json';
-import BookIndexView from '@/components/BookIndexView';
-import RecommendationBanner from '../components/RecommendationBanner';
+import RecommendationBanner from '@/components/RecommendationBanner';
+import Footer from '@/components/Footer';
 
 const COUNT_STORAGE_KEY = 'openedChaptersCount';
 const LIST_STORAGE_KEY = 'openedChaptersList';
@@ -23,19 +24,20 @@ const LIST_STORAGE_KEY = 'openedChaptersList';
 const Gallery = () => {
   const navigate = useNavigate();
   const { hasPromoAccess } = useAuth();
-  const [selectedFilter, setSelectedFilter] = useState<string>("All");
+  const [bookmarkedCards, setBookmarkedCards] = useState(new Set());
+  const [selectedFilter, setSelectedFilter] = useState("All");
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [openedChapters, setOpenedChapters] = useState<number>(0);
+  const [openedChapters, setOpenedChapters] = useState(0);
   const [lockedModalOpen, setLockedModalOpen] = useState(false);
-  const [selectedChapter, setSelectedChapter] = useState<number>(1);
-  const [chaptersWithContent, setChaptersWithContent] = useState<Set<number>>(new Set());
-  const [lastOpenedChapter, setLastOpenedChapter] = useState<number | null>(null);
+  const [selectedChapter, setSelectedChapter] = useState(1);
+  const [chaptersWithContent, setChaptersWithContent] = useState(new Set());
+  const [lastOpenedChapter, setLastOpenedChapter] = useState(null);
   const [showFilters, setShowFilters] = useState(false);
   const [showPromocode, setShowPromocode] = useState(false);
-  const [viewMode, setViewMode] = useState<'cards' | 'index'>('cards'); // Default to cards for mobile
-  const [chartModal, setChartModal] = useState<{isOpen: boolean, chapterId: number | null, position: {x: number, y: number}}>({
+  const [viewMode, setViewMode] = useState('cards');
+  const [chartModal, setChartModal] = useState({
     isOpen: false,
-    title: null,
+    chapterId: null,
     position: {x: 0, y: 0}
   });
 
@@ -44,94 +46,43 @@ const Gallery = () => {
   const [promocodeInput, setPromocodeInput] = useState('');
   const [promocodeError, setPromocodeError] = useState('');
 
+  // Convert gallery data to card format
+  const cardData = galleryData.books.map(item => ({
+    id: item.id,
+    title: item.title,
+    description: item.preview || "Explore this business case study and learn valuable insights for global expansion.",
+    tags: item.tags || [],
+    emails: item.emailCount || Math.floor(Math.random() * 50) + 5,
+    avatar: "📖",
+    locked: !isChapterUnlocked(item.id),
+    image: `https://raw.githubusercontent.com/znack2/book_local/main/docs/logos/${item.title}.svg`
+  }));
+
+  const toggleBookmark = (cardId) => {
+    const newBookmarked = new Set(bookmarkedCards);
+    if (newBookmarked.has(cardId)) {
+      newBookmarked.delete(cardId);
+    } else {
+      newBookmarked.add(cardId);
+    }
+    setBookmarkedCards(newBookmarked);
+  };
+
   // Tag to emoji mapping
   const tagEmojiMap = {
     'USA': '🇺🇸',
     'UK': '🇬🇧', 
     'India': '🇮🇳',
     'Kazakhstan': '🇰🇿',
+    'Mexico': '🇰🇲',
+    'Indonesia': '🇮🇩',
+    'UAE': '🇦🇪',
+    'China': '🇨🇳',
     'Brasil': '🇧🇷'
   };
 
-  // Function to get emoji for tag
   const getTagEmoji = (tag) => {
     return tagEmojiMap[tag] || '🌍';
-  };
-
-  const getRandomGradient = (id) => {
-    const gradients = [
-      'linear-gradient(45deg, #667eea, #764ba2, #667eea, #764ba2)',
-      'linear-gradient(45deg, #f093fb, #f5576c, #f093fb, #f5576c)',
-      'linear-gradient(45deg, #4facfe, #00f2fe, #4facfe, #00f2fe)',
-      'linear-gradient(45deg, #43e97b, #38f9d7, #43e97b, #38f9d7)',
-      'linear-gradient(45deg, #fa709a, #fee140, #fa709a, #fee140)',
-      'linear-gradient(45deg, #a8edea, #fed6e3, #a8edea, #fed6e3)',
-      'linear-gradient(45deg, #ff9a9e, #fecfef, #ff9a9e, #fecfef)',
-      'linear-gradient(45deg, #ffecd2, #fcb69f, #ffecd2, #fcb69f)',
-      'linear-gradient(45deg, #ff8a80, #ffb74d, #ff8a80, #ffb74d)',
-      'linear-gradient(45deg, #81c784, #aed581, #81c784, #aed581)'
-    ];
-    return gradients[id % gradients.length];
-  };
-
-  // Function to get last canvas content from localStorage
-  const getLastCanvasContent = (chapterId) => {
-    const sectionIds = [
-      'key-partners',
-      'key-activities', 
-      'key-resources',
-      'value-proposition',
-      'customer-relationships',
-      'channels',
-      'customer-segments',
-      'cost-structure',
-      'revenue-streams'
-    ];
-    
-    let lastContent = null;
-    let latestTimestamp = 0;
-    
-    sectionIds.forEach(sectionId => {
-      const storageKey = `canvas-${chapterId}-${sectionId}`;
-      const content = localStorage.getItem(storageKey);
-      
-      if (content && content.trim()) {
-        const timestampKey = `canvas-${chapterId}-${sectionId}-timestamp`;
-        const timestamp = localStorage.getItem(timestampKey) || Date.now().toString();
-        const timestampNum = parseInt(timestamp);
-        
-        if (timestampNum > latestTimestamp) {
-          latestTimestamp = timestampNum;
-          lastContent = content.trim();
-        }
-      }
-    });
-    
-    return lastContent;
-  };
-
-  // Update the handlePromocodeSubmit function
-  const handlePromocodeSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setPromocodeError('');
-    
-    if (!promocodeInput.trim()) {
-      setPromocodeError('Please enter a promocode');
-      return;
-    }
-    
-    const result = await unlockChapter(promocodeInput);
-    
-    if (result.success) {
-      toast({
-        title: "Success! 🎉",
-        description: result.message || "Promocode applied successfully!",
-      });
-      setPromocodeInput('');
-      setPromocodeError('');
-    } else {
-      setPromocodeError(result.message || 'Invalid promocode. Please try again.');
-    }
   };
 
   // Get tags that appear more than once
@@ -151,10 +102,422 @@ const Gallery = () => {
     ? galleryData.books.sort((a, b) => a.id - b.id)
     : galleryData.books.filter(item => item.tags.includes(selectedFilter)).sort((a, b) => a.id - b.id);
 
+  const filteredCardData = cardData.filter(card => 
+    selectedFilter === "All" || card.tags.includes(selectedFilter)
+  );
+
+  // Desktop Card Component
+  const DesktopCard = ({ card, index }) => {
+    const [isHovered, setIsHovered] = useState(false);
+    const isOpened = chaptersWithContent.has(card.id);
+    const isLastOpened = lastOpenedChapter === card.id;
+    
+    // Truncate description to 50 characters
+    const truncatedDescription = card.description.length > 50 
+      ? card.description.substring(0, 50) + "..." 
+      : card.description;
+
+    // Random gradient for background
+    const getRandomGradient = (id) => {
+      const gradients = [
+        'linear-gradient(45deg, #667eea, #764ba2)',
+        'linear-gradient(45deg, #f093fb, #f5576c)',
+        'linear-gradient(45deg, #4facfe, #00f2fe)',
+        'linear-gradient(45deg, #43e97b, #38f9d7)',
+        'linear-gradient(45deg, #fa709a, #fee140)',
+        'linear-gradient(45deg, #a8edea, #fed6e3)',
+        'linear-gradient(45deg, #ff9a9e, #fecfef)',
+        'linear-gradient(45deg, #ffecd2, #fcb69f)',
+        'linear-gradient(45deg, #ff8a80, #ffb74d)',
+        'linear-gradient(45deg, #81c784, #aed581)'
+      ];
+      return gradients[id % gradients.length];
+    };
+
+    const getChapterProgress = (chapterId) => {
+      const sectionIds = [
+        'key-partners', 'key-activities', 'key-resources', 'value-proposition',
+        'customer-relationships', 'channels', 'customer-segments', 'cost-structure', 'revenue-streams'
+      ];
+      
+      let completedSections = 0;
+      sectionIds.forEach(sectionId => {
+        const storageKey = `canvas-${chapterId}-${sectionId}`;
+        const content = localStorage.getItem(storageKey);
+        if (content && content.trim()) {
+          completedSections++;
+        }
+      });
+      
+      return (completedSections / sectionIds.length) * 100;
+    };
+    
+    return (
+      <div 
+        className="w-full bg-white rounded-xl shadow-lg overflow-hidden border border-gray-200 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 group h-full flex flex-col relative"
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}
+      >
+        {/* Image Section with full width and gradient background */}
+        <div 
+          className="relative h-48 overflow-hidden flex-shrink-0"
+          style={{ background: getRandomGradient(card.id) }}
+        >
+          <img 
+            src={card.image} 
+            alt={card.title}
+            className="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-300"
+          />
+          {card.locked && (
+            <div className="absolute top-3 left-3 bg-black bg-opacity-70 rounded-full p-2">
+              <Lock className="w-4 h-4 text-white" />
+            </div>
+          )}
+          <button
+            onClick={(e) => {
+              e.stopPropagation();
+              toggleBookmark(card.id);
+            }}
+            className="absolute top-3 right-3 bg-white bg-opacity-90 rounded-full p-2 hover:bg-opacity-100 transition-all duration-200"
+          >
+            <Bookmark 
+              className={`w-4 h-4 ${bookmarkedCards.has(card.id) ? 'fill-yellow-400 text-yellow-400' : 'text-gray-600'}`} 
+            />
+          </button>
+          
+          {/* Hover Progress Circle - Only appears on hover */}
+          {isHovered && (
+            <div 
+              className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 transition-all duration-300"
+            >
+              <div className="relative w-28 h-28">
+                <svg className="w-full h-full transform -rotate-90" viewBox="0 0 36 36">
+                  <path
+                    d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
+                    fill="none"
+                    stroke="rgba(255, 255, 255, 0.3)"
+                    strokeWidth="3"
+                  />
+                  <path
+                    d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
+                    fill="none"
+                    stroke="#10b981"
+                    strokeWidth="3"
+                    strokeDasharray={`${getChapterProgress(card.id)}, 100`}
+                    strokeLinecap="round"
+                  />
+                </svg>
+                <div className="absolute inset-2 rounded-full overflow-hidden bg-white">
+                  <img 
+                    src={`https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/${card.title}.png`} 
+                    alt="Chapter"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              </div>
+            </div>
+          )}
+        </div>
+
+        {/* Content Section */}
+        <div className="p-6 flex-1 flex flex-col">
+          <div className="flex items-center mb-3">
+            <h3 className={`text-lg font-semibold flex-1 line-clamp-2 transition-all duration-300 ${
+              isHovered 
+                ? 'bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent' 
+                : 'text-gray-900'
+            }`}>
+              Chapter {card.id}: {card.title}
+            </h3>
+          </div>
+
+          <p className="text-gray-600 text-sm mb-4 h-12 overflow-hidden">{truncatedDescription}</p>
+
+          <div className="flex flex-wrap gap-2 mb-4 h-8 overflow-hidden">
+            {card.tags.slice(0, 2).map((tag, tagIndex) => (
+              <span 
+                key={tagIndex}
+                className="px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded-full font-medium flex-shrink-0 flex items-center gap-1"
+              >
+                <span>{getTagEmoji(tag)}</span>
+                {tag}
+              </span>
+            ))}
+          </div>
+
+          <div className="flex items-center mb-4 text-gray-500">
+            <Mail className="w-4 h-4 mr-2" />
+            <span className="text-sm">{card.emails} emails</span>
+          </div>
+
+          {/* Progress bar on hover */}
+          {isHovered && (
+            <div className="mb-4 transition-all duration-300">
+              <div className="flex items-center justify-between mb-1">
+                <span className="text-xs text-gray-600">Progress</span>
+                <span className="text-xs text-gray-600">{Math.round(getChapterProgress(card.id))}%</span>
+              </div>
+              <div className="w-full bg-gray-200 rounded-full h-2">
+                <div 
+                  className="bg-gradient-to-r from-blue-500 to-purple-600 h-2 rounded-full transition-all duration-500"
+                  style={{ width: `${getChapterProgress(card.id)}%` }}
+                ></div>
+              </div>
+            </div>
+          )}
+
+          {/* Two Buttons */}
+          <div className="flex gap-3 mt-auto">
+            {/* Chart Modal Button */}
+            <button 
+              onClick={(e) => {
+                console.log('button');
+                e.stopPropagation();
+                handleChartClick(e, card.id);
+              }}
+              className="flex-1 flex items-center justify-center gap-2 py-2 px-4 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-lg font-medium hover:from-blue-600 hover:to-purple-700 transition-all duration-200 transform hover:scale-105"
+            >
+              <BarChart3 className="w-4 h-4" />
+              <span className="text-sm">Chart</span>
+            </button>
+            
+            {/* View More Button - Changes color based on status */}
+            <button 
+              onClick={(e) => {
+                e.stopPropagation();
+                handleCardClick(card.id);
+              }}
+              className={`flex-1 flex items-center justify-center gap-2 py-2 px-4 rounded-lg font-medium transition-all duration-200 transform hover:scale-105 ${
+                isLastOpened 
+                  ? 'bg-green-500 text-white hover:bg-green-600' 
+                  : isOpened
+                    ? 'bg-gray-500 text-white hover:bg-gray-600'
+                    : 'bg-white border border-gray-300 text-gray-700 hover:bg-gray-50'
+              }`}
+            >
+              <Eye className="w-4 h-4" />
+              <span className="text-sm">More</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    );
+  };
+
+  // Mobile Stacked Cards Component
+  const MobileStackedCards = ({ cards, blockIndex }) => {
+    const [currentCard, setCurrentCard] = useState(0);
+    const [hoveredCard, setHoveredCard] = useState(null);
+    
+    const blockTitles = [
+      "Chapters 1-4",
+      "Chapters 5-8", 
+      "Chapters 9-12",
+      "Chapters 13-16",
+      "Chapters 17-20",
+      "Chapters 21-24",
+      "Chapters 25-28",
+      "Chapters 29-32",
+      "Chapters 33-36",
+      "Chapters 37-40",
+      "Chapters 41-44",
+      "Chapters 45-48"
+    ];
+    
+    return (
+      <div className="relative mb-8">
+        <div className="text-center mb-6">
+          <h2 className="text-2xl font-bold text-gray-900 mb-2">
+            {blockTitles[blockIndex] || `Block ${blockIndex + 1}`}
+          </h2>
+          <div className="w-16 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto rounded-full"></div>
+        </div>
+        
+        <div className="relative" style={{ minHeight: '250vh' }}>
+          <div className="flex-1 space-y-6">
+            {cards.map((card, index) => {
+              const topOffset = `calc(4rem + ${index * 0.8}rem)`;
+              const rotation = index % 2 === 0 ? `${index * 1.5}deg` : `-${index * 1.2}deg`;
+              const isHovered = hoveredCard === card.id;
+              const isOpened = chaptersWithContent.has(card.id);
+              const isLastOpened = lastOpenedChapter === card.id;
+              
+              return (
+                <div
+                  key={card.id}
+                  className="sticky w-full max-w-sm mx-auto bg-white border rounded-xl shadow-lg overflow-hidden cursor-pointer transition-all duration-500 ease-out transform"
+                  style={{ 
+                    top: topOffset,
+                    transform: `rotate(${rotation}) ${isHovered ? 'scale(1.05)' : 'scale(1)'}`,
+                    boxShadow: isHovered 
+                      ? '0 25px 50px -12px rgba(0, 0, 0, 0.25), 0 0 0 1px rgba(59, 130, 246, 0.1)' 
+                      : '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)',
+                    zIndex: isHovered ? 50 : 'auto'
+                  }}
+                  onClick={() => handleCardClick(card.id)}
+                  onMouseEnter={() => setHoveredCard(card.id)}
+                  onMouseLeave={() => setHoveredCard(null)}
+                >
+                  {/* Status Badges */}
+                  <div className="absolute top-2 left-2 z-20 flex flex-col gap-1">
+                    {isOpened && (
+                      <div className="flex items-center gap-1 bg-green-500 text-white px-1 py-0.5 rounded-full text-xs font-medium">
+                        <CheckCircle className="w-2 h-2" />
+                        Opened
+                      </div>
+                    )}
+                    {isLastOpened && (
+                      <div className="flex items-center gap-1 bg-blue-500 text-white px-1 py-0.5 rounded-full text-xs font-medium">
+                        <BookOpen className="w-2 h-2" />
+                        Current
+                      </div>
+                    )}
+                  </div>
+
+                  {/* Hover Icon */}
+                  <div 
+                    className={`absolute -top-2 -right-2 w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full flex items-center justify-center transition-all duration-300 transform ${
+                      isHovered ? 'scale-100 opacity-100' : 'scale-0 opacity-0'
+                    }`}
+                    style={{ zIndex: 10 }}
+                  >
+                    <span className="text-white text-sm font-bold">✨</span>
+                  </div>
+                  
+                  <div className="relative h-32 overflow-hidden">
+                    <img 
+                      src={card.image} 
+                      alt={card.title}
+                      className={`w-full h-full object-cover transition-transform duration-500 ${
+                        isHovered ? 'scale-110' : 'scale-100'
+                      }`}
+                    />
+                    {card.locked && (
+                      <div className="absolute top-2 right-2 bg-black bg-opacity-70 rounded-full p-1">
+                        <Lock className="w-3 h-3 text-white" />
+                      </div>
+                    )}
+                    <button
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        toggleBookmark(card.id);
+                      }}
+                      className="absolute top-2 right-8 bg-white bg-opacity-90 rounded-full p-1 hover:bg-opacity-100 transition-all duration-200"
+                    >
+                      <Bookmark 
+                        className={`w-3 h-3 ${bookmarkedCards.has(card.id) ? 'fill-yellow-400 text-yellow-400' : 'text-gray-600'}`} 
+                      />
+                    </button>
+                  </div>
+                  
+                  <div className="p-4">
+                    <div className="space-y-1 mb-3">
+                      <h3 className="block text-lg font-bold leading-none text-gray-900">
+                        {card.title}
+                      </h3>
+                    </div>
+                    
+                    <p className="text-gray-600 text-xs mb-3 line-clamp-3">
+                      {card.description.length > 50 ? card.description.substring(0, 50) + "..." : card.description}
+                    </p>
+                    
+                    <div className="flex flex-wrap gap-1 mb-3">
+                      {card.tags.slice(0, 2).map((tag, tagIndex) => (
+                        <span 
+                          key={tagIndex}
+                          className="px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded-full flex items-center gap-1"
+                        >
+                          <span>{getTagEmoji(tag)}</span>
+                          {tag}
+                        </span>
+                      ))}
+                    </div>
+                    
+                    <div className="flex items-center justify-between mb-3">
+                      <div className="flex items-center text-gray-500">
+                        <Mail className="w-3 h-3 mr-1" />
+                        <span className="text-xs">{card.emails} emails</span>
+                      </div>
+                    </div>
+                    
+                    <div className="flex gap-2">
+                      <button 
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          handleChartClick(e, card.id);
+                        }}
+                        className={`flex-1 flex items-center justify-center gap-1 py-2 px-2 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-lg text-xs font-medium transition-all duration-300 ${
+                        isHovered ? 'shadow-lg transform translate-y-0.5' : ''
+                      }`}>
+                        <div className="relative">
+                          <svg className="w-4 h-4 transform -rotate-90" viewBox="0 0 36 36">
+                            <path
+                              className="text-white opacity-30"
+                              stroke="currentColor"
+                              strokeWidth="3"
+                              fill="transparent"
+                              d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
+                            />
+                            <path
+                              className="text-white"
+                              stroke="currentColor"
+                              strokeWidth="3"
+                              strokeDasharray="60, 100"
+                              strokeLinecap="round"
+                              fill="transparent"
+                              d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
+                            />
+                          </svg>
+                          <div className="absolute inset-0 flex items-center justify-center">
+                            <BarChart3 className="w-2 h-2" />
+                          </div>
+                        </div>
+                        <span>Chart</span>
+                      </button>
+                      
+                      <button className={`flex-1 flex items-center justify-center gap-1 py-2 px-2 bg-white border border-gray-300 text-gray-700 rounded-lg text-xs font-medium transition-all duration-300 ${
+                        isHovered ? 'shadow-lg transform translate-y-0.5' : ''
+                      }`}>
+                        <div className="relative">
+                          <svg className="w-4 h-4 transform -rotate-90" viewBox="0 0 36 36">
+                            <path
+                              className="text-gray-300"
+                              stroke="currentColor"
+                              strokeWidth="3"
+                              fill="transparent"
+                              d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
+                            />
+                            <path
+                              className="text-blue-500"
+                              stroke="currentColor"
+                              strokeWidth="3"
+                              strokeDasharray="80, 100"
+                              strokeLinecap="round"
+                              fill="transparent"
+                              d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
+                            />
+                          </svg>
+                          <div className="absolute inset-0 flex items-center justify-center">
+                            <BookOpen className="w-2 h-2" />
+                          </div>
+                        </div>
+                        <span>Canvas</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </div>
+    );
+  };
+
   // Function to update progress
   const updateProgress = () => {
     let chaptersCount = 0;
-    const chaptersWithContentSet = new Set<number>();
+    const chaptersWithContentSet = new Set();
     const openedChaptersList = [];
     
     galleryData.books.forEach(item => {
@@ -188,25 +551,30 @@ const Gallery = () => {
     setChaptersWithContent(chaptersWithContentSet);
   };
 
-  useEffect(() => {
-    updateProgress();
+  const handlePromocodeSubmit = async (e) => {
+    e.preventDefault();
+    setPromocodeError('');
     
-    const handleStorageChange = () => {
-      updateProgress();
-    };
+    if (!promocodeInput.trim()) {
+      setPromocodeError('Please enter a promocode');
+      return;
+    }
     
-    window.addEventListener('storage', handleStorageChange);
-    window.addEventListener('focus', updateProgress);
+    const result = await unlockChapter(promocodeInput);
     
-    return () => {
-      window.removeEventListener('storage', handleStorageChange);
-      window.removeEventListener('focus', updateProgress);
-    };
-  }, []);
+    if (result.success) {
+      toast({
+        title: "Success! 🎉",
+        description: result.message || "Promocode applied successfully!",
+      });
+      setPromocodeInput('');
+      setPromocodeError('');
+    } else {
+      setPromocodeError(result.message || 'Invalid promocode. Please try again.');
+    }
+  };
 
-  const progressPercentage = (openedChapters / galleryData.books.length) * 100;
-
-  const handleCardClick = (id: number) => {
+  const handleCardClick = (id) => {
     if (isChapterUnlocked(id)) {
       localStorage.setItem(`chapter-${id}-visited`, 'true');
       setLastOpenedChapter(id);
@@ -219,45 +587,18 @@ const Gallery = () => {
     }
   };
 
-  const handleChartClick = (e: React.MouseEvent, title: string) => {
-    e.stopPropagation(); // Prevent card click
-    
-    // Get the card element (traverse up to find the card container)
-    let cardElement = e.currentTarget.closest('[data-card-id]') as HTMLElement;
-    if (!cardElement) {
-      // Fallback: find the card by traversing up the DOM
-      cardElement = e.currentTarget.closest('.cursor-pointer') as HTMLElement;
-    }
-    
-    if (cardElement) {
-      const cardRect = cardElement.getBoundingClientRect();
-      setChartModal({
-        isOpen: true,
-        title: title,
-        position: {
-          x: cardRect.left + cardRect.width / 2,
-          y: cardRect.top + cardRect.height / 2
-        }
-      });
-    } else {
-      // Fallback to button position
-      const rect = e.currentTarget.getBoundingClientRect();
-      setChartModal({
-        isOpen: true,
-        title: title,
-        position: {
-          x: rect.left + rect.width / 2,
-          y: rect.top
-        }
-      });
-    }
+  const handleChartClick = (e, chapterId) => {
+    console.log('handleChartClick');
+    e.stopPropagation();
+    const rect = e.currentTarget.getBoundingClientRect();
+    setChartModal({
+      isOpen: true,
+      chapterId: chapterId,
+      position: { x: rect.left, y: rect.top }
+    });
   };
 
-  const closeChartModal = () => {
-    setChartModal({isOpen: false, title: null, position: {x: 0, y: 0}});
-  };
-
-  const isChapterLocked = (id: number) => {
+  const isChapterLocked = (id) => {
     return !isChapterUnlocked(id);
   };
 
@@ -276,32 +617,29 @@ const Gallery = () => {
     return milestones;
   };
 
-  // Function to get chapter progress percentage
-  const getChapterProgress = (chapterId) => {
-    const sectionIds = [
-      'key-partners',
-      'key-activities', 
-      'key-resources',
-      'value-proposition',
-      'customer-relationships',
-      'channels',
-      'customer-segments',
-      'cost-structure',
-      'revenue-streams'
-    ];
+  useEffect(() => {
+    updateProgress();
     
-    let completedSections = 0;
-    sectionIds.forEach(sectionId => {
-      const storageKey = `canvas-${chapterId}-${sectionId}`;
-      const content = localStorage.getItem(storageKey);
-      if (content && content.trim()) {
-        completedSections++;
-      }
-    });
+    const handleStorageChange = () => {
+      updateProgress();
+    };
     
-    return (completedSections / sectionIds.length) * 100;
-  };
+    window.addEventListener('storage', handleStorageChange);
+    window.addEventListener('focus', updateProgress);
+    
+    return () => {
+      window.removeEventListener('storage', handleStorageChange);
+      window.removeEventListener('focus', updateProgress);
+    };
+  }, []);
 
+  const progressPercentage = (openedChapters / galleryData.books.length) * 100;
+
+  // Group cards into blocks of 4 for mobile
+  const cardBlocks = [];
+  for (let i = 0; i < filteredCardData.length; i += 4) {
+    cardBlocks.push(filteredCardData.slice(i, i + 4));
+  }
 
   return (
     <div className="h-screen flex flex-col overflow-hidden">
@@ -312,32 +650,6 @@ const Gallery = () => {
         activeItem="Email Templates"
         headerActions={
           <div className="flex items-center gap-2">
-            {/* View Toggle - Hidden on mobile, only show on desktop */}
-            <div className="hidden md:flex items-center border border-gray-200 rounded-lg bg-white/90 backdrop-blur-sm">
-              <button
-                onClick={() => setViewMode('cards')}
-                className={`p-2 rounded-l-lg transition-colors ${
-                  viewMode === 'cards' 
-                    ? 'bg-blue-500 text-white' 
-                    : 'text-gray-600 hover:bg-gray-50'
-                }`}
-                title="Card View"
-              >
-                <Grid className="w-4 h-4" />
-              </button>
-              <button
-                onClick={() => setViewMode('index')}
-                className={`p-2 rounded-r-lg transition-colors ${
-                  viewMode === 'index' 
-                    ? 'bg-blue-500 text-white' 
-                    : 'text-gray-600 hover:bg-gray-50'
-                }`}
-                title="Index View"
-              >
-                <List className="w-4 h-4" />
-              </button>
-            </div>
-            
             <Button
               onClick={() => setIsModalOpen(true)}
               variant="outline"
@@ -623,340 +935,98 @@ const Gallery = () => {
             </div>
           )}
 
-          {/* Main Content Area - Mobile shows only grid view, desktop shows both */}
+          {/* Main Content Area */}
           <div className="flex-1 overflow-y-auto">
-            {viewMode === 'index' && (
-              <div className="hidden md:block">
-                <BookIndexView 
-                  filteredItems={filteredItems}
-                  chaptersWithContent={chaptersWithContent}
-                  lastOpenedChapter={lastOpenedChapter}
-                  getChapterProgress={getChapterProgress}
-                  getLastCanvasContent={getLastCanvasContent}
-                  isChapterLocked={isChapterLocked}
-                  handleCardClick={handleCardClick}
-                  handleChartClick={handleChartClick}
-                  getTagEmoji={getTagEmoji}
-                />
-              </div>
-            )}
-            
-            {/* Grid View - Always shown on mobile, conditionally on desktop */}
-            {(viewMode === 'cards' || window.innerWidth < 768) && (
-              <>
-                {/* Enhanced Gallery Grid with uniform height on mobile */}
-                <div className="max-w-7xl mx-auto px-6 py-8">
-                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-8">
-                    {filteredItems.map((item) => {
-                      const isOpened = chaptersWithContent.has(item.id);
-                      const isLastOpened = lastOpenedChapter === item.id;
-                      
-                      return (
-                        <div
-                          key={item.id}
-                          data-card-id={item.id}
-                          className={`relative cursor-pointer transition-all duration-300 hover:shadow-2xl transform hover:-translate-y-2 group flex flex-col h-full md:h-auto ${
-                            isChapterLocked(item.id) ? 'opacity-75' : ''
-                          } ${
-                            isOpened ? 'ring-2 ring-green-400 ring-opacity-60 shadow-lg shadow-green-200/50' : ''
-                          } ${
-                            isLastOpened ? 'ring-2 ring-blue-400 ring-opacity-60 shadow-lg shadow-blue-200/50' : ''
-                          }`}
-                          onClick={() => handleCardClick(item.id)}
-                          style={{ 
-                            perspective: '1000px',
-                            minHeight: window.innerWidth < 768 ? '400px' : 'auto' // Fixed height on mobile
-                          }}
-                        >
-                          {/* Enhanced Status Badges */}
-                          <div className="absolute top-2 left-2 z-20 flex flex-col gap-1">
-                            {isOpened && (
-                              <div className="flex items-center gap-1 bg-green-500 text-white px-2 py-1 rounded-full text-xs font-medium shadow-lg animate-pulse">
-                                <CheckCircle className="w-3 h-3" />
-                                Opened
-                              </div>
-                            )}
-                            {isLastOpened && (
-                              <div className="flex items-center gap-1 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium shadow-lg">
-                                <BookOpen className="w-3 h-3" />
-                                Current
-                              </div>
-                            )}
-                          </div>
-
-                          {/* Lock Icon */}
-                          {isChapterLocked(item.id) && (
-                            <div className="absolute top-2 right-2 md:top-4 md:right-4 z-10 w-6 h-6 md:w-8 md:h-8 bg-amber-600 rounded-full flex items-center justify-center shadow-lg">
-                              <Lock className="w-3 h-3 md:w-4 md:h-4 text-white" />
-                            </div>
-                          )}
-
-                          {/* Book container with enhanced styling for opened chapters */}
-                          <div className="relative book-container flex-1 flex flex-col">
-                            <div className="absolute top-0 left-0 w-full h-full">
-                              <div className={`absolute top-1 left-1 w-full h-full rounded-r-sm transform -rotate-1 opacity-40 ${
-                                isOpened ? 'bg-green-300' : 'bg-gray-300'
-                              }`}></div>
-                              <div className={`absolute top-0.5 left-0.5 w-full h-full rounded-r-sm transform -rotate-0.5 opacity-60 ${
-                                isOpened ? 'bg-green-400' : 'bg-gray-400'
-                              }`}></div>
-                            </div>
-                            
-                            {/* Main book cover with enhanced styling and flex layout */}
-                            <div className={`relative bg-white rounded-sm border shadow-lg transform-gpu transition-transform duration-300 group-hover:rotateY-5 overflow-hidden flex-1 flex flex-col ${
-                              isOpened ? 'border-green-300 bg-gradient-to-br from-green-50 to-white' : 'border-amber-200'
-                            } ${
-                              isLastOpened ? 'border-blue-300 bg-gradient-to-br from-blue-50 to-white' : ''
-                            }`}>
-                              {/* Enhanced Bookmarks */}
-                              {chaptersWithContent.has(item.id) && (
-                                <div className="absolute top-0 right-8 z-10">
-                                  <div className="w-6 h-8 bg-green-500 clip-bookmark shadow-lg flex items-center justify-center">
-                                    <CheckCircle className="w-3 h-3 text-white" />
-                                  </div>
-                                </div>
-                              )}
-                              
-                              {lastOpenedChapter === item.id && (
-                                <div className="absolute top-0 right-16 z-10">
-                                  <div className="w-6 h-8 bg-blue-500 clip-bookmark shadow-lg flex items-center justify-center">
-                                    <BookOpen className="w-3 h-3 text-white" />
-                                  </div>
-                                </div>
-                              )}
-                              
-                              {/* Upper half with enhanced gradient background */}
-                              <div 
-                                className={`p-2 md:p-6 relative overflow-hidden flex-shrink-0 ${
-                                  isOpened ? 'opacity-90' : ''
-                                }`}
-                                style={{
-                                  background: isOpened 
-                                    ? 'linear-gradient(45deg, #10b981, #059669, #047857, #065f46)'
-                                    : getRandomGradient(item.id),
-                                  backgroundSize: '400% 400%',
-                                  animation: 'gradientAnimation 8s ease infinite'
-                                }}
-                              >
-                                {/* Add gradient animation keyframes */}
-                                <style jsx>{`
-                                  @keyframes gradientAnimation {
-                                    0% { background-position: 0% 50%; }
-                                    50% { background-position: 100% 50%; }
-                                    100% { background-position: 0% 50%; }
-                                  }
-                                  .clip-bookmark {
-                                    clip-path: polygon(0 0, 100% 0, 100% 70%, 50% 100%, 0 70%);
-                                  }
-                                `}</style>
-                                
-                                {/* Icon, Chapter Number, and Tags */}
-                                <div className="flex items-center gap-1 md:gap-2 mb-1.5 md:mb-4 flex-wrap">
-                                  <div className="flex items-center gap-1 whitespace-nowrap">
-                                    <div className="flex-shrink-0">
-                                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-amber-700 md:w-6 md:h-6">
-                                        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                                        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                                        <path d="M8 7h8" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                                        <path d="M8 11h8" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                                      </svg>
-                                    </div>
-                                    <div className={`text-[10px] md:text-sm font-bold leading-tight ${
-                                      isOpened ? 'text-white' : 'text-gray-700'
-                                    }`}>Chapter {item.id}</div>
-                                  </div>
-                                  <div className="flex gap-1 md:gap-2">
-                                    {item.tags.slice(0, 2).map((tag, index) => (
-                                      <Badge key={index} variant="outline" className={`text-[10px] md:text-xs border-amber-300 leading-tight ${
-                                        isOpened ? 'bg-white/20 text-white border-white/30' : 'bg-amber-200 text-amber-800'
-                                      }`}>
-                                        <span className="w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-white/40 flex items-center justify-center text-[8px] md:text-[10px] mr-0.5 md:mr-1">
-                                          {getTagEmoji(tag)}
-                                        </span>
-                                        {tag}
-                                      </Badge>
-                                    ))}
-                                  </div>
-                                </div>
-
-                                {/* Image container */}
-                                <div className={`w-full h-auto rounded-md overflow-hidden mb-1.5 md:mb-4 p-2 md:p-4 ${
-                                  isOpened ? 'bg-white/20' : 'bg-white/10'
-                                }`}>
-                                  <img 
-                                    src={`https://raw.githubusercontent.com/znack2/book_local/main/docs/logos/${item.title}.svg`} 
-                                    alt="Chapter image" 
-                                    className="w-full h-auto object-cover mix-blend-multiply opacity-80"
-                                  />
-                                </div>
-                              </div>
-
-                              {/* Preview text */}
-                              <p className={`text-[10px] md:text-sm leading-tight md:leading-relaxed mb-1.5 md:mb-4 transition-colors flex-1 ${
-                                isOpened ? 'text-gray-800 font-medium' : 'text-gray-700'
-                              }`} style={{
-                                padding: '20px 20px 0 20px'
-                              }}>
-                                {item.preview}
-                              </p>
-                            
-                              {/* Lower half with enhanced styling - Fixed at bottom */}
-                              <div className={`p-2 md:p-6 pt-0 transition-colors flex-shrink-0 mt-auto ${
-                                isOpened ? 'bg-green-50' : 'bg-white'
-                              } ${
-                                isLastOpened ? 'bg-blue-50' : ''
-                              }`}>
-                                {/* Canvas Content Bubble, Chart button and avatar all on the same line */}
-                                <div className="flex items-center justify-between gap-2">
-                                  {/* Enhanced Canvas Content Bubble */}
-                                  <div className="flex-1 min-w-0">
-                                    {(() => {
-                                      const lastContent = getLastCanvasContent(item.id);
-                                      if (!lastContent) return (
-                                        <div className="text-[10px] md:text-sm font-medium text-amber-700 leading-tight">
-                                          {/*{item.emailCount.toLocaleString()} emails*/}
-                                        </div>
-                                      );
-                                      
-                                      const displayContent = lastContent.length > 30 ? 
-                                        `${lastContent.substring(0, 30)}...` : 
-                                        lastContent;
-                                      
-                                      return (
-                                        <div className="relative">
-                                          <div className={`rounded-lg px-2 py-1 relative transition-colors ${
-                                            isOpened ? 'bg-green-100' : 'bg-gray-100'
-                                          } ${
-                                            isLastOpened ? 'bg-blue-100' : ''
-                                          }`}>
-                                            <div className={`text-[8px] md:text-xs leading-tight truncate ${
-                                              isOpened ? 'text-green-700' : 'text-gray-600'
-                                            } ${
-                                              isLastOpened ? 'text-blue-700' : ''
-                                            }`}>
-                                              💬 {displayContent}
-                                            </div>
-                                            <div className={`absolute -top-1 left-2 w-2 h-2 transform rotate-45 ${
-                                              isOpened ? 'bg-green-100' : 'bg-gray-100'
-                                            } ${
-                                              isLastOpened ? 'bg-blue-100' : ''
-                                            }`}></div>
-                                          </div>
-                                        </div>
-                                      );
-                                    })()}
-                                  </div>
-                                  
-                                  {/* Chart Button and Avatar */}
-                                  <div className="flex items-center gap-2 flex-shrink-0">
-                                    {/* Chart Button - Enhanced styling */}
-                                    <button
-                                      onClick={(e) => handleChartClick(e, item.title)}
-                                      className={`px-2 py-1 rounded text-[8px] md:text-xs font-medium transition-colors shadow-sm border ${
-                                        isOpened 
-                                          ? 'bg-green-500 hover:bg-green-600 text-white border-green-600' 
-                                          : 'bg-blue-500 hover:bg-blue-600 text-white border-blue-600'
-                                      }`}
-                                      title="View Analytics"
-                                    >
-                                      📈 Chart
-                                    </button>
-                                    
-                                    {/* Enhanced Avatar with Progress */}
-                                    <div className="relative w-8 h-8 md:w-10 md:h-10">
-                                      <svg className="w-full h-full transform -rotate-90" viewBox="0 0 36 36">
-                                        <path
-                                          d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
-                                          fill="none"
-                                          stroke="#e5e7eb"
-                                          strokeWidth="3"
-                                        />
-                                        <path
-                                          d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
-                                          fill="none"
-                                          stroke={isOpened ? "#10b981" : "#374151"}
-                                          strokeWidth="3"
-                                          strokeDasharray={`${(item.emailCount / 1000) * 100}, 100`}
-                                          strokeLinecap="round"
-                                        />
-                                      </svg>
-                                      <div className={`absolute inset-1 rounded-full flex items-center justify-center overflow-hidden transition-colors ${
-                                        isOpened ? 'bg-green-200' : 'bg-amber-200'
-                                      } ${
-                                        isLastOpened ? 'bg-blue-200' : ''
-                                      }`}>
-                                        <img src={`https://raw.githubusercontent.com/znack2/book_local/main/docs/chapters/${item.title}.png`} alt="Chapter image" className="w-full h-full object-cover" />
-                                      </div>
-                                      {/* Progress indicator overlay */}
-                                      {isOpened && (
-                                        <div className="absolute -top-1 -right-1 w-4 h-4 bg-green-500 rounded-full flex items-center justify-center shadow-lg">
-                                          <CheckCircle className="w-3 h-3 text-white" />
-                                        </div>
-                                      )}
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      );
-                    })}
-                  </div>
-                  
-                  {/* Empty State */}
-                  {filteredItems.length === 0 && (
-                    <div className="text-center py-16">
-                      <p className="text-gray-500 text-lg">No items found for the selected filter.</p>
-                    </div>
-                  )}
+            {/* Desktop Grid View */}
+            <div className="hidden lg:block">
+              <div className="max-w-7xl mx-auto px-6 py-8">
+                <div className="grid grid-cols-4 gap-6">
+                  {filteredCardData.map((card, index) => (
+                    <DesktopCard key={card.id} card={card} index={index} />
+                  ))}
                 </div>
                 
-                {/* Footer */}
-                <footer className="bg-white/80 backdrop-blur-sm border-t border-gray-200 mt-16">
-                  <div className="max-w-7xl mx-auto px-6 py-12">
-                    <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-                      <div className="space-y-4">
-                        <h3 className="text-lg font-semibold text-gray-900">FS GoGlobal</h3>
-                        <p className="text-sm text-gray-600">
-                          Create beautiful email templates with our intuitive design tools.
-                        </p>
-                      </div>
-                      <div className="space-y-4">
-                        <h4 className="font-medium text-gray-900">Templates</h4>
-                        <ul className="space-y-2 text-sm text-gray-600">
-                          <li><a href="https://greatleads.io" target="_blank" rel="noopener noreferrer" className="hover:text-amber-700">Product Launch</a></li>
-                          <li><a href="https://greatleads.io" target="_blank" rel="noopener noreferrer" className="hover:text-amber-700">Newsletter</a></li>
-                          <li><a href="https://greatleads.io" target="_blank" rel="noopener noreferrer" className="hover:text-amber-700">Onboarding</a></li>
-                          <li><a href="https://greatleads.io" target="_blank" rel="noopener noreferrer" className="hover:text-amber-700">Promotional</a></li>
-                        </ul>
-                      </div>
-                      <div className="space-y-4">
-                        <h4 className="font-medium text-gray-900">Tools</h4>
-                        <ul className="space-y-2 text-sm text-gray-600">
-                          <li><a href="https://greatleads.io" target="_blank" rel="noopener noreferrer" className="hover:text-amber-700">Business Canvas</a></li>
-                          <li><a href="https://greatleads.io" target="_blank" rel="noopener noreferrer" className="hover:text-amber-700">Email Builder</a></li>
-                          <li><a href="https://greatleads.io" target="_blank" rel="noopener noreferrer" className="hover:text-amber-700">Analytics</a></li>
-                          <li><a href="https://greatleads.io" target="_blank" rel="noopener noreferrer" className="hover:text-amber-700">A/B Testing</a></li>
-                        </ul>
-                      </div>
-                      <div className="space-y-4">
-                        <h4 className="font-medium text-gray-900">Support</h4>
-                        <ul className="space-y-2 text-sm text-gray-600">
-                          <li><a href="https://greatleads.io" target="_blank" rel="noopener noreferrer" className="hover:text-amber-700">Documentation</a></li>
-                          <li><a href="https://greatleads.io" target="_blank" rel="noopener noreferrer" className="hover:text-amber-700">Help Center</a></li>
-                          <li><a href="https://greatleads.io" target="_blank" rel="noopener noreferrer" className="hover:text-amber-700">Contact Us</a></li>
-                          <li><a href="https://greatleads.io" target="_blank" rel="noopener noreferrer" className="hover:text-amber-700">Community</a></li>
-                        </ul>
-                      </div>
+                {filteredCardData.length === 0 && (
+                  <div className="text-center py-16">
+                    <p className="text-gray-500 text-lg">No chapters found for the selected filter.</p>
+                  </div>
+                )}
+              </div>
+            </div>
+
+            {/* Tablet Grid View */}
+            <div className="hidden md:block lg:hidden">
+              <div className="max-w-7xl mx-auto px-6 py-8">
+                <div className="grid grid-cols-2 gap-6">
+                  {filteredCardData.map((card, index) => (
+                    <DesktopCard key={card.id} card={card} index={index} />
+                  ))}
+                </div>
+                
+                {filteredCardData.length === 0 && (
+                  <div className="text-center py-16">
+                    <p className="text-gray-500 text-lg">No chapters found for the selected filter.</p>
+                  </div>
+                )}
+              </div>
+            </div>
+
+            {/* Mobile Stacked View */}
+            <div className="block md:hidden">
+              {cardBlocks.length > 0 ? (
+                cardBlocks.map((block, blockIndex) => (
+                  <div className="relative mb-8" key={blockIndex}>
+                    <div className="text-center mb-6">
+                      <h2 className="text-2xl font-bold text-gray-900 mb-2">
+                        {[      "Chapters 1-4",
+                              "Chapters 5-8", 
+                              "Chapters 9-12",
+                              "Chapters 13-16",
+                              "Chapters 17-20",
+                              "Chapters 21-24",
+                              "Chapters 25-28",
+                              "Chapters 29-32",
+                              "Chapters 33-36",
+                              "Chapters 37-40",
+                              "Chapters 41-44",
+                              "Chapters 45-48"][blockIndex]}
+                      </h2>
+                      <div className="w-16 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto rounded-full"></div>
                     </div>
-                    <div className="border-t border-gray-200 mt-8 pt-8 text-center text-sm text-gray-500">
-                      © 2024 FS GoGlobal. All rights reserved.
+                    
+                    <div className="relative" style={{ minHeight: '200vh' }}>
+                      <div className="flex-1 space-y-6">
+                        {block.map((card, index) => {
+                          const topOffset = `calc(4rem + ${index * 0.7}rem)`;
+                          const rotation = index % 2 === 0 ? `${index * 1.5}deg` : `-${index * 1.2}deg`;
+                          
+                          return (
+                            <div
+                              key={card.id}
+                              className="sticky w-full max-w-sm mx-auto transition-all duration-500 ease-out"
+                              style={{ 
+                                top: topOffset,
+                                transform: `rotate(${rotation})`,
+                                zIndex: 10 + index
+                              }}
+                            >
+                              <DesktopCard card={card} index={index} />
+                            </div>
+                          );
+                        })}
+                      </div>
                     </div>
                   </div>
-                </footer>
-              </>
-            )}
+                ))
+              ) : (
+                <div className="text-center py-16">
+                  <p className="text-gray-500">No chapters found for the selected filter.</p>
+                </div>
+              )}
+            </div>
+
+            {/* Footer - Only show on last section */}
+            <Footer />
           </div>
         </div>
       </PageLayout>
@@ -970,55 +1040,14 @@ const Gallery = () => {
       />
       
       {/* Chart Modal */}
-      {chartModal.isOpen && chartModal.title && (
-        <>
-          {/* Backdrop */}
-          <div 
-            className="fixed inset-0 bg-black bg-opacity-50 z-40"
-            onClick={closeChartModal}
-          />
-          
-          {/* Modal positioned at card center */}
-          <div 
-            className="fixed z-50 bg-white rounded-lg shadow-xl border border-gray-200 p-4 max-w-md w-80 transform -translate-x-1/2 -translate-y-1/2"
-            style={{
-              left: Math.max(160, Math.min(chartModal.position.x, window.innerWidth - 160)),
-              top: Math.max(120, Math.min(chartModal.position.y, window.innerHeight - 120)),
-            }}
-          >
-            {/* Modal Header */}
-            <div className="flex items-center justify-between mb-3">
-              <h3 className="text-sm font-semibold text-gray-900">
-                Chapter {chartModal.title} Analytics
-              </h3>
-              <button
-                onClick={closeChartModal}
-                className="text-gray-400 hover:text-gray-600 transition-colors"
-              >
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                </svg>
-              </button>
-            </div>
-            
-            {/* Chart Image */}
-            <div className="w-full">
-              <img 
-                src={`/charts/${chartModal.title}.png`}
-                alt={`Chapter ${chartModal.title} Chart`}
-                className="w-full h-auto rounded-md border border-gray-200"
-                onError={(e) => {
-                  e.currentTarget.src = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDMwMCAyMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIzMDAiIGhlaWdodD0iMjAwIiBmaWxsPSIjRjNGNEY2Ii8+Cjx0ZXh0IHg9IjE1MCIgeT0iMTAwIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzZCNzI4MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+Q2hhcnQgbm90IGF2YWlsYWJsZTwvdGV4dD4KPHN2Zz4=';
-                }}
-              />
-            </div>
-            
-            {/* Optional: Chart info */}
-            <div className="mt-3 text-xs text-gray-600">
-              Performance metrics and analytics for this chapter
-            </div>
-          </div>
-        </>
+      {chartModal.isOpen && chartModal.chapterId && (
+        <ChartModal
+          isOpen={chartModal.isOpen}
+          title={`Chapter ${chartModal.chapterId}`}
+          chapterId={chartModal.chapterId}
+          position={chartModal.position}
+          onClose={() => setChartModal({ isOpen: false, chapterId: null, position: { x: 0, y: 0 } })}
+        />
       )}
     </div>
   );

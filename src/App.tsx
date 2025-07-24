@@ -47,7 +47,7 @@ return (
                       <ProtectedRoute>
                         <Gallery />
                       </ProtectedRoute>
-                    } />
+                    } />                   
                     <Route path="/questionnaire" element={
                       <ProtectedRoute>
                         <Questionnaire />
